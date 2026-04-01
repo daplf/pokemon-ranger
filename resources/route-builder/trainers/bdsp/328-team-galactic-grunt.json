@@ -1,0 +1,91 @@
+{
+  "id": "trainer-id-328",
+  "trainerId": 328,
+  "game": "bdsp",
+  "name": "Team Galactic Grunt",
+  "pokemon": [
+    {
+      "species": "Silcoon",
+      "level": 32,
+      "ability": "Shed Skin",
+      "moves": [
+        "Tackle",
+        "Poison Sting",
+        "Harden"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Golbat",
+      "level": 32,
+      "ability": "Inner Focus",
+      "moves": [
+        "Screech",
+        "Poison Fang",
+        "Quick Guard",
+        "Air Cutter"
+      ],
+      "nature": "Quirky",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Glameow",
+      "level": 32,
+      "ability": "Own Tempo",
+      "moves": [
+        "Growl",
+        "Aerial Ace",
+        "Fury Swipes",
+        "Retaliate"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

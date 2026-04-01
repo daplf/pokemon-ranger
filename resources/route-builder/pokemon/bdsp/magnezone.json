@@ -1,0 +1,104 @@
+{
+  "species": "Magnezone",
+  "game": "bdsp",
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 241,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 3,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 70,
+    "attack": 70,
+    "defense": 115,
+    "specialAttack": 130,
+    "specialDefense": 90,
+    "speed": 60
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Electric Terrain"
+    },
+    {
+      "level": 1,
+      "move": "Magnetic Flux"
+    },
+    {
+      "level": 1,
+      "move": "Mirror Coat"
+    },
+    {
+      "level": 1,
+      "move": "Supersonic"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Shock"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Wave"
+    },
+    {
+      "level": 1,
+      "move": "Tri Attack"
+    },
+    {
+      "level": 12,
+      "move": "Electro Ball"
+    },
+    {
+      "level": 16,
+      "move": "Gyro Ball"
+    },
+    {
+      "level": 20,
+      "move": "Spark"
+    },
+    {
+      "level": 24,
+      "move": "Screech"
+    },
+    {
+      "level": 28,
+      "move": "Magnet Rise"
+    },
+    {
+      "level": 34,
+      "move": "Flash Cannon"
+    },
+    {
+      "level": 40,
+      "move": "Discharge"
+    },
+    {
+      "level": 46,
+      "move": "Metal Sound"
+    },
+    {
+      "level": 52,
+      "move": "Light Screen"
+    },
+    {
+      "level": 58,
+      "move": "Lock-On"
+    },
+    {
+      "level": 64,
+      "move": "Zap Cannon"
+    }
+  ]
+}

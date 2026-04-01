@@ -1,0 +1,91 @@
+{
+  "id": "trainer-id-135",
+  "trainerId": 135,
+  "game": "bdsp",
+  "name": "Sailor Luther",
+  "pokemon": [
+    {
+      "species": "Feebas",
+      "level": 37,
+      "ability": "Oblivious",
+      "moves": [
+        "Splash",
+        "Tackle",
+        "Flail"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machoke",
+      "level": 40,
+      "ability": "No Guard",
+      "moves": [
+        "Leer",
+        "Low Sweep",
+        "Knock Off",
+        "Dual Chop"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gastrodon",
+      "level": 43,
+      "ability": "Storm Drain",
+      "moves": [
+        "Recover",
+        "Water Pulse",
+        "Ancient Power",
+        "Earth Power"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "species": "Cherrim",
+  "game": "bdsp",
+  "types": [
+    "grass"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 158,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 2,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 70,
+    "attack": 60,
+    "defense": 70,
+    "specialAttack": 87,
+    "specialDefense": 78,
+    "speed": 85
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Flower Shield"
+    },
+    {
+      "level": 1,
+      "move": "Growth"
+    },
+    {
+      "level": 1,
+      "move": "Leafage"
+    },
+    {
+      "level": 1,
+      "move": "Morning Sun"
+    },
+    {
+      "level": 1,
+      "move": "Sunny Day"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 15,
+      "move": "Helping Hand"
+    },
+    {
+      "level": 20,
+      "move": "Magical Leaf"
+    },
+    {
+      "level": 28,
+      "move": "Leech Seed"
+    },
+    {
+      "level": 34,
+      "move": "Take Down"
+    },
+    {
+      "level": 41,
+      "move": "Petal Blizzard"
+    },
+    {
+      "level": 48,
+      "move": "Worry Seed"
+    },
+    {
+      "level": 55,
+      "move": "Solar Beam"
+    },
+    {
+      "level": 62,
+      "move": "Petal Dance"
+    }
+  ]
+}

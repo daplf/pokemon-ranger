@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-026",
+  "trainerId": 26,
+  "game": "bdsp",
+  "name": "Cyclist Nicole",
+  "pokemon": [
+    {
+      "species": "Starly",
+      "level": 15,
+      "ability": "Keen Eye",
+      "moves": [
+        "Tackle",
+        "Growl",
+        "Quick Attack",
+        "Wing Attack"
+      ],
+      "nature": "Quirky",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Ponyta",
+      "level": 15,
+      "ability": "Run Away",
+      "moves": [
+        "Tackle",
+        "Growl",
+        "Tail Whip",
+        "Flame Charge"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

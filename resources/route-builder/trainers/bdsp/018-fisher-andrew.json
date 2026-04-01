@@ -1,0 +1,158 @@
+{
+  "id": "trainer-id-018",
+  "trainerId": 18,
+  "game": "bdsp",
+  "name": "Fisher Andrew",
+  "pokemon": [
+    {
+      "species": "Magikarp",
+      "level": 10,
+      "ability": "Swift Swim",
+      "moves": [
+        "Splash"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Magikarp",
+      "level": 10,
+      "ability": "Swift Swim",
+      "moves": [
+        "Splash"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Magikarp",
+      "level": 10,
+      "ability": "Swift Swim",
+      "moves": [
+        "Splash"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Magikarp",
+      "level": 10,
+      "ability": "Swift Swim",
+      "moves": [
+        "Splash"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Magikarp",
+      "level": 10,
+      "ability": "Swift Swim",
+      "moves": [
+        "Splash"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Magikarp",
+      "level": 10,
+      "ability": "Swift Swim",
+      "moves": [
+        "Splash"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-541",
+  "trainerId": 541,
+  "game": "bdsp",
+  "name": "Ace Trainer Maya",
+  "pokemon": [
+    {
+      "species": "Glameow",
+      "level": 40,
+      "ability": "Own Tempo",
+      "moves": [
+        "Growl",
+        "Aerial Ace",
+        "Retaliate",
+        "Slash"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Kadabra",
+      "level": 40,
+      "ability": "Synchronize",
+      "moves": [
+        "Reflect",
+        "Ally Switch",
+        "Recover",
+        "Psyshock"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

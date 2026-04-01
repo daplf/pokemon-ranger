@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-461",
+  "trainerId": 461,
+  "game": "bdsp",
+  "name": "Psychic Chelsey",
+  "pokemon": [
+    {
+      "species": "Xatu",
+      "level": 56,
+      "ability": "Synchronize",
+      "moves": [
+        "Night Shade",
+        "Psychic",
+        "Wish",
+        "Future Sight"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Mismagius",
+      "level": 58,
+      "ability": "Levitate",
+      "moves": [
+        "Mystical Fire",
+        "Perish Song",
+        "Power Gem",
+        "Magical Leaf"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

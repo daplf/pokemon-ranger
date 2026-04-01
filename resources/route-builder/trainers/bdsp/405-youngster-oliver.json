@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-405",
+  "trainerId": 405,
+  "game": "bdsp",
+  "name": "Youngster Oliver",
+  "pokemon": [
+    {
+      "species": "Stunky",
+      "level": 16,
+      "ability": "Stench",
+      "moves": [
+        "Poison Gas",
+        "Acid Spray",
+        "Fury Swipes",
+        "Focus Energy"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Kricketune",
+      "level": 16,
+      "ability": "Swarm",
+      "moves": [
+        "Fury Cutter",
+        "Growl",
+        "Pound",
+        "Absorb"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Shellos",
+      "level": 16,
+      "ability": "Storm Drain",
+      "moves": [
+        "Mud-Slap",
+        "Harden",
+        "Recover",
+        "Water Pulse"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

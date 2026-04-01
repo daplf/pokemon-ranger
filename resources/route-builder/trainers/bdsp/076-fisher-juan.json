@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-076",
+  "trainerId": 76,
+  "game": "bdsp",
+  "name": "Fisher Juan",
+  "pokemon": [
+    {
+      "species": "Gyarados",
+      "level": 21,
+      "ability": "Intimidate",
+      "moves": [
+        "Twister",
+        "Ice Fang",
+        "Scary Face",
+        "Waterfall"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

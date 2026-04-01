@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-212",
+  "trainerId": 212,
+  "game": "bdsp",
+  "name": "Psychic Maxwell",
+  "pokemon": [
+    {
+      "species": "Misdreavus",
+      "level": 52,
+      "ability": "Levitate",
+      "moves": [
+        "Mean Look",
+        "Perish Song",
+        "Shadow Ball",
+        "Pain Split"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Haunter",
+      "level": 54,
+      "ability": "Levitate",
+      "moves": [
+        "Shadow Ball",
+        "Dark Pulse",
+        "Destiny Bond",
+        "Curse"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

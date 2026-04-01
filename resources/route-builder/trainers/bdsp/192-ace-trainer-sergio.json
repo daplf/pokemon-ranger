@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-192",
+  "trainerId": 192,
+  "game": "bdsp",
+  "name": "Ace Trainer Sergio",
+  "pokemon": [
+    {
+      "species": "Floatzel",
+      "level": 37,
+      "ability": "Swift Swim",
+      "moves": [
+        "Ice Fang",
+        "Crunch",
+        "Tail Whip",
+        "Aqua Jet"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Sneasel",
+      "level": 37,
+      "ability": "Inner Focus",
+      "moves": [
+        "Metal Claw",
+        "Icy Wind",
+        "Hone Claws",
+        "Aerial Ace"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

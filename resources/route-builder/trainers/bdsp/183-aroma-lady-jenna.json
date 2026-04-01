@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-183",
+  "trainerId": 183,
+  "game": "bdsp",
+  "name": "Aroma Lady Jenna",
+  "pokemon": [
+    {
+      "species": "Budew",
+      "level": 14,
+      "ability": "Poison Point",
+      "moves": [
+        "Absorb",
+        "Stun Spore",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Budew",
+      "level": 13,
+      "ability": "Poison Point",
+      "moves": [
+        "Absorb",
+        "Stun Spore",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Budew",
+      "level": 15,
+      "ability": "Poison Point",
+      "moves": [
+        "Absorb",
+        "Stun Spore",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

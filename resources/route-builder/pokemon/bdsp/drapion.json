@@ -1,0 +1,112 @@
+{
+  "species": "Drapion",
+  "game": "bdsp",
+  "types": [
+    "poison",
+    "dark"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 175,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 70,
+    "attack": 90,
+    "defense": 110,
+    "specialAttack": 60,
+    "specialDefense": 75,
+    "speed": 95
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Fell Stinger"
+    },
+    {
+      "level": 1,
+      "move": "Fire Fang"
+    },
+    {
+      "level": 1,
+      "move": "Hone Claws"
+    },
+    {
+      "level": 1,
+      "move": "Ice Fang"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Poison Sting"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Fang"
+    },
+    {
+      "level": 9,
+      "move": "Poison Fang"
+    },
+    {
+      "level": 12,
+      "move": "Bite"
+    },
+    {
+      "level": 15,
+      "move": "Toxic Spikes"
+    },
+    {
+      "level": 18,
+      "move": "Bug Bite"
+    },
+    {
+      "level": 21,
+      "move": "Venoshock"
+    },
+    {
+      "level": 24,
+      "move": "Knock Off"
+    },
+    {
+      "level": 27,
+      "move": "Scary Face"
+    },
+    {
+      "level": 30,
+      "move": "Pin Missile"
+    },
+    {
+      "level": 33,
+      "move": "Toxic"
+    },
+    {
+      "level": 36,
+      "move": "Night Slash"
+    },
+    {
+      "level": 39,
+      "move": "Cross Poison"
+    },
+    {
+      "level": 44,
+      "move": "X-Scissor"
+    },
+    {
+      "level": 49,
+      "move": "Acupressure"
+    },
+    {
+      "level": 54,
+      "move": "Crunch"
+    }
+  ]
+}

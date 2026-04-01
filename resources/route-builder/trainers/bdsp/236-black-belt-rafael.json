@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-236",
+  "trainerId": 236,
+  "game": "bdsp",
+  "name": "Black Belt Rafael",
+  "pokemon": [
+    {
+      "species": "Meditite",
+      "level": 28,
+      "ability": "Pure Power",
+      "moves": [
+        "Low Kick",
+        "Force Palm",
+        "Mind Reader",
+        "High Jump Kick"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

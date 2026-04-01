@@ -1,0 +1,100 @@
+{
+  "species": "Ludicolo",
+  "game": "bdsp",
+  "types": [
+    "water",
+    "grass"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 216,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 3,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 70,
+    "specialAttack": 90,
+    "specialDefense": 100,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Absorb"
+    },
+    {
+      "level": 1,
+      "move": "Astonish"
+    },
+    {
+      "level": 1,
+      "move": "Bubble Beam"
+    },
+    {
+      "level": 1,
+      "move": "Energy Ball"
+    },
+    {
+      "level": 1,
+      "move": "Fake Out"
+    },
+    {
+      "level": 1,
+      "move": "Flail"
+    },
+    {
+      "level": 1,
+      "move": "Fury Swipes"
+    },
+    {
+      "level": 1,
+      "move": "Giga Drain"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Hydro Pump"
+    },
+    {
+      "level": 1,
+      "move": "Knock Off"
+    },
+    {
+      "level": 1,
+      "move": "Mega Drain"
+    },
+    {
+      "level": 1,
+      "move": "Mist"
+    },
+    {
+      "level": 1,
+      "move": "Nature Power"
+    },
+    {
+      "level": 1,
+      "move": "Rain Dance"
+    },
+    {
+      "level": 1,
+      "move": "Teeter Dance"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 1,
+      "move": "Zen Headbutt"
+    }
+  ]
+}

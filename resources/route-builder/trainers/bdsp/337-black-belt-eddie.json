@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-337",
+  "trainerId": 337,
+  "game": "bdsp",
+  "name": "Black Belt Eddie",
+  "pokemon": [
+    {
+      "species": "Machoke",
+      "level": 52,
+      "ability": "No Guard",
+      "moves": [
+        "Leer",
+        "Revenge",
+        "Knock Off",
+        "Dual Chop"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machamp",
+      "level": 58,
+      "ability": "No Guard",
+      "moves": [
+        "Knock Off",
+        "Dual Chop",
+        "Bulk Up",
+        "Dynamic Punch"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

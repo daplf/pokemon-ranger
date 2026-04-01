@@ -1,0 +1,69 @@
+{
+  "id": "trainer-id-145",
+  "trainerId": 145,
+  "game": "bdsp",
+  "name": "Swimmer Crystal",
+  "prerequisites": {
+    "requiredHms": [
+      "surf"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Wingull",
+      "level": 41,
+      "ability": "Hydration",
+      "moves": [
+        "Growl",
+        "Water Pulse",
+        "Agility",
+        "Air Slash"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Seaking",
+      "level": 41,
+      "ability": "Swift Swim",
+      "moves": [
+        "Peck",
+        "Horn Attack",
+        "Flail",
+        "Waterfall"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

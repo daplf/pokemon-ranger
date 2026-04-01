@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-241",
+  "trainerId": 241,
+  "game": "bdsp",
+  "name": "Gym Leader Wake",
+  "pokemon": [
+    {
+      "species": "Gyarados",
+      "level": 27,
+      "item": "Wide Lens",
+      "moves": [
+        "Brine",
+        "Ice Fang",
+        "Crunch",
+        "Flail"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 40,
+        "attack": 56,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 40
+      },
+      "ivs": {
+        "hp": 16,
+        "attack": 16,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 16
+      }
+    },
+    {
+      "species": "Quagsire",
+      "level": 27,
+      "item": "Damp Rock",
+      "moves": [
+        "Rain Dance",
+        "Haze",
+        "Mud Shot",
+        "Scald"
+      ],
+      "nature": "Quiet",
+      "evs": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 4,
+        "specialAttack": 56,
+        "specialDefense": 4,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 16,
+        "attack": 16,
+        "defense": 5,
+        "specialAttack": 16,
+        "specialDefense": 5,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Floatzel",
+      "level": 30,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Brine",
+        "Ice Fang",
+        "Bite",
+        "Aqua Jet"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 84,
+        "defense": 0,
+        "specialAttack": 20,
+        "specialDefense": 0,
+        "speed": 84
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 17,
+        "defense": 0,
+        "specialAttack": 17,
+        "specialDefense": 0,
+        "speed": 17
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-090",
+  "trainerId": 90,
+  "game": "bdsp",
+  "name": "Sailor Paul",
+  "pokemon": [
+    {
+      "species": "Gyarados",
+      "level": 31,
+      "ability": "Intimidate",
+      "moves": [
+        "Leer",
+        "Twister",
+        "Waterfall",
+        "Crunch"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machop",
+      "level": 31,
+      "ability": "No Guard",
+      "moves": [
+        "Leer",
+        "Low Sweep",
+        "Knock Off",
+        "Strength"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

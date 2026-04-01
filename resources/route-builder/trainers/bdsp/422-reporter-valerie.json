@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-422",
+  "trainerId": 422,
+  "game": "bdsp",
+  "name": "Reporter Valerie",
+  "pokemon": [
+    {
+      "species": "Murkrow",
+      "level": 23,
+      "ability": "Insomnia",
+      "moves": [
+        "Astonish",
+        "Gust",
+        "Wing Attack",
+        "Night Shade"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

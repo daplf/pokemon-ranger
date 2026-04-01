@@ -1,0 +1,79 @@
+{
+  "species": "Spinda",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "fast",
+  "baseExperience": 126,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 60,
+    "specialAttack": 60,
+    "specialDefense": 60,
+    "speed": 60
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 5,
+      "move": "Copycat"
+    },
+    {
+      "level": 10,
+      "move": "Teeter Dance"
+    },
+    {
+      "level": 14,
+      "move": "Psybeam"
+    },
+    {
+      "level": 19,
+      "move": "Hypnosis"
+    },
+    {
+      "level": 23,
+      "move": "Body Slam"
+    },
+    {
+      "level": 28,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 32,
+      "move": "Teeter Dance"
+    },
+    {
+      "level": 37,
+      "move": "Uproar"
+    },
+    {
+      "level": 41,
+      "move": "Psych Up"
+    },
+    {
+      "level": 46,
+      "move": "Double-Edge"
+    },
+    {
+      "level": 50,
+      "move": "Flail"
+    },
+    {
+      "level": 55,
+      "move": "Thrash"
+    }
+  ]
+}

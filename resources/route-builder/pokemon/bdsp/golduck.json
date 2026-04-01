@@ -1,0 +1,91 @@
+{
+  "species": "Golduck",
+  "game": "bdsp",
+  "types": [
+    "water"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 175,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 2,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 78,
+    "specialAttack": 95,
+    "specialDefense": 80,
+    "speed": 85
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Aqua Jet"
+    },
+    {
+      "level": 1,
+      "move": "Confusion"
+    },
+    {
+      "level": 1,
+      "move": "Scratch"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 9,
+      "move": "Fury Swipes"
+    },
+    {
+      "level": 12,
+      "move": "Water Pulse"
+    },
+    {
+      "level": 15,
+      "move": "Disable"
+    },
+    {
+      "level": 18,
+      "move": "Zen Headbutt"
+    },
+    {
+      "level": 21,
+      "move": "Screech"
+    },
+    {
+      "level": 24,
+      "move": "Aqua Tail"
+    },
+    {
+      "level": 27,
+      "move": "Soak"
+    },
+    {
+      "level": 30,
+      "move": "Psych Up"
+    },
+    {
+      "level": 36,
+      "move": "Amnesia"
+    },
+    {
+      "level": 40,
+      "move": "Hydro Pump"
+    },
+    {
+      "level": 45,
+      "move": "Wonder Room"
+    }
+  ]
+}

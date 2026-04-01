@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-440",
+  "trainerId": 440,
+  "game": "bdsp",
+  "name": "Ace Trainer Jose",
+  "pokemon": [
+    {
+      "species": "Golduck",
+      "level": 55,
+      "ability": "Damp",
+      "moves": [
+        "Hydro Pump",
+        "Zen Headbutt",
+        "Screech",
+        "Disable"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Sandslash",
+      "level": 55,
+      "ability": "Sand Veil",
+      "moves": [
+        "Sand Tomb",
+        "Dig",
+        "Crush Claw",
+        "Slash"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "species": "Mightyena",
+  "game": "bdsp",
+  "types": [
+    "dark"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 147,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 70,
+    "attack": 90,
+    "defense": 70,
+    "specialAttack": 60,
+    "specialDefense": 60,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Bite"
+    },
+    {
+      "level": 1,
+      "move": "Crunch"
+    },
+    {
+      "level": 1,
+      "move": "Fire Fang"
+    },
+    {
+      "level": 1,
+      "move": "Howl"
+    },
+    {
+      "level": 1,
+      "move": "Ice Fang"
+    },
+    {
+      "level": 1,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 1,
+      "move": "Snarl"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Thief"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Fang"
+    },
+    {
+      "level": 4,
+      "move": "Howl"
+    },
+    {
+      "level": 7,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 10,
+      "move": "Bite"
+    },
+    {
+      "level": 13,
+      "move": "Mud-Slap"
+    },
+    {
+      "level": 16,
+      "move": "Roar"
+    },
+    {
+      "level": 20,
+      "move": "Swagger"
+    },
+    {
+      "level": 24,
+      "move": "Assurance"
+    },
+    {
+      "level": 28,
+      "move": "Scary Face"
+    },
+    {
+      "level": 32,
+      "move": "Headbutt"
+    },
+    {
+      "level": 36,
+      "move": "Taunt"
+    },
+    {
+      "level": 40,
+      "move": "Crunch"
+    },
+    {
+      "level": 44,
+      "move": "Yawn"
+    },
+    {
+      "level": 48,
+      "move": "Take Down"
+    },
+    {
+      "level": 52,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 56,
+      "move": "Play Rough"
+    }
+  ]
+}

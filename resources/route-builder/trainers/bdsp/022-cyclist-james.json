@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-022",
+  "trainerId": 22,
+  "game": "bdsp",
+  "name": "Cyclist James",
+  "pokemon": [
+    {
+      "species": "Ponyta",
+      "level": 17,
+      "ability": "Run Away",
+      "moves": [
+        "Tackle",
+        "Growl",
+        "Tail Whip",
+        "Flame Charge"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-608",
+  "trainerId": 608,
+  "game": "bdsp",
+  "name": "Pokémon Ranger Taylor",
+  "pokemon": [
+    {
+      "species": "Luxio",
+      "level": 60,
+      "ability": "Intimidate",
+      "moves": [
+        "Leer",
+        "Volt Switch",
+        "Crunch",
+        "Discharge"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Floatzel",
+      "level": 60,
+      "ability": "Swift Swim",
+      "moves": [
+        "Ice Fang",
+        "Crunch",
+        "Aqua Jet",
+        "Waterfall"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

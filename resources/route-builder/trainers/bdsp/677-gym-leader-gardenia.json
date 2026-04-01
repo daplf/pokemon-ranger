@@ -1,0 +1,173 @@
+{
+  "id": "trainer-id-677",
+  "trainerId": 677,
+  "game": "bdsp",
+  "name": "Gym Leader Gardenia",
+  "pokemon": [
+    {
+      "species": "Jumpluff",
+      "level": 66,
+      "item": "Heat Rock",
+      "moves": [
+        "Giga Drain",
+        "Sleep Powder",
+        "Leech Seed",
+        "Sunny Day"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 76,
+        "attack": 0,
+        "defense": 44,
+        "specialAttack": 128,
+        "specialDefense": 8,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Sunflora",
+      "level": 70,
+      "item": "Choice Scarf",
+      "moves": [
+        "Solar Beam"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Cherrim",
+      "level": 69,
+      "item": "Focus Sash",
+      "moves": [
+        "Petal Blizzard",
+        "Solar Beam",
+        "Growth",
+        "Sunny Day"
+      ],
+      "nature": "Mild",
+      "evs": {
+        "hp": 0,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Breloom",
+      "level": 68,
+      "item": "Toxic Orb",
+      "moves": [
+        "Focus Punch",
+        "Leech Seed",
+        "Substitute",
+        "Spore"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 120,
+        "attack": 138,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Torterra",
+      "level": 68,
+      "item": "Life Orb",
+      "moves": [
+        "Wood Hammer",
+        "Earthquake",
+        "Stone Edge",
+        "Iron Tail"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Roserade",
+      "level": 72,
+      "item": "Power Herb",
+      "moves": [
+        "Solar Beam",
+        "Sludge Bomb",
+        "Grassy Terrain",
+        "Sunny Day"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

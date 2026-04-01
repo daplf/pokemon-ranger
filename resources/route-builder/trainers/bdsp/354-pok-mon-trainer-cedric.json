@@ -1,0 +1,120 @@
+{
+  "id": "trainer-id-354",
+  "trainerId": 354,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Cedric",
+  "pokemon": [
+    {
+      "species": "Starly",
+      "level": 26,
+      "item": "Quick Claw",
+      "moves": [
+        "Quick Attack",
+        "Double Team",
+        "Endeavor",
+        "Pluck"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 28,
+        "attack": 52,
+        "defense": 12,
+        "specialAttack": 0,
+        "specialDefense": 12,
+        "speed": 52
+      },
+      "ivs": {
+        "hp": 5,
+        "attack": 5,
+        "defense": 5,
+        "specialAttack": 5,
+        "specialDefense": 5,
+        "speed": 5
+      }
+    },
+    {
+      "species": "Buizel",
+      "level": 26,
+      "item": "Sea Incense",
+      "moves": [
+        "Tail Whip",
+        "Bite",
+        "Swift",
+        "Aqua Jet"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 44,
+        "defense": 12,
+        "specialAttack": 0,
+        "specialDefense": 12,
+        "speed": 36
+      },
+      "ivs": {
+        "hp": 6,
+        "attack": 6,
+        "defense": 6,
+        "specialAttack": 6,
+        "specialDefense": 6,
+        "speed": 6
+      }
+    },
+    {
+      "species": "Ponyta",
+      "level": 27,
+      "item": "Shell Bell",
+      "moves": [
+        "Tackle",
+        "Tail Whip",
+        "Agility",
+        "Flame Wheel"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 4,
+        "attack": 44,
+        "defense": 12,
+        "specialAttack": 0,
+        "specialDefense": 12,
+        "speed": 12
+      },
+      "ivs": {
+        "hp": 7,
+        "attack": 7,
+        "defense": 7,
+        "specialAttack": 7,
+        "specialDefense": 7,
+        "speed": 7
+      }
+    },
+    {
+      "species": "Grotle",
+      "level": 31,
+      "item": "Miracle Seed",
+      "moves": [
+        "Razor Leaf",
+        "Bite",
+        "Mega Drain",
+        "Stealth Rock"
+      ],
+      "nature": "Careful",
+      "evs": {
+        "hp": 52,
+        "attack": 4,
+        "defense": 12,
+        "specialAttack": 4,
+        "specialDefense": 52,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 11,
+        "attack": 11,
+        "defense": 11,
+        "specialAttack": 11,
+        "specialDefense": 11,
+        "speed": 11
+      }
+    }
+  ]
+}

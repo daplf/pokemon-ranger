@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-075",
+  "trainerId": 75,
+  "game": "bdsp",
+  "name": "Police Officer Dylan",
+  "pokemon": [
+    {
+      "species": "Hoothoot",
+      "level": 18,
+      "ability": "Keen Eye",
+      "moves": [
+        "Growl",
+        "Echoed Voice",
+        "Reflect",
+        "Psycho Shift"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Meditite",
+      "level": 18,
+      "ability": "Pure Power",
+      "moves": [
+        "Confusion",
+        "Detect",
+        "Feint",
+        "Force Palm"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

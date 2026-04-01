@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-423",
+  "trainerId": 423,
+  "game": "bdsp",
+  "name": "School Kid Esteban",
+  "pokemon": [
+    {
+      "species": "Wooper",
+      "level": 23,
+      "ability": "Damp",
+      "moves": [
+        "Tail Whip",
+        "Mud Shot",
+        "Slam",
+        "Yawn"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

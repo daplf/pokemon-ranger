@@ -1,0 +1,63 @@
+{
+  "id": "trainer-id-253",
+  "trainerId": 253,
+  "game": "bdsp",
+  "name": "Picnicker Diana",
+  "pokemon": [
+    {
+      "species": "Budew",
+      "level": 5,
+      "ability": "Natural Cure",
+      "moves": [
+        "Absorb",
+        "Growth",
+        "Stun Spore",
+        "Worry Seed"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Psyduck",
+      "level": 5,
+      "ability": "Cloud Nine",
+      "moves": [
+        "Scratch",
+        "Tail Whip",
+        "Water Gun"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

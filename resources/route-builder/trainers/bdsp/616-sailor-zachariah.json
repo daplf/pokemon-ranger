@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-616",
+  "trainerId": 616,
+  "game": "bdsp",
+  "name": "Sailor Zachariah",
+  "pokemon": [
+    {
+      "species": "Pelipper",
+      "level": 55,
+      "ability": "Drizzle",
+      "moves": [
+        "Tailwind",
+        "Water Pulse",
+        "Roost",
+        "Hurricane"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machamp",
+      "level": 58,
+      "ability": "No Guard",
+      "moves": [
+        "Knock Off",
+        "Dual Chop",
+        "Bulk Up",
+        "Dynamic Punch"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gastrodon",
+      "level": 58,
+      "ability": "Storm Drain",
+      "moves": [
+        "Recover",
+        "Ancient Power",
+        "Muddy Water",
+        "Earth Power"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

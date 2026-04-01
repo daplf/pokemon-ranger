@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-647",
+  "trainerId": 647,
+  "game": "bdsp",
+  "name": "Tuber Chelsea",
+  "pokemon": [
+    {
+      "species": "Bibarel",
+      "level": 40,
+      "ability": "Unaware",
+      "moves": [
+        "Aqua Jet",
+        "Headbutt",
+        "Crunch",
+        "Super Fang"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

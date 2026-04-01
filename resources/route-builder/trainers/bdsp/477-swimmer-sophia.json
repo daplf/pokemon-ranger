@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-477",
+  "trainerId": 477,
+  "game": "bdsp",
+  "name": "Swimmer Sophia",
+  "pokemon": [
+    {
+      "species": "Mantyke",
+      "level": 50,
+      "ability": "Water Absorb",
+      "moves": [
+        "Hydro Pump",
+        "Aqua Ring",
+        "Supersonic",
+        "Air Slash"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Mantine",
+      "level": 52,
+      "ability": "Water Absorb",
+      "moves": [
+        "Hydro Pump",
+        "Bounce",
+        "Aqua Ring",
+        "Air Slash"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

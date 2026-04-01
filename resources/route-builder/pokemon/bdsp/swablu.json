@@ -1,0 +1,80 @@
+{
+  "species": "Swablu",
+  "game": "bdsp",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "growthRate": "erratic",
+  "baseExperience": 62,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 1,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 45,
+    "attack": 40,
+    "defense": 60,
+    "specialAttack": 40,
+    "specialDefense": 75,
+    "speed": 50
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Peck"
+    },
+    {
+      "level": 4,
+      "move": "Disarming Voice"
+    },
+    {
+      "level": 8,
+      "move": "Mist"
+    },
+    {
+      "level": 12,
+      "move": "Fury Attack"
+    },
+    {
+      "level": 16,
+      "move": "Round"
+    },
+    {
+      "level": 20,
+      "move": "Dragon Breath"
+    },
+    {
+      "level": 24,
+      "move": "Safeguard"
+    },
+    {
+      "level": 28,
+      "move": "Sing"
+    },
+    {
+      "level": 32,
+      "move": "Cotton Guard"
+    },
+    {
+      "level": 36,
+      "move": "Take Down"
+    },
+    {
+      "level": 40,
+      "move": "Moonblast"
+    },
+    {
+      "level": 44,
+      "move": "Perish Song"
+    }
+  ]
+}

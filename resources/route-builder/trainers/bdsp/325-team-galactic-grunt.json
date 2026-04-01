@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-325",
+  "trainerId": 325,
+  "game": "bdsp",
+  "name": "Team Galactic Grunt",
+  "pokemon": [
+    {
+      "species": "Silcoon",
+      "level": 15,
+      "ability": "Shed Skin",
+      "moves": [
+        "Tackle",
+        "String Shot",
+        "Poison Sting",
+        "Harden"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

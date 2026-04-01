@@ -1,0 +1,87 @@
+{
+  "species": "Pachirisu",
+  "game": "bdsp",
+  "types": [
+    "electric"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 142,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 70,
+    "specialAttack": 45,
+    "specialDefense": 90,
+    "speed": 95
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Baby-Doll Eyes"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 5,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 9,
+      "move": "Charm"
+    },
+    {
+      "level": 13,
+      "move": "Spark"
+    },
+    {
+      "level": 17,
+      "move": "Endure"
+    },
+    {
+      "level": 19,
+      "move": "Nuzzle"
+    },
+    {
+      "level": 21,
+      "move": "Swift"
+    },
+    {
+      "level": 25,
+      "move": "Electro Ball"
+    },
+    {
+      "level": 29,
+      "move": "Sweet Kiss"
+    },
+    {
+      "level": 33,
+      "move": "Thunder Wave"
+    },
+    {
+      "level": 37,
+      "move": "Super Fang"
+    },
+    {
+      "level": 41,
+      "move": "Discharge"
+    },
+    {
+      "level": 45,
+      "move": "Last Resort"
+    },
+    {
+      "level": 49,
+      "move": "Thunder"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-231",
+  "trainerId": 231,
+  "game": "bdsp",
+  "name": "Jogger Wyatt",
+  "pokemon": [
+    {
+      "species": "Ponyta",
+      "level": 21,
+      "ability": "Run Away",
+      "moves": [
+        "Tackle",
+        "Tail Whip",
+        "Flame Charge",
+        "Agility"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

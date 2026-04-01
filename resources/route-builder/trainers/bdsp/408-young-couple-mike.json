@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-408",
+  "trainerId": 408,
+  "game": "bdsp",
+  "name": "Young Couple Mike",
+  "pokemon": [
+    {
+      "species": "Murkrow",
+      "level": 19,
+      "ability": "Insomnia",
+      "moves": [
+        "Peck",
+        "Astonish",
+        "Gust",
+        "Wing Attack"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

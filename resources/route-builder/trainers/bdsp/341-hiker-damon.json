@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-341",
+  "trainerId": 341,
+  "game": "bdsp",
+  "name": "Hiker Damon",
+  "pokemon": [
+    {
+      "species": "Zubat",
+      "level": 28,
+      "ability": "Inner Focus",
+      "moves": [
+        "Supersonic",
+        "Astonish",
+        "Poison Fang",
+        "Air Cutter"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Onix",
+      "level": 31,
+      "ability": "Rock Head",
+      "moves": [
+        "Smack Down",
+        "Curse",
+        "Screech",
+        "Sand Tomb"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Golbat",
+      "level": 31,
+      "ability": "Inner Focus",
+      "moves": [
+        "Absorb",
+        "Supersonic",
+        "Poison Fang",
+        "Air Cutter"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

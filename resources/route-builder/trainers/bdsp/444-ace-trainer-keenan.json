@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-444",
+  "trainerId": 444,
+  "game": "bdsp",
+  "name": "Ace Trainer Keenan",
+  "pokemon": [
+    {
+      "species": "Primeape",
+      "level": 57,
+      "ability": "Vital Spirit",
+      "moves": [
+        "Final Gambit",
+        "Outrage",
+        "Close Combat",
+        "Thrash"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Torkoal",
+      "level": 57,
+      "ability": "Drought",
+      "moves": [
+        "Flamethrower",
+        "Lava Plume",
+        "Clear Smog",
+        "Rapid Spin"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

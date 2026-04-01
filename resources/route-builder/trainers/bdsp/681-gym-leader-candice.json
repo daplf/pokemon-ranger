@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-681",
+  "trainerId": 681,
+  "game": "bdsp",
+  "name": "Gym Leader Candice",
+  "pokemon": [
+    {
+      "species": "Abomasnow",
+      "level": 68,
+      "item": "Icy Rock",
+      "moves": [
+        "Wood Hammer",
+        "Ice Punch",
+        "Earthquake",
+        "Aurora Veil"
+      ],
+      "nature": "Brave",
+      "evs": {
+        "hp": 240,
+        "attack": 252,
+        "defense": 12,
+        "specialAttack": 0,
+        "specialDefense": 4,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Jynx",
+      "level": 70,
+      "item": "Focus Sash",
+      "moves": [
+        "Blizzard",
+        "Focus Blast",
+        "Sweet Kiss",
+        "Lovely Kiss"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Mamoswine",
+      "level": 68,
+      "item": "Expert Belt",
+      "moves": [
+        "Ice Shard",
+        "Earthquake",
+        "Stone Edge",
+        "Double Team"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Froslass",
+      "level": 70,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Blizzard",
+        "Shadow Ball",
+        "Double Team",
+        "Aurora Veil"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Glaceon",
+      "level": 70,
+      "item": "Leftovers",
+      "moves": [
+        "Blizzard",
+        "Freeze-Dry",
+        "Baby-Doll Eyes",
+        "Double Team"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Weavile",
+      "level": 72,
+      "item": "Life Orb",
+      "moves": [
+        "Ice Shard",
+        "Night Slash",
+        "Brick Break",
+        "X-Scissor"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

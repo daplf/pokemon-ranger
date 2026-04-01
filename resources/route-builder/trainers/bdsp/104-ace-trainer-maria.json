@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-104",
+  "trainerId": 104,
+  "game": "bdsp",
+  "name": "Ace Trainer Maria",
+  "pokemon": [
+    {
+      "species": "Golduck",
+      "level": 34,
+      "ability": "Damp",
+      "moves": [
+        "Aqua Jet",
+        "Fury Swipes",
+        "Zen Headbutt",
+        "Screech"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Ponyta",
+      "level": 35,
+      "ability": "Run Away",
+      "moves": [
+        "Tail Whip",
+        "Flame Wheel",
+        "Stomp",
+        "Fire Spin"
+      ],
+      "nature": "Careful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Sudowoodo",
+      "level": 33,
+      "ability": "Rock Head",
+      "moves": [
+        "Hammer Arm",
+        "Wood Hammer",
+        "Rock Tomb",
+        "Sucker Punch"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

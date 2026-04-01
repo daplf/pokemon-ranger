@@ -1,0 +1,96 @@
+{
+  "species": "Graveler",
+  "game": "bdsp",
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 137,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 55,
+    "attack": 95,
+    "defense": 115,
+    "specialAttack": 45,
+    "specialDefense": 45,
+    "speed": 35
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Defense Curl"
+    },
+    {
+      "level": 1,
+      "move": "Rock Polish"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 4,
+      "move": "Sandstorm"
+    },
+    {
+      "level": 6,
+      "move": "Rock Polish"
+    },
+    {
+      "level": 10,
+      "move": "Rollout"
+    },
+    {
+      "level": 12,
+      "move": "Harden"
+    },
+    {
+      "level": 16,
+      "move": "Rock Throw"
+    },
+    {
+      "level": 18,
+      "move": "Smack Down"
+    },
+    {
+      "level": 22,
+      "move": "Bulldoze"
+    },
+    {
+      "level": 24,
+      "move": "Self-Destruct"
+    },
+    {
+      "level": 30,
+      "move": "Stealth Rock"
+    },
+    {
+      "level": 34,
+      "move": "Rock Blast"
+    },
+    {
+      "level": 40,
+      "move": "Earthquake"
+    },
+    {
+      "level": 44,
+      "move": "Explosion"
+    },
+    {
+      "level": 50,
+      "move": "Double-Edge"
+    },
+    {
+      "level": 54,
+      "move": "Stone Edge"
+    }
+  ]
+}

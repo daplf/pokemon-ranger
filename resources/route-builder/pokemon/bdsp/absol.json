@@ -1,0 +1,79 @@
+{
+  "species": "Absol",
+  "game": "bdsp",
+  "types": [
+    "dark"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 163,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 65,
+    "attack": 130,
+    "defense": 60,
+    "specialAttack": 75,
+    "specialDefense": 60,
+    "speed": 75
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 5,
+      "move": "Double Team"
+    },
+    {
+      "level": 10,
+      "move": "Knock Off"
+    },
+    {
+      "level": 15,
+      "move": "Detect"
+    },
+    {
+      "level": 20,
+      "move": "Taunt"
+    },
+    {
+      "level": 25,
+      "move": "Slash"
+    },
+    {
+      "level": 30,
+      "move": "Night Slash"
+    },
+    {
+      "level": 35,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 40,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 45,
+      "move": "Swords Dance"
+    },
+    {
+      "level": 50,
+      "move": "Future Sight"
+    },
+    {
+      "level": 55,
+      "move": "Perish Song"
+    }
+  ]
+}

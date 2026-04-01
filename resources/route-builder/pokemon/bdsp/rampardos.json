@@ -1,0 +1,83 @@
+{
+  "species": "Rampardos",
+  "game": "bdsp",
+  "types": [
+    "rock"
+  ],
+  "growthRate": "erratic",
+  "baseExperience": 173,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 97,
+    "attack": 165,
+    "defense": 60,
+    "specialAttack": 65,
+    "specialDefense": 50,
+    "speed": 58
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Endeavor"
+    },
+    {
+      "level": 1,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 1,
+      "move": "Headbutt"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 6,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 10,
+      "move": "Rock Polish"
+    },
+    {
+      "level": 15,
+      "move": "Take Down"
+    },
+    {
+      "level": 19,
+      "move": "Scary Face"
+    },
+    {
+      "level": 24,
+      "move": "Assurance"
+    },
+    {
+      "level": 28,
+      "move": "Swords Dance"
+    },
+    {
+      "level": 36,
+      "move": "Ancient Power"
+    },
+    {
+      "level": 43,
+      "move": "Zen Headbutt"
+    },
+    {
+      "level": 51,
+      "move": "Screech"
+    },
+    {
+      "level": 58,
+      "move": "Head Smash"
+    }
+  ]
+}

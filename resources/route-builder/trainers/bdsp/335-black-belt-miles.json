@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-335",
+  "trainerId": 335,
+  "game": "bdsp",
+  "name": "Black Belt Miles",
+  "pokemon": [
+    {
+      "species": "Machamp",
+      "level": 49,
+      "ability": "No Guard",
+      "moves": [
+        "Low Sweep",
+        "Knock Off",
+        "Dual Chop",
+        "Bulk Up"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

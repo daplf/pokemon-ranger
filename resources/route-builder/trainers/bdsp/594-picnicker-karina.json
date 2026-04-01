@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-594",
+  "trainerId": 594,
+  "game": "bdsp",
+  "name": "Picnicker Karina",
+  "pokemon": [
+    {
+      "species": "Empoleon",
+      "level": 55,
+      "ability": "Torrent",
+      "moves": [
+        "Metal Claw",
+        "Aqua Jet",
+        "Brine",
+        "Drill Peck"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

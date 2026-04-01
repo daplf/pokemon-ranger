@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-208",
+  "trainerId": 208,
+  "game": "bdsp",
+  "name": "Ace Trainer Catherine",
+  "pokemon": [
+    {
+      "species": "Misdreavus",
+      "level": 30,
+      "ability": "Levitate",
+      "moves": [
+        "Growl",
+        "Confuse Ray",
+        "Hex",
+        "Trick Room"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Drifblim",
+      "level": 30,
+      "ability": "Flare Boost",
+      "moves": [
+        "Phantom Force",
+        "Strength Sap",
+        "Minimize",
+        "Fly"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

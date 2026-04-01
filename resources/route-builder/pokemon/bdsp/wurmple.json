@@ -1,0 +1,43 @@
+{
+  "species": "Wurmple",
+  "game": "bdsp",
+  "types": [
+    "bug"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 56,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 45,
+    "attack": 45,
+    "defense": 35,
+    "specialAttack": 20,
+    "specialDefense": 30,
+    "speed": 20
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "String Shot"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 5,
+      "move": "Poison Sting"
+    },
+    {
+      "level": 15,
+      "move": "Bug Bite"
+    }
+  ]
+}

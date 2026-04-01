@@ -1,0 +1,100 @@
+{
+  "species": "Dodrio",
+  "game": "bdsp",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 165,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 110,
+    "defense": 70,
+    "specialAttack": 60,
+    "specialDefense": 60,
+    "speed": 110
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Peck"
+    },
+    {
+      "level": 1,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 1,
+      "move": "Tri Attack"
+    },
+    {
+      "level": 5,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 8,
+      "move": "Leer"
+    },
+    {
+      "level": 12,
+      "move": "Fury Attack"
+    },
+    {
+      "level": 15,
+      "move": "Wing Attack"
+    },
+    {
+      "level": 19,
+      "move": "Pluck"
+    },
+    {
+      "level": 22,
+      "move": "Double Hit"
+    },
+    {
+      "level": 26,
+      "move": "Agility"
+    },
+    {
+      "level": 29,
+      "move": "Uproar"
+    },
+    {
+      "level": 34,
+      "move": "Acupressure"
+    },
+    {
+      "level": 38,
+      "move": "Swords Dance"
+    },
+    {
+      "level": 43,
+      "move": "Lunge"
+    },
+    {
+      "level": 47,
+      "move": "Drill Peck"
+    },
+    {
+      "level": 52,
+      "move": "Endeavor"
+    },
+    {
+      "level": 56,
+      "move": "Thrash"
+    }
+  ]
+}

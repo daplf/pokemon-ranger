@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-242",
+  "trainerId": 242,
+  "game": "bdsp",
+  "name": "Gym Leader Maylene",
+  "pokemon": [
+    {
+      "species": "Meditite",
+      "level": 27,
+      "item": "Light Clay",
+      "moves": [
+        "Drain Punch",
+        "Light Screen",
+        "Flash",
+        "Bulk Up"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 36,
+        "attack": 52,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 36
+      },
+      "ivs": {
+        "hp": 15,
+        "attack": 15,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 15
+      }
+    },
+    {
+      "species": "Machoke",
+      "level": 27,
+      "item": "Expert Belt",
+      "moves": [
+        "Low Sweep",
+        "Knock Off",
+        "Rock Tomb",
+        "Bulldoze"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 36,
+        "attack": 52,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 36
+      },
+      "ivs": {
+        "hp": 15,
+        "attack": 15,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 15
+      }
+    },
+    {
+      "species": "Lucario",
+      "level": 30,
+      "item": "Big Root",
+      "moves": [
+        "Drain Punch",
+        "Screech",
+        "Metal Claw",
+        "Bulk Up"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 68,
+        "defense": 68,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 68
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 15,
+        "defense": 15,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 15
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-086",
+  "trainerId": 86,
+  "game": "bdsp",
+  "name": "Swimmer Haley",
+  "pokemon": [
+    {
+      "species": "Marill",
+      "level": 31,
+      "ability": "Thick Fat",
+      "moves": [
+        "Charm",
+        "Aqua Tail",
+        "Play Rough",
+        "Rain Dance"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Azumarill",
+      "level": 31,
+      "ability": "Thick Fat",
+      "moves": [
+        "Tackle",
+        "Bubble Beam",
+        "Bounce",
+        "Play Rough"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

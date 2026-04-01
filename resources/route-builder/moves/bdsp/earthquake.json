@@ -1,0 +1,7 @@
+{
+  "name": "Earthquake",
+  "game": "bdsp",
+  "type": "ground",
+  "category": "physical",
+  "power": 100
+}

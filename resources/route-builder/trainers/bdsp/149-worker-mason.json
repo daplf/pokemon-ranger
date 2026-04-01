@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-149",
+  "trainerId": 149,
+  "game": "bdsp",
+  "name": "Worker Mason",
+  "pokemon": [
+    {
+      "species": "Machop",
+      "level": 9,
+      "ability": "Guts",
+      "moves": [
+        "Low Kick",
+        "Leer",
+        "Focus Energy",
+        "Revenge"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

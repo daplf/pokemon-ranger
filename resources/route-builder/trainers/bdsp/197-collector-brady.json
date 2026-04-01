@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-197",
+  "trainerId": 197,
+  "game": "bdsp",
+  "name": "Collector Brady",
+  "pokemon": [
+    {
+      "species": "Ponyta",
+      "level": 22,
+      "ability": "Run Away",
+      "moves": [
+        "Growl",
+        "Tail Whip",
+        "Flame Charge",
+        "Agility"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Ponyta",
+      "level": 20,
+      "ability": "Run Away",
+      "moves": [
+        "Tackle",
+        "Growl",
+        "Flame Charge",
+        "Agility"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Ponyta",
+      "level": 24,
+      "ability": "Run Away",
+      "moves": [
+        "Tackle",
+        "Growl",
+        "Ember",
+        "Flame Charge"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

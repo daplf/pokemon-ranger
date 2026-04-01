@@ -1,0 +1,99 @@
+{
+  "species": "Floatzel",
+  "game": "bdsp",
+  "types": [
+    "water"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 173,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 2
+  },
+  "baseStats": {
+    "hp": 85,
+    "attack": 105,
+    "defense": 55,
+    "specialAttack": 85,
+    "specialDefense": 50,
+    "speed": 115
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Crunch"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Ice Fang"
+    },
+    {
+      "level": 1,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 4,
+      "move": "Growl"
+    },
+    {
+      "level": 7,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 11,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 15,
+      "move": "Water Gun"
+    },
+    {
+      "level": 18,
+      "move": "Bite"
+    },
+    {
+      "level": 21,
+      "move": "Swift"
+    },
+    {
+      "level": 24,
+      "move": "Aqua Jet"
+    },
+    {
+      "level": 29,
+      "move": "Double Hit"
+    },
+    {
+      "level": 35,
+      "move": "Whirlpool"
+    },
+    {
+      "level": 41,
+      "move": "Waterfall"
+    },
+    {
+      "level": 46,
+      "move": "Aqua Tail"
+    },
+    {
+      "level": 51,
+      "move": "Agility"
+    },
+    {
+      "level": 57,
+      "move": "Hydro Pump"
+    }
+  ]
+}

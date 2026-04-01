@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-564",
+  "trainerId": 564,
+  "game": "bdsp",
+  "name": "PI Carlos",
+  "pokemon": [
+    {
+      "species": "Seaking",
+      "level": 56,
+      "ability": "Water Veil",
+      "moves": [
+        "Tail Whip",
+        "Supersonic",
+        "Water Pulse",
+        "Soak"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Seaking",
+      "level": 57,
+      "ability": "Water Veil",
+      "moves": [
+        "Peck",
+        "Aqua Ring",
+        "Waterfall",
+        "Megahorn"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Seaking",
+      "level": 58,
+      "ability": "Water Veil",
+      "moves": [
+        "Agility",
+        "Flail",
+        "Waterfall",
+        "Horn Drill"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-077",
+  "trainerId": 77,
+  "game": "bdsp",
+  "name": "Fisher Cameron",
+  "pokemon": [
+    {
+      "species": "Goldeen",
+      "level": 19,
+      "ability": "Water Veil",
+      "moves": [
+        "Tail Whip",
+        "Supersonic",
+        "Water Pulse",
+        "Horn Attack"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Barboach",
+      "level": 19,
+      "ability": "Oblivious",
+      "moves": [
+        "Mud-Slap",
+        "Rest",
+        "Snore",
+        "Water Pulse"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-377",
+  "trainerId": 377,
+  "game": "bdsp",
+  "name": "Worker Willy",
+  "pokemon": [
+    {
+      "species": "Onix",
+      "level": 31,
+      "ability": "Rock Head",
+      "moves": [
+        "Smack Down",
+        "Curse",
+        "Screech",
+        "Sand Tomb"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Graveler",
+      "level": 31,
+      "ability": "Rock Head",
+      "moves": [
+        "Sandstorm",
+        "Harden",
+        "Smack Down",
+        "Bulldoze"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

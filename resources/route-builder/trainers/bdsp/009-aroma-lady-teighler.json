@@ -1,0 +1,68 @@
+{
+  "id": "trainer-id-009",
+  "trainerId": 9,
+  "game": "bdsp",
+  "name": "Aroma Lady Teighler",
+  "prerequisites": {
+    "requiredHms": [
+      "rock-smash"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Budew",
+      "level": 7,
+      "ability": "Poison Point",
+      "moves": [
+        "Absorb",
+        "Growth",
+        "Stun Spore",
+        "Worry Seed"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Cherubi",
+      "level": 7,
+      "ability": "Chlorophyll",
+      "moves": [
+        "Morning Sun",
+        "Tackle",
+        "Leafage"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

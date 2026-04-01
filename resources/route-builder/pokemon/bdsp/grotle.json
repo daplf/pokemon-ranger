@@ -1,0 +1,87 @@
+{
+  "species": "Grotle",
+  "game": "bdsp",
+  "types": [
+    "grass"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 142,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defense": 1,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 89,
+    "defense": 85,
+    "specialAttack": 55,
+    "specialDefense": 65,
+    "speed": 36
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Absorb"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Withdraw"
+    },
+    {
+      "level": 5,
+      "move": "Withdraw"
+    },
+    {
+      "level": 6,
+      "move": "Leafage"
+    },
+    {
+      "level": 10,
+      "move": "Growth"
+    },
+    {
+      "level": 13,
+      "move": "Razor Leaf"
+    },
+    {
+      "level": 17,
+      "move": "Curse"
+    },
+    {
+      "level": 22,
+      "move": "Bite"
+    },
+    {
+      "level": 27,
+      "move": "Mega Drain"
+    },
+    {
+      "level": 32,
+      "move": "Leech Seed"
+    },
+    {
+      "level": 37,
+      "move": "Synthesis"
+    },
+    {
+      "level": 42,
+      "move": "Crunch"
+    },
+    {
+      "level": 47,
+      "move": "Giga Drain"
+    },
+    {
+      "level": 52,
+      "move": "Leaf Storm"
+    }
+  ]
+}

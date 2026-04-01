@@ -1,0 +1,108 @@
+{
+  "species": "Honchkrow",
+  "game": "bdsp",
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 177,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 100,
+    "attack": 125,
+    "defense": 52,
+    "specialAttack": 105,
+    "specialDefense": 52,
+    "speed": 71
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Air Cutter"
+    },
+    {
+      "level": 1,
+      "move": "Assurance"
+    },
+    {
+      "level": 1,
+      "move": "Astonish"
+    },
+    {
+      "level": 1,
+      "move": "Gust"
+    },
+    {
+      "level": 1,
+      "move": "Haze"
+    },
+    {
+      "level": 1,
+      "move": "Mean Look"
+    },
+    {
+      "level": 1,
+      "move": "Night Shade"
+    },
+    {
+      "level": 1,
+      "move": "Night Slash"
+    },
+    {
+      "level": 1,
+      "move": "Peck"
+    },
+    {
+      "level": 1,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 1,
+      "move": "Tailwind"
+    },
+    {
+      "level": 1,
+      "move": "Taunt"
+    },
+    {
+      "level": 1,
+      "move": "Torment"
+    },
+    {
+      "level": 1,
+      "move": "Wing Attack"
+    },
+    {
+      "level": 25,
+      "move": "Swagger"
+    },
+    {
+      "level": 35,
+      "move": "Nasty Plot"
+    },
+    {
+      "level": 45,
+      "move": "Foul Play"
+    },
+    {
+      "level": 55,
+      "move": "Night Slash"
+    },
+    {
+      "level": 65,
+      "move": "Quash"
+    },
+    {
+      "level": 75,
+      "move": "Dark Pulse"
+    }
+  ]
+}

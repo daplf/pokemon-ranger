@@ -1,0 +1,83 @@
+{
+  "species": "Marowak",
+  "game": "bdsp",
+  "types": [
+    "ground"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 149,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 80,
+    "defense": 110,
+    "specialAttack": 50,
+    "specialDefense": 80,
+    "speed": 45
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "False Swipe"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Mud-Slap"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 12,
+      "move": "Headbutt"
+    },
+    {
+      "level": 16,
+      "move": "Retaliate"
+    },
+    {
+      "level": 20,
+      "move": "Fling"
+    },
+    {
+      "level": 24,
+      "move": "Stomping Tantrum"
+    },
+    {
+      "level": 31,
+      "move": "Bone Rush"
+    },
+    {
+      "level": 36,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 42,
+      "move": "Endeavor"
+    },
+    {
+      "level": 48,
+      "move": "Bonemerang"
+    },
+    {
+      "level": 54,
+      "move": "Thrash"
+    },
+    {
+      "level": 60,
+      "move": "Double-Edge"
+    }
+  ]
+}

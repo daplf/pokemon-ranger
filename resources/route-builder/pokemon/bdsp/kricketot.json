@@ -1,0 +1,43 @@
+{
+  "species": "Kricketot",
+  "game": "bdsp",
+  "types": [
+    "bug"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 39,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 1,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 37,
+    "attack": 25,
+    "defense": 41,
+    "specialAttack": 25,
+    "specialDefense": 41,
+    "speed": 25
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Pound"
+    },
+    {
+      "level": 6,
+      "move": "Struggle Bug"
+    },
+    {
+      "level": 16,
+      "move": "Bug Bite"
+    }
+  ]
+}

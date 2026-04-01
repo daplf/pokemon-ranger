@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-240",
+  "trainerId": 240,
+  "game": "bdsp",
+  "name": "Gym Leader Gardenia",
+  "pokemon": [
+    {
+      "species": "Cherubi",
+      "level": 19,
+      "ability": "Chlorophyll",
+      "moves": [
+        "Grass Knot",
+        "Growth",
+        "Dazzling Gleam",
+        "Safeguard"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Turtwig",
+      "level": 19,
+      "item": "Miracle Seed",
+      "moves": [
+        "Grass Knot",
+        "Razor Leaf",
+        "Reflect",
+        "Work Up"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Roserade",
+      "level": 22,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Grass Knot",
+        "Petal Blizzard",
+        "Poison Sting",
+        "Stun Spore"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 36,
+        "defense": 0,
+        "specialAttack": 36,
+        "specialDefense": 0,
+        "speed": 36
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 15,
+        "defense": 0,
+        "specialAttack": 15,
+        "specialDefense": 0,
+        "speed": 15
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "trainer-id-139",
+  "trainerId": 139,
+  "game": "bdsp",
+  "name": "Swimmer Colton",
+  "prerequisites": {
+    "requiredHms": [
+      "surf"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Wingull",
+      "level": 37,
+      "ability": "Hydration",
+      "moves": [
+        "Quick Attack",
+        "Water Pulse",
+        "Air Slash",
+        "Mist"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Quagsire",
+      "level": 42,
+      "ability": "Water Absorb",
+      "moves": [
+        "Rain Dance",
+        "Mud Shot",
+        "Yawn",
+        "Muddy Water"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Pelipper",
+      "level": 41,
+      "ability": "Drizzle",
+      "moves": [
+        "Tailwind",
+        "Wing Attack",
+        "Water Pulse",
+        "Stockpile"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

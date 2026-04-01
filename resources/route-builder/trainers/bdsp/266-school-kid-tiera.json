@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-266",
+  "trainerId": 266,
+  "game": "bdsp",
+  "name": "School Kid Tiera",
+  "pokemon": [
+    {
+      "species": "Pachirisu",
+      "level": 44,
+      "ability": "Pickup",
+      "moves": [
+        "Charm",
+        "Spark",
+        "Nuzzle",
+        "Dig"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-120",
+  "trainerId": 120,
+  "game": "bdsp",
+  "name": "Swimmer Adrian",
+  "pokemon": [
+    {
+      "species": "Mantyke",
+      "level": 26,
+      "ability": "Water Absorb",
+      "moves": [
+        "Tackle",
+        "Supersonic",
+        "Wing Attack",
+        "Bubble Beam"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Remoraid",
+      "level": 29,
+      "ability": "Sniper",
+      "moves": [
+        "Focus Energy",
+        "Aurora Beam",
+        "Bubble Beam",
+        "Bullet Seed"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Tentacool",
+      "level": 29,
+      "ability": "Clear Body",
+      "moves": [
+        "Poison Sting",
+        "Acid",
+        "Water Pulse",
+        "Hex"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

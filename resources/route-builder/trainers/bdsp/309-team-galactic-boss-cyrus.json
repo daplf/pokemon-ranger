@@ -1,0 +1,126 @@
+{
+  "id": "trainer-id-309",
+  "trainerId": 309,
+  "game": "bdsp",
+  "name": "Team Galactic Boss Cyrus",
+  "prerequisites": {
+    "beatenTrainerIds": [
+      "trainer-id-401",
+      "trainer-id-312"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Honchkrow",
+      "level": 45,
+      "item": "Scope Lens",
+      "moves": [
+        "Air Cutter",
+        "Night Slash",
+        "Steel Wing",
+        "Defog"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 68,
+        "attack": 0,
+        "defense": 68,
+        "specialAttack": 0,
+        "specialDefense": 68,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 15,
+        "attack": 0,
+        "defense": 15,
+        "specialAttack": 0,
+        "specialDefense": 15,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Crobat",
+      "level": 46,
+      "item": "Quick Claw",
+      "moves": [
+        "Cross Poison",
+        "Tailwind",
+        "Air Cutter",
+        "U-turn"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 68,
+        "attack": 0,
+        "defense": 68,
+        "specialAttack": 0,
+        "specialDefense": 68,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 15,
+        "attack": 0,
+        "defense": 15,
+        "specialAttack": 0,
+        "specialDefense": 15,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gyarados",
+      "level": 45,
+      "item": "Wacan Berry",
+      "moves": [
+        "Ice Fang",
+        "Waterfall",
+        "Crunch",
+        "Earthquake"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 68,
+        "attack": 0,
+        "defense": 68,
+        "specialAttack": 0,
+        "specialDefense": 68,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 15,
+        "attack": 0,
+        "defense": 15,
+        "specialAttack": 0,
+        "specialDefense": 15,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Weavile",
+      "level": 48,
+      "item": "Chople Berry",
+      "moves": [
+        "Metal Claw",
+        "Fling",
+        "Dig",
+        "Aerial Ace"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 68,
+        "attack": 0,
+        "defense": 68,
+        "specialAttack": 0,
+        "specialDefense": 68,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 15,
+        "attack": 0,
+        "defense": 15,
+        "specialAttack": 0,
+        "specialDefense": 15,
+        "speed": 0
+      }
+    }
+  ]
+}

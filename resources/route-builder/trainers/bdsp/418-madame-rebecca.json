@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-418",
+  "trainerId": 418,
+  "game": "bdsp",
+  "name": "Madame Rebecca",
+  "pokemon": [
+    {
+      "species": "Lopunny",
+      "level": 22,
+      "ability": "Cute Charm",
+      "moves": [
+        "Mirror Coat",
+        "Magic Coat",
+        "Baby-Doll Eyes",
+        "Quick Attack"
+      ],
+      "nature": "Careful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Glameow",
+      "level": 20,
+      "ability": "Limber",
+      "moves": [
+        "Fake Out",
+        "Growl",
+        "Aerial Ace",
+        "Fury Swipes"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

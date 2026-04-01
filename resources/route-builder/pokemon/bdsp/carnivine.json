@@ -1,0 +1,83 @@
+{
+  "species": "Carnivine",
+  "game": "bdsp",
+  "types": [
+    "grass"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 159,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 74,
+    "attack": 100,
+    "defense": 72,
+    "specialAttack": 90,
+    "specialDefense": 72,
+    "speed": 46
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Bind"
+    },
+    {
+      "level": 1,
+      "move": "Growth"
+    },
+    {
+      "level": 7,
+      "move": "Bite"
+    },
+    {
+      "level": 11,
+      "move": "Vine Whip"
+    },
+    {
+      "level": 17,
+      "move": "Sweet Scent"
+    },
+    {
+      "level": 21,
+      "move": "Ingrain"
+    },
+    {
+      "level": 27,
+      "move": "Grass Knot"
+    },
+    {
+      "level": 31,
+      "move": "Leaf Tornado"
+    },
+    {
+      "level": 37,
+      "move": "Spit Up"
+    },
+    {
+      "level": 37,
+      "move": "Stockpile"
+    },
+    {
+      "level": 37,
+      "move": "Swallow"
+    },
+    {
+      "level": 41,
+      "move": "Crunch"
+    },
+    {
+      "level": 47,
+      "move": "Seed Bomb"
+    },
+    {
+      "level": 50,
+      "move": "Power Whip"
+    }
+  ]
+}

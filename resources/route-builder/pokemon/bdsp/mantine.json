@@ -1,0 +1,96 @@
+{
+  "species": "Mantine",
+  "game": "bdsp",
+  "types": [
+    "water",
+    "flying"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 170,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 2,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 85,
+    "attack": 40,
+    "defense": 70,
+    "specialAttack": 80,
+    "specialDefense": 140,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Bullet Seed"
+    },
+    {
+      "level": 1,
+      "move": "Psybeam"
+    },
+    {
+      "level": 1,
+      "move": "Roost"
+    },
+    {
+      "level": 1,
+      "move": "Supersonic"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 1,
+      "move": "Wing Attack"
+    },
+    {
+      "level": 12,
+      "move": "Water Pulse"
+    },
+    {
+      "level": 16,
+      "move": "Wide Guard"
+    },
+    {
+      "level": 20,
+      "move": "Agility"
+    },
+    {
+      "level": 24,
+      "move": "Bubble Beam"
+    },
+    {
+      "level": 28,
+      "move": "Headbutt"
+    },
+    {
+      "level": 32,
+      "move": "Air Slash"
+    },
+    {
+      "level": 36,
+      "move": "Aqua Ring"
+    },
+    {
+      "level": 40,
+      "move": "Bounce"
+    },
+    {
+      "level": 44,
+      "move": "Take Down"
+    },
+    {
+      "level": 48,
+      "move": "Hydro Pump"
+    }
+  ]
+}

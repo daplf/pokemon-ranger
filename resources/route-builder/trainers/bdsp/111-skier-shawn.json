@@ -1,0 +1,120 @@
+{
+  "id": "trainer-id-111",
+  "trainerId": 111,
+  "game": "bdsp",
+  "name": "Skier Shawn",
+  "pokemon": [
+    {
+      "species": "Snover",
+      "level": 34,
+      "ability": "Snow Warning",
+      "moves": [
+        "Leer",
+        "Ice Shard",
+        "Razor Leaf",
+        "Icy Wind"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Snover",
+      "level": 33,
+      "ability": "Snow Warning",
+      "moves": [
+        "Mist",
+        "Ice Shard",
+        "Razor Leaf",
+        "Icy Wind"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Golduck",
+      "level": 34,
+      "ability": "Damp",
+      "moves": [
+        "Aqua Jet",
+        "Water Pulse",
+        "Zen Headbutt",
+        "Soak"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Snover",
+      "level": 35,
+      "ability": "Snow Warning",
+      "moves": [
+        "Ice Shard",
+        "Razor Leaf",
+        "Icy Wind",
+        "Ingrain"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

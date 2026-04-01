@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-263",
+  "trainerId": 263,
+  "game": "bdsp",
+  "name": "School Kid Forrest",
+  "pokemon": [
+    {
+      "species": "Mr. Mime",
+      "level": 44,
+      "ability": "Filter",
+      "moves": [
+        "Reflect",
+        "Dazzling Gleam",
+        "Thunderbolt",
+        "Energy Ball"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-514",
+  "trainerId": 514,
+  "game": "bdsp",
+  "name": "Pokémon Breeder Albert",
+  "pokemon": [
+    {
+      "species": "Sudowoodo",
+      "level": 37,
+      "ability": "Sturdy",
+      "moves": [
+        "Flail",
+        "Tearful Look",
+        "Sucker Punch",
+        "Low Kick"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Roselia",
+      "level": 38,
+      "ability": "Poison Point",
+      "moves": [
+        "Leech Seed",
+        "Magical Leaf",
+        "Giga Drain",
+        "Synthesis"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Pikachu",
+      "level": 36,
+      "ability": "Static",
+      "moves": [
+        "Nuzzle",
+        "Charm",
+        "Spark",
+        "Discharge"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

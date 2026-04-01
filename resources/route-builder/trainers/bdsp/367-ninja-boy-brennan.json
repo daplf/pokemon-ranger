@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-367",
+  "trainerId": 367,
+  "game": "bdsp",
+  "name": "Ninja Boy Brennan",
+  "pokemon": [
+    {
+      "species": "Zubat",
+      "level": 25,
+      "ability": "Inner Focus",
+      "moves": [
+        "Absorb",
+        "Astonish",
+        "Poison Fang",
+        "Air Cutter"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Skorupi",
+      "level": 25,
+      "ability": "Battle Armor",
+      "moves": [
+        "Hone Claws",
+        "Fell Stinger",
+        "Toxic Spikes",
+        "Knock Off"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

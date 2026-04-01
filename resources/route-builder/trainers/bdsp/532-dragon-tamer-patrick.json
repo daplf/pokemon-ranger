@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-532",
+  "trainerId": 532,
+  "game": "bdsp",
+  "name": "Dragon Tamer Patrick",
+  "pokemon": [
+    {
+      "species": "Gabite",
+      "level": 63,
+      "ability": "Sand Veil",
+      "moves": [
+        "Bite",
+        "Dragon Claw",
+        "Dig",
+        "Sandstorm"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

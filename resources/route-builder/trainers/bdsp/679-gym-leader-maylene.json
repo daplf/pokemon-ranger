@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-679",
+  "trainerId": 679,
+  "game": "bdsp",
+  "name": "Gym Leader Maylene",
+  "pokemon": [
+    {
+      "species": "Hitmontop",
+      "level": 64,
+      "item": "Expert Belt",
+      "moves": [
+        "Close Combat",
+        "Stone Edge",
+        "Sucker Punch",
+        "Brick Break"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Breloom",
+      "level": 66,
+      "item": "Life Orb",
+      "moves": [
+        "Bullet Seed",
+        "Mach Punch",
+        "Rock Tomb",
+        "Force Palm"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Heracross",
+      "level": 68,
+      "item": "Flame Orb",
+      "moves": [
+        "Megahorn",
+        "Close Combat",
+        "Facade",
+        "Stone Edge"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Infernape",
+      "level": 70,
+      "item": "White Herb",
+      "moves": [
+        "Flare Blitz",
+        "Close Combat",
+        "Acrobatics",
+        "Overheat"
+      ],
+      "nature": "Lonely",
+      "evs": {
+        "hp": 0,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Medicham",
+      "level": 72,
+      "item": "Choice Band",
+      "moves": [
+        "High Jump Kick",
+        "Zen Headbutt",
+        "Fire Punch",
+        "Thunder Punch"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Lucario",
+      "level": 74,
+      "item": "Focus Sash",
+      "moves": [
+        "Aura Sphere",
+        "Flash Cannon",
+        "Water Pulse",
+        "Vacuum Wave"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

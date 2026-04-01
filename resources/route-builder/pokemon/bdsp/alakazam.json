@@ -1,0 +1,83 @@
+{
+  "species": "Alakazam",
+  "game": "bdsp",
+  "types": [
+    "psychic"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 225,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 3,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 55,
+    "attack": 50,
+    "defense": 45,
+    "specialAttack": 135,
+    "specialDefense": 95,
+    "speed": 120
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Confusion"
+    },
+    {
+      "level": 1,
+      "move": "Disable"
+    },
+    {
+      "level": 1,
+      "move": "Kinesis"
+    },
+    {
+      "level": 1,
+      "move": "Teleport"
+    },
+    {
+      "level": 5,
+      "move": "Psybeam"
+    },
+    {
+      "level": 10,
+      "move": "Reflect"
+    },
+    {
+      "level": 15,
+      "move": "Ally Switch"
+    },
+    {
+      "level": 20,
+      "move": "Psycho Cut"
+    },
+    {
+      "level": 25,
+      "move": "Recover"
+    },
+    {
+      "level": 30,
+      "move": "Psyshock"
+    },
+    {
+      "level": 35,
+      "move": "Psychic"
+    },
+    {
+      "level": 40,
+      "move": "Role Play"
+    },
+    {
+      "level": 45,
+      "move": "Future Sight"
+    },
+    {
+      "level": 50,
+      "move": "Calm Mind"
+    }
+  ]
+}

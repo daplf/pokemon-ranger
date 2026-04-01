@@ -1,0 +1,69 @@
+{
+  "id": "trainer-id-260",
+  "trainerId": 260,
+  "game": "bdsp",
+  "name": "Sailor Skyler",
+  "prerequisites": {
+    "requiredHms": [
+      "surf"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Mantyke",
+      "level": 27,
+      "ability": "Water Absorb",
+      "moves": [
+        "Tackle",
+        "Supersonic",
+        "Wing Attack",
+        "Bubble Beam"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gyarados",
+      "level": 31,
+      "ability": "Intimidate",
+      "moves": [
+        "Leer",
+        "Ice Fang",
+        "Waterfall",
+        "Crunch"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

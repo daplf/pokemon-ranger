@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-567",
+  "trainerId": 567,
+  "game": "bdsp",
+  "name": "Gentleman Jeremy",
+  "pokemon": [
+    {
+      "species": "Chatot",
+      "level": 60,
+      "ability": "Tangled Feet",
+      "moves": [
+        "Hyper Voice",
+        "Chatter",
+        "Confide",
+        "Roost"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

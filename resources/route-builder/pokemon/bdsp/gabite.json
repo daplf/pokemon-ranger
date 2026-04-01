@@ -1,0 +1,80 @@
+{
+  "species": "Gabite",
+  "game": "bdsp",
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 144,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 68,
+    "attack": 90,
+    "defense": 65,
+    "specialAttack": 50,
+    "specialDefense": 55,
+    "speed": 82
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Dragon Breath"
+    },
+    {
+      "level": 1,
+      "move": "Dual Chop"
+    },
+    {
+      "level": 1,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 1,
+      "move": "Sand Tomb"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 18,
+      "move": "Bulldoze"
+    },
+    {
+      "level": 27,
+      "move": "Bite"
+    },
+    {
+      "level": 34,
+      "move": "Slash"
+    },
+    {
+      "level": 42,
+      "move": "Dragon Claw"
+    },
+    {
+      "level": 50,
+      "move": "Dig"
+    },
+    {
+      "level": 58,
+      "move": "Sandstorm"
+    },
+    {
+      "level": 66,
+      "move": "Take Down"
+    },
+    {
+      "level": 74,
+      "move": "Dragon Rush"
+    }
+  ]
+}

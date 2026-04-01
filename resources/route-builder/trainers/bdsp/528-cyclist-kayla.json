@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-528",
+  "trainerId": 528,
+  "game": "bdsp",
+  "name": "Cyclist Kayla",
+  "pokemon": [
+    {
+      "species": "Pikachu",
+      "level": 31,
+      "ability": "Static",
+      "moves": [
+        "Quick Attack",
+        "Tail Whip",
+        "Nuzzle",
+        "Spark"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

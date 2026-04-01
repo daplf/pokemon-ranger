@@ -1,0 +1,84 @@
+{
+  "species": "Xatu",
+  "game": "bdsp",
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 165,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 65,
+    "attack": 75,
+    "defense": 70,
+    "specialAttack": 95,
+    "specialDefense": 70,
+    "speed": 95
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Air Slash"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Peck"
+    },
+    {
+      "level": 1,
+      "move": "Stored Power"
+    },
+    {
+      "level": 1,
+      "move": "Tailwind"
+    },
+    {
+      "level": 1,
+      "move": "Teleport"
+    },
+    {
+      "level": 15,
+      "move": "Confuse Ray"
+    },
+    {
+      "level": 20,
+      "move": "Night Shade"
+    },
+    {
+      "level": 28,
+      "move": "Psycho Shift"
+    },
+    {
+      "level": 34,
+      "move": "Guard Swap"
+    },
+    {
+      "level": 34,
+      "move": "Power Swap"
+    },
+    {
+      "level": 41,
+      "move": "Psychic"
+    },
+    {
+      "level": 48,
+      "move": "Wish"
+    },
+    {
+      "level": 55,
+      "move": "Future Sight"
+    }
+  ]
+}

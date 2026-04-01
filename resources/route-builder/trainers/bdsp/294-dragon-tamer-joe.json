@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-294",
+  "trainerId": 294,
+  "game": "bdsp",
+  "name": "Dragon Tamer Joe",
+  "pokemon": [
+    {
+      "species": "Gabite",
+      "level": 56,
+      "ability": "Sand Veil",
+      "moves": [
+        "Sand Tomb",
+        "Bite",
+        "Dragon Claw",
+        "Dig"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gyarados",
+      "level": 56,
+      "ability": "Intimidate",
+      "moves": [
+        "Ice Fang",
+        "Waterfall",
+        "Crunch",
+        "Dragon Dance"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

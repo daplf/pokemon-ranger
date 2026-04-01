@@ -1,0 +1,7 @@
+{
+  "name": "Hydro Pump",
+  "game": "bdsp",
+  "type": "water",
+  "category": "special",
+  "power": 110
+}

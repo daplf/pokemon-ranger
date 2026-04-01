@@ -1,0 +1,88 @@
+{
+  "species": "Bastiodon",
+  "game": "bdsp",
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "growthRate": "erratic",
+  "baseExperience": 173,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 52,
+    "defense": 168,
+    "specialAttack": 47,
+    "specialDefense": 138,
+    "speed": 30
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Block"
+    },
+    {
+      "level": 1,
+      "move": "Metal Sound"
+    },
+    {
+      "level": 1,
+      "move": "Protect"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Taunt"
+    },
+    {
+      "level": 6,
+      "move": "Taunt"
+    },
+    {
+      "level": 10,
+      "move": "Metal Sound"
+    },
+    {
+      "level": 15,
+      "move": "Take Down"
+    },
+    {
+      "level": 19,
+      "move": "Iron Defense"
+    },
+    {
+      "level": 24,
+      "move": "Swagger"
+    },
+    {
+      "level": 28,
+      "move": "Ancient Power"
+    },
+    {
+      "level": 36,
+      "move": "Endure"
+    },
+    {
+      "level": 43,
+      "move": "Metal Burst"
+    },
+    {
+      "level": 51,
+      "move": "Iron Head"
+    },
+    {
+      "level": 58,
+      "move": "Heavy Slam"
+    }
+  ]
+}

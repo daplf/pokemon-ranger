@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-479",
+  "trainerId": 479,
+  "game": "bdsp",
+  "name": "Swimmer Lydia",
+  "pokemon": [
+    {
+      "species": "Bibarel",
+      "level": 52,
+      "ability": "Simple",
+      "moves": [
+        "Super Fang",
+        "Take Down",
+        "Amnesia",
+        "Aqua Jet"
+      ],
+      "nature": "Careful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Azumarill",
+      "level": 52,
+      "ability": "Thick Fat",
+      "moves": [
+        "Superpower",
+        "Aqua Tail",
+        "Double-Edge",
+        "Play Rough"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Sealeo",
+      "level": 52,
+      "ability": "Thick Fat",
+      "moves": [
+        "Surf",
+        "Blizzard",
+        "Rest",
+        "Snore"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

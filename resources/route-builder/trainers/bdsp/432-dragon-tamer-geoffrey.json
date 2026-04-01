@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-432",
+  "trainerId": 432,
+  "game": "bdsp",
+  "name": "Dragon Tamer Geoffrey",
+  "pokemon": [
+    {
+      "species": "Dratini",
+      "level": 53,
+      "ability": "Shed Skin",
+      "moves": [
+        "Dragon Rush",
+        "Dragon Dance",
+        "Outrage",
+        "Safeguard"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Dragonair",
+      "level": 55,
+      "ability": "Shed Skin",
+      "moves": [
+        "Dragon Rush",
+        "Dragon Dance",
+        "Aqua Tail",
+        "Safeguard"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

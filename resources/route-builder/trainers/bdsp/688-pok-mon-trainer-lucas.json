@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-688",
+  "trainerId": 688,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Lucas",
+  "pokemon": [
+    {
+      "species": "Absol",
+      "level": 68,
+      "item": "Razor Claw",
+      "moves": [
+        "Megahorn",
+        "Psycho Cut",
+        "Stone Edge",
+        "Night Slash"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Kabutops",
+      "level": 69,
+      "item": "Focus Sash",
+      "moves": [
+        "Rock Slide",
+        "Liquidation",
+        "Leech Life",
+        "Swords Dance"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Espeon",
+      "level": 70,
+      "item": "Life Orb",
+      "moves": [
+        "Psychic",
+        "Psyshock",
+        "Grass Knot",
+        "Dazzling Gleam"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Mow Rotom",
+      "level": 69,
+      "item": "Choice Specs",
+      "moves": [
+        "Leaf Storm",
+        "Thunderbolt",
+        "Volt Switch",
+        "Hex"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Porygon-Z",
+      "level": 70,
+      "item": "Silk Scarf",
+      "moves": [
+        "Tri Attack",
+        "Hyper Beam",
+        "Thunder Wave",
+        "Dark Pulse"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Infernape",
+      "level": 74,
+      "item": "White Herb",
+      "moves": [
+        "Earthquake",
+        "Close Combat",
+        "Flare Blitz",
+        "Acrobatics"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

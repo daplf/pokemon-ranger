@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-314",
+  "trainerId": 314,
+  "game": "bdsp",
+  "name": "Commander Saturn",
+  "pokemon": [
+    {
+      "species": "Kadabra",
+      "level": 38,
+      "item": "Damp Rock",
+      "moves": [
+        "Kinesis",
+        "Reflect",
+        "Psychic",
+        "Rain Dance"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 68,
+        "attack": 0,
+        "defense": 68,
+        "specialAttack": 0,
+        "specialDefense": 68,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 15,
+        "attack": 0,
+        "defense": 15,
+        "specialAttack": 0,
+        "specialDefense": 15,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Bronzor",
+      "level": 38,
+      "ability": "Levitate",
+      "moves": [
+        "Confuse Ray",
+        "Payback",
+        "Gyro Ball",
+        "Extrasensory"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 68,
+        "attack": 0,
+        "defense": 68,
+        "specialAttack": 0,
+        "specialDefense": 68,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 15,
+        "attack": 0,
+        "defense": 15,
+        "specialAttack": 0,
+        "specialDefense": 15,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Toxicroak",
+      "level": 40,
+      "ability": "Dry Skin",
+      "moves": [
+        "Mud-Slap",
+        "Toxic",
+        "Thief",
+        "Brick Break"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 68,
+        "attack": 0,
+        "defense": 68,
+        "specialAttack": 0,
+        "specialDefense": 68,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 15,
+        "attack": 0,
+        "defense": 15,
+        "specialAttack": 0,
+        "specialDefense": 15,
+        "speed": 0
+      }
+    }
+  ]
+}

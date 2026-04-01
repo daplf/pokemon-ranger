@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-311",
+  "trainerId": 311,
+  "game": "bdsp",
+  "name": "Commander Jupiter",
+  "pokemon": [
+    {
+      "species": "Zubat",
+      "level": 18,
+      "ability": "Inner Focus",
+      "moves": [
+        "Absorb",
+        "Supersonic",
+        "Mean Look",
+        "Poison Fang"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 68,
+        "attack": 0,
+        "defense": 68,
+        "specialAttack": 0,
+        "specialDefense": 68,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 15,
+        "attack": 0,
+        "defense": 15,
+        "specialAttack": 0,
+        "specialDefense": 15,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Skuntank",
+      "level": 20,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Flamethrower",
+        "Poison Gas",
+        "Acid Spray",
+        "Snarl"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 68,
+        "attack": 0,
+        "defense": 68,
+        "specialAttack": 0,
+        "specialDefense": 68,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 15,
+        "attack": 0,
+        "defense": 15,
+        "specialAttack": 0,
+        "specialDefense": 15,
+        "speed": 0
+      }
+    }
+  ]
+}

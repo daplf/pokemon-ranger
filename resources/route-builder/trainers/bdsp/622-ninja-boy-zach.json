@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-622",
+  "trainerId": 622,
+  "game": "bdsp",
+  "name": "Ninja Boy Zach",
+  "pokemon": [
+    {
+      "species": "Golbat",
+      "level": 51,
+      "ability": "Inner Focus",
+      "moves": [
+        "Screech",
+        "Astonish",
+        "Poison Fang",
+        "Bite"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Crobat",
+      "level": 52,
+      "ability": "Inner Focus",
+      "moves": [
+        "Tailwind",
+        "Cross Poison",
+        "Toxic",
+        "Bite"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Crobat",
+      "level": 53,
+      "ability": "Inner Focus",
+      "moves": [
+        "Absorb",
+        "Toxic",
+        "Air Cutter",
+        "Venoshock"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

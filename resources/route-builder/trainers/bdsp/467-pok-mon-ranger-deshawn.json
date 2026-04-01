@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-467",
+  "trainerId": 467,
+  "game": "bdsp",
+  "name": "Pokémon Ranger Deshawn",
+  "pokemon": [
+    {
+      "species": "Spinda",
+      "level": 55,
+      "ability": "Own Tempo",
+      "moves": [
+        "Psych Up",
+        "Double-Edge",
+        "Flail",
+        "Thrash"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Kecleon",
+      "level": 55,
+      "ability": "Color Change",
+      "moves": [
+        "Screech",
+        "Substitute",
+        "Sucker Punch",
+        "Shadow Claw"
+      ],
+      "nature": "Serious",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

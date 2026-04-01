@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-043",
+  "trainerId": 43,
+  "game": "bdsp",
+  "name": "Pokémon Breeder Jennifer",
+  "pokemon": [
+    {
+      "species": "Mime Jr.",
+      "level": 16,
+      "ability": "Filter",
+      "moves": [
+        "Pound",
+        "Copycat",
+        "Encore",
+        "Confusion"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Budew",
+      "level": 15,
+      "ability": "Poison Point",
+      "moves": [
+        "Absorb",
+        "Growth",
+        "Stun Spore",
+        "Worry Seed"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Cleffa",
+      "level": 17,
+      "ability": "Cute Charm",
+      "moves": [
+        "Pound",
+        "Sing",
+        "Sweet Kiss",
+        "Disarming Voice"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

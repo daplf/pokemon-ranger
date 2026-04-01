@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-670",
+  "trainerId": 670,
+  "game": "bdsp",
+  "name": "Worker Dillan",
+  "pokemon": [
+    {
+      "species": "Machop",
+      "level": 31,
+      "ability": "No Guard",
+      "moves": [
+        "Leer",
+        "Low Sweep",
+        "Knock Off",
+        "Strength"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machoke",
+      "level": 31,
+      "ability": "No Guard",
+      "moves": [
+        "Low Kick",
+        "Knock Off",
+        "Scary Face",
+        "Strength"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

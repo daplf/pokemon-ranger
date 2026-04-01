@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-499",
+  "trainerId": 499,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Dawn",
+  "pokemon": [
+    {
+      "species": "Clefairy",
+      "level": 25,
+      "ability": "Cute Charm",
+      "moves": [
+        "Sing",
+        "Disarming Voice",
+        "Growl",
+        "Life Dew"
+      ],
+      "nature": "Quiet",
+      "evs": {
+        "hp": 172,
+        "attack": 0,
+        "defense": 168,
+        "specialAttack": 0,
+        "specialDefense": 168,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Kadabra",
+      "level": 25,
+      "ability": "Synchronize",
+      "moves": [
+        "Kinesis",
+        "Psybeam",
+        "Reflect",
+        "Ally Switch"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 172,
+        "attack": 0,
+        "defense": 168,
+        "specialAttack": 0,
+        "specialDefense": 168,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Grotle",
+      "level": 28,
+      "ability": "Overgrow",
+      "moves": [
+        "Razor Leaf",
+        "Curse",
+        "Bite",
+        "Mega Drain"
+      ],
+      "nature": "Brave",
+      "evs": {
+        "hp": 172,
+        "attack": 0,
+        "defense": 168,
+        "specialAttack": 0,
+        "specialDefense": 168,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    }
+  ]
+}

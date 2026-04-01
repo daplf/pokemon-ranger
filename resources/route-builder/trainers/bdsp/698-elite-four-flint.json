@@ -1,0 +1,148 @@
+{
+  "id": "trainer-id-698",
+  "trainerId": 698,
+  "game": "bdsp",
+  "name": "Elite Four Flint",
+  "pokemon": [
+    {
+      "species": "Houndoom",
+      "level": 68,
+      "item": "Wise Glasses",
+      "moves": [
+        "Flamethrower",
+        "Dark Pulse",
+        "Destiny Bond",
+        "Nasty Plot"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 52,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 204
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Flareon",
+      "level": 71,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Flare Blitz",
+        "Flail",
+        "Will-O-Wisp",
+        "Quick Attack"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Rapidash",
+      "level": 69,
+      "item": "Wide Lens",
+      "moves": [
+        "Flare Blitz",
+        "Iron Tail",
+        "Poison Jab",
+        "Hypnosis"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 52,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 204
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Infernape",
+      "level": 71,
+      "item": "Focus Sash",
+      "moves": [
+        "Fire Punch",
+        "Thunder Punch",
+        "Close Combat",
+        "Mach Punch"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 52,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 204
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Magmortar",
+      "level": 73,
+      "item": "Lum Berry",
+      "moves": [
+        "Fire Blast",
+        "Thunderbolt",
+        "Focus Blast",
+        "Psychic"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 52,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 204
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

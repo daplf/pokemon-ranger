@@ -1,0 +1,87 @@
+{
+  "species": "Politoed",
+  "game": "bdsp",
+  "types": [
+    "water"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 225,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 3,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 90,
+    "attack": 75,
+    "defense": 75,
+    "specialAttack": 90,
+    "specialDefense": 100,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Belly Drum"
+    },
+    {
+      "level": 1,
+      "move": "Body Slam"
+    },
+    {
+      "level": 1,
+      "move": "Bounce"
+    },
+    {
+      "level": 1,
+      "move": "Bubble Beam"
+    },
+    {
+      "level": 1,
+      "move": "Double-Edge"
+    },
+    {
+      "level": 1,
+      "move": "Earth Power"
+    },
+    {
+      "level": 1,
+      "move": "Hydro Pump"
+    },
+    {
+      "level": 1,
+      "move": "Hyper Voice"
+    },
+    {
+      "level": 1,
+      "move": "Hypnosis"
+    },
+    {
+      "level": 1,
+      "move": "Mud Shot"
+    },
+    {
+      "level": 1,
+      "move": "Perish Song"
+    },
+    {
+      "level": 1,
+      "move": "Pound"
+    },
+    {
+      "level": 1,
+      "move": "Rain Dance"
+    },
+    {
+      "level": 1,
+      "move": "Swagger"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    }
+  ]
+}

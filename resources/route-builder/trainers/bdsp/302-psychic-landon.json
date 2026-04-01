@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-302",
+  "trainerId": 302,
+  "game": "bdsp",
+  "name": "Psychic Landon",
+  "pokemon": [
+    {
+      "species": "Mr. Mime",
+      "level": 56,
+      "ability": "Soundproof",
+      "moves": [
+        "Reflect",
+        "Dazzling Gleam",
+        "Psychic",
+        "Teeter Dance"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

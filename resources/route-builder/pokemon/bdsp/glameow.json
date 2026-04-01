@@ -1,0 +1,83 @@
+{
+  "species": "Glameow",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "fast",
+  "baseExperience": 62,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 49,
+    "attack": 55,
+    "defense": 42,
+    "specialAttack": 42,
+    "specialDefense": 37,
+    "speed": 85
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Fake Out"
+    },
+    {
+      "level": 5,
+      "move": "Scratch"
+    },
+    {
+      "level": 8,
+      "move": "Growl"
+    },
+    {
+      "level": 13,
+      "move": "Hypnosis"
+    },
+    {
+      "level": 17,
+      "move": "Aerial Ace"
+    },
+    {
+      "level": 20,
+      "move": "Fury Swipes"
+    },
+    {
+      "level": 25,
+      "move": "Charm"
+    },
+    {
+      "level": 29,
+      "move": "Taunt"
+    },
+    {
+      "level": 32,
+      "move": "Retaliate"
+    },
+    {
+      "level": 37,
+      "move": "Slash"
+    },
+    {
+      "level": 41,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 44,
+      "move": "Attract"
+    },
+    {
+      "level": 48,
+      "move": "Hone Claws"
+    },
+    {
+      "level": 50,
+      "move": "Play Rough"
+    }
+  ]
+}

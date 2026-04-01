@@ -1,0 +1,43 @@
+{
+  "species": "Tyrogue",
+  "game": "bdsp",
+  "types": [
+    "fighting"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 42,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 35,
+    "attack": 35,
+    "defense": 35,
+    "specialAttack": 35,
+    "specialDefense": 35,
+    "speed": 35
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Fake Out"
+    },
+    {
+      "level": 1,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 1,
+      "move": "Helping Hand"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    }
+  ]
+}

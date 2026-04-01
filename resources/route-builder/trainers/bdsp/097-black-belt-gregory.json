@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-097",
+  "trainerId": 97,
+  "game": "bdsp",
+  "name": "Black Belt Gregory",
+  "pokemon": [
+    {
+      "species": "Meditite",
+      "level": 23,
+      "ability": "Pure Power",
+      "moves": [
+        "Detect",
+        "Feint",
+        "Force Palm",
+        "Psybeam"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machop",
+      "level": 22,
+      "ability": "No Guard",
+      "moves": [
+        "Leer",
+        "Low Sweep",
+        "Knock Off",
+        "Scary Face"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Meditite",
+      "level": 21,
+      "ability": "Pure Power",
+      "moves": [
+        "Detect",
+        "Feint",
+        "Force Palm",
+        "Psybeam"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

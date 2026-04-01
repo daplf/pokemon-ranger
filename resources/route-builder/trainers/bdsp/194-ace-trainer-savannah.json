@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-194",
+  "trainerId": 194,
+  "game": "bdsp",
+  "name": "Ace Trainer Savannah",
+  "pokemon": [
+    {
+      "species": "Pelipper",
+      "level": 35,
+      "ability": "Drizzle",
+      "moves": [
+        "Tailwind",
+        "Wing Attack",
+        "Water Pulse",
+        "Ice Beam"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Golduck",
+      "level": 36,
+      "ability": "Damp",
+      "moves": [
+        "Aqua Jet",
+        "Zen Headbutt",
+        "Ice Beam",
+        "Dig"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Steelix",
+      "level": 37,
+      "ability": "Sturdy",
+      "moves": [
+        "Ice Fang",
+        "Screech",
+        "Iron Tail",
+        "Bulldoze"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

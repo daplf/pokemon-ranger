@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-646",
+  "trainerId": 646,
+  "game": "bdsp",
+  "name": "Tuber Jared",
+  "pokemon": [
+    {
+      "species": "Gastrodon (East Sea)",
+      "level": 52,
+      "ability": "Storm Drain",
+      "moves": [
+        "Mud-Slap",
+        "Recover",
+        "Water Pulse",
+        "Rain Dance"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gastrodon (East Sea)",
+      "level": 53,
+      "ability": "Storm Drain",
+      "moves": [
+        "Recover",
+        "Ancient Power",
+        "Muddy Water",
+        "Earth Power"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gastrodon",
+      "level": 51,
+      "ability": "Storm Drain",
+      "moves": [
+        "Recover",
+        "Body Slam",
+        "Muddy Water",
+        "Earth Power"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "trainer-id-005",
+  "trainerId": 5,
+  "game": "bdsp",
+  "name": "Youngster Tyler",
+  "prerequisites": {
+    "requiredHms": [
+      "rock-smash"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Magikarp",
+      "level": 5,
+      "ability": "Swift Swim",
+      "moves": [
+        "Splash"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Starly",
+      "level": 5,
+      "ability": "Keen Eye",
+      "moves": [
+        "Tackle",
+        "Growl",
+        "Quick Attack"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

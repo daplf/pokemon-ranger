@@ -1,0 +1,91 @@
+{
+  "species": "Machamp",
+  "game": "bdsp",
+  "types": [
+    "fighting"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 227,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 90,
+    "attack": 130,
+    "defense": 80,
+    "specialAttack": 65,
+    "specialDefense": 85,
+    "speed": 55
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Low Kick"
+    },
+    {
+      "level": 1,
+      "move": "Revenge"
+    },
+    {
+      "level": 1,
+      "move": "Wide Guard"
+    },
+    {
+      "level": 12,
+      "move": "Low Sweep"
+    },
+    {
+      "level": 16,
+      "move": "Knock Off"
+    },
+    {
+      "level": 20,
+      "move": "Scary Face"
+    },
+    {
+      "level": 24,
+      "move": "Vital Throw"
+    },
+    {
+      "level": 31,
+      "move": "Strength"
+    },
+    {
+      "level": 36,
+      "move": "Dual Chop"
+    },
+    {
+      "level": 42,
+      "move": "Bulk Up"
+    },
+    {
+      "level": 48,
+      "move": "Seismic Toss"
+    },
+    {
+      "level": 54,
+      "move": "Dynamic Punch"
+    },
+    {
+      "level": 60,
+      "move": "Cross Chop"
+    },
+    {
+      "level": 66,
+      "move": "Double-Edge"
+    }
+  ]
+}

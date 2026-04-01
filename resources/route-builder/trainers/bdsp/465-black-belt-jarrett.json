@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-465",
+  "trainerId": 465,
+  "game": "bdsp",
+  "name": "Black Belt Jarrett",
+  "pokemon": [
+    {
+      "species": "Machamp",
+      "level": 59,
+      "ability": "No Guard",
+      "moves": [
+        "Dynamic Punch",
+        "Bulk Up",
+        "Knock Off",
+        "Focus Energy"
+      ],
+      "nature": "Careful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

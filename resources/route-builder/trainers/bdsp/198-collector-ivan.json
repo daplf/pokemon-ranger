@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-198",
+  "trainerId": 198,
+  "game": "bdsp",
+  "name": "Collector Ivan",
+  "pokemon": [
+    {
+      "species": "Hippopotas",
+      "level": 28,
+      "ability": "Sand Stream",
+      "moves": [
+        "Yawn",
+        "Sand Tomb",
+        "Crunch",
+        "Take Down"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Hippopotas",
+      "level": 28,
+      "ability": "Sand Stream",
+      "moves": [
+        "Yawn",
+        "Sand Tomb",
+        "Crunch",
+        "Take Down"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Hippopotas",
+      "level": 34,
+      "ability": "Sand Stream",
+      "moves": [
+        "Yawn",
+        "Sand Tomb",
+        "Crunch",
+        "Take Down"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

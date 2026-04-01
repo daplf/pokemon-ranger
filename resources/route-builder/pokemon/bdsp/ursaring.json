@@ -1,0 +1,103 @@
+{
+  "species": "Ursaring",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 175,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 90,
+    "attack": 130,
+    "defense": 75,
+    "specialAttack": 75,
+    "specialDefense": 75,
+    "speed": 55
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Baby-Doll Eyes"
+    },
+    {
+      "level": 1,
+      "move": "Charm"
+    },
+    {
+      "level": 1,
+      "move": "Covet"
+    },
+    {
+      "level": 1,
+      "move": "Fake Tears"
+    },
+    {
+      "level": 1,
+      "move": "Fling"
+    },
+    {
+      "level": 1,
+      "move": "Hammer Arm"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Lick"
+    },
+    {
+      "level": 1,
+      "move": "Scratch"
+    },
+    {
+      "level": 8,
+      "move": "Fury Swipes"
+    },
+    {
+      "level": 15,
+      "move": "Payback"
+    },
+    {
+      "level": 22,
+      "move": "Sweet Scent"
+    },
+    {
+      "level": 25,
+      "move": "Play Nice"
+    },
+    {
+      "level": 29,
+      "move": "Slash"
+    },
+    {
+      "level": 38,
+      "move": "Scary Face"
+    },
+    {
+      "level": 47,
+      "move": "Rest"
+    },
+    {
+      "level": 49,
+      "move": "Snore"
+    },
+    {
+      "level": 58,
+      "move": "Thrash"
+    },
+    {
+      "level": 67,
+      "move": "Hammer Arm"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "species": "Slowbro",
+  "game": "bdsp",
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 172,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 95,
+    "attack": 75,
+    "defense": 110,
+    "specialAttack": 100,
+    "specialDefense": 80,
+    "speed": 30
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Curse"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 1,
+      "move": "Withdraw"
+    },
+    {
+      "level": 9,
+      "move": "Yawn"
+    },
+    {
+      "level": 12,
+      "move": "Confusion"
+    },
+    {
+      "level": 15,
+      "move": "Disable"
+    },
+    {
+      "level": 18,
+      "move": "Water Pulse"
+    },
+    {
+      "level": 21,
+      "move": "Headbutt"
+    },
+    {
+      "level": 24,
+      "move": "Zen Headbutt"
+    },
+    {
+      "level": 27,
+      "move": "Amnesia"
+    },
+    {
+      "level": 30,
+      "move": "Surf"
+    },
+    {
+      "level": 33,
+      "move": "Slack Off"
+    },
+    {
+      "level": 36,
+      "move": "Psychic"
+    },
+    {
+      "level": 41,
+      "move": "Psych Up"
+    },
+    {
+      "level": 46,
+      "move": "Rain Dance"
+    },
+    {
+      "level": 51,
+      "move": "Heal Pulse"
+    }
+  ]
+}

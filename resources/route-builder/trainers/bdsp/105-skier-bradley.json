@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-105",
+  "trainerId": 105,
+  "game": "bdsp",
+  "name": "Skier Bradley",
+  "pokemon": [
+    {
+      "species": "Geodude",
+      "level": 35,
+      "ability": "Rock Head",
+      "moves": [
+        "Harden",
+        "Stealth Rock",
+        "Rock Blast",
+        "Earthquake"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Graveler",
+      "level": 35,
+      "ability": "Sturdy",
+      "moves": [
+        "Harden",
+        "Bulldoze",
+        "Stealth Rock",
+        "Rock Blast"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Snover",
+      "level": 35,
+      "ability": "Snow Warning",
+      "moves": [
+        "Ice Shard",
+        "Razor Leaf",
+        "Icy Wind",
+        "Ingrain"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

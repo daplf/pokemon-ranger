@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-685",
+  "trainerId": 685,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Lucas",
+  "pokemon": [
+    {
+      "species": "Mothim",
+      "level": 58,
+      "item": "Focus Sash",
+      "moves": [
+        "Bug Buzz",
+        "Air Slash",
+        "Energy Ball",
+        "Quiver Dance"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Tangrowth",
+      "level": 59,
+      "item": "Lum Berry",
+      "moves": [
+        "Power Whip",
+        "Earthquake",
+        "Rock Slide",
+        "Brick Break"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Gallade",
+      "level": 63,
+      "item": "Life Orb",
+      "moves": [
+        "Psycho Cut",
+        "Close Combat",
+        "Stone Edge",
+        "Swords Dance"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Milotic",
+      "level": 59,
+      "item": "Flame Orb",
+      "moves": [
+        "Scald",
+        "Substitute",
+        "Calm Mind",
+        "Recover"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 128,
+        "specialAttack": 0,
+        "specialDefense": 128,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Clefable",
+      "level": 60,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Moonblast",
+        "Calm Mind",
+        "Moonlight",
+        "Minimize"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Infernape",
+      "level": 64,
+      "item": "White Herb",
+      "moves": [
+        "Earthquake",
+        "Close Combat",
+        "Flare Blitz",
+        "Acrobatics"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

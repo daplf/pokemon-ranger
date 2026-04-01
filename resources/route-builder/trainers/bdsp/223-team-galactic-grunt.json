@@ -1,0 +1,33 @@
+{
+  "id": "trainer-id-223",
+  "trainerId": 223,
+  "game": "bdsp",
+  "name": "Team Galactic Grunt",
+  "pokemon": [
+    {
+      "species": "Cascoon",
+      "level": 11,
+      "ability": "Shed Skin",
+      "moves": [
+        "Harden"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

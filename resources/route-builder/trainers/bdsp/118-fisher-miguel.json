@@ -1,0 +1,69 @@
+{
+  "id": "trainer-id-118",
+  "trainerId": 118,
+  "game": "bdsp",
+  "name": "Fisher Miguel",
+  "prerequisites": {
+    "requiredHms": [
+      "surf"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Gyarados",
+      "level": 29,
+      "ability": "Intimidate",
+      "moves": [
+        "Leer",
+        "Twister",
+        "Brine",
+        "Rain Dance"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gyarados",
+      "level": 29,
+      "ability": "Intimidate",
+      "moves": [
+        "Flail",
+        "Ice Fang",
+        "Waterfall",
+        "Crunch"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

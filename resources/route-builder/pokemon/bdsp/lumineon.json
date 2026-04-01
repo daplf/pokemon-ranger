@@ -1,0 +1,99 @@
+{
+  "species": "Lumineon",
+  "game": "bdsp",
+  "types": [
+    "water"
+  ],
+  "growthRate": "erratic",
+  "baseExperience": 161,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 2
+  },
+  "baseStats": {
+    "hp": 69,
+    "attack": 69,
+    "defense": 76,
+    "specialAttack": 69,
+    "specialDefense": 86,
+    "speed": 91
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Attract"
+    },
+    {
+      "level": 1,
+      "move": "Gust"
+    },
+    {
+      "level": 1,
+      "move": "Pound"
+    },
+    {
+      "level": 1,
+      "move": "Soak"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 6,
+      "move": "Water Gun"
+    },
+    {
+      "level": 10,
+      "move": "Attract"
+    },
+    {
+      "level": 13,
+      "move": "Rain Dance"
+    },
+    {
+      "level": 17,
+      "move": "Gust"
+    },
+    {
+      "level": 22,
+      "move": "Water Pulse"
+    },
+    {
+      "level": 26,
+      "move": "Flail"
+    },
+    {
+      "level": 29,
+      "move": "Safeguard"
+    },
+    {
+      "level": 35,
+      "move": "Aqua Ring"
+    },
+    {
+      "level": 42,
+      "move": "Whirlpool"
+    },
+    {
+      "level": 48,
+      "move": "U-turn"
+    },
+    {
+      "level": 53,
+      "move": "Bounce"
+    },
+    {
+      "level": 59,
+      "move": "Tailwind"
+    },
+    {
+      "level": 66,
+      "move": "Soak"
+    }
+  ]
+}

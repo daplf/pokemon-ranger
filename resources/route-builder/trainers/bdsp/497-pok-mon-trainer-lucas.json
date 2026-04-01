@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-497",
+  "trainerId": 497,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Lucas",
+  "pokemon": [
+    {
+      "species": "Clefairy",
+      "level": 25,
+      "ability": "Cute Charm",
+      "moves": [
+        "Sing",
+        "Disarming Voice",
+        "Growl",
+        "Life Dew"
+      ],
+      "nature": "Quiet",
+      "evs": {
+        "hp": 172,
+        "attack": 0,
+        "defense": 168,
+        "specialAttack": 0,
+        "specialDefense": 168,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Kadabra",
+      "level": 25,
+      "ability": "Synchronize",
+      "moves": [
+        "Kinesis",
+        "Psybeam",
+        "Reflect",
+        "Ally Switch"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 172,
+        "attack": 0,
+        "defense": 168,
+        "specialAttack": 0,
+        "specialDefense": 168,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Monferno",
+      "level": 28,
+      "ability": "Blaze",
+      "moves": [
+        "Mach Punch",
+        "Leer",
+        "Taunt",
+        "Flame Wheel"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 172,
+        "attack": 0,
+        "defense": 168,
+        "specialAttack": 0,
+        "specialDefense": 168,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    }
+  ]
+}

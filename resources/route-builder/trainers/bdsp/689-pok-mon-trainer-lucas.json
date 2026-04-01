@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-689",
+  "trainerId": 689,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Lucas",
+  "pokemon": [
+    {
+      "species": "Gliscor",
+      "level": 68,
+      "item": "Toxic Orb",
+      "moves": [
+        "Earthquake",
+        "Acrobatics",
+        "Fling",
+        "Roost"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 6,
+        "specialAttack": 0,
+        "specialDefense": 252,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Cradily",
+      "level": 69,
+      "item": "Big Root",
+      "moves": [
+        "Giga Drain",
+        "Leech Seed",
+        "Ingrain",
+        "Stockpile"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 128,
+        "specialAttack": 0,
+        "specialDefense": 128,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Glaceon",
+      "level": 70,
+      "item": "Leftovers",
+      "moves": [
+        "Freeze-Dry",
+        "Blizzard",
+        "Hail",
+        "Water Pulse"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Heat Rotom",
+      "level": 69,
+      "item": "Choice Specs",
+      "moves": [
+        "Overheat",
+        "Thunderbolt",
+        "Volt Switch",
+        "Hex"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Tauros",
+      "level": 70,
+      "item": "Life Orb",
+      "moves": [
+        "Hyper Beam",
+        "Blizzard",
+        "Fire Blast",
+        "Thunder"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Empoleon",
+      "level": 74,
+      "item": "Choice Band",
+      "moves": [
+        "Aqua Jet",
+        "Waterfall",
+        "Steel Wing",
+        "Earthquake"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 6,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

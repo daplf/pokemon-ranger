@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-416",
+  "trainerId": 416,
+  "game": "bdsp",
+  "name": "PI Kendrick",
+  "pokemon": [
+    {
+      "species": "Goldeen",
+      "level": 22,
+      "ability": "Swift Swim",
+      "moves": [
+        "Peck",
+        "Tail Whip",
+        "Water Pulse",
+        "Horn Attack"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Goldeen",
+      "level": 22,
+      "ability": "Swift Swim",
+      "moves": [
+        "Peck",
+        "Tail Whip",
+        "Water Pulse",
+        "Horn Attack"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

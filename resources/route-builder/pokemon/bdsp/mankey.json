@@ -1,0 +1,103 @@
+{
+  "species": "Mankey",
+  "game": "bdsp",
+  "types": [
+    "fighting"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 61,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 40,
+    "attack": 80,
+    "defense": 35,
+    "specialAttack": 35,
+    "specialDefense": 45,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Covet"
+    },
+    {
+      "level": 1,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Low Kick"
+    },
+    {
+      "level": 1,
+      "move": "Scratch"
+    },
+    {
+      "level": 5,
+      "move": "Fury Swipes"
+    },
+    {
+      "level": 8,
+      "move": "Mud-Slap"
+    },
+    {
+      "level": 12,
+      "move": "Seismic Toss"
+    },
+    {
+      "level": 15,
+      "move": "Retaliate"
+    },
+    {
+      "level": 19,
+      "move": "Swagger"
+    },
+    {
+      "level": 22,
+      "move": "Cross Chop"
+    },
+    {
+      "level": 26,
+      "move": "Assurance"
+    },
+    {
+      "level": 29,
+      "move": "Skull Bash"
+    },
+    {
+      "level": 33,
+      "move": "Thrash"
+    },
+    {
+      "level": 36,
+      "move": "Close Combat"
+    },
+    {
+      "level": 40,
+      "move": "Screech"
+    },
+    {
+      "level": 43,
+      "move": "Stomping Tantrum"
+    },
+    {
+      "level": 47,
+      "move": "Outrage"
+    },
+    {
+      "level": 50,
+      "move": "Final Gambit"
+    }
+  ]
+}

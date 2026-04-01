@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-475",
+  "trainerId": 475,
+  "game": "bdsp",
+  "name": "Swimmer Wade",
+  "pokemon": [
+    {
+      "species": "Carvanha",
+      "level": 51,
+      "ability": "Rough Skin",
+      "moves": [
+        "Crunch",
+        "Aqua Jet",
+        "Agility",
+        "Take Down"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Carvanha",
+      "level": 51,
+      "ability": "Rough Skin",
+      "moves": [
+        "Crunch",
+        "Aqua Jet",
+        "Agility",
+        "Take Down"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Sharpedo",
+      "level": 54,
+      "ability": "Rough Skin",
+      "moves": [
+        "Crunch",
+        "Aqua Jet",
+        "Agility",
+        "Ice Fang"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

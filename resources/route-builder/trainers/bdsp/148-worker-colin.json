@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-148",
+  "trainerId": 148,
+  "game": "bdsp",
+  "name": "Worker Colin",
+  "pokemon": [
+    {
+      "species": "Geodude",
+      "level": 7,
+      "ability": "Rock Head",
+      "moves": [
+        "Tackle",
+        "Defense Curl",
+        "Sandstorm",
+        "Rock Polish"
+      ],
+      "nature": "Quirky",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Onix",
+      "level": 7,
+      "ability": "Rock Head",
+      "moves": [
+        "Tackle",
+        "Harden",
+        "Bind",
+        "Rock Throw"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

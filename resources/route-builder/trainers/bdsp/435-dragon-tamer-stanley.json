@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-435",
+  "trainerId": 435,
+  "game": "bdsp",
+  "name": "Dragon Tamer Stanley",
+  "pokemon": [
+    {
+      "species": "Seadra",
+      "level": 56,
+      "ability": "Poison Point",
+      "moves": [
+        "Dragon Pulse",
+        "Hydro Pump",
+        "Agility",
+        "Focus Energy"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gyarados",
+      "level": 56,
+      "ability": "Intimidate",
+      "moves": [
+        "Dragon Dance",
+        "Hyper Beam",
+        "Waterfall",
+        "Thrash"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

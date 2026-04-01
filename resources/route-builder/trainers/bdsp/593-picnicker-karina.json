@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-593",
+  "trainerId": 593,
+  "game": "bdsp",
+  "name": "Picnicker Karina",
+  "pokemon": [
+    {
+      "species": "Prinplup",
+      "level": 31,
+      "ability": "Torrent",
+      "moves": [
+        "Peck",
+        "Metal Claw",
+        "Bubble Beam",
+        "Fury Attack"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

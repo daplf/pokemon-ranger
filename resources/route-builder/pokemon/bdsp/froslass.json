@@ -1,0 +1,112 @@
+{
+  "species": "Froslass",
+  "game": "bdsp",
+  "types": [
+    "ice",
+    "ghost"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 168,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 2
+  },
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 70,
+    "specialAttack": 80,
+    "specialDefense": 70,
+    "speed": 110
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Astonish"
+    },
+    {
+      "level": 1,
+      "move": "Bite"
+    },
+    {
+      "level": 1,
+      "move": "Crunch"
+    },
+    {
+      "level": 1,
+      "move": "Destiny Bond"
+    },
+    {
+      "level": 1,
+      "move": "Double Team"
+    },
+    {
+      "level": 1,
+      "move": "Headbutt"
+    },
+    {
+      "level": 1,
+      "move": "Hex"
+    },
+    {
+      "level": 1,
+      "move": "Ice Fang"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Powder Snow"
+    },
+    {
+      "level": 1,
+      "move": "Protect"
+    },
+    {
+      "level": 15,
+      "move": "Ice Shard"
+    },
+    {
+      "level": 20,
+      "move": "Draining Kiss"
+    },
+    {
+      "level": 25,
+      "move": "Icy Wind"
+    },
+    {
+      "level": 30,
+      "move": "Frost Breath"
+    },
+    {
+      "level": 35,
+      "move": "Confuse Ray"
+    },
+    {
+      "level": 40,
+      "move": "Hail"
+    },
+    {
+      "level": 47,
+      "move": "Will-O-Wisp"
+    },
+    {
+      "level": 54,
+      "move": "Aurora Veil"
+    },
+    {
+      "level": 61,
+      "move": "Shadow Ball"
+    },
+    {
+      "level": 68,
+      "move": "Blizzard"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "species": "Burmy",
+  "game": "bdsp",
+  "types": [
+    "bug"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 45,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 1,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 40,
+    "attack": 29,
+    "defense": 45,
+    "specialAttack": 29,
+    "specialDefense": 45,
+    "speed": 36
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Protect"
+    },
+    {
+      "level": 10,
+      "move": "Tackle"
+    },
+    {
+      "level": 15,
+      "move": "Bug Bite"
+    },
+    {
+      "level": 20,
+      "move": "String Shot"
+    }
+  ]
+}

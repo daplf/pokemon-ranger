@@ -1,0 +1,87 @@
+{
+  "species": "Stantler",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 163,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 73,
+    "attack": 95,
+    "defense": 62,
+    "specialAttack": 85,
+    "specialDefense": 65,
+    "speed": 85
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 3,
+      "move": "Leer"
+    },
+    {
+      "level": 7,
+      "move": "Astonish"
+    },
+    {
+      "level": 10,
+      "move": "Hypnosis"
+    },
+    {
+      "level": 13,
+      "move": "Stomp"
+    },
+    {
+      "level": 16,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 21,
+      "move": "Take Down"
+    },
+    {
+      "level": 23,
+      "move": "Confuse Ray"
+    },
+    {
+      "level": 27,
+      "move": "Calm Mind"
+    },
+    {
+      "level": 33,
+      "move": "Role Play"
+    },
+    {
+      "level": 38,
+      "move": "Zen Headbutt"
+    },
+    {
+      "level": 43,
+      "move": "Lunge"
+    },
+    {
+      "level": 49,
+      "move": "Imprison"
+    },
+    {
+      "level": 50,
+      "move": "Entrainment"
+    },
+    {
+      "level": 55,
+      "move": "Double-Edge"
+    }
+  ]
+}

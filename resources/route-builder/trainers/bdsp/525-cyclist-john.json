@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-525",
+  "trainerId": 525,
+  "game": "bdsp",
+  "name": "Cyclist John",
+  "pokemon": [
+    {
+      "species": "Staravia",
+      "level": 28,
+      "ability": "Intimidate",
+      "moves": [
+        "Growl",
+        "Double Team",
+        "Endeavor",
+        "Aerial Ace"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Staravia",
+      "level": 30,
+      "ability": "Intimidate",
+      "moves": [
+        "Quick Attack",
+        "Double Team",
+        "Endeavor",
+        "Aerial Ace"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-388",
+  "trainerId": 388,
+  "game": "bdsp",
+  "name": "Team Galactic Grunt",
+  "pokemon": [
+    {
+      "species": "Bronzor",
+      "level": 39,
+      "ability": "Heatproof",
+      "moves": [
+        "Confuse Ray",
+        "Extrasensory",
+        "Heavy Slam",
+        "Iron Defense"
+      ],
+      "nature": "Serious",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

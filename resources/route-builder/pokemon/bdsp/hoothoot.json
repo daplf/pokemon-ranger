@@ -1,0 +1,88 @@
+{
+  "species": "Hoothoot",
+  "game": "bdsp",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 52,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 30,
+    "defense": 30,
+    "specialAttack": 36,
+    "specialDefense": 56,
+    "speed": 50
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Peck"
+    },
+    {
+      "level": 3,
+      "move": "Tackle"
+    },
+    {
+      "level": 6,
+      "move": "Echoed Voice"
+    },
+    {
+      "level": 9,
+      "move": "Confusion"
+    },
+    {
+      "level": 12,
+      "move": "Reflect"
+    },
+    {
+      "level": 15,
+      "move": "Psycho Shift"
+    },
+    {
+      "level": 18,
+      "move": "Air Slash"
+    },
+    {
+      "level": 21,
+      "move": "Extrasensory"
+    },
+    {
+      "level": 24,
+      "move": "Take Down"
+    },
+    {
+      "level": 27,
+      "move": "Uproar"
+    },
+    {
+      "level": 30,
+      "move": "Roost"
+    },
+    {
+      "level": 33,
+      "move": "Moonblast"
+    },
+    {
+      "level": 36,
+      "move": "Hypnosis"
+    },
+    {
+      "level": 39,
+      "move": "Dream Eater"
+    }
+  ]
+}

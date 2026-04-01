@@ -1,0 +1,35 @@
+{
+  "id": "trainer-id-184",
+  "trainerId": 184,
+  "game": "bdsp",
+  "name": "Aroma Lady Angela",
+  "pokemon": [
+    {
+      "species": "Turtwig",
+      "level": 17,
+      "ability": "Overgrow",
+      "moves": [
+        "Tackle",
+        "Iron Tail",
+        "Bullet Seed"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

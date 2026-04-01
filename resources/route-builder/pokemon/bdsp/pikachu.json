@@ -1,0 +1,107 @@
+{
+  "species": "Pikachu",
+  "game": "bdsp",
+  "types": [
+    "electric"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 112,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 2
+  },
+  "baseStats": {
+    "hp": 35,
+    "attack": 55,
+    "defense": 40,
+    "specialAttack": 50,
+    "specialDefense": 50,
+    "speed": 90
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Charm"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Nasty Plot"
+    },
+    {
+      "level": 1,
+      "move": "Nuzzle"
+    },
+    {
+      "level": 1,
+      "move": "Play Nice"
+    },
+    {
+      "level": 1,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 1,
+      "move": "Sweet Kiss"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Shock"
+    },
+    {
+      "level": 4,
+      "move": "Thunder Wave"
+    },
+    {
+      "level": 8,
+      "move": "Double Team"
+    },
+    {
+      "level": 12,
+      "move": "Electro Ball"
+    },
+    {
+      "level": 16,
+      "move": "Feint"
+    },
+    {
+      "level": 20,
+      "move": "Spark"
+    },
+    {
+      "level": 24,
+      "move": "Agility"
+    },
+    {
+      "level": 28,
+      "move": "Slam"
+    },
+    {
+      "level": 32,
+      "move": "Discharge"
+    },
+    {
+      "level": 36,
+      "move": "Thunderbolt"
+    },
+    {
+      "level": 40,
+      "move": "Light Screen"
+    },
+    {
+      "level": 44,
+      "move": "Thunder"
+    }
+  ]
+}

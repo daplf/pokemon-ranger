@@ -1,0 +1,71 @@
+{
+  "species": "Shellos",
+  "game": "bdsp",
+  "types": [
+    "water"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 65,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 76,
+    "attack": 48,
+    "defense": 48,
+    "specialAttack": 57,
+    "specialDefense": 62,
+    "speed": 34
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Mud-Slap"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 5,
+      "move": "Harden"
+    },
+    {
+      "level": 10,
+      "move": "Recover"
+    },
+    {
+      "level": 15,
+      "move": "Water Pulse"
+    },
+    {
+      "level": 20,
+      "move": "Ancient Power"
+    },
+    {
+      "level": 25,
+      "move": "Body Slam"
+    },
+    {
+      "level": 31,
+      "move": "Muddy Water"
+    },
+    {
+      "level": 35,
+      "move": "Earth Power"
+    },
+    {
+      "level": 40,
+      "move": "Rain Dance"
+    },
+    {
+      "level": 45,
+      "move": "Memento"
+    }
+  ]
+}

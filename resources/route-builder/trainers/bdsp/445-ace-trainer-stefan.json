@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-445",
+  "trainerId": 445,
+  "game": "bdsp",
+  "name": "Ace Trainer Stefan",
+  "pokemon": [
+    {
+      "species": "Larvitar",
+      "level": 57,
+      "ability": "Guts",
+      "moves": [
+        "Stone Edge",
+        "Earthquake",
+        "Crunch",
+        "Scary Face"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Magcargo",
+      "level": 57,
+      "ability": "Flame Body",
+      "moves": [
+        "Flamethrower",
+        "Ancient Power",
+        "Clear Smog",
+        "Body Slam"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

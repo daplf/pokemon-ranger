@@ -1,0 +1,62 @@
+{
+  "id": "trainer-id-246",
+  "trainerId": 246,
+  "game": "bdsp",
+  "name": "Lass Madeline",
+  "pokemon": [
+    {
+      "species": "Starly",
+      "level": 5,
+      "ability": "Keen Eye",
+      "moves": [
+        "Tackle",
+        "Growl",
+        "Quick Attack"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Bidoof",
+      "level": 5,
+      "ability": "Unaware",
+      "moves": [
+        "Tackle",
+        "Growl",
+        "Defense Curl"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

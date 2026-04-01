@@ -1,0 +1,107 @@
+{
+  "species": "Dusknoir",
+  "game": "bdsp",
+  "types": [
+    "ghost"
+  ],
+  "growthRate": "fast",
+  "baseExperience": 236,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 1,
+    "specialAttack": 0,
+    "specialDefense": 2,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 45,
+    "attack": 100,
+    "defense": 135,
+    "specialAttack": 65,
+    "specialDefense": 135,
+    "speed": 45
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Astonish"
+    },
+    {
+      "level": 1,
+      "move": "Bind"
+    },
+    {
+      "level": 1,
+      "move": "Disable"
+    },
+    {
+      "level": 1,
+      "move": "Fire Punch"
+    },
+    {
+      "level": 1,
+      "move": "Gravity"
+    },
+    {
+      "level": 1,
+      "move": "Ice Punch"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Shadow Punch"
+    },
+    {
+      "level": 1,
+      "move": "Shadow Sneak"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Punch"
+    },
+    {
+      "level": 12,
+      "move": "Confuse Ray"
+    },
+    {
+      "level": 16,
+      "move": "Night Shade"
+    },
+    {
+      "level": 20,
+      "move": "Payback"
+    },
+    {
+      "level": 24,
+      "move": "Will-O-Wisp"
+    },
+    {
+      "level": 28,
+      "move": "Mean Look"
+    },
+    {
+      "level": 32,
+      "move": "Hex"
+    },
+    {
+      "level": 36,
+      "move": "Curse"
+    },
+    {
+      "level": 42,
+      "move": "Shadow Ball"
+    },
+    {
+      "level": 48,
+      "move": "Future Sight"
+    },
+    {
+      "level": 54,
+      "move": "Destiny Bond"
+    }
+  ]
+}

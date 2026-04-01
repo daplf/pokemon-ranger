@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-217",
+  "trainerId": 217,
+  "game": "bdsp",
+  "name": "Fisher Erick",
+  "pokemon": [
+    {
+      "species": "Goldeen",
+      "level": 22,
+      "ability": "Water Veil",
+      "moves": [
+        "Peck",
+        "Water Pulse",
+        "Rain Dance",
+        "Poison Jab"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Barboach",
+      "level": 23,
+      "ability": "Hydration",
+      "moves": [
+        "Mud-Slap",
+        "Water Pulse",
+        "Rock Tomb",
+        "Bulldoze"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gyarados",
+      "level": 24,
+      "ability": "Intimidate",
+      "moves": [
+        "Whirlpool",
+        "Scary Face",
+        "Substitute",
+        "Scald"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

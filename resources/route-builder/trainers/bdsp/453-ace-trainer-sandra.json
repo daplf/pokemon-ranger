@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-453",
+  "trainerId": 453,
+  "game": "bdsp",
+  "name": "Ace Trainer Sandra",
+  "pokemon": [
+    {
+      "species": "Granbull",
+      "level": 57,
+      "ability": "Intimidate",
+      "moves": [
+        "Payback",
+        "Play Rough",
+        "Outrage",
+        "Scary Face"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

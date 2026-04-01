@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-393",
+  "trainerId": 393,
+  "game": "bdsp",
+  "name": "Team Galactic Grunt",
+  "pokemon": [
+    {
+      "species": "Bronzor",
+      "level": 37,
+      "ability": "Heatproof",
+      "moves": [
+        "Confuse Ray",
+        "Payback",
+        "Extrasensory",
+        "Iron Defense"
+      ],
+      "nature": "Serious",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Golbat",
+      "level": 37,
+      "ability": "Inner Focus",
+      "moves": [
+        "Screech",
+        "Astonish",
+        "Poison Fang",
+        "Bite"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

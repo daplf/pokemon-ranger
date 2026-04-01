@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-265",
+  "trainerId": 265,
+  "game": "bdsp",
+  "name": "School Kid Mackenzie",
+  "pokemon": [
+    {
+      "species": "Drifloon",
+      "level": 28,
+      "ability": "Aftermath",
+      "moves": [
+        "Gust",
+        "Stockpile",
+        "Swallow",
+        "Spit Up"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Drifloon",
+      "level": 28,
+      "ability": "Flare Boost",
+      "moves": [
+        "Minimize",
+        "Focus Energy",
+        "Payback",
+        "Shadow Ball"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

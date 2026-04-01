@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-464",
+  "trainerId": 464,
+  "game": "bdsp",
+  "name": "Black Belt Ray",
+  "pokemon": [
+    {
+      "species": "Tyrogue",
+      "level": 53,
+      "ability": "Steadfast",
+      "moves": [
+        "Tackle",
+        "Helping Hand",
+        "Fake Out",
+        "Focus Energy"
+      ],
+      "nature": "Serious",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Marowak",
+      "level": 57,
+      "ability": "Rock Head",
+      "moves": [
+        "Bonemerang",
+        "Bone Rush",
+        "Thrash",
+        "Stomping Tantrum"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Breloom",
+      "level": 58,
+      "ability": "Poison Heal",
+      "moves": [
+        "Spore",
+        "Drain Punch",
+        "Leech Seed",
+        "Mach Punch"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

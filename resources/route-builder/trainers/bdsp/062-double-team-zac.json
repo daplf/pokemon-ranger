@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-062",
+  "trainerId": 62,
+  "game": "bdsp",
+  "name": "Double Team Zac",
+  "pokemon": [
+    {
+      "species": "Gyarados",
+      "level": 27,
+      "ability": "Intimidate",
+      "moves": [
+        "Leer",
+        "Twister",
+        "Waterfall",
+        "Crunch"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

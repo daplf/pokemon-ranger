@@ -1,0 +1,39 @@
+{
+  "species": "Magikarp",
+  "game": "bdsp",
+  "types": [
+    "water"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 40,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 55,
+    "specialAttack": 15,
+    "specialDefense": 20,
+    "speed": 80
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Splash"
+    },
+    {
+      "level": 15,
+      "move": "Tackle"
+    },
+    {
+      "level": 25,
+      "move": "Flail"
+    }
+  ]
+}

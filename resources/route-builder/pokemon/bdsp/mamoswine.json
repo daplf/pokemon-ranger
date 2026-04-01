@@ -1,0 +1,92 @@
+{
+  "species": "Mamoswine",
+  "game": "bdsp",
+  "types": [
+    "ice",
+    "ground"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 239,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 110,
+    "attack": 130,
+    "defense": 80,
+    "specialAttack": 70,
+    "specialDefense": 60,
+    "speed": 80
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Ancient Power"
+    },
+    {
+      "level": 1,
+      "move": "Double Hit"
+    },
+    {
+      "level": 1,
+      "move": "Flail"
+    },
+    {
+      "level": 1,
+      "move": "Ice Fang"
+    },
+    {
+      "level": 1,
+      "move": "Mud-Slap"
+    },
+    {
+      "level": 1,
+      "move": "Powder Snow"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 15,
+      "move": "Ice Shard"
+    },
+    {
+      "level": 20,
+      "move": "Mist"
+    },
+    {
+      "level": 25,
+      "move": "Endure"
+    },
+    {
+      "level": 30,
+      "move": "Icy Wind"
+    },
+    {
+      "level": 37,
+      "move": "Amnesia"
+    },
+    {
+      "level": 44,
+      "move": "Take Down"
+    },
+    {
+      "level": 51,
+      "move": "Earthquake"
+    },
+    {
+      "level": 58,
+      "move": "Blizzard"
+    },
+    {
+      "level": 65,
+      "move": "Thrash"
+    }
+  ]
+}

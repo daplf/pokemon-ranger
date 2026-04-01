@@ -1,0 +1,80 @@
+{
+  "species": "Wash Rotom",
+  "game": "bdsp",
+  "types": [
+    "electric",
+    "water"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 182,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 107,
+    "specialAttack": 105,
+    "specialDefense": 107,
+    "speed": 86
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Astonish"
+    },
+    {
+      "level": 1,
+      "move": "Double Team"
+    },
+    {
+      "level": 5,
+      "move": "Thunder Shock"
+    },
+    {
+      "level": 10,
+      "move": "Confuse Ray"
+    },
+    {
+      "level": 15,
+      "move": "Charge"
+    },
+    {
+      "level": 20,
+      "move": "Electro Ball"
+    },
+    {
+      "level": 25,
+      "move": "Thunder Wave"
+    },
+    {
+      "level": 30,
+      "move": "Shock Wave"
+    },
+    {
+      "level": 35,
+      "move": "Hex"
+    },
+    {
+      "level": 40,
+      "move": "Substitute"
+    },
+    {
+      "level": 45,
+      "move": "Trick"
+    },
+    {
+      "level": 50,
+      "move": "Discharge"
+    },
+    {
+      "level": 55,
+      "move": "Uproar"
+    }
+  ]
+}

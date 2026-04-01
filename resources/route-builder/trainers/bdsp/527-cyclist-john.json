@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-527",
+  "trainerId": 527,
+  "game": "bdsp",
+  "name": "Cyclist John",
+  "pokemon": [
+    {
+      "species": "Staraptor",
+      "level": 58,
+      "ability": "Intimidate",
+      "moves": [
+        "Growl",
+        "Take Down",
+        "Brave Bird",
+        "Final Gambit"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Staraptor",
+      "level": 58,
+      "ability": "Intimidate",
+      "moves": [
+        "Quick Attack",
+        "Close Combat",
+        "Take Down",
+        "Brave Bird"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

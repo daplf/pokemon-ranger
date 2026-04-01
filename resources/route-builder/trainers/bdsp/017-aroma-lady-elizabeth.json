@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-017",
+  "trainerId": 17,
+  "game": "bdsp",
+  "name": "Aroma Lady Elizabeth",
+  "pokemon": [
+    {
+      "species": "Budew",
+      "level": 14,
+      "ability": "Poison Point",
+      "moves": [
+        "Absorb",
+        "Growth",
+        "Stun Spore",
+        "Worry Seed"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

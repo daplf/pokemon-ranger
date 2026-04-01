@@ -1,0 +1,111 @@
+{
+  "species": "Primeape",
+  "game": "bdsp",
+  "types": [
+    "fighting"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 159,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 65,
+    "attack": 105,
+    "defense": 60,
+    "specialAttack": 60,
+    "specialDefense": 70,
+    "speed": 95
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Covet"
+    },
+    {
+      "level": 1,
+      "move": "Final Gambit"
+    },
+    {
+      "level": 1,
+      "move": "Fling"
+    },
+    {
+      "level": 1,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Low Kick"
+    },
+    {
+      "level": 1,
+      "move": "Scratch"
+    },
+    {
+      "level": 5,
+      "move": "Fury Swipes"
+    },
+    {
+      "level": 8,
+      "move": "Mud-Slap"
+    },
+    {
+      "level": 12,
+      "move": "Seismic Toss"
+    },
+    {
+      "level": 15,
+      "move": "Retaliate"
+    },
+    {
+      "level": 19,
+      "move": "Swagger"
+    },
+    {
+      "level": 22,
+      "move": "Cross Chop"
+    },
+    {
+      "level": 26,
+      "move": "Assurance"
+    },
+    {
+      "level": 30,
+      "move": "Skull Bash"
+    },
+    {
+      "level": 35,
+      "move": "Thrash"
+    },
+    {
+      "level": 39,
+      "move": "Close Combat"
+    },
+    {
+      "level": 44,
+      "move": "Screech"
+    },
+    {
+      "level": 48,
+      "move": "Stomping Tantrum"
+    },
+    {
+      "level": 53,
+      "move": "Outrage"
+    },
+    {
+      "level": 57,
+      "move": "Final Gambit"
+    }
+  ]
+}

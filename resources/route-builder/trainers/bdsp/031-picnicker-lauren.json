@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-031",
+  "trainerId": 31,
+  "game": "bdsp",
+  "name": "Picnicker Lauren",
+  "pokemon": [
+    {
+      "species": "Pachirisu",
+      "level": 19,
+      "ability": "Pickup",
+      "moves": [
+        "Baby-Doll Eyes",
+        "Quick Attack",
+        "Spark",
+        "Nuzzle"
+      ],
+      "nature": "Quirky",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

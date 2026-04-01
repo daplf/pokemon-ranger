@@ -1,0 +1,80 @@
+{
+  "species": "Bronzor",
+  "game": "bdsp",
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 60,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 1,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 57,
+    "attack": 24,
+    "defense": 86,
+    "specialAttack": 24,
+    "specialDefense": 86,
+    "speed": 23
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Confusion"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 4,
+      "move": "Confuse Ray"
+    },
+    {
+      "level": 8,
+      "move": "Payback"
+    },
+    {
+      "level": 12,
+      "move": "Imprison"
+    },
+    {
+      "level": 16,
+      "move": "Gyro Ball"
+    },
+    {
+      "level": 20,
+      "move": "Hypnosis"
+    },
+    {
+      "level": 24,
+      "move": "Safeguard"
+    },
+    {
+      "level": 28,
+      "move": "Extrasensory"
+    },
+    {
+      "level": 32,
+      "move": "Heavy Slam"
+    },
+    {
+      "level": 36,
+      "move": "Iron Defense"
+    },
+    {
+      "level": 40,
+      "move": "Metal Sound"
+    },
+    {
+      "level": 44,
+      "move": "Future Sight"
+    }
+  ]
+}

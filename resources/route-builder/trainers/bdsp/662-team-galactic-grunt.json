@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-662",
+  "trainerId": 662,
+  "game": "bdsp",
+  "name": "Team Galactic Grunt",
+  "pokemon": [
+    {
+      "species": "Glameow",
+      "level": 32,
+      "ability": "Limber",
+      "moves": [
+        "Growl",
+        "Aerial Ace",
+        "Fury Swipes",
+        "Retaliate"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Stunky",
+      "level": 32,
+      "ability": "Aftermath",
+      "moves": [
+        "Poison Gas",
+        "Bite",
+        "Venoshock",
+        "Toxic"
+      ],
+      "nature": "Serious",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Croagunk",
+      "level": 32,
+      "ability": "Anticipation",
+      "moves": [
+        "Taunt",
+        "Venoshock",
+        "Sucker Punch",
+        "Poison Jab"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

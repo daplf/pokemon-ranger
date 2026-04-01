@@ -1,0 +1,92 @@
+{
+  "species": "Girafarig",
+  "game": "bdsp",
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 159,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 2,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 65,
+    "specialAttack": 90,
+    "specialDefense": 65,
+    "speed": 85
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Astonish"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Guard Swap"
+    },
+    {
+      "level": 1,
+      "move": "Power Swap"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 5,
+      "move": "Confusion"
+    },
+    {
+      "level": 10,
+      "move": "Assurance"
+    },
+    {
+      "level": 14,
+      "move": "Stomp"
+    },
+    {
+      "level": 19,
+      "move": "Psybeam"
+    },
+    {
+      "level": 23,
+      "move": "Agility"
+    },
+    {
+      "level": 28,
+      "move": "Double Hit"
+    },
+    {
+      "level": 32,
+      "move": "Zen Headbutt"
+    },
+    {
+      "level": 37,
+      "move": "Crunch"
+    },
+    {
+      "level": 41,
+      "move": "Baton Pass"
+    },
+    {
+      "level": 46,
+      "move": "Nasty Plot"
+    },
+    {
+      "level": 50,
+      "move": "Psychic"
+    }
+  ]
+}

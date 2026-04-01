@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-588",
+  "trainerId": 588,
+  "game": "bdsp",
+  "name": "Bug Catcher Brandon",
+  "pokemon": [
+    {
+      "species": "Kricketune",
+      "level": 53,
+      "ability": "Swarm",
+      "moves": [
+        "Absorb",
+        "Sing",
+        "Focus Energy",
+        "Bug Buzz"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Beautifly",
+      "level": 53,
+      "ability": "Swarm",
+      "moves": [
+        "Air Cutter",
+        "Giga Drain",
+        "Bug Buzz",
+        "Quiver Dance"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

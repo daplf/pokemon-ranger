@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-678",
+  "trainerId": 678,
+  "game": "bdsp",
+  "name": "Gym Leader Wake",
+  "pokemon": [
+    {
+      "species": "Politoed",
+      "level": 68,
+      "item": "Damp Rock",
+      "moves": [
+        "Surf",
+        "Ice Beam",
+        "Focus Blast",
+        "Perish Song"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Kingdra",
+      "level": 68,
+      "item": "Chesto Berry",
+      "moves": [
+        "Hydro Pump",
+        "Dragon Pulse",
+        "Ice Beam",
+        "Rest"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Ludicolo",
+      "level": 68,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Energy Ball",
+        "Hydro Pump",
+        "Substitute",
+        "Teeter Dance"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Huntail",
+      "level": 70,
+      "item": "Focus Sash",
+      "moves": [
+        "Crunch",
+        "Aqua Tail",
+        "Ice Fang",
+        "Shell Smash"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Gyarados",
+      "level": 70,
+      "item": "Wacan Berry",
+      "moves": [
+        "Aqua Tail",
+        "Stone Edge",
+        "Earthquake",
+        "Dragon Dance"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Floatzel",
+      "level": 72,
+      "item": "Life Orb",
+      "moves": [
+        "Aqua Tail",
+        "Brick Break",
+        "Crunch",
+        "Ice Fang"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-306",
+  "trainerId": 306,
+  "game": "bdsp",
+  "name": "Psychic Kendra",
+  "pokemon": [
+    {
+      "species": "Chingling",
+      "level": 53,
+      "ability": "Levitate",
+      "moves": [
+        "Wrap",
+        "Growl",
+        "Confusion",
+        "Yawn"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Chimecho",
+      "level": 55,
+      "ability": "Levitate",
+      "moves": [
+        "Light Screen",
+        "Heal Pulse",
+        "Heal Bell",
+        "Psychic"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "species": "Sudowoodo",
+  "game": "bdsp",
+  "types": [
+    "rock"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 144,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 70,
+    "attack": 100,
+    "defense": 115,
+    "specialAttack": 30,
+    "specialDefense": 65,
+    "speed": 30
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Copycat"
+    },
+    {
+      "level": 1,
+      "move": "Fake Tears"
+    },
+    {
+      "level": 1,
+      "move": "Flail"
+    },
+    {
+      "level": 1,
+      "move": "Hammer Arm"
+    },
+    {
+      "level": 1,
+      "move": "Rock Throw"
+    },
+    {
+      "level": 1,
+      "move": "Slam"
+    },
+    {
+      "level": 1,
+      "move": "Stone Edge"
+    },
+    {
+      "level": 1,
+      "move": "Wood Hammer"
+    },
+    {
+      "level": 12,
+      "move": "Block"
+    },
+    {
+      "level": 16,
+      "move": "Mimic"
+    },
+    {
+      "level": 20,
+      "move": "Rock Tomb"
+    },
+    {
+      "level": 24,
+      "move": "Tearful Look"
+    },
+    {
+      "level": 28,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 32,
+      "move": "Rock Slide"
+    },
+    {
+      "level": 36,
+      "move": "Low Kick"
+    },
+    {
+      "level": 40,
+      "move": "Counter"
+    },
+    {
+      "level": 44,
+      "move": "Double-Edge"
+    },
+    {
+      "level": 48,
+      "move": "Head Smash"
+    }
+  ]
+}

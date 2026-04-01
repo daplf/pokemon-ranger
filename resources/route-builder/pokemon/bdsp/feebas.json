@@ -1,0 +1,39 @@
+{
+  "species": "Feebas",
+  "game": "bdsp",
+  "types": [
+    "water"
+  ],
+  "growthRate": "erratic",
+  "baseExperience": 40,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 20,
+    "attack": 15,
+    "defense": 20,
+    "specialAttack": 10,
+    "specialDefense": 55,
+    "speed": 80
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Splash"
+    },
+    {
+      "level": 15,
+      "move": "Tackle"
+    },
+    {
+      "level": 25,
+      "move": "Flail"
+    }
+  ]
+}

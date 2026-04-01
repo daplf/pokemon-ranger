@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-360",
+  "trainerId": 360,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Cedric",
+  "pokemon": [
+    {
+      "species": "Staraptor",
+      "level": 49,
+      "item": "Focus Sash",
+      "moves": [
+        "Close Combat",
+        "Pluck",
+        "Sunny Day",
+        "U-turn"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 56,
+        "attack": 148,
+        "defense": 36,
+        "specialAttack": 0,
+        "specialDefense": 36,
+        "speed": 148
+      },
+      "ivs": {
+        "hp": 5,
+        "attack": 5,
+        "defense": 5,
+        "specialAttack": 5,
+        "specialDefense": 5,
+        "speed": 5
+      }
+    },
+    {
+      "species": "Floatzel",
+      "level": 49,
+      "item": "Quick Claw",
+      "moves": [
+        "Ice Fang",
+        "Crunch",
+        "Swift",
+        "Brine"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 40,
+        "attack": 104,
+        "defense": 40,
+        "specialAttack": 0,
+        "specialDefense": 40,
+        "speed": 160
+      },
+      "ivs": {
+        "hp": 6,
+        "attack": 6,
+        "defense": 6,
+        "specialAttack": 6,
+        "specialDefense": 6,
+        "speed": 6
+      }
+    },
+    {
+      "species": "Heracross",
+      "level": 51,
+      "ability": "Swarm",
+      "moves": [
+        "Pin Missile",
+        "Swords Dance",
+        "Rock Slide",
+        "Thief"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 44,
+        "attack": 104,
+        "defense": 44,
+        "specialAttack": 0,
+        "specialDefense": 44,
+        "speed": 156
+      },
+      "ivs": {
+        "hp": 9,
+        "attack": 9,
+        "defense": 9,
+        "specialAttack": 9,
+        "specialDefense": 9,
+        "speed": 9
+      }
+    },
+    {
+      "species": "Rapidash",
+      "level": 49,
+      "item": "Expert Belt",
+      "moves": [
+        "Smart Strike",
+        "Megahorn",
+        "Poison Jab",
+        "Flame Wheel"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 48,
+        "attack": 116,
+        "defense": 48,
+        "specialAttack": 0,
+        "specialDefense": 48,
+        "speed": 172
+      },
+      "ivs": {
+        "hp": 7,
+        "attack": 7,
+        "defense": 7,
+        "specialAttack": 7,
+        "specialDefense": 7,
+        "speed": 7
+      }
+    },
+    {
+      "species": "Snorlax",
+      "level": 52,
+      "ability": "Thick Fat",
+      "moves": [
+        "Covet",
+        "Yawn",
+        "Crunch",
+        "High Horsepower"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 96,
+        "attack": 120,
+        "defense": 96,
+        "specialAttack": 0,
+        "specialDefense": 88,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 9,
+        "attack": 9,
+        "defense": 9,
+        "specialAttack": 9,
+        "specialDefense": 9,
+        "speed": 9
+      }
+    },
+    {
+      "species": "Torterra",
+      "level": 55,
+      "item": "Leftovers",
+      "moves": [
+        "Earthquake",
+        "Wood Hammer",
+        "Roar",
+        "Stealth Rock"
+      ],
+      "nature": "Careful",
+      "evs": {
+        "hp": 164,
+        "attack": 92,
+        "defense": 52,
+        "specialAttack": 52,
+        "specialDefense": 124,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 11,
+        "attack": 11,
+        "defense": 11,
+        "specialAttack": 11,
+        "specialDefense": 11,
+        "speed": 11
+      }
+    }
+  ]
+}

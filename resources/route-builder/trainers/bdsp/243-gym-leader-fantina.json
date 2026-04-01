@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-243",
+  "trainerId": 243,
+  "game": "bdsp",
+  "name": "Gym Leader Fantina",
+  "pokemon": [
+    {
+      "species": "Drifblim",
+      "level": 32,
+      "item": "Zoom Lens",
+      "moves": [
+        "Strength Sap",
+        "Hex",
+        "Fly",
+        "Will-O-Wisp"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 52,
+        "attack": 0,
+        "defense": 4,
+        "specialAttack": 68,
+        "specialDefense": 4,
+        "speed": 52
+      },
+      "ivs": {
+        "hp": 19,
+        "attack": 0,
+        "defense": 5,
+        "specialAttack": 19,
+        "specialDefense": 5,
+        "speed": 19
+      }
+    },
+    {
+      "species": "Gengar",
+      "level": 34,
+      "item": "Colbur Berry",
+      "moves": [
+        "Shadow Claw",
+        "Confuse Ray",
+        "Sludge Bomb",
+        "Dazzling Gleam"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 52,
+        "attack": 0,
+        "defense": 4,
+        "specialAttack": 76,
+        "specialDefense": 4,
+        "speed": 68
+      },
+      "ivs": {
+        "hp": 19,
+        "attack": 0,
+        "defense": 5,
+        "specialAttack": 19,
+        "specialDefense": 5,
+        "speed": 19
+      }
+    },
+    {
+      "species": "Mismagius",
+      "level": 36,
+      "item": "Expert Belt",
+      "moves": [
+        "Confuse Ray",
+        "Phantom Force",
+        "Magical Leaf",
+        "Dazzling Gleam"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 44,
+        "attack": 0,
+        "defense": 4,
+        "specialAttack": 92,
+        "specialDefense": 4,
+        "speed": 68
+      },
+      "ivs": {
+        "hp": 19,
+        "attack": 0,
+        "defense": 5,
+        "specialAttack": 19,
+        "specialDefense": 5,
+        "speed": 19
+      }
+    }
+  ]
+}

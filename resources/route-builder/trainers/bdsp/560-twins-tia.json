@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-560",
+  "trainerId": 560,
+  "game": "bdsp",
+  "name": "Twins Tia",
+  "pokemon": [
+    {
+      "species": "Clefairy",
+      "level": 40,
+      "ability": "Magic Guard",
+      "moves": [
+        "Disarming Voice",
+        "Defense Curl",
+        "Life Dew",
+        "Follow Me"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

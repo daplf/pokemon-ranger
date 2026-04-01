@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-584",
+  "trainerId": 584,
+  "game": "bdsp",
+  "name": "Hiker Theodore",
+  "pokemon": [
+    {
+      "species": "Onix",
+      "level": 37,
+      "ability": "Sturdy",
+      "moves": [
+        "Smack Down",
+        "Curse",
+        "Screech",
+        "Stealth Rock"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Steelix",
+      "level": 39,
+      "ability": "Rock Head",
+      "moves": [
+        "Tackle",
+        "Smack Down",
+        "Curse",
+        "Crunch"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

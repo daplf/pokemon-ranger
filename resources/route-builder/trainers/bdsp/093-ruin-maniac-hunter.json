@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-093",
+  "trainerId": 93,
+  "game": "bdsp",
+  "name": "Ruin Maniac Hunter",
+  "pokemon": [
+    {
+      "species": "Shieldon",
+      "level": 26,
+      "ability": "Sturdy",
+      "moves": [
+        "Tackle",
+        "Taunt",
+        "Take Down",
+        "Iron Defense"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

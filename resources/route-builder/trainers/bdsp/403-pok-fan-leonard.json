@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-403",
+  "trainerId": 403,
+  "game": "bdsp",
+  "name": "Poké Fan Leonard",
+  "pokemon": [
+    {
+      "species": "Pichu",
+      "level": 15,
+      "ability": "Static",
+      "moves": [
+        "Thunder Shock",
+        "Tail Whip",
+        "Play Nice",
+        "Nuzzle"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Pichu",
+      "level": 15,
+      "ability": "Static",
+      "moves": [
+        "Thunder Shock",
+        "Tail Whip",
+        "Play Nice",
+        "Nuzzle"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Pikachu",
+      "level": 18,
+      "ability": "Static",
+      "moves": [
+        "Nuzzle",
+        "Thunder Shock",
+        "Quick Attack",
+        "Electro Ball"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "trainer-id-177",
+  "trainerId": 177,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Cedric",
+  "pokemon": [
+    {
+      "species": "Starly",
+      "level": 7,
+      "ability": "Keen Eye",
+      "moves": [
+        "Tackle",
+        "Quick Attack",
+        "Growl"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 5,
+        "attack": 5,
+        "defense": 5,
+        "specialAttack": 5,
+        "specialDefense": 5,
+        "speed": 5
+      }
+    },
+    {
+      "species": "Chimchar",
+      "level": 9,
+      "ability": "Blaze",
+      "moves": [
+        "Scratch",
+        "Leer"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 11,
+        "attack": 11,
+        "defense": 11,
+        "specialAttack": 11,
+        "specialDefense": 11,
+        "speed": 11
+      }
+    }
+  ]
+}

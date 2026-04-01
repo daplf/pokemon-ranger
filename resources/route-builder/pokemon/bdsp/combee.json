@@ -1,0 +1,44 @@
+{
+  "species": "Combee",
+  "game": "bdsp",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 49,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 30,
+    "attack": 30,
+    "defense": 42,
+    "specialAttack": 30,
+    "specialDefense": 42,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Bug Bite"
+    },
+    {
+      "level": 1,
+      "move": "Gust"
+    },
+    {
+      "level": 1,
+      "move": "Struggle Bug"
+    },
+    {
+      "level": 1,
+      "move": "Sweet Scent"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "route-204-south",
+  "game": "bdsp",
+  "name": "Route 204 (South)",
+  "trainerIds": [
+    "trainer-id-007",
+    "trainer-id-005",
+    "trainer-id-006",
+    "trainer-id-009",
+    "trainer-id-008",
+    "trainer-id-010"
+  ]
+}

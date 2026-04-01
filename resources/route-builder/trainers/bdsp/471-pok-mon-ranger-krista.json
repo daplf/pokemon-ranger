@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-471",
+  "trainerId": 471,
+  "game": "bdsp",
+  "name": "Pokémon Ranger Krista",
+  "pokemon": [
+    {
+      "species": "Trapinch",
+      "level": 54,
+      "ability": "Hyper Cutter",
+      "moves": [
+        "Crunch",
+        "Sand Tomb",
+        "Dig",
+        "Sandstorm"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Vibrava",
+      "level": 56,
+      "ability": "Levitate",
+      "moves": [
+        "Supersonic",
+        "Bug Buzz",
+        "Earth Power",
+        "Dragon Breath"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

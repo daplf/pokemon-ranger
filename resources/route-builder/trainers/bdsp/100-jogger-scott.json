@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-100",
+  "trainerId": 100,
+  "game": "bdsp",
+  "name": "Jogger Scott",
+  "pokemon": [
+    {
+      "species": "Staravia",
+      "level": 23,
+      "ability": "Intimidate",
+      "moves": [
+        "Quick Attack",
+        "Wing Attack",
+        "Endeavor",
+        "Whirlwind"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-462",
+  "trainerId": 462,
+  "game": "bdsp",
+  "name": "Black Belt Davon",
+  "pokemon": [
+    {
+      "species": "Mankey",
+      "level": 54,
+      "ability": "Vital Spirit",
+      "moves": [
+        "Final Gambit",
+        "Close Combat",
+        "Thrash",
+        "Cross Chop"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Makuhita",
+      "level": 53,
+      "ability": "Thick Fat",
+      "moves": [
+        "Fake Out",
+        "Endure",
+        "Reversal",
+        "Heavy Slam"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Hariyama",
+      "level": 55,
+      "ability": "Guts",
+      "moves": [
+        "Fake Out",
+        "Endure",
+        "Reversal",
+        "Heavy Slam"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Charge Beam",
+  "game": "bdsp",
+  "type": "electric",
+  "category": "special",
+  "power": 50
+}

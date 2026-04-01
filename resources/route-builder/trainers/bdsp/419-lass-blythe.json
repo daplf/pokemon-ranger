@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-419",
+  "trainerId": 419,
+  "game": "bdsp",
+  "name": "Lass Blythe",
+  "pokemon": [
+    {
+      "species": "Bidoof",
+      "level": 21,
+      "ability": "Unaware",
+      "moves": [
+        "Growl",
+        "Headbutt",
+        "Taunt",
+        "Yawn"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Bidoof",
+      "level": 21,
+      "ability": "Unaware",
+      "moves": [
+        "Growl",
+        "Headbutt",
+        "Taunt",
+        "Yawn"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

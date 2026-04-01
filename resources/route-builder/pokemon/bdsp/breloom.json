@@ -1,0 +1,116 @@
+{
+  "species": "Breloom",
+  "game": "bdsp",
+  "types": [
+    "grass",
+    "fighting"
+  ],
+  "growthRate": "fluctuating",
+  "baseExperience": 161,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 130,
+    "defense": 80,
+    "specialAttack": 60,
+    "specialDefense": 60,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Absorb"
+    },
+    {
+      "level": 1,
+      "move": "Giga Drain"
+    },
+    {
+      "level": 1,
+      "move": "Growth"
+    },
+    {
+      "level": 1,
+      "move": "Leech Seed"
+    },
+    {
+      "level": 1,
+      "move": "Mach Punch"
+    },
+    {
+      "level": 1,
+      "move": "Poison Powder"
+    },
+    {
+      "level": 1,
+      "move": "Spore"
+    },
+    {
+      "level": 1,
+      "move": "Stun Spore"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Toxic"
+    },
+    {
+      "level": 1,
+      "move": "Worry Seed"
+    },
+    {
+      "level": 5,
+      "move": "Stun Spore"
+    },
+    {
+      "level": 8,
+      "move": "Leech Seed"
+    },
+    {
+      "level": 12,
+      "move": "Mega Drain"
+    },
+    {
+      "level": 15,
+      "move": "Headbutt"
+    },
+    {
+      "level": 19,
+      "move": "Feint"
+    },
+    {
+      "level": 22,
+      "move": "Counter"
+    },
+    {
+      "level": 28,
+      "move": "Force Palm"
+    },
+    {
+      "level": 33,
+      "move": "Mind Reader"
+    },
+    {
+      "level": 39,
+      "move": "Drain Punch"
+    },
+    {
+      "level": 44,
+      "move": "Seed Bomb"
+    },
+    {
+      "level": 50,
+      "move": "Dynamic Punch"
+    }
+  ]
+}

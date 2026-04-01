@@ -1,0 +1,103 @@
+{
+  "species": "Hitmontop",
+  "game": "bdsp",
+  "types": [
+    "fighting"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 159,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 2,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 50,
+    "attack": 95,
+    "defense": 95,
+    "specialAttack": 35,
+    "specialDefense": 110,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Fake Out"
+    },
+    {
+      "level": 1,
+      "move": "Feint"
+    },
+    {
+      "level": 1,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 1,
+      "move": "Helping Hand"
+    },
+    {
+      "level": 1,
+      "move": "Rapid Spin"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Triple Kick"
+    },
+    {
+      "level": 4,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 8,
+      "move": "Gyro Ball"
+    },
+    {
+      "level": 12,
+      "move": "Detect"
+    },
+    {
+      "level": 16,
+      "move": "Revenge"
+    },
+    {
+      "level": 21,
+      "move": "Quick Guard"
+    },
+    {
+      "level": 21,
+      "move": "Wide Guard"
+    },
+    {
+      "level": 24,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 28,
+      "move": "Agility"
+    },
+    {
+      "level": 32,
+      "move": "Dig"
+    },
+    {
+      "level": 36,
+      "move": "Close Combat"
+    },
+    {
+      "level": 40,
+      "move": "Counter"
+    },
+    {
+      "level": 44,
+      "move": "Endeavor"
+    }
+  ]
+}

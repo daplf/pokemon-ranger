@@ -1,0 +1,104 @@
+{
+  "species": "Houndoom",
+  "game": "bdsp",
+  "types": [
+    "dark",
+    "fire"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 175,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 2,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 90,
+    "defense": 50,
+    "specialAttack": 110,
+    "specialDefense": 80,
+    "speed": 95
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Ember"
+    },
+    {
+      "level": 1,
+      "move": "Inferno"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Nasty Plot"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Fang"
+    },
+    {
+      "level": 4,
+      "move": "Howl"
+    },
+    {
+      "level": 8,
+      "move": "Smog"
+    },
+    {
+      "level": 13,
+      "move": "Roar"
+    },
+    {
+      "level": 16,
+      "move": "Bite"
+    },
+    {
+      "level": 20,
+      "move": "Taunt"
+    },
+    {
+      "level": 26,
+      "move": "Beat Up"
+    },
+    {
+      "level": 30,
+      "move": "Fire Fang"
+    },
+    {
+      "level": 35,
+      "move": "Payback"
+    },
+    {
+      "level": 41,
+      "move": "Flame Charge"
+    },
+    {
+      "level": 45,
+      "move": "Foul Play"
+    },
+    {
+      "level": 50,
+      "move": "Flamethrower"
+    },
+    {
+      "level": 56,
+      "move": "Crunch"
+    },
+    {
+      "level": 60,
+      "move": "Nasty Plot"
+    },
+    {
+      "level": 65,
+      "move": "Inferno"
+    }
+  ]
+}

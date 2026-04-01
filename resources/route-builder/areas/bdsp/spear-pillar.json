@@ -1,0 +1,17 @@
+{
+  "id": "spear-pillar",
+  "game": "bdsp",
+  "name": "Spear Pillar",
+  "trainerIds": [
+    "trainer-id-388",
+    "trainer-id-382",
+    "trainer-id-390",
+    "trainer-id-386",
+    "trainer-id-399",
+    "trainer-id-393",
+    "trainer-id-391",
+    "trainer-id-401",
+    "trainer-id-312",
+    "trainer-id-309"
+  ]
+}

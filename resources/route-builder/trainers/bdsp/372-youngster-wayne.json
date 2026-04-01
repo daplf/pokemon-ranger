@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-372",
+  "trainerId": 372,
+  "game": "bdsp",
+  "name": "Youngster Wayne",
+  "pokemon": [
+    {
+      "species": "Bidoof",
+      "level": 13,
+      "ability": "Unaware",
+      "moves": [
+        "Growl",
+        "Defense Curl",
+        "Rollout",
+        "Headbutt"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Zubat",
+      "level": 14,
+      "ability": "Inner Focus",
+      "moves": [
+        "Absorb",
+        "Supersonic",
+        "Astonish",
+        "Mean Look"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Aipom",
+      "level": 15,
+      "ability": "Run Away",
+      "moves": [
+        "Sand Attack",
+        "Astonish",
+        "Baton Pass",
+        "Tickle"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

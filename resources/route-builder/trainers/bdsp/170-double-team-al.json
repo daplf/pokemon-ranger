@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-170",
+  "trainerId": 170,
+  "game": "bdsp",
+  "name": "Double Team Al",
+  "pokemon": [
+    {
+      "species": "Staraptor",
+      "level": 47,
+      "ability": "Intimidate",
+      "moves": [
+        "Close Combat",
+        "Quick Attack",
+        "Double Team",
+        "Aerial Ace"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

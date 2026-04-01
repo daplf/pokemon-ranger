@@ -1,0 +1,61 @@
+{
+  "id": "trainer-id-152",
+  "trainerId": 152,
+  "game": "bdsp",
+  "name": "Bug Catcher Donald",
+  "pokemon": [
+    {
+      "species": "Burmy",
+      "level": 12,
+      "ability": "Shed Skin",
+      "moves": [
+        "Protect",
+        "Tackle"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Kricketune",
+      "level": 12,
+      "ability": "Swarm",
+      "moves": [
+        "Fury Cutter",
+        "Growl",
+        "Pound"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

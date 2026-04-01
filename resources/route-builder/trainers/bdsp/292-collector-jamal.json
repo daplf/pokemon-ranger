@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-292",
+  "trainerId": 292,
+  "game": "bdsp",
+  "name": "Collector Jamal",
+  "pokemon": [
+    {
+      "species": "Buizel",
+      "level": 21,
+      "ability": "Swift Swim",
+      "moves": [
+        "Growl",
+        "Tail Whip",
+        "Water Gun",
+        "Bite"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Buizel",
+      "level": 21,
+      "ability": "Swift Swim",
+      "moves": [
+        "Tail Whip",
+        "Water Gun",
+        "Bite",
+        "Swift"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Buizel",
+      "level": 24,
+      "ability": "Swift Swim",
+      "moves": [
+        "Tail Whip",
+        "Bite",
+        "Swift",
+        "Aqua Jet"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

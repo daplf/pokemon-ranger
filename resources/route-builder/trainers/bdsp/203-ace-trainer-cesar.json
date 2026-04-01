@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-203",
+  "trainerId": 203,
+  "game": "bdsp",
+  "name": "Ace Trainer Cesar",
+  "pokemon": [
+    {
+      "species": "Skorupi",
+      "level": 30,
+      "ability": "Battle Armor",
+      "moves": [
+        "Bite",
+        "Pin Missile",
+        "Toxic",
+        "Iron Tail"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Steelix",
+      "level": 32,
+      "ability": "Rock Head",
+      "moves": [
+        "Thunder Fang",
+        "Ice Fang",
+        "Curse",
+        "Iron Tail"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

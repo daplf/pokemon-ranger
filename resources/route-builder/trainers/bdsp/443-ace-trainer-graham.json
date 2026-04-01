@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-443",
+  "trainerId": 443,
+  "game": "bdsp",
+  "name": "Ace Trainer Graham",
+  "pokemon": [
+    {
+      "species": "Skarmory",
+      "level": 56,
+      "ability": "Keen Eye",
+      "moves": [
+        "Brave Bird",
+        "Steel Wing",
+        "Autotomize",
+        "Metal Sound"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

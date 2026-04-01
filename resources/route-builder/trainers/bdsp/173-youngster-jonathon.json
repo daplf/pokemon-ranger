@@ -1,0 +1,35 @@
+{
+  "id": "trainer-id-173",
+  "trainerId": 173,
+  "game": "bdsp",
+  "name": "Youngster Jonathon",
+  "pokemon": [
+    {
+      "species": "Geodude",
+      "level": 10,
+      "ability": "Rock Head",
+      "moves": [
+        "Tackle",
+        "Defense Curl",
+        "Rollout"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

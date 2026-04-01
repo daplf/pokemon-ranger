@@ -1,0 +1,96 @@
+{
+  "species": "Stunky",
+  "game": "bdsp",
+  "types": [
+    "poison",
+    "dark"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 66,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 63,
+    "attack": 63,
+    "defense": 47,
+    "specialAttack": 41,
+    "specialDefense": 41,
+    "speed": 74
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Poison Gas"
+    },
+    {
+      "level": 1,
+      "move": "Scratch"
+    },
+    {
+      "level": 3,
+      "move": "Feint"
+    },
+    {
+      "level": 6,
+      "move": "Smokescreen"
+    },
+    {
+      "level": 9,
+      "move": "Acid Spray"
+    },
+    {
+      "level": 12,
+      "move": "Fury Swipes"
+    },
+    {
+      "level": 15,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 18,
+      "move": "Bite"
+    },
+    {
+      "level": 21,
+      "move": "Venoshock"
+    },
+    {
+      "level": 24,
+      "move": "Screech"
+    },
+    {
+      "level": 27,
+      "move": "Toxic"
+    },
+    {
+      "level": 30,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 33,
+      "move": "Memento"
+    },
+    {
+      "level": 36,
+      "move": "Night Slash"
+    },
+    {
+      "level": 39,
+      "move": "Belch"
+    },
+    {
+      "level": 42,
+      "move": "Venom Drench"
+    },
+    {
+      "level": 45,
+      "move": "Explosion"
+    }
+  ]
+}

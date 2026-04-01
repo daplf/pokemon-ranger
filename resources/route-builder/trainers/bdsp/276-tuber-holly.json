@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-276",
+  "trainerId": 276,
+  "game": "bdsp",
+  "name": "Tuber Holly",
+  "pokemon": [
+    {
+      "species": "Remoraid",
+      "level": 43,
+      "ability": "Hustle",
+      "moves": [
+        "Lock-On",
+        "Bullet Seed",
+        "Ice Beam",
+        "Hydro Pump"
+      ],
+      "nature": "Quirky",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

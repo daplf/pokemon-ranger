@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-637",
+  "trainerId": 637,
+  "game": "bdsp",
+  "name": "Swimmer Crystal",
+  "pokemon": [
+    {
+      "species": "Pelipper",
+      "level": 58,
+      "ability": "Drizzle",
+      "moves": [
+        "Tailwind",
+        "Growl",
+        "Water Pulse",
+        "Hurricane"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Seaking",
+      "level": 58,
+      "ability": "Swift Swim",
+      "moves": [
+        "Peck",
+        "Waterfall",
+        "Megahorn",
+        "Horn Drill"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

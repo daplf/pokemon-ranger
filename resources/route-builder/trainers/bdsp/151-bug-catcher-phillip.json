@@ -1,0 +1,86 @@
+{
+  "id": "trainer-id-151",
+  "trainerId": 151,
+  "game": "bdsp",
+  "name": "Bug Catcher Phillip",
+  "pokemon": [
+    {
+      "species": "Wurmple",
+      "level": 9,
+      "ability": "Shield Dust",
+      "moves": [
+        "Tackle",
+        "String Shot",
+        "Poison Sting"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Cascoon",
+      "level": 11,
+      "ability": "Shed Skin",
+      "moves": [
+        "Harden"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Dustox",
+      "level": 13,
+      "ability": "Shield Dust",
+      "moves": [
+        "Gust",
+        "Confusion"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

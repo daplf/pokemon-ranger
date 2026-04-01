@@ -1,0 +1,173 @@
+{
+  "id": "trainer-id-682",
+  "trainerId": 682,
+  "game": "bdsp",
+  "name": "Gym Leader Byron",
+  "pokemon": [
+    {
+      "species": "Skarmory",
+      "level": 69,
+      "item": "Leftovers",
+      "moves": [
+        "Steel Wing",
+        "Stealth Rock",
+        "Iron Defense",
+        "Taunt"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 252,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Steelix",
+      "level": 69,
+      "item": "Life Orb",
+      "moves": [
+        "Iron Tail",
+        "Earthquake",
+        "Ice Fang",
+        "Crunch"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 76,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 180,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Magnezone",
+      "level": 70,
+      "item": "Focus Sash",
+      "moves": [
+        "Thunderbolt",
+        "Flash Cannon",
+        "Light Screen",
+        "Magnet Rise"
+      ],
+      "nature": "Quiet",
+      "evs": {
+        "hp": 248,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 8,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Empoleon",
+      "level": 70,
+      "item": "Expert Belt",
+      "moves": [
+        "Hydro Pump",
+        "Flash Cannon",
+        "Ice Beam",
+        "Roar"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 244,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 12,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Aggron",
+      "level": 71,
+      "item": "Choice Scarf",
+      "moves": [
+        "Head Smash"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Bastiodon",
+      "level": 72,
+      "item": "Lum Berry",
+      "moves": [
+        "Heavy Slam",
+        "Metal Burst",
+        "Roar",
+        "Stealth Rock"
+      ],
+      "nature": "Brave",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 16,
+        "specialAttack": 0,
+        "specialDefense": 240,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

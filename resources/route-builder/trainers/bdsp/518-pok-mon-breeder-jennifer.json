@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-518",
+  "trainerId": 518,
+  "game": "bdsp",
+  "name": "Pokémon Breeder Jennifer",
+  "pokemon": [
+    {
+      "species": "Mr. Mime",
+      "level": 52,
+      "ability": "Filter",
+      "moves": [
+        "Reflect",
+        "Sucker Punch",
+        "Dazzling Gleam",
+        "Psychic"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Roselia",
+      "level": 51,
+      "ability": "Poison Point",
+      "moves": [
+        "Leech Seed",
+        "Giga Drain",
+        "Toxic",
+        "Petal Blizzard"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Clefable",
+      "level": 53,
+      "ability": "Cute Charm",
+      "moves": [
+        "Charm",
+        "Moonlight",
+        "Meteor Mash",
+        "Moonblast"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

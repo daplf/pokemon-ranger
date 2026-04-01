@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-219",
+  "trainerId": 219,
+  "game": "bdsp",
+  "name": "Twins Lil",
+  "pokemon": [
+    {
+      "species": "Mime Jr.",
+      "level": 19,
+      "ability": "Filter",
+      "moves": [
+        "Pound",
+        "Copycat",
+        "Encore",
+        "Confusion"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

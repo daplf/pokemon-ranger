@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-042",
+  "trainerId": 42,
+  "game": "bdsp",
+  "name": "Pokémon Breeder Albert",
+  "pokemon": [
+    {
+      "species": "Bonsly",
+      "level": 16,
+      "ability": "Sturdy",
+      "moves": [
+        "Copycat",
+        "Flail",
+        "Rock Throw",
+        "Mimic"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Budew",
+      "level": 15,
+      "ability": "Poison Point",
+      "moves": [
+        "Absorb",
+        "Growth",
+        "Stun Spore",
+        "Worry Seed"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Pichu",
+      "level": 17,
+      "ability": "Static",
+      "moves": [
+        "Thunder Shock",
+        "Tail Whip",
+        "Play Nice",
+        "Nuzzle"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

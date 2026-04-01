@@ -1,0 +1,120 @@
+{
+  "id": "trainer-id-255",
+  "trainerId": 255,
+  "game": "bdsp",
+  "name": "Poké Kid Meghan",
+  "pokemon": [
+    {
+      "species": "Pikachu",
+      "level": 41,
+      "ability": "Static",
+      "moves": [
+        "Nuzzle",
+        "Charm",
+        "Spark",
+        "Light Screen"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Pikachu",
+      "level": 41,
+      "ability": "Static",
+      "moves": [
+        "Charm",
+        "Double Team",
+        "Spark",
+        "Light Screen"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Pikachu",
+      "level": 41,
+      "ability": "Static",
+      "moves": [
+        "Charm",
+        "Electro Ball",
+        "Agility",
+        "Light Screen"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Pikachu",
+      "level": 41,
+      "ability": "Static",
+      "moves": [
+        "Charm",
+        "Nasty Plot",
+        "Thunderbolt",
+        "Light Screen"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-642",
+  "trainerId": 642,
+  "game": "bdsp",
+  "name": "Youngster Dallas",
+  "pokemon": [
+    {
+      "species": "Kricketune",
+      "level": 19,
+      "ability": "Swarm",
+      "moves": [
+        "Growl",
+        "Bug Bite",
+        "Struggle Bug",
+        "Fury Cutter"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

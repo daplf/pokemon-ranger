@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-516",
+  "trainerId": 516,
+  "game": "bdsp",
+  "name": "Pokémon Breeder Jennifer",
+  "pokemon": [
+    {
+      "species": "Mime Jr.",
+      "level": 28,
+      "ability": "Filter",
+      "moves": [
+        "Pound",
+        "Copycat",
+        "Encore",
+        "Psybeam"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Roselia",
+      "level": 27,
+      "ability": "Poison Point",
+      "moves": [
+        "Poison Sting",
+        "Mega Drain",
+        "Leech Seed",
+        "Magical Leaf"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Clefairy",
+      "level": 29,
+      "ability": "Cute Charm",
+      "moves": [
+        "Pound",
+        "Disarming Voice",
+        "Charm",
+        "Moonlight"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

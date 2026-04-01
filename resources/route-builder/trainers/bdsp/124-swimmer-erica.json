@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-124",
+  "trainerId": 124,
+  "game": "bdsp",
+  "name": "Swimmer Erica",
+  "pokemon": [
+    {
+      "species": "Remoraid",
+      "level": 29,
+      "ability": "Hustle",
+      "moves": [
+        "Psybeam",
+        "Aurora Beam",
+        "Bubble Beam",
+        "Lock-On"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Psyduck",
+      "level": 29,
+      "ability": "Damp",
+      "moves": [
+        "Tail Whip",
+        "Fury Swipes",
+        "Zen Headbutt",
+        "Aqua Tail"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

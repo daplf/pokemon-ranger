@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-570",
+  "trainerId": 570,
+  "game": "bdsp",
+  "name": "Ruin Maniac Harry",
+  "pokemon": [
+    {
+      "species": "Bronzor",
+      "level": 56,
+      "ability": "Heatproof",
+      "moves": [
+        "Confuse Ray",
+        "Payback",
+        "Gyro Ball",
+        "Iron Defense"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

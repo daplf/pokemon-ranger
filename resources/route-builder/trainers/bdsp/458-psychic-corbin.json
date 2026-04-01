@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-458",
+  "trainerId": 458,
+  "game": "bdsp",
+  "name": "Psychic Corbin",
+  "pokemon": [
+    {
+      "species": "Shuppet",
+      "level": 53,
+      "ability": "Insomnia",
+      "moves": [
+        "Knock Off",
+        "Sucker Punch",
+        "Shadow Sneak",
+        "Curse"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Duskull",
+      "level": 55,
+      "ability": "Levitate",
+      "moves": [
+        "Curse",
+        "Will-O-Wisp",
+        "Payback",
+        "Shadow Sneak"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

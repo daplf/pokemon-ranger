@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-339",
+  "trainerId": 339,
+  "game": "bdsp",
+  "name": "Lass Cassidy",
+  "pokemon": [
+    {
+      "species": "Buneary",
+      "level": 17,
+      "ability": "Run Away",
+      "moves": [
+        "Pound",
+        "Defense Curl",
+        "Baby-Doll Eyes",
+        "Quick Attack"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

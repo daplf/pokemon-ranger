@@ -1,0 +1,1114 @@
+[
+  {
+    "species": "Abomasnow",
+    "file": "pokemon/bdsp/abomasnow.json"
+  },
+  {
+    "species": "Abra",
+    "file": "pokemon/bdsp/abra.json"
+  },
+  {
+    "species": "Absol",
+    "file": "pokemon/bdsp/absol.json"
+  },
+  {
+    "species": "Aerodactyl",
+    "file": "pokemon/bdsp/aerodactyl.json"
+  },
+  {
+    "species": "Aggron",
+    "file": "pokemon/bdsp/aggron.json"
+  },
+  {
+    "species": "Aipom",
+    "file": "pokemon/bdsp/aipom.json"
+  },
+  {
+    "species": "Alakazam",
+    "file": "pokemon/bdsp/alakazam.json"
+  },
+  {
+    "species": "Altaria",
+    "file": "pokemon/bdsp/altaria.json"
+  },
+  {
+    "species": "Ambipom",
+    "file": "pokemon/bdsp/ambipom.json"
+  },
+  {
+    "species": "Ampharos",
+    "file": "pokemon/bdsp/ampharos.json"
+  },
+  {
+    "species": "Arcanine",
+    "file": "pokemon/bdsp/arcanine.json"
+  },
+  {
+    "species": "Armaldo",
+    "file": "pokemon/bdsp/armaldo.json"
+  },
+  {
+    "species": "Azumarill",
+    "file": "pokemon/bdsp/azumarill.json"
+  },
+  {
+    "species": "Azurill",
+    "file": "pokemon/bdsp/azurill.json"
+  },
+  {
+    "species": "Bagon",
+    "file": "pokemon/bdsp/bagon.json"
+  },
+  {
+    "species": "Baltoy",
+    "file": "pokemon/bdsp/baltoy.json"
+  },
+  {
+    "species": "Banette",
+    "file": "pokemon/bdsp/banette.json"
+  },
+  {
+    "species": "Barboach",
+    "file": "pokemon/bdsp/barboach.json"
+  },
+  {
+    "species": "Bastiodon",
+    "file": "pokemon/bdsp/bastiodon.json"
+  },
+  {
+    "species": "Beautifly",
+    "file": "pokemon/bdsp/beautifly.json"
+  },
+  {
+    "species": "Bellossom",
+    "file": "pokemon/bdsp/bellossom.json"
+  },
+  {
+    "species": "Bibarel",
+    "file": "pokemon/bdsp/bibarel.json"
+  },
+  {
+    "species": "Bidoof",
+    "file": "pokemon/bdsp/bidoof.json"
+  },
+  {
+    "species": "Blastoise",
+    "file": "pokemon/bdsp/blastoise.json"
+  },
+  {
+    "species": "Blissey",
+    "file": "pokemon/bdsp/blissey.json"
+  },
+  {
+    "species": "Bonsly",
+    "file": "pokemon/bdsp/bonsly.json"
+  },
+  {
+    "species": "Breloom",
+    "file": "pokemon/bdsp/breloom.json"
+  },
+  {
+    "species": "Bronzong",
+    "file": "pokemon/bdsp/bronzong.json"
+  },
+  {
+    "species": "Bronzor",
+    "file": "pokemon/bdsp/bronzor.json"
+  },
+  {
+    "species": "Budew",
+    "file": "pokemon/bdsp/budew.json"
+  },
+  {
+    "species": "Buizel",
+    "file": "pokemon/bdsp/buizel.json"
+  },
+  {
+    "species": "Buneary",
+    "file": "pokemon/bdsp/buneary.json"
+  },
+  {
+    "species": "Burmy",
+    "file": "pokemon/bdsp/burmy.json"
+  },
+  {
+    "species": "Cacturne",
+    "file": "pokemon/bdsp/cacturne.json"
+  },
+  {
+    "species": "Carnivine",
+    "file": "pokemon/bdsp/carnivine.json"
+  },
+  {
+    "species": "Carvanha",
+    "file": "pokemon/bdsp/carvanha.json"
+  },
+  {
+    "species": "Cascoon",
+    "file": "pokemon/bdsp/cascoon.json"
+  },
+  {
+    "species": "Chansey",
+    "file": "pokemon/bdsp/chansey.json"
+  },
+  {
+    "species": "Chatot",
+    "file": "pokemon/bdsp/chatot.json"
+  },
+  {
+    "species": "Cherrim",
+    "file": "pokemon/bdsp/cherrim.json"
+  },
+  {
+    "species": "Cherubi",
+    "file": "pokemon/bdsp/cherubi.json"
+  },
+  {
+    "species": "Chimchar",
+    "file": "pokemon/bdsp/chimchar.json"
+  },
+  {
+    "species": "Chimecho",
+    "file": "pokemon/bdsp/chimecho.json"
+  },
+  {
+    "species": "Chinchou",
+    "file": "pokemon/bdsp/chinchou.json"
+  },
+  {
+    "species": "Chingling",
+    "file": "pokemon/bdsp/chingling.json"
+  },
+  {
+    "species": "Claydol",
+    "file": "pokemon/bdsp/claydol.json"
+  },
+  {
+    "species": "Clefable",
+    "file": "pokemon/bdsp/clefable.json"
+  },
+  {
+    "species": "Clefairy",
+    "file": "pokemon/bdsp/clefairy.json"
+  },
+  {
+    "species": "Cleffa",
+    "file": "pokemon/bdsp/cleffa.json"
+  },
+  {
+    "species": "Combee",
+    "file": "pokemon/bdsp/combee.json"
+  },
+  {
+    "species": "Cradily",
+    "file": "pokemon/bdsp/cradily.json"
+  },
+  {
+    "species": "Cranidos",
+    "file": "pokemon/bdsp/cranidos.json"
+  },
+  {
+    "species": "Crawdaunt",
+    "file": "pokemon/bdsp/crawdaunt.json"
+  },
+  {
+    "species": "Croagunk",
+    "file": "pokemon/bdsp/croagunk.json"
+  },
+  {
+    "species": "Crobat",
+    "file": "pokemon/bdsp/crobat.json"
+  },
+  {
+    "species": "Delcatty",
+    "file": "pokemon/bdsp/delcatty.json"
+  },
+  {
+    "species": "Dewgong",
+    "file": "pokemon/bdsp/dewgong.json"
+  },
+  {
+    "species": "Dodrio",
+    "file": "pokemon/bdsp/dodrio.json"
+  },
+  {
+    "species": "Donphan",
+    "file": "pokemon/bdsp/donphan.json"
+  },
+  {
+    "species": "Dragonair",
+    "file": "pokemon/bdsp/dragonair.json"
+  },
+  {
+    "species": "Drapion",
+    "file": "pokemon/bdsp/drapion.json"
+  },
+  {
+    "species": "Dratini",
+    "file": "pokemon/bdsp/dratini.json"
+  },
+  {
+    "species": "Drifblim",
+    "file": "pokemon/bdsp/drifblim.json"
+  },
+  {
+    "species": "Drifloon",
+    "file": "pokemon/bdsp/drifloon.json"
+  },
+  {
+    "species": "Dunsparce",
+    "file": "pokemon/bdsp/dunsparce.json"
+  },
+  {
+    "species": "Dusclops",
+    "file": "pokemon/bdsp/dusclops.json"
+  },
+  {
+    "species": "Dusknoir",
+    "file": "pokemon/bdsp/dusknoir.json"
+  },
+  {
+    "species": "Duskull",
+    "file": "pokemon/bdsp/duskull.json"
+  },
+  {
+    "species": "Dustox",
+    "file": "pokemon/bdsp/dustox.json"
+  },
+  {
+    "species": "Electivire",
+    "file": "pokemon/bdsp/electivire.json"
+  },
+  {
+    "species": "Empoleon",
+    "file": "pokemon/bdsp/empoleon.json"
+  },
+  {
+    "species": "Espeon",
+    "file": "pokemon/bdsp/espeon.json"
+  },
+  {
+    "species": "Exeggcute",
+    "file": "pokemon/bdsp/exeggcute.json"
+  },
+  {
+    "species": "Exeggutor",
+    "file": "pokemon/bdsp/exeggutor.json"
+  },
+  {
+    "species": "Farfetch'd",
+    "file": "pokemon/bdsp/farfetch-d.json"
+  },
+  {
+    "species": "Fearow",
+    "file": "pokemon/bdsp/fearow.json"
+  },
+  {
+    "species": "Feebas",
+    "file": "pokemon/bdsp/feebas.json"
+  },
+  {
+    "species": "Finneon",
+    "file": "pokemon/bdsp/finneon.json"
+  },
+  {
+    "species": "Flaaffy",
+    "file": "pokemon/bdsp/flaaffy.json"
+  },
+  {
+    "species": "Flareon",
+    "file": "pokemon/bdsp/flareon.json"
+  },
+  {
+    "species": "Floatzel",
+    "file": "pokemon/bdsp/floatzel.json"
+  },
+  {
+    "species": "Flygon",
+    "file": "pokemon/bdsp/flygon.json"
+  },
+  {
+    "species": "Froslass",
+    "file": "pokemon/bdsp/froslass.json"
+  },
+  {
+    "species": "Gabite",
+    "file": "pokemon/bdsp/gabite.json"
+  },
+  {
+    "species": "Gallade",
+    "file": "pokemon/bdsp/gallade.json"
+  },
+  {
+    "species": "Garchomp",
+    "file": "pokemon/bdsp/garchomp.json"
+  },
+  {
+    "species": "Gastly",
+    "file": "pokemon/bdsp/gastly.json"
+  },
+  {
+    "species": "Gastrodon",
+    "file": "pokemon/bdsp/gastrodon.json"
+  },
+  {
+    "species": "Gastrodon (East Sea)",
+    "file": "pokemon/bdsp/gastrodon-east-sea.json"
+  },
+  {
+    "species": "Gengar",
+    "file": "pokemon/bdsp/gengar.json"
+  },
+  {
+    "species": "Geodude",
+    "file": "pokemon/bdsp/geodude.json"
+  },
+  {
+    "species": "Gible",
+    "file": "pokemon/bdsp/gible.json"
+  },
+  {
+    "species": "Girafarig",
+    "file": "pokemon/bdsp/girafarig.json"
+  },
+  {
+    "species": "Glaceon",
+    "file": "pokemon/bdsp/glaceon.json"
+  },
+  {
+    "species": "Glameow",
+    "file": "pokemon/bdsp/glameow.json"
+  },
+  {
+    "species": "Gliscor",
+    "file": "pokemon/bdsp/gliscor.json"
+  },
+  {
+    "species": "Golbat",
+    "file": "pokemon/bdsp/golbat.json"
+  },
+  {
+    "species": "Goldeen",
+    "file": "pokemon/bdsp/goldeen.json"
+  },
+  {
+    "species": "Golduck",
+    "file": "pokemon/bdsp/golduck.json"
+  },
+  {
+    "species": "Golem",
+    "file": "pokemon/bdsp/golem.json"
+  },
+  {
+    "species": "Gorebyss",
+    "file": "pokemon/bdsp/gorebyss.json"
+  },
+  {
+    "species": "Granbull",
+    "file": "pokemon/bdsp/granbull.json"
+  },
+  {
+    "species": "Graveler",
+    "file": "pokemon/bdsp/graveler.json"
+  },
+  {
+    "species": "Grotle",
+    "file": "pokemon/bdsp/grotle.json"
+  },
+  {
+    "species": "Grumpig",
+    "file": "pokemon/bdsp/grumpig.json"
+  },
+  {
+    "species": "Gyarados",
+    "file": "pokemon/bdsp/gyarados.json"
+  },
+  {
+    "species": "Happiny",
+    "file": "pokemon/bdsp/happiny.json"
+  },
+  {
+    "species": "Hariyama",
+    "file": "pokemon/bdsp/hariyama.json"
+  },
+  {
+    "species": "Haunter",
+    "file": "pokemon/bdsp/haunter.json"
+  },
+  {
+    "species": "Heat Rotom",
+    "file": "pokemon/bdsp/heat-rotom.json"
+  },
+  {
+    "species": "Heracross",
+    "file": "pokemon/bdsp/heracross.json"
+  },
+  {
+    "species": "Hippopotas",
+    "file": "pokemon/bdsp/hippopotas.json"
+  },
+  {
+    "species": "Hippowdon",
+    "file": "pokemon/bdsp/hippowdon.json"
+  },
+  {
+    "species": "Hitmontop",
+    "file": "pokemon/bdsp/hitmontop.json"
+  },
+  {
+    "species": "Honchkrow",
+    "file": "pokemon/bdsp/honchkrow.json"
+  },
+  {
+    "species": "Hoothoot",
+    "file": "pokemon/bdsp/hoothoot.json"
+  },
+  {
+    "species": "Houndoom",
+    "file": "pokemon/bdsp/houndoom.json"
+  },
+  {
+    "species": "Huntail",
+    "file": "pokemon/bdsp/huntail.json"
+  },
+  {
+    "species": "Hypno",
+    "file": "pokemon/bdsp/hypno.json"
+  },
+  {
+    "species": "Infernape",
+    "file": "pokemon/bdsp/infernape.json"
+  },
+  {
+    "species": "Jolteon",
+    "file": "pokemon/bdsp/jolteon.json"
+  },
+  {
+    "species": "Jumpluff",
+    "file": "pokemon/bdsp/jumpluff.json"
+  },
+  {
+    "species": "Jynx",
+    "file": "pokemon/bdsp/jynx.json"
+  },
+  {
+    "species": "Kabutops",
+    "file": "pokemon/bdsp/kabutops.json"
+  },
+  {
+    "species": "Kadabra",
+    "file": "pokemon/bdsp/kadabra.json"
+  },
+  {
+    "species": "Kangaskhan",
+    "file": "pokemon/bdsp/kangaskhan.json"
+  },
+  {
+    "species": "Kecleon",
+    "file": "pokemon/bdsp/kecleon.json"
+  },
+  {
+    "species": "Kingdra",
+    "file": "pokemon/bdsp/kingdra.json"
+  },
+  {
+    "species": "Kirlia",
+    "file": "pokemon/bdsp/kirlia.json"
+  },
+  {
+    "species": "Kricketot",
+    "file": "pokemon/bdsp/kricketot.json"
+  },
+  {
+    "species": "Kricketune",
+    "file": "pokemon/bdsp/kricketune.json"
+  },
+  {
+    "species": "Lanturn",
+    "file": "pokemon/bdsp/lanturn.json"
+  },
+  {
+    "species": "Lapras",
+    "file": "pokemon/bdsp/lapras.json"
+  },
+  {
+    "species": "Larvitar",
+    "file": "pokemon/bdsp/larvitar.json"
+  },
+  {
+    "species": "Lickilicky",
+    "file": "pokemon/bdsp/lickilicky.json"
+  },
+  {
+    "species": "Lickitung",
+    "file": "pokemon/bdsp/lickitung.json"
+  },
+  {
+    "species": "Linoone",
+    "file": "pokemon/bdsp/linoone.json"
+  },
+  {
+    "species": "Lopunny",
+    "file": "pokemon/bdsp/lopunny.json"
+  },
+  {
+    "species": "Loudred",
+    "file": "pokemon/bdsp/loudred.json"
+  },
+  {
+    "species": "Lucario",
+    "file": "pokemon/bdsp/lucario.json"
+  },
+  {
+    "species": "Ludicolo",
+    "file": "pokemon/bdsp/ludicolo.json"
+  },
+  {
+    "species": "Lumineon",
+    "file": "pokemon/bdsp/lumineon.json"
+  },
+  {
+    "species": "Luvdisc",
+    "file": "pokemon/bdsp/luvdisc.json"
+  },
+  {
+    "species": "Luxio",
+    "file": "pokemon/bdsp/luxio.json"
+  },
+  {
+    "species": "Luxray",
+    "file": "pokemon/bdsp/luxray.json"
+  },
+  {
+    "species": "Machamp",
+    "file": "pokemon/bdsp/machamp.json"
+  },
+  {
+    "species": "Machoke",
+    "file": "pokemon/bdsp/machoke.json"
+  },
+  {
+    "species": "Machop",
+    "file": "pokemon/bdsp/machop.json"
+  },
+  {
+    "species": "Magcargo",
+    "file": "pokemon/bdsp/magcargo.json"
+  },
+  {
+    "species": "Magikarp",
+    "file": "pokemon/bdsp/magikarp.json"
+  },
+  {
+    "species": "Magmortar",
+    "file": "pokemon/bdsp/magmortar.json"
+  },
+  {
+    "species": "Magnezone",
+    "file": "pokemon/bdsp/magnezone.json"
+  },
+  {
+    "species": "Makuhita",
+    "file": "pokemon/bdsp/makuhita.json"
+  },
+  {
+    "species": "Mamoswine",
+    "file": "pokemon/bdsp/mamoswine.json"
+  },
+  {
+    "species": "Mankey",
+    "file": "pokemon/bdsp/mankey.json"
+  },
+  {
+    "species": "Mantine",
+    "file": "pokemon/bdsp/mantine.json"
+  },
+  {
+    "species": "Mantyke",
+    "file": "pokemon/bdsp/mantyke.json"
+  },
+  {
+    "species": "Marill",
+    "file": "pokemon/bdsp/marill.json"
+  },
+  {
+    "species": "Marowak",
+    "file": "pokemon/bdsp/marowak.json"
+  },
+  {
+    "species": "Medicham",
+    "file": "pokemon/bdsp/medicham.json"
+  },
+  {
+    "species": "Meditite",
+    "file": "pokemon/bdsp/meditite.json"
+  },
+  {
+    "species": "Meowth",
+    "file": "pokemon/bdsp/meowth.json"
+  },
+  {
+    "species": "Metagross",
+    "file": "pokemon/bdsp/metagross.json"
+  },
+  {
+    "species": "Mightyena",
+    "file": "pokemon/bdsp/mightyena.json"
+  },
+  {
+    "species": "Milotic",
+    "file": "pokemon/bdsp/milotic.json"
+  },
+  {
+    "species": "Miltank",
+    "file": "pokemon/bdsp/miltank.json"
+  },
+  {
+    "species": "Mime Jr.",
+    "file": "pokemon/bdsp/mime-jr.json"
+  },
+  {
+    "species": "Misdreavus",
+    "file": "pokemon/bdsp/misdreavus.json"
+  },
+  {
+    "species": "Mismagius",
+    "file": "pokemon/bdsp/mismagius.json"
+  },
+  {
+    "species": "Monferno",
+    "file": "pokemon/bdsp/monferno.json"
+  },
+  {
+    "species": "Mothim",
+    "file": "pokemon/bdsp/mothim.json"
+  },
+  {
+    "species": "Mow Rotom",
+    "file": "pokemon/bdsp/mow-rotom.json"
+  },
+  {
+    "species": "Mr. Mime",
+    "file": "pokemon/bdsp/mr-mime.json"
+  },
+  {
+    "species": "Munchlax",
+    "file": "pokemon/bdsp/munchlax.json"
+  },
+  {
+    "species": "Murkrow",
+    "file": "pokemon/bdsp/murkrow.json"
+  },
+  {
+    "species": "Nidoking",
+    "file": "pokemon/bdsp/nidoking.json"
+  },
+  {
+    "species": "Ninetales",
+    "file": "pokemon/bdsp/ninetales.json"
+  },
+  {
+    "species": "Noctowl",
+    "file": "pokemon/bdsp/noctowl.json"
+  },
+  {
+    "species": "Octillery",
+    "file": "pokemon/bdsp/octillery.json"
+  },
+  {
+    "species": "Onix",
+    "file": "pokemon/bdsp/onix.json"
+  },
+  {
+    "species": "Pachirisu",
+    "file": "pokemon/bdsp/pachirisu.json"
+  },
+  {
+    "species": "Pelipper",
+    "file": "pokemon/bdsp/pelipper.json"
+  },
+  {
+    "species": "Persian",
+    "file": "pokemon/bdsp/persian.json"
+  },
+  {
+    "species": "Pichu",
+    "file": "pokemon/bdsp/pichu.json"
+  },
+  {
+    "species": "Pikachu",
+    "file": "pokemon/bdsp/pikachu.json"
+  },
+  {
+    "species": "Pinsir",
+    "file": "pokemon/bdsp/pinsir.json"
+  },
+  {
+    "species": "Piplup",
+    "file": "pokemon/bdsp/piplup.json"
+  },
+  {
+    "species": "Politoed",
+    "file": "pokemon/bdsp/politoed.json"
+  },
+  {
+    "species": "Poliwhirl",
+    "file": "pokemon/bdsp/poliwhirl.json"
+  },
+  {
+    "species": "Ponyta",
+    "file": "pokemon/bdsp/ponyta.json"
+  },
+  {
+    "species": "Porygon-Z",
+    "file": "pokemon/bdsp/porygon-z.json"
+  },
+  {
+    "species": "Primeape",
+    "file": "pokemon/bdsp/primeape.json"
+  },
+  {
+    "species": "Prinplup",
+    "file": "pokemon/bdsp/prinplup.json"
+  },
+  {
+    "species": "Probopass",
+    "file": "pokemon/bdsp/probopass.json"
+  },
+  {
+    "species": "Psyduck",
+    "file": "pokemon/bdsp/psyduck.json"
+  },
+  {
+    "species": "Purugly",
+    "file": "pokemon/bdsp/purugly.json"
+  },
+  {
+    "species": "Quagsire",
+    "file": "pokemon/bdsp/quagsire.json"
+  },
+  {
+    "species": "Raichu",
+    "file": "pokemon/bdsp/raichu.json"
+  },
+  {
+    "species": "Rampardos",
+    "file": "pokemon/bdsp/rampardos.json"
+  },
+  {
+    "species": "Rapidash",
+    "file": "pokemon/bdsp/rapidash.json"
+  },
+  {
+    "species": "Rattata",
+    "file": "pokemon/bdsp/rattata.json"
+  },
+  {
+    "species": "Relicanth",
+    "file": "pokemon/bdsp/relicanth.json"
+  },
+  {
+    "species": "Remoraid",
+    "file": "pokemon/bdsp/remoraid.json"
+  },
+  {
+    "species": "Rhyperior",
+    "file": "pokemon/bdsp/rhyperior.json"
+  },
+  {
+    "species": "Riolu",
+    "file": "pokemon/bdsp/riolu.json"
+  },
+  {
+    "species": "Roselia",
+    "file": "pokemon/bdsp/roselia.json"
+  },
+  {
+    "species": "Roserade",
+    "file": "pokemon/bdsp/roserade.json"
+  },
+  {
+    "species": "Salamence",
+    "file": "pokemon/bdsp/salamence.json"
+  },
+  {
+    "species": "Sandslash",
+    "file": "pokemon/bdsp/sandslash.json"
+  },
+  {
+    "species": "Sceptile",
+    "file": "pokemon/bdsp/sceptile.json"
+  },
+  {
+    "species": "Scizor",
+    "file": "pokemon/bdsp/scizor.json"
+  },
+  {
+    "species": "Scyther",
+    "file": "pokemon/bdsp/scyther.json"
+  },
+  {
+    "species": "Seadra",
+    "file": "pokemon/bdsp/seadra.json"
+  },
+  {
+    "species": "Seaking",
+    "file": "pokemon/bdsp/seaking.json"
+  },
+  {
+    "species": "Sealeo",
+    "file": "pokemon/bdsp/sealeo.json"
+  },
+  {
+    "species": "Seel",
+    "file": "pokemon/bdsp/seel.json"
+  },
+  {
+    "species": "Sharpedo",
+    "file": "pokemon/bdsp/sharpedo.json"
+  },
+  {
+    "species": "Shelgon",
+    "file": "pokemon/bdsp/shelgon.json"
+  },
+  {
+    "species": "Shellos",
+    "file": "pokemon/bdsp/shellos.json"
+  },
+  {
+    "species": "Shellos (East Sea)",
+    "file": "pokemon/bdsp/shellos-east-sea.json"
+  },
+  {
+    "species": "Shieldon",
+    "file": "pokemon/bdsp/shieldon.json"
+  },
+  {
+    "species": "Shinx",
+    "file": "pokemon/bdsp/shinx.json"
+  },
+  {
+    "species": "Shuppet",
+    "file": "pokemon/bdsp/shuppet.json"
+  },
+  {
+    "species": "Silcoon",
+    "file": "pokemon/bdsp/silcoon.json"
+  },
+  {
+    "species": "Skarmory",
+    "file": "pokemon/bdsp/skarmory.json"
+  },
+  {
+    "species": "Skorupi",
+    "file": "pokemon/bdsp/skorupi.json"
+  },
+  {
+    "species": "Skuntank",
+    "file": "pokemon/bdsp/skuntank.json"
+  },
+  {
+    "species": "Slowbro",
+    "file": "pokemon/bdsp/slowbro.json"
+  },
+  {
+    "species": "Slowpoke",
+    "file": "pokemon/bdsp/slowpoke.json"
+  },
+  {
+    "species": "Sneasel",
+    "file": "pokemon/bdsp/sneasel.json"
+  },
+  {
+    "species": "Snorlax",
+    "file": "pokemon/bdsp/snorlax.json"
+  },
+  {
+    "species": "Snover",
+    "file": "pokemon/bdsp/snover.json"
+  },
+  {
+    "species": "Spinda",
+    "file": "pokemon/bdsp/spinda.json"
+  },
+  {
+    "species": "Spiritomb",
+    "file": "pokemon/bdsp/spiritomb.json"
+  },
+  {
+    "species": "Stantler",
+    "file": "pokemon/bdsp/stantler.json"
+  },
+  {
+    "species": "Staraptor",
+    "file": "pokemon/bdsp/staraptor.json"
+  },
+  {
+    "species": "Staravia",
+    "file": "pokemon/bdsp/staravia.json"
+  },
+  {
+    "species": "Starly",
+    "file": "pokemon/bdsp/starly.json"
+  },
+  {
+    "species": "Starmie",
+    "file": "pokemon/bdsp/starmie.json"
+  },
+  {
+    "species": "Steelix",
+    "file": "pokemon/bdsp/steelix.json"
+  },
+  {
+    "species": "Stunky",
+    "file": "pokemon/bdsp/stunky.json"
+  },
+  {
+    "species": "Sudowoodo",
+    "file": "pokemon/bdsp/sudowoodo.json"
+  },
+  {
+    "species": "Sunflora",
+    "file": "pokemon/bdsp/sunflora.json"
+  },
+  {
+    "species": "Swablu",
+    "file": "pokemon/bdsp/swablu.json"
+  },
+  {
+    "species": "Swellow",
+    "file": "pokemon/bdsp/swellow.json"
+  },
+  {
+    "species": "Tangrowth",
+    "file": "pokemon/bdsp/tangrowth.json"
+  },
+  {
+    "species": "Tauros",
+    "file": "pokemon/bdsp/tauros.json"
+  },
+  {
+    "species": "Tentacool",
+    "file": "pokemon/bdsp/tentacool.json"
+  },
+  {
+    "species": "Tentacruel",
+    "file": "pokemon/bdsp/tentacruel.json"
+  },
+  {
+    "species": "Togekiss",
+    "file": "pokemon/bdsp/togekiss.json"
+  },
+  {
+    "species": "Torkoal",
+    "file": "pokemon/bdsp/torkoal.json"
+  },
+  {
+    "species": "Torterra",
+    "file": "pokemon/bdsp/torterra.json"
+  },
+  {
+    "species": "Toxicroak",
+    "file": "pokemon/bdsp/toxicroak.json"
+  },
+  {
+    "species": "Trapinch",
+    "file": "pokemon/bdsp/trapinch.json"
+  },
+  {
+    "species": "Tropius",
+    "file": "pokemon/bdsp/tropius.json"
+  },
+  {
+    "species": "Turtwig",
+    "file": "pokemon/bdsp/turtwig.json"
+  },
+  {
+    "species": "Typhlosion",
+    "file": "pokemon/bdsp/typhlosion.json"
+  },
+  {
+    "species": "Tyranitar",
+    "file": "pokemon/bdsp/tyranitar.json"
+  },
+  {
+    "species": "Tyrogue",
+    "file": "pokemon/bdsp/tyrogue.json"
+  },
+  {
+    "species": "Ursaring",
+    "file": "pokemon/bdsp/ursaring.json"
+  },
+  {
+    "species": "Vaporeon",
+    "file": "pokemon/bdsp/vaporeon.json"
+  },
+  {
+    "species": "Vespiquen",
+    "file": "pokemon/bdsp/vespiquen.json"
+  },
+  {
+    "species": "Vibrava",
+    "file": "pokemon/bdsp/vibrava.json"
+  },
+  {
+    "species": "Vigoroth",
+    "file": "pokemon/bdsp/vigoroth.json"
+  },
+  {
+    "species": "Wash Rotom",
+    "file": "pokemon/bdsp/wash-rotom.json"
+  },
+  {
+    "species": "Weavile",
+    "file": "pokemon/bdsp/weavile.json"
+  },
+  {
+    "species": "Whiscash",
+    "file": "pokemon/bdsp/whiscash.json"
+  },
+  {
+    "species": "Wingull",
+    "file": "pokemon/bdsp/wingull.json"
+  },
+  {
+    "species": "Wooper",
+    "file": "pokemon/bdsp/wooper.json"
+  },
+  {
+    "species": "Wormadam",
+    "file": "pokemon/bdsp/wormadam.json"
+  },
+  {
+    "species": "Wormadam (Sandy Cloak)",
+    "file": "pokemon/bdsp/wormadam-sandy-cloak.json"
+  },
+  {
+    "species": "Wormadam (Trash Cloak)",
+    "file": "pokemon/bdsp/wormadam-trash-cloak.json"
+  },
+  {
+    "species": "Wurmple",
+    "file": "pokemon/bdsp/wurmple.json"
+  },
+  {
+    "species": "Xatu",
+    "file": "pokemon/bdsp/xatu.json"
+  },
+  {
+    "species": "Yanma",
+    "file": "pokemon/bdsp/yanma.json"
+  },
+  {
+    "species": "Yanmega",
+    "file": "pokemon/bdsp/yanmega.json"
+  },
+  {
+    "species": "Zigzagoon",
+    "file": "pokemon/bdsp/zigzagoon.json"
+  },
+  {
+    "species": "Zubat",
+    "file": "pokemon/bdsp/zubat.json"
+  }
+]

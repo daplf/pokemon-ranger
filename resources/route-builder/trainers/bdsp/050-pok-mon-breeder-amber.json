@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-050",
+  "trainerId": 50,
+  "game": "bdsp",
+  "name": "Pokémon Breeder Amber",
+  "pokemon": [
+    {
+      "species": "Cleffa",
+      "level": 19,
+      "ability": "Cute Charm",
+      "moves": [
+        "Copycat",
+        "Sing",
+        "Sweet Kiss",
+        "Disarming Voice"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Clefairy",
+      "level": 17,
+      "ability": "Cute Charm",
+      "moves": [
+        "Sweet Kiss",
+        "Disarming Voice",
+        "Encore",
+        "Copycat"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Happiny",
+      "level": 18,
+      "ability": "Serene Grace",
+      "moves": [
+        "Copycat",
+        "Sweet Kiss",
+        "Disarming Voice",
+        "Covet"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

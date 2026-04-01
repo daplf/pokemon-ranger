@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-122",
+  "trainerId": 122,
+  "game": "bdsp",
+  "name": "Swimmer Vincent",
+  "pokemon": [
+    {
+      "species": "Pelipper",
+      "level": 29,
+      "ability": "Drizzle",
+      "moves": [
+        "Air Slash",
+        "Water Pulse",
+        "Stockpile",
+        "Swallow"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Whiscash",
+      "level": 29,
+      "ability": "Oblivious",
+      "moves": [
+        "Tickle",
+        "Rest",
+        "Snore",
+        "Water Pulse"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

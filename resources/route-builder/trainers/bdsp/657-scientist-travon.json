@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-657",
+  "trainerId": 657,
+  "game": "bdsp",
+  "name": "Scientist Travon",
+  "pokemon": [
+    {
+      "species": "Kadabra",
+      "level": 15,
+      "ability": "Synchronize",
+      "moves": [
+        "Kinesis",
+        "Disable",
+        "Psybeam",
+        "Reflect"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

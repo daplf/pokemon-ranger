@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-387",
+  "trainerId": 387,
+  "game": "bdsp",
+  "name": "Team Galactic Grunt",
+  "pokemon": [
+    {
+      "species": "Stunky",
+      "level": 36,
+      "ability": "Aftermath",
+      "moves": [
+        "Venoshock",
+        "Toxic",
+        "Memento",
+        "Night Slash"
+      ],
+      "nature": "Quirky",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Croagunk",
+      "level": 36,
+      "ability": "Anticipation",
+      "moves": [
+        "Mud-Slap",
+        "Revenge",
+        "Sucker Punch",
+        "Toxic"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

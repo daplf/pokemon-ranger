@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-568",
+  "trainerId": 568,
+  "game": "bdsp",
+  "name": "Guitarist Tony",
+  "pokemon": [
+    {
+      "species": "Luxio",
+      "level": 55,
+      "ability": "Intimidate",
+      "moves": [
+        "Leer",
+        "Spark",
+        "Thunder Wave",
+        "Crunch"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

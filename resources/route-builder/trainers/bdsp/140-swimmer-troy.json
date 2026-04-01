@@ -1,0 +1,41 @@
+{
+  "id": "trainer-id-140",
+  "trainerId": 140,
+  "game": "bdsp",
+  "name": "Swimmer Troy",
+  "prerequisites": {
+    "requiredHms": [
+      "surf"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Gyarados",
+      "level": 43,
+      "ability": "Intimidate",
+      "moves": [
+        "Scary Face",
+        "Rain Dance",
+        "Aqua Tail",
+        "Hydro Pump"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

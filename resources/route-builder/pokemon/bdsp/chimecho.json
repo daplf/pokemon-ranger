@@ -1,0 +1,111 @@
+{
+  "species": "Chimecho",
+  "game": "bdsp",
+  "types": [
+    "psychic"
+  ],
+  "growthRate": "fast",
+  "baseExperience": 159,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 1,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 50,
+    "defense": 80,
+    "specialAttack": 95,
+    "specialDefense": 90,
+    "speed": 65
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Astonish"
+    },
+    {
+      "level": 1,
+      "move": "Confusion"
+    },
+    {
+      "level": 1,
+      "move": "Entrainment"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Healing Wish"
+    },
+    {
+      "level": 1,
+      "move": "Last Resort"
+    },
+    {
+      "level": 1,
+      "move": "Wrap"
+    },
+    {
+      "level": 4,
+      "move": "Growl"
+    },
+    {
+      "level": 7,
+      "move": "Astonish"
+    },
+    {
+      "level": 10,
+      "move": "Confusion"
+    },
+    {
+      "level": 13,
+      "move": "Yawn"
+    },
+    {
+      "level": 16,
+      "move": "Light Screen"
+    },
+    {
+      "level": 19,
+      "move": "Take Down"
+    },
+    {
+      "level": 22,
+      "move": "Extrasensory"
+    },
+    {
+      "level": 27,
+      "move": "Heal Bell"
+    },
+    {
+      "level": 32,
+      "move": "Uproar"
+    },
+    {
+      "level": 37,
+      "move": "Safeguard"
+    },
+    {
+      "level": 42,
+      "move": "Double-Edge"
+    },
+    {
+      "level": 47,
+      "move": "Heal Pulse"
+    },
+    {
+      "level": 52,
+      "move": "Psychic"
+    },
+    {
+      "level": 57,
+      "move": "Healing Wish"
+    }
+  ]
+}

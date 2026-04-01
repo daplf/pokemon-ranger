@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-672",
+  "trainerId": 672,
+  "game": "bdsp",
+  "name": "Worker Conrad",
+  "pokemon": [
+    {
+      "species": "Rapidash",
+      "level": 33,
+      "ability": "Run Away",
+      "moves": [
+        "Smart Strike",
+        "Poison Jab",
+        "Tail Whip",
+        "Flame Wheel"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

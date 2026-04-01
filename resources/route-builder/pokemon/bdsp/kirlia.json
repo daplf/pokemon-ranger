@@ -1,0 +1,88 @@
+{
+  "species": "Kirlia",
+  "game": "bdsp",
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 97,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 2,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 38,
+    "attack": 35,
+    "defense": 35,
+    "specialAttack": 65,
+    "specialDefense": 55,
+    "speed": 50
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Confusion"
+    },
+    {
+      "level": 1,
+      "move": "Disarming Voice"
+    },
+    {
+      "level": 1,
+      "move": "Double Team"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 9,
+      "move": "Hypnosis"
+    },
+    {
+      "level": 12,
+      "move": "Draining Kiss"
+    },
+    {
+      "level": 15,
+      "move": "Teleport"
+    },
+    {
+      "level": 18,
+      "move": "Psybeam"
+    },
+    {
+      "level": 23,
+      "move": "Life Dew"
+    },
+    {
+      "level": 28,
+      "move": "Charm"
+    },
+    {
+      "level": 33,
+      "move": "Calm Mind"
+    },
+    {
+      "level": 38,
+      "move": "Psychic"
+    },
+    {
+      "level": 43,
+      "move": "Heal Pulse"
+    },
+    {
+      "level": 48,
+      "move": "Dream Eater"
+    },
+    {
+      "level": 53,
+      "move": "Future Sight"
+    }
+  ]
+}

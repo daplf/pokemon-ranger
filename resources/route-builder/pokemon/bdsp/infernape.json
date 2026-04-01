@@ -1,0 +1,120 @@
+{
+  "species": "Infernape",
+  "game": "bdsp",
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 240,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 76,
+    "attack": 104,
+    "defense": 71,
+    "specialAttack": 104,
+    "specialDefense": 71,
+    "speed": 108
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Close Combat"
+    },
+    {
+      "level": 1,
+      "move": "Ember"
+    },
+    {
+      "level": 1,
+      "move": "Facade"
+    },
+    {
+      "level": 1,
+      "move": "Flamethrower"
+    },
+    {
+      "level": 1,
+      "move": "Flare Blitz"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Mach Punch"
+    },
+    {
+      "level": 1,
+      "move": "Nasty Plot"
+    },
+    {
+      "level": 1,
+      "move": "Scratch"
+    },
+    {
+      "level": 1,
+      "move": "Slack Off"
+    },
+    {
+      "level": 1,
+      "move": "Taunt"
+    },
+    {
+      "level": 1,
+      "move": "Torment"
+    },
+    {
+      "level": 7,
+      "move": "Ember"
+    },
+    {
+      "level": 9,
+      "move": "Taunt"
+    },
+    {
+      "level": 12,
+      "move": "Power-Up Punch"
+    },
+    {
+      "level": 16,
+      "move": "Fury Swipes"
+    },
+    {
+      "level": 19,
+      "move": "Flame Wheel"
+    },
+    {
+      "level": 26,
+      "move": "Feint"
+    },
+    {
+      "level": 29,
+      "move": "U-turn"
+    },
+    {
+      "level": 42,
+      "move": "Fire Spin"
+    },
+    {
+      "level": 52,
+      "move": "Acrobatics"
+    },
+    {
+      "level": 58,
+      "move": "Calm Mind"
+    },
+    {
+      "level": 68,
+      "move": "Flare Blitz"
+    }
+  ]
+}

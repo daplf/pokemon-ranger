@@ -1,0 +1,100 @@
+{
+  "species": "Swellow",
+  "game": "bdsp",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 159,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 2
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 60,
+    "specialAttack": 75,
+    "specialDefense": 50,
+    "speed": 125
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Air Slash"
+    },
+    {
+      "level": 1,
+      "move": "Brave Bird"
+    },
+    {
+      "level": 1,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Peck"
+    },
+    {
+      "level": 1,
+      "move": "Pluck"
+    },
+    {
+      "level": 1,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 5,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 9,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 13,
+      "move": "Wing Attack"
+    },
+    {
+      "level": 17,
+      "move": "Double Team"
+    },
+    {
+      "level": 21,
+      "move": "Aerial Ace"
+    },
+    {
+      "level": 27,
+      "move": "Quick Guard"
+    },
+    {
+      "level": 33,
+      "move": "Agility"
+    },
+    {
+      "level": 39,
+      "move": "Air Slash"
+    },
+    {
+      "level": 45,
+      "move": "Endeavor"
+    },
+    {
+      "level": 51,
+      "move": "Brave Bird"
+    },
+    {
+      "level": 57,
+      "move": "Reversal"
+    }
+  ]
+}

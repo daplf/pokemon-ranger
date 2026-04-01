@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-107",
+  "trainerId": 107,
+  "game": "bdsp",
+  "name": "Skier Kaitlyn",
+  "pokemon": [
+    {
+      "species": "Roselia",
+      "level": 36,
+      "ability": "Poison Point",
+      "moves": [
+        "Poison Sting",
+        "Leech Seed",
+        "Giga Drain",
+        "Synthesis"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Snover",
+      "level": 36,
+      "ability": "Snow Warning",
+      "moves": [
+        "Ice Shard",
+        "Razor Leaf",
+        "Icy Wind",
+        "Ingrain"
+      ],
+      "nature": "Quirky",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

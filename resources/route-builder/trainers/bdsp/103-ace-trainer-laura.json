@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-103",
+  "trainerId": 103,
+  "game": "bdsp",
+  "name": "Ace Trainer Laura",
+  "pokemon": [
+    {
+      "species": "Lopunny",
+      "level": 37,
+      "ability": "Cute Charm",
+      "moves": [
+        "Mirror Coat",
+        "Baby-Doll Eyes",
+        "Double Kick",
+        "Headbutt"
+      ],
+      "nature": "Careful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

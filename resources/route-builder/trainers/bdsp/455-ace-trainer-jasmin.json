@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-455",
+  "trainerId": 455,
+  "game": "bdsp",
+  "name": "Ace Trainer Jasmin",
+  "pokemon": [
+    {
+      "species": "Drapion",
+      "level": 59,
+      "ability": "Battle Armor",
+      "moves": [
+        "Crunch",
+        "X-Scissor",
+        "Cross Poison",
+        "Toxic"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

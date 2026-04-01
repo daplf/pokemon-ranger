@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-087",
+  "trainerId": 87,
+  "game": "bdsp",
+  "name": "Swimmer Mary",
+  "pokemon": [
+    {
+      "species": "Marill",
+      "level": 32,
+      "ability": "Thick Fat",
+      "moves": [
+        "Tail Whip",
+        "Bubble Beam",
+        "Play Rough",
+        "Rain Dance"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Pelipper",
+      "level": 30,
+      "ability": "Drizzle",
+      "moves": [
+        "Air Slash",
+        "Growl",
+        "Wing Attack",
+        "Water Pulse"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

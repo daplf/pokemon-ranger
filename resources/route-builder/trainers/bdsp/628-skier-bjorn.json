@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-628",
+  "trainerId": 628,
+  "game": "bdsp",
+  "name": "Skier Bjorn",
+  "pokemon": [
+    {
+      "species": "Mantine",
+      "level": 58,
+      "ability": "Water Absorb",
+      "moves": [
+        "Psybeam",
+        "Roost",
+        "Air Slash",
+        "Hydro Pump"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Sneasel",
+      "level": 58,
+      "ability": "Inner Focus",
+      "moves": [
+        "Metal Claw",
+        "Icy Wind",
+        "Fury Swipes",
+        "Hone Claws"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

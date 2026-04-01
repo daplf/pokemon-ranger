@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-061",
+  "trainerId": 61,
+  "game": "bdsp",
+  "name": "Bird Keeper Brianna",
+  "pokemon": [
+    {
+      "species": "Hoothoot",
+      "level": 27,
+      "ability": "Keen Eye",
+      "moves": [
+        "Growl",
+        "Reflect",
+        "Air Slash",
+        "Extrasensory"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Noctowl",
+      "level": 27,
+      "ability": "Keen Eye",
+      "moves": [
+        "Sky Attack",
+        "Peck",
+        "Echoed Voice",
+        "Extrasensory"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

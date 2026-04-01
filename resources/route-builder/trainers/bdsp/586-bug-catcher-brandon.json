@@ -1,0 +1,61 @@
+{
+  "id": "trainer-id-586",
+  "trainerId": 586,
+  "game": "bdsp",
+  "name": "Bug Catcher Brandon",
+  "pokemon": [
+    {
+      "species": "Kricketot",
+      "level": 17,
+      "ability": "Shed Skin",
+      "moves": [
+        "Growl",
+        "Pound",
+        "Struggle Bug",
+        "Bug Bite"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Silcoon",
+      "level": 17,
+      "ability": "Shed Skin",
+      "moves": [
+        "Harden"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

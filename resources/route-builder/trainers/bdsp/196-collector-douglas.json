@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-196",
+  "trainerId": 196,
+  "game": "bdsp",
+  "name": "Collector Douglas",
+  "pokemon": [
+    {
+      "species": "Roselia",
+      "level": 20,
+      "ability": "Poison Point",
+      "moves": [
+        "Mega Drain",
+        "Leech Seed",
+        "Magical Leaf",
+        "Toxic Spikes"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Roselia",
+      "level": 22,
+      "ability": "Poison Point",
+      "moves": [
+        "Poison Sting",
+        "Mega Drain",
+        "Leech Seed",
+        "Magical Leaf"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Roselia",
+      "level": 24,
+      "ability": "Poison Point",
+      "moves": [
+        "Poison Sting",
+        "Mega Drain",
+        "Leech Seed",
+        "Magical Leaf"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

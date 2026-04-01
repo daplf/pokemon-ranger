@@ -1,0 +1,91 @@
+{
+  "species": "Shuppet",
+  "game": "bdsp",
+  "types": [
+    "ghost"
+  ],
+  "growthRate": "fast",
+  "baseExperience": 59,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 44,
+    "attack": 75,
+    "defense": 35,
+    "specialAttack": 63,
+    "specialDefense": 33,
+    "speed": 45
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Knock Off"
+    },
+    {
+      "level": 4,
+      "move": "Screech"
+    },
+    {
+      "level": 7,
+      "move": "Night Shade"
+    },
+    {
+      "level": 10,
+      "move": "Spite"
+    },
+    {
+      "level": 13,
+      "move": "Shadow Sneak"
+    },
+    {
+      "level": 16,
+      "move": "Will-O-Wisp"
+    },
+    {
+      "level": 19,
+      "move": "Pain Split"
+    },
+    {
+      "level": 22,
+      "move": "Hex"
+    },
+    {
+      "level": 26,
+      "move": "Curse"
+    },
+    {
+      "level": 30,
+      "move": "Shadow Ball"
+    },
+    {
+      "level": 34,
+      "move": "Role Play"
+    },
+    {
+      "level": 38,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 42,
+      "move": "Knock Off"
+    },
+    {
+      "level": 46,
+      "move": "Grudge"
+    },
+    {
+      "level": 50,
+      "move": "Trick"
+    },
+    {
+      "level": 54,
+      "move": "Phantom Force"
+    }
+  ]
+}

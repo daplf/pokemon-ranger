@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-589",
+  "trainerId": 589,
+  "game": "bdsp",
+  "name": "Parasol Lady Alexa",
+  "pokemon": [
+    {
+      "species": "Goldeen",
+      "level": 28,
+      "ability": "Water Veil",
+      "moves": [
+        "Peck",
+        "Supersonic",
+        "Water Pulse",
+        "Horn Attack"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Buizel",
+      "level": 30,
+      "ability": "Swift Swim",
+      "moves": [
+        "Tail Whip",
+        "Bite",
+        "Swift",
+        "Aqua Jet"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

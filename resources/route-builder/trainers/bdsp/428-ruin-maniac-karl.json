@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-428",
+  "trainerId": 428,
+  "game": "bdsp",
+  "name": "Ruin Maniac Karl",
+  "pokemon": [
+    {
+      "species": "Geodude",
+      "level": 16,
+      "ability": "Rock Head",
+      "moves": [
+        "Tackle",
+        "Sandstorm",
+        "Harden",
+        "Rock Throw"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Geodude",
+      "level": 17,
+      "ability": "Rock Head",
+      "moves": [
+        "Defense Curl",
+        "Sandstorm",
+        "Rollout",
+        "Rock Throw"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Bronzor",
+      "level": 18,
+      "ability": "Levitate",
+      "moves": [
+        "Confusion",
+        "Confuse Ray",
+        "Payback",
+        "Gyro Ball"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

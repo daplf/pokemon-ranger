@@ -1,0 +1,88 @@
+{
+  "species": "Murkrow",
+  "game": "bdsp",
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 81,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 42,
+    "specialAttack": 85,
+    "specialDefense": 42,
+    "speed": 91
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Astonish"
+    },
+    {
+      "level": 1,
+      "move": "Peck"
+    },
+    {
+      "level": 5,
+      "move": "Gust"
+    },
+    {
+      "level": 11,
+      "move": "Haze"
+    },
+    {
+      "level": 15,
+      "move": "Wing Attack"
+    },
+    {
+      "level": 21,
+      "move": "Night Shade"
+    },
+    {
+      "level": 25,
+      "move": "Assurance"
+    },
+    {
+      "level": 31,
+      "move": "Taunt"
+    },
+    {
+      "level": 35,
+      "move": "Air Cutter"
+    },
+    {
+      "level": 41,
+      "move": "Mean Look"
+    },
+    {
+      "level": 45,
+      "move": "Foul Play"
+    },
+    {
+      "level": 50,
+      "move": "Tailwind"
+    },
+    {
+      "level": 55,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 61,
+      "move": "Torment"
+    },
+    {
+      "level": 65,
+      "move": "Quash"
+    }
+  ]
+}

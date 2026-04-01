@@ -1,0 +1,87 @@
+{
+  "species": "Kangaskhan",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 172,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 105,
+    "attack": 95,
+    "defense": 80,
+    "specialAttack": 40,
+    "specialDefense": 80,
+    "speed": 90
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Pound"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 4,
+      "move": "Growl"
+    },
+    {
+      "level": 8,
+      "move": "Fake Out"
+    },
+    {
+      "level": 12,
+      "move": "Bite"
+    },
+    {
+      "level": 16,
+      "move": "Stomp"
+    },
+    {
+      "level": 20,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 24,
+      "move": "Headbutt"
+    },
+    {
+      "level": 28,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 32,
+      "move": "Double Hit"
+    },
+    {
+      "level": 36,
+      "move": "Crunch"
+    },
+    {
+      "level": 40,
+      "move": "Endure"
+    },
+    {
+      "level": 44,
+      "move": "Reversal"
+    },
+    {
+      "level": 48,
+      "move": "Outrage"
+    },
+    {
+      "level": 52,
+      "move": "Last Resort"
+    }
+  ]
+}

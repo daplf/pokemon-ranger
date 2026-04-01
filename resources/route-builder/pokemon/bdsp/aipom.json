@@ -1,0 +1,83 @@
+{
+  "species": "Aipom",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "fast",
+  "baseExperience": 72,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 55,
+    "attack": 70,
+    "defense": 55,
+    "specialAttack": 40,
+    "specialDefense": 55,
+    "speed": 85
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Scratch"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 4,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 8,
+      "move": "Astonish"
+    },
+    {
+      "level": 11,
+      "move": "Baton Pass"
+    },
+    {
+      "level": 15,
+      "move": "Tickle"
+    },
+    {
+      "level": 18,
+      "move": "Fury Swipes"
+    },
+    {
+      "level": 22,
+      "move": "Swift"
+    },
+    {
+      "level": 25,
+      "move": "Screech"
+    },
+    {
+      "level": 29,
+      "move": "Agility"
+    },
+    {
+      "level": 32,
+      "move": "Double Hit"
+    },
+    {
+      "level": 36,
+      "move": "Fling"
+    },
+    {
+      "level": 39,
+      "move": "Nasty Plot"
+    },
+    {
+      "level": 43,
+      "move": "Last Resort"
+    }
+  ]
+}

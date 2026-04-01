@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-334",
+  "trainerId": 334,
+  "game": "bdsp",
+  "name": "Ruin Maniac Gerald",
+  "pokemon": [
+    {
+      "species": "Geodude",
+      "level": 15,
+      "ability": "Rock Head",
+      "moves": [
+        "Defense Curl",
+        "Sandstorm",
+        "Rock Polish",
+        "Rollout"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Bronzor",
+      "level": 17,
+      "ability": "Levitate",
+      "moves": [
+        "Confuse Ray",
+        "Payback",
+        "Imprison",
+        "Gyro Ball"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

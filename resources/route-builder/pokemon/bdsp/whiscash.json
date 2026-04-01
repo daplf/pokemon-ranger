@@ -1,0 +1,88 @@
+{
+  "species": "Whiscash",
+  "game": "bdsp",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 164,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 110,
+    "attack": 78,
+    "defense": 73,
+    "specialAttack": 76,
+    "specialDefense": 71,
+    "speed": 60
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Belch"
+    },
+    {
+      "level": 1,
+      "move": "Mud-Slap"
+    },
+    {
+      "level": 1,
+      "move": "Rest"
+    },
+    {
+      "level": 1,
+      "move": "Snore"
+    },
+    {
+      "level": 1,
+      "move": "Thrash"
+    },
+    {
+      "level": 1,
+      "move": "Tickle"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 1,
+      "move": "Zen Headbutt"
+    },
+    {
+      "level": 12,
+      "move": "Water Pulse"
+    },
+    {
+      "level": 18,
+      "move": "Amnesia"
+    },
+    {
+      "level": 24,
+      "move": "Aqua Tail"
+    },
+    {
+      "level": 33,
+      "move": "Muddy Water"
+    },
+    {
+      "level": 40,
+      "move": "Earthquake"
+    },
+    {
+      "level": 48,
+      "move": "Future Sight"
+    },
+    {
+      "level": 56,
+      "move": "Fissure"
+    }
+  ]
+}

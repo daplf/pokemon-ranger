@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-162",
+  "trainerId": 162,
+  "game": "bdsp",
+  "name": "Dragon Tamer Andre",
+  "pokemon": [
+    {
+      "species": "Gabite",
+      "level": 49,
+      "ability": "Sand Veil",
+      "moves": [
+        "Sand Tomb",
+        "Sand Attack",
+        "Bite",
+        "Dragon Claw"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

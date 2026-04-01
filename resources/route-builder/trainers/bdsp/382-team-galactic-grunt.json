@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-382",
+  "trainerId": 382,
+  "game": "bdsp",
+  "name": "Team Galactic Grunt",
+  "pokemon": [
+    {
+      "species": "Dustox",
+      "level": 35,
+      "ability": "Shield Dust",
+      "moves": [
+        "Venoshock",
+        "Leech Life",
+        "Toxic",
+        "Bug Buzz"
+      ],
+      "nature": "Quirky",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Bronzor",
+      "level": 35,
+      "ability": "Heatproof",
+      "moves": [
+        "Confuse Ray",
+        "Payback",
+        "Extrasensory",
+        "Heavy Slam"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

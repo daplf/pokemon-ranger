@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-286",
+  "trainerId": 286,
+  "game": "bdsp",
+  "name": "Bird Keeper Autumn",
+  "pokemon": [
+    {
+      "species": "Murkrow",
+      "level": 53,
+      "ability": "Insomnia",
+      "moves": [
+        "Assurance",
+        "Taunt",
+        "Air Cutter",
+        "Tailwind"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Honchkrow",
+      "level": 57,
+      "ability": "Insomnia",
+      "moves": [
+        "Astonish",
+        "Wing Attack",
+        "Swagger",
+        "Foul Play"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

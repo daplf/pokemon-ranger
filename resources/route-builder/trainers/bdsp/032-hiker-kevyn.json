@@ -1,0 +1,120 @@
+{
+  "id": "trainer-id-032",
+  "trainerId": 32,
+  "game": "bdsp",
+  "name": "Hiker Kevyn",
+  "pokemon": [
+    {
+      "species": "Geodude",
+      "level": 15,
+      "ability": "Rock Head",
+      "moves": [
+        "Tackle",
+        "Defense Curl",
+        "Rock Polish",
+        "Rollout"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Geodude",
+      "level": 16,
+      "ability": "Rock Head",
+      "moves": [
+        "Tackle",
+        "Rock Polish",
+        "Harden",
+        "Rock Throw"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Zubat",
+      "level": 17,
+      "ability": "Inner Focus",
+      "moves": [
+        "Absorb",
+        "Supersonic",
+        "Astonish",
+        "Poison Fang"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Geodude",
+      "level": 16,
+      "ability": "Rock Head",
+      "moves": [
+        "Tackle",
+        "Rock Polish",
+        "Harden",
+        "Rock Throw"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

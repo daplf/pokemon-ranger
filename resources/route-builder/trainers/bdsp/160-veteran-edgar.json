@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-160",
+  "trainerId": 160,
+  "game": "bdsp",
+  "name": "Veteran Edgar",
+  "pokemon": [
+    {
+      "species": "Tentacruel",
+      "level": 45,
+      "ability": "Clear Body",
+      "moves": [
+        "Reflect Type",
+        "Bubble Beam",
+        "Acid Armor",
+        "Poison Jab"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Golem",
+      "level": 45,
+      "ability": "Sturdy",
+      "moves": [
+        "Earthquake",
+        "Sandstorm",
+        "Smack Down",
+        "Heavy Slam"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Empoleon",
+      "level": 48,
+      "ability": "Torrent",
+      "moves": [
+        "Brine",
+        "Aqua Jet",
+        "Metal Claw",
+        "Swords Dance"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

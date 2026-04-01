@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-045",
+  "trainerId": 45,
+  "game": "bdsp",
+  "name": "Jogger Richard",
+  "pokemon": [
+    {
+      "species": "Luxio",
+      "level": 19,
+      "ability": "Intimidate",
+      "moves": [
+        "Leer",
+        "Charge",
+        "Bite",
+        "Spark"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

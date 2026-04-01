@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-706",
+  "trainerId": 706,
+  "game": "bdsp",
+  "name": "GAME FREAK’s Morimoto",
+  "pokemon": [
+    {
+      "species": "Spiritomb",
+      "level": 63,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Shadow Ball",
+        "Dark Pulse",
+        "Will-O-Wisp",
+        "Destiny Bond"
+      ],
+      "nature": "Quiet",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 30,
+        "attack": 30,
+        "defense": 30,
+        "specialAttack": 30,
+        "specialDefense": 30,
+        "speed": 30
+      }
+    },
+    {
+      "species": "Ambipom",
+      "level": 64,
+      "item": "King's Rock",
+      "moves": [
+        "Fake Out",
+        "Fling",
+        "Double Hit",
+        "Ice Punch"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 30,
+        "attack": 30,
+        "defense": 30,
+        "specialAttack": 30,
+        "specialDefense": 30,
+        "speed": 30
+      }
+    },
+    {
+      "species": "Hippowdon",
+      "level": 64,
+      "item": "Leftovers",
+      "moves": [
+        "Earthquake",
+        "Stealth Rock",
+        "Yawn",
+        "Rock Tomb"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 252,
+        "attack": 6,
+        "defense": 252,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 30,
+        "attack": 30,
+        "defense": 30,
+        "specialAttack": 30,
+        "specialDefense": 30,
+        "speed": 30
+      }
+    },
+    {
+      "species": "Vaporeon",
+      "level": 65,
+      "item": "Wiki Berry",
+      "moves": [
+        "Hydro Pump",
+        "Acid Armor",
+        "Ice Beam",
+        "Quick Attack"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 252,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 30,
+        "attack": 30,
+        "defense": 30,
+        "specialAttack": 30,
+        "specialDefense": 30,
+        "speed": 30
+      }
+    },
+    {
+      "species": "Jolteon",
+      "level": 65,
+      "item": "Lum Berry",
+      "moves": [
+        "Thunderbolt",
+        "Shadow Ball",
+        "Thunder Wave",
+        "Volt Switch"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 30,
+        "attack": 30,
+        "defense": 30,
+        "specialAttack": 30,
+        "specialDefense": 30,
+        "speed": 30
+      }
+    },
+    {
+      "species": "Flareon",
+      "level": 65,
+      "item": "Iapapa Berry",
+      "moves": [
+        "Flare Blitz",
+        "Superpower",
+        "Quick Attack",
+        "Will-O-Wisp"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 30,
+        "attack": 30,
+        "defense": 30,
+        "specialAttack": 30,
+        "specialDefense": 30,
+        "speed": 30
+      }
+    }
+  ]
+}

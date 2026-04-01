@@ -1,0 +1,11 @@
+{
+  "id": "valley-windworks",
+  "game": "bdsp",
+  "name": "Valley Windworks",
+  "trainerIds": [
+    "trainer-id-224",
+    "trainer-id-324",
+    "trainer-id-220",
+    "trainer-id-310"
+  ]
+}

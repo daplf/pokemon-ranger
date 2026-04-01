@@ -1,0 +1,9 @@
+{
+  "id": "oreburgh-mine",
+  "game": "bdsp",
+  "name": "Oreburgh Mine",
+  "trainerIds": [
+    "trainer-id-149",
+    "trainer-id-148"
+  ]
+}

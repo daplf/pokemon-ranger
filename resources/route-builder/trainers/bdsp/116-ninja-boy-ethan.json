@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-116",
+  "trainerId": 116,
+  "game": "bdsp",
+  "name": "Ninja Boy Ethan",
+  "pokemon": [
+    {
+      "species": "Skorupi",
+      "level": 35,
+      "ability": "Battle Armor",
+      "moves": [
+        "Hone Claws",
+        "Knock Off",
+        "Pin Missile",
+        "Toxic"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Golbat",
+      "level": 35,
+      "ability": "Inner Focus",
+      "moves": [
+        "Screech",
+        "Poison Fang",
+        "Air Cutter",
+        "Bite"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

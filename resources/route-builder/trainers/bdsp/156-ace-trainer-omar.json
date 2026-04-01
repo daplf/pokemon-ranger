@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-156",
+  "trainerId": 156,
+  "game": "bdsp",
+  "name": "Ace Trainer Omar",
+  "pokemon": [
+    {
+      "species": "Rapidash",
+      "level": 45,
+      "ability": "Run Away",
+      "moves": [
+        "Smart Strike",
+        "Poison Jab",
+        "Tail Whip",
+        "Flame Wheel"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Carnivine",
+      "level": 45,
+      "ability": "Levitate",
+      "moves": [
+        "Bind",
+        "Growth",
+        "Leaf Tornado",
+        "Crunch"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Rampardos",
+      "level": 48,
+      "ability": "Mold Breaker",
+      "moves": [
+        "Headbutt",
+        "Zen Headbutt",
+        "Assurance",
+        "Swords Dance"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

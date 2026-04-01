@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-282",
+  "trainerId": 282,
+  "game": "bdsp",
+  "name": "Cameraman Tevin",
+  "pokemon": [
+    {
+      "species": "Pachirisu",
+      "level": 17,
+      "ability": "Pickup",
+      "moves": [
+        "Charm",
+        "Quick Attack",
+        "Spark",
+        "Endure"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

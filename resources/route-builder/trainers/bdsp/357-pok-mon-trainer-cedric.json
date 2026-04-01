@@ -1,0 +1,148 @@
+{
+  "id": "trainer-id-357",
+  "trainerId": 357,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Cedric",
+  "pokemon": [
+    {
+      "species": "Staravia",
+      "level": 32,
+      "item": "Quick Claw",
+      "moves": [
+        "Quick Attack",
+        "Double Team",
+        "Endeavor",
+        "Pluck"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 40,
+        "attack": 72,
+        "defense": 16,
+        "specialAttack": 0,
+        "specialDefense": 16,
+        "speed": 56
+      },
+      "ivs": {
+        "hp": 5,
+        "attack": 5,
+        "defense": 5,
+        "specialAttack": 5,
+        "specialDefense": 5,
+        "speed": 5
+      }
+    },
+    {
+      "species": "Buizel",
+      "level": 33,
+      "item": "Sea Incense",
+      "moves": [
+        "Tail Whip",
+        "Bite",
+        "Swift",
+        "Brine"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 16,
+        "attack": 48,
+        "defense": 24,
+        "specialAttack": 0,
+        "specialDefense": 24,
+        "speed": 56
+      },
+      "ivs": {
+        "hp": 6,
+        "attack": 6,
+        "defense": 6,
+        "specialAttack": 6,
+        "specialDefense": 6,
+        "speed": 6
+      }
+    },
+    {
+      "species": "Heracross",
+      "level": 32,
+      "ability": "Swarm",
+      "moves": [
+        "Leer",
+        "Aerial Ace",
+        "Brick Break",
+        "Thief"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 16,
+        "attack": 64,
+        "defense": 24,
+        "specialAttack": 0,
+        "specialDefense": 24,
+        "speed": 32
+      },
+      "ivs": {
+        "hp": 9,
+        "attack": 9,
+        "defense": 9,
+        "specialAttack": 9,
+        "specialDefense": 9,
+        "speed": 9
+      }
+    },
+    {
+      "species": "Ponyta",
+      "level": 34,
+      "item": "Shell Bell",
+      "moves": [
+        "Tail Whip",
+        "Agility",
+        "Flame Wheel",
+        "Stomp"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 40,
+        "attack": 64,
+        "defense": 16,
+        "specialAttack": 0,
+        "specialDefense": 16,
+        "speed": 64
+      },
+      "ivs": {
+        "hp": 7,
+        "attack": 7,
+        "defense": 7,
+        "specialAttack": 7,
+        "specialDefense": 7,
+        "speed": 7
+      }
+    },
+    {
+      "species": "Grotle",
+      "level": 37,
+      "item": "Big Root",
+      "moves": [
+        "Razor Leaf",
+        "Bite",
+        "Leech Seed",
+        "Stealth Rock"
+      ],
+      "nature": "Careful",
+      "evs": {
+        "hp": 80,
+        "attack": 24,
+        "defense": 48,
+        "specialAttack": 24,
+        "specialDefense": 80,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 11,
+        "attack": 11,
+        "defense": 11,
+        "specialAttack": 11,
+        "specialDefense": 11,
+        "speed": 11
+      }
+    }
+  ]
+}

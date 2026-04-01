@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-301",
+  "trainerId": 301,
+  "game": "bdsp",
+  "name": "Psychic Kody",
+  "pokemon": [
+    {
+      "species": "Meditite",
+      "level": 15,
+      "ability": "Pure Power",
+      "moves": [
+        "Low Kick",
+        "Confusion",
+        "Detect",
+        "Feint"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

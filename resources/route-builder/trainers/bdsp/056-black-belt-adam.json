@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-056",
+  "trainerId": 56,
+  "game": "bdsp",
+  "name": "Black Belt Adam",
+  "pokemon": [
+    {
+      "species": "Machoke",
+      "level": 29,
+      "ability": "No Guard",
+      "moves": [
+        "Leer",
+        "Focus Energy",
+        "Low Sweep",
+        "Knock Off"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "species": "Remoraid",
+  "game": "bdsp",
+  "types": [
+    "water"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 60,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 35,
+    "attack": 65,
+    "defense": 35,
+    "specialAttack": 65,
+    "specialDefense": 35,
+    "speed": 65
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Helping Hand"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 4,
+      "move": "Water Pulse"
+    },
+    {
+      "level": 8,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 12,
+      "move": "Psybeam"
+    },
+    {
+      "level": 16,
+      "move": "Aurora Beam"
+    },
+    {
+      "level": 20,
+      "move": "Bubble Beam"
+    },
+    {
+      "level": 24,
+      "move": "Lock-On"
+    },
+    {
+      "level": 28,
+      "move": "Bullet Seed"
+    },
+    {
+      "level": 32,
+      "move": "Ice Beam"
+    },
+    {
+      "level": 36,
+      "move": "Hydro Pump"
+    },
+    {
+      "level": 40,
+      "move": "Soak"
+    },
+    {
+      "level": 44,
+      "move": "Hyper Beam"
+    }
+  ]
+}

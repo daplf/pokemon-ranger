@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-414",
+  "trainerId": 414,
+  "game": "bdsp",
+  "name": "Collector Eugene",
+  "pokemon": [
+    {
+      "species": "Clefairy",
+      "level": 20,
+      "ability": "Magic Guard",
+      "moves": [
+        "Disarming Voice",
+        "Encore",
+        "Growl",
+        "Minimize"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Clefairy",
+      "level": 20,
+      "ability": "Magic Guard",
+      "moves": [
+        "Disarming Voice",
+        "Growl",
+        "Minimize",
+        "Life Dew"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Clefairy",
+      "level": 20,
+      "ability": "Magic Guard",
+      "moves": [
+        "Disarming Voice",
+        "Growl",
+        "Minimize",
+        "Life Dew"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

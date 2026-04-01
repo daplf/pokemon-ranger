@@ -1,0 +1,76 @@
+{
+  "species": "Gible",
+  "game": "bdsp",
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 60,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 58,
+    "attack": 70,
+    "defense": 45,
+    "specialAttack": 40,
+    "specialDefense": 45,
+    "speed": 42
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Sand Tomb"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 6,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 12,
+      "move": "Dragon Breath"
+    },
+    {
+      "level": 18,
+      "move": "Bulldoze"
+    },
+    {
+      "level": 25,
+      "move": "Bite"
+    },
+    {
+      "level": 30,
+      "move": "Slash"
+    },
+    {
+      "level": 36,
+      "move": "Dragon Claw"
+    },
+    {
+      "level": 42,
+      "move": "Dig"
+    },
+    {
+      "level": 48,
+      "move": "Sandstorm"
+    },
+    {
+      "level": 54,
+      "move": "Take Down"
+    },
+    {
+      "level": 60,
+      "move": "Dragon Rush"
+    }
+  ]
+}

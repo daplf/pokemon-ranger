@@ -1,0 +1,80 @@
+{
+  "species": "Armaldo",
+  "game": "bdsp",
+  "types": [
+    "rock",
+    "bug"
+  ],
+  "growthRate": "erratic",
+  "baseExperience": 173,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 125,
+    "defense": 100,
+    "specialAttack": 70,
+    "specialDefense": 80,
+    "speed": 45
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Fury Cutter"
+    },
+    {
+      "level": 1,
+      "move": "Harden"
+    },
+    {
+      "level": 1,
+      "move": "Smack Down"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 12,
+      "move": "Metal Claw"
+    },
+    {
+      "level": 16,
+      "move": "Ancient Power"
+    },
+    {
+      "level": 20,
+      "move": "Bug Bite"
+    },
+    {
+      "level": 24,
+      "move": "Brine"
+    },
+    {
+      "level": 28,
+      "move": "Slash"
+    },
+    {
+      "level": 32,
+      "move": "Crush Claw"
+    },
+    {
+      "level": 36,
+      "move": "Rock Blast"
+    },
+    {
+      "level": 43,
+      "move": "Protect"
+    },
+    {
+      "level": 48,
+      "move": "X-Scissor"
+    }
+  ]
+}

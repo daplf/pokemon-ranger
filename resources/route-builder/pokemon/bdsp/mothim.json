@@ -1,0 +1,96 @@
+{
+  "species": "Mothim",
+  "game": "bdsp",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 148,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 70,
+    "attack": 94,
+    "defense": 50,
+    "specialAttack": 94,
+    "specialDefense": 50,
+    "speed": 66
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Bug Bite"
+    },
+    {
+      "level": 1,
+      "move": "Protect"
+    },
+    {
+      "level": 1,
+      "move": "Quiver Dance"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 10,
+      "move": "Protect"
+    },
+    {
+      "level": 15,
+      "move": "Bug Bite"
+    },
+    {
+      "level": 20,
+      "move": "String Shot"
+    },
+    {
+      "level": 23,
+      "move": "Confusion"
+    },
+    {
+      "level": 26,
+      "move": "Gust"
+    },
+    {
+      "level": 29,
+      "move": "Poison Powder"
+    },
+    {
+      "level": 32,
+      "move": "Psybeam"
+    },
+    {
+      "level": 35,
+      "move": "Roost"
+    },
+    {
+      "level": 38,
+      "move": "Struggle Bug"
+    },
+    {
+      "level": 41,
+      "move": "Air Slash"
+    },
+    {
+      "level": 44,
+      "move": "Psychic"
+    },
+    {
+      "level": 47,
+      "move": "Lunge"
+    },
+    {
+      "level": 50,
+      "move": "Bug Buzz"
+    }
+  ]
+}

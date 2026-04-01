@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-478",
+  "trainerId": 478,
+  "game": "bdsp",
+  "name": "Swimmer Mallory",
+  "pokemon": [
+    {
+      "species": "Seel",
+      "level": 50,
+      "ability": "Thick Fat",
+      "moves": [
+        "Take Down",
+        "Dive",
+        "Aqua Tail",
+        "Ice Beam"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Dewgong",
+      "level": 54,
+      "ability": "Thick Fat",
+      "moves": [
+        "Aqua Jet",
+        "Dive",
+        "Aqua Tail",
+        "Aurora Beam"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

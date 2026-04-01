@@ -1,0 +1,173 @@
+{
+  "id": "trainer-id-695",
+  "trainerId": 695,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Dawn",
+  "pokemon": [
+    {
+      "species": "Togekiss",
+      "level": 68,
+      "item": "Lum Berry",
+      "moves": [
+        "Dazzling Gleam",
+        "Air Slash",
+        "Aura Sphere",
+        "Thunder Wave"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Bellossom",
+      "level": 69,
+      "item": "Persim Berry",
+      "moves": [
+        "Moonblast",
+        "Petal Dance",
+        "Toxic",
+        "Quiver Dance"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Mamoswine",
+      "level": 70,
+      "item": "Life Orb",
+      "moves": [
+        "Ice Shard",
+        "Earthquake",
+        "Stone Edge",
+        "Avalanche"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 128,
+        "attack": 252,
+        "defense": 128,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Typhlosion",
+      "level": 69,
+      "item": "Choice Scarf",
+      "moves": [
+        "Eruption"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Lopunny",
+      "level": 70,
+      "item": "Lagging Tail",
+      "moves": [
+        "High Jump Kick",
+        "Thunder Wave",
+        "Sweet Kiss",
+        "Switcheroo"
+      ],
+      "nature": "Careful",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 6,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Empoleon",
+      "level": 74,
+      "item": "Leftovers",
+      "moves": [
+        "Hydro Pump",
+        "Flash Cannon",
+        "Ice Beam",
+        "Grass Knot"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

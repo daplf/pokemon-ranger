@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-459",
+  "trainerId": 459,
+  "game": "bdsp",
+  "name": "Psychic Sterling",
+  "pokemon": [
+    {
+      "species": "Baltoy",
+      "level": 54,
+      "ability": "Levitate",
+      "moves": [
+        "Earth Power",
+        "Extrasensory",
+        "Rock Tomb",
+        "Ancient Power"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Grumpig",
+      "level": 58,
+      "ability": "Thick Fat",
+      "moves": [
+        "Psychic",
+        "Power Gem",
+        "Magic Coat",
+        "Payback"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-190",
+  "trainerId": 190,
+  "game": "bdsp",
+  "name": "Camper Drew",
+  "pokemon": [
+    {
+      "species": "Gastly",
+      "level": 27,
+      "ability": "Levitate",
+      "moves": [
+        "Hypnosis",
+        "Mean Look",
+        "Curse",
+        "Dream Eater"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gastly",
+      "level": 27,
+      "ability": "Levitate",
+      "moves": [
+        "Hypnosis",
+        "Mean Look",
+        "Curse",
+        "Dream Eater"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gastly",
+      "level": 27,
+      "ability": "Levitate",
+      "moves": [
+        "Hypnosis",
+        "Mean Look",
+        "Curse",
+        "Dream Eater"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

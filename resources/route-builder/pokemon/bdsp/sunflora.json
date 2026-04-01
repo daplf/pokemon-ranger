@@ -1,0 +1,111 @@
+{
+  "species": "Sunflora",
+  "game": "bdsp",
+  "types": [
+    "grass"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 149,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 2,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 75,
+    "defense": 55,
+    "specialAttack": 105,
+    "specialDefense": 85,
+    "speed": 30
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Endeavor"
+    },
+    {
+      "level": 1,
+      "move": "Flower Shield"
+    },
+    {
+      "level": 1,
+      "move": "Growth"
+    },
+    {
+      "level": 1,
+      "move": "Pound"
+    },
+    {
+      "level": 1,
+      "move": "Seed Bomb"
+    },
+    {
+      "level": 1,
+      "move": "Synthesis"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 4,
+      "move": "Ingrain"
+    },
+    {
+      "level": 7,
+      "move": "Absorb"
+    },
+    {
+      "level": 10,
+      "move": "Mega Drain"
+    },
+    {
+      "level": 13,
+      "move": "Leech Seed"
+    },
+    {
+      "level": 16,
+      "move": "Razor Leaf"
+    },
+    {
+      "level": 19,
+      "move": "Worry Seed"
+    },
+    {
+      "level": 22,
+      "move": "Giga Drain"
+    },
+    {
+      "level": 25,
+      "move": "Bullet Seed"
+    },
+    {
+      "level": 28,
+      "move": "Petal Dance"
+    },
+    {
+      "level": 34,
+      "move": "Solar Beam"
+    },
+    {
+      "level": 37,
+      "move": "Double-Edge"
+    },
+    {
+      "level": 40,
+      "move": "Sunny Day"
+    },
+    {
+      "level": 43,
+      "move": "Leaf Storm"
+    },
+    {
+      "level": 50,
+      "move": "Petal Blizzard"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-552",
+  "trainerId": 552,
+  "game": "bdsp",
+  "name": "Psychic Daisy",
+  "pokemon": [
+    {
+      "species": "Slowbro",
+      "level": 58,
+      "ability": "Own Tempo",
+      "moves": [
+        "Psychic",
+        "Amnesia",
+        "Slack Off",
+        "Yawn"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Slowbro",
+      "level": 60,
+      "ability": "Oblivious",
+      "moves": [
+        "Psychic",
+        "Amnesia",
+        "Slack Off",
+        "Surf"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

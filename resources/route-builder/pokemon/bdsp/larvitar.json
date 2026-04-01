@@ -1,0 +1,92 @@
+{
+  "species": "Larvitar",
+  "game": "bdsp",
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 60,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 50,
+    "attack": 64,
+    "defense": 50,
+    "specialAttack": 45,
+    "specialDefense": 50,
+    "speed": 41
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 3,
+      "move": "Rock Throw"
+    },
+    {
+      "level": 6,
+      "move": "Payback"
+    },
+    {
+      "level": 9,
+      "move": "Bite"
+    },
+    {
+      "level": 12,
+      "move": "Scary Face"
+    },
+    {
+      "level": 15,
+      "move": "Rock Slide"
+    },
+    {
+      "level": 18,
+      "move": "Stomping Tantrum"
+    },
+    {
+      "level": 21,
+      "move": "Screech"
+    },
+    {
+      "level": 24,
+      "move": "Dark Pulse"
+    },
+    {
+      "level": 27,
+      "move": "Crunch"
+    },
+    {
+      "level": 31,
+      "move": "Earthquake"
+    },
+    {
+      "level": 33,
+      "move": "Stone Edge"
+    },
+    {
+      "level": 36,
+      "move": "Thrash"
+    },
+    {
+      "level": 39,
+      "move": "Sandstorm"
+    },
+    {
+      "level": 42,
+      "move": "Hyper Beam"
+    }
+  ]
+}

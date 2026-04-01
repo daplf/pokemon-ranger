@@ -1,0 +1,69 @@
+{
+  "id": "trainer-id-138",
+  "trainerId": 138,
+  "game": "bdsp",
+  "name": "Swimmer Francisco",
+  "prerequisites": {
+    "requiredHms": [
+      "surf"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Tentacool",
+      "level": 40,
+      "ability": "Clear Body",
+      "moves": [
+        "Water Pulse",
+        "Hex",
+        "Acid Armor",
+        "Poison Jab"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Golduck",
+      "level": 42,
+      "ability": "Damp",
+      "moves": [
+        "Fury Swipes",
+        "Zen Headbutt",
+        "Aqua Tail",
+        "Psych Up"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

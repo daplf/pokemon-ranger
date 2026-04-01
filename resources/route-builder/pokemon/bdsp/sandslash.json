@@ -1,0 +1,103 @@
+{
+  "species": "Sandslash",
+  "game": "bdsp",
+  "types": [
+    "ground"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 158,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 110,
+    "specialAttack": 45,
+    "specialDefense": 55,
+    "speed": 65
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Agility"
+    },
+    {
+      "level": 1,
+      "move": "Crush Claw"
+    },
+    {
+      "level": 1,
+      "move": "Defense Curl"
+    },
+    {
+      "level": 1,
+      "move": "Poison Sting"
+    },
+    {
+      "level": 1,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 1,
+      "move": "Scratch"
+    },
+    {
+      "level": 9,
+      "move": "Rollout"
+    },
+    {
+      "level": 12,
+      "move": "Fury Cutter"
+    },
+    {
+      "level": 15,
+      "move": "Rapid Spin"
+    },
+    {
+      "level": 18,
+      "move": "Bulldoze"
+    },
+    {
+      "level": 21,
+      "move": "Swift"
+    },
+    {
+      "level": 26,
+      "move": "Fury Swipes"
+    },
+    {
+      "level": 31,
+      "move": "Sand Tomb"
+    },
+    {
+      "level": 36,
+      "move": "Slash"
+    },
+    {
+      "level": 41,
+      "move": "Dig"
+    },
+    {
+      "level": 46,
+      "move": "Gyro Ball"
+    },
+    {
+      "level": 51,
+      "move": "Swords Dance"
+    },
+    {
+      "level": 56,
+      "move": "Sandstorm"
+    },
+    {
+      "level": 61,
+      "move": "Earthquake"
+    }
+  ]
+}

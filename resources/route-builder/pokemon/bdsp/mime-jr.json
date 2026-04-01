@@ -1,0 +1,96 @@
+{
+  "species": "Mime Jr.",
+  "game": "bdsp",
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 62,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 1,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 20,
+    "attack": 25,
+    "defense": 45,
+    "specialAttack": 70,
+    "specialDefense": 90,
+    "speed": 60
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Copycat"
+    },
+    {
+      "level": 1,
+      "move": "Pound"
+    },
+    {
+      "level": 4,
+      "move": "Baton Pass"
+    },
+    {
+      "level": 8,
+      "move": "Encore"
+    },
+    {
+      "level": 12,
+      "move": "Confusion"
+    },
+    {
+      "level": 16,
+      "move": "Role Play"
+    },
+    {
+      "level": 20,
+      "move": "Protect"
+    },
+    {
+      "level": 24,
+      "move": "Recycle"
+    },
+    {
+      "level": 28,
+      "move": "Psybeam"
+    },
+    {
+      "level": 32,
+      "move": "Mimic"
+    },
+    {
+      "level": 36,
+      "move": "Light Screen"
+    },
+    {
+      "level": 36,
+      "move": "Reflect"
+    },
+    {
+      "level": 36,
+      "move": "Safeguard"
+    },
+    {
+      "level": 40,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 44,
+      "move": "Dazzling Gleam"
+    },
+    {
+      "level": 48,
+      "move": "Psychic"
+    },
+    {
+      "level": 52,
+      "move": "Teeter Dance"
+    }
+  ]
+}

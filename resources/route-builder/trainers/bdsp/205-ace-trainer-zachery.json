@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-205",
+  "trainerId": 205,
+  "game": "bdsp",
+  "name": "Ace Trainer Zachery",
+  "pokemon": [
+    {
+      "species": "Steelix",
+      "level": 44,
+      "ability": "Sturdy",
+      "moves": [
+        "Thunder Fang",
+        "Screech",
+        "Iron Tail",
+        "Bulldoze"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Medicham",
+      "level": 44,
+      "ability": "Pure Power",
+      "moves": [
+        "Zen Headbutt",
+        "Thunder Punch",
+        "Reversal",
+        "Rock Tomb"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

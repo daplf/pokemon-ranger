@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-469",
+  "trainerId": 469,
+  "game": "bdsp",
+  "name": "Pokémon Ranger Ashlee",
+  "pokemon": [
+    {
+      "species": "Zigzagoon",
+      "level": 50,
+      "ability": "Pickup",
+      "moves": [
+        "Flail",
+        "Rest",
+        "Belly Drum",
+        "Headbutt"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Skarmory",
+      "level": 56,
+      "ability": "Keen Eye",
+      "moves": [
+        "Steel Wing",
+        "Brave Bird",
+        "Slash",
+        "Iron Defense"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

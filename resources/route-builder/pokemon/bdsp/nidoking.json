@@ -1,0 +1,88 @@
+{
+  "species": "Nidoking",
+  "game": "bdsp",
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 227,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 81,
+    "attack": 102,
+    "defense": 77,
+    "specialAttack": 85,
+    "specialDefense": 75,
+    "speed": 85
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Double Kick"
+    },
+    {
+      "level": 1,
+      "move": "Earth Power"
+    },
+    {
+      "level": 1,
+      "move": "Flatter"
+    },
+    {
+      "level": 1,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 1,
+      "move": "Fury Attack"
+    },
+    {
+      "level": 1,
+      "move": "Helping Hand"
+    },
+    {
+      "level": 1,
+      "move": "Horn Attack"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Megahorn"
+    },
+    {
+      "level": 1,
+      "move": "Peck"
+    },
+    {
+      "level": 1,
+      "move": "Poison Jab"
+    },
+    {
+      "level": 1,
+      "move": "Poison Sting"
+    },
+    {
+      "level": 1,
+      "move": "Sludge Wave"
+    },
+    {
+      "level": 1,
+      "move": "Toxic"
+    },
+    {
+      "level": 1,
+      "move": "Toxic Spikes"
+    }
+  ]
+}

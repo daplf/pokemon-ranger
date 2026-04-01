@@ -1,0 +1,92 @@
+{
+  "species": "Starmie",
+  "game": "bdsp",
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 182,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 2
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 75,
+    "defense": 85,
+    "specialAttack": 100,
+    "specialDefense": 85,
+    "speed": 115
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Brine"
+    },
+    {
+      "level": 1,
+      "move": "Confuse Ray"
+    },
+    {
+      "level": 1,
+      "move": "Cosmic Power"
+    },
+    {
+      "level": 1,
+      "move": "Harden"
+    },
+    {
+      "level": 1,
+      "move": "Hydro Pump"
+    },
+    {
+      "level": 1,
+      "move": "Light Screen"
+    },
+    {
+      "level": 1,
+      "move": "Minimize"
+    },
+    {
+      "level": 1,
+      "move": "Power Gem"
+    },
+    {
+      "level": 1,
+      "move": "Psybeam"
+    },
+    {
+      "level": 1,
+      "move": "Psychic"
+    },
+    {
+      "level": 1,
+      "move": "Rapid Spin"
+    },
+    {
+      "level": 1,
+      "move": "Recover"
+    },
+    {
+      "level": 1,
+      "move": "Surf"
+    },
+    {
+      "level": 1,
+      "move": "Swift"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    }
+  ]
+}

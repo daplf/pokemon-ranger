@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-159",
+  "trainerId": 159,
+  "game": "bdsp",
+  "name": "Ace Trainer Sydney",
+  "pokemon": [
+    {
+      "species": "Clefable",
+      "level": 46,
+      "ability": "Cute Charm",
+      "moves": [
+        "Moonlight",
+        "Meteor Mash",
+        "Cosmic Power",
+        "Moonblast"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Torterra",
+      "level": 48,
+      "ability": "Overgrow",
+      "moves": [
+        "Earthquake",
+        "Wood Hammer",
+        "Crunch",
+        "Synthesis"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

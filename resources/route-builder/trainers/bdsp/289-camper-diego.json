@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-289",
+  "trainerId": 289,
+  "game": "bdsp",
+  "name": "Camper Diego",
+  "pokemon": [
+    {
+      "species": "Cascoon",
+      "level": 13,
+      "ability": "Shed Skin",
+      "moves": [
+        "Tackle",
+        "String Shot",
+        "Poison Sting",
+        "Harden"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Dustox",
+      "level": 17,
+      "ability": "Shield Dust",
+      "moves": [
+        "Gust",
+        "Confusion",
+        "Poison Powder",
+        "Moonlight"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

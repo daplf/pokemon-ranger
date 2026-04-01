@@ -1,0 +1,103 @@
+{
+  "species": "Kecleon",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 154,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 1,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 90,
+    "defense": 70,
+    "specialAttack": 60,
+    "specialDefense": 120,
+    "speed": 40
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Astonish"
+    },
+    {
+      "level": 1,
+      "move": "Lick"
+    },
+    {
+      "level": 1,
+      "move": "Scratch"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 1,
+      "move": "Thief"
+    },
+    {
+      "level": 4,
+      "move": "Bind"
+    },
+    {
+      "level": 7,
+      "move": "Shadow Sneak"
+    },
+    {
+      "level": 10,
+      "move": "Feint"
+    },
+    {
+      "level": 13,
+      "move": "Fury Swipes"
+    },
+    {
+      "level": 16,
+      "move": "Disable"
+    },
+    {
+      "level": 18,
+      "move": "Psybeam"
+    },
+    {
+      "level": 21,
+      "move": "Ancient Power"
+    },
+    {
+      "level": 25,
+      "move": "Slash"
+    },
+    {
+      "level": 30,
+      "move": "Detect"
+    },
+    {
+      "level": 33,
+      "move": "Shadow Claw"
+    },
+    {
+      "level": 38,
+      "move": "Screech"
+    },
+    {
+      "level": 42,
+      "move": "Substitute"
+    },
+    {
+      "level": 46,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 50,
+      "move": "Foul Play"
+    }
+  ]
+}

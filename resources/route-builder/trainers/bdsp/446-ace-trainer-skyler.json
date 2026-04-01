@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-446",
+  "trainerId": 446,
+  "game": "bdsp",
+  "name": "Ace Trainer Skyler",
+  "pokemon": [
+    {
+      "species": "Loudred",
+      "level": 57,
+      "ability": "Soundproof",
+      "moves": [
+        "Hyper Voice",
+        "Roar",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Rampardos",
+      "level": 57,
+      "ability": "Mold Breaker",
+      "moves": [
+        "Zen Headbutt",
+        "Take Down",
+        "Assurance",
+        "Swords Dance"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

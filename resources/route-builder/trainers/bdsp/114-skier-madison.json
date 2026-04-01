@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-114",
+  "trainerId": 114,
+  "game": "bdsp",
+  "name": "Skier Madison",
+  "pokemon": [
+    {
+      "species": "Snover",
+      "level": 37,
+      "ability": "Snow Warning",
+      "moves": [
+        "Ice Shard",
+        "Razor Leaf",
+        "Icy Wind",
+        "Ingrain"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

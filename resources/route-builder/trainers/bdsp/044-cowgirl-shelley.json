@@ -1,0 +1,148 @@
+{
+  "id": "trainer-id-044",
+  "trainerId": 44,
+  "game": "bdsp",
+  "name": "Cowgirl Shelley",
+  "pokemon": [
+    {
+      "species": "Bidoof",
+      "level": 14,
+      "ability": "Unaware",
+      "moves": [
+        "Growl",
+        "Defense Curl",
+        "Rollout",
+        "Headbutt"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Bidoof",
+      "level": 15,
+      "ability": "Unaware",
+      "moves": [
+        "Growl",
+        "Defense Curl",
+        "Rollout",
+        "Headbutt"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Bidoof",
+      "level": 16,
+      "ability": "Unaware",
+      "moves": [
+        "Growl",
+        "Defense Curl",
+        "Rollout",
+        "Headbutt"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Bidoof",
+      "level": 15,
+      "ability": "Unaware",
+      "moves": [
+        "Growl",
+        "Defense Curl",
+        "Rollout",
+        "Headbutt"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Bidoof",
+      "level": 15,
+      "ability": "Unaware",
+      "moves": [
+        "Growl",
+        "Defense Curl",
+        "Rollout",
+        "Headbutt"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

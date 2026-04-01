@@ -1,0 +1,111 @@
+{
+  "species": "Blissey",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "fast",
+  "baseExperience": 608,
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 255,
+    "attack": 10,
+    "defense": 10,
+    "specialAttack": 75,
+    "specialDefense": 135,
+    "speed": 55
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Charm"
+    },
+    {
+      "level": 1,
+      "move": "Copycat"
+    },
+    {
+      "level": 1,
+      "move": "Covet"
+    },
+    {
+      "level": 1,
+      "move": "Defense Curl"
+    },
+    {
+      "level": 1,
+      "move": "Disarming Voice"
+    },
+    {
+      "level": 1,
+      "move": "Minimize"
+    },
+    {
+      "level": 1,
+      "move": "Pound"
+    },
+    {
+      "level": 1,
+      "move": "Sweet Kiss"
+    },
+    {
+      "level": 4,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 8,
+      "move": "Echoed Voice"
+    },
+    {
+      "level": 12,
+      "move": "Life Dew"
+    },
+    {
+      "level": 16,
+      "move": "Sing"
+    },
+    {
+      "level": 20,
+      "move": "Fling"
+    },
+    {
+      "level": 24,
+      "move": "Take Down"
+    },
+    {
+      "level": 28,
+      "move": "Heal Pulse"
+    },
+    {
+      "level": 32,
+      "move": "Helping Hand"
+    },
+    {
+      "level": 36,
+      "move": "Light Screen"
+    },
+    {
+      "level": 40,
+      "move": "Double-Edge"
+    },
+    {
+      "level": 44,
+      "move": "Soft-Boiled"
+    },
+    {
+      "level": 48,
+      "move": "Last Resort"
+    },
+    {
+      "level": 52,
+      "move": "Healing Wish"
+    }
+  ]
+}

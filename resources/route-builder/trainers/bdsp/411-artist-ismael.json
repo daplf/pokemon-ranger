@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-411",
+  "trainerId": 411,
+  "game": "bdsp",
+  "name": "Artist Ismael",
+  "pokemon": [
+    {
+      "species": "Mr. Mime",
+      "level": 23,
+      "ability": "Soundproof",
+      "moves": [
+        "Wide Guard",
+        "Power Swap",
+        "Encore",
+        "Confusion"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

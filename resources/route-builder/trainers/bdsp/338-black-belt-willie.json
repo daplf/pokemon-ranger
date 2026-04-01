@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-338",
+  "trainerId": 338,
+  "game": "bdsp",
+  "name": "Black Belt Willie",
+  "pokemon": [
+    {
+      "species": "Onix",
+      "level": 54,
+      "ability": "Rock Head",
+      "moves": [
+        "Sand Tomb",
+        "Dig",
+        "Iron Tail",
+        "Stone Edge"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machamp",
+      "level": 56,
+      "ability": "No Guard",
+      "moves": [
+        "Knock Off",
+        "Dual Chop",
+        "Bulk Up",
+        "Dynamic Punch"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

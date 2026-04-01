@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-157",
+  "trainerId": 157,
+  "game": "bdsp",
+  "name": "Ace Trainer Henry",
+  "pokemon": [
+    {
+      "species": "Honchkrow",
+      "level": 49,
+      "ability": "Insomnia",
+      "moves": [
+        "Astonish",
+        "Wing Attack",
+        "Swagger",
+        "Foul Play"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

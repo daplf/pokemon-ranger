@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-350",
+  "trainerId": 350,
+  "game": "bdsp",
+  "name": "Poké Kid Ariel",
+  "pokemon": [
+    {
+      "species": "Pikachu",
+      "level": 15,
+      "ability": "Static",
+      "moves": [
+        "Nuzzle",
+        "Charm",
+        "Thunder Shock",
+        "Quick Attack"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Pikachu",
+      "level": 15,
+      "ability": "Static",
+      "moves": [
+        "Nasty Plot",
+        "Thunder Shock",
+        "Double Team",
+        "Electro Ball"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "species": "Luxio",
+  "game": "bdsp",
+  "types": [
+    "electric"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 127,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 49,
+    "specialAttack": 60,
+    "specialDefense": 49,
+    "speed": 60
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Charge"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Shock"
+    },
+    {
+      "level": 12,
+      "move": "Bite"
+    },
+    {
+      "level": 18,
+      "move": "Spark"
+    },
+    {
+      "level": 24,
+      "move": "Roar"
+    },
+    {
+      "level": 31,
+      "move": "Volt Switch"
+    },
+    {
+      "level": 36,
+      "move": "Scary Face"
+    },
+    {
+      "level": 42,
+      "move": "Thunder Wave"
+    },
+    {
+      "level": 48,
+      "move": "Crunch"
+    },
+    {
+      "level": 54,
+      "move": "Discharge"
+    },
+    {
+      "level": 60,
+      "move": "Swagger"
+    },
+    {
+      "level": 68,
+      "move": "Wild Charge"
+    }
+  ]
+}

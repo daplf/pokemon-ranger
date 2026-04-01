@@ -1,0 +1,96 @@
+{
+  "species": "Bronzong",
+  "game": "bdsp",
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 175,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 1,
+    "specialAttack": 0,
+    "specialDefense": 1,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 67,
+    "attack": 89,
+    "defense": 116,
+    "specialAttack": 79,
+    "specialDefense": 116,
+    "speed": 33
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Block"
+    },
+    {
+      "level": 1,
+      "move": "Confuse Ray"
+    },
+    {
+      "level": 1,
+      "move": "Confusion"
+    },
+    {
+      "level": 1,
+      "move": "Payback"
+    },
+    {
+      "level": 1,
+      "move": "Sunny Day"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Weather Ball"
+    },
+    {
+      "level": 12,
+      "move": "Imprison"
+    },
+    {
+      "level": 16,
+      "move": "Gyro Ball"
+    },
+    {
+      "level": 20,
+      "move": "Hypnosis"
+    },
+    {
+      "level": 24,
+      "move": "Safeguard"
+    },
+    {
+      "level": 28,
+      "move": "Extrasensory"
+    },
+    {
+      "level": 32,
+      "move": "Heavy Slam"
+    },
+    {
+      "level": 38,
+      "move": "Iron Defense"
+    },
+    {
+      "level": 44,
+      "move": "Metal Sound"
+    },
+    {
+      "level": 50,
+      "move": "Future Sight"
+    },
+    {
+      "level": 56,
+      "move": "Rain Dance"
+    }
+  ]
+}

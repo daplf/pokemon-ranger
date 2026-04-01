@@ -1,0 +1,104 @@
+{
+  "species": "Magcargo",
+  "game": "bdsp",
+  "types": [
+    "fire",
+    "rock"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 151,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 120,
+    "specialAttack": 90,
+    "specialDefense": 80,
+    "speed": 30
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Earth Power"
+    },
+    {
+      "level": 1,
+      "move": "Ember"
+    },
+    {
+      "level": 1,
+      "move": "Rock Throw"
+    },
+    {
+      "level": 1,
+      "move": "Shell Smash"
+    },
+    {
+      "level": 1,
+      "move": "Smog"
+    },
+    {
+      "level": 1,
+      "move": "Yawn"
+    },
+    {
+      "level": 6,
+      "move": "Ember"
+    },
+    {
+      "level": 8,
+      "move": "Rock Throw"
+    },
+    {
+      "level": 13,
+      "move": "Harden"
+    },
+    {
+      "level": 15,
+      "move": "Incinerate"
+    },
+    {
+      "level": 20,
+      "move": "Clear Smog"
+    },
+    {
+      "level": 22,
+      "move": "Ancient Power"
+    },
+    {
+      "level": 29,
+      "move": "Rock Slide"
+    },
+    {
+      "level": 34,
+      "move": "Lava Plume"
+    },
+    {
+      "level": 36,
+      "move": "Amnesia"
+    },
+    {
+      "level": 43,
+      "move": "Body Slam"
+    },
+    {
+      "level": 47,
+      "move": "Recover"
+    },
+    {
+      "level": 54,
+      "move": "Flamethrower"
+    },
+    {
+      "level": 58,
+      "move": "Earth Power"
+    }
+  ]
+}

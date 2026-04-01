@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-222",
+  "trainerId": 222,
+  "game": "bdsp",
+  "name": "Team Galactic Grunt",
+  "pokemon": [
+    {
+      "species": "Zubat",
+      "level": 11,
+      "ability": "Inner Focus",
+      "moves": [
+        "Absorb",
+        "Supersonic",
+        "Astonish",
+        "Mean Look"
+      ],
+      "nature": "Quirky",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

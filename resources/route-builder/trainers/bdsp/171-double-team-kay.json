@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-171",
+  "trainerId": 171,
+  "game": "bdsp",
+  "name": "Double Team Kay",
+  "pokemon": [
+    {
+      "species": "Whiscash",
+      "level": 47,
+      "ability": "Oblivious",
+      "moves": [
+        "Zen Headbutt",
+        "Tickle",
+        "Muddy Water",
+        "Earthquake"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "species": "Azurill",
+  "game": "bdsp",
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "growthRate": "fast",
+  "baseExperience": 38,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 50,
+    "attack": 20,
+    "defense": 40,
+    "specialAttack": 20,
+    "specialDefense": 40,
+    "speed": 20
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Splash"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 3,
+      "move": "Helping Hand"
+    },
+    {
+      "level": 6,
+      "move": "Bubble Beam"
+    },
+    {
+      "level": 9,
+      "move": "Charm"
+    },
+    {
+      "level": 12,
+      "move": "Slam"
+    },
+    {
+      "level": 15,
+      "move": "Bounce"
+    }
+  ]
+}

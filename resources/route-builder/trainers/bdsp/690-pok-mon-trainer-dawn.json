@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-690",
+  "trainerId": 690,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Dawn",
+  "pokemon": [
+    {
+      "species": "Wormadam (Trash Cloak)",
+      "level": 58,
+      "item": "Leftovers",
+      "moves": [
+        "Gyro Ball",
+        "Sucker Punch",
+        "Metal Burst",
+        "Stealth Rock"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 128,
+        "specialAttack": 0,
+        "specialDefense": 128,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Magmortar",
+      "level": 59,
+      "item": "Expert Belt",
+      "moves": [
+        "Fire Blast",
+        "Focus Blast",
+        "Thunderbolt",
+        "Will-O-Wisp"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Froslass",
+      "level": 60,
+      "item": "Focus Sash",
+      "moves": [
+        "Hex",
+        "Frost Breath",
+        "Thunderbolt",
+        "Will-O-Wisp"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Milotic",
+      "level": 59,
+      "item": "Life Orb",
+      "moves": [
+        "Hydro Pump",
+        "Ice Beam",
+        "Hyper Beam",
+        "Recover"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Clefable",
+      "level": 60,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Moonblast",
+        "Calm Mind",
+        "Moonlight",
+        "Minimize"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Torterra",
+      "level": 64,
+      "item": "Yache Berry",
+      "moves": [
+        "Wood Hammer",
+        "Earthquake",
+        "Stone Edge",
+        "Curse"
+      ],
+      "nature": "Brave",
+      "evs": {
+        "hp": 128,
+        "attack": 252,
+        "defense": 128,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

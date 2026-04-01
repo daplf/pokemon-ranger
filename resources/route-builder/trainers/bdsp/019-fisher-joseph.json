@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-019",
+  "trainerId": 19,
+  "game": "bdsp",
+  "name": "Fisher Joseph",
+  "pokemon": [
+    {
+      "species": "Goldeen",
+      "level": 14,
+      "ability": "Water Veil",
+      "moves": [
+        "Peck",
+        "Tail Whip",
+        "Supersonic",
+        "Water Pulse"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

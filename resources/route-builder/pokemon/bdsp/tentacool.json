@@ -1,0 +1,84 @@
+{
+  "species": "Tentacool",
+  "game": "bdsp",
+  "types": [
+    "water",
+    "poison"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 67,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 1,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 35,
+    "specialAttack": 50,
+    "specialDefense": 100,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Poison Sting"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 4,
+      "move": "Acid"
+    },
+    {
+      "level": 8,
+      "move": "Wrap"
+    },
+    {
+      "level": 12,
+      "move": "Supersonic"
+    },
+    {
+      "level": 16,
+      "move": "Water Pulse"
+    },
+    {
+      "level": 20,
+      "move": "Screech"
+    },
+    {
+      "level": 24,
+      "move": "Bubble Beam"
+    },
+    {
+      "level": 28,
+      "move": "Hex"
+    },
+    {
+      "level": 32,
+      "move": "Acid Armor"
+    },
+    {
+      "level": 36,
+      "move": "Poison Jab"
+    },
+    {
+      "level": 40,
+      "move": "Surf"
+    },
+    {
+      "level": 44,
+      "move": "Sludge Wave"
+    },
+    {
+      "level": 48,
+      "move": "Hydro Pump"
+    }
+  ]
+}

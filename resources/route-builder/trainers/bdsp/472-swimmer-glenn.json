@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-472",
+  "trainerId": 472,
+  "game": "bdsp",
+  "name": "Swimmer Glenn",
+  "pokemon": [
+    {
+      "species": "Seel",
+      "level": 51,
+      "ability": "Thick Fat",
+      "moves": [
+        "Dive",
+        "Aqua Tail",
+        "Ice Beam",
+        "Safeguard"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Starmie",
+      "level": 51,
+      "ability": "Natural Cure",
+      "moves": [
+        "Hydro Pump",
+        "Psychic",
+        "Swift",
+        "Recover"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

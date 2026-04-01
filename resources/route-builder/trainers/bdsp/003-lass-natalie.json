@@ -1,0 +1,65 @@
+{
+  "id": "trainer-id-003",
+  "trainerId": 3,
+  "game": "bdsp",
+  "name": "Lass Natalie",
+  "prerequisites": {
+    "beatenTrainerIds": [
+      "trainer-id-001"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Bidoof",
+      "level": 3,
+      "ability": "Unaware",
+      "moves": [
+        "Tackle",
+        "Growl"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Bidoof",
+      "level": 3,
+      "ability": "Unaware",
+      "moves": [
+        "Tackle",
+        "Growl"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

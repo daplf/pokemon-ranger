@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-487",
+  "trainerId": 487,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Lucas",
+  "pokemon": [
+    {
+      "species": "Turtwig",
+      "level": 13,
+      "ability": "Overgrow",
+      "moves": [
+        "Tackle",
+        "Withdraw",
+        "Absorb",
+        "Razor Leaf"
+      ],
+      "nature": "Brave",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    }
+  ]
+}

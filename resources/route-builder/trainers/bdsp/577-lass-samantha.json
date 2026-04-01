@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-577",
+  "trainerId": 577,
+  "game": "bdsp",
+  "name": "Lass Samantha",
+  "pokemon": [
+    {
+      "species": "Budew",
+      "level": 19,
+      "ability": "Poison Point",
+      "moves": [
+        "Absorb",
+        "Growth",
+        "Stun Spore",
+        "Worry Seed"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

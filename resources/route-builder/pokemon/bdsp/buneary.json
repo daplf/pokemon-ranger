@@ -1,0 +1,87 @@
+{
+  "species": "Buneary",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 55,
+    "attack": 66,
+    "defense": 44,
+    "specialAttack": 44,
+    "specialDefense": 56,
+    "speed": 85
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Pound"
+    },
+    {
+      "level": 1,
+      "move": "Splash"
+    },
+    {
+      "level": 4,
+      "move": "Defense Curl"
+    },
+    {
+      "level": 8,
+      "move": "Baby-Doll Eyes"
+    },
+    {
+      "level": 12,
+      "move": "After You"
+    },
+    {
+      "level": 16,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 20,
+      "move": "Double Kick"
+    },
+    {
+      "level": 24,
+      "move": "Charm"
+    },
+    {
+      "level": 28,
+      "move": "Baton Pass"
+    },
+    {
+      "level": 32,
+      "move": "Headbutt"
+    },
+    {
+      "level": 36,
+      "move": "Agility"
+    },
+    {
+      "level": 40,
+      "move": "Entrainment"
+    },
+    {
+      "level": 44,
+      "move": "Flatter"
+    },
+    {
+      "level": 48,
+      "move": "Bounce"
+    },
+    {
+      "level": 52,
+      "move": "Healing Wish"
+    }
+  ]
+}

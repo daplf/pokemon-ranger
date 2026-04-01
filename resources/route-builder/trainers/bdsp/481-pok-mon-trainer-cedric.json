@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-481",
+  "trainerId": 481,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Cedric",
+  "pokemon": [
+    {
+      "species": "Munchlax",
+      "level": 42,
+      "ability": "Thick Fat",
+      "moves": [
+        "Lick",
+        "Covet",
+        "Bite",
+        "Body Slam"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 96,
+        "attack": 96,
+        "defense": 56,
+        "specialAttack": 0,
+        "specialDefense": 88,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 9,
+        "attack": 9,
+        "defense": 9,
+        "specialAttack": 9,
+        "specialDefense": 9,
+        "speed": 9
+      }
+    },
+    {
+      "species": "Staraptor",
+      "level": 41,
+      "item": "Quick Claw",
+      "moves": [
+        "Close Combat",
+        "Quick Attack",
+        "Double Team",
+        "Pluck"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 56,
+        "attack": 104,
+        "defense": 32,
+        "specialAttack": 0,
+        "specialDefense": 32,
+        "speed": 104
+      },
+      "ivs": {
+        "hp": 5,
+        "attack": 5,
+        "defense": 5,
+        "specialAttack": 5,
+        "specialDefense": 5,
+        "speed": 5
+      }
+    },
+    {
+      "species": "Buizel",
+      "level": 42,
+      "item": "Sea Incense",
+      "moves": [
+        "Tail Whip",
+        "Bite",
+        "Swift",
+        "Brine"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 40,
+        "attack": 96,
+        "defense": 40,
+        "specialAttack": 0,
+        "specialDefense": 40,
+        "speed": 96
+      },
+      "ivs": {
+        "hp": 6,
+        "attack": 6,
+        "defense": 6,
+        "specialAttack": 6,
+        "specialDefense": 6,
+        "speed": 6
+      }
+    },
+    {
+      "species": "Heracross",
+      "level": 43,
+      "ability": "Swarm",
+      "moves": [
+        "Leer",
+        "Brick Break",
+        "Pin Missile",
+        "Thief"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 40,
+        "attack": 104,
+        "defense": 40,
+        "specialAttack": 0,
+        "specialDefense": 40,
+        "speed": 96
+      },
+      "ivs": {
+        "hp": 9,
+        "attack": 9,
+        "defense": 9,
+        "specialAttack": 9,
+        "specialDefense": 9,
+        "speed": 9
+      }
+    },
+    {
+      "species": "Ponyta",
+      "level": 42,
+      "item": "Shell Bell",
+      "moves": [
+        "Tail Whip",
+        "Agility",
+        "Flame Wheel",
+        "Stomp"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 40,
+        "attack": 64,
+        "defense": 16,
+        "specialAttack": 0,
+        "specialDefense": 16,
+        "speed": 64
+      },
+      "ivs": {
+        "hp": 7,
+        "attack": 7,
+        "defense": 7,
+        "specialAttack": 7,
+        "specialDefense": 7,
+        "speed": 7
+      }
+    },
+    {
+      "species": "Torterra",
+      "level": 45,
+      "item": "Leftovers",
+      "moves": [
+        "Razor Leaf",
+        "Bite",
+        "Leech Seed",
+        "Stealth Rock"
+      ],
+      "nature": "Careful",
+      "evs": {
+        "hp": 164,
+        "attack": 52,
+        "defense": 52,
+        "specialAttack": 52,
+        "specialDefense": 124,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 11,
+        "attack": 11,
+        "defense": 11,
+        "specialAttack": 11,
+        "specialDefense": 11,
+        "speed": 11
+      }
+    }
+  ]
+}

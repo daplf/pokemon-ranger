@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-257",
+  "trainerId": 257,
+  "game": "bdsp",
+  "name": "Police Officer Thomas",
+  "pokemon": [
+    {
+      "species": "Noctowl",
+      "level": 42,
+      "ability": "Keen Eye",
+      "moves": [
+        "Peck",
+        "Reflect",
+        "Psycho Shift",
+        "Uproar"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machoke",
+      "level": 42,
+      "ability": "No Guard",
+      "moves": [
+        "Low Sweep",
+        "Knock Off",
+        "Dual Chop",
+        "Bulk Up"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

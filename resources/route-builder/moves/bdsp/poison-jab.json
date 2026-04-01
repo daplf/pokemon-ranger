@@ -1,0 +1,7 @@
+{
+  "name": "Poison Jab",
+  "game": "bdsp",
+  "type": "poison",
+  "category": "physical",
+  "power": 80
+}

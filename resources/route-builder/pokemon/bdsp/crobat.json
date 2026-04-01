@@ -1,0 +1,96 @@
+{
+  "species": "Crobat",
+  "game": "bdsp",
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 241,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 3
+  },
+  "baseStats": {
+    "hp": 85,
+    "attack": 90,
+    "defense": 80,
+    "specialAttack": 70,
+    "specialDefense": 80,
+    "speed": 130
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Absorb"
+    },
+    {
+      "level": 1,
+      "move": "Astonish"
+    },
+    {
+      "level": 1,
+      "move": "Cross Poison"
+    },
+    {
+      "level": 1,
+      "move": "Mean Look"
+    },
+    {
+      "level": 1,
+      "move": "Screech"
+    },
+    {
+      "level": 1,
+      "move": "Supersonic"
+    },
+    {
+      "level": 1,
+      "move": "Tailwind"
+    },
+    {
+      "level": 1,
+      "move": "Toxic"
+    },
+    {
+      "level": 15,
+      "move": "Poison Fang"
+    },
+    {
+      "level": 20,
+      "move": "Quick Guard"
+    },
+    {
+      "level": 27,
+      "move": "Air Cutter"
+    },
+    {
+      "level": 34,
+      "move": "Bite"
+    },
+    {
+      "level": 41,
+      "move": "Haze"
+    },
+    {
+      "level": 48,
+      "move": "Venoshock"
+    },
+    {
+      "level": 55,
+      "move": "Confuse Ray"
+    },
+    {
+      "level": 62,
+      "move": "Air Slash"
+    },
+    {
+      "level": 69,
+      "move": "Leech Life"
+    }
+  ]
+}

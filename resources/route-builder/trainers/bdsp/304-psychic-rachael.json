@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-304",
+  "trainerId": 304,
+  "game": "bdsp",
+  "name": "Psychic Rachael",
+  "pokemon": [
+    {
+      "species": "Psyduck",
+      "level": 15,
+      "ability": "Damp",
+      "moves": [
+        "Tail Whip",
+        "Confusion",
+        "Fury Swipes",
+        "Water Pulse"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

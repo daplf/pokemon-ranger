@@ -1,0 +1,111 @@
+{
+  "species": "Vigoroth",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 154,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 2
+  },
+  "baseStats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 80,
+    "specialAttack": 55,
+    "specialDefense": 55,
+    "speed": 90
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Amnesia"
+    },
+    {
+      "level": 1,
+      "move": "Covet"
+    },
+    {
+      "level": 1,
+      "move": "Encore"
+    },
+    {
+      "level": 1,
+      "move": "Flail"
+    },
+    {
+      "level": 1,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 1,
+      "move": "Play Rough"
+    },
+    {
+      "level": 1,
+      "move": "Rest"
+    },
+    {
+      "level": 1,
+      "move": "Reversal"
+    },
+    {
+      "level": 1,
+      "move": "Scratch"
+    },
+    {
+      "level": 1,
+      "move": "Slack Off"
+    },
+    {
+      "level": 1,
+      "move": "Uproar"
+    },
+    {
+      "level": 1,
+      "move": "Yawn"
+    },
+    {
+      "level": 6,
+      "move": "Encore"
+    },
+    {
+      "level": 9,
+      "move": "Uproar"
+    },
+    {
+      "level": 14,
+      "move": "Fury Swipes"
+    },
+    {
+      "level": 17,
+      "move": "Endure"
+    },
+    {
+      "level": 23,
+      "move": "Slash"
+    },
+    {
+      "level": 27,
+      "move": "Headbutt"
+    },
+    {
+      "level": 33,
+      "move": "Counter"
+    },
+    {
+      "level": 37,
+      "move": "Focus Punch"
+    },
+    {
+      "level": 43,
+      "move": "Reversal"
+    }
+  ]
+}

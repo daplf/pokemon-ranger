@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-540",
+  "trainerId": 540,
+  "game": "bdsp",
+  "name": "Ace Trainer Shannon",
+  "pokemon": [
+    {
+      "species": "Cherrim",
+      "level": 54,
+      "ability": "Flower Gift",
+      "moves": [
+        "Morning Sun",
+        "Growth",
+        "Leech Seed",
+        "Petal Blizzard"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Marill",
+      "level": 54,
+      "ability": "Huge Power",
+      "moves": [
+        "Bounce",
+        "Aqua Tail",
+        "Play Rough",
+        "Superpower"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Lopunny",
+      "level": 54,
+      "ability": "Cute Charm",
+      "moves": [
+        "Mirror Coat",
+        "Charm",
+        "Headbutt",
+        "Flatter"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

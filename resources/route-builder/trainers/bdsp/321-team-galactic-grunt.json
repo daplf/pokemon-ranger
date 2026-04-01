@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-321",
+  "trainerId": 321,
+  "game": "bdsp",
+  "name": "Team Galactic Grunt",
+  "pokemon": [
+    {
+      "species": "Croagunk",
+      "level": 34,
+      "ability": "Anticipation",
+      "moves": [
+        "Taunt",
+        "Revenge",
+        "Sucker Punch",
+        "Poison Jab"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Dustox",
+      "level": 31,
+      "ability": "Shield Dust",
+      "moves": [
+        "Poison Powder",
+        "Venoshock",
+        "Leech Life",
+        "Light Screen"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Beautifly",
+      "level": 31,
+      "ability": "Swarm",
+      "moves": [
+        "Air Cutter",
+        "Mega Drain",
+        "Leech Life",
+        "Attract"
+      ],
+      "nature": "Serious",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

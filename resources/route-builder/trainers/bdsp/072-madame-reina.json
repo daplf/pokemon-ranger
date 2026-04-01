@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-072",
+  "trainerId": 72,
+  "game": "bdsp",
+  "name": "Madame Reina",
+  "pokemon": [
+    {
+      "species": "Roselia",
+      "level": 19,
+      "ability": "Poison Point",
+      "moves": [
+        "Poison Sting",
+        "Mega Drain",
+        "Leech Seed",
+        "Magical Leaf"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

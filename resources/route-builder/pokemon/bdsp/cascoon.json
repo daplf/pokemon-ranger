@@ -1,0 +1,31 @@
+{
+  "species": "Cascoon",
+  "game": "bdsp",
+  "types": [
+    "bug"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 72,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 50,
+    "attack": 35,
+    "defense": 55,
+    "specialAttack": 25,
+    "specialDefense": 25,
+    "speed": 15
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Harden"
+    }
+  ]
+}

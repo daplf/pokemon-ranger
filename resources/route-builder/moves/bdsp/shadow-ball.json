@@ -1,0 +1,7 @@
+{
+  "name": "Shadow Ball",
+  "game": "bdsp",
+  "type": "ghost",
+  "category": "special",
+  "power": 80
+}

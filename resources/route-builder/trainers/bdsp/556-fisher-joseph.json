@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-556",
+  "trainerId": 556,
+  "game": "bdsp",
+  "name": "Fisher Joseph",
+  "pokemon": [
+    {
+      "species": "Seaking",
+      "level": 55,
+      "ability": "Water Veil",
+      "moves": [
+        "Tail Whip",
+        "Supersonic",
+        "Horn Attack",
+        "Waterfall"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

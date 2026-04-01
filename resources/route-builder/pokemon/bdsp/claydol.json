@@ -1,0 +1,104 @@
+{
+  "species": "Claydol",
+  "game": "bdsp",
+  "types": [
+    "ground",
+    "psychic"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 175,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 2,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defense": 105,
+    "specialAttack": 70,
+    "specialDefense": 120,
+    "speed": 75
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Confusion"
+    },
+    {
+      "level": 1,
+      "move": "Harden"
+    },
+    {
+      "level": 1,
+      "move": "Hyper Beam"
+    },
+    {
+      "level": 1,
+      "move": "Mud-Slap"
+    },
+    {
+      "level": 1,
+      "move": "Rapid Spin"
+    },
+    {
+      "level": 1,
+      "move": "Teleport"
+    },
+    {
+      "level": 9,
+      "move": "Rock Tomb"
+    },
+    {
+      "level": 12,
+      "move": "Power Trick"
+    },
+    {
+      "level": 15,
+      "move": "Psybeam"
+    },
+    {
+      "level": 18,
+      "move": "Ancient Power"
+    },
+    {
+      "level": 21,
+      "move": "Imprison"
+    },
+    {
+      "level": 24,
+      "move": "Cosmic Power"
+    },
+    {
+      "level": 27,
+      "move": "Extrasensory"
+    },
+    {
+      "level": 30,
+      "move": "Earth Power"
+    },
+    {
+      "level": 33,
+      "move": "Self-Destruct"
+    },
+    {
+      "level": 38,
+      "move": "Guard Split"
+    },
+    {
+      "level": 38,
+      "move": "Power Split"
+    },
+    {
+      "level": 43,
+      "move": "Sandstorm"
+    },
+    {
+      "level": 48,
+      "move": "Explosion"
+    }
+  ]
+}

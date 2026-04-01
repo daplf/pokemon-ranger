@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-295",
+  "trainerId": 295,
+  "game": "bdsp",
+  "name": "Ace Trainer Jonah",
+  "pokemon": [
+    {
+      "species": "Ponyta",
+      "level": 31,
+      "ability": "Run Away",
+      "moves": [
+        "Tail Whip",
+        "Agility",
+        "Flame Wheel",
+        "Stomp"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Haunter",
+      "level": 31,
+      "ability": "Levitate",
+      "moves": [
+        "Shadow Punch",
+        "Confuse Ray",
+        "Mean Look",
+        "Payback"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Floatzel",
+      "level": 34,
+      "ability": "Swift Swim",
+      "moves": [
+        "Tail Whip",
+        "Bite",
+        "Swift",
+        "Aqua Jet"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

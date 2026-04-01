@@ -1,0 +1,63 @@
+{
+  "id": "trainer-id-248",
+  "trainerId": 248,
+  "game": "bdsp",
+  "name": "Lass Caroline",
+  "pokemon": [
+    {
+      "species": "Cherubi",
+      "level": 15,
+      "ability": "Chlorophyll",
+      "moves": [
+        "Sunny Day",
+        "Morning Sun",
+        "Growth",
+        "Leafage"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Roselia",
+      "level": 15,
+      "ability": "Leaf Guard",
+      "moves": [
+        "Stun Spore",
+        "Mega Drain",
+        "Leech Seed"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

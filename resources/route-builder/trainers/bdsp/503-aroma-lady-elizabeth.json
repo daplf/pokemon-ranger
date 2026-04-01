@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-503",
+  "trainerId": 503,
+  "game": "bdsp",
+  "name": "Aroma Lady Elizabeth",
+  "pokemon": [
+    {
+      "species": "Roselia",
+      "level": 55,
+      "ability": "Poison Point",
+      "moves": [
+        "Leech Seed",
+        "Giga Drain",
+        "Toxic",
+        "Petal Blizzard"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

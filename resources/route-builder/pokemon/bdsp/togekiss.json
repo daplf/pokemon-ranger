@@ -1,0 +1,112 @@
+{
+  "species": "Togekiss",
+  "game": "bdsp",
+  "types": [
+    "fairy",
+    "flying"
+  ],
+  "growthRate": "fast",
+  "baseExperience": 245,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 2,
+    "specialDefense": 1,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 85,
+    "attack": 50,
+    "defense": 95,
+    "specialAttack": 120,
+    "specialDefense": 115,
+    "speed": 80
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "After You"
+    },
+    {
+      "level": 1,
+      "move": "Air Slash"
+    },
+    {
+      "level": 1,
+      "move": "Ancient Power"
+    },
+    {
+      "level": 1,
+      "move": "Aura Sphere"
+    },
+    {
+      "level": 1,
+      "move": "Baton Pass"
+    },
+    {
+      "level": 1,
+      "move": "Charm"
+    },
+    {
+      "level": 1,
+      "move": "Double-Edge"
+    },
+    {
+      "level": 1,
+      "move": "Extreme Speed"
+    },
+    {
+      "level": 1,
+      "move": "Fairy Wind"
+    },
+    {
+      "level": 1,
+      "move": "Follow Me"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Last Resort"
+    },
+    {
+      "level": 1,
+      "move": "Life Dew"
+    },
+    {
+      "level": 1,
+      "move": "Metronome"
+    },
+    {
+      "level": 1,
+      "move": "Pound"
+    },
+    {
+      "level": 1,
+      "move": "Safeguard"
+    },
+    {
+      "level": 1,
+      "move": "Sky Attack"
+    },
+    {
+      "level": 1,
+      "move": "Sweet Kiss"
+    },
+    {
+      "level": 1,
+      "move": "Tri Attack"
+    },
+    {
+      "level": 1,
+      "move": "Wish"
+    },
+    {
+      "level": 1,
+      "move": "Yawn"
+    }
+  ]
+}

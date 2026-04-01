@@ -1,0 +1,103 @@
+{
+  "id": "trainer-id-312",
+  "trainerId": 312,
+  "game": "bdsp",
+  "name": "Commander Jupiter",
+  "prerequisites": {
+    "beatenTrainerIds": [
+      "trainer-id-388",
+      "trainer-id-382",
+      "trainer-id-390",
+      "trainer-id-386",
+      "trainer-id-399",
+      "trainer-id-393",
+      "trainer-id-391"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Bronzor",
+      "level": 41,
+      "ability": "Levitate",
+      "moves": [
+        "Confuse Ray",
+        "Payback",
+        "Extrasensory",
+        "Light Screen"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 68,
+        "attack": 0,
+        "defense": 68,
+        "specialAttack": 0,
+        "specialDefense": 68,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 15,
+        "attack": 0,
+        "defense": 15,
+        "specialAttack": 0,
+        "specialDefense": 15,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Golbat",
+      "level": 41,
+      "ability": "Inner Focus",
+      "moves": [
+        "Air Cutter",
+        "Haze",
+        "Giga Drain",
+        "Sludge Bomb"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 68,
+        "attack": 0,
+        "defense": 68,
+        "specialAttack": 0,
+        "specialDefense": 68,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 15,
+        "attack": 0,
+        "defense": 15,
+        "specialAttack": 0,
+        "specialDefense": 15,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Skuntank",
+      "level": 46,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Flamethrower",
+        "Poison Gas",
+        "Belch",
+        "Snarl"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 68,
+        "attack": 0,
+        "defense": 68,
+        "specialAttack": 0,
+        "specialDefense": 68,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 15,
+        "attack": 0,
+        "defense": 15,
+        "specialAttack": 0,
+        "specialDefense": 15,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "trainer-id-187",
+  "trainerId": 187,
+  "game": "bdsp",
+  "name": "Elite Four Flint",
+  "prerequisites": {
+    "beatenTrainerIds": [
+      "trainer-id-186"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Rapidash",
+      "level": 58,
+      "item": "Wide Lens",
+      "moves": [
+        "Flame Charge",
+        "Iron Tail",
+        "Poison Jab",
+        "Hypnosis"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 12,
+        "attack": 60,
+        "defense": 12,
+        "specialAttack": 0,
+        "specialDefense": 12,
+        "speed": 204
+      },
+      "ivs": {
+        "hp": 25,
+        "attack": 31,
+        "defense": 25,
+        "specialAttack": 0,
+        "specialDefense": 25,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Steelix",
+      "level": 57,
+      "item": "Life Orb",
+      "moves": [
+        "Thunder Fang",
+        "Fire Fang",
+        "Iron Tail",
+        "Crunch"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 12,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 12,
+        "specialDefense": 12,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Drifblim",
+      "level": 58,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Strength Sap",
+        "Minimize",
+        "Baton Pass",
+        "Will-O-Wisp"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 12,
+        "attack": 60,
+        "defense": 12,
+        "specialAttack": 0,
+        "specialDefense": 12,
+        "speed": 204
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Lopunny",
+      "level": 57,
+      "item": "Leftovers",
+      "moves": [
+        "Mirror Coat",
+        "High Jump Kick",
+        "Quick Attack",
+        "Fire Punch"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Infernape",
+      "level": 61,
+      "item": "Focus Sash",
+      "moves": [
+        "Fire Punch",
+        "Thunder Punch",
+        "Close Combat",
+        "Mach Punch"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 12,
+        "attack": 60,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 204
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

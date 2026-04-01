@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-134",
+  "trainerId": 134,
+  "game": "bdsp",
+  "name": "Fisher Cole",
+  "pokemon": [
+    {
+      "species": "Gyarados",
+      "level": 41,
+      "ability": "Intimidate",
+      "moves": [
+        "Whirlpool",
+        "Brine",
+        "Waterfall",
+        "Rain Dance"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Remoraid",
+      "level": 38,
+      "ability": "Sniper",
+      "moves": [
+        "Focus Energy",
+        "Psybeam",
+        "Aurora Beam",
+        "Bubble Beam"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gyarados",
+      "level": 41,
+      "ability": "Intimidate",
+      "moves": [
+        "Ice Fang",
+        "Waterfall",
+        "Crunch",
+        "Dragon Dance"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

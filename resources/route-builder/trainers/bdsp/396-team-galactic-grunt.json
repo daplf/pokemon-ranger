@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-396",
+  "trainerId": 396,
+  "game": "bdsp",
+  "name": "Team Galactic Grunt",
+  "pokemon": [
+    {
+      "species": "Beautifly",
+      "level": 40,
+      "ability": "Swarm",
+      "moves": [
+        "Stun Spore",
+        "Leech Life",
+        "Giga Drain",
+        "Quiver Dance"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

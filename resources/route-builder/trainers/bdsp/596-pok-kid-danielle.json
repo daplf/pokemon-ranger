@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-596",
+  "trainerId": 596,
+  "game": "bdsp",
+  "name": "Poké Kid Danielle",
+  "pokemon": [
+    {
+      "species": "Pikachu",
+      "level": 40,
+      "ability": "Static",
+      "moves": [
+        "Sweet Kiss",
+        "Charm",
+        "Slam",
+        "Thunderbolt"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

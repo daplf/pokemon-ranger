@@ -1,0 +1,18 @@
+{
+  "id": "eterna-forest",
+  "game": "bdsp",
+  "name": "Eterna Forest",
+  "trainerIds": [
+    "trainer-id-153",
+    "trainer-id-150",
+    "trainer-id-154",
+    "trainer-id-155",
+    "trainer-id-152",
+    "trainer-id-151",
+    "trainer-id-304",
+    "trainer-id-301",
+    "trainer-id-019",
+    "trainer-id-018",
+    "trainer-id-020"
+  ]
+}

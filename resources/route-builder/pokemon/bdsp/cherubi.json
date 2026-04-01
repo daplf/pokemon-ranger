@@ -1,0 +1,71 @@
+{
+  "species": "Cherubi",
+  "game": "bdsp",
+  "types": [
+    "grass"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 55,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 45,
+    "attack": 35,
+    "defense": 45,
+    "specialAttack": 62,
+    "specialDefense": 53,
+    "speed": 35
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Morning Sun"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 5,
+      "move": "Leafage"
+    },
+    {
+      "level": 10,
+      "move": "Growth"
+    },
+    {
+      "level": 15,
+      "move": "Helping Hand"
+    },
+    {
+      "level": 20,
+      "move": "Magical Leaf"
+    },
+    {
+      "level": 26,
+      "move": "Leech Seed"
+    },
+    {
+      "level": 30,
+      "move": "Take Down"
+    },
+    {
+      "level": 35,
+      "move": "Petal Blizzard"
+    },
+    {
+      "level": 40,
+      "move": "Worry Seed"
+    },
+    {
+      "level": 45,
+      "move": "Solar Beam"
+    }
+  ]
+}

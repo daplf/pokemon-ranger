@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-521",
+  "trainerId": 521,
+  "game": "bdsp",
+  "name": "Camper Zackary",
+  "pokemon": [
+    {
+      "species": "Graveler",
+      "level": 55,
+      "ability": "Rock Head",
+      "moves": [
+        "Sandstorm",
+        "Earthquake",
+        "Double-Edge",
+        "Stone Edge"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

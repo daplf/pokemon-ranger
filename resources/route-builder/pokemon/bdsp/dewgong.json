@@ -1,0 +1,116 @@
+{
+  "species": "Dewgong",
+  "game": "bdsp",
+  "types": [
+    "water",
+    "ice"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 166,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 2,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 90,
+    "attack": 70,
+    "defense": 80,
+    "specialAttack": 70,
+    "specialDefense": 95,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Bubble Beam"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Headbutt"
+    },
+    {
+      "level": 1,
+      "move": "Icy Wind"
+    },
+    {
+      "level": 1,
+      "move": "Sheer Cold"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 3,
+      "move": "Growl"
+    },
+    {
+      "level": 7,
+      "move": "Bubble Beam"
+    },
+    {
+      "level": 11,
+      "move": "Icy Wind"
+    },
+    {
+      "level": 13,
+      "move": "Encore"
+    },
+    {
+      "level": 17,
+      "move": "Ice Shard"
+    },
+    {
+      "level": 21,
+      "move": "Rest"
+    },
+    {
+      "level": 23,
+      "move": "Aqua Ring"
+    },
+    {
+      "level": 27,
+      "move": "Aurora Beam"
+    },
+    {
+      "level": 31,
+      "move": "Aqua Jet"
+    },
+    {
+      "level": 33,
+      "move": "Brine"
+    },
+    {
+      "level": 39,
+      "move": "Take Down"
+    },
+    {
+      "level": 45,
+      "move": "Dive"
+    },
+    {
+      "level": 49,
+      "move": "Aqua Tail"
+    },
+    {
+      "level": 55,
+      "move": "Ice Beam"
+    },
+    {
+      "level": 61,
+      "move": "Safeguard"
+    },
+    {
+      "level": 65,
+      "move": "Hail"
+    }
+  ]
+}

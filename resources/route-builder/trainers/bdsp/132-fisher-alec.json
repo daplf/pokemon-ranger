@@ -1,0 +1,63 @@
+{
+  "id": "trainer-id-132",
+  "trainerId": 132,
+  "game": "bdsp",
+  "name": "Fisher Alec",
+  "pokemon": [
+    {
+      "species": "Magikarp",
+      "level": 40,
+      "ability": "Swift Swim",
+      "moves": [
+        "Splash",
+        "Tackle",
+        "Flail"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gyarados",
+      "level": 42,
+      "ability": "Intimidate",
+      "moves": [
+        "Ice Fang",
+        "Waterfall",
+        "Crunch",
+        "Dragon Dance"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

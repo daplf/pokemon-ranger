@@ -1,0 +1,100 @@
+{
+  "species": "Exeggutor",
+  "game": "bdsp",
+  "types": [
+    "grass",
+    "psychic"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 186,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 2,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 95,
+    "attack": 95,
+    "defense": 85,
+    "specialAttack": 125,
+    "specialDefense": 75,
+    "speed": 55
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Absorb"
+    },
+    {
+      "level": 1,
+      "move": "Bullet Seed"
+    },
+    {
+      "level": 1,
+      "move": "Confusion"
+    },
+    {
+      "level": 1,
+      "move": "Extrasensory"
+    },
+    {
+      "level": 1,
+      "move": "Giga Drain"
+    },
+    {
+      "level": 1,
+      "move": "Hypnosis"
+    },
+    {
+      "level": 1,
+      "move": "Leaf Storm"
+    },
+    {
+      "level": 1,
+      "move": "Leech Seed"
+    },
+    {
+      "level": 1,
+      "move": "Mega Drain"
+    },
+    {
+      "level": 1,
+      "move": "Psyshock"
+    },
+    {
+      "level": 1,
+      "move": "Reflect"
+    },
+    {
+      "level": 1,
+      "move": "Seed Bomb"
+    },
+    {
+      "level": 1,
+      "move": "Solar Beam"
+    },
+    {
+      "level": 1,
+      "move": "Stomp"
+    },
+    {
+      "level": 1,
+      "move": "Synthesis"
+    },
+    {
+      "level": 1,
+      "move": "Uproar"
+    },
+    {
+      "level": 1,
+      "move": "Wood Hammer"
+    },
+    {
+      "level": 1,
+      "move": "Worry Seed"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "species": "Hariyama",
+  "game": "bdsp",
+  "types": [
+    "fighting"
+  ],
+  "growthRate": "fluctuating",
+  "baseExperience": 166,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 144,
+    "attack": 120,
+    "defense": 60,
+    "specialAttack": 40,
+    "specialDefense": 60,
+    "speed": 50
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Arm Thrust"
+    },
+    {
+      "level": 1,
+      "move": "Brine"
+    },
+    {
+      "level": 1,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 1,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 4,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 7,
+      "move": "Arm Thrust"
+    },
+    {
+      "level": 10,
+      "move": "Fake Out"
+    },
+    {
+      "level": 13,
+      "move": "Force Palm"
+    },
+    {
+      "level": 16,
+      "move": "Whirlwind"
+    },
+    {
+      "level": 19,
+      "move": "Knock Off"
+    },
+    {
+      "level": 22,
+      "move": "Vital Throw"
+    },
+    {
+      "level": 26,
+      "move": "Belly Drum"
+    },
+    {
+      "level": 30,
+      "move": "Detect"
+    },
+    {
+      "level": 34,
+      "move": "Seismic Toss"
+    },
+    {
+      "level": 38,
+      "move": "Focus Punch"
+    },
+    {
+      "level": 42,
+      "move": "Endure"
+    },
+    {
+      "level": 46,
+      "move": "Close Combat"
+    },
+    {
+      "level": 50,
+      "move": "Reversal"
+    },
+    {
+      "level": 54,
+      "move": "Heavy Slam"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-278",
+  "trainerId": 278,
+  "game": "bdsp",
+  "name": "Waitress Kati",
+  "pokemon": [
+    {
+      "species": "Clefairy",
+      "level": 22,
+      "ability": "Cute Charm",
+      "moves": [
+        "Sweet Kiss",
+        "Charm",
+        "Growl",
+        "Metronome"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

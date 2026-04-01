@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-519",
+  "trainerId": 519,
+  "game": "bdsp",
+  "name": "Camper Zackary",
+  "pokemon": [
+    {
+      "species": "Geodude",
+      "level": 19,
+      "ability": "Rock Head",
+      "moves": [
+        "Sandstorm",
+        "Harden",
+        "Rock Throw",
+        "Smack Down"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

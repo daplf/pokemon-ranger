@@ -1,0 +1,100 @@
+{
+  "species": "Beautifly",
+  "game": "bdsp",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 178,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 3,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defense": 50,
+    "specialAttack": 100,
+    "specialDefense": 50,
+    "speed": 65
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Bug Bite"
+    },
+    {
+      "level": 1,
+      "move": "Gust"
+    },
+    {
+      "level": 1,
+      "move": "Harden"
+    },
+    {
+      "level": 1,
+      "move": "Poison Sting"
+    },
+    {
+      "level": 1,
+      "move": "String Shot"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 12,
+      "move": "Absorb"
+    },
+    {
+      "level": 15,
+      "move": "Stun Spore"
+    },
+    {
+      "level": 17,
+      "move": "Morning Sun"
+    },
+    {
+      "level": 20,
+      "move": "Air Cutter"
+    },
+    {
+      "level": 22,
+      "move": "Mega Drain"
+    },
+    {
+      "level": 25,
+      "move": "Leech Life"
+    },
+    {
+      "level": 27,
+      "move": "Attract"
+    },
+    {
+      "level": 30,
+      "move": "Whirlwind"
+    },
+    {
+      "level": 32,
+      "move": "Giga Drain"
+    },
+    {
+      "level": 35,
+      "move": "Bug Buzz"
+    },
+    {
+      "level": 37,
+      "move": "Protect"
+    },
+    {
+      "level": 40,
+      "move": "Quiver Dance"
+    }
+  ]
+}

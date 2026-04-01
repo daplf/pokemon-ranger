@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-214",
+  "trainerId": 214,
+  "game": "bdsp",
+  "name": "Ranchers Ava",
+  "pokemon": [
+    {
+      "species": "Stunky",
+      "level": 21,
+      "ability": "Stench",
+      "moves": [
+        "Poison Gas",
+        "Smokescreen",
+        "Acid Spray",
+        "Bite"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

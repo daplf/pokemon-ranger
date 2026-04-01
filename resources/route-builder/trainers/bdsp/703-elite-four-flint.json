@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-703",
+  "trainerId": 703,
+  "game": "bdsp",
+  "name": "Elite Four Flint",
+  "pokemon": [
+    {
+      "species": "Ninetales",
+      "level": 78,
+      "item": "Heat Rock",
+      "moves": [
+        "Flamethrower",
+        "Solar Beam",
+        "Hypnosis",
+        "Nasty Plot"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Houndoom",
+      "level": 78,
+      "item": "Wise Glasses",
+      "moves": [
+        "Flamethrower",
+        "Dark Pulse",
+        "Destiny Bond",
+        "Nasty Plot"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Rapidash",
+      "level": 79,
+      "item": "Wide Lens",
+      "moves": [
+        "Flare Blitz",
+        "Iron Tail",
+        "Poison Jab",
+        "Hypnosis"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Infernape",
+      "level": 81,
+      "item": "Focus Sash",
+      "moves": [
+        "Fire Punch",
+        "Thunder Punch",
+        "Close Combat",
+        "Mach Punch"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Arcanine",
+      "level": 81,
+      "item": "Shuca Berry",
+      "moves": [
+        "Flare Blitz",
+        "Play Rough",
+        "Close Combat",
+        "Extreme Speed"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Magmortar",
+      "level": 83,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Fire Blast",
+        "Thunderbolt",
+        "Focus Blast",
+        "Psychic"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

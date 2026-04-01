@@ -1,0 +1,91 @@
+{
+  "species": "Bellossom",
+  "game": "bdsp",
+  "types": [
+    "grass"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 221,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 3,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 95,
+    "specialAttack": 90,
+    "specialDefense": 100,
+    "speed": 50
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Absorb"
+    },
+    {
+      "level": 1,
+      "move": "Acid"
+    },
+    {
+      "level": 1,
+      "move": "Giga Drain"
+    },
+    {
+      "level": 1,
+      "move": "Grassy Terrain"
+    },
+    {
+      "level": 1,
+      "move": "Growth"
+    },
+    {
+      "level": 1,
+      "move": "Mega Drain"
+    },
+    {
+      "level": 1,
+      "move": "Moonblast"
+    },
+    {
+      "level": 1,
+      "move": "Moonlight"
+    },
+    {
+      "level": 1,
+      "move": "Petal Blizzard"
+    },
+    {
+      "level": 1,
+      "move": "Petal Dance"
+    },
+    {
+      "level": 1,
+      "move": "Poison Powder"
+    },
+    {
+      "level": 1,
+      "move": "Quiver Dance"
+    },
+    {
+      "level": 1,
+      "move": "Sleep Powder"
+    },
+    {
+      "level": 1,
+      "move": "Stun Spore"
+    },
+    {
+      "level": 1,
+      "move": "Sweet Scent"
+    },
+    {
+      "level": 1,
+      "move": "Toxic"
+    }
+  ]
+}

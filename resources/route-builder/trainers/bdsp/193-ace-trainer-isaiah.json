@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-193",
+  "trainerId": 193,
+  "game": "bdsp",
+  "name": "Ace Trainer Isaiah",
+  "pokemon": [
+    {
+      "species": "Quagsire",
+      "level": 39,
+      "ability": "Damp",
+      "moves": [
+        "Yawn",
+        "Muddy Water",
+        "Ice Beam",
+        "Bulldoze"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

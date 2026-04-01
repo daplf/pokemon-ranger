@@ -1,0 +1,135 @@
+{
+  "species": "Snorlax",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 189,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 160,
+    "attack": 110,
+    "defense": 65,
+    "specialAttack": 65,
+    "specialDefense": 110,
+    "speed": 30
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Block"
+    },
+    {
+      "level": 1,
+      "move": "Covet"
+    },
+    {
+      "level": 1,
+      "move": "Defense Curl"
+    },
+    {
+      "level": 1,
+      "move": "Flail"
+    },
+    {
+      "level": 1,
+      "move": "Fling"
+    },
+    {
+      "level": 1,
+      "move": "Last Resort"
+    },
+    {
+      "level": 1,
+      "move": "Lick"
+    },
+    {
+      "level": 1,
+      "move": "Metronome"
+    },
+    {
+      "level": 1,
+      "move": "Recycle"
+    },
+    {
+      "level": 1,
+      "move": "Screech"
+    },
+    {
+      "level": 1,
+      "move": "Stockpile"
+    },
+    {
+      "level": 1,
+      "move": "Swallow"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 12,
+      "move": "Yawn"
+    },
+    {
+      "level": 16,
+      "move": "Bite"
+    },
+    {
+      "level": 20,
+      "move": "Rest"
+    },
+    {
+      "level": 20,
+      "move": "Sleep Talk"
+    },
+    {
+      "level": 20,
+      "move": "Snore"
+    },
+    {
+      "level": 24,
+      "move": "Crunch"
+    },
+    {
+      "level": 28,
+      "move": "Body Slam"
+    },
+    {
+      "level": 32,
+      "move": "Heavy Slam"
+    },
+    {
+      "level": 36,
+      "move": "Amnesia"
+    },
+    {
+      "level": 40,
+      "move": "High Horsepower"
+    },
+    {
+      "level": 44,
+      "move": "Hammer Arm"
+    },
+    {
+      "level": 48,
+      "move": "Belly Drum"
+    },
+    {
+      "level": 52,
+      "move": "Belch"
+    },
+    {
+      "level": 56,
+      "move": "Giga Impact"
+    }
+  ]
+}

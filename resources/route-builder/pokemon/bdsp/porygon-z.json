@@ -1,0 +1,99 @@
+{
+  "species": "Porygon-Z",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 241,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 3,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 85,
+    "attack": 80,
+    "defense": 70,
+    "specialAttack": 135,
+    "specialDefense": 75,
+    "speed": 90
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Conversion"
+    },
+    {
+      "level": 1,
+      "move": "Defense Curl"
+    },
+    {
+      "level": 1,
+      "move": "Magnet Rise"
+    },
+    {
+      "level": 1,
+      "move": "Nasty Plot"
+    },
+    {
+      "level": 1,
+      "move": "Recycle"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Trick Room"
+    },
+    {
+      "level": 15,
+      "move": "Thunder Shock"
+    },
+    {
+      "level": 20,
+      "move": "Psybeam"
+    },
+    {
+      "level": 25,
+      "move": "Conversion 2"
+    },
+    {
+      "level": 30,
+      "move": "Agility"
+    },
+    {
+      "level": 35,
+      "move": "Recover"
+    },
+    {
+      "level": 40,
+      "move": "Discharge"
+    },
+    {
+      "level": 45,
+      "move": "Tri Attack"
+    },
+    {
+      "level": 50,
+      "move": "Magic Coat"
+    },
+    {
+      "level": 55,
+      "move": "Lock-On"
+    },
+    {
+      "level": 60,
+      "move": "Zap Cannon"
+    },
+    {
+      "level": 65,
+      "move": "Hyper Beam"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "species": "Staravia",
+  "game": "bdsp",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 119,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 2
+  },
+  "baseStats": {
+    "hp": 55,
+    "attack": 75,
+    "defense": 50,
+    "specialAttack": 40,
+    "specialDefense": 40,
+    "speed": 80
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 5,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 9,
+      "move": "Wing Attack"
+    },
+    {
+      "level": 13,
+      "move": "Double Team"
+    },
+    {
+      "level": 18,
+      "move": "Endeavor"
+    },
+    {
+      "level": 23,
+      "move": "Whirlwind"
+    },
+    {
+      "level": 28,
+      "move": "Aerial Ace"
+    },
+    {
+      "level": 33,
+      "move": "Take Down"
+    },
+    {
+      "level": 38,
+      "move": "Agility"
+    },
+    {
+      "level": 43,
+      "move": "Brave Bird"
+    },
+    {
+      "level": 48,
+      "move": "Final Gambit"
+    }
+  ]
+}

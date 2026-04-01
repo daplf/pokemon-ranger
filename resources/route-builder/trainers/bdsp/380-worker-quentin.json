@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-380",
+  "trainerId": 380,
+  "game": "bdsp",
+  "name": "Worker Quentin",
+  "pokemon": [
+    {
+      "species": "Geodude",
+      "level": 27,
+      "ability": "Rock Head",
+      "moves": [
+        "Tackle",
+        "Sandstorm",
+        "Harden",
+        "Smack Down"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Graveler",
+      "level": 31,
+      "ability": "Rock Head",
+      "moves": [
+        "Sandstorm",
+        "Harden",
+        "Smack Down",
+        "Stealth Rock"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Onix",
+      "level": 31,
+      "ability": "Rock Head",
+      "moves": [
+        "Bind",
+        "Curse",
+        "Rock Slide",
+        "Sand Tomb"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

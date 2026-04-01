@@ -1,0 +1,27 @@
+{
+  "species": "Gastrodon (East Sea)",
+  "game": "bdsp",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 166,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 111,
+    "attack": 83,
+    "defense": 68,
+    "specialAttack": 92,
+    "specialDefense": 82,
+    "speed": 39
+  },
+  "learnset": []
+}

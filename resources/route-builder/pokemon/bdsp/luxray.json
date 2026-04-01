@@ -1,0 +1,87 @@
+{
+  "species": "Luxray",
+  "game": "bdsp",
+  "types": [
+    "electric"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 235,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 80,
+    "attack": 120,
+    "defense": 79,
+    "specialAttack": 95,
+    "specialDefense": 79,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Charge"
+    },
+    {
+      "level": 1,
+      "move": "Electric Terrain"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Shock"
+    },
+    {
+      "level": 12,
+      "move": "Bite"
+    },
+    {
+      "level": 18,
+      "move": "Spark"
+    },
+    {
+      "level": 24,
+      "move": "Roar"
+    },
+    {
+      "level": 33,
+      "move": "Volt Switch"
+    },
+    {
+      "level": 40,
+      "move": "Scary Face"
+    },
+    {
+      "level": 48,
+      "move": "Thunder Wave"
+    },
+    {
+      "level": 56,
+      "move": "Crunch"
+    },
+    {
+      "level": 64,
+      "move": "Discharge"
+    },
+    {
+      "level": 72,
+      "move": "Swagger"
+    },
+    {
+      "level": 80,
+      "move": "Wild Charge"
+    }
+  ]
+}

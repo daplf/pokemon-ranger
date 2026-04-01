@@ -1,0 +1,99 @@
+{
+  "species": "Arcanine",
+  "game": "bdsp",
+  "types": [
+    "fire"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 194,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 90,
+    "attack": 110,
+    "defense": 80,
+    "specialAttack": 100,
+    "specialDefense": 80,
+    "speed": 95
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Agility"
+    },
+    {
+      "level": 1,
+      "move": "Bite"
+    },
+    {
+      "level": 1,
+      "move": "Burn Up"
+    },
+    {
+      "level": 1,
+      "move": "Crunch"
+    },
+    {
+      "level": 1,
+      "move": "Ember"
+    },
+    {
+      "level": 1,
+      "move": "Extreme Speed"
+    },
+    {
+      "level": 1,
+      "move": "Fire Fang"
+    },
+    {
+      "level": 1,
+      "move": "Flame Wheel"
+    },
+    {
+      "level": 1,
+      "move": "Flamethrower"
+    },
+    {
+      "level": 1,
+      "move": "Flare Blitz"
+    },
+    {
+      "level": 1,
+      "move": "Helping Hand"
+    },
+    {
+      "level": 1,
+      "move": "Howl"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Play Rough"
+    },
+    {
+      "level": 1,
+      "move": "Retaliate"
+    },
+    {
+      "level": 1,
+      "move": "Reversal"
+    },
+    {
+      "level": 1,
+      "move": "Roar"
+    },
+    {
+      "level": 1,
+      "move": "Take Down"
+    }
+  ]
+}

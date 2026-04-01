@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-068",
+  "trainerId": 68,
+  "game": "bdsp",
+  "name": "Bird Keeper Katherine",
+  "pokemon": [
+    {
+      "species": "Noctowl",
+      "level": 31,
+      "ability": "Keen Eye",
+      "moves": [
+        "Sky Attack",
+        "Reflect",
+        "Psycho Shift",
+        "Extrasensory"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

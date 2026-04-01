@@ -1,0 +1,26 @@
+{
+  "species": "Shellos (East Sea)",
+  "game": "bdsp",
+  "types": [
+    "water"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 65,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 76,
+    "attack": 48,
+    "defense": 48,
+    "specialAttack": 57,
+    "specialDefense": 62,
+    "speed": 34
+  },
+  "learnset": []
+}

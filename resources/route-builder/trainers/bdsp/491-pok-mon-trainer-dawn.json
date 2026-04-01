@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-491",
+  "trainerId": 491,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Dawn",
+  "pokemon": [
+    {
+      "species": "Chimchar",
+      "level": 13,
+      "ability": "Blaze",
+      "moves": [
+        "Scratch",
+        "Leer",
+        "Ember",
+        "Taunt"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-273",
+  "trainerId": 273,
+  "game": "bdsp",
+  "name": "Tuber Trenton",
+  "pokemon": [
+    {
+      "species": "Shellos",
+      "level": 29,
+      "ability": "Storm Drain",
+      "moves": [
+        "Mud-Slap",
+        "Harden",
+        "Recover",
+        "Water Pulse"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Shellos",
+      "level": 29,
+      "ability": "Storm Drain",
+      "moves": [
+        "Recover",
+        "Water Pulse",
+        "Ancient Power",
+        "Body Slam"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

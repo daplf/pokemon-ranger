@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-284",
+  "trainerId": 284,
+  "game": "bdsp",
+  "name": "Idol Grace",
+  "pokemon": [
+    {
+      "species": "Pikachu",
+      "level": 15,
+      "ability": "Static",
+      "moves": [
+        "Nuzzle",
+        "Charm",
+        "Thunder Shock",
+        "Quick Attack"
+      ],
+      "nature": "Careful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Clefairy",
+      "level": 15,
+      "ability": "Cute Charm",
+      "moves": [
+        "Sing",
+        "Disarming Voice",
+        "Encore",
+        "Charm"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

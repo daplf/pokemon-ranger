@@ -1,0 +1,33 @@
+{
+  "id": "trainer-id-264",
+  "trainerId": 264,
+  "game": "bdsp",
+  "name": "School Kid Harrison",
+  "pokemon": [
+    {
+      "species": "Abra",
+      "level": 6,
+      "ability": "Synchronize",
+      "moves": [
+        "Charge Beam"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

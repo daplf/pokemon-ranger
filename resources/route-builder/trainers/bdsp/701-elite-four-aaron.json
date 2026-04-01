@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-701",
+  "trainerId": 701,
+  "game": "bdsp",
+  "name": "Elite Four Aaron",
+  "pokemon": [
+    {
+      "species": "Yanmega",
+      "level": 75,
+      "item": "Wise Glasses",
+      "moves": [
+        "Bug Buzz",
+        "Air Slash",
+        "Detect",
+        "Ancient Power"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Scizor",
+      "level": 75,
+      "item": "Occa Berry",
+      "moves": [
+        "Bullet Punch",
+        "X-Scissor",
+        "Night Slash",
+        "Swords Dance"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Vespiquen",
+      "level": 77,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Power Gem",
+        "Attack Order",
+        "Aerial Ace",
+        "Defend Order"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Heracross",
+      "level": 77,
+      "item": "Flame Orb",
+      "moves": [
+        "Earthquake",
+        "Rock Slide",
+        "Facade",
+        "Close Combat"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Flygon",
+      "level": 75,
+      "item": "Wise Glasses",
+      "moves": [
+        "Dragon Pulse",
+        "Earth Power",
+        "Boomburst",
+        "Bug Buzz"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Drapion",
+      "level": 79,
+      "item": "Scope Lens",
+      "moves": [
+        "Cross Poison",
+        "Night Slash",
+        "Earthquake",
+        "X-Scissor"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

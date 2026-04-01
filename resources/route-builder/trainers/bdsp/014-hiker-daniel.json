@@ -1,0 +1,120 @@
+{
+  "id": "trainer-id-014",
+  "trainerId": 14,
+  "game": "bdsp",
+  "name": "Hiker Daniel",
+  "pokemon": [
+    {
+      "species": "Geodude",
+      "level": 11,
+      "ability": "Rock Head",
+      "moves": [
+        "Tackle",
+        "Defense Curl",
+        "Rock Polish",
+        "Rollout"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machop",
+      "level": 11,
+      "ability": "No Guard",
+      "moves": [
+        "Low Kick",
+        "Leer",
+        "Focus Energy",
+        "Revenge"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Geodude",
+      "level": 11,
+      "ability": "Rock Head",
+      "moves": [
+        "Tackle",
+        "Defense Curl",
+        "Rock Polish",
+        "Rollout"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Bidoof",
+      "level": 11,
+      "ability": "Unaware",
+      "moves": [
+        "Tackle",
+        "Growl",
+        "Defense Curl",
+        "Rollout"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

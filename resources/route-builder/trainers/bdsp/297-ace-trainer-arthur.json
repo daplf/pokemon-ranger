@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-297",
+  "trainerId": 297,
+  "game": "bdsp",
+  "name": "Ace Trainer Arthur",
+  "pokemon": [
+    {
+      "species": "Raichu",
+      "level": 55,
+      "ability": "Static",
+      "moves": [
+        "Thunder Punch",
+        "Nuzzle",
+        "Light Screen",
+        "Quick Attack"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gastrodon",
+      "level": 55,
+      "ability": "Storm Drain",
+      "moves": [
+        "Recover",
+        "Body Slam",
+        "Muddy Water",
+        "Earth Power"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

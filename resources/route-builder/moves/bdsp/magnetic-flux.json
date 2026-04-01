@@ -1,0 +1,7 @@
+{
+  "name": "Magnetic Flux",
+  "game": "bdsp",
+  "type": "electric",
+  "category": "status",
+  "power": 0
+}

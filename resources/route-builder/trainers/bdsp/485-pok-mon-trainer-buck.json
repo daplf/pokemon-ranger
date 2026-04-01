@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-485",
+  "trainerId": 485,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Buck",
+  "pokemon": [
+    {
+      "species": "Claydol",
+      "level": 58,
+      "ability": "Levitate",
+      "moves": [
+        "Ancient Power",
+        "Cosmic Power",
+        "Extrasensory",
+        "Earth Power"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 172,
+        "attack": 0,
+        "defense": 168,
+        "specialAttack": 0,
+        "specialDefense": 168,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    }
+  ]
+}

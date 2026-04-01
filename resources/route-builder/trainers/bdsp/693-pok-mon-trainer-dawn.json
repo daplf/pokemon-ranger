@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-693",
+  "trainerId": 693,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Dawn",
+  "pokemon": [
+    {
+      "species": "Crobat",
+      "level": 68,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Cross Poison",
+        "U-turn",
+        "Super Fang",
+        "Tailwind"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 128,
+        "attack": 0,
+        "defense": 128,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Arcanine",
+      "level": 69,
+      "item": "Life Orb",
+      "moves": [
+        "Flare Blitz",
+        "Play Rough",
+        "Extreme Speed",
+        "Reversal"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Mr. Mime",
+      "level": 70,
+      "item": "Leftovers",
+      "moves": [
+        "Psychic",
+        "Power Whip",
+        "Reflect",
+        "Light Screen"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 6,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Blastoise",
+      "level": 69,
+      "item": "Focus Sash",
+      "moves": [
+        "Hydro Pump",
+        "Ice Beam",
+        "Focus Blast",
+        "Shell Smash"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Lickilicky",
+      "level": 70,
+      "item": "Expert Belt",
+      "moves": [
+        "Focus Blast",
+        "Ice Beam",
+        "Fire Blast",
+        "Shadow Ball"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Torterra",
+      "level": 74,
+      "item": "Yache Berry",
+      "moves": [
+        "Wood Hammer",
+        "Earthquake",
+        "Stone Edge",
+        "Curse"
+      ],
+      "nature": "Brave",
+      "evs": {
+        "hp": 128,
+        "attack": 252,
+        "defense": 128,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

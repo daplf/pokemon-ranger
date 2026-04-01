@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-283",
+  "trainerId": 283,
+  "game": "bdsp",
+  "name": "Reporter Kinsey",
+  "pokemon": [
+    {
+      "species": "Chatot",
+      "level": 17,
+      "ability": "Keen Eye",
+      "moves": [
+        "Hyper Voice",
+        "Taunt",
+        "Growl",
+        "Sing"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

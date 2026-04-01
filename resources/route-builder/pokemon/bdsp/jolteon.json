@@ -1,0 +1,123 @@
+{
+  "species": "Jolteon",
+  "game": "bdsp",
+  "types": [
+    "electric"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 184,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 2
+  },
+  "baseStats": {
+    "hp": 65,
+    "attack": 65,
+    "defense": 60,
+    "specialAttack": 110,
+    "specialDefense": 95,
+    "speed": 130
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Baton Pass"
+    },
+    {
+      "level": 1,
+      "move": "Bite"
+    },
+    {
+      "level": 1,
+      "move": "Charm"
+    },
+    {
+      "level": 1,
+      "move": "Copycat"
+    },
+    {
+      "level": 1,
+      "move": "Covet"
+    },
+    {
+      "level": 1,
+      "move": "Double-Edge"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Helping Hand"
+    },
+    {
+      "level": 1,
+      "move": "Swift"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 1,
+      "move": "Take Down"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Shock"
+    },
+    {
+      "level": 5,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 10,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 15,
+      "move": "Baby-Doll Eyes"
+    },
+    {
+      "level": 20,
+      "move": "Thunder Wave"
+    },
+    {
+      "level": 25,
+      "move": "Double Kick"
+    },
+    {
+      "level": 30,
+      "move": "Thunder Fang"
+    },
+    {
+      "level": 35,
+      "move": "Pin Missile"
+    },
+    {
+      "level": 40,
+      "move": "Discharge"
+    },
+    {
+      "level": 45,
+      "move": "Agility"
+    },
+    {
+      "level": 50,
+      "move": "Thunder"
+    },
+    {
+      "level": 55,
+      "move": "Last Resort"
+    }
+  ]
+}

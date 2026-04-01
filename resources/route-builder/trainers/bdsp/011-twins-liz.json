@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-011",
+  "trainerId": 11,
+  "game": "bdsp",
+  "name": "Twins Liz",
+  "pokemon": [
+    {
+      "species": "Pachirisu",
+      "level": 9,
+      "ability": "Pickup",
+      "moves": [
+        "Growl",
+        "Baby-Doll Eyes",
+        "Quick Attack",
+        "Charm"
+      ],
+      "nature": "Quirky",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

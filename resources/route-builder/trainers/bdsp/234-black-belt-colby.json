@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-234",
+  "trainerId": 234,
+  "game": "bdsp",
+  "name": "Black Belt Colby",
+  "pokemon": [
+    {
+      "species": "Machoke",
+      "level": 25,
+      "ability": "Guts",
+      "moves": [
+        "Leer",
+        "Revenge",
+        "Knock Off",
+        "Bulldoze"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machoke",
+      "level": 25,
+      "ability": "Guts",
+      "moves": [
+        "Leer",
+        "Revenge",
+        "Dig",
+        "Bulk Up"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machoke",
+      "level": 25,
+      "ability": "Guts",
+      "moves": [
+        "Leer",
+        "Revenge",
+        "Earthquake",
+        "Bulk Up"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

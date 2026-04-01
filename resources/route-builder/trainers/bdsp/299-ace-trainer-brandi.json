@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-299",
+  "trainerId": 299,
+  "game": "bdsp",
+  "name": "Ace Trainer Brandi",
+  "pokemon": [
+    {
+      "species": "Pachirisu",
+      "level": 54,
+      "ability": "Pickup",
+      "moves": [
+        "Charm",
+        "Nuzzle",
+        "Swift",
+        "Super Fang"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Azumarill",
+      "level": 54,
+      "ability": "Thick Fat",
+      "moves": [
+        "Charm",
+        "Aqua Tail",
+        "Play Rough",
+        "Superpower"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Blissey",
+      "level": 54,
+      "ability": "Serene Grace",
+      "moves": [
+        "Disarming Voice",
+        "Life Dew",
+        "Light Screen",
+        "Last Resort"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

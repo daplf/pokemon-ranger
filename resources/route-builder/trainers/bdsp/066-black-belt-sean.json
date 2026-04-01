@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-066",
+  "trainerId": 66,
+  "game": "bdsp",
+  "name": "Black Belt Sean",
+  "pokemon": [
+    {
+      "species": "Croagunk",
+      "level": 28,
+      "ability": "Anticipation",
+      "moves": [
+        "Poison Sting",
+        "Mud-Slap",
+        "Revenge",
+        "Sucker Punch"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Meditite",
+      "level": 27,
+      "ability": "Pure Power",
+      "moves": [
+        "Detect",
+        "Force Palm",
+        "Psybeam",
+        "Calm Mind"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machoke",
+      "level": 29,
+      "ability": "No Guard",
+      "moves": [
+        "Leer",
+        "Focus Energy",
+        "Revenge",
+        "Knock Off"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

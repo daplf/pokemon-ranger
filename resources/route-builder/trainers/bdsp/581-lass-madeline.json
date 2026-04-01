@@ -1,0 +1,62 @@
+{
+  "id": "trainer-id-581",
+  "trainerId": 581,
+  "game": "bdsp",
+  "name": "Lass Madeline",
+  "pokemon": [
+    {
+      "species": "Staravia",
+      "level": 29,
+      "ability": "Intimidate",
+      "moves": [
+        "Quick Attack",
+        "Endeavor",
+        "Aerial Ace"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Bibarel",
+      "level": 29,
+      "ability": "Unaware",
+      "moves": [
+        "Aqua Jet",
+        "Headbutt",
+        "Crunch"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

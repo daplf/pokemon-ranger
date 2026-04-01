@@ -1,0 +1,92 @@
+{
+  "species": "Noctowl",
+  "game": "bdsp",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 158,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 100,
+    "attack": 50,
+    "defense": 50,
+    "specialAttack": 86,
+    "specialDefense": 96,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Echoed Voice"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Peck"
+    },
+    {
+      "level": 1,
+      "move": "Sky Attack"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 9,
+      "move": "Confusion"
+    },
+    {
+      "level": 12,
+      "move": "Reflect"
+    },
+    {
+      "level": 15,
+      "move": "Psycho Shift"
+    },
+    {
+      "level": 18,
+      "move": "Air Slash"
+    },
+    {
+      "level": 23,
+      "move": "Extrasensory"
+    },
+    {
+      "level": 28,
+      "move": "Take Down"
+    },
+    {
+      "level": 33,
+      "move": "Uproar"
+    },
+    {
+      "level": 38,
+      "move": "Roost"
+    },
+    {
+      "level": 43,
+      "move": "Moonblast"
+    },
+    {
+      "level": 48,
+      "move": "Hypnosis"
+    },
+    {
+      "level": 53,
+      "move": "Dream Eater"
+    }
+  ]
+}

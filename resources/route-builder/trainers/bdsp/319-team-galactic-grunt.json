@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-319",
+  "trainerId": 319,
+  "game": "bdsp",
+  "name": "Team Galactic Grunt",
+  "pokemon": [
+    {
+      "species": "Beautifly",
+      "level": 25,
+      "ability": "Swarm",
+      "moves": [
+        "Gust",
+        "Stun Spore",
+        "Air Cutter",
+        "Leech Life"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Croagunk",
+      "level": 27,
+      "ability": "Anticipation",
+      "moves": [
+        "Mud-Slap",
+        "Taunt",
+        "Revenge",
+        "Sucker Punch"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

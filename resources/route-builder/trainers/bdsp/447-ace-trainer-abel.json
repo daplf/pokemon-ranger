@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-447",
+  "trainerId": 447,
+  "game": "bdsp",
+  "name": "Ace Trainer Abel",
+  "pokemon": [
+    {
+      "species": "Aerodactyl",
+      "level": 59,
+      "ability": "Rock Head",
+      "moves": [
+        "Stone Edge",
+        "Take Down",
+        "Crunch",
+        "Iron Head"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

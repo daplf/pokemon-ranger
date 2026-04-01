@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-650",
+  "trainerId": 650,
+  "game": "bdsp",
+  "name": "Veteran Brian",
+  "pokemon": [
+    {
+      "species": "Floatzel",
+      "level": 58,
+      "ability": "Swift Swim",
+      "moves": [
+        "Crunch",
+        "Growl",
+        "Tail Whip",
+        "Waterfall"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Girafarig",
+      "level": 59,
+      "ability": "Inner Focus",
+      "moves": [
+        "Astonish",
+        "Stomp",
+        "Crunch",
+        "Psychic"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machamp",
+      "level": 60,
+      "ability": "Guts",
+      "moves": [
+        "Focus Energy",
+        "Knock Off",
+        "Dual Chop",
+        "Seismic Toss"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

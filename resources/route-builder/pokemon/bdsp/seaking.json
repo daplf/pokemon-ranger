@@ -1,0 +1,75 @@
+{
+  "species": "Seaking",
+  "game": "bdsp",
+  "types": [
+    "water"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 158,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 80,
+    "attack": 92,
+    "defense": 65,
+    "specialAttack": 65,
+    "specialDefense": 80,
+    "speed": 68
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Peck"
+    },
+    {
+      "level": 1,
+      "move": "Supersonic"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 1,
+      "move": "Water Pulse"
+    },
+    {
+      "level": 15,
+      "move": "Horn Attack"
+    },
+    {
+      "level": 20,
+      "move": "Agility"
+    },
+    {
+      "level": 25,
+      "move": "Aqua Ring"
+    },
+    {
+      "level": 30,
+      "move": "Flail"
+    },
+    {
+      "level": 37,
+      "move": "Waterfall"
+    },
+    {
+      "level": 44,
+      "move": "Soak"
+    },
+    {
+      "level": 51,
+      "move": "Megahorn"
+    },
+    {
+      "level": 58,
+      "move": "Horn Drill"
+    }
+  ]
+}

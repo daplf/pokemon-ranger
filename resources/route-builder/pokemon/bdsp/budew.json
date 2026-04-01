@@ -1,0 +1,44 @@
+{
+  "species": "Budew",
+  "game": "bdsp",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 56,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 40,
+    "attack": 30,
+    "defense": 35,
+    "specialAttack": 50,
+    "specialDefense": 70,
+    "speed": 55
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Absorb"
+    },
+    {
+      "level": 1,
+      "move": "Growth"
+    },
+    {
+      "level": 1,
+      "move": "Stun Spore"
+    },
+    {
+      "level": 1,
+      "move": "Worry Seed"
+    }
+  ]
+}

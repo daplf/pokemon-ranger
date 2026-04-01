@@ -1,0 +1,75 @@
+{
+  "species": "Lickilicky",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 180,
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 110,
+    "attack": 85,
+    "defense": 95,
+    "specialAttack": 80,
+    "specialDefense": 95,
+    "speed": 50
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Defense Curl"
+    },
+    {
+      "level": 1,
+      "move": "Lick"
+    },
+    {
+      "level": 1,
+      "move": "Rollout"
+    },
+    {
+      "level": 1,
+      "move": "Supersonic"
+    },
+    {
+      "level": 18,
+      "move": "Wrap"
+    },
+    {
+      "level": 24,
+      "move": "Disable"
+    },
+    {
+      "level": 30,
+      "move": "Stomp"
+    },
+    {
+      "level": 36,
+      "move": "Knock Off"
+    },
+    {
+      "level": 42,
+      "move": "Screech"
+    },
+    {
+      "level": 48,
+      "move": "Slam"
+    },
+    {
+      "level": 54,
+      "move": "Power Whip"
+    },
+    {
+      "level": 60,
+      "move": "Belly Drum"
+    }
+  ]
+}

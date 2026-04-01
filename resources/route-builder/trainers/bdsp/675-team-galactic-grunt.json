@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-675",
+  "trainerId": 675,
+  "game": "bdsp",
+  "name": "Team Galactic Grunt",
+  "pokemon": [
+    {
+      "species": "Dustox",
+      "level": 25,
+      "ability": "Shield Dust",
+      "moves": [
+        "Gust",
+        "Poison Powder",
+        "Venoshock",
+        "Leech Life"
+      ],
+      "nature": "Serious",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Croagunk",
+      "level": 25,
+      "ability": "Anticipation",
+      "moves": [
+        "Poison Sting",
+        "Mud-Slap",
+        "Astonish",
+        "Venoshock"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

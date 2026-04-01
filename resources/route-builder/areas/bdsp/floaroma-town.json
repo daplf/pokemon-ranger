@@ -1,0 +1,10 @@
+{
+  "id": "floaroma-town",
+  "game": "bdsp",
+  "name": "Floaroma Town",
+  "trainerIds": [
+    "trainer-id-224",
+    "trainer-id-326",
+    "trainer-id-661"
+  ]
+}

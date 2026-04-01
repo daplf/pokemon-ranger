@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-694",
+  "trainerId": 694,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Dawn",
+  "pokemon": [
+    {
+      "species": "Honchkrow",
+      "level": 68,
+      "item": "Scope Lens",
+      "moves": [
+        "Sucker Punch",
+        "Night Slash",
+        "Taunt",
+        "Roost"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Gorebyss",
+      "level": 69,
+      "item": "Wiki Berry",
+      "moves": [
+        "Hydro Pump",
+        "Ice Beam",
+        "Baton Pass",
+        "Shell Smash"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Froslass",
+      "level": 70,
+      "item": "Focus Sash",
+      "moves": [
+        "Hex",
+        "Frost Breath",
+        "Thunderbolt",
+        "Will-O-Wisp"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Sceptile",
+      "level": 69,
+      "item": "White Herb",
+      "moves": [
+        "Leaf Blade",
+        "Earthquake",
+        "Leaf Storm",
+        "Brick Break"
+      ],
+      "nature": "Lonely",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Ambipom",
+      "level": 70,
+      "item": "Life Orb",
+      "moves": [
+        "Double Hit",
+        "Fake Out",
+        "Dual Chop",
+        "U-turn"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Infernape",
+      "level": 74,
+      "item": "Expert Belt",
+      "moves": [
+        "Flare Blitz",
+        "Close Combat",
+        "Earthquake",
+        "U-turn"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

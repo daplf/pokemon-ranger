@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-161",
+  "trainerId": 161,
+  "game": "bdsp",
+  "name": "Veteran Clayton",
+  "pokemon": [
+    {
+      "species": "Staraptor",
+      "level": 47,
+      "ability": "Intimidate",
+      "moves": [
+        "Quick Attack",
+        "Endeavor",
+        "Aerial Ace",
+        "Take Down"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Hippowdon",
+      "level": 47,
+      "ability": "Sand Stream",
+      "moves": [
+        "Earthquake",
+        "Crunch",
+        "Ice Fang",
+        "Yawn"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

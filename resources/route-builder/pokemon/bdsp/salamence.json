@@ -1,0 +1,92 @@
+{
+  "species": "Salamence",
+  "game": "bdsp",
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 270,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 95,
+    "attack": 135,
+    "defense": 80,
+    "specialAttack": 110,
+    "specialDefense": 80,
+    "speed": 100
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Bite"
+    },
+    {
+      "level": 1,
+      "move": "Dragon Breath"
+    },
+    {
+      "level": 1,
+      "move": "Dragon Tail"
+    },
+    {
+      "level": 1,
+      "move": "Ember"
+    },
+    {
+      "level": 1,
+      "move": "Fly"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Protect"
+    },
+    {
+      "level": 15,
+      "move": "Headbutt"
+    },
+    {
+      "level": 20,
+      "move": "Scary Face"
+    },
+    {
+      "level": 25,
+      "move": "Crunch"
+    },
+    {
+      "level": 33,
+      "move": "Dragon Claw"
+    },
+    {
+      "level": 39,
+      "move": "Zen Headbutt"
+    },
+    {
+      "level": 46,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 55,
+      "move": "Flamethrower"
+    },
+    {
+      "level": 64,
+      "move": "Outrage"
+    },
+    {
+      "level": 73,
+      "move": "Double-Edge"
+    }
+  ]
+}

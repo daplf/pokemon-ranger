@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-609",
+  "trainerId": 609,
+  "game": "bdsp",
+  "name": "Pokémon Ranger Kyler",
+  "pokemon": [
+    {
+      "species": "Exeggutor",
+      "level": 60,
+      "ability": "Chlorophyll",
+      "moves": [
+        "Worry Seed",
+        "Leech Seed",
+        "Leaf Storm",
+        "Psyshock"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Ursaring",
+      "level": 60,
+      "ability": "Guts",
+      "moves": [
+        "Scary Face",
+        "Rest",
+        "Snore",
+        "Thrash"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

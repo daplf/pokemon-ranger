@@ -1,0 +1,97 @@
+{
+  "id": "trainer-id-144",
+  "trainerId": 144,
+  "game": "bdsp",
+  "name": "Swimmer Paige",
+  "prerequisites": {
+    "requiredHms": [
+      "surf"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Marill",
+      "level": 39,
+      "ability": "Thick Fat",
+      "moves": [
+        "Bubble Beam",
+        "Charm",
+        "Play Rough",
+        "Rain Dance"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Wingull",
+      "level": 40,
+      "ability": "Hydration",
+      "moves": [
+        "Quick Attack",
+        "Water Pulse",
+        "Air Slash",
+        "Mist"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Golduck",
+      "level": 41,
+      "ability": "Damp",
+      "moves": [
+        "Aqua Jet",
+        "Zen Headbutt",
+        "Screech",
+        "Aqua Tail"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

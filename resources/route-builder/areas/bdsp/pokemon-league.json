@@ -1,0 +1,12 @@
+{
+  "id": "pokemon-league",
+  "game": "bdsp",
+  "name": "Pokémon League",
+  "trainerIds": [
+    "trainer-id-185",
+    "trainer-id-186",
+    "trainer-id-187",
+    "trainer-id-188",
+    "trainer-id-191"
+  ]
+}

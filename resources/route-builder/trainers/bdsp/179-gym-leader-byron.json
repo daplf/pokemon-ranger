@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-179",
+  "trainerId": 179,
+  "game": "bdsp",
+  "name": "Gym Leader Byron",
+  "pokemon": [
+    {
+      "species": "Bronzor",
+      "level": 36,
+      "ability": "Levitate",
+      "moves": [
+        "Confuse Ray",
+        "Sandstorm",
+        "Trick Room",
+        "Flash Cannon"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 68,
+        "attack": 0,
+        "defense": 68,
+        "specialAttack": 44,
+        "specialDefense": 68,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 17,
+        "attack": 0,
+        "defense": 17,
+        "specialAttack": 17,
+        "specialDefense": 17,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Steelix",
+      "level": 36,
+      "item": "Soft Sand",
+      "moves": [
+        "Thunder Fang",
+        "Earthquake",
+        "Sandstorm",
+        "Gyro Ball"
+      ],
+      "nature": "Brave",
+      "evs": {
+        "hp": 0,
+        "attack": 100,
+        "defense": 68,
+        "specialAttack": 0,
+        "specialDefense": 68,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 23,
+        "defense": 17,
+        "specialAttack": 0,
+        "specialDefense": 17,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Bastiodon",
+      "level": 39,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Iron Defense",
+        "Thunderbolt",
+        "Stone Edge",
+        "Flash Cannon"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 68,
+        "specialAttack": 100,
+        "specialDefense": 68,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 17,
+        "specialAttack": 23,
+        "specialDefense": 17,
+        "speed": 0
+      }
+    }
+  ]
+}

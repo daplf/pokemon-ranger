@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-629",
+  "trainerId": 629,
+  "game": "bdsp",
+  "name": "Skier Andrea",
+  "pokemon": [
+    {
+      "species": "Staravia",
+      "level": 40,
+      "ability": "Intimidate",
+      "moves": [
+        "Double Team",
+        "Endeavor",
+        "Aerial Ace",
+        "Take Down"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

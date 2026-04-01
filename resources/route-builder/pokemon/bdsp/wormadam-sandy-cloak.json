@@ -1,0 +1,27 @@
+{
+  "species": "Wormadam (Sandy Cloak)",
+  "game": "bdsp",
+  "types": [
+    "bug",
+    "ground"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 148,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 79,
+    "defense": 105,
+    "specialAttack": 59,
+    "specialDefense": 85,
+    "speed": 36
+  },
+  "learnset": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-406",
+  "trainerId": 406,
+  "game": "bdsp",
+  "name": "Ranchers Beth",
+  "pokemon": [
+    {
+      "species": "Ponyta",
+      "level": 19,
+      "ability": "Run Away",
+      "moves": [
+        "Tackle",
+        "Growl",
+        "Tail Whip",
+        "Flame Charge"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

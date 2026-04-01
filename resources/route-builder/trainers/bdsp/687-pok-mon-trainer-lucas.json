@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-687",
+  "trainerId": 687,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Lucas",
+  "pokemon": [
+    {
+      "species": "Dusknoir",
+      "level": 68,
+      "item": "Lum Berry",
+      "moves": [
+        "Brick Break",
+        "Earthquake",
+        "Trick Room",
+        "Will-O-Wisp"
+      ],
+      "nature": "Brave",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 6,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Flareon",
+      "level": 69,
+      "item": "Toxic Orb",
+      "moves": [
+        "Flare Blitz",
+        "Facade",
+        "Iron Tail",
+        "Will-O-Wisp"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 6,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Rampardos",
+      "level": 70,
+      "item": "Focus Sash",
+      "moves": [
+        "Head Smash",
+        "Earthquake",
+        "Iron Tail",
+        "Zen Headbutt"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 6,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Wash Rotom",
+      "level": 69,
+      "item": "Choice Specs",
+      "moves": [
+        "Hydro Pump",
+        "Thunderbolt",
+        "Volt Switch",
+        "Hex"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Dunsparce",
+      "level": 70,
+      "item": "King's Rock",
+      "moves": [
+        "Rock Slide",
+        "Roost",
+        "Coil",
+        "Glare"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 252,
+        "specialAttack": 0,
+        "specialDefense": 6,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Torterra",
+      "level": 74,
+      "item": "Leftovers",
+      "moves": [
+        "Earthquake",
+        "Synthesis",
+        "Leech Seed",
+        "Curse"
+      ],
+      "nature": "Brave",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 6,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "species": "Tangrowth",
+  "game": "bdsp",
+  "types": [
+    "grass"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 187,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 100,
+    "attack": 100,
+    "defense": 125,
+    "specialAttack": 110,
+    "specialDefense": 50,
+    "speed": 50
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Absorb"
+    },
+    {
+      "level": 1,
+      "move": "Bind"
+    },
+    {
+      "level": 1,
+      "move": "Block"
+    },
+    {
+      "level": 1,
+      "move": "Growth"
+    },
+    {
+      "level": 1,
+      "move": "Stun Spore"
+    },
+    {
+      "level": 12,
+      "move": "Mega Drain"
+    },
+    {
+      "level": 16,
+      "move": "Vine Whip"
+    },
+    {
+      "level": 20,
+      "move": "Poison Powder"
+    },
+    {
+      "level": 24,
+      "move": "Ancient Power"
+    },
+    {
+      "level": 28,
+      "move": "Knock Off"
+    },
+    {
+      "level": 32,
+      "move": "Giga Drain"
+    },
+    {
+      "level": 36,
+      "move": "Sleep Powder"
+    },
+    {
+      "level": 40,
+      "move": "Slam"
+    },
+    {
+      "level": 44,
+      "move": "Tickle"
+    },
+    {
+      "level": 48,
+      "move": "Power Whip"
+    },
+    {
+      "level": 52,
+      "move": "Ingrain"
+    },
+    {
+      "level": 56,
+      "move": "Grassy Terrain"
+    }
+  ]
+}

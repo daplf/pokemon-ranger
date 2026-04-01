@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-468",
+  "trainerId": 468,
+  "game": "bdsp",
+  "name": "Pokémon Ranger Dwayne",
+  "pokemon": [
+    {
+      "species": "Donphan",
+      "level": 55,
+      "ability": "Sturdy",
+      "moves": [
+        "Earthquake",
+        "Giga Impact",
+        "Scary Face",
+        "Rock Tomb"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

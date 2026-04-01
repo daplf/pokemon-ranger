@@ -1,0 +1,7 @@
+{
+  "name": "Poison Powder",
+  "game": "bdsp",
+  "type": "poison",
+  "category": "status",
+  "power": 0
+}

@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-449",
+  "trainerId": 449,
+  "game": "bdsp",
+  "name": "Ace Trainer Ariana",
+  "pokemon": [
+    {
+      "species": "Ambipom",
+      "level": 54,
+      "ability": "Technician",
+      "moves": [
+        "Double Hit",
+        "Astonish",
+        "Agility",
+        "Baton Pass"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Rapidash",
+      "level": 54,
+      "ability": "Flash Fire",
+      "moves": [
+        "Flame Wheel",
+        "Poison Jab",
+        "Smart Strike",
+        "Flame Charge"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Chansey",
+      "level": 54,
+      "ability": "Natural Cure",
+      "moves": [
+        "Charm",
+        "Soft-Boiled",
+        "Disarming Voice",
+        "Covet"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

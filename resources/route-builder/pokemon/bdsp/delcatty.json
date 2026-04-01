@@ -1,0 +1,95 @@
+{
+  "species": "Delcatty",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "fast",
+  "baseExperience": 140,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 70,
+    "attack": 65,
+    "defense": 65,
+    "specialAttack": 55,
+    "specialDefense": 55,
+    "speed": 90
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Attract"
+    },
+    {
+      "level": 1,
+      "move": "Baby-Doll Eyes"
+    },
+    {
+      "level": 1,
+      "move": "Charm"
+    },
+    {
+      "level": 1,
+      "move": "Copycat"
+    },
+    {
+      "level": 1,
+      "move": "Covet"
+    },
+    {
+      "level": 1,
+      "move": "Disarming Voice"
+    },
+    {
+      "level": 1,
+      "move": "Double-Edge"
+    },
+    {
+      "level": 1,
+      "move": "Facade"
+    },
+    {
+      "level": 1,
+      "move": "Fake Out"
+    },
+    {
+      "level": 1,
+      "move": "Fury Swipes"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Heal Bell"
+    },
+    {
+      "level": 1,
+      "move": "Payback"
+    },
+    {
+      "level": 1,
+      "move": "Play Rough"
+    },
+    {
+      "level": 1,
+      "move": "Sing"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    }
+  ]
+}

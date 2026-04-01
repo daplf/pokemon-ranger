@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-281",
+  "trainerId": 281,
+  "game": "bdsp",
+  "name": "Interviewers Oli",
+  "pokemon": [
+    {
+      "species": "Marill",
+      "level": 17,
+      "ability": "Thick Fat",
+      "moves": [
+        "Bubble Beam",
+        "Charm",
+        "Slam",
+        "Bounce"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

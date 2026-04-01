@@ -1,0 +1,92 @@
+{
+  "species": "Bibarel",
+  "game": "bdsp",
+  "types": [
+    "normal",
+    "water"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 144,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 79,
+    "attack": 85,
+    "defense": 60,
+    "specialAttack": 55,
+    "specialDefense": 60,
+    "speed": 71
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Aqua Jet"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 5,
+      "move": "Defense Curl"
+    },
+    {
+      "level": 9,
+      "move": "Rollout"
+    },
+    {
+      "level": 13,
+      "move": "Headbutt"
+    },
+    {
+      "level": 18,
+      "move": "Taunt"
+    },
+    {
+      "level": 23,
+      "move": "Yawn"
+    },
+    {
+      "level": 28,
+      "move": "Crunch"
+    },
+    {
+      "level": 33,
+      "move": "Take Down"
+    },
+    {
+      "level": 38,
+      "move": "Super Fang"
+    },
+    {
+      "level": 43,
+      "move": "Swords Dance"
+    },
+    {
+      "level": 48,
+      "move": "Amnesia"
+    },
+    {
+      "level": 53,
+      "move": "Superpower"
+    },
+    {
+      "level": 58,
+      "move": "Curse"
+    }
+  ]
+}

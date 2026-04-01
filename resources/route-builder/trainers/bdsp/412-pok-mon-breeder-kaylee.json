@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-412",
+  "trainerId": 412,
+  "game": "bdsp",
+  "name": "Pokémon Breeder Kaylee",
+  "pokemon": [
+    {
+      "species": "Stunky",
+      "level": 21,
+      "ability": "Stench",
+      "moves": [
+        "Poison Gas",
+        "Acid Spray",
+        "Fury Swipes",
+        "Bite"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Buizel",
+      "level": 21,
+      "ability": "Swift Swim",
+      "moves": [
+        "Growl",
+        "Water Gun",
+        "Bite",
+        "Swift"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

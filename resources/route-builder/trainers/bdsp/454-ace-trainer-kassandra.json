@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-454",
+  "trainerId": 454,
+  "game": "bdsp",
+  "name": "Ace Trainer Kassandra",
+  "pokemon": [
+    {
+      "species": "Stantler",
+      "level": 58,
+      "ability": "Intimidate",
+      "moves": [
+        "Double-Edge",
+        "Lunge",
+        "Zen Headbutt",
+        "Hypnosis"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Carnivine",
+      "level": 58,
+      "ability": "Levitate",
+      "moves": [
+        "Power Whip",
+        "Crunch",
+        "Stockpile",
+        "Growth"
+      ],
+      "nature": "Serious",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

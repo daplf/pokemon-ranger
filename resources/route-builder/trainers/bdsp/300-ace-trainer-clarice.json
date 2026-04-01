@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-300",
+  "trainerId": 300,
+  "game": "bdsp",
+  "name": "Ace Trainer Clarice",
+  "pokemon": [
+    {
+      "species": "Lopunny",
+      "level": 54,
+      "ability": "Cute Charm",
+      "moves": [
+        "Charm",
+        "Baton Pass",
+        "Headbutt",
+        "Agility"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Pelipper",
+      "level": 54,
+      "ability": "Drizzle",
+      "moves": [
+        "Tailwind",
+        "Wing Attack",
+        "Water Pulse",
+        "Mist"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Quagsire",
+      "level": 54,
+      "ability": "Water Absorb",
+      "moves": [
+        "Rain Dance",
+        "Muddy Water",
+        "Toxic",
+        "Earthquake"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

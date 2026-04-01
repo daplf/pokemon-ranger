@@ -1,0 +1,100 @@
+{
+  "species": "Marill",
+  "game": "bdsp",
+  "types": [
+    "water",
+    "fairy"
+  ],
+  "growthRate": "fast",
+  "baseExperience": 88,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 70,
+    "attack": 20,
+    "defense": 50,
+    "specialAttack": 20,
+    "specialDefense": 50,
+    "speed": 40
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Defense Curl"
+    },
+    {
+      "level": 1,
+      "move": "Helping Hand"
+    },
+    {
+      "level": 1,
+      "move": "Rollout"
+    },
+    {
+      "level": 1,
+      "move": "Splash"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 6,
+      "move": "Bubble Beam"
+    },
+    {
+      "level": 9,
+      "move": "Charm"
+    },
+    {
+      "level": 12,
+      "move": "Slam"
+    },
+    {
+      "level": 15,
+      "move": "Bounce"
+    },
+    {
+      "level": 19,
+      "move": "Aqua Tail"
+    },
+    {
+      "level": 21,
+      "move": "Play Rough"
+    },
+    {
+      "level": 24,
+      "move": "Aqua Ring"
+    },
+    {
+      "level": 27,
+      "move": "Rain Dance"
+    },
+    {
+      "level": 30,
+      "move": "Hydro Pump"
+    },
+    {
+      "level": 33,
+      "move": "Double-Edge"
+    },
+    {
+      "level": 36,
+      "move": "Superpower"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "species": "Magmortar",
+  "game": "bdsp",
+  "types": [
+    "fire"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 243,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 3,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 95,
+    "defense": 67,
+    "specialAttack": 125,
+    "specialDefense": 95,
+    "speed": 83
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Ember"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Smog"
+    },
+    {
+      "level": 1,
+      "move": "Smokescreen"
+    },
+    {
+      "level": 12,
+      "move": "Clear Smog"
+    },
+    {
+      "level": 16,
+      "move": "Flame Wheel"
+    },
+    {
+      "level": 20,
+      "move": "Confuse Ray"
+    },
+    {
+      "level": 24,
+      "move": "Scary Face"
+    },
+    {
+      "level": 28,
+      "move": "Fire Punch"
+    },
+    {
+      "level": 34,
+      "move": "Lava Plume"
+    },
+    {
+      "level": 40,
+      "move": "Low Kick"
+    },
+    {
+      "level": 46,
+      "move": "Flamethrower"
+    },
+    {
+      "level": 52,
+      "move": "Sunny Day"
+    },
+    {
+      "level": 58,
+      "move": "Fire Blast"
+    },
+    {
+      "level": 64,
+      "move": "Hyper Beam"
+    }
+  ]
+}

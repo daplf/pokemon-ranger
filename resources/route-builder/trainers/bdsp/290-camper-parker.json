@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-290",
+  "trainerId": 290,
+  "game": "bdsp",
+  "name": "Camper Parker",
+  "pokemon": [
+    {
+      "species": "Buizel",
+      "level": 15,
+      "ability": "Swift Swim",
+      "moves": [
+        "Growl",
+        "Tail Whip",
+        "Quick Attack",
+        "Water Gun"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Shinx",
+      "level": 15,
+      "ability": "Intimidate",
+      "moves": [
+        "Leer",
+        "Thunder Shock",
+        "Charge",
+        "Bite"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

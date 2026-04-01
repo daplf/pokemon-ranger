@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-074",
+  "trainerId": 74,
+  "game": "bdsp",
+  "name": "Police Officer Alex",
+  "pokemon": [
+    {
+      "species": "Hoothoot",
+      "level": 18,
+      "ability": "Keen Eye",
+      "moves": [
+        "Growl",
+        "Confusion",
+        "Reflect",
+        "Psycho Shift"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machop",
+      "level": 18,
+      "ability": "No Guard",
+      "moves": [
+        "Leer",
+        "Revenge",
+        "Low Sweep",
+        "Knock Off"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

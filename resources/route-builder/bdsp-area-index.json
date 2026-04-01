@@ -1,0 +1,482 @@
+[
+  {
+    "id": "twinleaf-town-opening",
+    "name": "Twinleaf Town",
+    "file": "areas/bdsp/twinleaf-town-opening.json"
+  },
+  {
+    "id": "route-201-to-lake-verity-opening",
+    "name": "Route 201",
+    "file": "areas/bdsp/route-201-to-lake-verity-opening.json"
+  },
+  {
+    "id": "lake-verity-opening",
+    "name": "Lake Verity",
+    "file": "areas/bdsp/lake-verity-opening.json"
+  },
+  {
+    "id": "starter-pick",
+    "name": "Pick Starter",
+    "file": "areas/bdsp/starter-pick.json"
+  },
+  {
+    "id": "starter-turtwig",
+    "name": "Starter: Turtwig",
+    "file": "areas/bdsp/starter-turtwig.json"
+  },
+  {
+    "id": "starter-chimchar",
+    "name": "Starter: Chimchar",
+    "file": "areas/bdsp/starter-chimchar.json"
+  },
+  {
+    "id": "starter-piplup",
+    "name": "Starter: Piplup",
+    "file": "areas/bdsp/starter-piplup.json"
+  },
+  {
+    "id": "starly-battle-lv2",
+    "name": "Wild Starly Lv. 2",
+    "file": "areas/bdsp/starly-battle-lv2.json"
+  },
+  {
+    "id": "route-201-opening",
+    "name": "Route 201",
+    "file": "areas/bdsp/route-201-opening.json"
+  },
+  {
+    "id": "twinleaf-town-after-opening",
+    "name": "Twinleaf Town",
+    "file": "areas/bdsp/twinleaf-town-after-opening.json"
+  },
+  {
+    "id": "twinleaf-town",
+    "name": "Twinleaf Town",
+    "file": "areas/bdsp/twinleaf-town.json"
+  },
+  {
+    "id": "lake-verity",
+    "name": "Lake Verity",
+    "file": "areas/bdsp/lake-verity.json"
+  },
+  {
+    "id": "route-201",
+    "name": "Route 201",
+    "file": "areas/bdsp/route-201.json"
+  },
+  {
+    "id": "route-201-first-sandgem",
+    "name": "Route 201",
+    "file": "areas/bdsp/route-201-first-sandgem.json"
+  },
+  {
+    "id": "sandgem-town-first-visit",
+    "name": "Sandgem Town",
+    "file": "areas/bdsp/sandgem-town-first-visit.json"
+  },
+  {
+    "id": "sandgem-lab-first-visit",
+    "name": "Rowan's Lab",
+    "file": "areas/bdsp/sandgem-lab-first-visit.json"
+  },
+  {
+    "id": "sandgem-town-after-lab",
+    "name": "Sandgem Town",
+    "file": "areas/bdsp/sandgem-town-after-lab.json"
+  },
+  {
+    "id": "route-201-return-from-lab",
+    "name": "Route 201",
+    "file": "areas/bdsp/route-201-return-from-lab.json"
+  },
+  {
+    "id": "twinleaf-town-mom-event",
+    "name": "Twinleaf Town",
+    "file": "areas/bdsp/twinleaf-town-mom-event.json"
+  },
+  {
+    "id": "sandgem-town",
+    "name": "Sandgem Town",
+    "file": "areas/bdsp/sandgem-town.json"
+  },
+  {
+    "id": "route-202-first-visit",
+    "name": "Route 202",
+    "file": "areas/bdsp/route-202-first-visit.json"
+  },
+  {
+    "id": "route-202",
+    "name": "Route 202",
+    "file": "areas/bdsp/route-202.json"
+  },
+  {
+    "id": "jubilife-city",
+    "name": "Jubilife City",
+    "file": "areas/bdsp/jubilife-city.json"
+  },
+  {
+    "id": "route-203",
+    "name": "Route 203",
+    "file": "areas/bdsp/route-203.json"
+  },
+  {
+    "id": "oreburgh-gate",
+    "name": "Oreburgh Gate",
+    "file": "areas/bdsp/oreburgh-gate.json"
+  },
+  {
+    "id": "oreburgh-city",
+    "name": "Oreburgh City",
+    "file": "areas/bdsp/oreburgh-city.json"
+  },
+  {
+    "id": "oreburgh-mine",
+    "name": "Oreburgh Mine",
+    "file": "areas/bdsp/oreburgh-mine.json"
+  },
+  {
+    "id": "route-204-south",
+    "name": "Route 204 (South)",
+    "file": "areas/bdsp/route-204-south.json"
+  },
+  {
+    "id": "ravaged-path",
+    "name": "Ravaged Path",
+    "file": "areas/bdsp/ravaged-path.json"
+  },
+  {
+    "id": "route-204-north",
+    "name": "Route 204 (North)",
+    "file": "areas/bdsp/route-204-north.json"
+  },
+  {
+    "id": "floaroma-town",
+    "name": "Floaroma Town",
+    "file": "areas/bdsp/floaroma-town.json"
+  },
+  {
+    "id": "valley-windworks",
+    "name": "Valley Windworks",
+    "file": "areas/bdsp/valley-windworks.json"
+  },
+  {
+    "id": "route-205-south",
+    "name": "Route 205 (South)",
+    "file": "areas/bdsp/route-205-south.json"
+  },
+  {
+    "id": "eterna-forest",
+    "name": "Eterna Forest",
+    "file": "areas/bdsp/eterna-forest.json"
+  },
+  {
+    "id": "old-chateau",
+    "name": "Old Chateau",
+    "file": "areas/bdsp/old-chateau.json"
+  },
+  {
+    "id": "fuego-ironworks",
+    "name": "Fuego Ironworks",
+    "file": "areas/bdsp/fuego-ironworks.json"
+  },
+  {
+    "id": "route-205-north",
+    "name": "Route 205 (North)",
+    "file": "areas/bdsp/route-205-north.json"
+  },
+  {
+    "id": "eterna-city",
+    "name": "Eterna City",
+    "file": "areas/bdsp/eterna-city.json"
+  },
+  {
+    "id": "route-206",
+    "name": "Route 206",
+    "file": "areas/bdsp/route-206.json"
+  },
+  {
+    "id": "wayward-cave",
+    "name": "Wayward Cave",
+    "file": "areas/bdsp/wayward-cave.json"
+  },
+  {
+    "id": "route-207",
+    "name": "Route 207",
+    "file": "areas/bdsp/route-207.json"
+  },
+  {
+    "id": "mt-coronet-south",
+    "name": "Mt. Coronet (South)",
+    "file": "areas/bdsp/mt-coronet-south.json"
+  },
+  {
+    "id": "route-208",
+    "name": "Route 208",
+    "file": "areas/bdsp/route-208.json"
+  },
+  {
+    "id": "hearthome-city",
+    "name": "Hearthome City",
+    "file": "areas/bdsp/hearthome-city.json"
+  },
+  {
+    "id": "route-209",
+    "name": "Route 209",
+    "file": "areas/bdsp/route-209.json"
+  },
+  {
+    "id": "lost-tower",
+    "name": "Lost Tower",
+    "file": "areas/bdsp/lost-tower.json"
+  },
+  {
+    "id": "solaceon-town",
+    "name": "Solaceon Town",
+    "file": "areas/bdsp/solaceon-town.json"
+  },
+  {
+    "id": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "file": "areas/bdsp/solaceon-ruins.json"
+  },
+  {
+    "id": "route-210-south",
+    "name": "Route 210 (South)",
+    "file": "areas/bdsp/route-210-south.json"
+  },
+  {
+    "id": "route-210-north",
+    "name": "Route 210 (North)",
+    "file": "areas/bdsp/route-210-north.json"
+  },
+  {
+    "id": "celestic-town",
+    "name": "Celestic Town",
+    "file": "areas/bdsp/celestic-town.json"
+  },
+  {
+    "id": "route-211-west",
+    "name": "Route 211 (West)",
+    "file": "areas/bdsp/route-211-west.json"
+  },
+  {
+    "id": "mt-coronet-east",
+    "name": "Mt. Coronet (East)",
+    "file": "areas/bdsp/mt-coronet-east.json"
+  },
+  {
+    "id": "route-211-east",
+    "name": "Route 211 (East)",
+    "file": "areas/bdsp/route-211-east.json"
+  },
+  {
+    "id": "route-212-north",
+    "name": "Route 212 (North)",
+    "file": "areas/bdsp/route-212-north.json"
+  },
+  {
+    "id": "trophy-garden",
+    "name": "Trophy Garden",
+    "file": "areas/bdsp/trophy-garden.json"
+  },
+  {
+    "id": "route-212-south",
+    "name": "Route 212 (South)",
+    "file": "areas/bdsp/route-212-south.json"
+  },
+  {
+    "id": "pastoria-city",
+    "name": "Pastoria City",
+    "file": "areas/bdsp/pastoria-city.json"
+  },
+  {
+    "id": "great-marsh",
+    "name": "Great Marsh",
+    "file": "areas/bdsp/great-marsh.json"
+  },
+  {
+    "id": "route-213",
+    "name": "Route 213",
+    "file": "areas/bdsp/route-213.json"
+  },
+  {
+    "id": "valor-lakefront",
+    "name": "Valor Lakefront",
+    "file": "areas/bdsp/valor-lakefront.json"
+  },
+  {
+    "id": "lake-valor",
+    "name": "Lake Valor",
+    "file": "areas/bdsp/lake-valor.json"
+  },
+  {
+    "id": "route-214",
+    "name": "Route 214",
+    "file": "areas/bdsp/route-214.json"
+  },
+  {
+    "id": "veilstone-city",
+    "name": "Veilstone City",
+    "file": "areas/bdsp/veilstone-city.json"
+  },
+  {
+    "id": "route-215",
+    "name": "Route 215",
+    "file": "areas/bdsp/route-215.json"
+  },
+  {
+    "id": "route-216",
+    "name": "Route 216",
+    "file": "areas/bdsp/route-216.json"
+  },
+  {
+    "id": "mt-coronet-north",
+    "name": "Mt. Coronet (North)",
+    "file": "areas/bdsp/mt-coronet-north.json"
+  },
+  {
+    "id": "route-217",
+    "name": "Route 217",
+    "file": "areas/bdsp/route-217.json"
+  },
+  {
+    "id": "acuity-lakefront",
+    "name": "Acuity Lakefront",
+    "file": "areas/bdsp/acuity-lakefront.json"
+  },
+  {
+    "id": "lake-acuity",
+    "name": "Lake Acuity",
+    "file": "areas/bdsp/lake-acuity.json"
+  },
+  {
+    "id": "snowpoint-city",
+    "name": "Snowpoint City",
+    "file": "areas/bdsp/snowpoint-city.json"
+  },
+  {
+    "id": "snowpoint-temple",
+    "name": "Snowpoint Temple",
+    "file": "areas/bdsp/snowpoint-temple.json"
+  },
+  {
+    "id": "route-218",
+    "name": "Route 218",
+    "file": "areas/bdsp/route-218.json"
+  },
+  {
+    "id": "canalave-city",
+    "name": "Canalave City",
+    "file": "areas/bdsp/canalave-city.json"
+  },
+  {
+    "id": "iron-island",
+    "name": "Iron Island",
+    "file": "areas/bdsp/iron-island.json"
+  },
+  {
+    "id": "route-219",
+    "name": "Route 219",
+    "file": "areas/bdsp/route-219.json"
+  },
+  {
+    "id": "route-220",
+    "name": "Route 220",
+    "file": "areas/bdsp/route-220.json"
+  },
+  {
+    "id": "route-221",
+    "name": "Route 221",
+    "file": "areas/bdsp/route-221.json"
+  },
+  {
+    "id": "ramanas-park",
+    "name": "Ramanas Park",
+    "file": "areas/bdsp/ramanas-park.json"
+  },
+  {
+    "id": "route-222",
+    "name": "Route 222",
+    "file": "areas/bdsp/route-222.json"
+  },
+  {
+    "id": "sunyshore-city",
+    "name": "Sunyshore City",
+    "file": "areas/bdsp/sunyshore-city.json"
+  },
+  {
+    "id": "route-223",
+    "name": "Route 223",
+    "file": "areas/bdsp/route-223.json"
+  },
+  {
+    "id": "pokemon-league",
+    "name": "Pokémon League",
+    "file": "areas/bdsp/pokemon-league.json"
+  },
+  {
+    "id": "victory-road",
+    "name": "Victory Road",
+    "file": "areas/bdsp/victory-road.json"
+  },
+  {
+    "id": "route-224",
+    "name": "Route 224",
+    "file": "areas/bdsp/route-224.json"
+  },
+  {
+    "id": "spear-pillar",
+    "name": "Spear Pillar",
+    "file": "areas/bdsp/spear-pillar.json"
+  },
+  {
+    "id": "fight-area",
+    "name": "Fight Area",
+    "file": "areas/bdsp/fight-area.json"
+  },
+  {
+    "id": "route-225",
+    "name": "Route 225",
+    "file": "areas/bdsp/route-225.json"
+  },
+  {
+    "id": "survival-area",
+    "name": "Survival Area",
+    "file": "areas/bdsp/survival-area.json"
+  },
+  {
+    "id": "route-226",
+    "name": "Route 226",
+    "file": "areas/bdsp/route-226.json"
+  },
+  {
+    "id": "resort-area",
+    "name": "Resort Area",
+    "file": "areas/bdsp/resort-area.json"
+  },
+  {
+    "id": "route-227",
+    "name": "Route 227",
+    "file": "areas/bdsp/route-227.json"
+  },
+  {
+    "id": "route-228",
+    "name": "Route 228",
+    "file": "areas/bdsp/route-228.json"
+  },
+  {
+    "id": "stark-mountain",
+    "name": "Stark Mountain",
+    "file": "areas/bdsp/stark-mountain.json"
+  },
+  {
+    "id": "route-229",
+    "name": "Route 229",
+    "file": "areas/bdsp/route-229.json"
+  },
+  {
+    "id": "route-230",
+    "name": "Route 230",
+    "file": "areas/bdsp/route-230.json"
+  }
+]

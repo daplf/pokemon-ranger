@@ -1,0 +1,119 @@
+{
+  "id": "trainer-id-133",
+  "trainerId": 133,
+  "game": "bdsp",
+  "name": "Fisher George",
+  "pokemon": [
+    {
+      "species": "Magikarp",
+      "level": 38,
+      "ability": "Swift Swim",
+      "moves": [
+        "Splash",
+        "Tackle",
+        "Flail"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Finneon",
+      "level": 40,
+      "ability": "Storm Drain",
+      "moves": [
+        "Rain Dance",
+        "Water Pulse",
+        "Aqua Ring",
+        "Whirlpool"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Remoraid",
+      "level": 40,
+      "ability": "Sniper",
+      "moves": [
+        "Water Pulse",
+        "Focus Energy",
+        "Psybeam",
+        "Ice Beam"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gyarados",
+      "level": 42,
+      "ability": "Intimidate",
+      "moves": [
+        "Whirlpool",
+        "Brine",
+        "Waterfall",
+        "Rain Dance"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

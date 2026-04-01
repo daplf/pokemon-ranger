@@ -1,0 +1,90 @@
+{
+  "id": "trainer-id-131",
+  "trainerId": 131,
+  "game": "bdsp",
+  "name": "Fisher Brett",
+  "pokemon": [
+    {
+      "species": "Magikarp",
+      "level": 39,
+      "ability": "Swift Swim",
+      "moves": [
+        "Splash",
+        "Tackle",
+        "Flail"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Finneon",
+      "level": 42,
+      "ability": "Storm Drain",
+      "moves": [
+        "Rain Dance",
+        "Aqua Ring",
+        "Whirlpool",
+        "U-turn"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Feebas",
+      "level": 39,
+      "ability": "Oblivious",
+      "moves": [
+        "Splash",
+        "Tackle",
+        "Flail"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

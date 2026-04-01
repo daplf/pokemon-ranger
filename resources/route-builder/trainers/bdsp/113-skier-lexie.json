@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-113",
+  "trainerId": 113,
+  "game": "bdsp",
+  "name": "Skier Lexie",
+  "pokemon": [
+    {
+      "species": "Marill",
+      "level": 35,
+      "ability": "Thick Fat",
+      "moves": [
+        "Bubble Beam",
+        "Charm",
+        "Bounce",
+        "Play Rough"
+      ],
+      "nature": "Quirky",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Clefairy",
+      "level": 35,
+      "ability": "Cute Charm",
+      "moves": [
+        "Charm",
+        "Moonlight",
+        "Gravity",
+        "Meteor Mash"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

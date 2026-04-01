@@ -1,0 +1,120 @@
+{
+  "id": "trainer-id-244",
+  "trainerId": 244,
+  "game": "bdsp",
+  "name": "Gym Leader Candice",
+  "pokemon": [
+    {
+      "species": "Snover",
+      "level": 38,
+      "item": "Icy Rock",
+      "moves": [
+        "Mist",
+        "Razor Leaf",
+        "Water Pulse",
+        "Avalanche"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 60,
+        "attack": 124,
+        "defense": 0,
+        "specialAttack": 124,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 19,
+        "attack": 25,
+        "defense": 0,
+        "specialAttack": 25,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Sneasel",
+      "level": 38,
+      "item": "Chople Berry",
+      "moves": [
+        "Metal Claw",
+        "Hone Claws",
+        "Dig",
+        "Avalanche"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 64,
+        "attack": 124,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 124
+      },
+      "ivs": {
+        "hp": 10,
+        "attack": 25,
+        "defense": 10,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 25
+      }
+    },
+    {
+      "species": "Medicham",
+      "level": 40,
+      "item": "Expert Belt",
+      "moves": [
+        "Ice Punch",
+        "Bulk Up",
+        "Brick Break",
+        "Rock Slide"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 64,
+        "attack": 124,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 124
+      },
+      "ivs": {
+        "hp": 10,
+        "attack": 25,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 25
+      }
+    },
+    {
+      "species": "Abomasnow",
+      "level": 42,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Aurora Veil",
+        "Giga Drain",
+        "Earthquake",
+        "Blizzard"
+      ],
+      "nature": "Quiet",
+      "evs": {
+        "hp": 124,
+        "attack": 60,
+        "defense": 0,
+        "specialAttack": 164,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 13,
+        "attack": 25,
+        "defense": 10,
+        "specialAttack": 27,
+        "specialDefense": 10,
+        "speed": 0
+      }
+    }
+  ]
+}

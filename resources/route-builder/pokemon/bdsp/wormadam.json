@@ -1,0 +1,27 @@
+{
+  "species": "Wormadam",
+  "game": "bdsp",
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 148,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 2,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 59,
+    "defense": 85,
+    "specialAttack": 79,
+    "specialDefense": 105,
+    "speed": 36
+  },
+  "learnset": []
+}

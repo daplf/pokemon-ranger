@@ -1,0 +1,7 @@
+{
+  "name": "Stone Edge",
+  "game": "bdsp",
+  "type": "rock",
+  "category": "physical",
+  "power": 100
+}

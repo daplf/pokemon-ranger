@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-550",
+  "trainerId": 550,
+  "game": "bdsp",
+  "name": "Psychic Abigail",
+  "pokemon": [
+    {
+      "species": "Gengar",
+      "level": 58,
+      "ability": "Cursed Body",
+      "moves": [
+        "Confuse Ray",
+        "Payback",
+        "Night Shade",
+        "Dark Pulse"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Misdreavus",
+      "level": 57,
+      "ability": "Levitate",
+      "moves": [
+        "Psybeam",
+        "Payback",
+        "Shadow Ball",
+        "Power Gem"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Alakazam",
+      "level": 59,
+      "ability": "Synchronize",
+      "moves": [
+        "Recover",
+        "Psyshock",
+        "Psychic",
+        "Future Sight"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

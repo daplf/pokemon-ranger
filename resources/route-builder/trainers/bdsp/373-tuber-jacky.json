@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-373",
+  "trainerId": 373,
+  "game": "bdsp",
+  "name": "Tuber Jacky",
+  "pokemon": [
+    {
+      "species": "Buizel",
+      "level": 26,
+      "ability": "Water Veil",
+      "moves": [
+        "Tail Whip",
+        "Bite",
+        "Aqua Jet",
+        "Iron Tail"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

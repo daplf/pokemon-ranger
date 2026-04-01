@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-164",
+  "trainerId": 164,
+  "game": "bdsp",
+  "name": "Black Belt David",
+  "pokemon": [
+    {
+      "species": "Onix",
+      "level": 30,
+      "ability": "Rock Head",
+      "moves": [
+        "Screech",
+        "Sandstorm",
+        "Rock Tomb",
+        "Bulldoze"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Steelix",
+      "level": 32,
+      "ability": "Rock Head",
+      "moves": [
+        "Thunder Fang",
+        "Ice Fang",
+        "Autotomize",
+        "Dig"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

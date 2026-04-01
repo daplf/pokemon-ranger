@@ -1,0 +1,100 @@
+{
+  "species": "Torterra",
+  "game": "bdsp",
+  "types": [
+    "grass",
+    "ground"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 236,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 1,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 95,
+    "attack": 109,
+    "defense": 105,
+    "specialAttack": 75,
+    "specialDefense": 85,
+    "speed": 56
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Absorb"
+    },
+    {
+      "level": 1,
+      "move": "Earthquake"
+    },
+    {
+      "level": 1,
+      "move": "Razor Leaf"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Withdraw"
+    },
+    {
+      "level": 1,
+      "move": "Wood Hammer"
+    },
+    {
+      "level": 5,
+      "move": "Withdraw"
+    },
+    {
+      "level": 6,
+      "move": "Leafage"
+    },
+    {
+      "level": 10,
+      "move": "Growth"
+    },
+    {
+      "level": 13,
+      "move": "Razor Leaf"
+    },
+    {
+      "level": 17,
+      "move": "Curse"
+    },
+    {
+      "level": 22,
+      "move": "Bite"
+    },
+    {
+      "level": 27,
+      "move": "Mega Drain"
+    },
+    {
+      "level": 33,
+      "move": "Leech Seed"
+    },
+    {
+      "level": 39,
+      "move": "Synthesis"
+    },
+    {
+      "level": 45,
+      "move": "Crunch"
+    },
+    {
+      "level": 51,
+      "move": "Giga Drain"
+    },
+    {
+      "level": 57,
+      "move": "Leaf Storm"
+    }
+  ]
+}

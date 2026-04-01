@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-442",
+  "trainerId": 442,
+  "game": "bdsp",
+  "name": "Ace Trainer Quinn",
+  "pokemon": [
+    {
+      "species": "Pinsir",
+      "level": 53,
+      "ability": "Hyper Cutter",
+      "moves": [
+        "Superpower",
+        "X-Scissor",
+        "Swords Dance",
+        "Guillotine"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Mightyena",
+      "level": 53,
+      "ability": "Intimidate",
+      "moves": [
+        "Crunch",
+        "Sucker Punch",
+        "Headbutt",
+        "Scary Face"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

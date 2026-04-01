@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-415",
+  "trainerId": 415,
+  "game": "bdsp",
+  "name": "Poké Fan Meredith",
+  "pokemon": [
+    {
+      "species": "Marill",
+      "level": 21,
+      "ability": "Thick Fat",
+      "moves": [
+        "Tail Whip",
+        "Helping Hand",
+        "Aqua Tail",
+        "Play Rough"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Aipom",
+      "level": 21,
+      "ability": "Pickup",
+      "moves": [
+        "Tail Whip",
+        "Sand Attack",
+        "Tickle",
+        "Fury Swipes"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

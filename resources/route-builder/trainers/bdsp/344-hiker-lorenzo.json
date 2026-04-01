@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-344",
+  "trainerId": 344,
+  "game": "bdsp",
+  "name": "Hiker Lorenzo",
+  "pokemon": [
+    {
+      "species": "Onix",
+      "level": 17,
+      "ability": "Sturdy",
+      "moves": [
+        "Bind",
+        "Rock Throw",
+        "Smack Down",
+        "Curse"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

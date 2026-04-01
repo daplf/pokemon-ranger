@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-437",
+  "trainerId": 437,
+  "game": "bdsp",
+  "name": "Dragon Tamer Kenny",
+  "pokemon": [
+    {
+      "species": "Bagon",
+      "level": 57,
+      "ability": "Rock Head",
+      "moves": [
+        "Double-Edge",
+        "Outrage",
+        "Zen Headbutt",
+        "Scary Face"
+      ],
+      "nature": "Serious",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Shelgon",
+      "level": 59,
+      "ability": "Rock Head",
+      "moves": [
+        "Dragon Claw",
+        "Headbutt",
+        "Crunch",
+        "Dragon Breath"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

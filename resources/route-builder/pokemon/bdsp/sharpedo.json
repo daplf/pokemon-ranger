@@ -1,0 +1,88 @@
+{
+  "species": "Sharpedo",
+  "game": "bdsp",
+  "types": [
+    "water",
+    "dark"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 161,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 70,
+    "attack": 120,
+    "defense": 40,
+    "specialAttack": 95,
+    "specialDefense": 40,
+    "speed": 95
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Aqua Jet"
+    },
+    {
+      "level": 1,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Night Slash"
+    },
+    {
+      "level": 1,
+      "move": "Poison Fang"
+    },
+    {
+      "level": 1,
+      "move": "Slash"
+    },
+    {
+      "level": 12,
+      "move": "Scary Face"
+    },
+    {
+      "level": 16,
+      "move": "Bite"
+    },
+    {
+      "level": 20,
+      "move": "Ice Fang"
+    },
+    {
+      "level": 24,
+      "move": "Screech"
+    },
+    {
+      "level": 28,
+      "move": "Swagger"
+    },
+    {
+      "level": 34,
+      "move": "Crunch"
+    },
+    {
+      "level": 40,
+      "move": "Agility"
+    },
+    {
+      "level": 46,
+      "move": "Liquidation"
+    },
+    {
+      "level": 52,
+      "move": "Take Down"
+    }
+  ]
+}

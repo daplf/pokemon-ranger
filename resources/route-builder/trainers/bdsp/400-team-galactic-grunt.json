@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-400",
+  "trainerId": 400,
+  "game": "bdsp",
+  "name": "Team Galactic Grunt",
+  "pokemon": [
+    {
+      "species": "Stunky",
+      "level": 38,
+      "ability": "Aftermath",
+      "moves": [
+        "Venoshock",
+        "Toxic",
+        "Memento",
+        "Night Slash"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Glameow",
+      "level": 38,
+      "ability": "Own Tempo",
+      "moves": [
+        "Aerial Ace",
+        "Charm",
+        "Taunt",
+        "Retaliate"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

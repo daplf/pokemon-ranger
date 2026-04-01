@@ -1,0 +1,79 @@
+{
+  "species": "Turtwig",
+  "game": "bdsp",
+  "types": [
+    "grass"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 64,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 55,
+    "attack": 68,
+    "defense": 64,
+    "specialAttack": 45,
+    "specialDefense": 55,
+    "speed": 31
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 5,
+      "move": "Withdraw"
+    },
+    {
+      "level": 6,
+      "move": "Leafage"
+    },
+    {
+      "level": 10,
+      "move": "Growth"
+    },
+    {
+      "level": 13,
+      "move": "Razor Leaf"
+    },
+    {
+      "level": 17,
+      "move": "Curse"
+    },
+    {
+      "level": 21,
+      "move": "Bite"
+    },
+    {
+      "level": 25,
+      "move": "Mega Drain"
+    },
+    {
+      "level": 29,
+      "move": "Leech Seed"
+    },
+    {
+      "level": 33,
+      "move": "Synthesis"
+    },
+    {
+      "level": 37,
+      "move": "Crunch"
+    },
+    {
+      "level": 41,
+      "move": "Giga Drain"
+    },
+    {
+      "level": 45,
+      "move": "Leaf Storm"
+    }
+  ]
+}

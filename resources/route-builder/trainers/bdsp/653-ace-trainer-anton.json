@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-653",
+  "trainerId": 653,
+  "game": "bdsp",
+  "name": "Ace Trainer Anton",
+  "pokemon": [
+    {
+      "species": "Snover",
+      "level": 39,
+      "ability": "Snow Warning",
+      "moves": [
+        "Ice Shard",
+        "Razor Leaf",
+        "Water Pulse",
+        "Blizzard"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

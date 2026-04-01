@@ -1,0 +1,79 @@
+{
+  "species": "Loudred",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 126,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 84,
+    "attack": 71,
+    "defense": 43,
+    "specialAttack": 71,
+    "specialDefense": 43,
+    "speed": 48
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Astonish"
+    },
+    {
+      "level": 1,
+      "move": "Bite"
+    },
+    {
+      "level": 1,
+      "move": "Echoed Voice"
+    },
+    {
+      "level": 1,
+      "move": "Howl"
+    },
+    {
+      "level": 1,
+      "move": "Pound"
+    },
+    {
+      "level": 15,
+      "move": "Rest"
+    },
+    {
+      "level": 15,
+      "move": "Sleep Talk"
+    },
+    {
+      "level": 23,
+      "move": "Stomp"
+    },
+    {
+      "level": 29,
+      "move": "Roar"
+    },
+    {
+      "level": 36,
+      "move": "Supersonic"
+    },
+    {
+      "level": 43,
+      "move": "Uproar"
+    },
+    {
+      "level": 50,
+      "move": "Screech"
+    },
+    {
+      "level": 57,
+      "move": "Hyper Voice"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "species": "Purugly",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "fast",
+  "baseExperience": 158,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 2
+  },
+  "baseStats": {
+    "hp": 71,
+    "attack": 82,
+    "defense": 64,
+    "specialAttack": 64,
+    "specialDefense": 59,
+    "speed": 112
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Fake Out"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Play Rough"
+    },
+    {
+      "level": 1,
+      "move": "Scratch"
+    },
+    {
+      "level": 1,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 1,
+      "move": "Swagger"
+    },
+    {
+      "level": 5,
+      "move": "Scratch"
+    },
+    {
+      "level": 8,
+      "move": "Growl"
+    },
+    {
+      "level": 13,
+      "move": "Hypnosis"
+    },
+    {
+      "level": 17,
+      "move": "Aerial Ace"
+    },
+    {
+      "level": 20,
+      "move": "Fury Swipes"
+    },
+    {
+      "level": 25,
+      "move": "Charm"
+    },
+    {
+      "level": 29,
+      "move": "Taunt"
+    },
+    {
+      "level": 32,
+      "move": "Retaliate"
+    },
+    {
+      "level": 37,
+      "move": "Slash"
+    },
+    {
+      "level": 45,
+      "move": "Body Slam"
+    },
+    {
+      "level": 52,
+      "move": "Attract"
+    },
+    {
+      "level": 60,
+      "move": "Hone Claws"
+    }
+  ]
+}

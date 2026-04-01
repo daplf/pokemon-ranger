@@ -1,0 +1,95 @@
+{
+  "species": "Rapidash",
+  "game": "bdsp",
+  "types": [
+    "fire"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 175,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 2
+  },
+  "baseStats": {
+    "hp": 65,
+    "attack": 100,
+    "defense": 70,
+    "specialAttack": 80,
+    "specialDefense": 80,
+    "speed": 105
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Ember"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Megahorn"
+    },
+    {
+      "level": 1,
+      "move": "Poison Jab"
+    },
+    {
+      "level": 1,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 1,
+      "move": "Smart Strike"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 15,
+      "move": "Flame Charge"
+    },
+    {
+      "level": 20,
+      "move": "Agility"
+    },
+    {
+      "level": 25,
+      "move": "Flame Wheel"
+    },
+    {
+      "level": 30,
+      "move": "Stomp"
+    },
+    {
+      "level": 35,
+      "move": "Fire Spin"
+    },
+    {
+      "level": 43,
+      "move": "Take Down"
+    },
+    {
+      "level": 49,
+      "move": "Inferno"
+    },
+    {
+      "level": 56,
+      "move": "Fire Blast"
+    },
+    {
+      "level": 63,
+      "move": "Flare Blitz"
+    }
+  ]
+}

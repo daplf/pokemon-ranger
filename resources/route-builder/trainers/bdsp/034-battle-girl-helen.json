@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-034",
+  "trainerId": 34,
+  "game": "bdsp",
+  "name": "Battle Girl Helen",
+  "pokemon": [
+    {
+      "species": "Meditite",
+      "level": 18,
+      "ability": "Pure Power",
+      "moves": [
+        "Pound",
+        "Low Kick",
+        "Confusion",
+        "Force Palm"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machop",
+      "level": 18,
+      "ability": "No Guard",
+      "moves": [
+        "Low Kick",
+        "Leer",
+        "Low Sweep",
+        "Knock Off"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

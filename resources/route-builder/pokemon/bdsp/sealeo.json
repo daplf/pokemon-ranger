@@ -1,0 +1,92 @@
+{
+  "species": "Sealeo",
+  "game": "bdsp",
+  "types": [
+    "ice",
+    "water"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 144,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 90,
+    "attack": 60,
+    "defense": 70,
+    "specialAttack": 75,
+    "specialDefense": 70,
+    "speed": 45
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Defense Curl"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Rollout"
+    },
+    {
+      "level": 1,
+      "move": "Swagger"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 12,
+      "move": "Powder Snow"
+    },
+    {
+      "level": 16,
+      "move": "Rest"
+    },
+    {
+      "level": 20,
+      "move": "Snore"
+    },
+    {
+      "level": 24,
+      "move": "Brine"
+    },
+    {
+      "level": 28,
+      "move": "Aurora Beam"
+    },
+    {
+      "level": 35,
+      "move": "Encore"
+    },
+    {
+      "level": 40,
+      "move": "Body Slam"
+    },
+    {
+      "level": 46,
+      "move": "Surf"
+    },
+    {
+      "level": 52,
+      "move": "Blizzard"
+    },
+    {
+      "level": 58,
+      "move": "Hail"
+    },
+    {
+      "level": 64,
+      "move": "Sheer Cold"
+    }
+  ]
+}

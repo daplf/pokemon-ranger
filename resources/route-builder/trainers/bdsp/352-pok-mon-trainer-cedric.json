@@ -1,0 +1,120 @@
+{
+  "id": "trainer-id-352",
+  "trainerId": 352,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Cedric",
+  "pokemon": [
+    {
+      "species": "Starly",
+      "level": 19,
+      "ability": "Keen Eye",
+      "moves": [
+        "Quick Attack",
+        "Double Team",
+        "Endeavor",
+        "Pluck"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 12,
+        "attack": 28,
+        "defense": 4,
+        "specialAttack": 0,
+        "specialDefense": 4,
+        "speed": 12
+      },
+      "ivs": {
+        "hp": 5,
+        "attack": 5,
+        "defense": 5,
+        "specialAttack": 5,
+        "specialDefense": 5,
+        "speed": 5
+      }
+    },
+    {
+      "species": "Buizel",
+      "level": 20,
+      "ability": "Swift Swim",
+      "moves": [
+        "Tail Whip",
+        "Quick Attack",
+        "Water Gun",
+        "Bite"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 28,
+        "defense": 4,
+        "specialAttack": 0,
+        "specialDefense": 4,
+        "speed": 12
+      },
+      "ivs": {
+        "hp": 6,
+        "attack": 6,
+        "defense": 6,
+        "specialAttack": 6,
+        "specialDefense": 6,
+        "speed": 6
+      }
+    },
+    {
+      "species": "Roselia",
+      "level": 20,
+      "ability": "Poison Point",
+      "moves": [
+        "Poison Sting",
+        "Mega Drain",
+        "Leech Seed",
+        "Grass Knot"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 4,
+        "specialAttack": 28,
+        "specialDefense": 4,
+        "speed": 12
+      },
+      "ivs": {
+        "hp": 7,
+        "attack": 7,
+        "defense": 7,
+        "specialAttack": 7,
+        "specialDefense": 7,
+        "speed": 7
+      }
+    },
+    {
+      "species": "Monferno",
+      "level": 21,
+      "ability": "Blaze",
+      "moves": [
+        "Mach Punch",
+        "Leer",
+        "Flame Wheel",
+        "Stealth Rock"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 12,
+        "attack": 36,
+        "defense": 4,
+        "specialAttack": 0,
+        "specialDefense": 4,
+        "speed": 36
+      },
+      "ivs": {
+        "hp": 11,
+        "attack": 11,
+        "defense": 11,
+        "specialAttack": 11,
+        "specialDefense": 11,
+        "speed": 11
+      }
+    }
+  ]
+}

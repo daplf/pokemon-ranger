@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-238",
+  "trainerId": 238,
+  "game": "bdsp",
+  "name": "Black Belt Carl",
+  "pokemon": [
+    {
+      "species": "Croagunk",
+      "level": 52,
+      "ability": "Dry Skin",
+      "moves": [
+        "Poison Jab",
+        "Sucker Punch",
+        "Revenge",
+        "Flatter"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machamp",
+      "level": 56,
+      "ability": "No Guard",
+      "moves": [
+        "Knock Off",
+        "Dynamic Punch",
+        "Seismic Toss",
+        "Focus Energy"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

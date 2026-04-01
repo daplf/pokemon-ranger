@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-049",
+  "trainerId": 49,
+  "game": "bdsp",
+  "name": "Pokémon Breeder Kahlil",
+  "pokemon": [
+    {
+      "species": "Pichu",
+      "level": 18,
+      "ability": "Static",
+      "moves": [
+        "Thunder Shock",
+        "Tail Whip",
+        "Play Nice",
+        "Nuzzle"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Pikachu",
+      "level": 19,
+      "ability": "Static",
+      "moves": [
+        "Nuzzle",
+        "Quick Attack",
+        "Double Team",
+        "Electro Ball"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Happiny",
+      "level": 17,
+      "ability": "Serene Grace",
+      "moves": [
+        "Minimize",
+        "Sweet Kiss",
+        "Disarming Voice",
+        "Covet"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

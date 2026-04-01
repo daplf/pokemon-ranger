@@ -1,0 +1,104 @@
+{
+  "species": "Roserade",
+  "game": "bdsp",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 232,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 3,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defense": 65,
+    "specialAttack": 125,
+    "specialDefense": 105,
+    "speed": 90
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Absorb"
+    },
+    {
+      "level": 1,
+      "move": "Aromatherapy"
+    },
+    {
+      "level": 1,
+      "move": "Giga Drain"
+    },
+    {
+      "level": 1,
+      "move": "Grassy Terrain"
+    },
+    {
+      "level": 1,
+      "move": "Growth"
+    },
+    {
+      "level": 1,
+      "move": "Ingrain"
+    },
+    {
+      "level": 1,
+      "move": "Leech Seed"
+    },
+    {
+      "level": 1,
+      "move": "Magical Leaf"
+    },
+    {
+      "level": 1,
+      "move": "Mega Drain"
+    },
+    {
+      "level": 1,
+      "move": "Petal Blizzard"
+    },
+    {
+      "level": 1,
+      "move": "Petal Dance"
+    },
+    {
+      "level": 1,
+      "move": "Poison Sting"
+    },
+    {
+      "level": 1,
+      "move": "Stun Spore"
+    },
+    {
+      "level": 1,
+      "move": "Sweet Scent"
+    },
+    {
+      "level": 1,
+      "move": "Synthesis"
+    },
+    {
+      "level": 1,
+      "move": "Toxic"
+    },
+    {
+      "level": 1,
+      "move": "Toxic Spikes"
+    },
+    {
+      "level": 1,
+      "move": "Venom Drench"
+    },
+    {
+      "level": 1,
+      "move": "Worry Seed"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-181",
+  "trainerId": 181,
+  "game": "bdsp",
+  "name": "Worker Gary",
+  "pokemon": [
+    {
+      "species": "Onix",
+      "level": 31,
+      "ability": "Rock Head",
+      "moves": [
+        "Smack Down",
+        "Iron Tail",
+        "Payback",
+        "Bulldoze"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

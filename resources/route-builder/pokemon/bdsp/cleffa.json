@@ -1,0 +1,59 @@
+{
+  "species": "Cleffa",
+  "game": "bdsp",
+  "types": [
+    "fairy"
+  ],
+  "growthRate": "fast",
+  "baseExperience": 44,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 1,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 50,
+    "attack": 25,
+    "defense": 28,
+    "specialAttack": 45,
+    "specialDefense": 55,
+    "speed": 15
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Copycat"
+    },
+    {
+      "level": 1,
+      "move": "Pound"
+    },
+    {
+      "level": 1,
+      "move": "Splash"
+    },
+    {
+      "level": 4,
+      "move": "Sing"
+    },
+    {
+      "level": 8,
+      "move": "Sweet Kiss"
+    },
+    {
+      "level": 12,
+      "move": "Disarming Voice"
+    },
+    {
+      "level": 16,
+      "move": "Encore"
+    },
+    {
+      "level": 20,
+      "move": "Charm"
+    }
+  ]
+}

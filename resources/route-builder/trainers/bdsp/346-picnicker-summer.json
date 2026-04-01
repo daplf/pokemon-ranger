@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-346",
+  "trainerId": 346,
+  "game": "bdsp",
+  "name": "Picnicker Summer",
+  "pokemon": [
+    {
+      "species": "Staravia",
+      "level": 31,
+      "ability": "Intimidate",
+      "moves": [
+        "Growl",
+        "Quick Attack",
+        "Endeavor",
+        "Aerial Ace"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Cherrim",
+      "level": 31,
+      "ability": "Flower Gift",
+      "moves": [
+        "Morning Sun",
+        "Growth",
+        "Magical Leaf",
+        "Leech Seed"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "species": "Torkoal",
+  "game": "bdsp",
+  "types": [
+    "fire"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 165,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 70,
+    "attack": 85,
+    "defense": 140,
+    "specialAttack": 85,
+    "specialDefense": 70,
+    "speed": 20
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Ember"
+    },
+    {
+      "level": 1,
+      "move": "Smog"
+    },
+    {
+      "level": 4,
+      "move": "Withdraw"
+    },
+    {
+      "level": 8,
+      "move": "Rapid Spin"
+    },
+    {
+      "level": 12,
+      "move": "Smokescreen"
+    },
+    {
+      "level": 16,
+      "move": "Clear Smog"
+    },
+    {
+      "level": 20,
+      "move": "Flame Wheel"
+    },
+    {
+      "level": 24,
+      "move": "Protect"
+    },
+    {
+      "level": 28,
+      "move": "Lava Plume"
+    },
+    {
+      "level": 32,
+      "move": "Body Slam"
+    },
+    {
+      "level": 36,
+      "move": "Iron Defense"
+    },
+    {
+      "level": 40,
+      "move": "Flamethrower"
+    },
+    {
+      "level": 44,
+      "move": "Curse"
+    },
+    {
+      "level": 48,
+      "move": "Heat Wave"
+    },
+    {
+      "level": 52,
+      "move": "Amnesia"
+    },
+    {
+      "level": 56,
+      "move": "Inferno"
+    },
+    {
+      "level": 60,
+      "move": "Shell Smash"
+    },
+    {
+      "level": 64,
+      "move": "Eruption"
+    }
+  ]
+}

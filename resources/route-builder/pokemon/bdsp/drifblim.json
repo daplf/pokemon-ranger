@@ -1,0 +1,96 @@
+{
+  "species": "Drifblim",
+  "game": "bdsp",
+  "types": [
+    "ghost",
+    "flying"
+  ],
+  "growthRate": "fluctuating",
+  "baseExperience": 174,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 150,
+    "attack": 80,
+    "defense": 44,
+    "specialAttack": 90,
+    "specialDefense": 54,
+    "speed": 80
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Astonish"
+    },
+    {
+      "level": 1,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 1,
+      "move": "Gust"
+    },
+    {
+      "level": 1,
+      "move": "Minimize"
+    },
+    {
+      "level": 1,
+      "move": "Phantom Force"
+    },
+    {
+      "level": 1,
+      "move": "Strength Sap"
+    },
+    {
+      "level": 12,
+      "move": "Payback"
+    },
+    {
+      "level": 16,
+      "move": "Hex"
+    },
+    {
+      "level": 20,
+      "move": "Shadow Ball"
+    },
+    {
+      "level": 24,
+      "move": "Spit Up"
+    },
+    {
+      "level": 24,
+      "move": "Stockpile"
+    },
+    {
+      "level": 24,
+      "move": "Swallow"
+    },
+    {
+      "level": 31,
+      "move": "Self-Destruct"
+    },
+    {
+      "level": 36,
+      "move": "Destiny Bond"
+    },
+    {
+      "level": 42,
+      "move": "Baton Pass"
+    },
+    {
+      "level": 48,
+      "move": "Tailwind"
+    },
+    {
+      "level": 54,
+      "move": "Explosion"
+    }
+  ]
+}

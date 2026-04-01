@@ -1,0 +1,40 @@
+{
+  "id": "trainer-id-007",
+  "trainerId": 7,
+  "game": "bdsp",
+  "name": "Lass Sarah",
+  "prerequisites": {
+    "requiredHms": [
+      "rock-smash"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Bidoof",
+      "level": 7,
+      "ability": "Unaware",
+      "moves": [
+        "Tackle",
+        "Growl",
+        "Defense Curl"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

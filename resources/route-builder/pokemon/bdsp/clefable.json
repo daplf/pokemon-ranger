@@ -1,0 +1,115 @@
+{
+  "species": "Clefable",
+  "game": "bdsp",
+  "types": [
+    "fairy"
+  ],
+  "growthRate": "fast",
+  "baseExperience": 217,
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 95,
+    "attack": 70,
+    "defense": 73,
+    "specialAttack": 95,
+    "specialDefense": 90,
+    "speed": 60
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "After You"
+    },
+    {
+      "level": 1,
+      "move": "Charm"
+    },
+    {
+      "level": 1,
+      "move": "Copycat"
+    },
+    {
+      "level": 1,
+      "move": "Cosmic Power"
+    },
+    {
+      "level": 1,
+      "move": "Defense Curl"
+    },
+    {
+      "level": 1,
+      "move": "Disarming Voice"
+    },
+    {
+      "level": 1,
+      "move": "Encore"
+    },
+    {
+      "level": 1,
+      "move": "Follow Me"
+    },
+    {
+      "level": 1,
+      "move": "Gravity"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Healing Wish"
+    },
+    {
+      "level": 1,
+      "move": "Life Dew"
+    },
+    {
+      "level": 1,
+      "move": "Meteor Mash"
+    },
+    {
+      "level": 1,
+      "move": "Metronome"
+    },
+    {
+      "level": 1,
+      "move": "Minimize"
+    },
+    {
+      "level": 1,
+      "move": "Moonblast"
+    },
+    {
+      "level": 1,
+      "move": "Moonlight"
+    },
+    {
+      "level": 1,
+      "move": "Pound"
+    },
+    {
+      "level": 1,
+      "move": "Sing"
+    },
+    {
+      "level": 1,
+      "move": "Splash"
+    },
+    {
+      "level": 1,
+      "move": "Stored Power"
+    },
+    {
+      "level": 1,
+      "move": "Sweet Kiss"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "species": "Cacturne",
+  "game": "bdsp",
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 166,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 70,
+    "attack": 115,
+    "defense": 60,
+    "specialAttack": 115,
+    "specialDefense": 60,
+    "speed": 55
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Absorb"
+    },
+    {
+      "level": 1,
+      "move": "Destiny Bond"
+    },
+    {
+      "level": 1,
+      "move": "Growth"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Poison Sting"
+    },
+    {
+      "level": 1,
+      "move": "Revenge"
+    },
+    {
+      "level": 1,
+      "move": "Spiky Shield"
+    },
+    {
+      "level": 4,
+      "move": "Absorb"
+    },
+    {
+      "level": 7,
+      "move": "Growth"
+    },
+    {
+      "level": 10,
+      "move": "Leech Seed"
+    },
+    {
+      "level": 13,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 16,
+      "move": "Poison Jab"
+    },
+    {
+      "level": 19,
+      "move": "Assurance"
+    },
+    {
+      "level": 22,
+      "move": "Ingrain"
+    },
+    {
+      "level": 26,
+      "move": "Payback"
+    },
+    {
+      "level": 30,
+      "move": "Spikes"
+    },
+    {
+      "level": 35,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 38,
+      "move": "Pin Missile"
+    },
+    {
+      "level": 44,
+      "move": "Energy Ball"
+    },
+    {
+      "level": 49,
+      "move": "Cotton Spore"
+    },
+    {
+      "level": 54,
+      "move": "Sandstorm"
+    },
+    {
+      "level": 59,
+      "move": "Destiny Bond"
+    }
+  ]
+}

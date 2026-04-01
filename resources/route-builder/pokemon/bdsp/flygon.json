@@ -1,0 +1,132 @@
+{
+  "species": "Flygon",
+  "game": "bdsp",
+  "types": [
+    "ground",
+    "dragon"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 234,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 2
+  },
+  "baseStats": {
+    "hp": 80,
+    "attack": 100,
+    "defense": 80,
+    "specialAttack": 80,
+    "specialDefense": 80,
+    "speed": 100
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Astonish"
+    },
+    {
+      "level": 1,
+      "move": "Bite"
+    },
+    {
+      "level": 1,
+      "move": "Bulldoze"
+    },
+    {
+      "level": 1,
+      "move": "Crunch"
+    },
+    {
+      "level": 1,
+      "move": "Dig"
+    },
+    {
+      "level": 1,
+      "move": "Dragon Breath"
+    },
+    {
+      "level": 1,
+      "move": "Dragon Claw"
+    },
+    {
+      "level": 1,
+      "move": "Dragon Dance"
+    },
+    {
+      "level": 1,
+      "move": "Feint"
+    },
+    {
+      "level": 1,
+      "move": "Fissure"
+    },
+    {
+      "level": 1,
+      "move": "Laser Focus"
+    },
+    {
+      "level": 1,
+      "move": "Outrage"
+    },
+    {
+      "level": 1,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 1,
+      "move": "Superpower"
+    },
+    {
+      "level": 1,
+      "move": "Supersonic"
+    },
+    {
+      "level": 12,
+      "move": "Mud-Slap"
+    },
+    {
+      "level": 16,
+      "move": "Sand Tomb"
+    },
+    {
+      "level": 20,
+      "move": "Dragon Tail"
+    },
+    {
+      "level": 24,
+      "move": "Screech"
+    },
+    {
+      "level": 28,
+      "move": "Bug Buzz"
+    },
+    {
+      "level": 32,
+      "move": "Sandstorm"
+    },
+    {
+      "level": 38,
+      "move": "Earth Power"
+    },
+    {
+      "level": 44,
+      "move": "Earthquake"
+    },
+    {
+      "level": 52,
+      "move": "Uproar"
+    },
+    {
+      "level": 60,
+      "move": "Dragon Rush"
+    },
+    {
+      "level": 68,
+      "move": "Boomburst"
+    }
+  ]
+}

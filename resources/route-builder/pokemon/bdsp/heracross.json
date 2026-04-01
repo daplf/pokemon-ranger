@@ -1,0 +1,84 @@
+{
+  "species": "Heracross",
+  "game": "bdsp",
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 175,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 80,
+    "attack": 125,
+    "defense": 75,
+    "specialAttack": 40,
+    "specialDefense": 95,
+    "speed": 85
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 5,
+      "move": "Fury Attack"
+    },
+    {
+      "level": 10,
+      "move": "Endure"
+    },
+    {
+      "level": 15,
+      "move": "Aerial Ace"
+    },
+    {
+      "level": 20,
+      "move": "Horn Attack"
+    },
+    {
+      "level": 25,
+      "move": "Counter"
+    },
+    {
+      "level": 30,
+      "move": "Brick Break"
+    },
+    {
+      "level": 35,
+      "move": "Pin Missile"
+    },
+    {
+      "level": 40,
+      "move": "Throat Chop"
+    },
+    {
+      "level": 45,
+      "move": "Thrash"
+    },
+    {
+      "level": 50,
+      "move": "Swords Dance"
+    },
+    {
+      "level": 55,
+      "move": "Megahorn"
+    },
+    {
+      "level": 60,
+      "move": "Close Combat"
+    }
+  ]
+}

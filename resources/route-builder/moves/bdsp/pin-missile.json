@@ -1,0 +1,7 @@
+{
+  "name": "Pin Missile",
+  "game": "bdsp",
+  "type": "bug",
+  "category": "physical",
+  "power": 25
+}

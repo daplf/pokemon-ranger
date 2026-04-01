@@ -1,0 +1,120 @@
+{
+  "id": "trainer-id-123",
+  "trainerId": 123,
+  "game": "bdsp",
+  "name": "Swimmer Jessica",
+  "pokemon": [
+    {
+      "species": "Goldeen",
+      "level": 28,
+      "ability": "Water Veil",
+      "moves": [
+        "Peck",
+        "Tail Whip",
+        "Water Pulse",
+        "Horn Attack"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Goldeen",
+      "level": 28,
+      "ability": "Water Veil",
+      "moves": [
+        "Peck",
+        "Supersonic",
+        "Water Pulse",
+        "Horn Attack"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Goldeen",
+      "level": 28,
+      "ability": "Water Veil",
+      "moves": [
+        "Peck",
+        "Water Pulse",
+        "Horn Attack",
+        "Agility"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Goldeen",
+      "level": 28,
+      "ability": "Water Veil",
+      "moves": [
+        "Peck",
+        "Water Pulse",
+        "Horn Attack",
+        "Aqua Ring"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

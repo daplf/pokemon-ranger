@@ -1,0 +1,7 @@
+{
+  "name": "Charge",
+  "game": "bdsp",
+  "type": "electric",
+  "category": "status",
+  "power": 0
+}

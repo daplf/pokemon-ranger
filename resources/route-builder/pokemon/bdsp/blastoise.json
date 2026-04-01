@@ -1,0 +1,87 @@
+{
+  "species": "Blastoise",
+  "game": "bdsp",
+  "types": [
+    "water"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 239,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 3,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 79,
+    "attack": 83,
+    "defense": 100,
+    "specialAttack": 85,
+    "specialDefense": 105,
+    "speed": 78
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Flash Cannon"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 1,
+      "move": "Withdraw"
+    },
+    {
+      "level": 9,
+      "move": "Rapid Spin"
+    },
+    {
+      "level": 12,
+      "move": "Bite"
+    },
+    {
+      "level": 15,
+      "move": "Water Pulse"
+    },
+    {
+      "level": 20,
+      "move": "Protect"
+    },
+    {
+      "level": 25,
+      "move": "Rain Dance"
+    },
+    {
+      "level": 30,
+      "move": "Aqua Tail"
+    },
+    {
+      "level": 35,
+      "move": "Shell Smash"
+    },
+    {
+      "level": 42,
+      "move": "Iron Defense"
+    },
+    {
+      "level": 49,
+      "move": "Hydro Pump"
+    },
+    {
+      "level": 56,
+      "move": "Skull Bash"
+    }
+  ]
+}

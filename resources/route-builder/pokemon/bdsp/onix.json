@@ -1,0 +1,100 @@
+{
+  "species": "Onix",
+  "game": "bdsp",
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 77,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 1,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 35,
+    "attack": 45,
+    "defense": 160,
+    "specialAttack": 30,
+    "specialDefense": 45,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Bind"
+    },
+    {
+      "level": 1,
+      "move": "Harden"
+    },
+    {
+      "level": 1,
+      "move": "Rock Throw"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 4,
+      "move": "Smack Down"
+    },
+    {
+      "level": 8,
+      "move": "Rock Polish"
+    },
+    {
+      "level": 12,
+      "move": "Dragon Breath"
+    },
+    {
+      "level": 16,
+      "move": "Curse"
+    },
+    {
+      "level": 20,
+      "move": "Rock Slide"
+    },
+    {
+      "level": 24,
+      "move": "Screech"
+    },
+    {
+      "level": 28,
+      "move": "Sand Tomb"
+    },
+    {
+      "level": 32,
+      "move": "Stealth Rock"
+    },
+    {
+      "level": 36,
+      "move": "Slam"
+    },
+    {
+      "level": 40,
+      "move": "Sandstorm"
+    },
+    {
+      "level": 44,
+      "move": "Dig"
+    },
+    {
+      "level": 48,
+      "move": "Iron Tail"
+    },
+    {
+      "level": 52,
+      "move": "Stone Edge"
+    },
+    {
+      "level": 56,
+      "move": "Double-Edge"
+    }
+  ]
+}

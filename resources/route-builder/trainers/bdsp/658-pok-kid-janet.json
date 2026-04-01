@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-658",
+  "trainerId": 658,
+  "game": "bdsp",
+  "name": "Poké Kid Janet",
+  "pokemon": [
+    {
+      "species": "Pikachu",
+      "level": 41,
+      "ability": "Static",
+      "moves": [
+        "Sweet Kiss",
+        "Nuzzle",
+        "Slam",
+        "Thunderbolt"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Pikachu",
+      "level": 41,
+      "ability": "Static",
+      "moves": [
+        "Nuzzle",
+        "Spark",
+        "Slam",
+        "Thunderbolt"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "species": "Empoleon",
+  "game": "bdsp",
+  "types": [
+    "water",
+    "steel"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 239,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 3,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 84,
+    "attack": 86,
+    "defense": 88,
+    "specialAttack": 111,
+    "specialDefense": 101,
+    "speed": 60
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Aqua Jet"
+    },
+    {
+      "level": 1,
+      "move": "Charm"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Metal Claw"
+    },
+    {
+      "level": 1,
+      "move": "Pound"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 4,
+      "move": "Growl"
+    },
+    {
+      "level": 8,
+      "move": "Water Gun"
+    },
+    {
+      "level": 11,
+      "move": "Swords Dance"
+    },
+    {
+      "level": 15,
+      "move": "Peck"
+    },
+    {
+      "level": 19,
+      "move": "Bubble Beam"
+    },
+    {
+      "level": 24,
+      "move": "Swagger"
+    },
+    {
+      "level": 28,
+      "move": "Fury Attack"
+    },
+    {
+      "level": 33,
+      "move": "Brine"
+    },
+    {
+      "level": 39,
+      "move": "Whirlpool"
+    },
+    {
+      "level": 46,
+      "move": "Mist"
+    },
+    {
+      "level": 52,
+      "move": "Drill Peck"
+    },
+    {
+      "level": 59,
+      "move": "Hydro Pump"
+    }
+  ]
+}

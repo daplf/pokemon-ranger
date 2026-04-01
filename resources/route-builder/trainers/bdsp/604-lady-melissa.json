@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-604",
+  "trainerId": 604,
+  "game": "bdsp",
+  "name": "Lady Melissa",
+  "pokemon": [
+    {
+      "species": "Lopunny",
+      "level": 40,
+      "ability": "Klutz",
+      "moves": [
+        "Quick Attack",
+        "Double Kick",
+        "Headbutt",
+        "Entrainment"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

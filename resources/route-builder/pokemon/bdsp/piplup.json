@@ -1,0 +1,79 @@
+{
+  "species": "Piplup",
+  "game": "bdsp",
+  "types": [
+    "water"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 63,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 53,
+    "attack": 51,
+    "defense": 53,
+    "specialAttack": 61,
+    "specialDefense": 56,
+    "speed": 40
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Pound"
+    },
+    {
+      "level": 4,
+      "move": "Growl"
+    },
+    {
+      "level": 6,
+      "move": "Water Gun"
+    },
+    {
+      "level": 11,
+      "move": "Charm"
+    },
+    {
+      "level": 15,
+      "move": "Peck"
+    },
+    {
+      "level": 18,
+      "move": "Bubble Beam"
+    },
+    {
+      "level": 22,
+      "move": "Swagger"
+    },
+    {
+      "level": 25,
+      "move": "Fury Attack"
+    },
+    {
+      "level": 29,
+      "move": "Brine"
+    },
+    {
+      "level": 32,
+      "move": "Whirlpool"
+    },
+    {
+      "level": 36,
+      "move": "Mist"
+    },
+    {
+      "level": 39,
+      "move": "Drill Peck"
+    },
+    {
+      "level": 43,
+      "move": "Hydro Pump"
+    }
+  ]
+}

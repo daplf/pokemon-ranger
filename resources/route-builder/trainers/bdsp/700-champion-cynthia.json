@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-700",
+  "trainerId": 700,
+  "game": "bdsp",
+  "name": "Champion Cynthia",
+  "pokemon": [
+    {
+      "species": "Spiritomb",
+      "level": 74,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Shadow Ball",
+        "Dark Pulse",
+        "Will-O-Wisp",
+        "Sucker Punch"
+      ],
+      "nature": "Quiet",
+      "evs": {
+        "hp": 252,
+        "attack": 6,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Roserade",
+      "level": 74,
+      "item": "Expert Belt",
+      "moves": [
+        "Dazzling Gleam",
+        "Shadow Ball",
+        "Sludge Bomb",
+        "Energy Ball"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 52,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 204
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Togekiss",
+      "level": 76,
+      "item": "Leftovers",
+      "moves": [
+        "Air Slash",
+        "Dazzling Gleam",
+        "Aura Sphere",
+        "Thunder Wave"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 52,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 204
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Lucario",
+      "level": 76,
+      "item": "Wise Glasses",
+      "moves": [
+        "Aura Sphere",
+        "Dragon Pulse",
+        "Flash Cannon",
+        "Psychic"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 52,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 204
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Milotic",
+      "level": 74,
+      "item": "Flame Orb",
+      "moves": [
+        "Recover",
+        "Mirror Coat",
+        "Ice Beam",
+        "Scald"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 252,
+        "specialAttack": 6,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Garchomp",
+      "level": 78,
+      "item": "Yache Berry",
+      "moves": [
+        "Dragon Claw",
+        "Earthquake",
+        "Swords Dance",
+        "Poison Jab"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 52,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 204
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

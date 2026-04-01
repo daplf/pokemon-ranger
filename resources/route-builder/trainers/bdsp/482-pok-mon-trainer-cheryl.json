@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-482",
+  "trainerId": 482,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Cheryl",
+  "pokemon": [
+    {
+      "species": "Chansey",
+      "level": 15,
+      "ability": "Healer",
+      "moves": [
+        "Sweet Kiss",
+        "Disarming Voice",
+        "Tail Whip",
+        "Life Dew"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 172,
+        "attack": 0,
+        "defense": 168,
+        "specialAttack": 0,
+        "specialDefense": 168,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-483",
+  "trainerId": 483,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Riley",
+  "pokemon": [
+    {
+      "species": "Lucario",
+      "level": 34,
+      "ability": "Inner Focus",
+      "moves": [
+        "Screech",
+        "Force Palm",
+        "Metal Claw",
+        "Laser Focus"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 172,
+        "attack": 0,
+        "defense": 168,
+        "specialAttack": 0,
+        "specialDefense": 168,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    }
+  ]
+}

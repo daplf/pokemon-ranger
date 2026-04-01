@@ -1,0 +1,89 @@
+{
+  "id": "trainer-id-175",
+  "trainerId": 175,
+  "game": "bdsp",
+  "name": "Gym Leader Roark",
+  "pokemon": [
+    {
+      "species": "Geodude",
+      "level": 12,
+      "ability": "Rock Head",
+      "moves": [
+        "Stealth Rock",
+        "Defense Curl",
+        "Rollout"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Onix",
+      "level": 12,
+      "ability": "Sturdy",
+      "moves": [
+        "Stealth Rock",
+        "Rock Throw",
+        "Bind"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Cranidos",
+      "level": 14,
+      "ability": "Mold Breaker",
+      "moves": [
+        "Headbutt",
+        "Bulldoze",
+        "Leer"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

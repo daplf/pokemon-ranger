@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-167",
+  "trainerId": 167,
+  "game": "bdsp",
+  "name": "Psychic Valencia",
+  "pokemon": [
+    {
+      "species": "Chingling",
+      "level": 44,
+      "ability": "Levitate",
+      "moves": [
+        "Wrap",
+        "Astonish",
+        "Confusion",
+        "Yawn"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Chimecho",
+      "level": 48,
+      "ability": "Levitate",
+      "moves": [
+        "Wrap",
+        "Yawn",
+        "Extrasensory",
+        "Heal Pulse"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

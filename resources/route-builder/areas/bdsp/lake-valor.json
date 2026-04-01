@@ -1,0 +1,18 @@
+{
+  "id": "lake-valor",
+  "game": "bdsp",
+  "name": "Lake Valor",
+  "trainerIds": [
+    "trainer-id-322",
+    "trainer-id-321",
+    "trainer-id-382",
+    "trainer-id-313",
+    "trainer-id-399",
+    "trainer-id-329",
+    "trainer-id-310",
+    "trainer-id-068",
+    "trainer-id-333",
+    "trainer-id-067",
+    "trainer-id-066"
+  ]
+}

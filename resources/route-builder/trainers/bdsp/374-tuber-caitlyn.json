@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-374",
+  "trainerId": 374,
+  "game": "bdsp",
+  "name": "Tuber Caitlyn",
+  "pokemon": [
+    {
+      "species": "Azurill",
+      "level": 24,
+      "ability": "Sap Sipper",
+      "moves": [
+        "Tail Whip",
+        "Charm",
+        "Bubble Beam",
+        "Light Screen"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Marill",
+      "level": 24,
+      "ability": "Huge Power",
+      "moves": [
+        "Aqua Tail",
+        "Play Rough",
+        "Aqua Ring",
+        "Brick Break"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

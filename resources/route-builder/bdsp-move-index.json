@@ -1,0 +1,1874 @@
+[
+  {
+    "name": "Absorb",
+    "file": "moves/bdsp/absorb.json"
+  },
+  {
+    "name": "Acid",
+    "file": "moves/bdsp/acid.json"
+  },
+  {
+    "name": "Acid Armor",
+    "file": "moves/bdsp/acid-armor.json"
+  },
+  {
+    "name": "Acid Spray",
+    "file": "moves/bdsp/acid-spray.json"
+  },
+  {
+    "name": "Acrobatics",
+    "file": "moves/bdsp/acrobatics.json"
+  },
+  {
+    "name": "Acupressure",
+    "file": "moves/bdsp/acupressure.json"
+  },
+  {
+    "name": "Aerial Ace",
+    "file": "moves/bdsp/aerial-ace.json"
+  },
+  {
+    "name": "After You",
+    "file": "moves/bdsp/after-you.json"
+  },
+  {
+    "name": "Agility",
+    "file": "moves/bdsp/agility.json"
+  },
+  {
+    "name": "Air Cutter",
+    "file": "moves/bdsp/air-cutter.json"
+  },
+  {
+    "name": "Air Slash",
+    "file": "moves/bdsp/air-slash.json"
+  },
+  {
+    "name": "Ally Switch",
+    "file": "moves/bdsp/ally-switch.json"
+  },
+  {
+    "name": "Amnesia",
+    "file": "moves/bdsp/amnesia.json"
+  },
+  {
+    "name": "Ancient Power",
+    "file": "moves/bdsp/ancient-power.json"
+  },
+  {
+    "name": "Aqua Jet",
+    "file": "moves/bdsp/aqua-jet.json"
+  },
+  {
+    "name": "Aqua Ring",
+    "file": "moves/bdsp/aqua-ring.json"
+  },
+  {
+    "name": "Aqua Tail",
+    "file": "moves/bdsp/aqua-tail.json"
+  },
+  {
+    "name": "Arm Thrust",
+    "file": "moves/bdsp/arm-thrust.json"
+  },
+  {
+    "name": "Aromatherapy",
+    "file": "moves/bdsp/aromatherapy.json"
+  },
+  {
+    "name": "Aromatic Mist",
+    "file": "moves/bdsp/aromatic-mist.json"
+  },
+  {
+    "name": "Assurance",
+    "file": "moves/bdsp/assurance.json"
+  },
+  {
+    "name": "Astonish",
+    "file": "moves/bdsp/astonish.json"
+  },
+  {
+    "name": "Attack Order",
+    "file": "moves/bdsp/attack-order.json"
+  },
+  {
+    "name": "Attract",
+    "file": "moves/bdsp/attract.json"
+  },
+  {
+    "name": "Aura Sphere",
+    "file": "moves/bdsp/aura-sphere.json"
+  },
+  {
+    "name": "Aurora Beam",
+    "file": "moves/bdsp/aurora-beam.json"
+  },
+  {
+    "name": "Aurora Veil",
+    "file": "moves/bdsp/aurora-veil.json"
+  },
+  {
+    "name": "Autotomize",
+    "file": "moves/bdsp/autotomize.json"
+  },
+  {
+    "name": "Avalanche",
+    "file": "moves/bdsp/avalanche.json"
+  },
+  {
+    "name": "Baby-Doll Eyes",
+    "file": "moves/bdsp/baby-doll-eyes.json"
+  },
+  {
+    "name": "Baton Pass",
+    "file": "moves/bdsp/baton-pass.json"
+  },
+  {
+    "name": "Beat Up",
+    "file": "moves/bdsp/beat-up.json"
+  },
+  {
+    "name": "Belch",
+    "file": "moves/bdsp/belch.json"
+  },
+  {
+    "name": "Belly Drum",
+    "file": "moves/bdsp/belly-drum.json"
+  },
+  {
+    "name": "Bind",
+    "file": "moves/bdsp/bind.json"
+  },
+  {
+    "name": "Bite",
+    "file": "moves/bdsp/bite.json"
+  },
+  {
+    "name": "Blizzard",
+    "file": "moves/bdsp/blizzard.json"
+  },
+  {
+    "name": "Block",
+    "file": "moves/bdsp/block.json"
+  },
+  {
+    "name": "Body Press",
+    "file": "moves/bdsp/body-press.json"
+  },
+  {
+    "name": "Body Slam",
+    "file": "moves/bdsp/body-slam.json"
+  },
+  {
+    "name": "Bone Rush",
+    "file": "moves/bdsp/bone-rush.json"
+  },
+  {
+    "name": "Bonemerang",
+    "file": "moves/bdsp/bonemerang.json"
+  },
+  {
+    "name": "Boomburst",
+    "file": "moves/bdsp/boomburst.json"
+  },
+  {
+    "name": "Bounce",
+    "file": "moves/bdsp/bounce.json"
+  },
+  {
+    "name": "Brave Bird",
+    "file": "moves/bdsp/brave-bird.json"
+  },
+  {
+    "name": "Brick Break",
+    "file": "moves/bdsp/brick-break.json"
+  },
+  {
+    "name": "Brine",
+    "file": "moves/bdsp/brine.json"
+  },
+  {
+    "name": "Bubble Beam",
+    "file": "moves/bdsp/bubble-beam.json"
+  },
+  {
+    "name": "Bug Bite",
+    "file": "moves/bdsp/bug-bite.json"
+  },
+  {
+    "name": "Bug Buzz",
+    "file": "moves/bdsp/bug-buzz.json"
+  },
+  {
+    "name": "Bulk Up",
+    "file": "moves/bdsp/bulk-up.json"
+  },
+  {
+    "name": "Bulldoze",
+    "file": "moves/bdsp/bulldoze.json"
+  },
+  {
+    "name": "Bullet Punch",
+    "file": "moves/bdsp/bullet-punch.json"
+  },
+  {
+    "name": "Bullet Seed",
+    "file": "moves/bdsp/bullet-seed.json"
+  },
+  {
+    "name": "Burn Up",
+    "file": "moves/bdsp/burn-up.json"
+  },
+  {
+    "name": "Calm Mind",
+    "file": "moves/bdsp/calm-mind.json"
+  },
+  {
+    "name": "Charge",
+    "file": "moves/bdsp/charge.json"
+  },
+  {
+    "name": "Charge Beam",
+    "file": "moves/bdsp/charge-beam.json"
+  },
+  {
+    "name": "Charm",
+    "file": "moves/bdsp/charm.json"
+  },
+  {
+    "name": "Chatter",
+    "file": "moves/bdsp/chatter.json"
+  },
+  {
+    "name": "Clear Smog",
+    "file": "moves/bdsp/clear-smog.json"
+  },
+  {
+    "name": "Close Combat",
+    "file": "moves/bdsp/close-combat.json"
+  },
+  {
+    "name": "Coil",
+    "file": "moves/bdsp/coil.json"
+  },
+  {
+    "name": "Confide",
+    "file": "moves/bdsp/confide.json"
+  },
+  {
+    "name": "Confuse Ray",
+    "file": "moves/bdsp/confuse-ray.json"
+  },
+  {
+    "name": "Confusion",
+    "file": "moves/bdsp/confusion.json"
+  },
+  {
+    "name": "Conversion",
+    "file": "moves/bdsp/conversion.json"
+  },
+  {
+    "name": "Conversion 2",
+    "file": "moves/bdsp/conversion-2.json"
+  },
+  {
+    "name": "Copycat",
+    "file": "moves/bdsp/copycat.json"
+  },
+  {
+    "name": "Cosmic Power",
+    "file": "moves/bdsp/cosmic-power.json"
+  },
+  {
+    "name": "Cotton Guard",
+    "file": "moves/bdsp/cotton-guard.json"
+  },
+  {
+    "name": "Cotton Spore",
+    "file": "moves/bdsp/cotton-spore.json"
+  },
+  {
+    "name": "Counter",
+    "file": "moves/bdsp/counter.json"
+  },
+  {
+    "name": "Covet",
+    "file": "moves/bdsp/covet.json"
+  },
+  {
+    "name": "Crabhammer",
+    "file": "moves/bdsp/crabhammer.json"
+  },
+  {
+    "name": "Cross Chop",
+    "file": "moves/bdsp/cross-chop.json"
+  },
+  {
+    "name": "Cross Poison",
+    "file": "moves/bdsp/cross-poison.json"
+  },
+  {
+    "name": "Crunch",
+    "file": "moves/bdsp/crunch.json"
+  },
+  {
+    "name": "Crush Claw",
+    "file": "moves/bdsp/crush-claw.json"
+  },
+  {
+    "name": "Curse",
+    "file": "moves/bdsp/curse.json"
+  },
+  {
+    "name": "Cut",
+    "file": "moves/bdsp/cut.json"
+  },
+  {
+    "name": "Dark Pulse",
+    "file": "moves/bdsp/dark-pulse.json"
+  },
+  {
+    "name": "Dazzling Gleam",
+    "file": "moves/bdsp/dazzling-gleam.json"
+  },
+  {
+    "name": "Defend Order",
+    "file": "moves/bdsp/defend-order.json"
+  },
+  {
+    "name": "Defense Curl",
+    "file": "moves/bdsp/defense-curl.json"
+  },
+  {
+    "name": "Defog",
+    "file": "moves/bdsp/defog.json"
+  },
+  {
+    "name": "Destiny Bond",
+    "file": "moves/bdsp/destiny-bond.json"
+  },
+  {
+    "name": "Detect",
+    "file": "moves/bdsp/detect.json"
+  },
+  {
+    "name": "Dig",
+    "file": "moves/bdsp/dig.json"
+  },
+  {
+    "name": "Disable",
+    "file": "moves/bdsp/disable.json"
+  },
+  {
+    "name": "Disarming Voice",
+    "file": "moves/bdsp/disarming-voice.json"
+  },
+  {
+    "name": "Discharge",
+    "file": "moves/bdsp/discharge.json"
+  },
+  {
+    "name": "Dive",
+    "file": "moves/bdsp/dive.json"
+  },
+  {
+    "name": "Double Hit",
+    "file": "moves/bdsp/double-hit.json"
+  },
+  {
+    "name": "Double Kick",
+    "file": "moves/bdsp/double-kick.json"
+  },
+  {
+    "name": "Double Team",
+    "file": "moves/bdsp/double-team.json"
+  },
+  {
+    "name": "Double-Edge",
+    "file": "moves/bdsp/double-edge.json"
+  },
+  {
+    "name": "Dragon Breath",
+    "file": "moves/bdsp/dragon-breath.json"
+  },
+  {
+    "name": "Dragon Claw",
+    "file": "moves/bdsp/dragon-claw.json"
+  },
+  {
+    "name": "Dragon Dance",
+    "file": "moves/bdsp/dragon-dance.json"
+  },
+  {
+    "name": "Dragon Hammer",
+    "file": "moves/bdsp/dragon-hammer.json"
+  },
+  {
+    "name": "Dragon Pulse",
+    "file": "moves/bdsp/dragon-pulse.json"
+  },
+  {
+    "name": "Dragon Rush",
+    "file": "moves/bdsp/dragon-rush.json"
+  },
+  {
+    "name": "Dragon Tail",
+    "file": "moves/bdsp/dragon-tail.json"
+  },
+  {
+    "name": "Drain Punch",
+    "file": "moves/bdsp/drain-punch.json"
+  },
+  {
+    "name": "Draining Kiss",
+    "file": "moves/bdsp/draining-kiss.json"
+  },
+  {
+    "name": "Dream Eater",
+    "file": "moves/bdsp/dream-eater.json"
+  },
+  {
+    "name": "Drill Peck",
+    "file": "moves/bdsp/drill-peck.json"
+  },
+  {
+    "name": "Drill Run",
+    "file": "moves/bdsp/drill-run.json"
+  },
+  {
+    "name": "Dual Chop",
+    "file": "moves/bdsp/dual-chop.json"
+  },
+  {
+    "name": "Dynamic Punch",
+    "file": "moves/bdsp/dynamic-punch.json"
+  },
+  {
+    "name": "Earth Power",
+    "file": "moves/bdsp/earth-power.json"
+  },
+  {
+    "name": "Earthquake",
+    "file": "moves/bdsp/earthquake.json"
+  },
+  {
+    "name": "Echoed Voice",
+    "file": "moves/bdsp/echoed-voice.json"
+  },
+  {
+    "name": "Eerie Impulse",
+    "file": "moves/bdsp/eerie-impulse.json"
+  },
+  {
+    "name": "Electric Terrain",
+    "file": "moves/bdsp/electric-terrain.json"
+  },
+  {
+    "name": "Electro Ball",
+    "file": "moves/bdsp/electro-ball.json"
+  },
+  {
+    "name": "Ember",
+    "file": "moves/bdsp/ember.json"
+  },
+  {
+    "name": "Encore",
+    "file": "moves/bdsp/encore.json"
+  },
+  {
+    "name": "Endeavor",
+    "file": "moves/bdsp/endeavor.json"
+  },
+  {
+    "name": "Endure",
+    "file": "moves/bdsp/endure.json"
+  },
+  {
+    "name": "Energy Ball",
+    "file": "moves/bdsp/energy-ball.json"
+  },
+  {
+    "name": "Entrainment",
+    "file": "moves/bdsp/entrainment.json"
+  },
+  {
+    "name": "Eruption",
+    "file": "moves/bdsp/eruption.json"
+  },
+  {
+    "name": "Explosion",
+    "file": "moves/bdsp/explosion.json"
+  },
+  {
+    "name": "Extrasensory",
+    "file": "moves/bdsp/extrasensory.json"
+  },
+  {
+    "name": "Extreme Speed",
+    "file": "moves/bdsp/extreme-speed.json"
+  },
+  {
+    "name": "Facade",
+    "file": "moves/bdsp/facade.json"
+  },
+  {
+    "name": "Fairy Wind",
+    "file": "moves/bdsp/fairy-wind.json"
+  },
+  {
+    "name": "Fake Out",
+    "file": "moves/bdsp/fake-out.json"
+  },
+  {
+    "name": "Fake Tears",
+    "file": "moves/bdsp/fake-tears.json"
+  },
+  {
+    "name": "False Swipe",
+    "file": "moves/bdsp/false-swipe.json"
+  },
+  {
+    "name": "Feather Dance",
+    "file": "moves/bdsp/feather-dance.json"
+  },
+  {
+    "name": "Feint",
+    "file": "moves/bdsp/feint.json"
+  },
+  {
+    "name": "Feint Attack",
+    "file": "moves/bdsp/feint-attack.json"
+  },
+  {
+    "name": "Fell Stinger",
+    "file": "moves/bdsp/fell-stinger.json"
+  },
+  {
+    "name": "Final Gambit",
+    "file": "moves/bdsp/final-gambit.json"
+  },
+  {
+    "name": "Fire Blast",
+    "file": "moves/bdsp/fire-blast.json"
+  },
+  {
+    "name": "Fire Fang",
+    "file": "moves/bdsp/fire-fang.json"
+  },
+  {
+    "name": "Fire Punch",
+    "file": "moves/bdsp/fire-punch.json"
+  },
+  {
+    "name": "Fire Spin",
+    "file": "moves/bdsp/fire-spin.json"
+  },
+  {
+    "name": "Fissure",
+    "file": "moves/bdsp/fissure.json"
+  },
+  {
+    "name": "Flail",
+    "file": "moves/bdsp/flail.json"
+  },
+  {
+    "name": "Flame Charge",
+    "file": "moves/bdsp/flame-charge.json"
+  },
+  {
+    "name": "Flame Wheel",
+    "file": "moves/bdsp/flame-wheel.json"
+  },
+  {
+    "name": "Flamethrower",
+    "file": "moves/bdsp/flamethrower.json"
+  },
+  {
+    "name": "Flare Blitz",
+    "file": "moves/bdsp/flare-blitz.json"
+  },
+  {
+    "name": "Flash",
+    "file": "moves/bdsp/flash.json"
+  },
+  {
+    "name": "Flash Cannon",
+    "file": "moves/bdsp/flash-cannon.json"
+  },
+  {
+    "name": "Flatter",
+    "file": "moves/bdsp/flatter.json"
+  },
+  {
+    "name": "Fling",
+    "file": "moves/bdsp/fling.json"
+  },
+  {
+    "name": "Flower Shield",
+    "file": "moves/bdsp/flower-shield.json"
+  },
+  {
+    "name": "Fly",
+    "file": "moves/bdsp/fly.json"
+  },
+  {
+    "name": "Focus Blast",
+    "file": "moves/bdsp/focus-blast.json"
+  },
+  {
+    "name": "Focus Energy",
+    "file": "moves/bdsp/focus-energy.json"
+  },
+  {
+    "name": "Focus Punch",
+    "file": "moves/bdsp/focus-punch.json"
+  },
+  {
+    "name": "Follow Me",
+    "file": "moves/bdsp/follow-me.json"
+  },
+  {
+    "name": "Force Palm",
+    "file": "moves/bdsp/force-palm.json"
+  },
+  {
+    "name": "Foul Play",
+    "file": "moves/bdsp/foul-play.json"
+  },
+  {
+    "name": "Freeze-Dry",
+    "file": "moves/bdsp/freeze-dry.json"
+  },
+  {
+    "name": "Frost Breath",
+    "file": "moves/bdsp/frost-breath.json"
+  },
+  {
+    "name": "Fury Attack",
+    "file": "moves/bdsp/fury-attack.json"
+  },
+  {
+    "name": "Fury Cutter",
+    "file": "moves/bdsp/fury-cutter.json"
+  },
+  {
+    "name": "Fury Swipes",
+    "file": "moves/bdsp/fury-swipes.json"
+  },
+  {
+    "name": "Future Sight",
+    "file": "moves/bdsp/future-sight.json"
+  },
+  {
+    "name": "Gastro Acid",
+    "file": "moves/bdsp/gastro-acid.json"
+  },
+  {
+    "name": "Giga Drain",
+    "file": "moves/bdsp/giga-drain.json"
+  },
+  {
+    "name": "Giga Impact",
+    "file": "moves/bdsp/giga-impact.json"
+  },
+  {
+    "name": "Glare",
+    "file": "moves/bdsp/glare.json"
+  },
+  {
+    "name": "Grass Knot",
+    "file": "moves/bdsp/grass-knot.json"
+  },
+  {
+    "name": "Grassy Terrain",
+    "file": "moves/bdsp/grassy-terrain.json"
+  },
+  {
+    "name": "Gravity",
+    "file": "moves/bdsp/gravity.json"
+  },
+  {
+    "name": "Growl",
+    "file": "moves/bdsp/growl.json"
+  },
+  {
+    "name": "Growth",
+    "file": "moves/bdsp/growth.json"
+  },
+  {
+    "name": "Grudge",
+    "file": "moves/bdsp/grudge.json"
+  },
+  {
+    "name": "Guard Split",
+    "file": "moves/bdsp/guard-split.json"
+  },
+  {
+    "name": "Guard Swap",
+    "file": "moves/bdsp/guard-swap.json"
+  },
+  {
+    "name": "Guillotine",
+    "file": "moves/bdsp/guillotine.json"
+  },
+  {
+    "name": "Gunk Shot",
+    "file": "moves/bdsp/gunk-shot.json"
+  },
+  {
+    "name": "Gust",
+    "file": "moves/bdsp/gust.json"
+  },
+  {
+    "name": "Gyro Ball",
+    "file": "moves/bdsp/gyro-ball.json"
+  },
+  {
+    "name": "Hail",
+    "file": "moves/bdsp/hail.json"
+  },
+  {
+    "name": "Hammer Arm",
+    "file": "moves/bdsp/hammer-arm.json"
+  },
+  {
+    "name": "Harden",
+    "file": "moves/bdsp/harden.json"
+  },
+  {
+    "name": "Haze",
+    "file": "moves/bdsp/haze.json"
+  },
+  {
+    "name": "Head Smash",
+    "file": "moves/bdsp/head-smash.json"
+  },
+  {
+    "name": "Headbutt",
+    "file": "moves/bdsp/headbutt.json"
+  },
+  {
+    "name": "Heal Bell",
+    "file": "moves/bdsp/heal-bell.json"
+  },
+  {
+    "name": "Heal Pulse",
+    "file": "moves/bdsp/heal-pulse.json"
+  },
+  {
+    "name": "Healing Wish",
+    "file": "moves/bdsp/healing-wish.json"
+  },
+  {
+    "name": "Heat Wave",
+    "file": "moves/bdsp/heat-wave.json"
+  },
+  {
+    "name": "Heavy Slam",
+    "file": "moves/bdsp/heavy-slam.json"
+  },
+  {
+    "name": "Helping Hand",
+    "file": "moves/bdsp/helping-hand.json"
+  },
+  {
+    "name": "Hex",
+    "file": "moves/bdsp/hex.json"
+  },
+  {
+    "name": "High Horsepower",
+    "file": "moves/bdsp/high-horsepower.json"
+  },
+  {
+    "name": "High Jump Kick",
+    "file": "moves/bdsp/high-jump-kick.json"
+  },
+  {
+    "name": "Hone Claws",
+    "file": "moves/bdsp/hone-claws.json"
+  },
+  {
+    "name": "Horn Attack",
+    "file": "moves/bdsp/horn-attack.json"
+  },
+  {
+    "name": "Horn Drill",
+    "file": "moves/bdsp/horn-drill.json"
+  },
+  {
+    "name": "Howl",
+    "file": "moves/bdsp/howl.json"
+  },
+  {
+    "name": "Hurricane",
+    "file": "moves/bdsp/hurricane.json"
+  },
+  {
+    "name": "Hydro Pump",
+    "file": "moves/bdsp/hydro-pump.json"
+  },
+  {
+    "name": "Hyper Beam",
+    "file": "moves/bdsp/hyper-beam.json"
+  },
+  {
+    "name": "Hyper Voice",
+    "file": "moves/bdsp/hyper-voice.json"
+  },
+  {
+    "name": "Hypnosis",
+    "file": "moves/bdsp/hypnosis.json"
+  },
+  {
+    "name": "Ice Beam",
+    "file": "moves/bdsp/ice-beam.json"
+  },
+  {
+    "name": "Ice Fang",
+    "file": "moves/bdsp/ice-fang.json"
+  },
+  {
+    "name": "Ice Punch",
+    "file": "moves/bdsp/ice-punch.json"
+  },
+  {
+    "name": "Ice Shard",
+    "file": "moves/bdsp/ice-shard.json"
+  },
+  {
+    "name": "Icicle Spear",
+    "file": "moves/bdsp/icicle-spear.json"
+  },
+  {
+    "name": "Icy Wind",
+    "file": "moves/bdsp/icy-wind.json"
+  },
+  {
+    "name": "Imprison",
+    "file": "moves/bdsp/imprison.json"
+  },
+  {
+    "name": "Incinerate",
+    "file": "moves/bdsp/incinerate.json"
+  },
+  {
+    "name": "Inferno",
+    "file": "moves/bdsp/inferno.json"
+  },
+  {
+    "name": "Ingrain",
+    "file": "moves/bdsp/ingrain.json"
+  },
+  {
+    "name": "Iron Defense",
+    "file": "moves/bdsp/iron-defense.json"
+  },
+  {
+    "name": "Iron Head",
+    "file": "moves/bdsp/iron-head.json"
+  },
+  {
+    "name": "Iron Tail",
+    "file": "moves/bdsp/iron-tail.json"
+  },
+  {
+    "name": "Kinesis",
+    "file": "moves/bdsp/kinesis.json"
+  },
+  {
+    "name": "Knock Off",
+    "file": "moves/bdsp/knock-off.json"
+  },
+  {
+    "name": "Laser Focus",
+    "file": "moves/bdsp/laser-focus.json"
+  },
+  {
+    "name": "Last Resort",
+    "file": "moves/bdsp/last-resort.json"
+  },
+  {
+    "name": "Lava Plume",
+    "file": "moves/bdsp/lava-plume.json"
+  },
+  {
+    "name": "Leaf Blade",
+    "file": "moves/bdsp/leaf-blade.json"
+  },
+  {
+    "name": "Leaf Storm",
+    "file": "moves/bdsp/leaf-storm.json"
+  },
+  {
+    "name": "Leaf Tornado",
+    "file": "moves/bdsp/leaf-tornado.json"
+  },
+  {
+    "name": "Leafage",
+    "file": "moves/bdsp/leafage.json"
+  },
+  {
+    "name": "Leech Life",
+    "file": "moves/bdsp/leech-life.json"
+  },
+  {
+    "name": "Leech Seed",
+    "file": "moves/bdsp/leech-seed.json"
+  },
+  {
+    "name": "Leer",
+    "file": "moves/bdsp/leer.json"
+  },
+  {
+    "name": "Lick",
+    "file": "moves/bdsp/lick.json"
+  },
+  {
+    "name": "Life Dew",
+    "file": "moves/bdsp/life-dew.json"
+  },
+  {
+    "name": "Light Screen",
+    "file": "moves/bdsp/light-screen.json"
+  },
+  {
+    "name": "Liquidation",
+    "file": "moves/bdsp/liquidation.json"
+  },
+  {
+    "name": "Lock-On",
+    "file": "moves/bdsp/lock-on.json"
+  },
+  {
+    "name": "Lovely Kiss",
+    "file": "moves/bdsp/lovely-kiss.json"
+  },
+  {
+    "name": "Low Kick",
+    "file": "moves/bdsp/low-kick.json"
+  },
+  {
+    "name": "Low Sweep",
+    "file": "moves/bdsp/low-sweep.json"
+  },
+  {
+    "name": "Lunge",
+    "file": "moves/bdsp/lunge.json"
+  },
+  {
+    "name": "Mach Punch",
+    "file": "moves/bdsp/mach-punch.json"
+  },
+  {
+    "name": "Magic Coat",
+    "file": "moves/bdsp/magic-coat.json"
+  },
+  {
+    "name": "Magical Leaf",
+    "file": "moves/bdsp/magical-leaf.json"
+  },
+  {
+    "name": "Magnet Rise",
+    "file": "moves/bdsp/magnet-rise.json"
+  },
+  {
+    "name": "Magnetic Flux",
+    "file": "moves/bdsp/magnetic-flux.json"
+  },
+  {
+    "name": "Mean Look",
+    "file": "moves/bdsp/mean-look.json"
+  },
+  {
+    "name": "Mega Drain",
+    "file": "moves/bdsp/mega-drain.json"
+  },
+  {
+    "name": "Megahorn",
+    "file": "moves/bdsp/megahorn.json"
+  },
+  {
+    "name": "Memento",
+    "file": "moves/bdsp/memento.json"
+  },
+  {
+    "name": "Metal Burst",
+    "file": "moves/bdsp/metal-burst.json"
+  },
+  {
+    "name": "Metal Claw",
+    "file": "moves/bdsp/metal-claw.json"
+  },
+  {
+    "name": "Metal Sound",
+    "file": "moves/bdsp/metal-sound.json"
+  },
+  {
+    "name": "Meteor Mash",
+    "file": "moves/bdsp/meteor-mash.json"
+  },
+  {
+    "name": "Metronome",
+    "file": "moves/bdsp/metronome.json"
+  },
+  {
+    "name": "Milk Drink",
+    "file": "moves/bdsp/milk-drink.json"
+  },
+  {
+    "name": "Mimic",
+    "file": "moves/bdsp/mimic.json"
+  },
+  {
+    "name": "Mind Reader",
+    "file": "moves/bdsp/mind-reader.json"
+  },
+  {
+    "name": "Minimize",
+    "file": "moves/bdsp/minimize.json"
+  },
+  {
+    "name": "Mirror Coat",
+    "file": "moves/bdsp/mirror-coat.json"
+  },
+  {
+    "name": "Mist",
+    "file": "moves/bdsp/mist.json"
+  },
+  {
+    "name": "Moonblast",
+    "file": "moves/bdsp/moonblast.json"
+  },
+  {
+    "name": "Moonlight",
+    "file": "moves/bdsp/moonlight.json"
+  },
+  {
+    "name": "Morning Sun",
+    "file": "moves/bdsp/morning-sun.json"
+  },
+  {
+    "name": "Mud Shot",
+    "file": "moves/bdsp/mud-shot.json"
+  },
+  {
+    "name": "Mud-Slap",
+    "file": "moves/bdsp/mud-slap.json"
+  },
+  {
+    "name": "Muddy Water",
+    "file": "moves/bdsp/muddy-water.json"
+  },
+  {
+    "name": "Mystical Fire",
+    "file": "moves/bdsp/mystical-fire.json"
+  },
+  {
+    "name": "Nasty Plot",
+    "file": "moves/bdsp/nasty-plot.json"
+  },
+  {
+    "name": "Nature Power",
+    "file": "moves/bdsp/nature-power.json"
+  },
+  {
+    "name": "Night Shade",
+    "file": "moves/bdsp/night-shade.json"
+  },
+  {
+    "name": "Night Slash",
+    "file": "moves/bdsp/night-slash.json"
+  },
+  {
+    "name": "Nuzzle",
+    "file": "moves/bdsp/nuzzle.json"
+  },
+  {
+    "name": "Octazooka",
+    "file": "moves/bdsp/octazooka.json"
+  },
+  {
+    "name": "Outrage",
+    "file": "moves/bdsp/outrage.json"
+  },
+  {
+    "name": "Overheat",
+    "file": "moves/bdsp/overheat.json"
+  },
+  {
+    "name": "Pain Split",
+    "file": "moves/bdsp/pain-split.json"
+  },
+  {
+    "name": "Parting Shot",
+    "file": "moves/bdsp/parting-shot.json"
+  },
+  {
+    "name": "Pay Day",
+    "file": "moves/bdsp/pay-day.json"
+  },
+  {
+    "name": "Payback",
+    "file": "moves/bdsp/payback.json"
+  },
+  {
+    "name": "Peck",
+    "file": "moves/bdsp/peck.json"
+  },
+  {
+    "name": "Perish Song",
+    "file": "moves/bdsp/perish-song.json"
+  },
+  {
+    "name": "Petal Blizzard",
+    "file": "moves/bdsp/petal-blizzard.json"
+  },
+  {
+    "name": "Petal Dance",
+    "file": "moves/bdsp/petal-dance.json"
+  },
+  {
+    "name": "Phantom Force",
+    "file": "moves/bdsp/phantom-force.json"
+  },
+  {
+    "name": "Pin Missile",
+    "file": "moves/bdsp/pin-missile.json"
+  },
+  {
+    "name": "Play Nice",
+    "file": "moves/bdsp/play-nice.json"
+  },
+  {
+    "name": "Play Rough",
+    "file": "moves/bdsp/play-rough.json"
+  },
+  {
+    "name": "Pluck",
+    "file": "moves/bdsp/pluck.json"
+  },
+  {
+    "name": "Poison Fang",
+    "file": "moves/bdsp/poison-fang.json"
+  },
+  {
+    "name": "Poison Gas",
+    "file": "moves/bdsp/poison-gas.json"
+  },
+  {
+    "name": "Poison Jab",
+    "file": "moves/bdsp/poison-jab.json"
+  },
+  {
+    "name": "Poison Powder",
+    "file": "moves/bdsp/poison-powder.json"
+  },
+  {
+    "name": "Poison Sting",
+    "file": "moves/bdsp/poison-sting.json"
+  },
+  {
+    "name": "Pound",
+    "file": "moves/bdsp/pound.json"
+  },
+  {
+    "name": "Powder Snow",
+    "file": "moves/bdsp/powder-snow.json"
+  },
+  {
+    "name": "Power Gem",
+    "file": "moves/bdsp/power-gem.json"
+  },
+  {
+    "name": "Power Split",
+    "file": "moves/bdsp/power-split.json"
+  },
+  {
+    "name": "Power Swap",
+    "file": "moves/bdsp/power-swap.json"
+  },
+  {
+    "name": "Power Trick",
+    "file": "moves/bdsp/power-trick.json"
+  },
+  {
+    "name": "Power Whip",
+    "file": "moves/bdsp/power-whip.json"
+  },
+  {
+    "name": "Power-Up Punch",
+    "file": "moves/bdsp/power-up-punch.json"
+  },
+  {
+    "name": "Protect",
+    "file": "moves/bdsp/protect.json"
+  },
+  {
+    "name": "Psybeam",
+    "file": "moves/bdsp/psybeam.json"
+  },
+  {
+    "name": "Psych Up",
+    "file": "moves/bdsp/psych-up.json"
+  },
+  {
+    "name": "Psychic",
+    "file": "moves/bdsp/psychic.json"
+  },
+  {
+    "name": "Psycho Cut",
+    "file": "moves/bdsp/psycho-cut.json"
+  },
+  {
+    "name": "Psycho Shift",
+    "file": "moves/bdsp/psycho-shift.json"
+  },
+  {
+    "name": "Psyshock",
+    "file": "moves/bdsp/psyshock.json"
+  },
+  {
+    "name": "Quash",
+    "file": "moves/bdsp/quash.json"
+  },
+  {
+    "name": "Quick Attack",
+    "file": "moves/bdsp/quick-attack.json"
+  },
+  {
+    "name": "Quick Guard",
+    "file": "moves/bdsp/quick-guard.json"
+  },
+  {
+    "name": "Quiver Dance",
+    "file": "moves/bdsp/quiver-dance.json"
+  },
+  {
+    "name": "Rage Powder",
+    "file": "moves/bdsp/rage-powder.json"
+  },
+  {
+    "name": "Rain Dance",
+    "file": "moves/bdsp/rain-dance.json"
+  },
+  {
+    "name": "Rapid Spin",
+    "file": "moves/bdsp/rapid-spin.json"
+  },
+  {
+    "name": "Razor Leaf",
+    "file": "moves/bdsp/razor-leaf.json"
+  },
+  {
+    "name": "Razor Shell",
+    "file": "moves/bdsp/razor-shell.json"
+  },
+  {
+    "name": "Recover",
+    "file": "moves/bdsp/recover.json"
+  },
+  {
+    "name": "Recycle",
+    "file": "moves/bdsp/recycle.json"
+  },
+  {
+    "name": "Reflect",
+    "file": "moves/bdsp/reflect.json"
+  },
+  {
+    "name": "Reflect Type",
+    "file": "moves/bdsp/reflect-type.json"
+  },
+  {
+    "name": "Rest",
+    "file": "moves/bdsp/rest.json"
+  },
+  {
+    "name": "Retaliate",
+    "file": "moves/bdsp/retaliate.json"
+  },
+  {
+    "name": "Revenge",
+    "file": "moves/bdsp/revenge.json"
+  },
+  {
+    "name": "Reversal",
+    "file": "moves/bdsp/reversal.json"
+  },
+  {
+    "name": "Roar",
+    "file": "moves/bdsp/roar.json"
+  },
+  {
+    "name": "Rock Blast",
+    "file": "moves/bdsp/rock-blast.json"
+  },
+  {
+    "name": "Rock Polish",
+    "file": "moves/bdsp/rock-polish.json"
+  },
+  {
+    "name": "Rock Slide",
+    "file": "moves/bdsp/rock-slide.json"
+  },
+  {
+    "name": "Rock Smash",
+    "file": "moves/bdsp/rock-smash.json"
+  },
+  {
+    "name": "Rock Throw",
+    "file": "moves/bdsp/rock-throw.json"
+  },
+  {
+    "name": "Rock Tomb",
+    "file": "moves/bdsp/rock-tomb.json"
+  },
+  {
+    "name": "Rock Wrecker",
+    "file": "moves/bdsp/rock-wrecker.json"
+  },
+  {
+    "name": "Role Play",
+    "file": "moves/bdsp/role-play.json"
+  },
+  {
+    "name": "Rollout",
+    "file": "moves/bdsp/rollout.json"
+  },
+  {
+    "name": "Roost",
+    "file": "moves/bdsp/roost.json"
+  },
+  {
+    "name": "Round",
+    "file": "moves/bdsp/round.json"
+  },
+  {
+    "name": "Safeguard",
+    "file": "moves/bdsp/safeguard.json"
+  },
+  {
+    "name": "Sand Attack",
+    "file": "moves/bdsp/sand-attack.json"
+  },
+  {
+    "name": "Sand Tomb",
+    "file": "moves/bdsp/sand-tomb.json"
+  },
+  {
+    "name": "Sandstorm",
+    "file": "moves/bdsp/sandstorm.json"
+  },
+  {
+    "name": "Scald",
+    "file": "moves/bdsp/scald.json"
+  },
+  {
+    "name": "Scary Face",
+    "file": "moves/bdsp/scary-face.json"
+  },
+  {
+    "name": "Scratch",
+    "file": "moves/bdsp/scratch.json"
+  },
+  {
+    "name": "Screech",
+    "file": "moves/bdsp/screech.json"
+  },
+  {
+    "name": "Seed Bomb",
+    "file": "moves/bdsp/seed-bomb.json"
+  },
+  {
+    "name": "Seismic Toss",
+    "file": "moves/bdsp/seismic-toss.json"
+  },
+  {
+    "name": "Self-Destruct",
+    "file": "moves/bdsp/self-destruct.json"
+  },
+  {
+    "name": "Shadow Ball",
+    "file": "moves/bdsp/shadow-ball.json"
+  },
+  {
+    "name": "Shadow Claw",
+    "file": "moves/bdsp/shadow-claw.json"
+  },
+  {
+    "name": "Shadow Force",
+    "file": "moves/bdsp/shadow-force.json"
+  },
+  {
+    "name": "Shadow Punch",
+    "file": "moves/bdsp/shadow-punch.json"
+  },
+  {
+    "name": "Shadow Sneak",
+    "file": "moves/bdsp/shadow-sneak.json"
+  },
+  {
+    "name": "Sheer Cold",
+    "file": "moves/bdsp/sheer-cold.json"
+  },
+  {
+    "name": "Shell Smash",
+    "file": "moves/bdsp/shell-smash.json"
+  },
+  {
+    "name": "Shock Wave",
+    "file": "moves/bdsp/shock-wave.json"
+  },
+  {
+    "name": "Sing",
+    "file": "moves/bdsp/sing.json"
+  },
+  {
+    "name": "Skull Bash",
+    "file": "moves/bdsp/skull-bash.json"
+  },
+  {
+    "name": "Sky Attack",
+    "file": "moves/bdsp/sky-attack.json"
+  },
+  {
+    "name": "Slack Off",
+    "file": "moves/bdsp/slack-off.json"
+  },
+  {
+    "name": "Slam",
+    "file": "moves/bdsp/slam.json"
+  },
+  {
+    "name": "Slash",
+    "file": "moves/bdsp/slash.json"
+  },
+  {
+    "name": "Sleep Powder",
+    "file": "moves/bdsp/sleep-powder.json"
+  },
+  {
+    "name": "Sleep Talk",
+    "file": "moves/bdsp/sleep-talk.json"
+  },
+  {
+    "name": "Sludge Bomb",
+    "file": "moves/bdsp/sludge-bomb.json"
+  },
+  {
+    "name": "Sludge Wave",
+    "file": "moves/bdsp/sludge-wave.json"
+  },
+  {
+    "name": "Smack Down",
+    "file": "moves/bdsp/smack-down.json"
+  },
+  {
+    "name": "Smart Strike",
+    "file": "moves/bdsp/smart-strike.json"
+  },
+  {
+    "name": "Smog",
+    "file": "moves/bdsp/smog.json"
+  },
+  {
+    "name": "Smokescreen",
+    "file": "moves/bdsp/smokescreen.json"
+  },
+  {
+    "name": "Snarl",
+    "file": "moves/bdsp/snarl.json"
+  },
+  {
+    "name": "Snatch",
+    "file": "moves/bdsp/snatch.json"
+  },
+  {
+    "name": "Snore",
+    "file": "moves/bdsp/snore.json"
+  },
+  {
+    "name": "Soak",
+    "file": "moves/bdsp/soak.json"
+  },
+  {
+    "name": "Soft-Boiled",
+    "file": "moves/bdsp/soft-boiled.json"
+  },
+  {
+    "name": "Solar Beam",
+    "file": "moves/bdsp/solar-beam.json"
+  },
+  {
+    "name": "Spark",
+    "file": "moves/bdsp/spark.json"
+  },
+  {
+    "name": "Spikes",
+    "file": "moves/bdsp/spikes.json"
+  },
+  {
+    "name": "Spiky Shield",
+    "file": "moves/bdsp/spiky-shield.json"
+  },
+  {
+    "name": "Spit Up",
+    "file": "moves/bdsp/spit-up.json"
+  },
+  {
+    "name": "Spite",
+    "file": "moves/bdsp/spite.json"
+  },
+  {
+    "name": "Splash",
+    "file": "moves/bdsp/splash.json"
+  },
+  {
+    "name": "Spore",
+    "file": "moves/bdsp/spore.json"
+  },
+  {
+    "name": "Stealth Rock",
+    "file": "moves/bdsp/stealth-rock.json"
+  },
+  {
+    "name": "Steel Wing",
+    "file": "moves/bdsp/steel-wing.json"
+  },
+  {
+    "name": "Sticky Web",
+    "file": "moves/bdsp/sticky-web.json"
+  },
+  {
+    "name": "Stockpile",
+    "file": "moves/bdsp/stockpile.json"
+  },
+  {
+    "name": "Stomp",
+    "file": "moves/bdsp/stomp.json"
+  },
+  {
+    "name": "Stomping Tantrum",
+    "file": "moves/bdsp/stomping-tantrum.json"
+  },
+  {
+    "name": "Stone Edge",
+    "file": "moves/bdsp/stone-edge.json"
+  },
+  {
+    "name": "Stored Power",
+    "file": "moves/bdsp/stored-power.json"
+  },
+  {
+    "name": "Storm Throw",
+    "file": "moves/bdsp/storm-throw.json"
+  },
+  {
+    "name": "Strength",
+    "file": "moves/bdsp/strength.json"
+  },
+  {
+    "name": "Strength Sap",
+    "file": "moves/bdsp/strength-sap.json"
+  },
+  {
+    "name": "String Shot",
+    "file": "moves/bdsp/string-shot.json"
+  },
+  {
+    "name": "Struggle Bug",
+    "file": "moves/bdsp/struggle-bug.json"
+  },
+  {
+    "name": "Stun Spore",
+    "file": "moves/bdsp/stun-spore.json"
+  },
+  {
+    "name": "Submission",
+    "file": "moves/bdsp/submission.json"
+  },
+  {
+    "name": "Substitute",
+    "file": "moves/bdsp/substitute.json"
+  },
+  {
+    "name": "Sucker Punch",
+    "file": "moves/bdsp/sucker-punch.json"
+  },
+  {
+    "name": "Sunny Day",
+    "file": "moves/bdsp/sunny-day.json"
+  },
+  {
+    "name": "Super Fang",
+    "file": "moves/bdsp/super-fang.json"
+  },
+  {
+    "name": "Superpower",
+    "file": "moves/bdsp/superpower.json"
+  },
+  {
+    "name": "Supersonic",
+    "file": "moves/bdsp/supersonic.json"
+  },
+  {
+    "name": "Surf",
+    "file": "moves/bdsp/surf.json"
+  },
+  {
+    "name": "Swagger",
+    "file": "moves/bdsp/swagger.json"
+  },
+  {
+    "name": "Swallow",
+    "file": "moves/bdsp/swallow.json"
+  },
+  {
+    "name": "Sweet Kiss",
+    "file": "moves/bdsp/sweet-kiss.json"
+  },
+  {
+    "name": "Sweet Scent",
+    "file": "moves/bdsp/sweet-scent.json"
+  },
+  {
+    "name": "Swift",
+    "file": "moves/bdsp/swift.json"
+  },
+  {
+    "name": "Switcheroo",
+    "file": "moves/bdsp/switcheroo.json"
+  },
+  {
+    "name": "Swords Dance",
+    "file": "moves/bdsp/swords-dance.json"
+  },
+  {
+    "name": "Synthesis",
+    "file": "moves/bdsp/synthesis.json"
+  },
+  {
+    "name": "Tackle",
+    "file": "moves/bdsp/tackle.json"
+  },
+  {
+    "name": "Tail Whip",
+    "file": "moves/bdsp/tail-whip.json"
+  },
+  {
+    "name": "Tailwind",
+    "file": "moves/bdsp/tailwind.json"
+  },
+  {
+    "name": "Take Down",
+    "file": "moves/bdsp/take-down.json"
+  },
+  {
+    "name": "Taunt",
+    "file": "moves/bdsp/taunt.json"
+  },
+  {
+    "name": "Tearful Look",
+    "file": "moves/bdsp/tearful-look.json"
+  },
+  {
+    "name": "Teeter Dance",
+    "file": "moves/bdsp/teeter-dance.json"
+  },
+  {
+    "name": "Teleport",
+    "file": "moves/bdsp/teleport.json"
+  },
+  {
+    "name": "Thief",
+    "file": "moves/bdsp/thief.json"
+  },
+  {
+    "name": "Thrash",
+    "file": "moves/bdsp/thrash.json"
+  },
+  {
+    "name": "Throat Chop",
+    "file": "moves/bdsp/throat-chop.json"
+  },
+  {
+    "name": "Thunder",
+    "file": "moves/bdsp/thunder.json"
+  },
+  {
+    "name": "Thunder Fang",
+    "file": "moves/bdsp/thunder-fang.json"
+  },
+  {
+    "name": "Thunder Punch",
+    "file": "moves/bdsp/thunder-punch.json"
+  },
+  {
+    "name": "Thunder Shock",
+    "file": "moves/bdsp/thunder-shock.json"
+  },
+  {
+    "name": "Thunder Wave",
+    "file": "moves/bdsp/thunder-wave.json"
+  },
+  {
+    "name": "Thunderbolt",
+    "file": "moves/bdsp/thunderbolt.json"
+  },
+  {
+    "name": "Tickle",
+    "file": "moves/bdsp/tickle.json"
+  },
+  {
+    "name": "Torment",
+    "file": "moves/bdsp/torment.json"
+  },
+  {
+    "name": "Toxic",
+    "file": "moves/bdsp/toxic.json"
+  },
+  {
+    "name": "Toxic Spikes",
+    "file": "moves/bdsp/toxic-spikes.json"
+  },
+  {
+    "name": "Tri Attack",
+    "file": "moves/bdsp/tri-attack.json"
+  },
+  {
+    "name": "Trick",
+    "file": "moves/bdsp/trick.json"
+  },
+  {
+    "name": "Trick Room",
+    "file": "moves/bdsp/trick-room.json"
+  },
+  {
+    "name": "Triple Kick",
+    "file": "moves/bdsp/triple-kick.json"
+  },
+  {
+    "name": "Twister",
+    "file": "moves/bdsp/twister.json"
+  },
+  {
+    "name": "U-turn",
+    "file": "moves/bdsp/u-turn.json"
+  },
+  {
+    "name": "Uproar",
+    "file": "moves/bdsp/uproar.json"
+  },
+  {
+    "name": "Vacuum Wave",
+    "file": "moves/bdsp/vacuum-wave.json"
+  },
+  {
+    "name": "Venom Drench",
+    "file": "moves/bdsp/venom-drench.json"
+  },
+  {
+    "name": "Venoshock",
+    "file": "moves/bdsp/venoshock.json"
+  },
+  {
+    "name": "Vine Whip",
+    "file": "moves/bdsp/vine-whip.json"
+  },
+  {
+    "name": "Vise Grip",
+    "file": "moves/bdsp/vise-grip.json"
+  },
+  {
+    "name": "Vital Throw",
+    "file": "moves/bdsp/vital-throw.json"
+  },
+  {
+    "name": "Volt Switch",
+    "file": "moves/bdsp/volt-switch.json"
+  },
+  {
+    "name": "Water Gun",
+    "file": "moves/bdsp/water-gun.json"
+  },
+  {
+    "name": "Water Pulse",
+    "file": "moves/bdsp/water-pulse.json"
+  },
+  {
+    "name": "Waterfall",
+    "file": "moves/bdsp/waterfall.json"
+  },
+  {
+    "name": "Weather Ball",
+    "file": "moves/bdsp/weather-ball.json"
+  },
+  {
+    "name": "Whirlpool",
+    "file": "moves/bdsp/whirlpool.json"
+  },
+  {
+    "name": "Whirlwind",
+    "file": "moves/bdsp/whirlwind.json"
+  },
+  {
+    "name": "Wide Guard",
+    "file": "moves/bdsp/wide-guard.json"
+  },
+  {
+    "name": "Wild Charge",
+    "file": "moves/bdsp/wild-charge.json"
+  },
+  {
+    "name": "Will-O-Wisp",
+    "file": "moves/bdsp/will-o-wisp.json"
+  },
+  {
+    "name": "Wing Attack",
+    "file": "moves/bdsp/wing-attack.json"
+  },
+  {
+    "name": "Wish",
+    "file": "moves/bdsp/wish.json"
+  },
+  {
+    "name": "Withdraw",
+    "file": "moves/bdsp/withdraw.json"
+  },
+  {
+    "name": "Wonder Room",
+    "file": "moves/bdsp/wonder-room.json"
+  },
+  {
+    "name": "Wood Hammer",
+    "file": "moves/bdsp/wood-hammer.json"
+  },
+  {
+    "name": "Work Up",
+    "file": "moves/bdsp/work-up.json"
+  },
+  {
+    "name": "Worry Seed",
+    "file": "moves/bdsp/worry-seed.json"
+  },
+  {
+    "name": "Wrap",
+    "file": "moves/bdsp/wrap.json"
+  },
+  {
+    "name": "X-Scissor",
+    "file": "moves/bdsp/x-scissor.json"
+  },
+  {
+    "name": "Yawn",
+    "file": "moves/bdsp/yawn.json"
+  },
+  {
+    "name": "Zap Cannon",
+    "file": "moves/bdsp/zap-cannon.json"
+  },
+  {
+    "name": "Zen Headbutt",
+    "file": "moves/bdsp/zen-headbutt.json"
+  }
+]

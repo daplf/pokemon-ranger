@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-012",
+  "trainerId": 12,
+  "game": "bdsp",
+  "name": "Camper Jacob",
+  "pokemon": [
+    {
+      "species": "Ponyta",
+      "level": 14,
+      "ability": "Flash Fire",
+      "moves": [
+        "Tackle",
+        "Growl",
+        "Tail Whip",
+        "Ember"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

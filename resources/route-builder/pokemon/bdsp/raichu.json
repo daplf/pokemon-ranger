@@ -1,0 +1,111 @@
+{
+  "species": "Raichu",
+  "game": "bdsp",
+  "types": [
+    "electric"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 218,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 3
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 90,
+    "defense": 55,
+    "specialAttack": 90,
+    "specialDefense": 80,
+    "speed": 110
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Agility"
+    },
+    {
+      "level": 1,
+      "move": "Charm"
+    },
+    {
+      "level": 1,
+      "move": "Discharge"
+    },
+    {
+      "level": 1,
+      "move": "Double Team"
+    },
+    {
+      "level": 1,
+      "move": "Electro Ball"
+    },
+    {
+      "level": 1,
+      "move": "Feint"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Light Screen"
+    },
+    {
+      "level": 1,
+      "move": "Nasty Plot"
+    },
+    {
+      "level": 1,
+      "move": "Nuzzle"
+    },
+    {
+      "level": 1,
+      "move": "Play Nice"
+    },
+    {
+      "level": 1,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 1,
+      "move": "Slam"
+    },
+    {
+      "level": 1,
+      "move": "Spark"
+    },
+    {
+      "level": 1,
+      "move": "Sweet Kiss"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 1,
+      "move": "Thunder"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Punch"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Shock"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Wave"
+    },
+    {
+      "level": 1,
+      "move": "Thunderbolt"
+    }
+  ]
+}

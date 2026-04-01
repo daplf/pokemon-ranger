@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-163",
+  "trainerId": 163,
+  "game": "bdsp",
+  "name": "Dragon Tamer Clinton",
+  "pokemon": [
+    {
+      "species": "Gible",
+      "level": 46,
+      "ability": "Sand Veil",
+      "moves": [
+        "Sand Tomb",
+        "Sand Attack",
+        "Bulldoze",
+        "Dragon Claw"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gyarados",
+      "level": 49,
+      "ability": "Intimidate",
+      "moves": [
+        "Ice Fang",
+        "Waterfall",
+        "Crunch",
+        "Dragon Dance"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gible",
+      "level": 46,
+      "ability": "Sand Veil",
+      "moves": [
+        "Bite",
+        "Slash",
+        "Dragon Claw",
+        "Dig"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

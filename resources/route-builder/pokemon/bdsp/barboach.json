@@ -1,0 +1,72 @@
+{
+  "species": "Barboach",
+  "game": "bdsp",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 58,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 50,
+    "attack": 48,
+    "defense": 43,
+    "specialAttack": 46,
+    "specialDefense": 41,
+    "speed": 60
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Mud-Slap"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 6,
+      "move": "Rest"
+    },
+    {
+      "level": 6,
+      "move": "Snore"
+    },
+    {
+      "level": 12,
+      "move": "Water Pulse"
+    },
+    {
+      "level": 18,
+      "move": "Amnesia"
+    },
+    {
+      "level": 24,
+      "move": "Aqua Tail"
+    },
+    {
+      "level": 31,
+      "move": "Muddy Water"
+    },
+    {
+      "level": 36,
+      "move": "Earthquake"
+    },
+    {
+      "level": 42,
+      "move": "Future Sight"
+    },
+    {
+      "level": 48,
+      "move": "Fissure"
+    }
+  ]
+}

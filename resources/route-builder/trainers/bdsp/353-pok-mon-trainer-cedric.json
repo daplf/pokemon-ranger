@@ -1,0 +1,120 @@
+{
+  "id": "trainer-id-353",
+  "trainerId": 353,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Cedric",
+  "pokemon": [
+    {
+      "species": "Starly",
+      "level": 19,
+      "ability": "Keen Eye",
+      "moves": [
+        "Quick Attack",
+        "Double Team",
+        "Endeavor",
+        "Pluck"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 12,
+        "attack": 28,
+        "defense": 4,
+        "specialAttack": 0,
+        "specialDefense": 4,
+        "speed": 12
+      },
+      "ivs": {
+        "hp": 5,
+        "attack": 5,
+        "defense": 5,
+        "specialAttack": 5,
+        "specialDefense": 5,
+        "speed": 5
+      }
+    },
+    {
+      "species": "Roselia",
+      "level": 20,
+      "ability": "Natural Cure",
+      "moves": [
+        "Growth",
+        "Stun Spore",
+        "Leech Seed",
+        "Magical Leaf"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 4,
+        "specialAttack": 28,
+        "specialDefense": 4,
+        "speed": 12
+      },
+      "ivs": {
+        "hp": 6,
+        "attack": 6,
+        "defense": 6,
+        "specialAttack": 6,
+        "specialDefense": 6,
+        "speed": 6
+      }
+    },
+    {
+      "species": "Ponyta",
+      "level": 20,
+      "ability": "Flash Fire",
+      "moves": [
+        "Tackle",
+        "Growl",
+        "Flame Charge",
+        "Agility"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 28,
+        "defense": 4,
+        "specialAttack": 0,
+        "specialDefense": 4,
+        "speed": 12
+      },
+      "ivs": {
+        "hp": 7,
+        "attack": 7,
+        "defense": 7,
+        "specialAttack": 7,
+        "specialDefense": 7,
+        "speed": 7
+      }
+    },
+    {
+      "species": "Prinplup",
+      "level": 21,
+      "ability": "Torrent",
+      "moves": [
+        "Metal Claw",
+        "Bubble Beam",
+        "Stealth Rock",
+        "Grass Knot"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 12,
+        "attack": 0,
+        "defense": 4,
+        "specialAttack": 36,
+        "specialDefense": 4,
+        "speed": 36
+      },
+      "ivs": {
+        "hp": 11,
+        "attack": 11,
+        "defense": 11,
+        "specialAttack": 11,
+        "specialDefense": 11,
+        "speed": 11
+      }
+    }
+  ]
+}

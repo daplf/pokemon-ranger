@@ -1,0 +1,79 @@
+{
+  "species": "Ponyta",
+  "game": "bdsp",
+  "types": [
+    "fire"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 82,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 50,
+    "attack": 85,
+    "defense": 55,
+    "specialAttack": 65,
+    "specialDefense": 65,
+    "speed": 90
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 5,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 10,
+      "move": "Ember"
+    },
+    {
+      "level": 15,
+      "move": "Flame Charge"
+    },
+    {
+      "level": 20,
+      "move": "Agility"
+    },
+    {
+      "level": 25,
+      "move": "Flame Wheel"
+    },
+    {
+      "level": 30,
+      "move": "Stomp"
+    },
+    {
+      "level": 35,
+      "move": "Fire Spin"
+    },
+    {
+      "level": 41,
+      "move": "Take Down"
+    },
+    {
+      "level": 45,
+      "move": "Inferno"
+    },
+    {
+      "level": 50,
+      "move": "Fire Blast"
+    },
+    {
+      "level": 55,
+      "move": "Flare Blitz"
+    }
+  ]
+}

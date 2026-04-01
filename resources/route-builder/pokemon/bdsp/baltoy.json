@@ -1,0 +1,96 @@
+{
+  "species": "Baltoy",
+  "game": "bdsp",
+  "types": [
+    "ground",
+    "psychic"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 60,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 1,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 55,
+    "specialAttack": 40,
+    "specialDefense": 70,
+    "speed": 55
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Harden"
+    },
+    {
+      "level": 1,
+      "move": "Mud-Slap"
+    },
+    {
+      "level": 3,
+      "move": "Rapid Spin"
+    },
+    {
+      "level": 6,
+      "move": "Confusion"
+    },
+    {
+      "level": 9,
+      "move": "Rock Tomb"
+    },
+    {
+      "level": 12,
+      "move": "Power Trick"
+    },
+    {
+      "level": 15,
+      "move": "Psybeam"
+    },
+    {
+      "level": 18,
+      "move": "Ancient Power"
+    },
+    {
+      "level": 21,
+      "move": "Imprison"
+    },
+    {
+      "level": 24,
+      "move": "Cosmic Power"
+    },
+    {
+      "level": 27,
+      "move": "Extrasensory"
+    },
+    {
+      "level": 30,
+      "move": "Earth Power"
+    },
+    {
+      "level": 33,
+      "move": "Self-Destruct"
+    },
+    {
+      "level": 36,
+      "move": "Guard Split"
+    },
+    {
+      "level": 36,
+      "move": "Power Split"
+    },
+    {
+      "level": 39,
+      "move": "Sandstorm"
+    },
+    {
+      "level": 42,
+      "move": "Explosion"
+    }
+  ]
+}

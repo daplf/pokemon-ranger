@@ -1,0 +1,88 @@
+{
+  "species": "Drifloon",
+  "game": "bdsp",
+  "types": [
+    "ghost",
+    "flying"
+  ],
+  "growthRate": "fluctuating",
+  "baseExperience": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 90,
+    "attack": 50,
+    "defense": 34,
+    "specialAttack": 60,
+    "specialDefense": 44,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Astonish"
+    },
+    {
+      "level": 1,
+      "move": "Minimize"
+    },
+    {
+      "level": 4,
+      "move": "Gust"
+    },
+    {
+      "level": 8,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 12,
+      "move": "Payback"
+    },
+    {
+      "level": 16,
+      "move": "Hex"
+    },
+    {
+      "level": 20,
+      "move": "Shadow Ball"
+    },
+    {
+      "level": 24,
+      "move": "Spit Up"
+    },
+    {
+      "level": 24,
+      "move": "Stockpile"
+    },
+    {
+      "level": 24,
+      "move": "Swallow"
+    },
+    {
+      "level": 29,
+      "move": "Self-Destruct"
+    },
+    {
+      "level": 32,
+      "move": "Destiny Bond"
+    },
+    {
+      "level": 36,
+      "move": "Baton Pass"
+    },
+    {
+      "level": 40,
+      "move": "Tailwind"
+    },
+    {
+      "level": 44,
+      "move": "Explosion"
+    }
+  ]
+}

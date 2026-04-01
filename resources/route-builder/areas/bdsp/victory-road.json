@@ -1,0 +1,21 @@
+{
+  "id": "victory-road",
+  "game": "bdsp",
+  "name": "Victory Road",
+  "trainerIds": [
+    "trainer-id-166",
+    "trainer-id-165",
+    "trainer-id-158",
+    "trainer-id-156",
+    "trainer-id-159",
+    "trainer-id-161",
+    "trainer-id-171",
+    "trainer-id-335",
+    "trainer-id-167",
+    "trainer-id-169",
+    "trainer-id-157",
+    "trainer-id-162",
+    "trainer-id-160",
+    "trainer-id-163"
+  ]
+}

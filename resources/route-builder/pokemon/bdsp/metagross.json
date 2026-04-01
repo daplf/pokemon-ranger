@@ -1,0 +1,88 @@
+{
+  "species": "Metagross",
+  "game": "bdsp",
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 270,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 3,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 80,
+    "attack": 135,
+    "defense": 130,
+    "specialAttack": 95,
+    "specialDefense": 90,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Bullet Punch"
+    },
+    {
+      "level": 1,
+      "move": "Confusion"
+    },
+    {
+      "level": 1,
+      "move": "Hammer Arm"
+    },
+    {
+      "level": 1,
+      "move": "Metal Claw"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 6,
+      "move": "Zen Headbutt"
+    },
+    {
+      "level": 12,
+      "move": "Magnet Rise"
+    },
+    {
+      "level": 16,
+      "move": "Flash Cannon"
+    },
+    {
+      "level": 26,
+      "move": "Take Down"
+    },
+    {
+      "level": 34,
+      "move": "Psychic"
+    },
+    {
+      "level": 42,
+      "move": "Scary Face"
+    },
+    {
+      "level": 52,
+      "move": "Meteor Mash"
+    },
+    {
+      "level": 62,
+      "move": "Iron Defense"
+    },
+    {
+      "level": 72,
+      "move": "Agility"
+    },
+    {
+      "level": 82,
+      "move": "Hyper Beam"
+    }
+  ]
+}

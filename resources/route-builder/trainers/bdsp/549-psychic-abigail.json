@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-549",
+  "trainerId": 549,
+  "game": "bdsp",
+  "name": "Psychic Abigail",
+  "pokemon": [
+    {
+      "species": "Haunter",
+      "level": 37,
+      "ability": "Levitate",
+      "moves": [
+        "Confuse Ray",
+        "Payback",
+        "Hex",
+        "Night Shade"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Misdreavus",
+      "level": 39,
+      "ability": "Levitate",
+      "moves": [
+        "Confuse Ray",
+        "Hex",
+        "Psybeam",
+        "Payback"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Kadabra",
+      "level": 38,
+      "ability": "Synchronize",
+      "moves": [
+        "Psycho Cut",
+        "Recover",
+        "Psyshock",
+        "Psychic"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

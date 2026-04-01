@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-258",
+  "trainerId": 258,
+  "game": "bdsp",
+  "name": "Rich Boy Trey",
+  "pokemon": [
+    {
+      "species": "Luxio",
+      "level": 43,
+      "ability": "Intimidate",
+      "moves": [
+        "Leer",
+        "Bite",
+        "Spark",
+        "Thunder Wave"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

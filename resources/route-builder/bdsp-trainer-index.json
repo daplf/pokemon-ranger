@@ -1,0 +1,4238 @@
+[
+  {
+    "id": "trainer-id-001",
+    "trainerId": 1,
+    "name": "Youngster Tristan",
+    "file": "trainers/bdsp/001-youngster-tristan.json"
+  },
+  {
+    "id": "trainer-id-002",
+    "trainerId": 2,
+    "name": "Youngster Logan",
+    "file": "trainers/bdsp/002-youngster-logan.json"
+  },
+  {
+    "id": "trainer-id-003",
+    "trainerId": 3,
+    "name": "Lass Natalie",
+    "file": "trainers/bdsp/003-lass-natalie.json"
+  },
+  {
+    "id": "trainer-id-004",
+    "trainerId": 4,
+    "name": "Youngster Michael",
+    "file": "trainers/bdsp/004-youngster-michael.json"
+  },
+  {
+    "id": "trainer-id-005",
+    "trainerId": 5,
+    "name": "Youngster Tyler",
+    "file": "trainers/bdsp/005-youngster-tyler.json"
+  },
+  {
+    "id": "trainer-id-006",
+    "trainerId": 6,
+    "name": "Lass Samantha",
+    "file": "trainers/bdsp/006-lass-samantha.json"
+  },
+  {
+    "id": "trainer-id-007",
+    "trainerId": 7,
+    "name": "Lass Sarah",
+    "file": "trainers/bdsp/007-lass-sarah.json"
+  },
+  {
+    "id": "trainer-id-008",
+    "trainerId": 8,
+    "name": "Bug Catcher Brandon",
+    "file": "trainers/bdsp/008-bug-catcher-brandon.json"
+  },
+  {
+    "id": "trainer-id-009",
+    "trainerId": 9,
+    "name": "Aroma Lady Teighler",
+    "file": "trainers/bdsp/009-aroma-lady-teighler.json"
+  },
+  {
+    "id": "trainer-id-010",
+    "trainerId": 10,
+    "name": "Twins Liv",
+    "file": "trainers/bdsp/010-twins-liv.json"
+  },
+  {
+    "id": "trainer-id-011",
+    "trainerId": 11,
+    "name": "Twins Liz",
+    "file": "trainers/bdsp/011-twins-liz.json"
+  },
+  {
+    "id": "trainer-id-012",
+    "trainerId": 12,
+    "name": "Camper Jacob",
+    "file": "trainers/bdsp/012-camper-jacob.json"
+  },
+  {
+    "id": "trainer-id-013",
+    "trainerId": 13,
+    "name": "Picnicker Siena",
+    "file": "trainers/bdsp/013-picnicker-siena.json"
+  },
+  {
+    "id": "trainer-id-014",
+    "trainerId": 14,
+    "name": "Hiker Daniel",
+    "file": "trainers/bdsp/014-hiker-daniel.json"
+  },
+  {
+    "id": "trainer-id-015",
+    "trainerId": 15,
+    "name": "Hiker Nicholas",
+    "file": "trainers/bdsp/015-hiker-nicholas.json"
+  },
+  {
+    "id": "trainer-id-016",
+    "trainerId": 16,
+    "name": "Battle Girl Kelsey",
+    "file": "trainers/bdsp/016-battle-girl-kelsey.json"
+  },
+  {
+    "id": "trainer-id-017",
+    "trainerId": 17,
+    "name": "Aroma Lady Elizabeth",
+    "file": "trainers/bdsp/017-aroma-lady-elizabeth.json"
+  },
+  {
+    "id": "trainer-id-018",
+    "trainerId": 18,
+    "name": "Fisher Andrew",
+    "file": "trainers/bdsp/018-fisher-andrew.json"
+  },
+  {
+    "id": "trainer-id-019",
+    "trainerId": 19,
+    "name": "Fisher Joseph",
+    "file": "trainers/bdsp/019-fisher-joseph.json"
+  },
+  {
+    "id": "trainer-id-020",
+    "trainerId": 20,
+    "name": "Fisher Zachary",
+    "file": "trainers/bdsp/020-fisher-zachary.json"
+  },
+  {
+    "id": "trainer-id-021",
+    "trainerId": 21,
+    "name": "Cyclist Axel",
+    "file": "trainers/bdsp/021-cyclist-axel.json"
+  },
+  {
+    "id": "trainer-id-022",
+    "trainerId": 22,
+    "name": "Cyclist James",
+    "file": "trainers/bdsp/022-cyclist-james.json"
+  },
+  {
+    "id": "trainer-id-023",
+    "trainerId": 23,
+    "name": "Cyclist John",
+    "file": "trainers/bdsp/023-cyclist-john.json"
+  },
+  {
+    "id": "trainer-id-024",
+    "trainerId": 24,
+    "name": "Cyclist Ryan",
+    "file": "trainers/bdsp/024-cyclist-ryan.json"
+  },
+  {
+    "id": "trainer-id-025",
+    "trainerId": 25,
+    "name": "Cyclist Megan",
+    "file": "trainers/bdsp/025-cyclist-megan.json"
+  },
+  {
+    "id": "trainer-id-026",
+    "trainerId": 26,
+    "name": "Cyclist Nicole",
+    "file": "trainers/bdsp/026-cyclist-nicole.json"
+  },
+  {
+    "id": "trainer-id-027",
+    "trainerId": 27,
+    "name": "Cyclist Kayla",
+    "file": "trainers/bdsp/027-cyclist-kayla.json"
+  },
+  {
+    "id": "trainer-id-028",
+    "trainerId": 28,
+    "name": "Cyclist Rachel",
+    "file": "trainers/bdsp/028-cyclist-rachel.json"
+  },
+  {
+    "id": "trainer-id-029",
+    "trainerId": 29,
+    "name": "Youngster Austin",
+    "file": "trainers/bdsp/029-youngster-austin.json"
+  },
+  {
+    "id": "trainer-id-030",
+    "trainerId": 30,
+    "name": "Camper Anthony",
+    "file": "trainers/bdsp/030-camper-anthony.json"
+  },
+  {
+    "id": "trainer-id-031",
+    "trainerId": 31,
+    "name": "Picnicker Lauren",
+    "file": "trainers/bdsp/031-picnicker-lauren.json"
+  },
+  {
+    "id": "trainer-id-032",
+    "trainerId": 32,
+    "name": "Hiker Kevyn",
+    "file": "trainers/bdsp/032-hiker-kevyn.json"
+  },
+  {
+    "id": "trainer-id-033",
+    "trainerId": 33,
+    "name": "Hiker Justin",
+    "file": "trainers/bdsp/033-hiker-justin.json"
+  },
+  {
+    "id": "trainer-id-034",
+    "trainerId": 34,
+    "name": "Battle Girl Helen",
+    "file": "trainers/bdsp/034-battle-girl-helen.json"
+  },
+  {
+    "id": "trainer-id-035",
+    "trainerId": 35,
+    "name": "Hiker Robert",
+    "file": "trainers/bdsp/035-hiker-robert.json"
+  },
+  {
+    "id": "trainer-id-036",
+    "trainerId": 36,
+    "name": "Hiker Alexander",
+    "file": "trainers/bdsp/036-hiker-alexander.json"
+  },
+  {
+    "id": "trainer-id-037",
+    "trainerId": 37,
+    "name": "Hiker Jonathan",
+    "file": "trainers/bdsp/037-hiker-jonathan.json"
+  },
+  {
+    "id": "trainer-id-038",
+    "trainerId": 38,
+    "name": "Black Belt Kyle",
+    "file": "trainers/bdsp/038-black-belt-kyle.json"
+  },
+  {
+    "id": "trainer-id-039",
+    "trainerId": 39,
+    "name": "Fisher Cody",
+    "file": "trainers/bdsp/039-fisher-cody.json"
+  },
+  {
+    "id": "trainer-id-040",
+    "trainerId": 40,
+    "name": "Aroma Lady Hannah",
+    "file": "trainers/bdsp/040-aroma-lady-hannah.json"
+  },
+  {
+    "id": "trainer-id-041",
+    "trainerId": 41,
+    "name": "Artist William",
+    "file": "trainers/bdsp/041-artist-william.json"
+  },
+  {
+    "id": "trainer-id-042",
+    "trainerId": 42,
+    "name": "Pokémon Breeder Albert",
+    "file": "trainers/bdsp/042-pok-mon-breeder-albert.json"
+  },
+  {
+    "id": "trainer-id-043",
+    "trainerId": 43,
+    "name": "Pokémon Breeder Jennifer",
+    "file": "trainers/bdsp/043-pok-mon-breeder-jennifer.json"
+  },
+  {
+    "id": "trainer-id-044",
+    "trainerId": 44,
+    "name": "Cowgirl Shelley",
+    "file": "trainers/bdsp/044-cowgirl-shelley.json"
+  },
+  {
+    "id": "trainer-id-045",
+    "trainerId": 45,
+    "name": "Jogger Richard",
+    "file": "trainers/bdsp/045-jogger-richard.json"
+  },
+  {
+    "id": "trainer-id-046",
+    "trainerId": 46,
+    "name": "Poké Kid Danielle",
+    "file": "trainers/bdsp/046-pok-kid-danielle.json"
+  },
+  {
+    "id": "trainer-id-047",
+    "trainerId": 47,
+    "name": "Young Couple Ty",
+    "file": "trainers/bdsp/047-young-couple-ty.json"
+  },
+  {
+    "id": "trainer-id-048",
+    "trainerId": 48,
+    "name": "Young Couple Sue",
+    "file": "trainers/bdsp/048-young-couple-sue.json"
+  },
+  {
+    "id": "trainer-id-049",
+    "trainerId": 49,
+    "name": "Pokémon Breeder Kahlil",
+    "file": "trainers/bdsp/049-pok-mon-breeder-kahlil.json"
+  },
+  {
+    "id": "trainer-id-050",
+    "trainerId": 50,
+    "name": "Pokémon Breeder Amber",
+    "file": "trainers/bdsp/050-pok-mon-breeder-amber.json"
+  },
+  {
+    "id": "trainer-id-051",
+    "trainerId": 51,
+    "name": "Twins Teri",
+    "file": "trainers/bdsp/051-twins-teri.json"
+  },
+  {
+    "id": "trainer-id-052",
+    "trainerId": 52,
+    "name": "Twins Tia",
+    "file": "trainers/bdsp/052-twins-tia.json"
+  },
+  {
+    "id": "trainer-id-053",
+    "trainerId": 53,
+    "name": "Ace Trainer Ernest",
+    "file": "trainers/bdsp/053-ace-trainer-ernest.json"
+  },
+  {
+    "id": "trainer-id-054",
+    "trainerId": 54,
+    "name": "Ace Trainer Alyssa",
+    "file": "trainers/bdsp/054-ace-trainer-alyssa.json"
+  },
+  {
+    "id": "trainer-id-055",
+    "trainerId": 55,
+    "name": "Veteran Brian",
+    "file": "trainers/bdsp/055-veteran-brian.json"
+  },
+  {
+    "id": "trainer-id-056",
+    "trainerId": 56,
+    "name": "Black Belt Adam",
+    "file": "trainers/bdsp/056-black-belt-adam.json"
+  },
+  {
+    "id": "trainer-id-057",
+    "trainerId": 57,
+    "name": "Ninja Boy Joel",
+    "file": "trainers/bdsp/057-ninja-boy-joel.json"
+  },
+  {
+    "id": "trainer-id-058",
+    "trainerId": 58,
+    "name": "Ninja Boy Nathan",
+    "file": "trainers/bdsp/058-ninja-boy-nathan.json"
+  },
+  {
+    "id": "trainer-id-059",
+    "trainerId": 59,
+    "name": "Ninja Boy Davey",
+    "file": "trainers/bdsp/059-ninja-boy-davey.json"
+  },
+  {
+    "id": "trainer-id-060",
+    "trainerId": 60,
+    "name": "Dragon Tamer Patrick",
+    "file": "trainers/bdsp/060-dragon-tamer-patrick.json"
+  },
+  {
+    "id": "trainer-id-061",
+    "trainerId": 61,
+    "name": "Bird Keeper Brianna",
+    "file": "trainers/bdsp/061-bird-keeper-brianna.json"
+  },
+  {
+    "id": "trainer-id-062",
+    "trainerId": 62,
+    "name": "Double Team Zac",
+    "file": "trainers/bdsp/062-double-team-zac.json"
+  },
+  {
+    "id": "trainer-id-063",
+    "trainerId": 63,
+    "name": "Double Team Jen",
+    "file": "trainers/bdsp/063-double-team-jen.json"
+  },
+  {
+    "id": "trainer-id-064",
+    "trainerId": 64,
+    "name": "Bird Keeper Alexandra",
+    "file": "trainers/bdsp/064-bird-keeper-alexandra.json"
+  },
+  {
+    "id": "trainer-id-065",
+    "trainerId": 65,
+    "name": "Ninja Boy Zach",
+    "file": "trainers/bdsp/065-ninja-boy-zach.json"
+  },
+  {
+    "id": "trainer-id-066",
+    "trainerId": 66,
+    "name": "Black Belt Sean",
+    "file": "trainers/bdsp/066-black-belt-sean.json"
+  },
+  {
+    "id": "trainer-id-067",
+    "trainerId": 67,
+    "name": "Ninja Boy Nick",
+    "file": "trainers/bdsp/067-ninja-boy-nick.json"
+  },
+  {
+    "id": "trainer-id-068",
+    "trainerId": 68,
+    "name": "Bird Keeper Katherine",
+    "file": "trainers/bdsp/068-bird-keeper-katherine.json"
+  },
+  {
+    "id": "trainer-id-069",
+    "trainerId": 69,
+    "name": "Rich Boy Jason",
+    "file": "trainers/bdsp/069-rich-boy-jason.json"
+  },
+  {
+    "id": "trainer-id-070",
+    "trainerId": 70,
+    "name": "Lady Melissa",
+    "file": "trainers/bdsp/070-lady-melissa.json"
+  },
+  {
+    "id": "trainer-id-071",
+    "trainerId": 71,
+    "name": "Gentleman Jeremy",
+    "file": "trainers/bdsp/071-gentleman-jeremy.json"
+  },
+  {
+    "id": "trainer-id-072",
+    "trainerId": 72,
+    "name": "Madame Reina",
+    "file": "trainers/bdsp/072-madame-reina.json"
+  },
+  {
+    "id": "trainer-id-073",
+    "trainerId": 73,
+    "name": "Police Officer Bobby",
+    "file": "trainers/bdsp/073-police-officer-bobby.json"
+  },
+  {
+    "id": "trainer-id-074",
+    "trainerId": 74,
+    "name": "Police Officer Alex",
+    "file": "trainers/bdsp/074-police-officer-alex.json"
+  },
+  {
+    "id": "trainer-id-075",
+    "trainerId": 75,
+    "name": "Police Officer Dylan",
+    "file": "trainers/bdsp/075-police-officer-dylan.json"
+  },
+  {
+    "id": "trainer-id-076",
+    "trainerId": 76,
+    "name": "Fisher Juan",
+    "file": "trainers/bdsp/076-fisher-juan.json"
+  },
+  {
+    "id": "trainer-id-077",
+    "trainerId": 77,
+    "name": "Fisher Cameron",
+    "file": "trainers/bdsp/077-fisher-cameron.json"
+  },
+  {
+    "id": "trainer-id-078",
+    "trainerId": 78,
+    "name": "Fisher Travis",
+    "file": "trainers/bdsp/078-fisher-travis.json"
+  },
+  {
+    "id": "trainer-id-079",
+    "trainerId": 79,
+    "name": "Pokémon Ranger Taylor",
+    "file": "trainers/bdsp/079-pok-mon-ranger-taylor.json"
+  },
+  {
+    "id": "trainer-id-080",
+    "trainerId": 80,
+    "name": "Pokémon Ranger Jeffrey",
+    "file": "trainers/bdsp/080-pok-mon-ranger-jeffrey.json"
+  },
+  {
+    "id": "trainer-id-081",
+    "trainerId": 81,
+    "name": "Pokémon Ranger Allison",
+    "file": "trainers/bdsp/081-pok-mon-ranger-allison.json"
+  },
+  {
+    "id": "trainer-id-082",
+    "trainerId": 82,
+    "name": "Scientist Stefano",
+    "file": "trainers/bdsp/082-scientist-stefano.json"
+  },
+  {
+    "id": "trainer-id-083",
+    "trainerId": 83,
+    "name": "Police Officer Caleb",
+    "file": "trainers/bdsp/083-police-officer-caleb.json"
+  },
+  {
+    "id": "trainer-id-084",
+    "trainerId": 84,
+    "name": "Swimmer Shelton",
+    "file": "trainers/bdsp/084-swimmer-shelton.json"
+  },
+  {
+    "id": "trainer-id-085",
+    "trainerId": 85,
+    "name": "Swimmer Evan",
+    "file": "trainers/bdsp/085-swimmer-evan.json"
+  },
+  {
+    "id": "trainer-id-086",
+    "trainerId": 86,
+    "name": "Swimmer Haley",
+    "file": "trainers/bdsp/086-swimmer-haley.json"
+  },
+  {
+    "id": "trainer-id-087",
+    "trainerId": 87,
+    "name": "Swimmer Mary",
+    "file": "trainers/bdsp/087-swimmer-mary.json"
+  },
+  {
+    "id": "trainer-id-088",
+    "trainerId": 88,
+    "name": "Tuber Jared",
+    "file": "trainers/bdsp/088-tuber-jared.json"
+  },
+  {
+    "id": "trainer-id-089",
+    "trainerId": 89,
+    "name": "Tuber Chelsea",
+    "file": "trainers/bdsp/089-tuber-chelsea.json"
+  },
+  {
+    "id": "trainer-id-090",
+    "trainerId": 90,
+    "name": "Sailor Paul",
+    "file": "trainers/bdsp/090-sailor-paul.json"
+  },
+  {
+    "id": "trainer-id-091",
+    "trainerId": 91,
+    "name": "Fisher Kenneth",
+    "file": "trainers/bdsp/091-fisher-kenneth.json"
+  },
+  {
+    "id": "trainer-id-092",
+    "trainerId": 92,
+    "name": "Ruin Maniac Bryan",
+    "file": "trainers/bdsp/092-ruin-maniac-bryan.json"
+  },
+  {
+    "id": "trainer-id-093",
+    "trainerId": 93,
+    "name": "Ruin Maniac Hunter",
+    "file": "trainers/bdsp/093-ruin-maniac-hunter.json"
+  },
+  {
+    "id": "trainer-id-094",
+    "trainerId": 94,
+    "name": "Psychic Mitchell",
+    "file": "trainers/bdsp/094-psychic-mitchell.json"
+  },
+  {
+    "id": "trainer-id-095",
+    "trainerId": 95,
+    "name": "Psychic Abigail",
+    "file": "trainers/bdsp/095-psychic-abigail.json"
+  },
+  {
+    "id": "trainer-id-096",
+    "trainerId": 96,
+    "name": "PI Carlos",
+    "file": "trainers/bdsp/096-pi-carlos.json"
+  },
+  {
+    "id": "trainer-id-097",
+    "trainerId": 97,
+    "name": "Black Belt Gregory",
+    "file": "trainers/bdsp/097-black-belt-gregory.json"
+  },
+  {
+    "id": "trainer-id-098",
+    "trainerId": 98,
+    "name": "Black Belt Derek",
+    "file": "trainers/bdsp/098-black-belt-derek.json"
+  },
+  {
+    "id": "trainer-id-099",
+    "trainerId": 99,
+    "name": "Black Belt Nathaniel",
+    "file": "trainers/bdsp/099-black-belt-nathaniel.json"
+  },
+  {
+    "id": "trainer-id-100",
+    "trainerId": 100,
+    "name": "Jogger Scott",
+    "file": "trainers/bdsp/100-jogger-scott.json"
+  },
+  {
+    "id": "trainer-id-101",
+    "trainerId": 101,
+    "name": "Ace Trainer Blake",
+    "file": "trainers/bdsp/101-ace-trainer-blake.json"
+  },
+  {
+    "id": "trainer-id-102",
+    "trainerId": 102,
+    "name": "Ace Trainer Garrett",
+    "file": "trainers/bdsp/102-ace-trainer-garrett.json"
+  },
+  {
+    "id": "trainer-id-103",
+    "trainerId": 103,
+    "name": "Ace Trainer Laura",
+    "file": "trainers/bdsp/103-ace-trainer-laura.json"
+  },
+  {
+    "id": "trainer-id-104",
+    "trainerId": 104,
+    "name": "Ace Trainer Maria",
+    "file": "trainers/bdsp/104-ace-trainer-maria.json"
+  },
+  {
+    "id": "trainer-id-105",
+    "trainerId": 105,
+    "name": "Skier Bradley",
+    "file": "trainers/bdsp/105-skier-bradley.json"
+  },
+  {
+    "id": "trainer-id-106",
+    "trainerId": 106,
+    "name": "Skier Edward",
+    "file": "trainers/bdsp/106-skier-edward.json"
+  },
+  {
+    "id": "trainer-id-107",
+    "trainerId": 107,
+    "name": "Skier Kaitlyn",
+    "file": "trainers/bdsp/107-skier-kaitlyn.json"
+  },
+  {
+    "id": "trainer-id-108",
+    "trainerId": 108,
+    "name": "Skier Andrea",
+    "file": "trainers/bdsp/108-skier-andrea.json"
+  },
+  {
+    "id": "trainer-id-109",
+    "trainerId": 109,
+    "name": "Ace Trainer Dalton",
+    "file": "trainers/bdsp/109-ace-trainer-dalton.json"
+  },
+  {
+    "id": "trainer-id-110",
+    "trainerId": 110,
+    "name": "Ace Trainer Olivia",
+    "file": "trainers/bdsp/110-ace-trainer-olivia.json"
+  },
+  {
+    "id": "trainer-id-111",
+    "trainerId": 111,
+    "name": "Skier Shawn",
+    "file": "trainers/bdsp/111-skier-shawn.json"
+  },
+  {
+    "id": "trainer-id-112",
+    "trainerId": 112,
+    "name": "Skier Bjorn",
+    "file": "trainers/bdsp/112-skier-bjorn.json"
+  },
+  {
+    "id": "trainer-id-113",
+    "trainerId": 113,
+    "name": "Skier Lexie",
+    "file": "trainers/bdsp/113-skier-lexie.json"
+  },
+  {
+    "id": "trainer-id-114",
+    "trainerId": 114,
+    "name": "Skier Madison",
+    "file": "trainers/bdsp/114-skier-madison.json"
+  },
+  {
+    "id": "trainer-id-115",
+    "trainerId": 115,
+    "name": "Ninja Boy Antonio",
+    "file": "trainers/bdsp/115-ninja-boy-antonio.json"
+  },
+  {
+    "id": "trainer-id-116",
+    "trainerId": 116,
+    "name": "Ninja Boy Ethan",
+    "file": "trainers/bdsp/116-ninja-boy-ethan.json"
+  },
+  {
+    "id": "trainer-id-117",
+    "trainerId": 117,
+    "name": "Black Belt Luke",
+    "file": "trainers/bdsp/117-black-belt-luke.json"
+  },
+  {
+    "id": "trainer-id-118",
+    "trainerId": 118,
+    "name": "Fisher Miguel",
+    "file": "trainers/bdsp/118-fisher-miguel.json"
+  },
+  {
+    "id": "trainer-id-119",
+    "trainerId": 119,
+    "name": "Fisher Luc",
+    "file": "trainers/bdsp/119-fisher-luc.json"
+  },
+  {
+    "id": "trainer-id-120",
+    "trainerId": 120,
+    "name": "Swimmer Adrian",
+    "file": "trainers/bdsp/120-swimmer-adrian.json"
+  },
+  {
+    "id": "trainer-id-121",
+    "trainerId": 121,
+    "name": "Swimmer Erik",
+    "file": "trainers/bdsp/121-swimmer-erik.json"
+  },
+  {
+    "id": "trainer-id-122",
+    "trainerId": 122,
+    "name": "Swimmer Vincent",
+    "file": "trainers/bdsp/122-swimmer-vincent.json"
+  },
+  {
+    "id": "trainer-id-123",
+    "trainerId": 123,
+    "name": "Swimmer Jessica",
+    "file": "trainers/bdsp/123-swimmer-jessica.json"
+  },
+  {
+    "id": "trainer-id-124",
+    "trainerId": 124,
+    "name": "Swimmer Erica",
+    "file": "trainers/bdsp/124-swimmer-erica.json"
+  },
+  {
+    "id": "trainer-id-125",
+    "trainerId": 125,
+    "name": "Swimmer Katelyn",
+    "file": "trainers/bdsp/125-swimmer-katelyn.json"
+  },
+  {
+    "id": "trainer-id-126",
+    "trainerId": 126,
+    "name": "Swimmer Dillon",
+    "file": "trainers/bdsp/126-swimmer-dillon.json"
+  },
+  {
+    "id": "trainer-id-127",
+    "trainerId": 127,
+    "name": "Swimmer Vanessa",
+    "file": "trainers/bdsp/127-swimmer-vanessa.json"
+  },
+  {
+    "id": "trainer-id-128",
+    "trainerId": 128,
+    "name": "Fisher Cory",
+    "file": "trainers/bdsp/128-fisher-cory.json"
+  },
+  {
+    "id": "trainer-id-129",
+    "trainerId": 129,
+    "name": "Ace Trainer Jake",
+    "file": "trainers/bdsp/129-ace-trainer-jake.json"
+  },
+  {
+    "id": "trainer-id-130",
+    "trainerId": 130,
+    "name": "Ace Trainer Shannon",
+    "file": "trainers/bdsp/130-ace-trainer-shannon.json"
+  },
+  {
+    "id": "trainer-id-131",
+    "trainerId": 131,
+    "name": "Fisher Brett",
+    "file": "trainers/bdsp/131-fisher-brett.json"
+  },
+  {
+    "id": "trainer-id-132",
+    "trainerId": 132,
+    "name": "Fisher Alec",
+    "file": "trainers/bdsp/132-fisher-alec.json"
+  },
+  {
+    "id": "trainer-id-133",
+    "trainerId": 133,
+    "name": "Fisher George",
+    "file": "trainers/bdsp/133-fisher-george.json"
+  },
+  {
+    "id": "trainer-id-134",
+    "trainerId": 134,
+    "name": "Fisher Cole",
+    "file": "trainers/bdsp/134-fisher-cole.json"
+  },
+  {
+    "id": "trainer-id-135",
+    "trainerId": 135,
+    "name": "Sailor Luther",
+    "file": "trainers/bdsp/135-sailor-luther.json"
+  },
+  {
+    "id": "trainer-id-136",
+    "trainerId": 136,
+    "name": "Swimmer Wesley",
+    "file": "trainers/bdsp/136-swimmer-wesley.json"
+  },
+  {
+    "id": "trainer-id-137",
+    "trainerId": 137,
+    "name": "Swimmer Ricardo",
+    "file": "trainers/bdsp/137-swimmer-ricardo.json"
+  },
+  {
+    "id": "trainer-id-138",
+    "trainerId": 138,
+    "name": "Swimmer Francisco",
+    "file": "trainers/bdsp/138-swimmer-francisco.json"
+  },
+  {
+    "id": "trainer-id-139",
+    "trainerId": 139,
+    "name": "Swimmer Colton",
+    "file": "trainers/bdsp/139-swimmer-colton.json"
+  },
+  {
+    "id": "trainer-id-140",
+    "trainerId": 140,
+    "name": "Swimmer Troy",
+    "file": "trainers/bdsp/140-swimmer-troy.json"
+  },
+  {
+    "id": "trainer-id-141",
+    "trainerId": 141,
+    "name": "Swimmer Oscar",
+    "file": "trainers/bdsp/141-swimmer-oscar.json"
+  },
+  {
+    "id": "trainer-id-142",
+    "trainerId": 142,
+    "name": "Swimmer Miranda",
+    "file": "trainers/bdsp/142-swimmer-miranda.json"
+  },
+  {
+    "id": "trainer-id-143",
+    "trainerId": 143,
+    "name": "Swimmer Aubree",
+    "file": "trainers/bdsp/143-swimmer-aubree.json"
+  },
+  {
+    "id": "trainer-id-144",
+    "trainerId": 144,
+    "name": "Swimmer Paige",
+    "file": "trainers/bdsp/144-swimmer-paige.json"
+  },
+  {
+    "id": "trainer-id-145",
+    "trainerId": 145,
+    "name": "Swimmer Crystal",
+    "file": "trainers/bdsp/145-swimmer-crystal.json"
+  },
+  {
+    "id": "trainer-id-146",
+    "trainerId": 146,
+    "name": "Swimmer Cassandra",
+    "file": "trainers/bdsp/146-swimmer-cassandra.json"
+  },
+  {
+    "id": "trainer-id-147",
+    "trainerId": 147,
+    "name": "Swimmer Gabrielle",
+    "file": "trainers/bdsp/147-swimmer-gabrielle.json"
+  },
+  {
+    "id": "trainer-id-148",
+    "trainerId": 148,
+    "name": "Worker Colin",
+    "file": "trainers/bdsp/148-worker-colin.json"
+  },
+  {
+    "id": "trainer-id-149",
+    "trainerId": 149,
+    "name": "Worker Mason",
+    "file": "trainers/bdsp/149-worker-mason.json"
+  },
+  {
+    "id": "trainer-id-150",
+    "trainerId": 150,
+    "name": "Bug Catcher Jack",
+    "file": "trainers/bdsp/150-bug-catcher-jack.json"
+  },
+  {
+    "id": "trainer-id-151",
+    "trainerId": 151,
+    "name": "Bug Catcher Phillip",
+    "file": "trainers/bdsp/151-bug-catcher-phillip.json"
+  },
+  {
+    "id": "trainer-id-152",
+    "trainerId": 152,
+    "name": "Bug Catcher Donald",
+    "file": "trainers/bdsp/152-bug-catcher-donald.json"
+  },
+  {
+    "id": "trainer-id-153",
+    "trainerId": 153,
+    "name": "Lass Briana",
+    "file": "trainers/bdsp/153-lass-briana.json"
+  },
+  {
+    "id": "trainer-id-154",
+    "trainerId": 154,
+    "name": "Psychic Elijah",
+    "file": "trainers/bdsp/154-psychic-elijah.json"
+  },
+  {
+    "id": "trainer-id-155",
+    "trainerId": 155,
+    "name": "Psychic Lindsey",
+    "file": "trainers/bdsp/155-psychic-lindsey.json"
+  },
+  {
+    "id": "trainer-id-156",
+    "trainerId": 156,
+    "name": "Ace Trainer Omar",
+    "file": "trainers/bdsp/156-ace-trainer-omar.json"
+  },
+  {
+    "id": "trainer-id-157",
+    "trainerId": 157,
+    "name": "Ace Trainer Henry",
+    "file": "trainers/bdsp/157-ace-trainer-henry.json"
+  },
+  {
+    "id": "trainer-id-158",
+    "trainerId": 158,
+    "name": "Ace Trainer Mariah",
+    "file": "trainers/bdsp/158-ace-trainer-mariah.json"
+  },
+  {
+    "id": "trainer-id-159",
+    "trainerId": 159,
+    "name": "Ace Trainer Sydney",
+    "file": "trainers/bdsp/159-ace-trainer-sydney.json"
+  },
+  {
+    "id": "trainer-id-160",
+    "trainerId": 160,
+    "name": "Veteran Edgar",
+    "file": "trainers/bdsp/160-veteran-edgar.json"
+  },
+  {
+    "id": "trainer-id-161",
+    "trainerId": 161,
+    "name": "Veteran Clayton",
+    "file": "trainers/bdsp/161-veteran-clayton.json"
+  },
+  {
+    "id": "trainer-id-162",
+    "trainerId": 162,
+    "name": "Dragon Tamer Andre",
+    "file": "trainers/bdsp/162-dragon-tamer-andre.json"
+  },
+  {
+    "id": "trainer-id-163",
+    "trainerId": 163,
+    "name": "Dragon Tamer Clinton",
+    "file": "trainers/bdsp/163-dragon-tamer-clinton.json"
+  },
+  {
+    "id": "trainer-id-164",
+    "trainerId": 164,
+    "name": "Black Belt David",
+    "file": "trainers/bdsp/164-black-belt-david.json"
+  },
+  {
+    "id": "trainer-id-165",
+    "trainerId": 165,
+    "name": "Bird Keeper Hana",
+    "file": "trainers/bdsp/165-bird-keeper-hana.json"
+  },
+  {
+    "id": "trainer-id-166",
+    "trainerId": 166,
+    "name": "Psychic Bryce",
+    "file": "trainers/bdsp/166-psychic-bryce.json"
+  },
+  {
+    "id": "trainer-id-167",
+    "trainerId": 167,
+    "name": "Psychic Valencia",
+    "file": "trainers/bdsp/167-psychic-valencia.json"
+  },
+  {
+    "id": "trainer-id-168",
+    "trainerId": 168,
+    "name": "Double Team Jo",
+    "file": "trainers/bdsp/168-double-team-jo.json"
+  },
+  {
+    "id": "trainer-id-169",
+    "trainerId": 169,
+    "name": "Double Team Pat",
+    "file": "trainers/bdsp/169-double-team-pat.json"
+  },
+  {
+    "id": "trainer-id-170",
+    "trainerId": 170,
+    "name": "Double Team Al",
+    "file": "trainers/bdsp/170-double-team-al.json"
+  },
+  {
+    "id": "trainer-id-171",
+    "trainerId": 171,
+    "name": "Double Team Kay",
+    "file": "trainers/bdsp/171-double-team-kay.json"
+  },
+  {
+    "id": "trainer-id-172",
+    "trainerId": 172,
+    "name": "Veteran Grant",
+    "file": "trainers/bdsp/172-veteran-grant.json"
+  },
+  {
+    "id": "trainer-id-173",
+    "trainerId": 173,
+    "name": "Youngster Jonathon",
+    "file": "trainers/bdsp/173-youngster-jonathon.json"
+  },
+  {
+    "id": "trainer-id-174",
+    "trainerId": 174,
+    "name": "Youngster Darius",
+    "file": "trainers/bdsp/174-youngster-darius.json"
+  },
+  {
+    "id": "trainer-id-175",
+    "trainerId": 175,
+    "name": "Gym Leader Roark",
+    "file": "trainers/bdsp/175-gym-leader-roark.json"
+  },
+  {
+    "id": "trainer-id-176",
+    "trainerId": 176,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/176-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-177",
+    "trainerId": 177,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/177-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-178",
+    "trainerId": 178,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/178-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-179",
+    "trainerId": 179,
+    "name": "Gym Leader Byron",
+    "file": "trainers/bdsp/179-gym-leader-byron.json"
+  },
+  {
+    "id": "trainer-id-180",
+    "trainerId": 180,
+    "name": "Worker Jackson",
+    "file": "trainers/bdsp/180-worker-jackson.json"
+  },
+  {
+    "id": "trainer-id-181",
+    "trainerId": 181,
+    "name": "Worker Gary",
+    "file": "trainers/bdsp/181-worker-gary.json"
+  },
+  {
+    "id": "trainer-id-182",
+    "trainerId": 182,
+    "name": "Black Belt Philip",
+    "file": "trainers/bdsp/182-black-belt-philip.json"
+  },
+  {
+    "id": "trainer-id-183",
+    "trainerId": 183,
+    "name": "Aroma Lady Jenna",
+    "file": "trainers/bdsp/183-aroma-lady-jenna.json"
+  },
+  {
+    "id": "trainer-id-184",
+    "trainerId": 184,
+    "name": "Aroma Lady Angela",
+    "file": "trainers/bdsp/184-aroma-lady-angela.json"
+  },
+  {
+    "id": "trainer-id-185",
+    "trainerId": 185,
+    "name": "Elite Four Aaron",
+    "file": "trainers/bdsp/185-elite-four-aaron.json"
+  },
+  {
+    "id": "trainer-id-186",
+    "trainerId": 186,
+    "name": "Elite Four Bertha",
+    "file": "trainers/bdsp/186-elite-four-bertha.json"
+  },
+  {
+    "id": "trainer-id-187",
+    "trainerId": 187,
+    "name": "Elite Four Flint",
+    "file": "trainers/bdsp/187-elite-four-flint.json"
+  },
+  {
+    "id": "trainer-id-188",
+    "trainerId": 188,
+    "name": "Elite Four Lucian",
+    "file": "trainers/bdsp/188-elite-four-lucian.json"
+  },
+  {
+    "id": "trainer-id-189",
+    "trainerId": 189,
+    "name": "Camper Curtis",
+    "file": "trainers/bdsp/189-camper-curtis.json"
+  },
+  {
+    "id": "trainer-id-190",
+    "trainerId": 190,
+    "name": "Camper Drew",
+    "file": "trainers/bdsp/190-camper-drew.json"
+  },
+  {
+    "id": "trainer-id-191",
+    "trainerId": 191,
+    "name": "Champion Cynthia",
+    "file": "trainers/bdsp/191-champion-cynthia.json"
+  },
+  {
+    "id": "trainer-id-192",
+    "trainerId": 192,
+    "name": "Ace Trainer Sergio",
+    "file": "trainers/bdsp/192-ace-trainer-sergio.json"
+  },
+  {
+    "id": "trainer-id-193",
+    "trainerId": 193,
+    "name": "Ace Trainer Isaiah",
+    "file": "trainers/bdsp/193-ace-trainer-isaiah.json"
+  },
+  {
+    "id": "trainer-id-194",
+    "trainerId": 194,
+    "name": "Ace Trainer Savannah",
+    "file": "trainers/bdsp/194-ace-trainer-savannah.json"
+  },
+  {
+    "id": "trainer-id-195",
+    "trainerId": 195,
+    "name": "Ace Trainer Alicia",
+    "file": "trainers/bdsp/195-ace-trainer-alicia.json"
+  },
+  {
+    "id": "trainer-id-196",
+    "trainerId": 196,
+    "name": "Collector Douglas",
+    "file": "trainers/bdsp/196-collector-douglas.json"
+  },
+  {
+    "id": "trainer-id-197",
+    "trainerId": 197,
+    "name": "Collector Brady",
+    "file": "trainers/bdsp/197-collector-brady.json"
+  },
+  {
+    "id": "trainer-id-198",
+    "trainerId": 198,
+    "name": "Collector Ivan",
+    "file": "trainers/bdsp/198-collector-ivan.json"
+  },
+  {
+    "id": "trainer-id-199",
+    "trainerId": 199,
+    "name": "Collector Fernando",
+    "file": "trainers/bdsp/199-collector-fernando.json"
+  },
+  {
+    "id": "trainer-id-200",
+    "trainerId": 200,
+    "name": "Collector Edwin",
+    "file": "trainers/bdsp/200-collector-edwin.json"
+  },
+  {
+    "id": "trainer-id-201",
+    "trainerId": 201,
+    "name": "Dragon Tamer Hayden",
+    "file": "trainers/bdsp/201-dragon-tamer-hayden.json"
+  },
+  {
+    "id": "trainer-id-202",
+    "trainerId": 202,
+    "name": "Ace Trainer Dennis",
+    "file": "trainers/bdsp/202-ace-trainer-dennis.json"
+  },
+  {
+    "id": "trainer-id-203",
+    "trainerId": 203,
+    "name": "Ace Trainer Cesar",
+    "file": "trainers/bdsp/203-ace-trainer-cesar.json"
+  },
+  {
+    "id": "trainer-id-204",
+    "trainerId": 204,
+    "name": "Ace Trainer Allen",
+    "file": "trainers/bdsp/204-ace-trainer-allen.json"
+  },
+  {
+    "id": "trainer-id-205",
+    "trainerId": 205,
+    "name": "Ace Trainer Zachery",
+    "file": "trainers/bdsp/205-ace-trainer-zachery.json"
+  },
+  {
+    "id": "trainer-id-206",
+    "trainerId": 206,
+    "name": "Ace Trainer Ruben",
+    "file": "trainers/bdsp/206-ace-trainer-ruben.json"
+  },
+  {
+    "id": "trainer-id-207",
+    "trainerId": 207,
+    "name": "Ace Trainer Breanna",
+    "file": "trainers/bdsp/207-ace-trainer-breanna.json"
+  },
+  {
+    "id": "trainer-id-208",
+    "trainerId": 208,
+    "name": "Ace Trainer Catherine",
+    "file": "trainers/bdsp/208-ace-trainer-catherine.json"
+  },
+  {
+    "id": "trainer-id-209",
+    "trainerId": 209,
+    "name": "Ace Trainer Destiny",
+    "file": "trainers/bdsp/209-ace-trainer-destiny.json"
+  },
+  {
+    "id": "trainer-id-210",
+    "trainerId": 210,
+    "name": "Ace Trainer Jamie",
+    "file": "trainers/bdsp/210-ace-trainer-jamie.json"
+  },
+  {
+    "id": "trainer-id-211",
+    "trainerId": 211,
+    "name": "Ace Trainer Maya",
+    "file": "trainers/bdsp/211-ace-trainer-maya.json"
+  },
+  {
+    "id": "trainer-id-212",
+    "trainerId": 212,
+    "name": "Psychic Maxwell",
+    "file": "trainers/bdsp/212-psychic-maxwell.json"
+  },
+  {
+    "id": "trainer-id-213",
+    "trainerId": 213,
+    "name": "Psychic Brittney",
+    "file": "trainers/bdsp/213-psychic-brittney.json"
+  },
+  {
+    "id": "trainer-id-214",
+    "trainerId": 214,
+    "name": "Ranchers Ava",
+    "file": "trainers/bdsp/214-ranchers-ava.json"
+  },
+  {
+    "id": "trainer-id-215",
+    "trainerId": 215,
+    "name": "Ranchers Matt",
+    "file": "trainers/bdsp/215-ranchers-matt.json"
+  },
+  {
+    "id": "trainer-id-216",
+    "trainerId": 216,
+    "name": "Rancher Marco",
+    "file": "trainers/bdsp/216-rancher-marco.json"
+  },
+  {
+    "id": "trainer-id-217",
+    "trainerId": 217,
+    "name": "Fisher Erick",
+    "file": "trainers/bdsp/217-fisher-erick.json"
+  },
+  {
+    "id": "trainer-id-218",
+    "trainerId": 218,
+    "name": "Twins Emma",
+    "file": "trainers/bdsp/218-twins-emma.json"
+  },
+  {
+    "id": "trainer-id-219",
+    "trainerId": 219,
+    "name": "Twins Lil",
+    "file": "trainers/bdsp/219-twins-lil.json"
+  },
+  {
+    "id": "trainer-id-220",
+    "trainerId": 220,
+    "name": "Commander Mars",
+    "file": "trainers/bdsp/220-commander-mars.json"
+  },
+  {
+    "id": "trainer-id-221",
+    "trainerId": 221,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/221-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-222",
+    "trainerId": 222,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/222-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-223",
+    "trainerId": 223,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/223-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-224",
+    "trainerId": 224,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/224-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-225",
+    "trainerId": 225,
+    "name": "Guitarist Tony",
+    "file": "trainers/bdsp/225-guitarist-tony.json"
+  },
+  {
+    "id": "trainer-id-226",
+    "trainerId": 226,
+    "name": "Guitarist Jerry",
+    "file": "trainers/bdsp/226-guitarist-jerry.json"
+  },
+  {
+    "id": "trainer-id-227",
+    "trainerId": 227,
+    "name": "Guitarist Preston",
+    "file": "trainers/bdsp/227-guitarist-preston.json"
+  },
+  {
+    "id": "trainer-id-228",
+    "trainerId": 228,
+    "name": "Guitarist Lonnie",
+    "file": "trainers/bdsp/228-guitarist-lonnie.json"
+  },
+  {
+    "id": "trainer-id-229",
+    "trainerId": 229,
+    "name": "Ruin Maniac Calvin",
+    "file": "trainers/bdsp/229-ruin-maniac-calvin.json"
+  },
+  {
+    "id": "trainer-id-230",
+    "trainerId": 230,
+    "name": "Ruin Maniac Larry",
+    "file": "trainers/bdsp/230-ruin-maniac-larry.json"
+  },
+  {
+    "id": "trainer-id-231",
+    "trainerId": 231,
+    "name": "Jogger Wyatt",
+    "file": "trainers/bdsp/231-jogger-wyatt.json"
+  },
+  {
+    "id": "trainer-id-232",
+    "trainerId": 232,
+    "name": "Jogger Craig",
+    "file": "trainers/bdsp/232-jogger-craig.json"
+  },
+  {
+    "id": "trainer-id-233",
+    "trainerId": 233,
+    "name": "Jogger Raul",
+    "file": "trainers/bdsp/233-jogger-raul.json"
+  },
+  {
+    "id": "trainer-id-234",
+    "trainerId": 234,
+    "name": "Black Belt Colby",
+    "file": "trainers/bdsp/234-black-belt-colby.json"
+  },
+  {
+    "id": "trainer-id-235",
+    "trainerId": 235,
+    "name": "Black Belt Darren",
+    "file": "trainers/bdsp/235-black-belt-darren.json"
+  },
+  {
+    "id": "trainer-id-236",
+    "trainerId": 236,
+    "name": "Black Belt Rafael",
+    "file": "trainers/bdsp/236-black-belt-rafael.json"
+  },
+  {
+    "id": "trainer-id-237",
+    "trainerId": 237,
+    "name": "Black Belt Jeffery",
+    "file": "trainers/bdsp/237-black-belt-jeffery.json"
+  },
+  {
+    "id": "trainer-id-238",
+    "trainerId": 238,
+    "name": "Black Belt Carl",
+    "file": "trainers/bdsp/238-black-belt-carl.json"
+  },
+  {
+    "id": "trainer-id-239",
+    "trainerId": 239,
+    "name": "Black Belt Ricky",
+    "file": "trainers/bdsp/239-black-belt-ricky.json"
+  },
+  {
+    "id": "trainer-id-240",
+    "trainerId": 240,
+    "name": "Gym Leader Gardenia",
+    "file": "trainers/bdsp/240-gym-leader-gardenia.json"
+  },
+  {
+    "id": "trainer-id-241",
+    "trainerId": 241,
+    "name": "Gym Leader Wake",
+    "file": "trainers/bdsp/241-gym-leader-wake.json"
+  },
+  {
+    "id": "trainer-id-242",
+    "trainerId": 242,
+    "name": "Gym Leader Maylene",
+    "file": "trainers/bdsp/242-gym-leader-maylene.json"
+  },
+  {
+    "id": "trainer-id-243",
+    "trainerId": 243,
+    "name": "Gym Leader Fantina",
+    "file": "trainers/bdsp/243-gym-leader-fantina.json"
+  },
+  {
+    "id": "trainer-id-244",
+    "trainerId": 244,
+    "name": "Gym Leader Candice",
+    "file": "trainers/bdsp/244-gym-leader-candice.json"
+  },
+  {
+    "id": "trainer-id-245",
+    "trainerId": 245,
+    "name": "Gym Leader Volkner",
+    "file": "trainers/bdsp/245-gym-leader-volkner.json"
+  },
+  {
+    "id": "trainer-id-246",
+    "trainerId": 246,
+    "name": "Lass Madeline",
+    "file": "trainers/bdsp/246-lass-madeline.json"
+  },
+  {
+    "id": "trainer-id-247",
+    "trainerId": 247,
+    "name": "Lass Kaitlin",
+    "file": "trainers/bdsp/247-lass-kaitlin.json"
+  },
+  {
+    "id": "trainer-id-248",
+    "trainerId": 248,
+    "name": "Lass Caroline",
+    "file": "trainers/bdsp/248-lass-caroline.json"
+  },
+  {
+    "id": "trainer-id-249",
+    "trainerId": 249,
+    "name": "Lass Molly",
+    "file": "trainers/bdsp/249-lass-molly.json"
+  },
+  {
+    "id": "trainer-id-250",
+    "trainerId": 250,
+    "name": "Hiker Louis",
+    "file": "trainers/bdsp/250-hiker-louis.json"
+  },
+  {
+    "id": "trainer-id-251",
+    "trainerId": 251,
+    "name": "Parasol Lady Alexa",
+    "file": "trainers/bdsp/251-parasol-lady-alexa.json"
+  },
+  {
+    "id": "trainer-id-252",
+    "trainerId": 252,
+    "name": "Parasol Lady Sabrina",
+    "file": "trainers/bdsp/252-parasol-lady-sabrina.json"
+  },
+  {
+    "id": "trainer-id-253",
+    "trainerId": 253,
+    "name": "Picnicker Diana",
+    "file": "trainers/bdsp/253-picnicker-diana.json"
+  },
+  {
+    "id": "trainer-id-254",
+    "trainerId": 254,
+    "name": "Picnicker Cheyenne",
+    "file": "trainers/bdsp/254-picnicker-cheyenne.json"
+  },
+  {
+    "id": "trainer-id-255",
+    "trainerId": 255,
+    "name": "Poké Kid Meghan",
+    "file": "trainers/bdsp/255-pok-kid-meghan.json"
+  },
+  {
+    "id": "trainer-id-256",
+    "trainerId": 256,
+    "name": "Police Officer Danny",
+    "file": "trainers/bdsp/256-police-officer-danny.json"
+  },
+  {
+    "id": "trainer-id-257",
+    "trainerId": 257,
+    "name": "Police Officer Thomas",
+    "file": "trainers/bdsp/257-police-officer-thomas.json"
+  },
+  {
+    "id": "trainer-id-258",
+    "trainerId": 258,
+    "name": "Rich Boy Trey",
+    "file": "trainers/bdsp/258-rich-boy-trey.json"
+  },
+  {
+    "id": "trainer-id-259",
+    "trainerId": 259,
+    "name": "Sailor Marc",
+    "file": "trainers/bdsp/259-sailor-marc.json"
+  },
+  {
+    "id": "trainer-id-260",
+    "trainerId": 260,
+    "name": "Sailor Skyler",
+    "file": "trainers/bdsp/260-sailor-skyler.json"
+  },
+  {
+    "id": "trainer-id-261",
+    "trainerId": 261,
+    "name": "Sailor Damian",
+    "file": "trainers/bdsp/261-sailor-damian.json"
+  },
+  {
+    "id": "trainer-id-262",
+    "trainerId": 262,
+    "name": "School Kid Chance",
+    "file": "trainers/bdsp/262-school-kid-chance.json"
+  },
+  {
+    "id": "trainer-id-263",
+    "trainerId": 263,
+    "name": "School Kid Forrest",
+    "file": "trainers/bdsp/263-school-kid-forrest.json"
+  },
+  {
+    "id": "trainer-id-264",
+    "trainerId": 264,
+    "name": "School Kid Harrison",
+    "file": "trainers/bdsp/264-school-kid-harrison.json"
+  },
+  {
+    "id": "trainer-id-265",
+    "trainerId": 265,
+    "name": "School Kid Mackenzie",
+    "file": "trainers/bdsp/265-school-kid-mackenzie.json"
+  },
+  {
+    "id": "trainer-id-266",
+    "trainerId": 266,
+    "name": "School Kid Tiera",
+    "file": "trainers/bdsp/266-school-kid-tiera.json"
+  },
+  {
+    "id": "trainer-id-267",
+    "trainerId": 267,
+    "name": "School Kid Christine",
+    "file": "trainers/bdsp/267-school-kid-christine.json"
+  },
+  {
+    "id": "trainer-id-268",
+    "trainerId": 268,
+    "name": "Beauty Cyndy",
+    "file": "trainers/bdsp/268-beauty-cyndy.json"
+  },
+  {
+    "id": "trainer-id-269",
+    "trainerId": 269,
+    "name": "Beauty Lindsay",
+    "file": "trainers/bdsp/269-beauty-lindsay.json"
+  },
+  {
+    "id": "trainer-id-270",
+    "trainerId": 270,
+    "name": "Youngster Dallas",
+    "file": "trainers/bdsp/270-youngster-dallas.json"
+  },
+  {
+    "id": "trainer-id-271",
+    "trainerId": 271,
+    "name": "Youngster Sebastian",
+    "file": "trainers/bdsp/271-youngster-sebastian.json"
+  },
+  {
+    "id": "trainer-id-272",
+    "trainerId": 272,
+    "name": "Youngster Donny",
+    "file": "trainers/bdsp/272-youngster-donny.json"
+  },
+  {
+    "id": "trainer-id-273",
+    "trainerId": 273,
+    "name": "Tuber Trenton",
+    "file": "trainers/bdsp/273-tuber-trenton.json"
+  },
+  {
+    "id": "trainer-id-274",
+    "trainerId": 274,
+    "name": "Tuber Conner",
+    "file": "trainers/bdsp/274-tuber-conner.json"
+  },
+  {
+    "id": "trainer-id-275",
+    "trainerId": 275,
+    "name": "Tuber Mariel",
+    "file": "trainers/bdsp/275-tuber-mariel.json"
+  },
+  {
+    "id": "trainer-id-276",
+    "trainerId": 276,
+    "name": "Tuber Holly",
+    "file": "trainers/bdsp/276-tuber-holly.json"
+  },
+  {
+    "id": "trainer-id-277",
+    "trainerId": 277,
+    "name": "Veteran Armando",
+    "file": "trainers/bdsp/277-veteran-armando.json"
+  },
+  {
+    "id": "trainer-id-278",
+    "trainerId": 278,
+    "name": "Waitress Kati",
+    "file": "trainers/bdsp/278-waitress-kati.json"
+  },
+  {
+    "id": "trainer-id-279",
+    "trainerId": 279,
+    "name": "Worker Gerardo",
+    "file": "trainers/bdsp/279-worker-gerardo.json"
+  },
+  {
+    "id": "trainer-id-280",
+    "trainerId": 280,
+    "name": "Interviewers Roxy",
+    "file": "trainers/bdsp/280-interviewers-roxy.json"
+  },
+  {
+    "id": "trainer-id-281",
+    "trainerId": 281,
+    "name": "Interviewers Oli",
+    "file": "trainers/bdsp/281-interviewers-oli.json"
+  },
+  {
+    "id": "trainer-id-282",
+    "trainerId": 282,
+    "name": "Cameraman Tevin",
+    "file": "trainers/bdsp/282-cameraman-tevin.json"
+  },
+  {
+    "id": "trainer-id-283",
+    "trainerId": 283,
+    "name": "Reporter Kinsey",
+    "file": "trainers/bdsp/283-reporter-kinsey.json"
+  },
+  {
+    "id": "trainer-id-284",
+    "trainerId": 284,
+    "name": "Idol Grace",
+    "file": "trainers/bdsp/284-idol-grace.json"
+  },
+  {
+    "id": "trainer-id-285",
+    "trainerId": 285,
+    "name": "Battle Girl Tylor",
+    "file": "trainers/bdsp/285-battle-girl-tylor.json"
+  },
+  {
+    "id": "trainer-id-286",
+    "trainerId": 286,
+    "name": "Bird Keeper Autumn",
+    "file": "trainers/bdsp/286-bird-keeper-autumn.json"
+  },
+  {
+    "id": "trainer-id-287",
+    "trainerId": 287,
+    "name": "Camper Zackary",
+    "file": "trainers/bdsp/287-camper-zackary.json"
+  },
+  {
+    "id": "trainer-id-288",
+    "trainerId": 288,
+    "name": "Camper Lawrence",
+    "file": "trainers/bdsp/288-camper-lawrence.json"
+  },
+  {
+    "id": "trainer-id-289",
+    "trainerId": 289,
+    "name": "Camper Diego",
+    "file": "trainers/bdsp/289-camper-diego.json"
+  },
+  {
+    "id": "trainer-id-290",
+    "trainerId": 290,
+    "name": "Camper Parker",
+    "file": "trainers/bdsp/290-camper-parker.json"
+  },
+  {
+    "id": "trainer-id-291",
+    "trainerId": 291,
+    "name": "Collector Dominique",
+    "file": "trainers/bdsp/291-collector-dominique.json"
+  },
+  {
+    "id": "trainer-id-292",
+    "trainerId": 292,
+    "name": "Collector Jamal",
+    "file": "trainers/bdsp/292-collector-jamal.json"
+  },
+  {
+    "id": "trainer-id-293",
+    "trainerId": 293,
+    "name": "Collector Terry",
+    "file": "trainers/bdsp/293-collector-terry.json"
+  },
+  {
+    "id": "trainer-id-294",
+    "trainerId": 294,
+    "name": "Dragon Tamer Joe",
+    "file": "trainers/bdsp/294-dragon-tamer-joe.json"
+  },
+  {
+    "id": "trainer-id-295",
+    "trainerId": 295,
+    "name": "Ace Trainer Jonah",
+    "file": "trainers/bdsp/295-ace-trainer-jonah.json"
+  },
+  {
+    "id": "trainer-id-296",
+    "trainerId": 296,
+    "name": "Ace Trainer Micah",
+    "file": "trainers/bdsp/296-ace-trainer-micah.json"
+  },
+  {
+    "id": "trainer-id-297",
+    "trainerId": 297,
+    "name": "Ace Trainer Arthur",
+    "file": "trainers/bdsp/297-ace-trainer-arthur.json"
+  },
+  {
+    "id": "trainer-id-298",
+    "trainerId": 298,
+    "name": "Ace Trainer Brenda",
+    "file": "trainers/bdsp/298-ace-trainer-brenda.json"
+  },
+  {
+    "id": "trainer-id-299",
+    "trainerId": 299,
+    "name": "Ace Trainer Brandi",
+    "file": "trainers/bdsp/299-ace-trainer-brandi.json"
+  },
+  {
+    "id": "trainer-id-300",
+    "trainerId": 300,
+    "name": "Ace Trainer Clarice",
+    "file": "trainers/bdsp/300-ace-trainer-clarice.json"
+  },
+  {
+    "id": "trainer-id-301",
+    "trainerId": 301,
+    "name": "Psychic Kody",
+    "file": "trainers/bdsp/301-psychic-kody.json"
+  },
+  {
+    "id": "trainer-id-302",
+    "trainerId": 302,
+    "name": "Psychic Landon",
+    "file": "trainers/bdsp/302-psychic-landon.json"
+  },
+  {
+    "id": "trainer-id-303",
+    "trainerId": 303,
+    "name": "Psychic Deandre",
+    "file": "trainers/bdsp/303-psychic-deandre.json"
+  },
+  {
+    "id": "trainer-id-304",
+    "trainerId": 304,
+    "name": "Psychic Rachael",
+    "file": "trainers/bdsp/304-psychic-rachael.json"
+  },
+  {
+    "id": "trainer-id-305",
+    "trainerId": 305,
+    "name": "Psychic Desiree",
+    "file": "trainers/bdsp/305-psychic-desiree.json"
+  },
+  {
+    "id": "trainer-id-306",
+    "trainerId": 306,
+    "name": "Psychic Kendra",
+    "file": "trainers/bdsp/306-psychic-kendra.json"
+  },
+  {
+    "id": "trainer-id-307",
+    "trainerId": 307,
+    "name": "Fisher Walter",
+    "file": "trainers/bdsp/307-fisher-walter.json"
+  },
+  {
+    "id": "trainer-id-308",
+    "trainerId": 308,
+    "name": "Team Galactic Boss Cyrus",
+    "file": "trainers/bdsp/308-team-galactic-boss-cyrus.json"
+  },
+  {
+    "id": "trainer-id-309",
+    "trainerId": 309,
+    "name": "Team Galactic Boss Cyrus",
+    "file": "trainers/bdsp/309-team-galactic-boss-cyrus.json"
+  },
+  {
+    "id": "trainer-id-310",
+    "trainerId": 310,
+    "name": "Commander Mars",
+    "file": "trainers/bdsp/310-commander-mars.json"
+  },
+  {
+    "id": "trainer-id-311",
+    "trainerId": 311,
+    "name": "Commander Jupiter",
+    "file": "trainers/bdsp/311-commander-jupiter.json"
+  },
+  {
+    "id": "trainer-id-312",
+    "trainerId": 312,
+    "name": "Commander Jupiter",
+    "file": "trainers/bdsp/312-commander-jupiter.json"
+  },
+  {
+    "id": "trainer-id-313",
+    "trainerId": 313,
+    "name": "Commander Saturn",
+    "file": "trainers/bdsp/313-commander-saturn.json"
+  },
+  {
+    "id": "trainer-id-314",
+    "trainerId": 314,
+    "name": "Commander Saturn",
+    "file": "trainers/bdsp/314-commander-saturn.json"
+  },
+  {
+    "id": "trainer-id-315",
+    "trainerId": 315,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/315-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-316",
+    "trainerId": 316,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/316-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-317",
+    "trainerId": 317,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/317-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-318",
+    "trainerId": 318,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/318-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-319",
+    "trainerId": 319,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/319-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-320",
+    "trainerId": 320,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/320-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-321",
+    "trainerId": 321,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/321-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-322",
+    "trainerId": 322,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/322-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-323",
+    "trainerId": 323,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/323-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-324",
+    "trainerId": 324,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/324-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-325",
+    "trainerId": 325,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/325-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-326",
+    "trainerId": 326,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/326-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-327",
+    "trainerId": 327,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/327-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-328",
+    "trainerId": 328,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/328-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-329",
+    "trainerId": 329,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/329-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-330",
+    "trainerId": 330,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/330-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-331",
+    "trainerId": 331,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/331-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-332",
+    "trainerId": 332,
+    "name": "Guitarist Arturo",
+    "file": "trainers/bdsp/332-guitarist-arturo.json"
+  },
+  {
+    "id": "trainer-id-333",
+    "trainerId": 333,
+    "name": "Ruin Maniac Harry",
+    "file": "trainers/bdsp/333-ruin-maniac-harry.json"
+  },
+  {
+    "id": "trainer-id-334",
+    "trainerId": 334,
+    "name": "Ruin Maniac Gerald",
+    "file": "trainers/bdsp/334-ruin-maniac-gerald.json"
+  },
+  {
+    "id": "trainer-id-335",
+    "trainerId": 335,
+    "name": "Black Belt Miles",
+    "file": "trainers/bdsp/335-black-belt-miles.json"
+  },
+  {
+    "id": "trainer-id-336",
+    "trainerId": 336,
+    "name": "Black Belt Kendal",
+    "file": "trainers/bdsp/336-black-belt-kendal.json"
+  },
+  {
+    "id": "trainer-id-337",
+    "trainerId": 337,
+    "name": "Black Belt Eddie",
+    "file": "trainers/bdsp/337-black-belt-eddie.json"
+  },
+  {
+    "id": "trainer-id-338",
+    "trainerId": 338,
+    "name": "Black Belt Willie",
+    "file": "trainers/bdsp/338-black-belt-willie.json"
+  },
+  {
+    "id": "trainer-id-339",
+    "trainerId": 339,
+    "name": "Lass Cassidy",
+    "file": "trainers/bdsp/339-lass-cassidy.json"
+  },
+  {
+    "id": "trainer-id-340",
+    "trainerId": 340,
+    "name": "Hiker Theodore",
+    "file": "trainers/bdsp/340-hiker-theodore.json"
+  },
+  {
+    "id": "trainer-id-341",
+    "trainerId": 341,
+    "name": "Hiker Damon",
+    "file": "trainers/bdsp/341-hiker-damon.json"
+  },
+  {
+    "id": "trainer-id-342",
+    "trainerId": 342,
+    "name": "Hiker Maurice",
+    "file": "trainers/bdsp/342-hiker-maurice.json"
+  },
+  {
+    "id": "trainer-id-343",
+    "trainerId": 343,
+    "name": "Hiker Reginald",
+    "file": "trainers/bdsp/343-hiker-reginald.json"
+  },
+  {
+    "id": "trainer-id-344",
+    "trainerId": 344,
+    "name": "Hiker Lorenzo",
+    "file": "trainers/bdsp/344-hiker-lorenzo.json"
+  },
+  {
+    "id": "trainer-id-345",
+    "trainerId": 345,
+    "name": "Picnicker Karina",
+    "file": "trainers/bdsp/345-picnicker-karina.json"
+  },
+  {
+    "id": "trainer-id-346",
+    "trainerId": 346,
+    "name": "Picnicker Summer",
+    "file": "trainers/bdsp/346-picnicker-summer.json"
+  },
+  {
+    "id": "trainer-id-347",
+    "trainerId": 347,
+    "name": "Picnicker Tori",
+    "file": "trainers/bdsp/347-picnicker-tori.json"
+  },
+  {
+    "id": "trainer-id-348",
+    "trainerId": 348,
+    "name": "Picnicker Ana",
+    "file": "trainers/bdsp/348-picnicker-ana.json"
+  },
+  {
+    "id": "trainer-id-349",
+    "trainerId": 349,
+    "name": "Clown Lee",
+    "file": "trainers/bdsp/349-clown-lee.json"
+  },
+  {
+    "id": "trainer-id-350",
+    "trainerId": 350,
+    "name": "Poké Kid Ariel",
+    "file": "trainers/bdsp/350-pok-kid-ariel.json"
+  },
+  {
+    "id": "trainer-id-351",
+    "trainerId": 351,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/351-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-352",
+    "trainerId": 352,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/352-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-353",
+    "trainerId": 353,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/353-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-354",
+    "trainerId": 354,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/354-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-355",
+    "trainerId": 355,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/355-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-356",
+    "trainerId": 356,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/356-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-357",
+    "trainerId": 357,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/357-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-358",
+    "trainerId": 358,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/358-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-359",
+    "trainerId": 359,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/359-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-360",
+    "trainerId": 360,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/360-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-361",
+    "trainerId": 361,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/361-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-362",
+    "trainerId": 362,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/362-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-363",
+    "trainerId": 363,
+    "name": "Sailor Zachariah",
+    "file": "trainers/bdsp/363-sailor-zachariah.json"
+  },
+  {
+    "id": "trainer-id-364",
+    "trainerId": 364,
+    "name": "Sailor Samson",
+    "file": "trainers/bdsp/364-sailor-samson.json"
+  },
+  {
+    "id": "trainer-id-365",
+    "trainerId": 365,
+    "name": "Scientist Shaun",
+    "file": "trainers/bdsp/365-scientist-shaun.json"
+  },
+  {
+    "id": "trainer-id-366",
+    "trainerId": 366,
+    "name": "Ninja Boy Fabian",
+    "file": "trainers/bdsp/366-ninja-boy-fabian.json"
+  },
+  {
+    "id": "trainer-id-367",
+    "trainerId": 367,
+    "name": "Ninja Boy Brennan",
+    "file": "trainers/bdsp/367-ninja-boy-brennan.json"
+  },
+  {
+    "id": "trainer-id-368",
+    "trainerId": 368,
+    "name": "Ninja Boy Bruce",
+    "file": "trainers/bdsp/368-ninja-boy-bruce.json"
+  },
+  {
+    "id": "trainer-id-369",
+    "trainerId": 369,
+    "name": "Beauty Devon",
+    "file": "trainers/bdsp/369-beauty-devon.json"
+  },
+  {
+    "id": "trainer-id-370",
+    "trainerId": 370,
+    "name": "Beauty Nicola",
+    "file": "trainers/bdsp/370-beauty-nicola.json"
+  },
+  {
+    "id": "trainer-id-371",
+    "trainerId": 371,
+    "name": "Swimmer Claire",
+    "file": "trainers/bdsp/371-swimmer-claire.json"
+  },
+  {
+    "id": "trainer-id-372",
+    "trainerId": 372,
+    "name": "Youngster Wayne",
+    "file": "trainers/bdsp/372-youngster-wayne.json"
+  },
+  {
+    "id": "trainer-id-373",
+    "trainerId": 373,
+    "name": "Tuber Jacky",
+    "file": "trainers/bdsp/373-tuber-jacky.json"
+  },
+  {
+    "id": "trainer-id-374",
+    "trainerId": 374,
+    "name": "Tuber Caitlyn",
+    "file": "trainers/bdsp/374-tuber-caitlyn.json"
+  },
+  {
+    "id": "trainer-id-375",
+    "trainerId": 375,
+    "name": "Veteran Terrell",
+    "file": "trainers/bdsp/375-veteran-terrell.json"
+  },
+  {
+    "id": "trainer-id-376",
+    "trainerId": 376,
+    "name": "Veteran Brenden",
+    "file": "trainers/bdsp/376-veteran-brenden.json"
+  },
+  {
+    "id": "trainer-id-377",
+    "trainerId": 377,
+    "name": "Worker Willy",
+    "file": "trainers/bdsp/377-worker-willy.json"
+  },
+  {
+    "id": "trainer-id-378",
+    "trainerId": 378,
+    "name": "Worker Braden",
+    "file": "trainers/bdsp/378-worker-braden.json"
+  },
+  {
+    "id": "trainer-id-379",
+    "trainerId": 379,
+    "name": "Worker Brendon",
+    "file": "trainers/bdsp/379-worker-brendon.json"
+  },
+  {
+    "id": "trainer-id-380",
+    "trainerId": 380,
+    "name": "Worker Quentin",
+    "file": "trainers/bdsp/380-worker-quentin.json"
+  },
+  {
+    "id": "trainer-id-381",
+    "trainerId": 381,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/381-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-382",
+    "trainerId": 382,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/382-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-383",
+    "trainerId": 383,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/383-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-384",
+    "trainerId": 384,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/384-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-385",
+    "trainerId": 385,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/385-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-386",
+    "trainerId": 386,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/386-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-387",
+    "trainerId": 387,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/387-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-388",
+    "trainerId": 388,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/388-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-389",
+    "trainerId": 389,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/389-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-390",
+    "trainerId": 390,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/390-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-391",
+    "trainerId": 391,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/391-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-392",
+    "trainerId": 392,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/392-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-393",
+    "trainerId": 393,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/393-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-394",
+    "trainerId": 394,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/394-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-395",
+    "trainerId": 395,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/395-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-396",
+    "trainerId": 396,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/396-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-397",
+    "trainerId": 397,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/397-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-398",
+    "trainerId": 398,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/398-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-399",
+    "trainerId": 399,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/399-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-400",
+    "trainerId": 400,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/400-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-401",
+    "trainerId": 401,
+    "name": "Commander Mars",
+    "file": "trainers/bdsp/401-commander-mars.json"
+  },
+  {
+    "id": "trainer-id-402",
+    "trainerId": 402,
+    "name": "Roughneck Kirby",
+    "file": "trainers/bdsp/402-roughneck-kirby.json"
+  },
+  {
+    "id": "trainer-id-403",
+    "trainerId": 403,
+    "name": "Poké Fan Leonard",
+    "file": "trainers/bdsp/403-pok-fan-leonard.json"
+  },
+  {
+    "id": "trainer-id-404",
+    "trainerId": 404,
+    "name": "Poké Fan Rebekah",
+    "file": "trainers/bdsp/404-pok-fan-rebekah.json"
+  },
+  {
+    "id": "trainer-id-405",
+    "trainerId": 405,
+    "name": "Youngster Oliver",
+    "file": "trainers/bdsp/405-youngster-oliver.json"
+  },
+  {
+    "id": "trainer-id-406",
+    "trainerId": 406,
+    "name": "Ranchers Beth",
+    "file": "trainers/bdsp/406-ranchers-beth.json"
+  },
+  {
+    "id": "trainer-id-407",
+    "trainerId": 407,
+    "name": "Ranchers Bob",
+    "file": "trainers/bdsp/407-ranchers-bob.json"
+  },
+  {
+    "id": "trainer-id-408",
+    "trainerId": 408,
+    "name": "Young Couple Mike",
+    "file": "trainers/bdsp/408-young-couple-mike.json"
+  },
+  {
+    "id": "trainer-id-409",
+    "trainerId": 409,
+    "name": "Young Couple Nat",
+    "file": "trainers/bdsp/409-young-couple-nat.json"
+  },
+  {
+    "id": "trainer-id-410",
+    "trainerId": 410,
+    "name": "Aroma Lady Alison",
+    "file": "trainers/bdsp/410-aroma-lady-alison.json"
+  },
+  {
+    "id": "trainer-id-411",
+    "trainerId": 411,
+    "name": "Artist Ismael",
+    "file": "trainers/bdsp/411-artist-ismael.json"
+  },
+  {
+    "id": "trainer-id-412",
+    "trainerId": 412,
+    "name": "Pokémon Breeder Kaylee",
+    "file": "trainers/bdsp/412-pok-mon-breeder-kaylee.json"
+  },
+  {
+    "id": "trainer-id-413",
+    "trainerId": 413,
+    "name": "Cameraman Darryl",
+    "file": "trainers/bdsp/413-cameraman-darryl.json"
+  },
+  {
+    "id": "trainer-id-414",
+    "trainerId": 414,
+    "name": "Collector Eugene",
+    "file": "trainers/bdsp/414-collector-eugene.json"
+  },
+  {
+    "id": "trainer-id-415",
+    "trainerId": 415,
+    "name": "Poké Fan Meredith",
+    "file": "trainers/bdsp/415-pok-fan-meredith.json"
+  },
+  {
+    "id": "trainer-id-416",
+    "trainerId": 416,
+    "name": "PI Kendrick",
+    "file": "trainers/bdsp/416-pi-kendrick.json"
+  },
+  {
+    "id": "trainer-id-417",
+    "trainerId": 417,
+    "name": "Gentleman Leonardo",
+    "file": "trainers/bdsp/417-gentleman-leonardo.json"
+  },
+  {
+    "id": "trainer-id-418",
+    "trainerId": 418,
+    "name": "Madame Rebecca",
+    "file": "trainers/bdsp/418-madame-rebecca.json"
+  },
+  {
+    "id": "trainer-id-419",
+    "trainerId": 419,
+    "name": "Lass Blythe",
+    "file": "trainers/bdsp/419-lass-blythe.json"
+  },
+  {
+    "id": "trainer-id-420",
+    "trainerId": 420,
+    "name": "Rich Boy Roman",
+    "file": "trainers/bdsp/420-rich-boy-roman.json"
+  },
+  {
+    "id": "trainer-id-421",
+    "trainerId": 421,
+    "name": "Lady Kylie",
+    "file": "trainers/bdsp/421-lady-kylie.json"
+  },
+  {
+    "id": "trainer-id-422",
+    "trainerId": 422,
+    "name": "Reporter Valerie",
+    "file": "trainers/bdsp/422-reporter-valerie.json"
+  },
+  {
+    "id": "trainer-id-423",
+    "trainerId": 423,
+    "name": "School Kid Esteban",
+    "file": "trainers/bdsp/423-school-kid-esteban.json"
+  },
+  {
+    "id": "trainer-id-424",
+    "trainerId": 424,
+    "name": "Scientist Emilio",
+    "file": "trainers/bdsp/424-scientist-emilio.json"
+  },
+  {
+    "id": "trainer-id-425",
+    "trainerId": 425,
+    "name": "Beauty Gabriella",
+    "file": "trainers/bdsp/425-beauty-gabriella.json"
+  },
+  {
+    "id": "trainer-id-426",
+    "trainerId": 426,
+    "name": "Beauty Harley",
+    "file": "trainers/bdsp/426-beauty-harley.json"
+  },
+  {
+    "id": "trainer-id-427",
+    "trainerId": 427,
+    "name": "Veteran Emanuel",
+    "file": "trainers/bdsp/427-veteran-emanuel.json"
+  },
+  {
+    "id": "trainer-id-428",
+    "trainerId": 428,
+    "name": "Ruin Maniac Karl",
+    "file": "trainers/bdsp/428-ruin-maniac-karl.json"
+  },
+  {
+    "id": "trainer-id-429",
+    "trainerId": 429,
+    "name": "Bird Keeper Audrey",
+    "file": "trainers/bdsp/429-bird-keeper-audrey.json"
+  },
+  {
+    "id": "trainer-id-430",
+    "trainerId": 430,
+    "name": "Bird Keeper Geneva",
+    "file": "trainers/bdsp/430-bird-keeper-geneva.json"
+  },
+  {
+    "id": "trainer-id-431",
+    "trainerId": 431,
+    "name": "Bird Keeper Krystal",
+    "file": "trainers/bdsp/431-bird-keeper-krystal.json"
+  },
+  {
+    "id": "trainer-id-432",
+    "trainerId": 432,
+    "name": "Dragon Tamer Geoffrey",
+    "file": "trainers/bdsp/432-dragon-tamer-geoffrey.json"
+  },
+  {
+    "id": "trainer-id-433",
+    "trainerId": 433,
+    "name": "Dragon Tamer Darien",
+    "file": "trainers/bdsp/433-dragon-tamer-darien.json"
+  },
+  {
+    "id": "trainer-id-434",
+    "trainerId": 434,
+    "name": "Dragon Tamer Keegan",
+    "file": "trainers/bdsp/434-dragon-tamer-keegan.json"
+  },
+  {
+    "id": "trainer-id-435",
+    "trainerId": 435,
+    "name": "Dragon Tamer Stanley",
+    "file": "trainers/bdsp/435-dragon-tamer-stanley.json"
+  },
+  {
+    "id": "trainer-id-436",
+    "trainerId": 436,
+    "name": "Dragon Tamer Drake",
+    "file": "trainers/bdsp/436-dragon-tamer-drake.json"
+  },
+  {
+    "id": "trainer-id-437",
+    "trainerId": 437,
+    "name": "Dragon Tamer Kenny",
+    "file": "trainers/bdsp/437-dragon-tamer-kenny.json"
+  },
+  {
+    "id": "trainer-id-438",
+    "trainerId": 438,
+    "name": "Ace Trainer Rodolfo",
+    "file": "trainers/bdsp/438-ace-trainer-rodolfo.json"
+  },
+  {
+    "id": "trainer-id-439",
+    "trainerId": 439,
+    "name": "Ace Trainer Saul",
+    "file": "trainers/bdsp/439-ace-trainer-saul.json"
+  },
+  {
+    "id": "trainer-id-440",
+    "trainerId": 440,
+    "name": "Ace Trainer Jose",
+    "file": "trainers/bdsp/440-ace-trainer-jose.json"
+  },
+  {
+    "id": "trainer-id-441",
+    "trainerId": 441,
+    "name": "Ace Trainer Felix",
+    "file": "trainers/bdsp/441-ace-trainer-felix.json"
+  },
+  {
+    "id": "trainer-id-442",
+    "trainerId": 442,
+    "name": "Ace Trainer Quinn",
+    "file": "trainers/bdsp/442-ace-trainer-quinn.json"
+  },
+  {
+    "id": "trainer-id-443",
+    "trainerId": 443,
+    "name": "Ace Trainer Graham",
+    "file": "trainers/bdsp/443-ace-trainer-graham.json"
+  },
+  {
+    "id": "trainer-id-444",
+    "trainerId": 444,
+    "name": "Ace Trainer Keenan",
+    "file": "trainers/bdsp/444-ace-trainer-keenan.json"
+  },
+  {
+    "id": "trainer-id-445",
+    "trainerId": 445,
+    "name": "Ace Trainer Stefan",
+    "file": "trainers/bdsp/445-ace-trainer-stefan.json"
+  },
+  {
+    "id": "trainer-id-446",
+    "trainerId": 446,
+    "name": "Ace Trainer Skyler",
+    "file": "trainers/bdsp/446-ace-trainer-skyler.json"
+  },
+  {
+    "id": "trainer-id-447",
+    "trainerId": 447,
+    "name": "Ace Trainer Abel",
+    "file": "trainers/bdsp/447-ace-trainer-abel.json"
+  },
+  {
+    "id": "trainer-id-448",
+    "trainerId": 448,
+    "name": "Ace Trainer Deanna",
+    "file": "trainers/bdsp/448-ace-trainer-deanna.json"
+  },
+  {
+    "id": "trainer-id-449",
+    "trainerId": 449,
+    "name": "Ace Trainer Ariana",
+    "file": "trainers/bdsp/449-ace-trainer-ariana.json"
+  },
+  {
+    "id": "trainer-id-450",
+    "trainerId": 450,
+    "name": "Ace Trainer Dana",
+    "file": "trainers/bdsp/450-ace-trainer-dana.json"
+  },
+  {
+    "id": "trainer-id-451",
+    "trainerId": 451,
+    "name": "Ace Trainer Mikayla",
+    "file": "trainers/bdsp/451-ace-trainer-mikayla.json"
+  },
+  {
+    "id": "trainer-id-452",
+    "trainerId": 452,
+    "name": "Ace Trainer Meagan",
+    "file": "trainers/bdsp/452-ace-trainer-meagan.json"
+  },
+  {
+    "id": "trainer-id-453",
+    "trainerId": 453,
+    "name": "Ace Trainer Sandra",
+    "file": "trainers/bdsp/453-ace-trainer-sandra.json"
+  },
+  {
+    "id": "trainer-id-454",
+    "trainerId": 454,
+    "name": "Ace Trainer Kassandra",
+    "file": "trainers/bdsp/454-ace-trainer-kassandra.json"
+  },
+  {
+    "id": "trainer-id-455",
+    "trainerId": 455,
+    "name": "Ace Trainer Jasmin",
+    "file": "trainers/bdsp/455-ace-trainer-jasmin.json"
+  },
+  {
+    "id": "trainer-id-456",
+    "trainerId": 456,
+    "name": "Ace Trainer Natasha",
+    "file": "trainers/bdsp/456-ace-trainer-natasha.json"
+  },
+  {
+    "id": "trainer-id-457",
+    "trainerId": 457,
+    "name": "Ace Trainer Monique",
+    "file": "trainers/bdsp/457-ace-trainer-monique.json"
+  },
+  {
+    "id": "trainer-id-458",
+    "trainerId": 458,
+    "name": "Psychic Corbin",
+    "file": "trainers/bdsp/458-psychic-corbin.json"
+  },
+  {
+    "id": "trainer-id-459",
+    "trainerId": 459,
+    "name": "Psychic Sterling",
+    "file": "trainers/bdsp/459-psychic-sterling.json"
+  },
+  {
+    "id": "trainer-id-460",
+    "trainerId": 460,
+    "name": "Psychic Daisy",
+    "file": "trainers/bdsp/460-psychic-daisy.json"
+  },
+  {
+    "id": "trainer-id-461",
+    "trainerId": 461,
+    "name": "Psychic Chelsey",
+    "file": "trainers/bdsp/461-psychic-chelsey.json"
+  },
+  {
+    "id": "trainer-id-462",
+    "trainerId": 462,
+    "name": "Black Belt Davon",
+    "file": "trainers/bdsp/462-black-belt-davon.json"
+  },
+  {
+    "id": "trainer-id-463",
+    "trainerId": 463,
+    "name": "Black Belt Griffin",
+    "file": "trainers/bdsp/463-black-belt-griffin.json"
+  },
+  {
+    "id": "trainer-id-464",
+    "trainerId": 464,
+    "name": "Black Belt Ray",
+    "file": "trainers/bdsp/464-black-belt-ray.json"
+  },
+  {
+    "id": "trainer-id-465",
+    "trainerId": 465,
+    "name": "Black Belt Jarrett",
+    "file": "trainers/bdsp/465-black-belt-jarrett.json"
+  },
+  {
+    "id": "trainer-id-466",
+    "trainerId": 466,
+    "name": "Pokémon Ranger Kyler",
+    "file": "trainers/bdsp/466-pok-mon-ranger-kyler.json"
+  },
+  {
+    "id": "trainer-id-467",
+    "trainerId": 467,
+    "name": "Pokémon Ranger Deshawn",
+    "file": "trainers/bdsp/467-pok-mon-ranger-deshawn.json"
+  },
+  {
+    "id": "trainer-id-468",
+    "trainerId": 468,
+    "name": "Pokémon Ranger Dwayne",
+    "file": "trainers/bdsp/468-pok-mon-ranger-dwayne.json"
+  },
+  {
+    "id": "trainer-id-469",
+    "trainerId": 469,
+    "name": "Pokémon Ranger Ashlee",
+    "file": "trainers/bdsp/469-pok-mon-ranger-ashlee.json"
+  },
+  {
+    "id": "trainer-id-470",
+    "trainerId": 470,
+    "name": "Pokémon Ranger Felicia",
+    "file": "trainers/bdsp/470-pok-mon-ranger-felicia.json"
+  },
+  {
+    "id": "trainer-id-471",
+    "trainerId": 471,
+    "name": "Pokémon Ranger Krista",
+    "file": "trainers/bdsp/471-pok-mon-ranger-krista.json"
+  },
+  {
+    "id": "trainer-id-472",
+    "trainerId": 472,
+    "name": "Swimmer Glenn",
+    "file": "trainers/bdsp/472-swimmer-glenn.json"
+  },
+  {
+    "id": "trainer-id-473",
+    "trainerId": 473,
+    "name": "Swimmer Kurt",
+    "file": "trainers/bdsp/473-swimmer-kurt.json"
+  },
+  {
+    "id": "trainer-id-474",
+    "trainerId": 474,
+    "name": "Swimmer Sam",
+    "file": "trainers/bdsp/474-swimmer-sam.json"
+  },
+  {
+    "id": "trainer-id-475",
+    "trainerId": 475,
+    "name": "Swimmer Wade",
+    "file": "trainers/bdsp/475-swimmer-wade.json"
+  },
+  {
+    "id": "trainer-id-476",
+    "trainerId": 476,
+    "name": "Swimmer Joanna",
+    "file": "trainers/bdsp/476-swimmer-joanna.json"
+  },
+  {
+    "id": "trainer-id-477",
+    "trainerId": 477,
+    "name": "Swimmer Sophia",
+    "file": "trainers/bdsp/477-swimmer-sophia.json"
+  },
+  {
+    "id": "trainer-id-478",
+    "trainerId": 478,
+    "name": "Swimmer Mallory",
+    "file": "trainers/bdsp/478-swimmer-mallory.json"
+  },
+  {
+    "id": "trainer-id-479",
+    "trainerId": 479,
+    "name": "Swimmer Lydia",
+    "file": "trainers/bdsp/479-swimmer-lydia.json"
+  },
+  {
+    "id": "trainer-id-480",
+    "trainerId": 480,
+    "name": "Veteran Harlan",
+    "file": "trainers/bdsp/480-veteran-harlan.json"
+  },
+  {
+    "id": "trainer-id-481",
+    "trainerId": 481,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/481-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-482",
+    "trainerId": 482,
+    "name": "Pokémon Trainer Cheryl",
+    "file": "trainers/bdsp/482-pok-mon-trainer-cheryl.json"
+  },
+  {
+    "id": "trainer-id-483",
+    "trainerId": 483,
+    "name": "Pokémon Trainer Riley",
+    "file": "trainers/bdsp/483-pok-mon-trainer-riley.json"
+  },
+  {
+    "id": "trainer-id-484",
+    "trainerId": 484,
+    "name": "Pokémon Trainer Marley",
+    "file": "trainers/bdsp/484-pok-mon-trainer-marley.json"
+  },
+  {
+    "id": "trainer-id-485",
+    "trainerId": 485,
+    "name": "Pokémon Trainer Buck",
+    "file": "trainers/bdsp/485-pok-mon-trainer-buck.json"
+  },
+  {
+    "id": "trainer-id-486",
+    "trainerId": 486,
+    "name": "Pokémon Trainer Mira",
+    "file": "trainers/bdsp/486-pok-mon-trainer-mira.json"
+  },
+  {
+    "id": "trainer-id-487",
+    "trainerId": 487,
+    "name": "Pokémon Trainer Lucas",
+    "file": "trainers/bdsp/487-pok-mon-trainer-lucas.json"
+  },
+  {
+    "id": "trainer-id-488",
+    "trainerId": 488,
+    "name": "Pokémon Trainer Lucas",
+    "file": "trainers/bdsp/488-pok-mon-trainer-lucas.json"
+  },
+  {
+    "id": "trainer-id-489",
+    "trainerId": 489,
+    "name": "Pokémon Trainer Lucas",
+    "file": "trainers/bdsp/489-pok-mon-trainer-lucas.json"
+  },
+  {
+    "id": "trainer-id-490",
+    "trainerId": 490,
+    "name": "Pokémon Trainer Dawn",
+    "file": "trainers/bdsp/490-pok-mon-trainer-dawn.json"
+  },
+  {
+    "id": "trainer-id-491",
+    "trainerId": 491,
+    "name": "Pokémon Trainer Dawn",
+    "file": "trainers/bdsp/491-pok-mon-trainer-dawn.json"
+  },
+  {
+    "id": "trainer-id-492",
+    "trainerId": 492,
+    "name": "Pokémon Trainer Dawn",
+    "file": "trainers/bdsp/492-pok-mon-trainer-dawn.json"
+  },
+  {
+    "id": "trainer-id-493",
+    "trainerId": 493,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/493-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-494",
+    "trainerId": 494,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/494-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-495",
+    "trainerId": 495,
+    "name": "Pokémon Trainer Lucas",
+    "file": "trainers/bdsp/495-pok-mon-trainer-lucas.json"
+  },
+  {
+    "id": "trainer-id-496",
+    "trainerId": 496,
+    "name": "Pokémon Trainer Lucas",
+    "file": "trainers/bdsp/496-pok-mon-trainer-lucas.json"
+  },
+  {
+    "id": "trainer-id-497",
+    "trainerId": 497,
+    "name": "Pokémon Trainer Lucas",
+    "file": "trainers/bdsp/497-pok-mon-trainer-lucas.json"
+  },
+  {
+    "id": "trainer-id-498",
+    "trainerId": 498,
+    "name": "Pokémon Trainer Dawn",
+    "file": "trainers/bdsp/498-pok-mon-trainer-dawn.json"
+  },
+  {
+    "id": "trainer-id-499",
+    "trainerId": 499,
+    "name": "Pokémon Trainer Dawn",
+    "file": "trainers/bdsp/499-pok-mon-trainer-dawn.json"
+  },
+  {
+    "id": "trainer-id-500",
+    "trainerId": 500,
+    "name": "Pokémon Trainer Dawn",
+    "file": "trainers/bdsp/500-pok-mon-trainer-dawn.json"
+  },
+  {
+    "id": "trainer-id-501",
+    "trainerId": 501,
+    "name": "Aroma Lady Elizabeth",
+    "file": "trainers/bdsp/501-aroma-lady-elizabeth.json"
+  },
+  {
+    "id": "trainer-id-502",
+    "trainerId": 502,
+    "name": "Aroma Lady Elizabeth",
+    "file": "trainers/bdsp/502-aroma-lady-elizabeth.json"
+  },
+  {
+    "id": "trainer-id-503",
+    "trainerId": 503,
+    "name": "Aroma Lady Elizabeth",
+    "file": "trainers/bdsp/503-aroma-lady-elizabeth.json"
+  },
+  {
+    "id": "trainer-id-504",
+    "trainerId": 504,
+    "name": "Artist Kevin",
+    "file": "trainers/bdsp/504-artist-kevin.json"
+  },
+  {
+    "id": "trainer-id-505",
+    "trainerId": 505,
+    "name": "Artist Kevin",
+    "file": "trainers/bdsp/505-artist-kevin.json"
+  },
+  {
+    "id": "trainer-id-506",
+    "trainerId": 506,
+    "name": "Artist Kevin",
+    "file": "trainers/bdsp/506-artist-kevin.json"
+  },
+  {
+    "id": "trainer-id-507",
+    "trainerId": 507,
+    "name": "Battle Girl Helen",
+    "file": "trainers/bdsp/507-battle-girl-helen.json"
+  },
+  {
+    "id": "trainer-id-508",
+    "trainerId": 508,
+    "name": "Battle Girl Helen",
+    "file": "trainers/bdsp/508-battle-girl-helen.json"
+  },
+  {
+    "id": "trainer-id-509",
+    "trainerId": 509,
+    "name": "Battle Girl Helen",
+    "file": "trainers/bdsp/509-battle-girl-helen.json"
+  },
+  {
+    "id": "trainer-id-510",
+    "trainerId": 510,
+    "name": "Bird Keeper Brianna",
+    "file": "trainers/bdsp/510-bird-keeper-brianna.json"
+  },
+  {
+    "id": "trainer-id-511",
+    "trainerId": 511,
+    "name": "Bird Keeper Brianna",
+    "file": "trainers/bdsp/511-bird-keeper-brianna.json"
+  },
+  {
+    "id": "trainer-id-512",
+    "trainerId": 512,
+    "name": "Bird Keeper Audrey",
+    "file": "trainers/bdsp/512-bird-keeper-audrey.json"
+  },
+  {
+    "id": "trainer-id-513",
+    "trainerId": 513,
+    "name": "Pokémon Breeder Albert",
+    "file": "trainers/bdsp/513-pok-mon-breeder-albert.json"
+  },
+  {
+    "id": "trainer-id-514",
+    "trainerId": 514,
+    "name": "Pokémon Breeder Albert",
+    "file": "trainers/bdsp/514-pok-mon-breeder-albert.json"
+  },
+  {
+    "id": "trainer-id-515",
+    "trainerId": 515,
+    "name": "Pokémon Breeder Albert",
+    "file": "trainers/bdsp/515-pok-mon-breeder-albert.json"
+  },
+  {
+    "id": "trainer-id-516",
+    "trainerId": 516,
+    "name": "Pokémon Breeder Jennifer",
+    "file": "trainers/bdsp/516-pok-mon-breeder-jennifer.json"
+  },
+  {
+    "id": "trainer-id-517",
+    "trainerId": 517,
+    "name": "Pokémon Breeder Jennifer",
+    "file": "trainers/bdsp/517-pok-mon-breeder-jennifer.json"
+  },
+  {
+    "id": "trainer-id-518",
+    "trainerId": 518,
+    "name": "Pokémon Breeder Jennifer",
+    "file": "trainers/bdsp/518-pok-mon-breeder-jennifer.json"
+  },
+  {
+    "id": "trainer-id-519",
+    "trainerId": 519,
+    "name": "Camper Zackary",
+    "file": "trainers/bdsp/519-camper-zackary.json"
+  },
+  {
+    "id": "trainer-id-520",
+    "trainerId": 520,
+    "name": "Camper Zackary",
+    "file": "trainers/bdsp/520-camper-zackary.json"
+  },
+  {
+    "id": "trainer-id-521",
+    "trainerId": 521,
+    "name": "Camper Zackary",
+    "file": "trainers/bdsp/521-camper-zackary.json"
+  },
+  {
+    "id": "trainer-id-522",
+    "trainerId": 522,
+    "name": "Ace Trainer Dalton",
+    "file": "trainers/bdsp/522-ace-trainer-dalton.json"
+  },
+  {
+    "id": "trainer-id-523",
+    "trainerId": 523,
+    "name": "Ace Trainer Olivia",
+    "file": "trainers/bdsp/523-ace-trainer-olivia.json"
+  },
+  {
+    "id": "trainer-id-524",
+    "trainerId": 524,
+    "name": "Collector Ivan",
+    "file": "trainers/bdsp/524-collector-ivan.json"
+  },
+  {
+    "id": "trainer-id-525",
+    "trainerId": 525,
+    "name": "Cyclist John",
+    "file": "trainers/bdsp/525-cyclist-john.json"
+  },
+  {
+    "id": "trainer-id-526",
+    "trainerId": 526,
+    "name": "Cyclist John",
+    "file": "trainers/bdsp/526-cyclist-john.json"
+  },
+  {
+    "id": "trainer-id-527",
+    "trainerId": 527,
+    "name": "Cyclist John",
+    "file": "trainers/bdsp/527-cyclist-john.json"
+  },
+  {
+    "id": "trainer-id-528",
+    "trainerId": 528,
+    "name": "Cyclist Kayla",
+    "file": "trainers/bdsp/528-cyclist-kayla.json"
+  },
+  {
+    "id": "trainer-id-529",
+    "trainerId": 529,
+    "name": "Cyclist Kayla",
+    "file": "trainers/bdsp/529-cyclist-kayla.json"
+  },
+  {
+    "id": "trainer-id-530",
+    "trainerId": 530,
+    "name": "Cyclist Kayla",
+    "file": "trainers/bdsp/530-cyclist-kayla.json"
+  },
+  {
+    "id": "trainer-id-531",
+    "trainerId": 531,
+    "name": "Dragon Tamer Patrick",
+    "file": "trainers/bdsp/531-dragon-tamer-patrick.json"
+  },
+  {
+    "id": "trainer-id-532",
+    "trainerId": 532,
+    "name": "Dragon Tamer Patrick",
+    "file": "trainers/bdsp/532-dragon-tamer-patrick.json"
+  },
+  {
+    "id": "trainer-id-533",
+    "trainerId": 533,
+    "name": "Dragon Tamer Hayden",
+    "file": "trainers/bdsp/533-dragon-tamer-hayden.json"
+  },
+  {
+    "id": "trainer-id-534",
+    "trainerId": 534,
+    "name": "Dragon Tamer Geoffrey",
+    "file": "trainers/bdsp/534-dragon-tamer-geoffrey.json"
+  },
+  {
+    "id": "trainer-id-535",
+    "trainerId": 535,
+    "name": "Ace Trainer Jake",
+    "file": "trainers/bdsp/535-ace-trainer-jake.json"
+  },
+  {
+    "id": "trainer-id-536",
+    "trainerId": 536,
+    "name": "Ace Trainer Dennis",
+    "file": "trainers/bdsp/536-ace-trainer-dennis.json"
+  },
+  {
+    "id": "trainer-id-537",
+    "trainerId": 537,
+    "name": "Ace Trainer Dennis",
+    "file": "trainers/bdsp/537-ace-trainer-dennis.json"
+  },
+  {
+    "id": "trainer-id-538",
+    "trainerId": 538,
+    "name": "Ace Trainer Rodolfo",
+    "file": "trainers/bdsp/538-ace-trainer-rodolfo.json"
+  },
+  {
+    "id": "trainer-id-539",
+    "trainerId": 539,
+    "name": "Ace Trainer Saul",
+    "file": "trainers/bdsp/539-ace-trainer-saul.json"
+  },
+  {
+    "id": "trainer-id-540",
+    "trainerId": 540,
+    "name": "Ace Trainer Shannon",
+    "file": "trainers/bdsp/540-ace-trainer-shannon.json"
+  },
+  {
+    "id": "trainer-id-541",
+    "trainerId": 541,
+    "name": "Ace Trainer Maya",
+    "file": "trainers/bdsp/541-ace-trainer-maya.json"
+  },
+  {
+    "id": "trainer-id-542",
+    "trainerId": 542,
+    "name": "Ace Trainer Maya",
+    "file": "trainers/bdsp/542-ace-trainer-maya.json"
+  },
+  {
+    "id": "trainer-id-543",
+    "trainerId": 543,
+    "name": "Ace Trainer Deanna",
+    "file": "trainers/bdsp/543-ace-trainer-deanna.json"
+  },
+  {
+    "id": "trainer-id-544",
+    "trainerId": 544,
+    "name": "Ace Trainer Ariana",
+    "file": "trainers/bdsp/544-ace-trainer-ariana.json"
+  },
+  {
+    "id": "trainer-id-545",
+    "trainerId": 545,
+    "name": "Psychic Mitchell",
+    "file": "trainers/bdsp/545-psychic-mitchell.json"
+  },
+  {
+    "id": "trainer-id-546",
+    "trainerId": 546,
+    "name": "Psychic Mitchell",
+    "file": "trainers/bdsp/546-psychic-mitchell.json"
+  },
+  {
+    "id": "trainer-id-547",
+    "trainerId": 547,
+    "name": "Psychic Maxwell",
+    "file": "trainers/bdsp/547-psychic-maxwell.json"
+  },
+  {
+    "id": "trainer-id-548",
+    "trainerId": 548,
+    "name": "Psychic Corbin",
+    "file": "trainers/bdsp/548-psychic-corbin.json"
+  },
+  {
+    "id": "trainer-id-549",
+    "trainerId": 549,
+    "name": "Psychic Abigail",
+    "file": "trainers/bdsp/549-psychic-abigail.json"
+  },
+  {
+    "id": "trainer-id-550",
+    "trainerId": 550,
+    "name": "Psychic Abigail",
+    "file": "trainers/bdsp/550-psychic-abigail.json"
+  },
+  {
+    "id": "trainer-id-551",
+    "trainerId": 551,
+    "name": "Psychic Brittney",
+    "file": "trainers/bdsp/551-psychic-brittney.json"
+  },
+  {
+    "id": "trainer-id-552",
+    "trainerId": 552,
+    "name": "Psychic Daisy",
+    "file": "trainers/bdsp/552-psychic-daisy.json"
+  },
+  {
+    "id": "trainer-id-553",
+    "trainerId": 553,
+    "name": "Rancher Marco",
+    "file": "trainers/bdsp/553-rancher-marco.json"
+  },
+  {
+    "id": "trainer-id-554",
+    "trainerId": 554,
+    "name": "Rancher Marco",
+    "file": "trainers/bdsp/554-rancher-marco.json"
+  },
+  {
+    "id": "trainer-id-555",
+    "trainerId": 555,
+    "name": "Fisher Joseph",
+    "file": "trainers/bdsp/555-fisher-joseph.json"
+  },
+  {
+    "id": "trainer-id-556",
+    "trainerId": 556,
+    "name": "Fisher Joseph",
+    "file": "trainers/bdsp/556-fisher-joseph.json"
+  },
+  {
+    "id": "trainer-id-557",
+    "trainerId": 557,
+    "name": "Fisher Miguel",
+    "file": "trainers/bdsp/557-fisher-miguel.json"
+  },
+  {
+    "id": "trainer-id-558",
+    "trainerId": 558,
+    "name": "Fisher Alec",
+    "file": "trainers/bdsp/558-fisher-alec.json"
+  },
+  {
+    "id": "trainer-id-559",
+    "trainerId": 559,
+    "name": "Twins Teri",
+    "file": "trainers/bdsp/559-twins-teri.json"
+  },
+  {
+    "id": "trainer-id-560",
+    "trainerId": 560,
+    "name": "Twins Tia",
+    "file": "trainers/bdsp/560-twins-tia.json"
+  },
+  {
+    "id": "trainer-id-561",
+    "trainerId": 561,
+    "name": "Twins Teri",
+    "file": "trainers/bdsp/561-twins-teri.json"
+  },
+  {
+    "id": "trainer-id-562",
+    "trainerId": 562,
+    "name": "Twins Tia",
+    "file": "trainers/bdsp/562-twins-tia.json"
+  },
+  {
+    "id": "trainer-id-563",
+    "trainerId": 563,
+    "name": "PI Carlos",
+    "file": "trainers/bdsp/563-pi-carlos.json"
+  },
+  {
+    "id": "trainer-id-564",
+    "trainerId": 564,
+    "name": "PI Carlos",
+    "file": "trainers/bdsp/564-pi-carlos.json"
+  },
+  {
+    "id": "trainer-id-565",
+    "trainerId": 565,
+    "name": "Gentleman Jeremy",
+    "file": "trainers/bdsp/565-gentleman-jeremy.json"
+  },
+  {
+    "id": "trainer-id-566",
+    "trainerId": 566,
+    "name": "Gentleman Jeremy",
+    "file": "trainers/bdsp/566-gentleman-jeremy.json"
+  },
+  {
+    "id": "trainer-id-567",
+    "trainerId": 567,
+    "name": "Gentleman Jeremy",
+    "file": "trainers/bdsp/567-gentleman-jeremy.json"
+  },
+  {
+    "id": "trainer-id-568",
+    "trainerId": 568,
+    "name": "Guitarist Tony",
+    "file": "trainers/bdsp/568-guitarist-tony.json"
+  },
+  {
+    "id": "trainer-id-569",
+    "trainerId": 569,
+    "name": "Ruin Maniac Harry",
+    "file": "trainers/bdsp/569-ruin-maniac-harry.json"
+  },
+  {
+    "id": "trainer-id-570",
+    "trainerId": 570,
+    "name": "Ruin Maniac Harry",
+    "file": "trainers/bdsp/570-ruin-maniac-harry.json"
+  },
+  {
+    "id": "trainer-id-571",
+    "trainerId": 571,
+    "name": "Jogger Craig",
+    "file": "trainers/bdsp/571-jogger-craig.json"
+  },
+  {
+    "id": "trainer-id-572",
+    "trainerId": 572,
+    "name": "Jogger Craig",
+    "file": "trainers/bdsp/572-jogger-craig.json"
+  },
+  {
+    "id": "trainer-id-573",
+    "trainerId": 573,
+    "name": "Black Belt Philip",
+    "file": "trainers/bdsp/573-black-belt-philip.json"
+  },
+  {
+    "id": "trainer-id-574",
+    "trainerId": 574,
+    "name": "Black Belt Davon",
+    "file": "trainers/bdsp/574-black-belt-davon.json"
+  },
+  {
+    "id": "trainer-id-575",
+    "trainerId": 575,
+    "name": "Madame Reina",
+    "file": "trainers/bdsp/575-madame-reina.json"
+  },
+  {
+    "id": "trainer-id-576",
+    "trainerId": 576,
+    "name": "Madame Reina",
+    "file": "trainers/bdsp/576-madame-reina.json"
+  },
+  {
+    "id": "trainer-id-577",
+    "trainerId": 577,
+    "name": "Lass Samantha",
+    "file": "trainers/bdsp/577-lass-samantha.json"
+  },
+  {
+    "id": "trainer-id-578",
+    "trainerId": 578,
+    "name": "Lass Samantha",
+    "file": "trainers/bdsp/578-lass-samantha.json"
+  },
+  {
+    "id": "trainer-id-579",
+    "trainerId": 579,
+    "name": "Lass Samantha",
+    "file": "trainers/bdsp/579-lass-samantha.json"
+  },
+  {
+    "id": "trainer-id-580",
+    "trainerId": 580,
+    "name": "Lass Madeline",
+    "file": "trainers/bdsp/580-lass-madeline.json"
+  },
+  {
+    "id": "trainer-id-581",
+    "trainerId": 581,
+    "name": "Lass Madeline",
+    "file": "trainers/bdsp/581-lass-madeline.json"
+  },
+  {
+    "id": "trainer-id-582",
+    "trainerId": 582,
+    "name": "Lass Madeline",
+    "file": "trainers/bdsp/582-lass-madeline.json"
+  },
+  {
+    "id": "trainer-id-583",
+    "trainerId": 583,
+    "name": "Hiker Theodore",
+    "file": "trainers/bdsp/583-hiker-theodore.json"
+  },
+  {
+    "id": "trainer-id-584",
+    "trainerId": 584,
+    "name": "Hiker Theodore",
+    "file": "trainers/bdsp/584-hiker-theodore.json"
+  },
+  {
+    "id": "trainer-id-585",
+    "trainerId": 585,
+    "name": "Hiker Theodore",
+    "file": "trainers/bdsp/585-hiker-theodore.json"
+  },
+  {
+    "id": "trainer-id-586",
+    "trainerId": 586,
+    "name": "Bug Catcher Brandon",
+    "file": "trainers/bdsp/586-bug-catcher-brandon.json"
+  },
+  {
+    "id": "trainer-id-587",
+    "trainerId": 587,
+    "name": "Bug Catcher Brandon",
+    "file": "trainers/bdsp/587-bug-catcher-brandon.json"
+  },
+  {
+    "id": "trainer-id-588",
+    "trainerId": 588,
+    "name": "Bug Catcher Brandon",
+    "file": "trainers/bdsp/588-bug-catcher-brandon.json"
+  },
+  {
+    "id": "trainer-id-589",
+    "trainerId": 589,
+    "name": "Parasol Lady Alexa",
+    "file": "trainers/bdsp/589-parasol-lady-alexa.json"
+  },
+  {
+    "id": "trainer-id-590",
+    "trainerId": 590,
+    "name": "Parasol Lady Alexa",
+    "file": "trainers/bdsp/590-parasol-lady-alexa.json"
+  },
+  {
+    "id": "trainer-id-591",
+    "trainerId": 591,
+    "name": "Parasol Lady Alexa",
+    "file": "trainers/bdsp/591-parasol-lady-alexa.json"
+  },
+  {
+    "id": "trainer-id-592",
+    "trainerId": 592,
+    "name": "Picnicker Karina",
+    "file": "trainers/bdsp/592-picnicker-karina.json"
+  },
+  {
+    "id": "trainer-id-593",
+    "trainerId": 593,
+    "name": "Picnicker Karina",
+    "file": "trainers/bdsp/593-picnicker-karina.json"
+  },
+  {
+    "id": "trainer-id-594",
+    "trainerId": 594,
+    "name": "Picnicker Karina",
+    "file": "trainers/bdsp/594-picnicker-karina.json"
+  },
+  {
+    "id": "trainer-id-595",
+    "trainerId": 595,
+    "name": "Poké Kid Danielle",
+    "file": "trainers/bdsp/595-pok-kid-danielle.json"
+  },
+  {
+    "id": "trainer-id-596",
+    "trainerId": 596,
+    "name": "Poké Kid Danielle",
+    "file": "trainers/bdsp/596-pok-kid-danielle.json"
+  },
+  {
+    "id": "trainer-id-597",
+    "trainerId": 597,
+    "name": "Poké Kid Danielle",
+    "file": "trainers/bdsp/597-pok-kid-danielle.json"
+  },
+  {
+    "id": "trainer-id-598",
+    "trainerId": 598,
+    "name": "Police Officer Danny",
+    "file": "trainers/bdsp/598-police-officer-danny.json"
+  },
+  {
+    "id": "trainer-id-599",
+    "trainerId": 599,
+    "name": "Police Officer Danny",
+    "file": "trainers/bdsp/599-police-officer-danny.json"
+  },
+  {
+    "id": "trainer-id-600",
+    "trainerId": 600,
+    "name": "Police Officer Danny",
+    "file": "trainers/bdsp/600-police-officer-danny.json"
+  },
+  {
+    "id": "trainer-id-601",
+    "trainerId": 601,
+    "name": "Rich Boy Trey",
+    "file": "trainers/bdsp/601-rich-boy-trey.json"
+  },
+  {
+    "id": "trainer-id-602",
+    "trainerId": 602,
+    "name": "Rich Boy Trey",
+    "file": "trainers/bdsp/602-rich-boy-trey.json"
+  },
+  {
+    "id": "trainer-id-603",
+    "trainerId": 603,
+    "name": "Lady Melissa",
+    "file": "trainers/bdsp/603-lady-melissa.json"
+  },
+  {
+    "id": "trainer-id-604",
+    "trainerId": 604,
+    "name": "Lady Melissa",
+    "file": "trainers/bdsp/604-lady-melissa.json"
+  },
+  {
+    "id": "trainer-id-605",
+    "trainerId": 605,
+    "name": "Lady Melissa",
+    "file": "trainers/bdsp/605-lady-melissa.json"
+  },
+  {
+    "id": "trainer-id-606",
+    "trainerId": 606,
+    "name": "Pokémon Ranger Taylor",
+    "file": "trainers/bdsp/606-pok-mon-ranger-taylor.json"
+  },
+  {
+    "id": "trainer-id-607",
+    "trainerId": 607,
+    "name": "Pokémon Ranger Taylor",
+    "file": "trainers/bdsp/607-pok-mon-ranger-taylor.json"
+  },
+  {
+    "id": "trainer-id-608",
+    "trainerId": 608,
+    "name": "Pokémon Ranger Taylor",
+    "file": "trainers/bdsp/608-pok-mon-ranger-taylor.json"
+  },
+  {
+    "id": "trainer-id-609",
+    "trainerId": 609,
+    "name": "Pokémon Ranger Kyler",
+    "file": "trainers/bdsp/609-pok-mon-ranger-kyler.json"
+  },
+  {
+    "id": "trainer-id-610",
+    "trainerId": 610,
+    "name": "Pokémon Ranger Allison",
+    "file": "trainers/bdsp/610-pok-mon-ranger-allison.json"
+  },
+  {
+    "id": "trainer-id-611",
+    "trainerId": 611,
+    "name": "Pokémon Ranger Allison",
+    "file": "trainers/bdsp/611-pok-mon-ranger-allison.json"
+  },
+  {
+    "id": "trainer-id-612",
+    "trainerId": 612,
+    "name": "Pokémon Ranger Allison",
+    "file": "trainers/bdsp/612-pok-mon-ranger-allison.json"
+  },
+  {
+    "id": "trainer-id-613",
+    "trainerId": 613,
+    "name": "Pokémon Ranger Ashlee",
+    "file": "trainers/bdsp/613-pok-mon-ranger-ashlee.json"
+  },
+  {
+    "id": "trainer-id-614",
+    "trainerId": 614,
+    "name": "Sailor Marc",
+    "file": "trainers/bdsp/614-sailor-marc.json"
+  },
+  {
+    "id": "trainer-id-615",
+    "trainerId": 615,
+    "name": "Sailor Marc",
+    "file": "trainers/bdsp/615-sailor-marc.json"
+  },
+  {
+    "id": "trainer-id-616",
+    "trainerId": 616,
+    "name": "Sailor Zachariah",
+    "file": "trainers/bdsp/616-sailor-zachariah.json"
+  },
+  {
+    "id": "trainer-id-617",
+    "trainerId": 617,
+    "name": "Scientist Shaun",
+    "file": "trainers/bdsp/617-scientist-shaun.json"
+  },
+  {
+    "id": "trainer-id-618",
+    "trainerId": 618,
+    "name": "Scientist Shaun",
+    "file": "trainers/bdsp/618-scientist-shaun.json"
+  },
+  {
+    "id": "trainer-id-619",
+    "trainerId": 619,
+    "name": "Scientist Shaun",
+    "file": "trainers/bdsp/619-scientist-shaun.json"
+  },
+  {
+    "id": "trainer-id-620",
+    "trainerId": 620,
+    "name": "Ninja Boy Zach",
+    "file": "trainers/bdsp/620-ninja-boy-zach.json"
+  },
+  {
+    "id": "trainer-id-621",
+    "trainerId": 621,
+    "name": "Ninja Boy Zach",
+    "file": "trainers/bdsp/621-ninja-boy-zach.json"
+  },
+  {
+    "id": "trainer-id-622",
+    "trainerId": 622,
+    "name": "Ninja Boy Zach",
+    "file": "trainers/bdsp/622-ninja-boy-zach.json"
+  },
+  {
+    "id": "trainer-id-623",
+    "trainerId": 623,
+    "name": "Beauty Cyndy",
+    "file": "trainers/bdsp/623-beauty-cyndy.json"
+  },
+  {
+    "id": "trainer-id-624",
+    "trainerId": 624,
+    "name": "Beauty Cyndy",
+    "file": "trainers/bdsp/624-beauty-cyndy.json"
+  },
+  {
+    "id": "trainer-id-625",
+    "trainerId": 625,
+    "name": "Skier Edward",
+    "file": "trainers/bdsp/625-skier-edward.json"
+  },
+  {
+    "id": "trainer-id-626",
+    "trainerId": 626,
+    "name": "Skier Edward",
+    "file": "trainers/bdsp/626-skier-edward.json"
+  },
+  {
+    "id": "trainer-id-627",
+    "trainerId": 627,
+    "name": "Skier Bjorn",
+    "file": "trainers/bdsp/627-skier-bjorn.json"
+  },
+  {
+    "id": "trainer-id-628",
+    "trainerId": 628,
+    "name": "Skier Bjorn",
+    "file": "trainers/bdsp/628-skier-bjorn.json"
+  },
+  {
+    "id": "trainer-id-629",
+    "trainerId": 629,
+    "name": "Skier Andrea",
+    "file": "trainers/bdsp/629-skier-andrea.json"
+  },
+  {
+    "id": "trainer-id-630",
+    "trainerId": 630,
+    "name": "Skier Andrea",
+    "file": "trainers/bdsp/630-skier-andrea.json"
+  },
+  {
+    "id": "trainer-id-631",
+    "trainerId": 631,
+    "name": "Skier Madison",
+    "file": "trainers/bdsp/631-skier-madison.json"
+  },
+  {
+    "id": "trainer-id-632",
+    "trainerId": 632,
+    "name": "Skier Madison",
+    "file": "trainers/bdsp/632-skier-madison.json"
+  },
+  {
+    "id": "trainer-id-633",
+    "trainerId": 633,
+    "name": "Swimmer Wesley",
+    "file": "trainers/bdsp/633-swimmer-wesley.json"
+  },
+  {
+    "id": "trainer-id-634",
+    "trainerId": 634,
+    "name": "Swimmer Francisco",
+    "file": "trainers/bdsp/634-swimmer-francisco.json"
+  },
+  {
+    "id": "trainer-id-635",
+    "trainerId": 635,
+    "name": "Swimmer Glenn",
+    "file": "trainers/bdsp/635-swimmer-glenn.json"
+  },
+  {
+    "id": "trainer-id-636",
+    "trainerId": 636,
+    "name": "Swimmer Miranda",
+    "file": "trainers/bdsp/636-swimmer-miranda.json"
+  },
+  {
+    "id": "trainer-id-637",
+    "trainerId": 637,
+    "name": "Swimmer Crystal",
+    "file": "trainers/bdsp/637-swimmer-crystal.json"
+  },
+  {
+    "id": "trainer-id-638",
+    "trainerId": 638,
+    "name": "Swimmer Joanna",
+    "file": "trainers/bdsp/638-swimmer-joanna.json"
+  },
+  {
+    "id": "trainer-id-639",
+    "trainerId": 639,
+    "name": "Youngster Tristan",
+    "file": "trainers/bdsp/639-youngster-tristan.json"
+  },
+  {
+    "id": "trainer-id-640",
+    "trainerId": 640,
+    "name": "Youngster Tristan",
+    "file": "trainers/bdsp/640-youngster-tristan.json"
+  },
+  {
+    "id": "trainer-id-641",
+    "trainerId": 641,
+    "name": "Youngster Tristan",
+    "file": "trainers/bdsp/641-youngster-tristan.json"
+  },
+  {
+    "id": "trainer-id-642",
+    "trainerId": 642,
+    "name": "Youngster Dallas",
+    "file": "trainers/bdsp/642-youngster-dallas.json"
+  },
+  {
+    "id": "trainer-id-643",
+    "trainerId": 643,
+    "name": "Youngster Dallas",
+    "file": "trainers/bdsp/643-youngster-dallas.json"
+  },
+  {
+    "id": "trainer-id-644",
+    "trainerId": 644,
+    "name": "Youngster Dallas",
+    "file": "trainers/bdsp/644-youngster-dallas.json"
+  },
+  {
+    "id": "trainer-id-645",
+    "trainerId": 645,
+    "name": "Tuber Jared",
+    "file": "trainers/bdsp/645-tuber-jared.json"
+  },
+  {
+    "id": "trainer-id-646",
+    "trainerId": 646,
+    "name": "Tuber Jared",
+    "file": "trainers/bdsp/646-tuber-jared.json"
+  },
+  {
+    "id": "trainer-id-647",
+    "trainerId": 647,
+    "name": "Tuber Chelsea",
+    "file": "trainers/bdsp/647-tuber-chelsea.json"
+  },
+  {
+    "id": "trainer-id-648",
+    "trainerId": 648,
+    "name": "Veteran Brian",
+    "file": "trainers/bdsp/648-veteran-brian.json"
+  },
+  {
+    "id": "trainer-id-649",
+    "trainerId": 649,
+    "name": "Tuber Chelsea",
+    "file": "trainers/bdsp/649-tuber-chelsea.json"
+  },
+  {
+    "id": "trainer-id-650",
+    "trainerId": 650,
+    "name": "Veteran Brian",
+    "file": "trainers/bdsp/650-veteran-brian.json"
+  },
+  {
+    "id": "trainer-id-651",
+    "trainerId": 651,
+    "name": "Veteran Armando",
+    "file": "trainers/bdsp/651-veteran-armando.json"
+  },
+  {
+    "id": "trainer-id-652",
+    "trainerId": 652,
+    "name": "Tower Tycoon Palmer",
+    "file": "trainers/bdsp/652-tower-tycoon-palmer.json"
+  },
+  {
+    "id": "trainer-id-653",
+    "trainerId": 653,
+    "name": "Ace Trainer Anton",
+    "file": "trainers/bdsp/653-ace-trainer-anton.json"
+  },
+  {
+    "id": "trainer-id-654",
+    "trainerId": 654,
+    "name": "Ace Trainer Brenna",
+    "file": "trainers/bdsp/654-ace-trainer-brenna.json"
+  },
+  {
+    "id": "trainer-id-655",
+    "trainerId": 655,
+    "name": "Scientist Darrius",
+    "file": "trainers/bdsp/655-scientist-darrius.json"
+  },
+  {
+    "id": "trainer-id-656",
+    "trainerId": 656,
+    "name": "Scientist Fredrick",
+    "file": "trainers/bdsp/656-scientist-fredrick.json"
+  },
+  {
+    "id": "trainer-id-657",
+    "trainerId": 657,
+    "name": "Scientist Travon",
+    "file": "trainers/bdsp/657-scientist-travon.json"
+  },
+  {
+    "id": "trainer-id-658",
+    "trainerId": 658,
+    "name": "Poké Kid Janet",
+    "file": "trainers/bdsp/658-pok-kid-janet.json"
+  },
+  {
+    "id": "trainer-id-659",
+    "trainerId": 659,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/659-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-660",
+    "trainerId": 660,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/660-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-661",
+    "trainerId": 661,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/661-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-662",
+    "trainerId": 662,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/662-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-663",
+    "trainerId": 663,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/663-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-664",
+    "trainerId": 664,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/664-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-665",
+    "trainerId": 665,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/665-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-666",
+    "trainerId": 666,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/666-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-667",
+    "trainerId": 667,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/667-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-668",
+    "trainerId": 668,
+    "name": "Pokémon Trainer Cedric",
+    "file": "trainers/bdsp/668-pok-mon-trainer-cedric.json"
+  },
+  {
+    "id": "trainer-id-669",
+    "trainerId": 669,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/669-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-670",
+    "trainerId": 670,
+    "name": "Worker Dillan",
+    "file": "trainers/bdsp/670-worker-dillan.json"
+  },
+  {
+    "id": "trainer-id-671",
+    "trainerId": 671,
+    "name": "Worker Holden",
+    "file": "trainers/bdsp/671-worker-holden.json"
+  },
+  {
+    "id": "trainer-id-672",
+    "trainerId": 672,
+    "name": "Worker Conrad",
+    "file": "trainers/bdsp/672-worker-conrad.json"
+  },
+  {
+    "id": "trainer-id-673",
+    "trainerId": 673,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/673-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-674",
+    "trainerId": 674,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/674-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-675",
+    "trainerId": 675,
+    "name": "Team Galactic Grunt",
+    "file": "trainers/bdsp/675-team-galactic-grunt.json"
+  },
+  {
+    "id": "trainer-id-676",
+    "trainerId": 676,
+    "name": "Gym Leader Roark",
+    "file": "trainers/bdsp/676-gym-leader-roark.json"
+  },
+  {
+    "id": "trainer-id-677",
+    "trainerId": 677,
+    "name": "Gym Leader Gardenia",
+    "file": "trainers/bdsp/677-gym-leader-gardenia.json"
+  },
+  {
+    "id": "trainer-id-678",
+    "trainerId": 678,
+    "name": "Gym Leader Wake",
+    "file": "trainers/bdsp/678-gym-leader-wake.json"
+  },
+  {
+    "id": "trainer-id-679",
+    "trainerId": 679,
+    "name": "Gym Leader Maylene",
+    "file": "trainers/bdsp/679-gym-leader-maylene.json"
+  },
+  {
+    "id": "trainer-id-680",
+    "trainerId": 680,
+    "name": "Gym Leader Fantina",
+    "file": "trainers/bdsp/680-gym-leader-fantina.json"
+  },
+  {
+    "id": "trainer-id-681",
+    "trainerId": 681,
+    "name": "Gym Leader Candice",
+    "file": "trainers/bdsp/681-gym-leader-candice.json"
+  },
+  {
+    "id": "trainer-id-682",
+    "trainerId": 682,
+    "name": "Gym Leader Byron",
+    "file": "trainers/bdsp/682-gym-leader-byron.json"
+  },
+  {
+    "id": "trainer-id-683",
+    "trainerId": 683,
+    "name": "Gym Leader Volkner",
+    "file": "trainers/bdsp/683-gym-leader-volkner.json"
+  },
+  {
+    "id": "trainer-id-684",
+    "trainerId": 684,
+    "name": "Pokémon Trainer Lucas",
+    "file": "trainers/bdsp/684-pok-mon-trainer-lucas.json"
+  },
+  {
+    "id": "trainer-id-685",
+    "trainerId": 685,
+    "name": "Pokémon Trainer Lucas",
+    "file": "trainers/bdsp/685-pok-mon-trainer-lucas.json"
+  },
+  {
+    "id": "trainer-id-686",
+    "trainerId": 686,
+    "name": "Pokémon Trainer Lucas",
+    "file": "trainers/bdsp/686-pok-mon-trainer-lucas.json"
+  },
+  {
+    "id": "trainer-id-687",
+    "trainerId": 687,
+    "name": "Pokémon Trainer Lucas",
+    "file": "trainers/bdsp/687-pok-mon-trainer-lucas.json"
+  },
+  {
+    "id": "trainer-id-688",
+    "trainerId": 688,
+    "name": "Pokémon Trainer Lucas",
+    "file": "trainers/bdsp/688-pok-mon-trainer-lucas.json"
+  },
+  {
+    "id": "trainer-id-689",
+    "trainerId": 689,
+    "name": "Pokémon Trainer Lucas",
+    "file": "trainers/bdsp/689-pok-mon-trainer-lucas.json"
+  },
+  {
+    "id": "trainer-id-690",
+    "trainerId": 690,
+    "name": "Pokémon Trainer Dawn",
+    "file": "trainers/bdsp/690-pok-mon-trainer-dawn.json"
+  },
+  {
+    "id": "trainer-id-691",
+    "trainerId": 691,
+    "name": "Pokémon Trainer Dawn",
+    "file": "trainers/bdsp/691-pok-mon-trainer-dawn.json"
+  },
+  {
+    "id": "trainer-id-692",
+    "trainerId": 692,
+    "name": "Pokémon Trainer Dawn",
+    "file": "trainers/bdsp/692-pok-mon-trainer-dawn.json"
+  },
+  {
+    "id": "trainer-id-693",
+    "trainerId": 693,
+    "name": "Pokémon Trainer Dawn",
+    "file": "trainers/bdsp/693-pok-mon-trainer-dawn.json"
+  },
+  {
+    "id": "trainer-id-694",
+    "trainerId": 694,
+    "name": "Pokémon Trainer Dawn",
+    "file": "trainers/bdsp/694-pok-mon-trainer-dawn.json"
+  },
+  {
+    "id": "trainer-id-695",
+    "trainerId": 695,
+    "name": "Pokémon Trainer Dawn",
+    "file": "trainers/bdsp/695-pok-mon-trainer-dawn.json"
+  },
+  {
+    "id": "trainer-id-696",
+    "trainerId": 696,
+    "name": "Elite Four Aaron",
+    "file": "trainers/bdsp/696-elite-four-aaron.json"
+  },
+  {
+    "id": "trainer-id-697",
+    "trainerId": 697,
+    "name": "Elite Four Bertha",
+    "file": "trainers/bdsp/697-elite-four-bertha.json"
+  },
+  {
+    "id": "trainer-id-698",
+    "trainerId": 698,
+    "name": "Elite Four Flint",
+    "file": "trainers/bdsp/698-elite-four-flint.json"
+  },
+  {
+    "id": "trainer-id-699",
+    "trainerId": 699,
+    "name": "Elite Four Lucian",
+    "file": "trainers/bdsp/699-elite-four-lucian.json"
+  },
+  {
+    "id": "trainer-id-700",
+    "trainerId": 700,
+    "name": "Champion Cynthia",
+    "file": "trainers/bdsp/700-champion-cynthia.json"
+  },
+  {
+    "id": "trainer-id-701",
+    "trainerId": 701,
+    "name": "Elite Four Aaron",
+    "file": "trainers/bdsp/701-elite-four-aaron.json"
+  },
+  {
+    "id": "trainer-id-702",
+    "trainerId": 702,
+    "name": "Elite Four Bertha",
+    "file": "trainers/bdsp/702-elite-four-bertha.json"
+  },
+  {
+    "id": "trainer-id-703",
+    "trainerId": 703,
+    "name": "Elite Four Flint",
+    "file": "trainers/bdsp/703-elite-four-flint.json"
+  },
+  {
+    "id": "trainer-id-704",
+    "trainerId": 704,
+    "name": "Elite Four Lucian",
+    "file": "trainers/bdsp/704-elite-four-lucian.json"
+  },
+  {
+    "id": "trainer-id-705",
+    "trainerId": 705,
+    "name": "Champion Cynthia",
+    "file": "trainers/bdsp/705-champion-cynthia.json"
+  },
+  {
+    "id": "trainer-id-706",
+    "trainerId": 706,
+    "name": "GAME FREAK’s Morimoto",
+    "file": "trainers/bdsp/706-game-freak-s-morimoto.json"
+  }
+]

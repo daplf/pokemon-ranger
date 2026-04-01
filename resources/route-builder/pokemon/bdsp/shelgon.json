@@ -1,0 +1,83 @@
+{
+  "species": "Shelgon",
+  "game": "bdsp",
+  "types": [
+    "dragon"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 147,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 100,
+    "specialAttack": 60,
+    "specialDefense": 50,
+    "speed": 50
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Bite"
+    },
+    {
+      "level": 1,
+      "move": "Dragon Breath"
+    },
+    {
+      "level": 1,
+      "move": "Ember"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Protect"
+    },
+    {
+      "level": 15,
+      "move": "Headbutt"
+    },
+    {
+      "level": 20,
+      "move": "Scary Face"
+    },
+    {
+      "level": 25,
+      "move": "Crunch"
+    },
+    {
+      "level": 33,
+      "move": "Dragon Claw"
+    },
+    {
+      "level": 39,
+      "move": "Zen Headbutt"
+    },
+    {
+      "level": 46,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 53,
+      "move": "Flamethrower"
+    },
+    {
+      "level": 60,
+      "move": "Outrage"
+    },
+    {
+      "level": 67,
+      "move": "Double-Edge"
+    }
+  ]
+}

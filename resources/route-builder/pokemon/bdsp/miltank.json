@@ -1,0 +1,79 @@
+{
+  "species": "Miltank",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 172,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 95,
+    "attack": 80,
+    "defense": 105,
+    "specialAttack": 40,
+    "specialDefense": 70,
+    "speed": 100
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 5,
+      "move": "Rollout"
+    },
+    {
+      "level": 10,
+      "move": "Defense Curl"
+    },
+    {
+      "level": 15,
+      "move": "Stomp"
+    },
+    {
+      "level": 20,
+      "move": "Heal Bell"
+    },
+    {
+      "level": 25,
+      "move": "Headbutt"
+    },
+    {
+      "level": 30,
+      "move": "Zen Headbutt"
+    },
+    {
+      "level": 35,
+      "move": "Milk Drink"
+    },
+    {
+      "level": 40,
+      "move": "Body Slam"
+    },
+    {
+      "level": 45,
+      "move": "Play Rough"
+    },
+    {
+      "level": 50,
+      "move": "Charm"
+    },
+    {
+      "level": 55,
+      "move": "High Horsepower"
+    }
+  ]
+}

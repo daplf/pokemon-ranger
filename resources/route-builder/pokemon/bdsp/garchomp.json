@@ -1,0 +1,84 @@
+{
+  "species": "Garchomp",
+  "game": "bdsp",
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 270,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 108,
+    "attack": 130,
+    "defense": 95,
+    "specialAttack": 80,
+    "specialDefense": 85,
+    "speed": 102
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Crunch"
+    },
+    {
+      "level": 1,
+      "move": "Dragon Breath"
+    },
+    {
+      "level": 1,
+      "move": "Dual Chop"
+    },
+    {
+      "level": 1,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 1,
+      "move": "Sand Tomb"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 18,
+      "move": "Bulldoze"
+    },
+    {
+      "level": 27,
+      "move": "Bite"
+    },
+    {
+      "level": 34,
+      "move": "Slash"
+    },
+    {
+      "level": 42,
+      "move": "Dragon Claw"
+    },
+    {
+      "level": 52,
+      "move": "Dig"
+    },
+    {
+      "level": 62,
+      "move": "Sandstorm"
+    },
+    {
+      "level": 72,
+      "move": "Take Down"
+    },
+    {
+      "level": 82,
+      "move": "Dragon Rush"
+    }
+  ]
+}

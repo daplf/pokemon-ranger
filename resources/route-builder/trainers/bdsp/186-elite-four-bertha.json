@@ -1,0 +1,153 @@
+{
+  "id": "trainer-id-186",
+  "trainerId": 186,
+  "game": "bdsp",
+  "name": "Elite Four Bertha",
+  "prerequisites": {
+    "beatenTrainerIds": [
+      "trainer-id-185"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Quagsire",
+      "level": 55,
+      "item": "Leftovers",
+      "moves": [
+        "Recover",
+        "Toxic",
+        "Earthquake",
+        "Surf"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 12,
+        "attack": 0,
+        "defense": 252,
+        "specialAttack": 12,
+        "specialDefense": 12,
+        "speed": 12
+      },
+      "ivs": {
+        "hp": 23,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 13,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Sudowoodo",
+      "level": 56,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Double-Edge",
+        "Head Smash",
+        "Sucker Punch",
+        "Low Kick"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 252,
+        "defense": 12,
+        "specialAttack": 0,
+        "specialDefense": 12,
+        "speed": 12
+      },
+      "ivs": {
+        "hp": 21,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 11,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Golem",
+      "level": 56,
+      "item": "Soft Sand",
+      "moves": [
+        "Rock Polish",
+        "Heavy Slam",
+        "Earthquake",
+        "Stone Edge"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 12,
+        "attack": 60,
+        "defense": 12,
+        "specialAttack": 0,
+        "specialDefense": 12,
+        "speed": 204
+      },
+      "ivs": {
+        "hp": 21,
+        "attack": 31,
+        "defense": 21,
+        "specialAttack": 0,
+        "specialDefense": 21,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Whiscash",
+      "level": 55,
+      "item": "Rindo Berry",
+      "moves": [
+        "Bulldoze",
+        "Ice Beam",
+        "Belch",
+        "Hydro Pump"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 12,
+        "attack": 12,
+        "defense": 12,
+        "specialAttack": 252,
+        "specialDefense": 12,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 21,
+        "attack": 31,
+        "defense": 21,
+        "specialAttack": 31,
+        "specialDefense": 21,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Hippowdon",
+      "level": 59,
+      "item": "Chesto Berry",
+      "moves": [
+        "Ice Fang",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 12,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

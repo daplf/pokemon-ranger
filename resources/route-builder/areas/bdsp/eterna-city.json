@@ -1,0 +1,10 @@
+{
+  "id": "eterna-city",
+  "game": "bdsp",
+  "name": "Eterna City",
+  "trainerIds": [
+    "trainer-id-065",
+    "trainer-id-250",
+    "trainer-id-064"
+  ]
+}

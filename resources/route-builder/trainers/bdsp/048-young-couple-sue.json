@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-048",
+  "trainerId": 48,
+  "game": "bdsp",
+  "name": "Young Couple Sue",
+  "pokemon": [
+    {
+      "species": "Meditite",
+      "level": 19,
+      "ability": "Pure Power",
+      "moves": [
+        "Low Kick",
+        "Detect",
+        "Force Palm",
+        "Psybeam"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

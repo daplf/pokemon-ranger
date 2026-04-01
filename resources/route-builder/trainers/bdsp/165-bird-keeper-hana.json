@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-165",
+  "trainerId": 165,
+  "game": "bdsp",
+  "name": "Bird Keeper Hana",
+  "pokemon": [
+    {
+      "species": "Noctowl",
+      "level": 46,
+      "ability": "Keen Eye",
+      "moves": [
+        "Sky Attack",
+        "Take Down",
+        "Roost",
+        "Moonblast"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Staraptor",
+      "level": 48,
+      "ability": "Intimidate",
+      "moves": [
+        "Close Combat",
+        "Quick Attack",
+        "Endeavor",
+        "Aerial Ace"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

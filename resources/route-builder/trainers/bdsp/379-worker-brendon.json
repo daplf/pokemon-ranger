@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-379",
+  "trainerId": 379,
+  "game": "bdsp",
+  "name": "Worker Brendon",
+  "pokemon": [
+    {
+      "species": "Onix",
+      "level": 29,
+      "ability": "Rock Head",
+      "moves": [
+        "Curse",
+        "Rock Slide",
+        "Screech",
+        "Sand Tomb"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Steelix",
+      "level": 33,
+      "ability": "Rock Head",
+      "moves": [
+        "Crunch",
+        "Thunder Fang",
+        "Ice Fang",
+        "Rock Slide"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

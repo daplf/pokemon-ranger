@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-041",
+  "trainerId": 41,
+  "game": "bdsp",
+  "name": "Artist William",
+  "pokemon": [
+    {
+      "species": "Mime Jr.",
+      "level": 17,
+      "ability": "Filter",
+      "moves": [
+        "Copycat",
+        "Encore",
+        "Confusion",
+        "Role Play"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Bonsly",
+      "level": 17,
+      "ability": "Rock Head",
+      "moves": [
+        "Fake Tears",
+        "Copycat",
+        "Flail",
+        "Mimic"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

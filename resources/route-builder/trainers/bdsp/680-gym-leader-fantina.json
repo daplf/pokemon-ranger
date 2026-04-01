@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-680",
+  "trainerId": 680,
+  "game": "bdsp",
+  "name": "Gym Leader Fantina",
+  "pokemon": [
+    {
+      "species": "Drifblim",
+      "level": 68,
+      "item": "Flame Orb",
+      "moves": [
+        "Shadow Ball",
+        "Thunderbolt",
+        "Psychic",
+        "Strength Sap"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Banette",
+      "level": 65,
+      "item": "Iron Ball",
+      "moves": [
+        "Shadow Sneak",
+        "Sucker Punch",
+        "Snatch",
+        "Trick"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 244,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 12
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Dusknoir",
+      "level": 70,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Shadow Sneak",
+        "Earthquake",
+        "Will-O-Wisp",
+        "Confuse Ray"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 248,
+        "attack": 252,
+        "defense": 4,
+        "specialAttack": 0,
+        "specialDefense": 4,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Mismagius",
+      "level": 70,
+      "item": "Expert Belt",
+      "moves": [
+        "Shadow Ball",
+        "Energy Ball",
+        "Mystical Fire",
+        "Dazzling Gleam"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Froslass",
+      "level": 72,
+      "item": "Focus Sash",
+      "moves": [
+        "Hex",
+        "Frost Breath",
+        "Will-O-Wisp",
+        "Destiny Bond"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Gengar",
+      "level": 72,
+      "item": "Life Orb",
+      "moves": [
+        "Hex",
+        "Sludge Bomb",
+        "Focus Blast",
+        "Toxic"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-237",
+  "trainerId": 237,
+  "game": "bdsp",
+  "name": "Black Belt Jeffery",
+  "pokemon": [
+    {
+      "species": "Machoke",
+      "level": 26,
+      "ability": "Guts",
+      "moves": [
+        "Leer",
+        "Low Sweep",
+        "Knock Off",
+        "Rock Tomb"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Meditite",
+      "level": 26,
+      "ability": "Pure Power",
+      "moves": [
+        "Detect",
+        "Feint",
+        "Force Palm",
+        "Rock Slide"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

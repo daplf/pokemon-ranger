@@ -1,0 +1,95 @@
+{
+  "species": "Ninetales",
+  "game": "bdsp",
+  "types": [
+    "fire"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 177,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 1,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 73,
+    "attack": 76,
+    "defense": 75,
+    "specialAttack": 81,
+    "specialDefense": 100,
+    "speed": 100
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Confuse Ray"
+    },
+    {
+      "level": 1,
+      "move": "Disable"
+    },
+    {
+      "level": 1,
+      "move": "Ember"
+    },
+    {
+      "level": 1,
+      "move": "Extrasensory"
+    },
+    {
+      "level": 1,
+      "move": "Fire Blast"
+    },
+    {
+      "level": 1,
+      "move": "Fire Spin"
+    },
+    {
+      "level": 1,
+      "move": "Flamethrower"
+    },
+    {
+      "level": 1,
+      "move": "Grudge"
+    },
+    {
+      "level": 1,
+      "move": "Imprison"
+    },
+    {
+      "level": 1,
+      "move": "Incinerate"
+    },
+    {
+      "level": 1,
+      "move": "Inferno"
+    },
+    {
+      "level": 1,
+      "move": "Nasty Plot"
+    },
+    {
+      "level": 1,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 1,
+      "move": "Safeguard"
+    },
+    {
+      "level": 1,
+      "move": "Spite"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 1,
+      "move": "Will-O-Wisp"
+    }
+  ]
+}

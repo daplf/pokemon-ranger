@@ -1,0 +1,100 @@
+{
+  "species": "Dustox",
+  "game": "bdsp",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 173,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 3,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 70,
+    "specialAttack": 50,
+    "specialDefense": 90,
+    "speed": 65
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Bug Bite"
+    },
+    {
+      "level": 1,
+      "move": "Gust"
+    },
+    {
+      "level": 1,
+      "move": "Harden"
+    },
+    {
+      "level": 1,
+      "move": "Poison Sting"
+    },
+    {
+      "level": 1,
+      "move": "String Shot"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 12,
+      "move": "Confusion"
+    },
+    {
+      "level": 15,
+      "move": "Poison Powder"
+    },
+    {
+      "level": 17,
+      "move": "Moonlight"
+    },
+    {
+      "level": 20,
+      "move": "Venoshock"
+    },
+    {
+      "level": 22,
+      "move": "Psybeam"
+    },
+    {
+      "level": 25,
+      "move": "Leech Life"
+    },
+    {
+      "level": 27,
+      "move": "Light Screen"
+    },
+    {
+      "level": 30,
+      "move": "Whirlwind"
+    },
+    {
+      "level": 32,
+      "move": "Toxic"
+    },
+    {
+      "level": 35,
+      "move": "Bug Buzz"
+    },
+    {
+      "level": 37,
+      "move": "Protect"
+    },
+    {
+      "level": 40,
+      "move": "Quiver Dance"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-702",
+  "trainerId": 702,
+  "game": "bdsp",
+  "name": "Elite Four Bertha",
+  "pokemon": [
+    {
+      "species": "Whiscash",
+      "level": 76,
+      "item": "Rindo Berry",
+      "moves": [
+        "Earthquake",
+        "Ice Beam",
+        "Scald",
+        "Zen Headbutt"
+      ],
+      "nature": "Brave",
+      "evs": {
+        "hp": 0,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gliscor",
+      "level": 79,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Earthquake",
+        "Thunder Fang",
+        "Guillotine",
+        "X-Scissor"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Nidoking",
+      "level": 78,
+      "item": "Life Orb",
+      "moves": [
+        "Sludge Bomb",
+        "Earth Power",
+        "Thunderbolt",
+        "Ice Beam"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 4,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Hippowdon",
+      "level": 78,
+      "item": "Chesto Berry",
+      "moves": [
+        "Ice Fang",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Mamoswine",
+      "level": 78,
+      "item": "Never-Melt Ice",
+      "moves": [
+        "Earthquake",
+        "Icicle Spear",
+        "Ice Shard",
+        "Double-Edge"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Rhyperior",
+      "level": 81,
+      "item": "Muscle Band",
+      "moves": [
+        "Earthquake",
+        "Rock Wrecker",
+        "Megahorn",
+        "Thunder Fang"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 6,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

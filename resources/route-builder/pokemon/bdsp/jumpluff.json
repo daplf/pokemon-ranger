@@ -1,0 +1,116 @@
+{
+  "species": "Jumpluff",
+  "game": "bdsp",
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 207,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 3
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 55,
+    "defense": 70,
+    "specialAttack": 55,
+    "specialDefense": 95,
+    "speed": 110
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Absorb"
+    },
+    {
+      "level": 1,
+      "move": "Splash"
+    },
+    {
+      "level": 1,
+      "move": "Synthesis"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 4,
+      "move": "Synthesis"
+    },
+    {
+      "level": 6,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 8,
+      "move": "Tackle"
+    },
+    {
+      "level": 10,
+      "move": "Fairy Wind"
+    },
+    {
+      "level": 12,
+      "move": "Poison Powder"
+    },
+    {
+      "level": 14,
+      "move": "Stun Spore"
+    },
+    {
+      "level": 16,
+      "move": "Sleep Powder"
+    },
+    {
+      "level": 20,
+      "move": "Bullet Seed"
+    },
+    {
+      "level": 24,
+      "move": "Leech Seed"
+    },
+    {
+      "level": 29,
+      "move": "Mega Drain"
+    },
+    {
+      "level": 34,
+      "move": "Acrobatics"
+    },
+    {
+      "level": 39,
+      "move": "Rage Powder"
+    },
+    {
+      "level": 44,
+      "move": "Cotton Spore"
+    },
+    {
+      "level": 49,
+      "move": "U-turn"
+    },
+    {
+      "level": 54,
+      "move": "Worry Seed"
+    },
+    {
+      "level": 59,
+      "move": "Giga Drain"
+    },
+    {
+      "level": 64,
+      "move": "Bounce"
+    },
+    {
+      "level": 69,
+      "move": "Memento"
+    }
+  ]
+}

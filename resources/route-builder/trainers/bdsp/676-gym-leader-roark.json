@@ -1,0 +1,173 @@
+{
+  "id": "trainer-id-676",
+  "trainerId": 676,
+  "game": "bdsp",
+  "name": "Gym Leader Roark",
+  "pokemon": [
+    {
+      "species": "Tyranitar",
+      "level": 68,
+      "item": "Smooth Rock",
+      "moves": [
+        "Crunch",
+        "Stone Edge",
+        "Roar",
+        "Stealth Rock"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 248,
+        "attack": 252,
+        "defense": 8,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Aerodactyl",
+      "level": 66,
+      "item": "Scope Lens",
+      "moves": [
+        "Stone Edge",
+        "Roar",
+        "Roost",
+        "Stealth Rock"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Armaldo",
+      "level": 70,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Stone Edge",
+        "X-Scissor",
+        "Brine",
+        "Earthquake"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 248,
+        "attack": 252,
+        "defense": 8,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Probopass",
+      "level": 68,
+      "item": "Focus Sash",
+      "moves": [
+        "Power Gem",
+        "Flash Cannon",
+        "Body Press",
+        "Discharge"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 252,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 4
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Relicanth",
+      "level": 64,
+      "item": "Choice Band",
+      "moves": [
+        "Head Smash"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 252,
+        "defense": 80,
+        "specialAttack": 0,
+        "specialDefense": 176,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Rampardos",
+      "level": 72,
+      "item": "Life Orb",
+      "moves": [
+        "Stone Edge",
+        "Iron Tail",
+        "Zen Headbutt",
+        "Head Smash"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 32,
+        "attack": 252,
+        "defense": 216,
+        "specialAttack": 0,
+        "specialDefense": 8,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

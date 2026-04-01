@@ -1,0 +1,96 @@
+{
+  "species": "Roselia",
+  "game": "bdsp",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 140,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 2,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 50,
+    "attack": 60,
+    "defense": 45,
+    "specialAttack": 100,
+    "specialDefense": 80,
+    "speed": 65
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Absorb"
+    },
+    {
+      "level": 1,
+      "move": "Growth"
+    },
+    {
+      "level": 1,
+      "move": "Poison Sting"
+    },
+    {
+      "level": 1,
+      "move": "Stun Spore"
+    },
+    {
+      "level": 1,
+      "move": "Worry Seed"
+    },
+    {
+      "level": 5,
+      "move": "Mega Drain"
+    },
+    {
+      "level": 10,
+      "move": "Leech Seed"
+    },
+    {
+      "level": 15,
+      "move": "Magical Leaf"
+    },
+    {
+      "level": 20,
+      "move": "Toxic Spikes"
+    },
+    {
+      "level": 25,
+      "move": "Sweet Scent"
+    },
+    {
+      "level": 30,
+      "move": "Giga Drain"
+    },
+    {
+      "level": 35,
+      "move": "Synthesis"
+    },
+    {
+      "level": 40,
+      "move": "Toxic"
+    },
+    {
+      "level": 45,
+      "move": "Petal Blizzard"
+    },
+    {
+      "level": 50,
+      "move": "Aromatherapy"
+    },
+    {
+      "level": 55,
+      "move": "Ingrain"
+    },
+    {
+      "level": 60,
+      "move": "Petal Dance"
+    }
+  ]
+}

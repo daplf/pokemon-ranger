@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-345",
+  "trainerId": 345,
+  "game": "bdsp",
+  "name": "Picnicker Karina",
+  "pokemon": [
+    {
+      "species": "Piplup",
+      "level": 14,
+      "ability": "Torrent",
+      "moves": [
+        "Pound",
+        "Growl",
+        "Water Gun",
+        "Charm"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

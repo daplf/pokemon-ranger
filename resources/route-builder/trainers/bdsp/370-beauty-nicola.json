@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-370",
+  "trainerId": 370,
+  "game": "bdsp",
+  "name": "Beauty Nicola",
+  "pokemon": [
+    {
+      "species": "Lopunny",
+      "level": 43,
+      "ability": "Cute Charm",
+      "moves": [
+        "Mirror Coat",
+        "Double Kick",
+        "Charm",
+        "Headbutt"
+      ],
+      "nature": "Careful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

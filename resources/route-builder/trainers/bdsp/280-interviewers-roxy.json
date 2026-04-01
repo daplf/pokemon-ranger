@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-280",
+  "trainerId": 280,
+  "game": "bdsp",
+  "name": "Interviewers Roxy",
+  "pokemon": [
+    {
+      "species": "Wooper",
+      "level": 17,
+      "ability": "Water Absorb",
+      "moves": [
+        "Water Gun",
+        "Rain Dance",
+        "Mud Shot",
+        "Mist"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

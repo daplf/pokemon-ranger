@@ -1,0 +1,84 @@
+{
+  "species": "Mantyke",
+  "game": "bdsp",
+  "types": [
+    "water",
+    "flying"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 69,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 1,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 45,
+    "attack": 20,
+    "defense": 50,
+    "specialAttack": 60,
+    "specialDefense": 120,
+    "speed": 50
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 4,
+      "move": "Supersonic"
+    },
+    {
+      "level": 8,
+      "move": "Wing Attack"
+    },
+    {
+      "level": 12,
+      "move": "Water Pulse"
+    },
+    {
+      "level": 16,
+      "move": "Wide Guard"
+    },
+    {
+      "level": 20,
+      "move": "Agility"
+    },
+    {
+      "level": 24,
+      "move": "Bubble Beam"
+    },
+    {
+      "level": 28,
+      "move": "Headbutt"
+    },
+    {
+      "level": 32,
+      "move": "Air Slash"
+    },
+    {
+      "level": 36,
+      "move": "Aqua Ring"
+    },
+    {
+      "level": 40,
+      "move": "Bounce"
+    },
+    {
+      "level": 44,
+      "move": "Take Down"
+    },
+    {
+      "level": 48,
+      "move": "Hydro Pump"
+    }
+  ]
+}

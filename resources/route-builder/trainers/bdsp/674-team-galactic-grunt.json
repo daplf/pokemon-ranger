@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-674",
+  "trainerId": 674,
+  "game": "bdsp",
+  "name": "Team Galactic Grunt",
+  "pokemon": [
+    {
+      "species": "Beautifly",
+      "level": 25,
+      "ability": "Swarm",
+      "moves": [
+        "Gust",
+        "Air Cutter",
+        "Mega Drain",
+        "Leech Life"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Stunky",
+      "level": 25,
+      "ability": "Stench",
+      "moves": [
+        "Poison Gas",
+        "Fury Swipes",
+        "Focus Energy",
+        "Bite"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-094",
+  "trainerId": 94,
+  "game": "bdsp",
+  "name": "Psychic Mitchell",
+  "pokemon": [
+    {
+      "species": "Haunter",
+      "level": 23,
+      "ability": "Levitate",
+      "moves": [
+        "Shadow Punch",
+        "Confuse Ray",
+        "Mean Look",
+        "Curse"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Kadabra",
+      "level": 23,
+      "ability": "Synchronize",
+      "moves": [
+        "Kinesis",
+        "Disable",
+        "Psybeam",
+        "Psycho Cut"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

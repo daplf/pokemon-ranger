@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-683",
+  "trainerId": 683,
+  "game": "bdsp",
+  "name": "Gym Leader Volkner",
+  "pokemon": [
+    {
+      "species": "Pelipper",
+      "level": 70,
+      "item": "Damp Rock",
+      "moves": [
+        "Hydro Pump",
+        "Hurricane",
+        "Ice Beam",
+        "U-turn"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 220,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 36,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Raichu",
+      "level": 70,
+      "item": "Choice Scarf",
+      "moves": [
+        "Thunder",
+        "Surf",
+        "Focus Blast",
+        "Volt Switch"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Luxray",
+      "level": 70,
+      "item": "Focus Sash",
+      "moves": [
+        "Ice Fang",
+        "Play Rough",
+        "Volt Switch",
+        "Electric Terrain"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Lanturn",
+      "level": 66,
+      "item": "Expert Belt",
+      "moves": [
+        "Thunder",
+        "Surf",
+        "Ice Beam",
+        "Volt Switch"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 6
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Jolteon",
+      "level": 68,
+      "item": "Toxic Orb",
+      "moves": [
+        "Thunder",
+        "Reflect",
+        "Shadow Ball",
+        "Volt Switch"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 6,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Electivire",
+      "level": 75,
+      "item": "Life Orb",
+      "moves": [
+        "Thunder",
+        "Flamethrower",
+        "Cross Chop",
+        "Earthquake"
+      ],
+      "nature": "Mild",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

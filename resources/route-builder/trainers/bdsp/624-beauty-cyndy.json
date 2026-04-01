@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-624",
+  "trainerId": 624,
+  "game": "bdsp",
+  "name": "Beauty Cyndy",
+  "pokemon": [
+    {
+      "species": "Purugly",
+      "level": 60,
+      "ability": "Own Tempo",
+      "moves": [
+        "Aerial Ace",
+        "Body Slam",
+        "Attract",
+        "Hone Claws"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-665",
+  "trainerId": 665,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Cedric",
+  "pokemon": [
+    {
+      "species": "Staraptor",
+      "level": 58,
+      "item": "Focus Sash",
+      "moves": [
+        "Close Combat",
+        "Pluck",
+        "Rain Dance",
+        "U-turn"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 60,
+        "attack": 132,
+        "defense": 36,
+        "specialAttack": 0,
+        "specialDefense": 36,
+        "speed": 244
+      },
+      "ivs": {
+        "hp": 5,
+        "attack": 5,
+        "defense": 5,
+        "specialAttack": 5,
+        "specialDefense": 5,
+        "speed": 5
+      }
+    },
+    {
+      "species": "Roserade",
+      "level": 59,
+      "item": "Black Sludge",
+      "moves": [
+        "Sludge Bomb",
+        "Giga Drain",
+        "Stun Spore",
+        "Shadow Ball"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 40,
+        "attack": 0,
+        "defense": 40,
+        "specialAttack": 136,
+        "specialDefense": 40,
+        "speed": 248
+      },
+      "ivs": {
+        "hp": 6,
+        "attack": 6,
+        "defense": 6,
+        "specialAttack": 6,
+        "specialDefense": 6,
+        "speed": 6
+      }
+    },
+    {
+      "species": "Heracross",
+      "level": 60,
+      "ability": "Swarm",
+      "moves": [
+        "Megahorn",
+        "Swords Dance",
+        "Rock Slide",
+        "Close Combat"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 44,
+        "attack": 124,
+        "defense": 44,
+        "specialAttack": 0,
+        "specialDefense": 44,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 9,
+        "attack": 9,
+        "defense": 9,
+        "specialAttack": 9,
+        "specialDefense": 9,
+        "speed": 9
+      }
+    },
+    {
+      "species": "Rapidash",
+      "level": 59,
+      "item": "Expert Belt",
+      "moves": [
+        "Smart Strike",
+        "Megahorn",
+        "Poison Jab",
+        "Flame Wheel"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 60,
+        "attack": 132,
+        "defense": 52,
+        "specialAttack": 0,
+        "specialDefense": 52,
+        "speed": 212
+      },
+      "ivs": {
+        "hp": 7,
+        "attack": 7,
+        "defense": 7,
+        "specialAttack": 7,
+        "specialDefense": 7,
+        "speed": 7
+      }
+    },
+    {
+      "species": "Snorlax",
+      "level": 60,
+      "ability": "Thick Fat",
+      "moves": [
+        "Covet",
+        "Yawn",
+        "Crunch",
+        "High Horsepower"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 100,
+        "attack": 156,
+        "defense": 160,
+        "specialAttack": 0,
+        "specialDefense": 92,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 9,
+        "attack": 9,
+        "defense": 9,
+        "specialAttack": 9,
+        "specialDefense": 9,
+        "speed": 9
+      }
+    },
+    {
+      "species": "Empoleon",
+      "level": 64,
+      "item": "Quick Claw",
+      "moves": [
+        "Charm",
+        "Grass Knot",
+        "Surf",
+        "Flash Cannon"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 52,
+        "attack": 0,
+        "defense": 52,
+        "specialAttack": 188,
+        "specialDefense": 52,
+        "speed": 164
+      },
+      "ivs": {
+        "hp": 11,
+        "attack": 11,
+        "defense": 11,
+        "specialAttack": 11,
+        "specialDefense": 11,
+        "speed": 11
+      }
+    }
+  ]
+}

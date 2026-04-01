@@ -1,0 +1,92 @@
+{
+  "species": "Yanma",
+  "game": "bdsp",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 78,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 65,
+    "attack": 65,
+    "defense": 45,
+    "specialAttack": 75,
+    "specialDefense": 45,
+    "speed": 95
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Gust"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 6,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 11,
+      "move": "Double Team"
+    },
+    {
+      "level": 14,
+      "move": "Aerial Ace"
+    },
+    {
+      "level": 17,
+      "move": "Detect"
+    },
+    {
+      "level": 22,
+      "move": "Supersonic"
+    },
+    {
+      "level": 27,
+      "move": "Uproar"
+    },
+    {
+      "level": 30,
+      "move": "String Shot"
+    },
+    {
+      "level": 33,
+      "move": "Ancient Power"
+    },
+    {
+      "level": 38,
+      "move": "Hypnosis"
+    },
+    {
+      "level": 43,
+      "move": "Wing Attack"
+    },
+    {
+      "level": 46,
+      "move": "Screech"
+    },
+    {
+      "level": 49,
+      "move": "U-turn"
+    },
+    {
+      "level": 54,
+      "move": "Air Slash"
+    },
+    {
+      "level": 57,
+      "move": "Bug Buzz"
+    }
+  ]
+}

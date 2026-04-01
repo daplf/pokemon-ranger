@@ -1,0 +1,120 @@
+{
+  "id": "trainer-id-078",
+  "trainerId": 78,
+  "game": "bdsp",
+  "name": "Fisher Travis",
+  "pokemon": [
+    {
+      "species": "Barboach",
+      "level": 17,
+      "ability": "Oblivious",
+      "moves": [
+        "Mud-Slap",
+        "Rest",
+        "Snore",
+        "Water Pulse"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Barboach",
+      "level": 18,
+      "ability": "Oblivious",
+      "moves": [
+        "Mud-Slap",
+        "Rest",
+        "Snore",
+        "Water Pulse"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Shellos",
+      "level": 20,
+      "ability": "Storm Drain",
+      "moves": [
+        "Mud-Slap",
+        "Harden",
+        "Recover",
+        "Water Pulse"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Barboach",
+      "level": 17,
+      "ability": "Oblivious",
+      "moves": [
+        "Mud-Slap",
+        "Rest",
+        "Snore",
+        "Water Pulse"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

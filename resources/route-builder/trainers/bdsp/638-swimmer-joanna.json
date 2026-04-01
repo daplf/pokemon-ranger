@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-638",
+  "trainerId": 638,
+  "game": "bdsp",
+  "name": "Swimmer Joanna",
+  "pokemon": [
+    {
+      "species": "Luvdisc",
+      "level": 56,
+      "ability": "Swift Swim",
+      "moves": [
+        "Aqua Ring",
+        "Flail",
+        "Brine",
+        "Attract"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Lapras",
+      "level": 60,
+      "ability": "Water Absorb",
+      "moves": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Ice Shard"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

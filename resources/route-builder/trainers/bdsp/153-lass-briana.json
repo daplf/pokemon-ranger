@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-153",
+  "trainerId": 153,
+  "game": "bdsp",
+  "name": "Lass Briana",
+  "pokemon": [
+    {
+      "species": "Pachirisu",
+      "level": 14,
+      "ability": "Pickup",
+      "moves": [
+        "Baby-Doll Eyes",
+        "Quick Attack",
+        "Charm",
+        "Spark"
+      ],
+      "nature": "Quirky",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

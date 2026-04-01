@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-404",
+  "trainerId": 404,
+  "game": "bdsp",
+  "name": "Poké Fan Rebekah",
+  "pokemon": [
+    {
+      "species": "Bonsly",
+      "level": 19,
+      "ability": "Sturdy",
+      "moves": [
+        "Fake Tears",
+        "Copycat",
+        "Flail",
+        "Rock Throw"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

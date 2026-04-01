@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-451",
+  "trainerId": 451,
+  "game": "bdsp",
+  "name": "Ace Trainer Mikayla",
+  "pokemon": [
+    {
+      "species": "Meowth",
+      "level": 56,
+      "ability": "Technician",
+      "moves": [
+        "Taunt",
+        "Play Rough",
+        "Feint",
+        "Bite"
+      ],
+      "nature": "Careful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Persian",
+      "level": 56,
+      "ability": "Technician",
+      "moves": [
+        "Fake Out",
+        "Slash",
+        "Taunt",
+        "Pay Day"
+      ],
+      "nature": "Careful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Hypno",
+      "level": 56,
+      "ability": "Insomnia",
+      "moves": [
+        "Future Sight",
+        "Psychic",
+        "Hypnosis",
+        "Disable"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "trainer-id-143",
+  "trainerId": 143,
+  "game": "bdsp",
+  "name": "Swimmer Aubree",
+  "prerequisites": {
+    "requiredHms": [
+      "surf"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Azurill",
+      "level": 41,
+      "ability": "Thick Fat",
+      "moves": [
+        "Bubble Beam",
+        "Charm",
+        "Slam",
+        "Bounce"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Azumarill",
+      "level": 41,
+      "ability": "Thick Fat",
+      "moves": [
+        "Bounce",
+        "Aqua Tail",
+        "Play Rough",
+        "Aqua Ring"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "wayward-cave",
+  "game": "bdsp",
+  "name": "Wayward Cave",
+  "trainerIds": [
+    "trainer-id-344",
+    "trainer-id-343",
+    "trainer-id-339",
+    "trainer-id-372",
+    "trainer-id-289",
+    "trainer-id-347",
+    "trainer-id-348",
+    "trainer-id-290",
+    "trainer-id-293",
+    "trainer-id-334"
+  ]
+}

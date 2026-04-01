@@ -1,0 +1,88 @@
+{
+  "species": "Staraptor",
+  "game": "bdsp",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 218,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 85,
+    "attack": 120,
+    "defense": 70,
+    "specialAttack": 50,
+    "specialDefense": 60,
+    "speed": 100
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Close Combat"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Wing Attack"
+    },
+    {
+      "level": 5,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 9,
+      "move": "Wing Attack"
+    },
+    {
+      "level": 13,
+      "move": "Double Team"
+    },
+    {
+      "level": 18,
+      "move": "Endeavor"
+    },
+    {
+      "level": 23,
+      "move": "Whirlwind"
+    },
+    {
+      "level": 28,
+      "move": "Aerial Ace"
+    },
+    {
+      "level": 33,
+      "move": "Take Down"
+    },
+    {
+      "level": 41,
+      "move": "Agility"
+    },
+    {
+      "level": 49,
+      "move": "Brave Bird"
+    },
+    {
+      "level": 57,
+      "move": "Final Gambit"
+    }
+  ]
+}

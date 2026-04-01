@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-279",
+  "trainerId": 279,
+  "game": "bdsp",
+  "name": "Worker Gerardo",
+  "pokemon": [
+    {
+      "species": "Onix",
+      "level": 29,
+      "ability": "Rock Head",
+      "moves": [
+        "Smack Down",
+        "Iron Tail",
+        "Sandstorm",
+        "Bulldoze"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Onix",
+      "level": 29,
+      "ability": "Rock Head",
+      "moves": [
+        "Rock Tomb",
+        "Rest",
+        "Sleep Talk",
+        "Iron Tail"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

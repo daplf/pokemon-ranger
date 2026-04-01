@@ -1,0 +1,153 @@
+{
+  "id": "trainer-id-188",
+  "trainerId": 188,
+  "game": "bdsp",
+  "name": "Elite Four Lucian",
+  "prerequisites": {
+    "beatenTrainerIds": [
+      "trainer-id-187"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Mr. Mime",
+      "level": 59,
+      "item": "Light Clay",
+      "moves": [
+        "Light Screen",
+        "Reflect",
+        "Psychic",
+        "Dazzling Gleam"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 12,
+        "specialAttack": 12,
+        "specialDefense": 12,
+        "speed": 12
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Girafarig",
+      "level": 59,
+      "item": "Mental Herb",
+      "moves": [
+        "Light Screen",
+        "Psychic",
+        "Thunderbolt",
+        "Trick Room"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 12,
+        "specialAttack": 12,
+        "specialDefense": 12,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Medicham",
+      "level": 60,
+      "item": "Muscle Band",
+      "moves": [
+        "Zen Headbutt",
+        "High Jump Kick",
+        "Thunder Punch",
+        "Ice Punch"
+      ],
+      "nature": "Brave",
+      "evs": {
+        "hp": 0,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Alakazam",
+      "level": 60,
+      "item": "Life Orb",
+      "moves": [
+        "Nasty Plot",
+        "Psychic",
+        "Future Sight",
+        "Shock Wave"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Bronzong",
+      "level": 63,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Gyro Ball",
+        "Earthquake",
+        "Payback",
+        "Trick Room"
+      ],
+      "nature": "Brave",
+      "evs": {
+        "hp": 12,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    }
+  ]
+}

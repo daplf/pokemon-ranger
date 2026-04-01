@@ -1,0 +1,83 @@
+{
+  "species": "Dragonair",
+  "game": "bdsp",
+  "types": [
+    "dragon"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 147,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 61,
+    "attack": 84,
+    "defense": 65,
+    "specialAttack": 70,
+    "specialDefense": 70,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Wave"
+    },
+    {
+      "level": 1,
+      "move": "Twister"
+    },
+    {
+      "level": 1,
+      "move": "Wrap"
+    },
+    {
+      "level": 15,
+      "move": "Dragon Tail"
+    },
+    {
+      "level": 20,
+      "move": "Agility"
+    },
+    {
+      "level": 25,
+      "move": "Slam"
+    },
+    {
+      "level": 33,
+      "move": "Aqua Tail"
+    },
+    {
+      "level": 39,
+      "move": "Dragon Rush"
+    },
+    {
+      "level": 46,
+      "move": "Safeguard"
+    },
+    {
+      "level": 53,
+      "move": "Rain Dance"
+    },
+    {
+      "level": 60,
+      "move": "Dragon Dance"
+    },
+    {
+      "level": 67,
+      "move": "Outrage"
+    },
+    {
+      "level": 74,
+      "move": "Hyper Beam"
+    }
+  ]
+}

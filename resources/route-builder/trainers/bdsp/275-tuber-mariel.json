@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-275",
+  "trainerId": 275,
+  "game": "bdsp",
+  "name": "Tuber Mariel",
+  "pokemon": [
+    {
+      "species": "Marill",
+      "level": 29,
+      "ability": "Thick Fat",
+      "moves": [
+        "Charm",
+        "Aqua Tail",
+        "Aqua Ring",
+        "Rain Dance"
+      ],
+      "nature": "Quirky",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Marill",
+      "level": 29,
+      "ability": "Thick Fat",
+      "moves": [
+        "Slam",
+        "Bounce",
+        "Aqua Tail",
+        "Play Rough"
+      ],
+      "nature": "Quirky",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-249",
+  "trainerId": 249,
+  "game": "bdsp",
+  "name": "Lass Molly",
+  "pokemon": [
+    {
+      "species": "Misdreavus",
+      "level": 30,
+      "ability": "Levitate",
+      "moves": [
+        "Confuse Ray",
+        "Mean Look",
+        "Shadow Ball",
+        "Nasty Plot"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

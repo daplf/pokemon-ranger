@@ -1,0 +1,75 @@
+{
+  "species": "Cranidos",
+  "game": "bdsp",
+  "types": [
+    "rock"
+  ],
+  "growthRate": "erratic",
+  "baseExperience": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 67,
+    "attack": 125,
+    "defense": 40,
+    "specialAttack": 30,
+    "specialDefense": 30,
+    "speed": 58
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Headbutt"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 6,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 10,
+      "move": "Rock Polish"
+    },
+    {
+      "level": 15,
+      "move": "Take Down"
+    },
+    {
+      "level": 19,
+      "move": "Scary Face"
+    },
+    {
+      "level": 24,
+      "move": "Assurance"
+    },
+    {
+      "level": 28,
+      "move": "Swords Dance"
+    },
+    {
+      "level": 33,
+      "move": "Ancient Power"
+    },
+    {
+      "level": 37,
+      "move": "Zen Headbutt"
+    },
+    {
+      "level": 42,
+      "move": "Screech"
+    },
+    {
+      "level": 46,
+      "move": "Head Smash"
+    }
+  ]
+}

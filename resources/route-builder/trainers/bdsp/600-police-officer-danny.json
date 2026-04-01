@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-600",
+  "trainerId": 600,
+  "game": "bdsp",
+  "name": "Police Officer Danny",
+  "pokemon": [
+    {
+      "species": "Noctowl",
+      "level": 53,
+      "ability": "Keen Eye",
+      "moves": [
+        "Psycho Shift",
+        "Moonblast",
+        "Hypnosis",
+        "Dream Eater"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machamp",
+      "level": 55,
+      "ability": "No Guard",
+      "moves": [
+        "Leer",
+        "Knock Off",
+        "Dual Chop",
+        "Dynamic Punch"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

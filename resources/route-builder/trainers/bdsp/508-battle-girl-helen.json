@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-508",
+  "trainerId": 508,
+  "game": "bdsp",
+  "name": "Battle Girl Helen",
+  "pokemon": [
+    {
+      "species": "Medicham",
+      "level": 38,
+      "ability": "Pure Power",
+      "moves": [
+        "Fire Punch",
+        "Thunder Punch",
+        "Ice Punch",
+        "Low Kick"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machoke",
+      "level": 40,
+      "ability": "No Guard",
+      "moves": [
+        "Low Sweep",
+        "Knock Off",
+        "Strength",
+        "Dual Chop"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

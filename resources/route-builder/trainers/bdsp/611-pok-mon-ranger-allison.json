@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-611",
+  "trainerId": 611,
+  "game": "bdsp",
+  "name": "Pokémon Ranger Allison",
+  "pokemon": [
+    {
+      "species": "Aipom",
+      "level": 41,
+      "ability": "Pickup",
+      "moves": [
+        "Astonish",
+        "Tickle",
+        "Double Hit",
+        "Fling"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Azumarill",
+      "level": 39,
+      "ability": "Thick Fat",
+      "moves": [
+        "Bubble Beam",
+        "Slam",
+        "Bounce",
+        "Play Rough"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

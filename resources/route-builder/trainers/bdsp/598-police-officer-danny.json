@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-598",
+  "trainerId": 598,
+  "game": "bdsp",
+  "name": "Police Officer Danny",
+  "pokemon": [
+    {
+      "species": "Hoothoot",
+      "level": 28,
+      "ability": "Keen Eye",
+      "moves": [
+        "Growl",
+        "Psycho Shift",
+        "Air Slash",
+        "Extrasensory"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machoke",
+      "level": 30,
+      "ability": "No Guard",
+      "moves": [
+        "Low Kick",
+        "Leer",
+        "Low Sweep",
+        "Knock Off"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

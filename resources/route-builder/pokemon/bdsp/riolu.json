@@ -1,0 +1,91 @@
+{
+  "species": "Riolu",
+  "game": "bdsp",
+  "types": [
+    "fighting"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 57,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 40,
+    "attack": 70,
+    "defense": 40,
+    "specialAttack": 35,
+    "specialDefense": 40,
+    "speed": 60
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Endure"
+    },
+    {
+      "level": 1,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 4,
+      "move": "Feint"
+    },
+    {
+      "level": 8,
+      "move": "Metal Claw"
+    },
+    {
+      "level": 12,
+      "move": "Counter"
+    },
+    {
+      "level": 16,
+      "move": "Work Up"
+    },
+    {
+      "level": 20,
+      "move": "Rock Smash"
+    },
+    {
+      "level": 24,
+      "move": "Nasty Plot"
+    },
+    {
+      "level": 28,
+      "move": "Screech"
+    },
+    {
+      "level": 32,
+      "move": "Quick Guard"
+    },
+    {
+      "level": 36,
+      "move": "Force Palm"
+    },
+    {
+      "level": 40,
+      "move": "Swords Dance"
+    },
+    {
+      "level": 44,
+      "move": "Helping Hand"
+    },
+    {
+      "level": 48,
+      "move": "Copycat"
+    },
+    {
+      "level": 52,
+      "move": "Final Gambit"
+    },
+    {
+      "level": 56,
+      "move": "Reversal"
+    }
+  ]
+}

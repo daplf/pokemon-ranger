@@ -1,0 +1,91 @@
+{
+  "species": "Electivire",
+  "game": "bdsp",
+  "types": [
+    "electric"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 243,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 123,
+    "defense": 67,
+    "specialAttack": 95,
+    "specialDefense": 85,
+    "speed": 95
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Charge"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Shock"
+    },
+    {
+      "level": 1,
+      "move": "Wild Charge"
+    },
+    {
+      "level": 12,
+      "move": "Swift"
+    },
+    {
+      "level": 16,
+      "move": "Shock Wave"
+    },
+    {
+      "level": 20,
+      "move": "Thunder Wave"
+    },
+    {
+      "level": 24,
+      "move": "Screech"
+    },
+    {
+      "level": 28,
+      "move": "Thunder Punch"
+    },
+    {
+      "level": 34,
+      "move": "Discharge"
+    },
+    {
+      "level": 40,
+      "move": "Low Kick"
+    },
+    {
+      "level": 46,
+      "move": "Thunderbolt"
+    },
+    {
+      "level": 52,
+      "move": "Light Screen"
+    },
+    {
+      "level": 58,
+      "move": "Thunder"
+    },
+    {
+      "level": 64,
+      "move": "Giga Impact"
+    }
+  ]
+}

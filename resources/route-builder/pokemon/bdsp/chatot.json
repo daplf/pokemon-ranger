@@ -1,0 +1,100 @@
+{
+  "species": "Chatot",
+  "game": "bdsp",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 144,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 76,
+    "attack": 65,
+    "defense": 45,
+    "specialAttack": 92,
+    "specialDefense": 42,
+    "speed": 91
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Chatter"
+    },
+    {
+      "level": 1,
+      "move": "Confide"
+    },
+    {
+      "level": 1,
+      "move": "Hyper Voice"
+    },
+    {
+      "level": 1,
+      "move": "Taunt"
+    },
+    {
+      "level": 5,
+      "move": "Peck"
+    },
+    {
+      "level": 9,
+      "move": "Growl"
+    },
+    {
+      "level": 13,
+      "move": "Sing"
+    },
+    {
+      "level": 17,
+      "move": "Fury Attack"
+    },
+    {
+      "level": 21,
+      "move": "Chatter"
+    },
+    {
+      "level": 25,
+      "move": "Taunt"
+    },
+    {
+      "level": 29,
+      "move": "Round"
+    },
+    {
+      "level": 33,
+      "move": "Mimic"
+    },
+    {
+      "level": 37,
+      "move": "Echoed Voice"
+    },
+    {
+      "level": 41,
+      "move": "Roost"
+    },
+    {
+      "level": 45,
+      "move": "Uproar"
+    },
+    {
+      "level": 49,
+      "move": "Parting Shot"
+    },
+    {
+      "level": 50,
+      "move": "Feather Dance"
+    },
+    {
+      "level": 57,
+      "move": "Hyper Voice"
+    }
+  ]
+}

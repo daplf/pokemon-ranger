@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-215",
+  "trainerId": 215,
+  "game": "bdsp",
+  "name": "Ranchers Matt",
+  "pokemon": [
+    {
+      "species": "Glameow",
+      "level": 21,
+      "ability": "Limber",
+      "moves": [
+        "Fake Out",
+        "Growl",
+        "Aerial Ace",
+        "Fury Swipes"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

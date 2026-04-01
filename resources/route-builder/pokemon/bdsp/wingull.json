@@ -1,0 +1,72 @@
+{
+  "species": "Wingull",
+  "game": "bdsp",
+  "types": [
+    "water",
+    "flying"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 54,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 40,
+    "attack": 30,
+    "defense": 30,
+    "specialAttack": 55,
+    "specialDefense": 30,
+    "speed": 85
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Water Gun"
+    },
+    {
+      "level": 5,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 10,
+      "move": "Supersonic"
+    },
+    {
+      "level": 15,
+      "move": "Wing Attack"
+    },
+    {
+      "level": 20,
+      "move": "Water Pulse"
+    },
+    {
+      "level": 26,
+      "move": "Agility"
+    },
+    {
+      "level": 30,
+      "move": "Air Slash"
+    },
+    {
+      "level": 35,
+      "move": "Mist"
+    },
+    {
+      "level": 40,
+      "move": "Roost"
+    },
+    {
+      "level": 45,
+      "move": "Hurricane"
+    }
+  ]
+}

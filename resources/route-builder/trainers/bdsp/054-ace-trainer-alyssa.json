@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-054",
+  "trainerId": 54,
+  "game": "bdsp",
+  "name": "Ace Trainer Alyssa",
+  "pokemon": [
+    {
+      "species": "Ponyta",
+      "level": 27,
+      "ability": "Run Away",
+      "moves": [
+        "Growl",
+        "Tail Whip",
+        "Ember",
+        "Flame Wheel"
+      ],
+      "nature": "Careful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Grotle",
+      "level": 27,
+      "ability": "Overgrow",
+      "moves": [
+        "Razor Leaf",
+        "Curse",
+        "Bite",
+        "Mega Drain"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

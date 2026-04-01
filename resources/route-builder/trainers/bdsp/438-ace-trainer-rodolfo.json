@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-438",
+  "trainerId": 438,
+  "game": "bdsp",
+  "name": "Ace Trainer Rodolfo",
+  "pokemon": [
+    {
+      "species": "Lickitung",
+      "level": 53,
+      "ability": "Own Tempo",
+      "moves": [
+        "Slam",
+        "Knock Off",
+        "Stomp",
+        "Lick"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Miltank",
+      "level": 53,
+      "ability": "Scrappy",
+      "moves": [
+        "Milk Drink",
+        "Body Slam",
+        "Charm",
+        "Play Rough"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

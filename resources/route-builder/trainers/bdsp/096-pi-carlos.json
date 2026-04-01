@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-096",
+  "trainerId": 96,
+  "game": "bdsp",
+  "name": "PI Carlos",
+  "pokemon": [
+    {
+      "species": "Goldeen",
+      "level": 23,
+      "ability": "Water Veil",
+      "moves": [
+        "Peck",
+        "Tail Whip",
+        "Supersonic",
+        "Water Pulse"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Goldeen",
+      "level": 23,
+      "ability": "Water Veil",
+      "moves": [
+        "Peck",
+        "Supersonic",
+        "Water Pulse",
+        "Horn Attack"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Goldeen",
+      "level": 23,
+      "ability": "Water Veil",
+      "moves": [
+        "Peck",
+        "Water Pulse",
+        "Horn Attack",
+        "Agility"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

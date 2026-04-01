@@ -1,0 +1,88 @@
+{
+  "species": "Skarmory",
+  "game": "bdsp",
+  "types": [
+    "steel",
+    "flying"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 163,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 65,
+    "attack": 80,
+    "defense": 140,
+    "specialAttack": 40,
+    "specialDefense": 70,
+    "speed": 70
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Peck"
+    },
+    {
+      "level": 4,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 8,
+      "move": "Fury Attack"
+    },
+    {
+      "level": 12,
+      "move": "Metal Claw"
+    },
+    {
+      "level": 16,
+      "move": "Agility"
+    },
+    {
+      "level": 20,
+      "move": "Wing Attack"
+    },
+    {
+      "level": 24,
+      "move": "Slash"
+    },
+    {
+      "level": 28,
+      "move": "Steel Wing"
+    },
+    {
+      "level": 32,
+      "move": "Autotomize"
+    },
+    {
+      "level": 36,
+      "move": "Drill Peck"
+    },
+    {
+      "level": 40,
+      "move": "Metal Sound"
+    },
+    {
+      "level": 44,
+      "move": "Spikes"
+    },
+    {
+      "level": 48,
+      "move": "Iron Defense"
+    },
+    {
+      "level": 52,
+      "move": "Brave Bird"
+    }
+  ]
+}

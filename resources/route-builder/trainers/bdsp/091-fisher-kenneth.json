@@ -1,0 +1,90 @@
+{
+  "id": "trainer-id-091",
+  "trainerId": 91,
+  "game": "bdsp",
+  "name": "Fisher Kenneth",
+  "pokemon": [
+    {
+      "species": "Magikarp",
+      "level": 19,
+      "ability": "Swift Swim",
+      "moves": [
+        "Splash",
+        "Tackle"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Remoraid",
+      "level": 19,
+      "ability": "Hustle",
+      "moves": [
+        "Water Pulse",
+        "Focus Energy",
+        "Psybeam",
+        "Aurora Beam"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gyarados",
+      "level": 22,
+      "ability": "Intimidate",
+      "moves": [
+        "Leer",
+        "Twister",
+        "Ice Fang",
+        "Waterfall"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-463",
+  "trainerId": 463,
+  "game": "bdsp",
+  "name": "Black Belt Griffin",
+  "pokemon": [
+    {
+      "species": "Cacturne",
+      "level": 57,
+      "ability": "Sand Veil",
+      "moves": [
+        "Spiky Shield",
+        "Leech Seed",
+        "Sucker Punch",
+        "Pin Missile"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Machamp",
+      "level": 57,
+      "ability": "No Guard",
+      "moves": [
+        "Dynamic Punch",
+        "Knock Off",
+        "Strength",
+        "Low Sweep"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

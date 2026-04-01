@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-450",
+  "trainerId": 450,
+  "game": "bdsp",
+  "name": "Ace Trainer Dana",
+  "pokemon": [
+    {
+      "species": "Mightyena",
+      "level": 55,
+      "ability": "Intimidate",
+      "moves": [
+        "Crunch",
+        "Sucker Punch",
+        "Thunder Fang",
+        "Scary Face"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Kirlia",
+      "level": 55,
+      "ability": "Synchronize",
+      "moves": [
+        "Hypnosis",
+        "Psychic",
+        "Calm Mind",
+        "Dream Eater"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

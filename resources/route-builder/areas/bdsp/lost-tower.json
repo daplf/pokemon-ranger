@@ -1,0 +1,11 @@
+{
+  "id": "lost-tower",
+  "game": "bdsp",
+  "name": "Lost Tower",
+  "trainerIds": [
+    "trainer-id-405",
+    "trainer-id-402",
+    "trainer-id-406",
+    "trainer-id-409"
+  ]
+}

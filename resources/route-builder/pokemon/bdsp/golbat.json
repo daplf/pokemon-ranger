@@ -1,0 +1,84 @@
+{
+  "species": "Golbat",
+  "game": "bdsp",
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 159,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 2
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 70,
+    "specialAttack": 65,
+    "specialDefense": 75,
+    "speed": 90
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Absorb"
+    },
+    {
+      "level": 1,
+      "move": "Astonish"
+    },
+    {
+      "level": 1,
+      "move": "Mean Look"
+    },
+    {
+      "level": 1,
+      "move": "Screech"
+    },
+    {
+      "level": 1,
+      "move": "Supersonic"
+    },
+    {
+      "level": 15,
+      "move": "Poison Fang"
+    },
+    {
+      "level": 20,
+      "move": "Quick Guard"
+    },
+    {
+      "level": 27,
+      "move": "Air Cutter"
+    },
+    {
+      "level": 34,
+      "move": "Bite"
+    },
+    {
+      "level": 41,
+      "move": "Haze"
+    },
+    {
+      "level": 48,
+      "move": "Venoshock"
+    },
+    {
+      "level": 55,
+      "move": "Confuse Ray"
+    },
+    {
+      "level": 62,
+      "move": "Air Slash"
+    },
+    {
+      "level": 69,
+      "move": "Leech Life"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "celestic-town",
+  "game": "bdsp",
+  "name": "Celestic Town",
+  "trainerIds": [
+    "trainer-id-319",
+    "trainer-id-321"
+  ]
+}

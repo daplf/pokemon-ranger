@@ -1,0 +1,120 @@
+{
+  "species": "Medicham",
+  "game": "bdsp",
+  "types": [
+    "fighting",
+    "psychic"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 144,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 2
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 75,
+    "specialAttack": 60,
+    "specialDefense": 75,
+    "speed": 80
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Confusion"
+    },
+    {
+      "level": 1,
+      "move": "Detect"
+    },
+    {
+      "level": 1,
+      "move": "Fire Punch"
+    },
+    {
+      "level": 1,
+      "move": "Ice Punch"
+    },
+    {
+      "level": 1,
+      "move": "Pound"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Punch"
+    },
+    {
+      "level": 1,
+      "move": "Zen Headbutt"
+    },
+    {
+      "level": 4,
+      "move": "Low Kick"
+    },
+    {
+      "level": 7,
+      "move": "Confusion"
+    },
+    {
+      "level": 9,
+      "move": "Detect"
+    },
+    {
+      "level": 12,
+      "move": "Endure"
+    },
+    {
+      "level": 15,
+      "move": "Feint"
+    },
+    {
+      "level": 17,
+      "move": "Force Palm"
+    },
+    {
+      "level": 20,
+      "move": "Psybeam"
+    },
+    {
+      "level": 23,
+      "move": "Calm Mind"
+    },
+    {
+      "level": 25,
+      "move": "Mind Reader"
+    },
+    {
+      "level": 28,
+      "move": "High Jump Kick"
+    },
+    {
+      "level": 31,
+      "move": "Psych Up"
+    },
+    {
+      "level": 33,
+      "move": "Acupressure"
+    },
+    {
+      "level": 36,
+      "move": "Power Trick"
+    },
+    {
+      "level": 42,
+      "move": "Reversal"
+    },
+    {
+      "level": 47,
+      "move": "Recover"
+    },
+    {
+      "level": 53,
+      "move": "Counter"
+    }
+  ]
+}

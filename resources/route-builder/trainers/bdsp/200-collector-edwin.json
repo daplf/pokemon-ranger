@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-200",
+  "trainerId": 200,
+  "game": "bdsp",
+  "name": "Collector Edwin",
+  "pokemon": [
+    {
+      "species": "Sudowoodo",
+      "level": 19,
+      "ability": "Rock Head",
+      "moves": [
+        "Block",
+        "Stone Edge",
+        "Hammer Arm",
+        "Wood Hammer"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Sudowoodo",
+      "level": 19,
+      "ability": "Rock Head",
+      "moves": [
+        "Stone Edge",
+        "Hammer Arm",
+        "Wood Hammer",
+        "Flail"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Sudowoodo",
+      "level": 19,
+      "ability": "Rock Head",
+      "moves": [
+        "Slam",
+        "Stone Edge",
+        "Hammer Arm",
+        "Wood Hammer"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

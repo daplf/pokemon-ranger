@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-413",
+  "trainerId": 413,
+  "game": "bdsp",
+  "name": "Cameraman Darryl",
+  "pokemon": [
+    {
+      "species": "Luxio",
+      "level": 21,
+      "ability": "Intimidate",
+      "moves": [
+        "Leer",
+        "Charge",
+        "Bite",
+        "Spark"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Pikachu",
+      "level": 21,
+      "ability": "Static",
+      "moves": [
+        "Nuzzle",
+        "Tail Whip",
+        "Growl",
+        "Spark"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

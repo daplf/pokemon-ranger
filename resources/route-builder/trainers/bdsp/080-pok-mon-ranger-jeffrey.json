@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-080",
+  "trainerId": 80,
+  "game": "bdsp",
+  "name": "Pokémon Ranger Jeffrey",
+  "pokemon": [
+    {
+      "species": "Prinplup",
+      "level": 21,
+      "ability": "Torrent",
+      "moves": [
+        "Metal Claw",
+        "Charm",
+        "Peck",
+        "Bubble Beam"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Prinplup",
+      "level": 21,
+      "ability": "Torrent",
+      "moves": [
+        "Metal Claw",
+        "Tackle",
+        "Peck",
+        "Bubble Beam"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

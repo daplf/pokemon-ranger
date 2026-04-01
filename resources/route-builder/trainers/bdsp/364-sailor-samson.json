@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-364",
+  "trainerId": 364,
+  "game": "bdsp",
+  "name": "Sailor Samson",
+  "pokemon": [
+    {
+      "species": "Shellos",
+      "level": 24,
+      "ability": "Storm Drain",
+      "moves": [
+        "Mud-Slap",
+        "Recover",
+        "Water Pulse",
+        "Rain Dance"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Wingull",
+      "level": 24,
+      "ability": "Hydration",
+      "moves": [
+        "Water Pulse",
+        "Rain Dance",
+        "U-turn",
+        "Roost"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Shellos (East Sea)",
+      "level": 24,
+      "ability": "Storm Drain",
+      "moves": [
+        "Mud-Slap",
+        "Harden",
+        "Recover",
+        "Water Pulse"
+      ],
+      "nature": "Relaxed",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-452",
+  "trainerId": 452,
+  "game": "bdsp",
+  "name": "Ace Trainer Meagan",
+  "pokemon": [
+    {
+      "species": "Delcatty",
+      "level": 55,
+      "ability": "Cute Charm",
+      "moves": [
+        "Double-Edge",
+        "Play Rough",
+        "Feint Attack",
+        "Attract"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Yanma",
+      "level": 55,
+      "ability": "Compound Eyes",
+      "moves": [
+        "Air Slash",
+        "Hypnosis",
+        "Detect",
+        "Ancient Power"
+      ],
+      "nature": "Hardy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

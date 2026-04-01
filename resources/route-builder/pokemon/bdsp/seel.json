@@ -1,0 +1,95 @@
+{
+  "species": "Seel",
+  "game": "bdsp",
+  "types": [
+    "water"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 65,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 1,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 65,
+    "attack": 45,
+    "defense": 55,
+    "specialAttack": 45,
+    "specialDefense": 70,
+    "speed": 45
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Headbutt"
+    },
+    {
+      "level": 3,
+      "move": "Growl"
+    },
+    {
+      "level": 7,
+      "move": "Water Gun"
+    },
+    {
+      "level": 11,
+      "move": "Icy Wind"
+    },
+    {
+      "level": 13,
+      "move": "Encore"
+    },
+    {
+      "level": 17,
+      "move": "Ice Shard"
+    },
+    {
+      "level": 21,
+      "move": "Rest"
+    },
+    {
+      "level": 23,
+      "move": "Aqua Ring"
+    },
+    {
+      "level": 27,
+      "move": "Aurora Beam"
+    },
+    {
+      "level": 31,
+      "move": "Aqua Jet"
+    },
+    {
+      "level": 33,
+      "move": "Brine"
+    },
+    {
+      "level": 37,
+      "move": "Take Down"
+    },
+    {
+      "level": 41,
+      "move": "Dive"
+    },
+    {
+      "level": 43,
+      "move": "Aqua Tail"
+    },
+    {
+      "level": 47,
+      "move": "Ice Beam"
+    },
+    {
+      "level": 51,
+      "move": "Safeguard"
+    },
+    {
+      "level": 53,
+      "move": "Hail"
+    }
+  ]
+}

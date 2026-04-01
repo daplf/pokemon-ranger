@@ -1,0 +1,99 @@
+{
+  "species": "Hippowdon",
+  "game": "bdsp",
+  "types": [
+    "ground"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 184,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 108,
+    "attack": 112,
+    "defense": 118,
+    "specialAttack": 68,
+    "specialDefense": 72,
+    "speed": 47
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Bite"
+    },
+    {
+      "level": 1,
+      "move": "Fire Fang"
+    },
+    {
+      "level": 1,
+      "move": "Ice Fang"
+    },
+    {
+      "level": 1,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Thunder Fang"
+    },
+    {
+      "level": 1,
+      "move": "Yawn"
+    },
+    {
+      "level": 12,
+      "move": "Sand Tomb"
+    },
+    {
+      "level": 16,
+      "move": "Dig"
+    },
+    {
+      "level": 20,
+      "move": "Crunch"
+    },
+    {
+      "level": 24,
+      "move": "Sandstorm"
+    },
+    {
+      "level": 28,
+      "move": "Take Down"
+    },
+    {
+      "level": 32,
+      "move": "Roar"
+    },
+    {
+      "level": 38,
+      "move": "Rest"
+    },
+    {
+      "level": 44,
+      "move": "Earthquake"
+    },
+    {
+      "level": 50,
+      "move": "Double-Edge"
+    },
+    {
+      "level": 56,
+      "move": "Fissure"
+    },
+    {
+      "level": 62,
+      "move": "Slack Off"
+    }
+  ]
+}

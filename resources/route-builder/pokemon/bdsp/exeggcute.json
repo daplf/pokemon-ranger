@@ -1,0 +1,80 @@
+{
+  "species": "Exeggcute",
+  "game": "bdsp",
+  "types": [
+    "grass",
+    "psychic"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 65,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 1,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 40,
+    "defense": 80,
+    "specialAttack": 60,
+    "specialDefense": 45,
+    "speed": 40
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Absorb"
+    },
+    {
+      "level": 1,
+      "move": "Hypnosis"
+    },
+    {
+      "level": 5,
+      "move": "Reflect"
+    },
+    {
+      "level": 10,
+      "move": "Leech Seed"
+    },
+    {
+      "level": 15,
+      "move": "Mega Drain"
+    },
+    {
+      "level": 20,
+      "move": "Confusion"
+    },
+    {
+      "level": 25,
+      "move": "Synthesis"
+    },
+    {
+      "level": 30,
+      "move": "Bullet Seed"
+    },
+    {
+      "level": 35,
+      "move": "Giga Drain"
+    },
+    {
+      "level": 40,
+      "move": "Extrasensory"
+    },
+    {
+      "level": 45,
+      "move": "Uproar"
+    },
+    {
+      "level": 50,
+      "move": "Worry Seed"
+    },
+    {
+      "level": 55,
+      "move": "Solar Beam"
+    }
+  ]
+}

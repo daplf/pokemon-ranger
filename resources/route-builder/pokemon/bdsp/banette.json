@@ -1,0 +1,107 @@
+{
+  "species": "Banette",
+  "game": "bdsp",
+  "types": [
+    "ghost"
+  ],
+  "growthRate": "fast",
+  "baseExperience": 159,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 64,
+    "attack": 115,
+    "defense": 65,
+    "specialAttack": 83,
+    "specialDefense": 63,
+    "speed": 65
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Knock Off"
+    },
+    {
+      "level": 1,
+      "move": "Night Shade"
+    },
+    {
+      "level": 1,
+      "move": "Phantom Force"
+    },
+    {
+      "level": 1,
+      "move": "Screech"
+    },
+    {
+      "level": 1,
+      "move": "Spite"
+    },
+    {
+      "level": 4,
+      "move": "Screech"
+    },
+    {
+      "level": 7,
+      "move": "Night Shade"
+    },
+    {
+      "level": 10,
+      "move": "Spite"
+    },
+    {
+      "level": 13,
+      "move": "Shadow Sneak"
+    },
+    {
+      "level": 16,
+      "move": "Will-O-Wisp"
+    },
+    {
+      "level": 19,
+      "move": "Pain Split"
+    },
+    {
+      "level": 22,
+      "move": "Hex"
+    },
+    {
+      "level": 26,
+      "move": "Curse"
+    },
+    {
+      "level": 30,
+      "move": "Shadow Ball"
+    },
+    {
+      "level": 34,
+      "move": "Role Play"
+    },
+    {
+      "level": 40,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 46,
+      "move": "Knock Off"
+    },
+    {
+      "level": 52,
+      "move": "Grudge"
+    },
+    {
+      "level": 58,
+      "move": "Trick"
+    },
+    {
+      "level": 64,
+      "move": "Phantom Force"
+    }
+  ]
+}

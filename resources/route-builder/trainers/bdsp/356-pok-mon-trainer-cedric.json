@@ -1,0 +1,120 @@
+{
+  "id": "trainer-id-356",
+  "trainerId": 356,
+  "game": "bdsp",
+  "name": "Pokémon Trainer Cedric",
+  "pokemon": [
+    {
+      "species": "Starly",
+      "level": 26,
+      "item": "Quick Claw",
+      "moves": [
+        "Quick Attack",
+        "Double Team",
+        "Endeavor",
+        "Pluck"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 28,
+        "attack": 52,
+        "defense": 12,
+        "specialAttack": 0,
+        "specialDefense": 12,
+        "speed": 52
+      },
+      "ivs": {
+        "hp": 5,
+        "attack": 5,
+        "defense": 5,
+        "specialAttack": 5,
+        "specialDefense": 5,
+        "speed": 5
+      }
+    },
+    {
+      "species": "Roselia",
+      "level": 26,
+      "item": "Miracle Seed",
+      "moves": [
+        "Growth",
+        "Stun Spore",
+        "Leech Seed",
+        "Magical Leaf"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 12,
+        "specialAttack": 44,
+        "specialDefense": 12,
+        "speed": 36
+      },
+      "ivs": {
+        "hp": 6,
+        "attack": 6,
+        "defense": 6,
+        "specialAttack": 6,
+        "specialDefense": 6,
+        "speed": 6
+      }
+    },
+    {
+      "species": "Ponyta",
+      "level": 27,
+      "item": "Shell Bell",
+      "moves": [
+        "Tackle",
+        "Growl",
+        "Agility",
+        "Flame Wheel"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 4,
+        "attack": 44,
+        "defense": 12,
+        "specialAttack": 0,
+        "specialDefense": 12,
+        "speed": 12
+      },
+      "ivs": {
+        "hp": 7,
+        "attack": 7,
+        "defense": 7,
+        "specialAttack": 7,
+        "specialDefense": 7,
+        "speed": 7
+      }
+    },
+    {
+      "species": "Prinplup",
+      "level": 31,
+      "item": "Sea Incense",
+      "moves": [
+        "Metal Claw",
+        "Charm",
+        "Bubble Beam",
+        "Grass Knot"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 36,
+        "attack": 0,
+        "defense": 12,
+        "specialAttack": 52,
+        "specialDefense": 12,
+        "speed": 52
+      },
+      "ivs": {
+        "hp": 11,
+        "attack": 11,
+        "defense": 11,
+        "specialAttack": 11,
+        "specialDefense": 11,
+        "speed": 11
+      }
+    }
+  ]
+}

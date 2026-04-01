@@ -1,0 +1,79 @@
+{
+  "species": "Rattata",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 51,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 30,
+    "attack": 56,
+    "defense": 35,
+    "specialAttack": 25,
+    "specialDefense": 35,
+    "speed": 72
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 4,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 7,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 10,
+      "move": "Bite"
+    },
+    {
+      "level": 13,
+      "move": "Laser Focus"
+    },
+    {
+      "level": 16,
+      "move": "Take Down"
+    },
+    {
+      "level": 19,
+      "move": "Assurance"
+    },
+    {
+      "level": 22,
+      "move": "Crunch"
+    },
+    {
+      "level": 25,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 28,
+      "move": "Super Fang"
+    },
+    {
+      "level": 31,
+      "move": "Double-Edge"
+    },
+    {
+      "level": 34,
+      "move": "Endeavor"
+    }
+  ]
+}

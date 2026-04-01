@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-524",
+  "trainerId": 524,
+  "game": "bdsp",
+  "name": "Collector Ivan",
+  "pokemon": [
+    {
+      "species": "Hippopotas",
+      "level": 51,
+      "ability": "Sand Stream",
+      "moves": [
+        "Yawn",
+        "Sand Tomb",
+        "Crunch",
+        "Earthquake"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Hippopotas",
+      "level": 53,
+      "ability": "Sand Stream",
+      "moves": [
+        "Crunch",
+        "Double-Edge",
+        "Fissure",
+        "Slack Off"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Hippopotas",
+      "level": 52,
+      "ability": "Sand Stream",
+      "moves": [
+        "Crunch",
+        "Double-Edge",
+        "Earthquake",
+        "Slack Off"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

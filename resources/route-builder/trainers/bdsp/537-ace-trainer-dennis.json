@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-537",
+  "trainerId": 537,
+  "game": "bdsp",
+  "name": "Ace Trainer Dennis",
+  "pokemon": [
+    {
+      "species": "Monferno",
+      "level": 59,
+      "ability": "Blaze",
+      "moves": [
+        "Leer",
+        "Torment",
+        "Close Combat",
+        "Flare Blitz"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Luxio",
+      "level": 59,
+      "ability": "Intimidate",
+      "moves": [
+        "Leer",
+        "Spark",
+        "Thunder Wave",
+        "Crunch"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gyarados",
+      "level": 59,
+      "ability": "Intimidate",
+      "moves": [
+        "Leer",
+        "Rain Dance",
+        "Aqua Tail",
+        "Hurricane"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

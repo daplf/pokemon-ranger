@@ -1,0 +1,92 @@
+{
+  "species": "Cradily",
+  "game": "bdsp",
+  "types": [
+    "rock",
+    "grass"
+  ],
+  "growthRate": "erratic",
+  "baseExperience": 173,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 2,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 86,
+    "attack": 81,
+    "defense": 97,
+    "specialAttack": 81,
+    "specialDefense": 107,
+    "speed": 43
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Acid"
+    },
+    {
+      "level": 1,
+      "move": "Astonish"
+    },
+    {
+      "level": 1,
+      "move": "Confuse Ray"
+    },
+    {
+      "level": 1,
+      "move": "Leech Seed"
+    },
+    {
+      "level": 1,
+      "move": "Wrap"
+    },
+    {
+      "level": 12,
+      "move": "Ingrain"
+    },
+    {
+      "level": 16,
+      "move": "Ancient Power"
+    },
+    {
+      "level": 20,
+      "move": "Mega Drain"
+    },
+    {
+      "level": 24,
+      "move": "Brine"
+    },
+    {
+      "level": 28,
+      "move": "Amnesia"
+    },
+    {
+      "level": 32,
+      "move": "Gastro Acid"
+    },
+    {
+      "level": 36,
+      "move": "Giga Drain"
+    },
+    {
+      "level": 43,
+      "move": "Spit Up"
+    },
+    {
+      "level": 43,
+      "move": "Stockpile"
+    },
+    {
+      "level": 43,
+      "move": "Swallow"
+    },
+    {
+      "level": 48,
+      "move": "Energy Ball"
+    }
+  ]
+}

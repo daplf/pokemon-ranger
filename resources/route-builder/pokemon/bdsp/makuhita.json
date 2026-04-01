@@ -1,0 +1,95 @@
+{
+  "species": "Makuhita",
+  "game": "bdsp",
+  "types": [
+    "fighting"
+  ],
+  "growthRate": "fluctuating",
+  "baseExperience": 47,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 72,
+    "attack": 60,
+    "defense": 30,
+    "specialAttack": 20,
+    "specialDefense": 30,
+    "speed": 25
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 4,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 7,
+      "move": "Arm Thrust"
+    },
+    {
+      "level": 10,
+      "move": "Fake Out"
+    },
+    {
+      "level": 13,
+      "move": "Force Palm"
+    },
+    {
+      "level": 16,
+      "move": "Whirlwind"
+    },
+    {
+      "level": 19,
+      "move": "Knock Off"
+    },
+    {
+      "level": 22,
+      "move": "Vital Throw"
+    },
+    {
+      "level": 25,
+      "move": "Belly Drum"
+    },
+    {
+      "level": 28,
+      "move": "Detect"
+    },
+    {
+      "level": 31,
+      "move": "Seismic Toss"
+    },
+    {
+      "level": 34,
+      "move": "Focus Punch"
+    },
+    {
+      "level": 37,
+      "move": "Endure"
+    },
+    {
+      "level": 40,
+      "move": "Close Combat"
+    },
+    {
+      "level": 43,
+      "move": "Reversal"
+    },
+    {
+      "level": 46,
+      "move": "Heavy Slam"
+    }
+  ]
+}

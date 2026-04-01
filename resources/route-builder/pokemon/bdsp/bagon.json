@@ -1,0 +1,79 @@
+{
+  "species": "Bagon",
+  "game": "bdsp",
+  "types": [
+    "dragon"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 60,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 45,
+    "attack": 75,
+    "defense": 60,
+    "specialAttack": 40,
+    "specialDefense": 30,
+    "speed": 50
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Ember"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 5,
+      "move": "Bite"
+    },
+    {
+      "level": 10,
+      "move": "Dragon Breath"
+    },
+    {
+      "level": 15,
+      "move": "Headbutt"
+    },
+    {
+      "level": 20,
+      "move": "Scary Face"
+    },
+    {
+      "level": 25,
+      "move": "Crunch"
+    },
+    {
+      "level": 31,
+      "move": "Dragon Claw"
+    },
+    {
+      "level": 35,
+      "move": "Zen Headbutt"
+    },
+    {
+      "level": 40,
+      "move": "Focus Energy"
+    },
+    {
+      "level": 45,
+      "move": "Flamethrower"
+    },
+    {
+      "level": 50,
+      "move": "Outrage"
+    },
+    {
+      "level": 55,
+      "move": "Double-Edge"
+    }
+  ]
+}

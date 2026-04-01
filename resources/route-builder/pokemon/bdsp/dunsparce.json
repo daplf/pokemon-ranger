@@ -1,0 +1,91 @@
+{
+  "species": "Dunsparce",
+  "game": "bdsp",
+  "types": [
+    "normal"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 145,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 100,
+    "attack": 70,
+    "defense": 70,
+    "specialAttack": 65,
+    "specialDefense": 65,
+    "speed": 45
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Defense Curl"
+    },
+    {
+      "level": 1,
+      "move": "Flail"
+    },
+    {
+      "level": 4,
+      "move": "Mud-Slap"
+    },
+    {
+      "level": 8,
+      "move": "Rollout"
+    },
+    {
+      "level": 12,
+      "move": "Glare"
+    },
+    {
+      "level": 16,
+      "move": "Screech"
+    },
+    {
+      "level": 20,
+      "move": "Ancient Power"
+    },
+    {
+      "level": 24,
+      "move": "Drill Run"
+    },
+    {
+      "level": 28,
+      "move": "Yawn"
+    },
+    {
+      "level": 32,
+      "move": "Body Slam"
+    },
+    {
+      "level": 36,
+      "move": "Take Down"
+    },
+    {
+      "level": 40,
+      "move": "Roost"
+    },
+    {
+      "level": 44,
+      "move": "Dragon Rush"
+    },
+    {
+      "level": 48,
+      "move": "Coil"
+    },
+    {
+      "level": 52,
+      "move": "Double-Edge"
+    },
+    {
+      "level": 56,
+      "move": "Endeavor"
+    }
+  ]
+}

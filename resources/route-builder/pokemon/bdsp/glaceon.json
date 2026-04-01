@@ -1,0 +1,119 @@
+{
+  "species": "Glaceon",
+  "game": "bdsp",
+  "types": [
+    "ice"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 184,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 2,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 65,
+    "attack": 60,
+    "defense": 110,
+    "specialAttack": 130,
+    "specialDefense": 95,
+    "speed": 65
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Baton Pass"
+    },
+    {
+      "level": 1,
+      "move": "Charm"
+    },
+    {
+      "level": 1,
+      "move": "Copycat"
+    },
+    {
+      "level": 1,
+      "move": "Covet"
+    },
+    {
+      "level": 1,
+      "move": "Double-Edge"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Helping Hand"
+    },
+    {
+      "level": 1,
+      "move": "Icy Wind"
+    },
+    {
+      "level": 1,
+      "move": "Swift"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 1,
+      "move": "Tail Whip"
+    },
+    {
+      "level": 1,
+      "move": "Take Down"
+    },
+    {
+      "level": 5,
+      "move": "Sand Attack"
+    },
+    {
+      "level": 10,
+      "move": "Quick Attack"
+    },
+    {
+      "level": 15,
+      "move": "Baby-Doll Eyes"
+    },
+    {
+      "level": 20,
+      "move": "Ice Shard"
+    },
+    {
+      "level": 25,
+      "move": "Bite"
+    },
+    {
+      "level": 30,
+      "move": "Ice Fang"
+    },
+    {
+      "level": 35,
+      "move": "Hail"
+    },
+    {
+      "level": 40,
+      "move": "Freeze-Dry"
+    },
+    {
+      "level": 45,
+      "move": "Mirror Coat"
+    },
+    {
+      "level": 50,
+      "move": "Blizzard"
+    },
+    {
+      "level": 55,
+      "move": "Last Resort"
+    }
+  ]
+}

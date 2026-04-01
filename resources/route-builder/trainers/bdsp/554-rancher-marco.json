@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-554",
+  "trainerId": 554,
+  "game": "bdsp",
+  "name": "Rancher Marco",
+  "pokemon": [
+    {
+      "species": "Ambipom",
+      "level": 57,
+      "ability": "Pickup",
+      "moves": [
+        "Sand Attack",
+        "Screech",
+        "Double Hit",
+        "Fling"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Golduck",
+      "level": 58,
+      "ability": "Cloud Nine",
+      "moves": [
+        "Aqua Jet",
+        "Confusion",
+        "Water Pulse",
+        "Soak"
+      ],
+      "nature": "Hasty",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Girafarig",
+      "level": 56,
+      "ability": "Inner Focus",
+      "moves": [
+        "Growl",
+        "Stomp",
+        "Crunch",
+        "Psychic"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

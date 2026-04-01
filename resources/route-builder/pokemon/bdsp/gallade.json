@@ -1,0 +1,148 @@
+{
+  "species": "Gallade",
+  "game": "bdsp",
+  "types": [
+    "psychic",
+    "fighting"
+  ],
+  "growthRate": "slow",
+  "baseExperience": 233,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 68,
+    "attack": 125,
+    "defense": 65,
+    "specialAttack": 65,
+    "specialDefense": 115,
+    "speed": 80
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Calm Mind"
+    },
+    {
+      "level": 1,
+      "move": "Charm"
+    },
+    {
+      "level": 1,
+      "move": "Confusion"
+    },
+    {
+      "level": 1,
+      "move": "Disarming Voice"
+    },
+    {
+      "level": 1,
+      "move": "Double Team"
+    },
+    {
+      "level": 1,
+      "move": "Draining Kiss"
+    },
+    {
+      "level": 1,
+      "move": "Dream Eater"
+    },
+    {
+      "level": 1,
+      "move": "Fury Cutter"
+    },
+    {
+      "level": 1,
+      "move": "Future Sight"
+    },
+    {
+      "level": 1,
+      "move": "Growl"
+    },
+    {
+      "level": 1,
+      "move": "Hypnosis"
+    },
+    {
+      "level": 1,
+      "move": "Imprison"
+    },
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Life Dew"
+    },
+    {
+      "level": 1,
+      "move": "Night Slash"
+    },
+    {
+      "level": 1,
+      "move": "Psybeam"
+    },
+    {
+      "level": 1,
+      "move": "Psychic"
+    },
+    {
+      "level": 1,
+      "move": "Slash"
+    },
+    {
+      "level": 9,
+      "move": "Helping Hand"
+    },
+    {
+      "level": 12,
+      "move": "Feint"
+    },
+    {
+      "level": 15,
+      "move": "Teleport"
+    },
+    {
+      "level": 18,
+      "move": "Aerial Ace"
+    },
+    {
+      "level": 23,
+      "move": "False Swipe"
+    },
+    {
+      "level": 28,
+      "move": "Protect"
+    },
+    {
+      "level": 35,
+      "move": "Swords Dance"
+    },
+    {
+      "level": 42,
+      "move": "Psycho Cut"
+    },
+    {
+      "level": 49,
+      "move": "Heal Pulse"
+    },
+    {
+      "level": 56,
+      "move": "Quick Guard"
+    },
+    {
+      "level": 56,
+      "move": "Wide Guard"
+    },
+    {
+      "level": 63,
+      "move": "Close Combat"
+    }
+  ]
+}

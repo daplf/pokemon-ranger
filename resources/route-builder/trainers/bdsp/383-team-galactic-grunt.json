@@ -1,0 +1,36 @@
+{
+  "id": "trainer-id-383",
+  "trainerId": 383,
+  "game": "bdsp",
+  "name": "Team Galactic Grunt",
+  "pokemon": [
+    {
+      "species": "Stunky",
+      "level": 37,
+      "ability": "Aftermath",
+      "moves": [
+        "Smokescreen",
+        "Venoshock",
+        "Toxic",
+        "Night Slash"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

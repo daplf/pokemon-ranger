@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-227",
+  "trainerId": 227,
+  "game": "bdsp",
+  "name": "Guitarist Preston",
+  "pokemon": [
+    {
+      "species": "Luxio",
+      "level": 42,
+      "ability": "Intimidate",
+      "moves": [
+        "Bite",
+        "Volt Switch",
+        "Thunder Wave",
+        "Iron Tail"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Bibarel",
+      "level": 42,
+      "ability": "Simple",
+      "moves": [
+        "Yawn",
+        "Thunderbolt",
+        "Bulldoze",
+        "Waterfall"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

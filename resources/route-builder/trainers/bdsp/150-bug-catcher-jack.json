@@ -1,0 +1,86 @@
+{
+  "id": "trainer-id-150",
+  "trainerId": 150,
+  "game": "bdsp",
+  "name": "Bug Catcher Jack",
+  "pokemon": [
+    {
+      "species": "Wurmple",
+      "level": 9,
+      "ability": "Shield Dust",
+      "moves": [
+        "Tackle",
+        "String Shot",
+        "Poison Sting"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Silcoon",
+      "level": 11,
+      "ability": "Shed Skin",
+      "moves": [
+        "Harden"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Beautifly",
+      "level": 13,
+      "ability": "Swarm",
+      "moves": [
+        "Gust",
+        "Absorb"
+      ],
+      "nature": "Docile",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

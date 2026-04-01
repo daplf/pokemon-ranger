@@ -1,0 +1,120 @@
+{
+  "id": "trainer-id-245",
+  "trainerId": 245,
+  "game": "bdsp",
+  "name": "Gym Leader Volkner",
+  "pokemon": [
+    {
+      "species": "Raichu",
+      "level": 46,
+      "item": "Shuca Berry",
+      "moves": [
+        "Nuzzle",
+        "Volt Switch",
+        "Surf",
+        "Charge Beam"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 12,
+        "attack": 0,
+        "defense": 12,
+        "specialAttack": 160,
+        "specialDefense": 12,
+        "speed": 160
+      },
+      "ivs": {
+        "hp": 11,
+        "attack": 0,
+        "defense": 11,
+        "specialAttack": 28,
+        "specialDefense": 11,
+        "speed": 28
+      }
+    },
+    {
+      "species": "Ambipom",
+      "level": 47,
+      "item": "Chople Berry",
+      "moves": [
+        "Fake Out",
+        "Thunderbolt",
+        "Double Hit",
+        "Last Resort"
+      ],
+      "nature": "Naive",
+      "evs": {
+        "hp": 12,
+        "attack": 80,
+        "defense": 12,
+        "specialAttack": 80,
+        "specialDefense": 12,
+        "speed": 160
+      },
+      "ivs": {
+        "hp": 11,
+        "attack": 20,
+        "defense": 11,
+        "specialAttack": 20,
+        "specialDefense": 11,
+        "speed": 28
+      }
+    },
+    {
+      "species": "Octillery",
+      "level": 47,
+      "item": "Expert Belt",
+      "moves": [
+        "Octazooka",
+        "Focus Energy",
+        "Aurora Beam",
+        "Charge Beam"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 12,
+        "attack": 0,
+        "defense": 12,
+        "specialAttack": 160,
+        "specialDefense": 12,
+        "speed": 160
+      },
+      "ivs": {
+        "hp": 11,
+        "attack": 0,
+        "defense": 11,
+        "specialAttack": 28,
+        "specialDefense": 11,
+        "speed": 28
+      }
+    },
+    {
+      "species": "Luxray",
+      "level": 49,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Thunder Fang",
+        "Ice Fang",
+        "Crunch",
+        "Iron Tail"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 28,
+        "attack": 160,
+        "defense": 28,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 200
+      },
+      "ivs": {
+        "hp": 15,
+        "attack": 28,
+        "defense": 15,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 30
+      }
+    }
+  ]
+}

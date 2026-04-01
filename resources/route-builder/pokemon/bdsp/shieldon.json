@@ -1,0 +1,76 @@
+{
+  "species": "Shieldon",
+  "game": "bdsp",
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "growthRate": "erratic",
+  "baseExperience": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 1,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 30,
+    "attack": 42,
+    "defense": 118,
+    "specialAttack": 42,
+    "specialDefense": 88,
+    "speed": 30
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Protect"
+    },
+    {
+      "level": 1,
+      "move": "Tackle"
+    },
+    {
+      "level": 6,
+      "move": "Taunt"
+    },
+    {
+      "level": 10,
+      "move": "Metal Sound"
+    },
+    {
+      "level": 15,
+      "move": "Take Down"
+    },
+    {
+      "level": 19,
+      "move": "Iron Defense"
+    },
+    {
+      "level": 24,
+      "move": "Swagger"
+    },
+    {
+      "level": 28,
+      "move": "Ancient Power"
+    },
+    {
+      "level": 33,
+      "move": "Endure"
+    },
+    {
+      "level": 37,
+      "move": "Metal Burst"
+    },
+    {
+      "level": 42,
+      "move": "Iron Head"
+    },
+    {
+      "level": 46,
+      "move": "Heavy Slam"
+    }
+  ]
+}

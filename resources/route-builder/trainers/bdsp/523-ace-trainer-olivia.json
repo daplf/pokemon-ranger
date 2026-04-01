@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-523",
+  "trainerId": 523,
+  "game": "bdsp",
+  "name": "Ace Trainer Olivia",
+  "pokemon": [
+    {
+      "species": "Roselia",
+      "level": 55,
+      "ability": "Poison Point",
+      "moves": [
+        "Leech Seed",
+        "Synthesis",
+        "Toxic",
+        "Ingrain"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Seaking",
+      "level": 55,
+      "ability": "Water Veil",
+      "moves": [
+        "Peck",
+        "Flail",
+        "Waterfall",
+        "Megahorn"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

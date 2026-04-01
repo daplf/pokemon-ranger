@@ -1,0 +1,83 @@
+{
+  "species": "Chimchar",
+  "game": "bdsp",
+  "types": [
+    "fire"
+  ],
+  "growthRate": "medium-slow",
+  "baseExperience": 62,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 1
+  },
+  "baseStats": {
+    "hp": 44,
+    "attack": 58,
+    "defense": 44,
+    "specialAttack": 58,
+    "specialDefense": 44,
+    "speed": 61
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Leer"
+    },
+    {
+      "level": 1,
+      "move": "Scratch"
+    },
+    {
+      "level": 6,
+      "move": "Ember"
+    },
+    {
+      "level": 9,
+      "move": "Taunt"
+    },
+    {
+      "level": 12,
+      "move": "Power-Up Punch"
+    },
+    {
+      "level": 15,
+      "move": "Fury Swipes"
+    },
+    {
+      "level": 17,
+      "move": "Flame Wheel"
+    },
+    {
+      "level": 23,
+      "move": "Nasty Plot"
+    },
+    {
+      "level": 25,
+      "move": "Torment"
+    },
+    {
+      "level": 31,
+      "move": "Facade"
+    },
+    {
+      "level": 33,
+      "move": "Fire Spin"
+    },
+    {
+      "level": 39,
+      "move": "Acrobatics"
+    },
+    {
+      "level": 41,
+      "move": "Slack Off"
+    },
+    {
+      "level": 47,
+      "move": "Flamethrower"
+    }
+  ]
+}

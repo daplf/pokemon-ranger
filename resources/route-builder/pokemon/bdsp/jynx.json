@@ -1,0 +1,88 @@
+{
+  "species": "Jynx",
+  "game": "bdsp",
+  "types": [
+    "ice",
+    "psychic"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 159,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 2,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 65,
+    "attack": 50,
+    "defense": 35,
+    "specialAttack": 115,
+    "specialDefense": 95,
+    "speed": 95
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Copycat"
+    },
+    {
+      "level": 1,
+      "move": "Lick"
+    },
+    {
+      "level": 1,
+      "move": "Pound"
+    },
+    {
+      "level": 1,
+      "move": "Powder Snow"
+    },
+    {
+      "level": 1,
+      "move": "Sweet Kiss"
+    },
+    {
+      "level": 12,
+      "move": "Confusion"
+    },
+    {
+      "level": 16,
+      "move": "Covet"
+    },
+    {
+      "level": 20,
+      "move": "Sing"
+    },
+    {
+      "level": 24,
+      "move": "Fake Tears"
+    },
+    {
+      "level": 28,
+      "move": "Ice Punch"
+    },
+    {
+      "level": 34,
+      "move": "Psychic"
+    },
+    {
+      "level": 40,
+      "move": "Lovely Kiss"
+    },
+    {
+      "level": 46,
+      "move": "Mean Look"
+    },
+    {
+      "level": 52,
+      "move": "Perish Song"
+    },
+    {
+      "level": 58,
+      "move": "Blizzard"
+    }
+  ]
+}

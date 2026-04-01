@@ -1,0 +1,79 @@
+{
+  "species": "Bonsly",
+  "game": "bdsp",
+  "types": [
+    "rock"
+  ],
+  "growthRate": "medium-fast",
+  "baseExperience": 58,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defense": 1,
+    "specialAttack": 0,
+    "specialDefense": 0,
+    "speed": 0
+  },
+  "baseStats": {
+    "hp": 50,
+    "attack": 80,
+    "defense": 95,
+    "specialAttack": 10,
+    "specialDefense": 45,
+    "speed": 10
+  },
+  "learnset": [
+    {
+      "level": 1,
+      "move": "Copycat"
+    },
+    {
+      "level": 1,
+      "move": "Fake Tears"
+    },
+    {
+      "level": 4,
+      "move": "Flail"
+    },
+    {
+      "level": 8,
+      "move": "Rock Throw"
+    },
+    {
+      "level": 12,
+      "move": "Block"
+    },
+    {
+      "level": 16,
+      "move": "Mimic"
+    },
+    {
+      "level": 20,
+      "move": "Rock Tomb"
+    },
+    {
+      "level": 24,
+      "move": "Tearful Look"
+    },
+    {
+      "level": 28,
+      "move": "Sucker Punch"
+    },
+    {
+      "level": 32,
+      "move": "Rock Slide"
+    },
+    {
+      "level": 36,
+      "move": "Low Kick"
+    },
+    {
+      "level": 40,
+      "move": "Counter"
+    },
+    {
+      "level": 44,
+      "move": "Double-Edge"
+    }
+  ]
+}

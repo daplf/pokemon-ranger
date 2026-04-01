@@ -1,0 +1,148 @@
+{
+  "id": "trainer-id-185",
+  "trainerId": 185,
+  "game": "bdsp",
+  "name": "Elite Four Aaron",
+  "pokemon": [
+    {
+      "species": "Dustox",
+      "level": 53,
+      "item": "Black Sludge",
+      "moves": [
+        "Toxic",
+        "Bug Buzz",
+        "Moonlight",
+        "Light Screen"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 12,
+        "specialAttack": 12,
+        "specialDefense": 12,
+        "speed": 12
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 21,
+        "specialAttack": 21,
+        "specialDefense": 21,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Beautifly",
+      "level": 53,
+      "item": "Wise Glasses",
+      "moves": [
+        "Bug Buzz",
+        "Shadow Ball",
+        "Psychic",
+        "Quiver Dance"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 12,
+        "attack": 0,
+        "defense": 12,
+        "specialAttack": 60,
+        "specialDefense": 12,
+        "speed": 204
+      },
+      "ivs": {
+        "hp": 21,
+        "attack": 0,
+        "defense": 21,
+        "specialAttack": 31,
+        "specialDefense": 21,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Vespiquen",
+      "level": 54,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Acrobatics",
+        "Attack Order",
+        "Aerial Ace",
+        "Defend Order"
+      ],
+      "nature": "Adamant",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Heracross",
+      "level": 54,
+      "item": "Flame Orb",
+      "moves": [
+        "Earthquake",
+        "Rock Slide",
+        "Facade",
+        "Brick Break"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 12,
+        "attack": 60,
+        "defense": 12,
+        "specialAttack": 0,
+        "specialDefense": 12,
+        "speed": 204
+      },
+      "ivs": {
+        "hp": 21,
+        "attack": 31,
+        "defense": 21,
+        "specialAttack": 0,
+        "specialDefense": 21,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Drapion",
+      "level": 57,
+      "item": "Scope Lens",
+      "moves": [
+        "Cross Poison",
+        "Night Slash",
+        "Earthquake",
+        "X-Scissor"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 12,
+        "attack": 60,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 204
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

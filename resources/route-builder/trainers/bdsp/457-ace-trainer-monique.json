@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-457",
+  "trainerId": 457,
+  "game": "bdsp",
+  "name": "Ace Trainer Monique",
+  "pokemon": [
+    {
+      "species": "Kangaskhan",
+      "level": 57,
+      "ability": "Scrappy",
+      "moves": [
+        "Fake Out",
+        "Sucker Punch",
+        "Outrage",
+        "Reversal"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Ursaring",
+      "level": 57,
+      "ability": "Quick Feet",
+      "moves": [
+        "Rest",
+        "Snore",
+        "Slash",
+        "Payback"
+      ],
+      "nature": "Impish",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

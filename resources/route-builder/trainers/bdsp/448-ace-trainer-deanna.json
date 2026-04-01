@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-448",
+  "trainerId": 448,
+  "game": "bdsp",
+  "name": "Ace Trainer Deanna",
+  "pokemon": [
+    {
+      "species": "Flaaffy",
+      "level": 53,
+      "ability": "Static",
+      "moves": [
+        "Discharge",
+        "Power Gem",
+        "Thunder Wave",
+        "Light Screen"
+      ],
+      "nature": "Modest",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Tropius",
+      "level": 53,
+      "ability": "Chlorophyll",
+      "moves": [
+        "Solar Beam",
+        "Air Slash",
+        "Synthesis",
+        "Sunny Day"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "trainer-id-704",
+  "trainerId": 704,
+  "game": "bdsp",
+  "name": "Elite Four Lucian",
+  "pokemon": [
+    {
+      "species": "Mr. Mime",
+      "level": 79,
+      "item": "Light Clay",
+      "moves": [
+        "Light Screen",
+        "Reflect",
+        "Psychic",
+        "Dazzling Gleam"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Espeon",
+      "level": 81,
+      "item": "Mental Herb",
+      "moves": [
+        "Psychic",
+        "Dazzling Gleam",
+        "Shadow Ball",
+        "Light Screen"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Bronzong",
+      "level": 80,
+      "item": "Muscle Band",
+      "moves": [
+        "Gyro Ball",
+        "Earthquake",
+        "Payback",
+        "Rock Slide"
+      ],
+      "nature": "Brave",
+      "evs": {
+        "hp": 252,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Alakazam",
+      "level": 82,
+      "item": "Life Orb",
+      "moves": [
+        "Nasty Plot",
+        "Psychic",
+        "Dazzling Gleam",
+        "Shock Wave"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 252,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    },
+    {
+      "species": "Slowbro",
+      "level": 82,
+      "item": "Leftovers",
+      "moves": [
+        "Scald",
+        "Psychic",
+        "Flamethrower",
+        "Slack Off"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 252,
+        "attack": 0,
+        "defense": 252,
+        "specialAttack": 6,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 0,
+        "defense": 31,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gallade",
+      "level": 85,
+      "item": "Sitrus Berry",
+      "moves": [
+        "Close Combat",
+        "Psycho Cut",
+        "Poison Jab",
+        "Shadow Sneak"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 6,
+        "attack": 252,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 252
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "specialAttack": 0,
+        "specialDefense": 31,
+        "speed": 31
+      }
+    }
+  ]
+}

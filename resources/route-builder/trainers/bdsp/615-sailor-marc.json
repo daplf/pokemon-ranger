@@ -1,0 +1,64 @@
+{
+  "id": "trainer-id-615",
+  "trainerId": 615,
+  "game": "bdsp",
+  "name": "Sailor Marc",
+  "pokemon": [
+    {
+      "species": "Mantine",
+      "level": 57,
+      "ability": "Water Absorb",
+      "moves": [
+        "Roost",
+        "Air Slash",
+        "Aqua Ring",
+        "Hydro Pump"
+      ],
+      "nature": "Calm",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Pelipper",
+      "level": 59,
+      "ability": "Drizzle",
+      "moves": [
+        "Water Pulse",
+        "Stockpile",
+        "Roost",
+        "Hurricane"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

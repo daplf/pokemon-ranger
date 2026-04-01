@@ -1,0 +1,41 @@
+{
+  "id": "trainer-id-142",
+  "trainerId": 142,
+  "game": "bdsp",
+  "name": "Swimmer Miranda",
+  "prerequisites": {
+    "requiredHms": [
+      "surf"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Lumineon",
+      "level": 43,
+      "ability": "Swift Swim",
+      "moves": [
+        "Attract",
+        "Rain Dance",
+        "Aqua Ring",
+        "Whirlpool"
+      ],
+      "nature": "Timid",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

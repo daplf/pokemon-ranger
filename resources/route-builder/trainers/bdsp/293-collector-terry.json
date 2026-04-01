@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-293",
+  "trainerId": 293,
+  "game": "bdsp",
+  "name": "Collector Terry",
+  "pokemon": [
+    {
+      "species": "Gastly",
+      "level": 12,
+      "ability": "Levitate",
+      "moves": [
+        "Lick",
+        "Confuse Ray",
+        "Mean Look",
+        "Payback"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gastly",
+      "level": 13,
+      "ability": "Levitate",
+      "moves": [
+        "Lick",
+        "Confuse Ray",
+        "Mean Look",
+        "Payback"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Gastly",
+      "level": 17,
+      "ability": "Levitate",
+      "moves": [
+        "Lick",
+        "Confuse Ray",
+        "Payback",
+        "Spite"
+      ],
+      "nature": "Sassy",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

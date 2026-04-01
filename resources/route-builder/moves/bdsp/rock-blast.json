@@ -1,0 +1,7 @@
+{
+  "name": "Rock Blast",
+  "game": "bdsp",
+  "type": "rock",
+  "category": "physical",
+  "power": 25
+}

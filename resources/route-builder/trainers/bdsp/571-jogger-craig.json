@@ -1,0 +1,92 @@
+{
+  "id": "trainer-id-571",
+  "trainerId": 571,
+  "game": "bdsp",
+  "name": "Jogger Craig",
+  "pokemon": [
+    {
+      "species": "Luxio",
+      "level": 36,
+      "ability": "Intimidate",
+      "moves": [
+        "Leer",
+        "Charge",
+        "Bite",
+        "Spark"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Staravia",
+      "level": 36,
+      "ability": "Intimidate",
+      "moves": [
+        "Quick Attack",
+        "Double Team",
+        "Aerial Ace",
+        "Take Down"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Rapidash",
+      "level": 39,
+      "ability": "Flash Fire",
+      "moves": [
+        "Smart Strike",
+        "Megahorn",
+        "Tail Whip",
+        "Flame Wheel"
+      ],
+      "nature": "Jolly",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}

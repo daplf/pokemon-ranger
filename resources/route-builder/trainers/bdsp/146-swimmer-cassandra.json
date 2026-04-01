@@ -1,0 +1,69 @@
+{
+  "id": "trainer-id-146",
+  "trainerId": 146,
+  "game": "bdsp",
+  "name": "Swimmer Cassandra",
+  "prerequisites": {
+    "requiredHms": [
+      "surf"
+    ]
+  },
+  "pokemon": [
+    {
+      "species": "Finneon",
+      "level": 41,
+      "ability": "Storm Drain",
+      "moves": [
+        "Attract",
+        "Rain Dance",
+        "Gust",
+        "Water Pulse"
+      ],
+      "nature": "Bashful",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    },
+    {
+      "species": "Pelipper",
+      "level": 41,
+      "ability": "Drizzle",
+      "moves": [
+        "Wing Attack",
+        "Water Pulse",
+        "Stockpile",
+        "Swallow"
+      ],
+      "nature": "Bold",
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      },
+      "ivs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialAttack": 0,
+        "specialDefense": 0,
+        "speed": 0
+      }
+    }
+  ]
+}
