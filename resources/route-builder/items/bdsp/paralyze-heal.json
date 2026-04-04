@@ -1,0 +1,14 @@
+{
+  "name": "Paralyze Heal",
+  "game": "bdsp",
+  "category": "medicine",
+  "canUseInBattle": true,
+  "canUseOutsideBattle": true,
+  "effects": [
+    {
+      "type": "cure-status",
+      "status": "paralyzed",
+      "description": "Cures paralysis"
+    }
+  ]
+}

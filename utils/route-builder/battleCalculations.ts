@@ -29,10 +29,12 @@ import {
   getTrainerData,
 } from './gameConfig';
 import {
+  getCurrentRouteBuilderStep,
   buildRouteBuilderState,
   clonePartyState,
   getDefeatedTrainerIds,
   getUnlockedHms,
+  getAvailableBagItems,
   asBattlePokemon,
 } from './stateManagement';
 
@@ -372,6 +374,19 @@ export function getAvailableRouteBuilderBattleActions(
     actions.push(...moveActions);
   }
 
+  // Add item usage as an action when items are available in battle
+  if (currentStep && !currentStep.disableItemUsage) {
+    const availableBattleItems = getAvailableBagItems(game, route, 'battle');
+    if (availableBattleItems.length > 0) {
+      actions.push({
+        id: 'use-item',
+        label: 'Use Item',
+        description: 'Use an item from your bag.',
+        type: 'item' as const,
+      });
+    }
+  }
+
   // Always add KO action as the final option
   actions.push({
     id: 'ko',
@@ -392,6 +407,7 @@ export function getAvailableTrainerBattleActions(
   partyOverride?: RouteBuilderPokemonInParty[],
 ): RouteBuilderTrainerBattleAction[] {
   const activeTrainerBattle = getActiveTrainerBattle(game.id, route);
+  const currentStep = getCurrentRouteBuilderStep(game, route);
 
   if (!activeTrainerBattle) return [];
 
@@ -437,19 +453,36 @@ export function getAvailableTrainerBattleActions(
     };
   });
 
-  return [
+  const itemsAvailableInBattle = currentStep && !currentStep.disableItemUsage
+    ? getAvailableBagItems(game, route, 'battle')
+    : [];
+
+  const actionList: RouteBuilderTrainerBattleAction[] = [
     ...moveActions,
-    {
-      id: `${activeTrainerBattle.trainer.id}-ko-${activeTrainerBattle.selectedPokemonIndex}`,
-      label: selectedPokemon ? `KO ${selectedPokemon.species} Lv. ${selectedPokemon.level}` : 'KO opposing Pokemon',
-      description: selectedPokemon
-        ? `Defeat ${selectedPokemon.species} and continue the trainer battle.`
-        : 'Defeat the current opposing Pokemon.',
-      type: 'ko',
-      trainerId: activeTrainerBattle.trainer.id,
-      trainerPokemonIndex: activeTrainerBattle.selectedPokemonIndex ?? undefined,
-    },
   ];
+
+  if (itemsAvailableInBattle.length > 0) {
+    actionList.push({
+      id: `${activeTrainerBattle.trainer.id}-use-item`,
+      label: 'Use Item',
+      description: 'Use an item from your bag.',
+      type: 'item',
+      trainerId: activeTrainerBattle.trainer.id,
+    });
+  }
+
+  actionList.push({
+    id: `${activeTrainerBattle.trainer.id}-ko-${activeTrainerBattle.selectedPokemonIndex}`,
+    label: selectedPokemon ? `KO ${selectedPokemon.species} Lv. ${selectedPokemon.level}` : 'KO opposing Pokemon',
+    description: selectedPokemon
+      ? `Defeat ${selectedPokemon.species} and continue the trainer battle.`
+      : 'Defeat the current opposing Pokemon.',
+    type: 'ko',
+    trainerId: activeTrainerBattle.trainer.id,
+    trainerPokemonIndex: activeTrainerBattle.selectedPokemonIndex ?? undefined,
+  });
+
+  return actionList;
 }
 
 /**

@@ -44,7 +44,7 @@ export interface RouteBuilderBattleAction {
   id: string;
   label: string;
   description?: string;
-  type: 'move' | 'ko';
+  type: 'move' | 'ko' | 'item';
   visibleIfPartyIncludes?: string[];
 }
 
@@ -64,6 +64,7 @@ export interface RouteBuilderStep {
   effects?: RouteBuilderStepEffect[];
   battle?: RouteBuilderBattleDefinition;
   autoContinueStepId?: string;
+  disableItemUsage?: boolean;
 }
 
 // Game Configuration
@@ -77,15 +78,17 @@ export interface RouteBuilderGameConfig {
 
 // Route History - represents actions taken in the route
 export interface RouteBuilderRouteEntry {
-  type: 'step' | 'battleAction' | 'trainerBattle' | 'trainerBattleAction';
+  type: 'step' | 'battleAction' | 'trainerBattle' | 'trainerBattleAction' | 'itemUsage' | 'itemTargetSelection';
   stepId: string;
   arrivedViaOptionId?: string;
   battleActionId?: string;
   trainerId?: string;
   trainerPokemonIndex?: number;
-  trainerBattleActionType?: 'selectPokemon' | 'move' | 'ko';
+  trainerBattleActionType?: 'selectPokemon' | 'move' | 'ko' | 'item';
   label?: string;
   optionEffects?: RouteBuilderStepEffect[];
+  itemName?: string;
+  targetPokemonIndex?: number;
 }
 
 export interface RouteBuilderExportData {
@@ -202,6 +205,24 @@ export interface RouteBuilderMoveData {
   power: number;
 }
 
+// Item Data
+export interface RouteBuilderItemData {
+  name: string;
+  game: string;
+  category: 'medicine' | 'pokeballs' | 'battle-items' | 'berries' | 'key-items' | 'other';
+  canUseInBattle: boolean;
+  canUseOutsideBattle: boolean;
+  effects: RouteBuilderItemEffect[];
+}
+
+export interface RouteBuilderItemEffect {
+  type: 'heal' | 'cure-status' | 'boost-stat' | 'evolve' | 'other';
+  value?: number; // For heal amount, stat boost amount, etc.
+  status?: string; // For status cures
+  stat?: string; // For stat boosts
+  description: string;
+}
+
 // Area/Trainer List Data
 export interface RouteBuilderAreaTrainerList {
   id: string;
@@ -227,6 +248,11 @@ export interface RouteBuilderMoveIndexEntry {
   file: string;
 }
 
+export interface RouteBuilderItemIndexEntry {
+  name: string;
+  file: string;
+}
+
 // Active Battle State
 export interface RouteBuilderActiveTrainerBattle {
   trainer: RouteBuilderTrainer;
@@ -239,7 +265,7 @@ export interface RouteBuilderTrainerBattleAction {
   id: string;
   label: string;
   description?: string;
-  type: 'selectPokemon' | 'move' | 'ko';
+  type: 'selectPokemon' | 'move' | 'ko' | 'item';
   trainerId: string;
   trainerPokemonIndex?: number;
   moveName?: string;

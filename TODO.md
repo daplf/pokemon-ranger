@@ -4,9 +4,8 @@
 - Set first battle Starly to random IVs.
 - Add items to all locations, including those given by NPCs
 - Add defensive ranges on battles?
-- Support item usage in battle (keep track of battle stages when calculating ranges)
+- Support battle stages and related items
 - Support opponent move selection (e.g., assume Starly goes for Growl turn 1, etc)
-- Support item usage outside battle
 - Support party management (switch, swap items, etc)
 - Add missing prerequisites to steps (e.g., towns that can only be accessed after fighting X trainer, etc)
 - Gift Pokémon and in game trades (Kazza, etc)

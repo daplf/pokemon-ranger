@@ -12,7 +12,7 @@ import {
   RouteBuilderHm,
   RouteBuilderStepEffect,
 } from './types';
-import { getRouteBuilderPokemonData, getTrainerData, getAreaTrainerList, getRouteBuilderGame, getRouteBuilderStep } from './gameConfig';
+import { getRouteBuilderPokemonData, getTrainerData, getAreaTrainerList, getRouteBuilderGame, getRouteBuilderItemData, getRouteBuilderStep } from './gameConfig';
 
 const DEFAULT_EV_SPREAD: RouteBuilderStatSpread = {
   hp: 0,
@@ -122,6 +122,29 @@ export function applyRouteBuilderEntry(
 
   if (entry.type === 'trainerBattleAction') {
     return applyTrainerBattleActionEntry(game, state, entry, index);
+  }
+
+  if (entry.type === 'itemUsage') {
+    const itemName = entry.itemName;
+    const itemCount = itemName ? (state.bag[itemName] ?? 0) : 0;
+
+    if (!itemName || itemCount <= 0) {
+      return state;
+    }
+
+    const updatedBag = { ...state.bag };
+    const remainingQuantity = itemCount - 1;
+
+    if (remainingQuantity > 0) {
+      updatedBag[itemName] = remainingQuantity;
+    } else {
+      delete updatedBag[itemName];
+    }
+
+    return {
+      ...state,
+      bag: updatedBag,
+    };
   }
 
   return state;
@@ -650,6 +673,29 @@ function getUnlockedHmsByGameId(gameId: string, route: RouteBuilderRouteEntry[])
 }
 
 /**
+ * Gets items available in the bag for the current context
+ */
+export function getAvailableBagItems(
+  game: RouteBuilderGameConfig,
+  route: RouteBuilderRouteEntry[],
+  context: 'battle' | 'outside',
+): string[] {
+  const state = buildRouteBuilderState(game, route);
+  const hasParty = state.party.length > 0;
+
+  if (!hasParty) return [];
+
+  return Object.entries(state.bag)
+    .filter(([, quantity]) => quantity > 0)
+    .filter(([itemName]) => {
+      const itemData = getRouteBuilderItemData(game.id, itemName);
+      if (!itemData) return false;
+      return context === 'battle' ? itemData.canUseInBattle : itemData.canUseOutsideBattle;
+    })
+    .map(([itemName]) => itemName);
+}
+
+/**
  * Gets available options for a step (filters by prerequisites)
  */
 export function getAvailableOptionsForStep(
@@ -663,7 +709,21 @@ export function getAvailableOptionsForStep(
   const bag = state.bag;
   const progressionFlags = state.progressionFlags || {};
 
-  return step.options.filter(option => prerequisitesAreMet(option.prerequisites, beatenTrainerIds, unlockedHms, bag, progressionFlags));
+  const filteredOptions = step.options.filter(option => prerequisitesAreMet(option.prerequisites, beatenTrainerIds, unlockedHms, bag, progressionFlags));
+
+  const availableItems = getAvailableBagItems(game, route, 'outside');
+  const canUseItems = !step.disableItemUsage && availableItems.length > 0;
+
+  if (canUseItems) {
+    filteredOptions.push({
+      id: 'use-item',
+      label: 'Use Item',
+      description: 'Use an item from your bag',
+      targetStepId: step.id, // Stay on the same step for item selection
+    });
+  }
+
+  return filteredOptions;
 }
 
 /**

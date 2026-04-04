@@ -1,0 +1,14 @@
+{
+  "name": "Potion",
+  "game": "bdsp",
+  "category": "medicine",
+  "canUseInBattle": true,
+  "canUseOutsideBattle": true,
+  "effects": [
+    {
+      "type": "heal",
+      "value": 20,
+      "description": "Restores 20 HP"
+    }
+  ]
+}

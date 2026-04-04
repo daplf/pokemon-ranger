@@ -92,7 +92,9 @@ export const AvailableActionsSection: React.FC<AvailableActionsSectionProps> = (
                 <OptionDescription>{action.damageSummary}</OptionDescription>
               )}
             </div>
-            <Button onClick={() => onTakeBattleAction?.(action)}>{action.type === 'ko' ? 'End Battle' : 'Use Move'}</Button>
+            <Button onClick={() => onTakeBattleAction?.(action)}>
+              {action.type === 'ko' ? 'End Battle' : action.type === 'item' ? 'Use Item' : 'Use Move'}
+            </Button>
           </OptionCard>
         ))}
 
@@ -137,6 +139,7 @@ export const AvailableActionsSection: React.FC<AvailableActionsSectionProps> = (
 function getTrainerBattleButtonLabel(action: RouteBuilderTrainerBattleAction): string {
   if (action.type === 'selectPokemon') return 'Choose Pokemon';
   if (action.type === 'ko') return 'KO Pokemon';
+  if (action.type === 'item') return 'Use Item';
 
   return 'Use Move';
 }

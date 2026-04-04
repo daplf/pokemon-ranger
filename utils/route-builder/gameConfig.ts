@@ -3,16 +3,19 @@ import bdspAreaIndex from '../../resources/route-builder/bdsp-area-index.json';
 import bdspMoveIndex from '../../resources/route-builder/bdsp-move-index.json';
 import bdspPokemonIndex from '../../resources/route-builder/bdsp-pokemon-index.json';
 import bdspTrainerIndex from '../../resources/route-builder/bdsp-trainer-index.json';
+import bdspItemIndex from '../../resources/route-builder/bdsp-item-index.json';
 
 import {
   RouteBuilderGameConfig,
   RouteBuilderStep,
   RouteBuilderPokemonData,
   RouteBuilderMoveData,
+  RouteBuilderItemData,
   RouteBuilderTrainer,
   RouteBuilderAreaTrainerList,
   RouteBuilderPokemonIndexEntry,
   RouteBuilderMoveIndexEntry,
+  RouteBuilderItemIndexEntry,
   RouteBuilderIndexEntry,
 } from './types';
 
@@ -24,6 +27,9 @@ const POKEMON_INDEX_BY_GAME: Record<string, RouteBuilderPokemonIndexEntry[]> = {
 const MOVE_INDEX_BY_GAME: Record<string, RouteBuilderMoveIndexEntry[]> = {
   bdsp: bdspMoveIndex as RouteBuilderMoveIndexEntry[],
 };
+const ITEM_INDEX_BY_GAME: Record<string, RouteBuilderItemIndexEntry[]> = {
+  bdsp: bdspItemIndex as RouteBuilderItemIndexEntry[],
+};
 const TRAINER_INDEX_BY_GAME: Record<string, RouteBuilderIndexEntry[]> = {
   bdsp: bdspTrainerIndex as RouteBuilderIndexEntry[],
 };
@@ -34,6 +40,7 @@ const AREA_INDEX_BY_GAME: Record<string, RouteBuilderIndexEntry[]> = {
 // Data Cache
 const POKEMON_DATA_CACHE = new Map<string, RouteBuilderPokemonData>();
 const MOVE_DATA_CACHE = new Map<string, RouteBuilderMoveData>();
+const ITEM_DATA_CACHE = new Map<string, RouteBuilderItemData>();
 const TRAINER_DATA_CACHE = new Map<string, RouteBuilderTrainer>();
 const AREA_DATA_CACHE = new Map<string, RouteBuilderAreaTrainerList>();
 
@@ -96,6 +103,26 @@ export function getRouteBuilderMoveData(gameId: string, moveName: string): Route
   MOVE_DATA_CACHE.set(cacheKey, moveData);
 
   return moveData;
+}
+
+/**
+ * Gets item data by item name and game ID, with caching
+ */
+export function getRouteBuilderItemData(gameId: string, itemName: string): RouteBuilderItemData | undefined {
+  const entry = ITEM_INDEX_BY_GAME[gameId]?.find(item => item.name === itemName);
+
+  if (!entry) return undefined;
+
+  const cacheKey = `${gameId}:${entry.name}`;
+  const cachedItem = ITEM_DATA_CACHE.get(cacheKey);
+
+  if (cachedItem) return cachedItem;
+
+  // eslint-disable-next-line global-require, import/no-dynamic-require, @typescript-eslint/no-var-requires
+  const itemData = require(`../../resources/route-builder/${entry.file}`) as RouteBuilderItemData;
+  ITEM_DATA_CACHE.set(cacheKey, itemData);
+
+  return itemData;
 }
 
 /**

@@ -33,6 +33,7 @@ import {
   buildRouteBuilderPartySnapshots,
   hydrateRouteBuilderPartySnapshots,
   getAvailableOptionsForStep,
+  getAvailableBagItems,
   getRouteBuilderBattleAction,
   // Battle Calculations
   getActiveTrainerBattle,
@@ -81,6 +82,8 @@ const RouteBuilderPage: NextPage = () => {
   });
   const [expandedExperienceRoutes, setExpandedExperienceRoutes] = useState<Record<string, boolean>>({});
   const [isBagExpanded, setIsBagExpanded] = useState(false);
+  const [isSelectingItem, setIsSelectingItem] = useState(false);
+  const [selectedItem, setSelectedItem] = useState<string | null>(null);
   const [importError, setImportError] = useState<string | null>(null);
   const routeListRef = useRef<HTMLDivElement | null>(null);
 
@@ -127,6 +130,13 @@ const RouteBuilderPage: NextPage = () => {
   const isInWildBattle = Boolean(currentStep?.battle);
   const isInTrainerBattle = Boolean(activeTrainerBattle);
   const isInBattle = isInWildBattle || isInTrainerBattle;
+
+  const availableItems = useMemo(() => {
+    if (!activeGame || !currentStep) return [];
+    if (currentStep.disableItemUsage) return [];
+
+    return getAvailableBagItems(activeGame, route, isInBattle ? 'battle' : 'outside');
+  }, [activeGame, currentStep, route, isInBattle]);
 
   // Derived state - Target HP displays
   const activeWildBattleTargetHp = useMemo(() => {
@@ -332,6 +342,14 @@ const RouteBuilderPage: NextPage = () => {
   });
 
   const handleTakeOption = useCallback((targetStepId: string, option: RouteBuilderOption) => {
+    // Special handling for item usage
+    if (option.id === 'use-item') {
+      // Don't transition to a step, instead show item selection UI
+      setSelectedItem(null);
+      setIsSelectingItem(true);
+      return;
+    }
+
     appendRouteEntry({
       type: 'step',
       stepId: targetStepId,
@@ -341,6 +359,12 @@ const RouteBuilderPage: NextPage = () => {
   }, [appendRouteEntry]);
 
   const handleTakeBattleAction = useCallback((action: RouteBuilderBattleAction) => {
+    if (action.type === 'item') {
+      setSelectedItem(null);
+      setIsSelectingItem(true);
+      return;
+    }
+
     if (!currentStep?.battle) return;
 
     const { battle } = currentStep;
@@ -373,6 +397,12 @@ const RouteBuilderPage: NextPage = () => {
   }, [appendRouteEntry, currentStep]);
 
   const handleTakeTrainerBattleAction = useCallback((action: RouteBuilderTrainerBattleAction) => {
+    if (action.type === 'item') {
+      setSelectedItem(null);
+      setIsSelectingItem(true);
+      return;
+    }
+
     if (!currentStep) return;
 
     appendRouteEntry({
@@ -384,6 +414,36 @@ const RouteBuilderPage: NextPage = () => {
       label: action.label,
     });
   }, [appendRouteEntry, currentStep]);
+
+  const handleSelectItem = useCallback((itemName: string) => {
+    setSelectedItem(itemName);
+    setIsSelectingItem(true);
+  }, []);
+
+  const handleCancelItemSelection = useCallback(() => {
+    setIsSelectingItem(false);
+    setSelectedItem(null);
+  }, []);
+
+  const handleSelectTarget = useCallback((targetIndex: number) => {
+    if (!currentStep || !selectedItem) return;
+
+    // Apply item effect and create route entry
+    appendRouteEntry({
+      type: 'itemUsage',
+      stepId: currentStep.id,
+      itemName: selectedItem,
+      targetPokemonIndex: targetIndex,
+      label: `Used ${selectedItem} on ${routeState.party[targetIndex].species}`,
+    });
+
+    setSelectedItem(null);
+    setIsSelectingItem(false);
+  }, [appendRouteEntry, currentStep, selectedItem, routeState.party]);
+
+  const handleCancelTargetSelection = useCallback(() => {
+    setSelectedItem(null);
+  }, []);
 
   const handleUndo = useCallback(() => {
     setRouteSession(previousSession => (
@@ -469,21 +529,54 @@ const RouteBuilderPage: NextPage = () => {
               activeTrainerBattleTargetHp={activeTrainerBattleTargetHp}
             />
 
-            <AvailableActionsSection
-              isInBattle={isInBattle}
-              isInTrainerBattle={isInTrainerBattle}
-              isInWildBattle={isInWildBattle}
-              availableStepOptions={availableStepOptions}
-              trainersInCurrentArea={trainersInCurrentArea}
-              availableBattleActions={availableBattleActions}
-              availableTrainerBattleActions={availableTrainerBattleActions}
-              route={route}
-              onTakeOption={handleTakeOption}
-              onTakeBattleAction={handleTakeBattleAction}
-              onStartTrainerBattle={handleStartTrainerBattle}
-              onTakeTrainerBattleAction={handleTakeTrainerBattleAction}
-              onUndo={handleUndo}
-            />
+            {isSelectingItem && (
+              <ItemSelectionCard>
+                {!selectedItem ? (
+                  <>
+                    <h3>Select an item to use</h3>
+                    {availableItems.length === 0 ? (
+                      <p>No usable items are available right now.</p>
+                    ) : (
+                      availableItems.map(itemName => (
+                        <Button key={itemName} onClick={() => handleSelectItem(itemName)}>
+                          {itemName} ({(routeState.bag as Record<string, number>)[itemName]})
+                        </Button>
+                      ))
+                    )}
+                    <Button onClick={handleCancelItemSelection}>Cancel</Button>
+                  </>
+                ) : (
+                  <>
+                    <h3>Use {selectedItem}</h3>
+                    <p>Select a target Pokémon.</p>
+                    {routeState.party.map((pokemon, index) => (
+                      <Button key={`${pokemon.species}-${index}`} onClick={() => handleSelectTarget(index)}>
+                        {pokemon.species} Lv. {pokemon.level}
+                      </Button>
+                    ))}
+                    <Button onClick={handleCancelTargetSelection}>Cancel</Button>
+                  </>
+                )}
+              </ItemSelectionCard>
+            )}
+
+            {!isSelectingItem && (
+              <AvailableActionsSection
+                isInBattle={isInBattle}
+                isInTrainerBattle={isInTrainerBattle}
+                isInWildBattle={isInWildBattle}
+                availableStepOptions={availableStepOptions}
+                trainersInCurrentArea={trainersInCurrentArea}
+                availableBattleActions={availableBattleActions}
+                availableTrainerBattleActions={availableTrainerBattleActions}
+                route={route}
+                onTakeOption={handleTakeOption}
+                onTakeBattleAction={handleTakeBattleAction}
+                onStartTrainerBattle={handleStartTrainerBattle}
+                onTakeTrainerBattleAction={handleTakeTrainerBattleAction}
+                onUndo={handleUndo}
+              />
+            )}
           </PaneSection>
         )}
       </LeftColumn>
@@ -580,4 +673,12 @@ const RoutePlaceholder = styled.div`
   color: ${({ theme }) => theme.label};
   font-style: italic;
   margin-top: 1rem;
+`;
+
+const ItemSelectionCard = styled(Card)`
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
 `;

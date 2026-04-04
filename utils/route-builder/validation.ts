@@ -108,6 +108,11 @@ function validateRouteEntries(game: any, route: RouteBuilderRouteEntry[]): void 
       return;
     }
 
+    if (entry.type === 'itemUsage') {
+      validateItemUsageEntry(entry, index);
+      return;
+    }
+
     throw new Error(`Route entry ${index + 1} has an unsupported type.`);
   });
 }
@@ -224,7 +229,24 @@ function validateTrainerBattleActionEntry(
     return;
   }
 
+  if (entry.trainerBattleActionType === 'item') {
+    return;
+  }
+
   throw new Error(`Route entry ${index + 1} has an unsupported trainer battle action.`);
+}
+
+/**
+ * Validates an item usage entry
+ */
+function validateItemUsageEntry(entry: RouteBuilderRouteEntry, index: number): void {
+  if (typeof entry.itemName !== 'string' || entry.itemName.length === 0) {
+    throw new Error(`Route entry ${index + 1} is missing a valid item name.`);
+  }
+
+  if (typeof entry.targetPokemonIndex !== 'number' || entry.targetPokemonIndex < 0) {
+    throw new Error(`Route entry ${index + 1} is missing a valid target pokemon index.`);
+  }
 }
 
 /**

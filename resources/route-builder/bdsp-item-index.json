@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Potion",
+    "file": "items/bdsp/potion.json"
+  },
+  {
+    "name": "Paralyze Heal",
+    "file": "items/bdsp/paralyze-heal.json"
+  }
+]
