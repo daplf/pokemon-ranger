@@ -1,5 +1,6 @@
 # TODO
 
+- Support editing earlier steps without having to undo everything until then (probably clicking the step should allow us to edit the choice and eventually reconnect to the later part)
 - Support move learning
 - Set first battle Starly to random IVs.
 - Add items to all locations, including those given by NPCs
