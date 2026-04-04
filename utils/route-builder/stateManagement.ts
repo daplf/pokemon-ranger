@@ -167,8 +167,12 @@ function applyStepEntry(
     };
   }
 
+  const stepEffectsToApply: RouteBuilderStepEffect[] = state.currentStep?.id === entry.stepId
+    ? []
+    : (step.effects ?? []);
+
   const effectsToApply: RouteBuilderStepEffect[] = [
-    ...(step.effects ?? []),
+    ...stepEffectsToApply,
     ...(entry.optionEffects ?? []),
   ];
 
@@ -822,4 +826,33 @@ export function getRouteBuilderBattleAction(
   }
 
   return undefined;
+}
+
+/**
+ * Determines how many route entries should be removed when undoing the current route.
+ *
+ * If the route ends with an auto-appended post-battle step entry, undo should remove
+ * both the exit step and the associated KO action so that the user returns to the
+ * last turn in the battle.
+ */
+export function getRouteEntriesToUndo(route: RouteBuilderRouteEntry[]): number {
+  if (route.length < 2) return 0;
+
+  const lastEntry = route[route.length - 1];
+  const previousEntry = route[route.length - 2];
+
+  if (lastEntry.type === 'step') {
+    if (previousEntry.type === 'battleAction' && previousEntry.battleActionId === 'ko') {
+      return 2;
+    }
+
+    if (
+      previousEntry.type === 'trainerBattleAction'
+      && previousEntry.trainerBattleActionType === 'ko'
+    ) {
+      return 2;
+    }
+  }
+
+  return 1;
 }

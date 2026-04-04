@@ -77,7 +77,8 @@ function validateRouteEntries(game: any, route: RouteBuilderRouteEntry[]): void 
     }
 
     if (entry.type === 'step') {
-      validateStepEntry(game, entry, index, currentStep);
+      const previousRouteEntry = index > 0 ? route[index - 1] : undefined;
+      validateStepEntry(game, entry, index, currentStep, previousRouteEntry);
       currentStep = getRouteBuilderStep(game, entry.stepId);
       activeTrainerBattle = null;
       selectedTrainerPokemonIndex = null;
@@ -125,6 +126,7 @@ function validateStepEntry(
   entry: RouteBuilderRouteEntry,
   index: number,
   previousStep: RouteBuilderStep | undefined,
+  previousRouteEntry: RouteBuilderRouteEntry | undefined,
 ): void {
   const step = getRouteBuilderStep(game, entry.stepId);
 
@@ -141,14 +143,18 @@ function validateStepEntry(
       throw new Error(`Route entry ${index + 1} is missing the action used to reach that step.`);
     }
 
-    validateStepTransition(previousStep, entry);
+    validateStepTransition(previousStep, entry, previousRouteEntry);
   }
 }
 
 /**
  * Validates that a step transition is valid
  */
-function validateStepTransition(previousStep: RouteBuilderStep | undefined, entry: RouteBuilderRouteEntry): void {
+function validateStepTransition(
+  previousStep: RouteBuilderStep | undefined,
+  entry: RouteBuilderRouteEntry,
+  previousRouteEntry: RouteBuilderRouteEntry | undefined,
+): void {
   const matchingOption = previousStep?.options.find(option => option.id === entry.arrivedViaOptionId);
 
   if (matchingOption) {
@@ -159,9 +165,19 @@ function validateStepTransition(previousStep: RouteBuilderStep | undefined, entr
     const { getRouteBuilderBattleAction } = require('./index');
     const matchingBattleAction = getRouteBuilderBattleAction(previousStep, entry.arrivedViaOptionId);
 
-    if (matchingBattleAction?.type !== 'ko' || previousStep?.battle?.onKoTargetStepId !== entry.stepId) {
-      throw new Error(`Route entry does not match a valid route transition.`);
+    if (matchingBattleAction?.type === 'ko' && previousStep?.battle?.onKoTargetStepId === entry.stepId) {
+      return;
     }
+
+    if (
+      previousRouteEntry?.type === 'trainerBattleAction'
+      && previousRouteEntry.trainerBattleActionType === 'ko'
+      && entry.stepId === previousStep?.id
+    ) {
+      return;
+    }
+
+    throw new Error(`Route entry does not match a valid route transition.`);
   }
 }
 

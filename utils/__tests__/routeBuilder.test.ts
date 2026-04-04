@@ -115,6 +115,77 @@ describe('routeBuilder', () => {
       const newState = applyRouteBuilderEntry(mockGameConfig, state, entry, 0);
       expect(newState.bag['Test Item']).toBe(1);
     });
+
+    it('does not reapply step effects when the same step is entered consecutively', () => {
+      const initialState: RouteBuilderRuntimeState = {
+        party: [],
+        bag: {},
+        activeTrainerBattle: null,
+      };
+      const firstEntry: RouteBuilderRouteEntry = {
+        type: 'step',
+        stepId: 'start',
+        optionEffects: [{ type: 'addItem', item: 'Test Item', quantity: 1 }],
+      };
+      const firstState = applyRouteBuilderEntry(mockGameConfig, initialState, firstEntry, 0);
+
+      const secondEntry: RouteBuilderRouteEntry = {
+        type: 'step',
+        stepId: 'start',
+        arrivedViaOptionId: 'trainer-1-ko-0',
+      };
+      const secondState = applyRouteBuilderEntry(mockGameConfig, firstState, secondEntry, 1);
+
+      expect(secondState.bag['Test Item']).toBe(1);
+    });
+  });
+
+  describe('getRouteEntriesToUndo', () => {
+    it('removes both a post-wild-battle step and the KO action when undoing', () => {
+      const route: RouteBuilderRouteEntry[] = [
+        { type: 'step', stepId: 'start' },
+        {
+          type: 'battleAction',
+          stepId: 'start',
+          battleActionId: 'ko',
+        },
+        {
+          type: 'step',
+          stepId: 'start',
+          arrivedViaOptionId: 'ko',
+        },
+      ];
+
+      expect(routeBuilder.getRouteEntriesToUndo(route)).toBe(2);
+    });
+
+    it('removes both a post-trainer-battle step and the KO action when undoing', () => {
+      const route: RouteBuilderRouteEntry[] = [
+        { type: 'step', stepId: 'start' },
+        {
+          type: 'trainerBattleAction',
+          stepId: 'start',
+          trainerId: 'trainer-1',
+          trainerBattleActionType: 'ko',
+        },
+        {
+          type: 'step',
+          stepId: 'start',
+          arrivedViaOptionId: 'trainer-1-ko-0',
+        },
+      ];
+
+      expect(routeBuilder.getRouteEntriesToUndo(route)).toBe(2);
+    });
+
+    it('removes only the last entry for ordinary route actions', () => {
+      const route: RouteBuilderRouteEntry[] = [
+        { type: 'step', stepId: 'start' },
+        { type: 'step', stepId: 'step1', arrivedViaOptionId: 'to-step1' },
+      ];
+
+      expect(routeBuilder.getRouteEntriesToUndo(route)).toBe(1);
+    });
   });
 
   describe('buildRouteBuilderState', () => {

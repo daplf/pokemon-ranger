@@ -130,6 +130,43 @@ describe('Import/Export', () => {
     expect(imported.gameId).toBe('test');
   });
 
+  it('accepts a post-trainer-battle step entry after a KO action', () => {
+    const trainerRoute = {
+      version: 1 as const,
+      gameId: 'test',
+      route: [
+        { type: 'step' as const, stepId: 'start' },
+        {
+          type: 'trainerBattle' as const,
+          stepId: 'start',
+          trainerId: 'trainer-1',
+          label: 'Battle Trainer',
+        },
+        {
+          type: 'trainerBattleAction' as const,
+          stepId: 'start',
+          trainerId: 'trainer-1',
+          trainerPokemonIndex: 0,
+          trainerBattleActionType: 'selectPokemon',
+        },
+        {
+          type: 'trainerBattleAction' as const,
+          stepId: 'start',
+          trainerId: 'trainer-1',
+          trainerPokemonIndex: 0,
+          trainerBattleActionType: 'ko',
+        },
+        {
+          type: 'step' as const,
+          stepId: 'start',
+          arrivedViaOptionId: 'trainer-1-ko-0',
+        },
+      ],
+    };
+
+    expect(() => parseRouteBuilderImport(trainerRoute)).not.toThrow();
+  });
+
   it('validates route structure and throws on invalid data', () => {
     const invalidRouteData = {
       version: 1 as const,

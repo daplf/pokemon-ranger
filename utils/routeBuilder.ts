@@ -40,6 +40,7 @@ export {
   prerequisitesAreMet,
   asBattlePokemon,
   getRouteBuilderBattleAction,
+  getRouteEntriesToUndo,
 } from './route-builder/stateManagement';
 
 // Re-export all battle calculation functions

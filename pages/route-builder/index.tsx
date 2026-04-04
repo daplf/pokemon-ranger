@@ -40,6 +40,7 @@ import {
   getAvailableTrainersForStep,
   getAvailableRouteBuilderBattleActions,
   getAvailableTrainerBattleActions,
+  getRouteEntriesToUndo,
   // Validation & Import/Export
   parseRouteBuilderImport,
   buildRouteExportData,
@@ -413,7 +414,27 @@ const RouteBuilderPage: NextPage = () => {
       trainerBattleActionType: action.type,
       label: action.label,
     });
-  }, [appendRouteEntry, currentStep]);
+
+    if (
+      action.type === 'ko'
+      && activeTrainerBattle
+      && typeof activeTrainerBattle.selectedPokemonIndex === 'number'
+    ) {
+      const defeatedPokemonIndexes = [
+        ...activeTrainerBattle.defeatedPokemonIndexes,
+        activeTrainerBattle.selectedPokemonIndex,
+      ];
+      const defeatedUniqueIndexes = [...new Set(defeatedPokemonIndexes)];
+
+      if (defeatedUniqueIndexes.length >= activeTrainerBattle.trainer.pokemon.length) {
+        appendRouteEntry({
+          type: 'step',
+          stepId: currentStep.id,
+          arrivedViaOptionId: action.id,
+        });
+      }
+    }
+  }, [appendRouteEntry, activeTrainerBattle, currentStep]);
 
   const handleSelectItem = useCallback((itemName: string) => {
     setSelectedItem(itemName);
@@ -446,14 +467,18 @@ const RouteBuilderPage: NextPage = () => {
   }, []);
 
   const handleUndo = useCallback(() => {
-    setRouteSession(previousSession => (
-      previousSession.route.length > 1
-        ? {
-          route: previousSession.route.slice(0, -1),
-          partySnapshots: previousSession.partySnapshots.slice(0, -1),
-        }
-        : previousSession
-    ));
+    setRouteSession(previousSession => {
+      if (previousSession.route.length <= 1) {
+        return previousSession;
+      }
+
+      const entriesToRemove = getRouteEntriesToUndo(previousSession.route);
+
+      return {
+        route: previousSession.route.slice(0, -entriesToRemove),
+        partySnapshots: previousSession.partySnapshots.slice(0, -entriesToRemove),
+      };
+    });
   }, []);
 
   const handleReset = useCallback(() => {
