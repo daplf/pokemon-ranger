@@ -11,6 +11,9 @@
   ],
   "progressionFlags": {
     "starterChosen": false,
+    "pickedTurtwig": false,
+    "pickedChimchar": false,
+    "pickedPiplup": false,
     "justFinishedStarterBattle": false,
     "reachedTwinleafAfterStarter": false,
     "visitedSandgemLab": false,
@@ -168,19 +171,40 @@
           "id": "pick-turtwig",
           "label": "Choose Turtwig",
           "description": "Take Turtwig from Rowan's briefcase.",
-          "targetStepId": "starter-turtwig"
+          "targetStepId": "starter-turtwig",
+          "effects": [
+            {
+              "type": "setProgressionFlag",
+              "flag": "pickedTurtwig",
+              "value": true
+            }
+          ]
         },
         {
           "id": "pick-chimchar",
           "label": "Choose Chimchar",
           "description": "Take Chimchar from Rowan's briefcase.",
-          "targetStepId": "starter-chimchar"
+          "targetStepId": "starter-chimchar",
+          "effects": [
+            {
+              "type": "setProgressionFlag",
+              "flag": "pickedChimchar",
+              "value": true
+            }
+          ]
         },
         {
           "id": "pick-piplup",
           "label": "Choose Piplup",
           "description": "Take Piplup from Rowan's briefcase.",
-          "targetStepId": "starter-piplup"
+          "targetStepId": "starter-piplup",
+          "effects": [
+            {
+              "type": "setProgressionFlag",
+              "flag": "pickedPiplup",
+              "value": true
+            }
+           ]
         }
       ]
     },

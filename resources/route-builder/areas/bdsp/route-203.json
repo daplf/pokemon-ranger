@@ -3,6 +3,9 @@
   "game": "bdsp",
   "name": "Route 203",
   "trainerIds": [
+    "trainer-id-176",
+    "trainer-id-177",
+    "trainer-id-178",
     "trainer-id-004",
     "trainer-id-270",
     "trainer-id-247",

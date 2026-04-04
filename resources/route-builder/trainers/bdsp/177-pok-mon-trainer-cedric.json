@@ -3,6 +3,11 @@
   "trainerId": 177,
   "game": "bdsp",
   "name": "Pokémon Trainer Cedric",
+  "prerequisites": {
+    "progressionFlags": {
+      "pickedTurtwig": true
+    }
+  },
   "pokemon": [
     {
       "species": "Starly",
