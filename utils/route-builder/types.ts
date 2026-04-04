@@ -30,7 +30,14 @@ export interface AddItemEffect {
   quantity?: number;
 }
 
-export type RouteBuilderStepEffect = AddPokemonPartyEffect | UnlockHmEffect | AddItemEffect;
+export interface SetProgressionFlagEffect {
+  type: 'setProgressionFlag';
+  flag: string;
+  value: boolean | string | number;
+  conditionalOn?: RouteBuilderPrerequisites;
+}
+
+export type RouteBuilderStepEffect = AddPokemonPartyEffect | UnlockHmEffect | AddItemEffect | SetProgressionFlagEffect;
 
 // Battle Actions - Wild Battles
 export interface RouteBuilderBattleAction {
@@ -42,9 +49,10 @@ export interface RouteBuilderBattleAction {
 }
 
 export interface RouteBuilderBattleDefinition {
-  actions: RouteBuilderBattleAction[];
+  actions?: RouteBuilderBattleAction[];
   onKoTargetStepId: string;
   opponent?: RouteBuilderBattlePokemon;
+  effects?: RouteBuilderStepEffect[];
 }
 
 // Steps in the game route
@@ -64,6 +72,7 @@ export interface RouteBuilderGameConfig {
   name: string;
   startStepId: string;
   steps: RouteBuilderStep[];
+  progressionFlags?: Record<string, boolean | string | number>;
 }
 
 // Route History - represents actions taken in the route
@@ -98,6 +107,7 @@ export interface RouteBuilderBattlePokemon {
 export interface RouteBuilderState {
   party: RouteBuilderPokemonInParty[];
   bag: Record<string, number>;
+  progressionFlags?: Record<string, boolean | string | number>;
 }
 
 export interface RouteBuilderRuntimeState extends RouteBuilderState {
@@ -180,6 +190,7 @@ export interface RouteBuilderPrerequisites {
   requiredHms?: RouteBuilderHm[];
   requiredItems?: string[];
   excludedItems?: string[];
+  progressionFlags?: Record<string, boolean | string | number>;
 }
 
 // Move Data

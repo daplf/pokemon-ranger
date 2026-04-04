@@ -3,6 +3,11 @@
   "trainerId": 1,
   "game": "bdsp",
   "name": "Youngster Tristan",
+  "prerequisites": {
+    "progressionFlags": {
+      "completedCatchTutorial": true
+    }
+  },
   "pokemon": [
     {
       "species": "Starly",

@@ -1,10 +1,14 @@
 import { getAvailableOptionsForStep } from '../stateManagement';
+import { getAvailableTrainersForStep } from '../battleCalculations';
 import { RouteBuilderGameConfig, RouteBuilderRouteEntry } from '../types';
 
 const mockGameConfig: RouteBuilderGameConfig = {
   id: 'test',
   name: 'Test Game',
   startStepId: 'prereq-step',
+  progressionFlags: {
+    completedCatchTutorial: false,
+  },
   steps: [
     {
       id: 'prereq-step',
@@ -37,9 +41,30 @@ const mockGameConfig: RouteBuilderGameConfig = {
   ],
 };
 
+const mockTrainerData = {
+  id: 'trainer-1',
+  name: 'Trainer',
+  prerequisites: {
+    progressionFlags: {
+      completedCatchTutorial: true,
+    },
+  },
+  pokemon: [
+    {
+      species: 'Pidgey',
+      level: 2,
+      nature: 'hardy',
+      evs: { hp: 0, attack: 0, defense: 0, specialAttack: 0, specialDefense: 0, speed: 0 },
+      ivs: { hp: 31, attack: 31, defense: 31, specialAttack: 31, specialDefense: 31, speed: 31 },
+    },
+  ],
+};
+
 jest.mock('../gameConfig', () => ({
   getRouteBuilderStep: jest.fn((game, stepId) => game.steps.find(s => s.id === stepId)),
-  getTrainerData: jest.fn(),
+  getTrainerData: jest.fn(() => mockTrainerData),
+  getAreaTrainerList: jest.fn(() => ({ trainerIds: ['trainer-1'] })),
+  getRouteBuilderGame: jest.fn(() => mockGameConfig),
   getRouteBuilderPokemonData: jest.fn(() => ({ 
     growthRate: 'medium-slow',
     evYield: { hp: 1, attack: 0, defense: 0, specialAttack: 0, specialDefense: 0, speed: 0 },
@@ -124,5 +149,20 @@ describe('Prerequisites', () => {
 
     const options = getAvailableOptionsForStep(mockGameConfig, step, route);
     expect(options.map(o => o.id)).not.toContain('item-prereq');
+  });
+});
+
+describe('Trainer Prerequisites', () => {
+  it('hides trainer when progression flag prerequisite is not met', () => {
+    // Route without the flag set
+    const route: RouteBuilderRouteEntry[] = [
+      {
+        type: 'step',
+        stepId: 'prereq-step',
+      },
+    ];
+
+    const trainers = getAvailableTrainersForStep('test', 'prereq-step', route);
+    expect(trainers).toHaveLength(0);
   });
 });

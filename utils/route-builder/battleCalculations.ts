@@ -92,28 +92,32 @@ export function getAvailableTrainersForStep(
   stepId: string,
   route: RouteBuilderRouteEntry[],
 ) {
-  const { getAreaTrainerList } = require('./gameConfig');
+  const { getAreaTrainerList, getRouteBuilderGame } = require('./gameConfig');
   const area = getAreaTrainerList(gameId, stepId);
 
   if (!area) return [];
 
   const beatenTrainerIds = getDefeatedTrainerIds(gameId, route);
   const unlockedHms = getUnlockedHmsByGameId(gameId, route);
+  const game = getRouteBuilderGame(gameId);
+  const { buildRouteBuilderState } = require('./stateManagement');
+  const state = buildRouteBuilderState(game, route);
+  const progressionFlags = state.progressionFlags || {};
 
   return area.trainerIds
     .map((trainerId: string) => getTrainerData(gameId, trainerId))
     .filter((trainer: any) => Boolean(trainer))
-    .filter((trainer: any) => trainerIsAvailable(trainer, beatenTrainerIds, unlockedHms));
+    .filter((trainer: any) => trainerIsAvailable(trainer, beatenTrainerIds, unlockedHms, progressionFlags));
 }
 
 /**
  * Helper: checks if a trainer is available based on prerequisites
  */
-function trainerIsAvailable(trainer: any, beatenTrainerIds: string[], unlockedHms: any[]): boolean {
+function trainerIsAvailable(trainer: any, beatenTrainerIds: string[], unlockedHms: any[], progressionFlags: Record<string, any>): boolean {
   if (beatenTrainerIds.includes(trainer.id)) return false;
 
   const { prerequisitesAreMet } = require('./stateManagement');
-  return prerequisitesAreMet(trainer.prerequisites, beatenTrainerIds, unlockedHms);
+  return prerequisitesAreMet(trainer.prerequisites, beatenTrainerIds, unlockedHms, {}, progressionFlags);
 }
 
 /**
@@ -328,6 +332,7 @@ function formatHitCountSummary(targetHp: number, minDamage: number, maxDamage: n
 
 /**
  * Gets available wild battle actions for the current step's battle
+ * Dynamically generates move actions from the lead Pokémon's moves (like trainer battles)
  */
 export function getAvailableRouteBuilderBattleActions(
   game: RouteBuilderGameConfig,
@@ -345,25 +350,37 @@ export function getAvailableRouteBuilderBattleActions(
   const leadPokemon = state.party[0];
   const { opponent } = currentStep.battle;
 
-  return currentStep.battle.actions.filter((action: any) => {
-    if (!action.visibleIfPartyIncludes || action.visibleIfPartyIncludes.length === 0) return true;
+  const actions: RouteBuilderResolvedBattleAction[] = [];
 
-    return action.visibleIfPartyIncludes.some((species: string) => (
-      state.party.some(pokemon => pokemon.species === species)
-    ));
-  }).map((action: any) => {
-    if (!leadPokemon || !opponent || action.type !== 'move') return action;
+  // Generate move actions from lead Pokémon's moves
+  if (leadPokemon && opponent) {
+    const moveActions = (leadPokemon.moves ?? []).map(moveName => {
+      const damageResult = calculateBattleDamage(game.id, leadPokemon, opponent, moveName);
+      const opponentStats = calculatePokemonStats(game.id, opponent);
 
-    const damageResult = calculateBattleDamage(game.id, leadPokemon, opponent, action.label.replace(/^Use /, ''));
-    const opponentStats = calculatePokemonStats(game.id, opponent);
+      return {
+        id: `move-${slugify(moveName)}`,
+        label: `Use ${moveName}`,
+        description: `Attack with ${moveName}.`,
+        type: 'move' as const,
+        targetHpSummary: opponentStats ? `Target HP: ${opponentStats.hp}` : undefined,
+        damageSummary: damageResult?.summary ?? 'No damage',
+        damageDetails: damageResult?.details,
+      };
+    });
 
-    return {
-      ...action,
-      targetHpSummary: opponentStats ? `Target HP: ${opponentStats.hp}` : undefined,
-      damageSummary: damageResult?.summary ?? 'No damage',
-      damageDetails: damageResult?.details,
-    };
+    actions.push(...moveActions);
+  }
+
+  // Always add KO action as the final option
+  actions.push({
+    id: 'ko',
+    label: `KO the opponent`,
+    description: 'End the battle.',
+    type: 'ko' as const,
   });
+
+  return actions;
 }
 
 /**

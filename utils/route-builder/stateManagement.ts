@@ -64,12 +64,13 @@ export function buildInitialRoute(game: RouteBuilderGameConfig): RouteBuilderRou
 export function buildRouteBuilderState(
   game: RouteBuilderGameConfig,
   route: RouteBuilderRouteEntry[],
-): RouteBuilderState {
+): RouteBuilderState & { progressionFlags: Record<string, boolean | string | number> } {
   const finalState = getRouteBuilderRuntimeState(game, route);
 
   return {
     party: finalState.party,
     bag: finalState.bag,
+    progressionFlags: finalState.progressionFlags || {},
   };
 }
 
@@ -87,6 +88,7 @@ export function getRouteBuilderRuntimeState(
     party: [],
     bag: {},
     activeTrainerBattle: null,
+    progressionFlags: { ...(game.progressionFlags || {}) },
   });
 
   return partyOverride
@@ -149,6 +151,7 @@ function applyStepEntry(
 
   let updatedParty = state.party;
   let updatedBag = { ...state.bag };
+  let updatedFlags = { ...(state.progressionFlags || {}) };
 
   effectsToApply.forEach(effect => {
     if (effect.type === 'addPokemon') {
@@ -167,6 +170,26 @@ function applyStepEntry(
       };
     }
 
+    if (effect.type === 'setProgressionFlag') {
+      // Check if there's a condition on this flag
+      if (effect.conditionalOn) {
+        // Check if all conditions in conditionalOn are met
+        const conditionsMet = prerequisitesAreMet(
+          effect.conditionalOn,
+          [],
+          [],
+          {},
+          updatedFlags,
+        );
+        if (conditionsMet) {
+          updatedFlags[effect.flag] = effect.value;
+        }
+      } else {
+        // No condition, just set the flag
+        updatedFlags[effect.flag] = effect.value;
+      }
+    }
+
     // unlockHm currently does not affect runtime state directly
   });
 
@@ -175,6 +198,7 @@ function applyStepEntry(
     currentStep: step,
     party: updatedParty,
     bag: updatedBag,
+    progressionFlags: updatedFlags,
   };
 }
 
@@ -189,19 +213,71 @@ export function applyBattleActionEntry(
 ): RouteBuilderRuntimeState {
   if (!state.currentStep?.battle?.opponent || !entry.battleActionId) return state;
 
-  const action = state.currentStep.battle.actions.find(a => a.id === entry.battleActionId);
-  if (!action || action.type !== 'ko') return state;
+  // Try to find the action in config (for hardcoded actions)
+  const action = state.currentStep.battle.actions?.find(a => a.id === entry.battleActionId);
+  
+  // Determine if this is a KO action (either from config or dynamically generated)
+  const isKoAction = action?.type === 'ko' || entry.battleActionId === 'ko';
+  
+  if (!isKoAction) return state;
 
-  return {
+  // Apply experience for KO
+  let updatedParty = applyExperienceToLeadPokemon(
+    game.id,
+    state.party,
+    state.currentStep.battle.opponent,
+    `wild-${index}`,
+    true,
+  );
+
+  // Apply battle effects if the battle definition has them
+  let updatedState: RouteBuilderRuntimeState = {
     ...state,
-    party: applyExperienceToLeadPokemon(
-      game.id,
-      state.party,
-      state.currentStep.battle.opponent,
-      `wild-${index}`,
-      true,
-    ),
+    party: updatedParty,
   };
+
+  const battleEffects = state.currentStep.battle.effects ?? [];
+  if (battleEffects.length > 0) {
+    // Apply effects from the battle definition
+    let updatedBag = { ...state.bag };
+    let updatedFlags = { ...(state.progressionFlags || {}) };
+
+    battleEffects.forEach(effect => {
+      if (effect.type === 'addItem') {
+        const quantity = effect.quantity ?? 1;
+        const previousQuantity = updatedBag[effect.item] ?? 0;
+        updatedBag = {
+          ...updatedBag,
+          [effect.item]: previousQuantity + quantity,
+        };
+      }
+
+      if (effect.type === 'setProgressionFlag') {
+        if (effect.conditionalOn) {
+          const conditionsMet = prerequisitesAreMet(
+            effect.conditionalOn,
+            [],
+            [],
+            {},
+            updatedFlags,
+          );
+          if (conditionsMet) {
+            updatedFlags[effect.flag] = effect.value;
+          }
+        } else {
+          updatedFlags[effect.flag] = effect.value;
+        }
+      }
+    });
+
+    updatedState = {
+      ...updatedState,
+      bag: updatedBag,
+      progressionFlags: updatedFlags,
+    };
+  }
+
+  return updatedState;
 }
 
 /**
@@ -583,9 +659,11 @@ export function getAvailableOptionsForStep(
 ) {
   const beatenTrainerIds = getDefeatedTrainerIds(game.id, route);
   const unlockedHms = getUnlockedHms(game, route);
-  const bag = buildRouteBuilderState(game, route).bag;
+  const state = buildRouteBuilderState(game, route);
+  const bag = state.bag;
+  const progressionFlags = state.progressionFlags || {};
 
-  return step.options.filter(option => prerequisitesAreMet(option.prerequisites, beatenTrainerIds, unlockedHms, bag));
+  return step.options.filter(option => prerequisitesAreMet(option.prerequisites, beatenTrainerIds, unlockedHms, bag, progressionFlags));
 }
 
 /**
@@ -596,20 +674,27 @@ export function prerequisitesAreMet(
   beatenTrainerIds: string[],
   unlockedHms: RouteBuilderHm[],
   bag: Record<string, number>,
+  progressionFlags?: Record<string, boolean | string | number>,
 ): boolean {
   const requiredTrainerIds = prerequisites?.beatenTrainerIds ?? [];
   const requiredHms = prerequisites?.requiredHms ?? [];
   const requiredItems = prerequisites?.requiredItems ?? [];
   const excludedItems = prerequisites?.excludedItems ?? [];
+  const requiredFlags = prerequisites?.progressionFlags ?? {};
 
   const hasRequiredItems = requiredItems.every(item => (bag[item] ?? 0) > 0);
   const hasExcludedItems = excludedItems.some(item => (bag[item] ?? 0) > 0);
 
   if (hasExcludedItems) return false;
 
+  const flagsMatch = Object.entries(requiredFlags).every(
+    ([flagName, requiredValue]) => (progressionFlags?.[flagName] ?? false) === requiredValue,
+  );
+
   return requiredTrainerIds.every(requiredTrainerId => beatenTrainerIds.includes(requiredTrainerId))
     && requiredHms.every(requiredHm => unlockedHms.includes(requiredHm))
-    && hasRequiredItems;
+    && hasRequiredItems
+    && flagsMatch;
 }
 
 /**
@@ -634,5 +719,37 @@ export function getRouteBuilderBattleAction(
 ) {
   if (!step?.battle || !battleActionId) return undefined;
 
-  return step.battle.actions.find(action => action.id === battleActionId);
+  // Try to find the action in the config's hardcoded actions array (if it exists)
+  const configAction = step.battle.actions?.find(action => action.id === battleActionId);
+  if (configAction) return configAction;
+
+  // For dynamically generated actions (moves or ko), create a synthetic action object
+  // based on the action ID if it matches known patterns
+  if (battleActionId === 'ko') {
+    return {
+      id: 'ko',
+      label: 'KO the opponent',
+      description: 'End the battle.',
+      type: 'ko' as const,
+    };
+  }
+
+  // For move actions, the ID is in format "move-{slugified-move-name}"
+  if (battleActionId.startsWith('move-')) {
+    // Extract the move name from the ID (convert slug back to title case)
+    const slug = battleActionId.replace('move-', '');
+    const moveName = slug
+      .split('-')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+
+    return {
+      id: battleActionId,
+      label: `Use ${moveName}`,
+      description: `Attack with ${moveName}.`,
+      type: 'move' as const,
+    };
+  }
+
+  return undefined;
 }

@@ -349,6 +349,7 @@ const RouteBuilderPage: NextPage = () => {
       type: 'battleAction',
       stepId: currentStep.id,
       battleActionId: action.id,
+      label: action.label,
     });
 
     if (action.type === 'ko') {

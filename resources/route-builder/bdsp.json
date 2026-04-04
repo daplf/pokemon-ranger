@@ -2,35 +2,161 @@
   "id": "bdsp",
   "name": "Brilliant Diamond / Shining Pearl",
   "region": "Sinnoh",
-  "startStepId": "twinleaf-town-opening",
+  "startStepId": "twinleaf-town",
   "notes": [
     "This config models BDSP as a location graph for the Route Builder.",
     "Connections are intentionally broad and mostly ungated so the graph is useful as a prototype.",
-    "Trainer fights, wild encounters, items, and story-state restrictions can be layered on top later."
+    "Trainer fights, wild encounters, items, and story-state restrictions can be layered on top later.",
+    "Uses progression flags to track game state and gate content without duplicating steps."
   ],
+  "progressionFlags": {
+    "starterChosen": false,
+    "justFinishedStarterBattle": false,
+    "reachedTwinleafAfterStarter": false,
+    "visitedSandgemLab": false,
+    "talkedToMomAfterLab": false,
+    "completedCatchTutorial": false
+  },
   "steps": [
     {
-      "id": "twinleaf-town-opening",
+      "id": "twinleaf-town",
       "name": "Twinleaf Town",
-      "description": "The opening of the game. The only progression is to head out through Route 201.",
+      "description": "A quiet starting town in southwestern Sinnoh.",
       "options": [
-        { "id": "opening-twinleaf-to-route-201", "label": "Move to Route 201", "description": "Leave Twinleaf Town and follow the opening story path.", "targetStepId": "route-201-to-lake-verity-opening" }
+        {
+          "id": "twinleaf-to-route-201",
+          "label": "Move to Route 201",
+          "description": "Head north toward the first route.",
+          "targetStepId": "route-201"
+        },
+        {
+          "id": "twinleaf-talk-to-mom",
+          "label": "Talk to Mom",
+          "description": "Talk to Mom.",
+          "targetStepId": "twinleaf-town",
+          "prerequisites": {
+            "progressionFlags": {
+              "visitedSandgemLab": true,
+              "talkedToMomAfterLab": false
+            }
+          },
+          "effects": [
+            {
+              "type": "setProgressionFlag",
+              "flag": "talkedToMomAfterLab",
+              "value": true
+            }
+          ]
+        }
       ]
     },
     {
-      "id": "route-201-to-lake-verity-opening",
+      "id": "route-201",
       "name": "Route 201",
-      "description": "The opening walk through Route 201 on the way to Lake Verity.",
+      "description": "The first route, linking Twinleaf Town, Sandgem Town, and Lake Verity.",
       "options": [
-        { "id": "opening-route-201-to-lake-verity", "label": "Move to Lake Verity", "description": "Continue the opening story to the lake.", "targetStepId": "lake-verity-opening" }
+        {
+          "id": "route-201-to-twinleaf",
+          "label": "Move to Twinleaf Town",
+          "description": "Return to the starting town.",
+          "targetStepId": "twinleaf-town",
+          "effects": [
+            {
+              "type": "setProgressionFlag",
+              "flag": "reachedTwinleafAfterStarter",
+              "value": true,
+              "conditionalOn": {
+                "progressionFlags": {
+                  "justFinishedStarterBattle": true
+                }
+              }
+            },
+            {
+              "type": "setProgressionFlag",
+              "flag": "justFinishedStarterBattle",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "route-201-to-lake-verity",
+          "label": "Move to Lake Verity",
+          "description": "Take the western path toward the lake.",
+          "targetStepId": "lake-verity",
+          "prerequisites": {
+            "progressionFlags": {
+              "justFinishedStarterBattle": false
+            }
+          }
+        },
+        {
+          "id": "route-201-to-sandgem",
+          "label": "Move to Sandgem Town",
+          "description": "Continue east to Professor Rowan's town.",
+          "targetStepId": "sandgem-town",
+          "prerequisites": {
+            "progressionFlags": {
+              "reachedTwinleafAfterStarter": true
+            }
+          }
+        },
+        {
+          "id": "route-201-pick-potions",
+          "label": "Talk to NPC for Potions",
+          "description": "Talk to the NPC on Route 201 to receive 10 Potions.",
+          "targetStepId": "route-201",
+          "prerequisites": {
+            "progressionFlags": {
+              "reachedTwinleafAfterStarter": true
+            },
+            "excludedItems": [
+              "Potion"
+            ]
+          },
+          "effects": [
+            {
+              "type": "addItem",
+              "item": "Potion",
+              "quantity": 10
+            }
+          ]
+        }
       ]
     },
     {
-      "id": "lake-verity-opening",
+      "id": "lake-verity",
       "name": "Lake Verity",
-      "description": "The opening Lake Verity visit before free movement begins.",
+      "description": "One of Sinnoh's three lakes.",
       "options": [
-        { "id": "lake-verity-opening-pick-starter", "label": "Pick Starter", "description": "Choose your starter Pokémon from Rowan's briefcase.", "targetStepId": "starter-pick" }
+        {
+          "id": "starter-pick",
+          "label": "Pick Starter",
+          "description": "Choose your starter Pokémon.",
+          "targetStepId": "starter-pick",
+          "prerequisites": {
+            "progressionFlags": {
+              "starterChosen": false
+            }
+          },
+          "effects": [
+            {
+              "type": "setProgressionFlag",
+              "flag": "starterChosen",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "lake-verity-to-route-201",
+          "label": "Move to Route 201",
+          "description": "Return to the path outside the lake.",
+          "targetStepId": "route-201",
+          "prerequisites": {
+            "progressionFlags": {
+              "starterChosen": true
+            }
+          }
+        }
       ]
     },
     {
@@ -38,9 +164,24 @@
       "name": "Pick Starter",
       "description": "Choose your starter Pokémon at Lake Verity.",
       "options": [
-        { "id": "pick-turtwig", "label": "Choose Turtwig", "description": "Take Turtwig from Rowan's briefcase.", "targetStepId": "starter-turtwig" },
-        { "id": "pick-chimchar", "label": "Choose Chimchar", "description": "Take Chimchar from Rowan's briefcase.", "targetStepId": "starter-chimchar" },
-        { "id": "pick-piplup", "label": "Choose Piplup", "description": "Take Piplup from Rowan's briefcase.", "targetStepId": "starter-piplup" }
+        {
+          "id": "pick-turtwig",
+          "label": "Choose Turtwig",
+          "description": "Take Turtwig from Rowan's briefcase.",
+          "targetStepId": "starter-turtwig"
+        },
+        {
+          "id": "pick-chimchar",
+          "label": "Choose Chimchar",
+          "description": "Take Chimchar from Rowan's briefcase.",
+          "targetStepId": "starter-chimchar"
+        },
+        {
+          "id": "pick-piplup",
+          "label": "Choose Piplup",
+          "description": "Take Piplup from Rowan's briefcase.",
+          "targetStepId": "starter-piplup"
+        }
       ]
     },
     {
@@ -48,10 +189,19 @@
       "name": "Starter: Turtwig",
       "description": "You picked Turtwig as your starter Pokémon.",
       "effects": [
-        { "type": "addPokemon", "species": "Turtwig", "level": 5 }
+        {
+          "type": "addPokemon",
+          "species": "Turtwig",
+          "level": 5
+        }
       ],
       "options": [
-        { "id": "starter-turtwig-to-starly", "label": "Fight wild Starly Lv. 2", "description": "The opening forced battle after choosing Turtwig.", "targetStepId": "starly-battle-lv2" }
+        {
+          "id": "starter-turtwig-to-starly",
+          "label": "Fight wild Starly Lv. 2",
+          "description": "The opening forced battle after choosing Turtwig.",
+          "targetStepId": "starly-battle-lv2"
+        }
       ]
     },
     {
@@ -59,10 +209,19 @@
       "name": "Starter: Chimchar",
       "description": "You picked Chimchar as your starter Pokémon.",
       "effects": [
-        { "type": "addPokemon", "species": "Chimchar", "level": 5 }
+        {
+          "type": "addPokemon",
+          "species": "Chimchar",
+          "level": 5
+        }
       ],
       "options": [
-        { "id": "starter-chimchar-to-starly", "label": "Fight wild Starly Lv. 2", "description": "The opening forced battle after choosing Chimchar.", "targetStepId": "starly-battle-lv2" }
+        {
+          "id": "starter-chimchar-to-starly",
+          "label": "Fight wild Starly Lv. 2",
+          "description": "The opening forced battle after choosing Chimchar.",
+          "targetStepId": "starly-battle-lv2"
+        }
       ]
     },
     {
@@ -70,10 +229,19 @@
       "name": "Starter: Piplup",
       "description": "You picked Piplup as your starter Pokémon.",
       "effects": [
-        { "type": "addPokemon", "species": "Piplup", "level": 5 }
+        {
+          "type": "addPokemon",
+          "species": "Piplup",
+          "level": 5
+        }
       ],
       "options": [
-        { "id": "starter-piplup-to-starly", "label": "Fight wild Starly Lv. 2", "description": "The opening forced battle after choosing Piplup.", "targetStepId": "starly-battle-lv2" }
+        {
+          "id": "starter-piplup-to-starly",
+          "label": "Fight wild Starly Lv. 2",
+          "description": "The opening forced battle after choosing Piplup.",
+          "targetStepId": "starly-battle-lv2"
+        }
       ]
     },
     {
@@ -103,145 +271,69 @@
             "speed": 31
           }
         },
-        "onKoTargetStepId": "route-201-opening",
-        "actions": [
+        "onKoTargetStepId": "route-201",
+        "effects": [
           {
-            "id": "starly-use-tackle",
-            "label": "Use Tackle",
-            "description": "Attack with Tackle.",
-            "type": "move",
-            "visibleIfPartyIncludes": ["Turtwig", "Piplup"]
-          },
-          {
-            "id": "starly-use-growl",
-            "label": "Use Growl",
-            "description": "Lower the foe's Attack.",
-            "type": "move",
-            "visibleIfPartyIncludes": ["Turtwig", "Chimchar", "Piplup"]
-          },
-          {
-            "id": "starly-use-scratch",
-            "label": "Use Scratch",
-            "description": "Attack with Scratch.",
-            "type": "move",
-            "visibleIfPartyIncludes": ["Chimchar"]
-          },
-          {
-            "id": "starly-ko",
-            "label": "KO the wild Starly",
-            "description": "End the battle and continue back toward Twinleaf Town.",
-            "type": "ko"
+            "type": "setProgressionFlag",
+            "flag": "justFinishedStarterBattle",
+            "value": true
           }
         ]
       }
-    },
-    {
-      "id": "route-201-opening",
-      "name": "Route 201",
-      "description": "The short forced return trip after the opening Lake Verity sequence.",
-      "options": [
-        { "id": "route-201-opening-to-twinleaf", "label": "Move to Twinleaf Town", "description": "Head home before the route opens up.", "targetStepId": "twinleaf-town-after-opening" }
-      ]
-    },
-    {
-      "id": "twinleaf-town-after-opening",
-      "name": "Twinleaf Town",
-      "description": "Back home after the Lake Verity opening. The next progression step is to talk to Mom and keep moving.",
-      "options": [
-        { "id": "twinleaf-after-opening-to-route-201", "label": "Move to Route 201", "description": "Leave Twinleaf Town and continue east toward Sandgem Town.", "targetStepId": "route-201-first-sandgem" }
-      ]
-    },
-    {
-      "id": "twinleaf-town",
-      "name": "Twinleaf Town",
-      "description": "A quiet starting town in southwestern Sinnoh. After talking to Mom, you are free to continue for a while.",
-      "options": [
-        { "id": "twinleaf-to-route-201", "label": "Move to Route 201", "description": "Head north toward the first route.", "targetStepId": "route-201" }
-      ]
-    },
-    {
-      "id": "lake-verity",
-      "name": "Lake Verity",
-      "description": "One of Sinnoh's three lakes, reached through Verity Lakefront.",
-      "options": [
-        { "id": "lake-verity-to-route-201", "label": "Move to Route 201", "description": "Return to the path outside the lake.", "targetStepId": "route-201" }
-      ]
-    },
-    {
-      "id": "route-201",
-      "name": "Route 201",
-      "description": "The first route, linking Twinleaf Town, Sandgem Town, and Lake Verity.",
-      "options": [
-        { "id": "route-201-to-twinleaf", "label": "Move to Twinleaf Town", "description": "Return to the starting town.", "targetStepId": "twinleaf-town" },
-        { "id": "route-201-to-lake-verity", "label": "Move to Lake Verity", "description": "Take the western path toward the lake.", "targetStepId": "lake-verity" },
-        { "id": "route-201-to-sandgem", "label": "Move to Sandgem Town", "description": "Continue east to Professor Rowan's town.", "targetStepId": "sandgem-town" }
-      ]
-    },
-    {
-      "id": "route-201-first-sandgem",
-      "name": "Route 201",
-      "description": "The first eastbound trip to Sandgem Town, before the initial lab visit is complete.",
-      "options": [
-        { "id": "route-201-first-sandgem-to-twinleaf", "label": "Move to Twinleaf Town", "description": "Return to Twinleaf Town.", "targetStepId": "twinleaf-town-after-opening" },
-        { "id": "route-201-first-sandgem-to-lake-verity", "label": "Move to Lake Verity", "description": "Take the western path toward the lake.", "targetStepId": "lake-verity" },
-        { "id": "route-201-first-sandgem-to-sandgem", "label": "Move to Sandgem Town", "description": "Continue east to Professor Rowan's town.", "targetStepId": "sandgem-town-first-visit" }
-      ]
-    },
-    {
-      "id": "sandgem-town-first-visit",
-      "name": "Sandgem Town",
-      "description": "The first arrival in Sandgem Town. You need to go into Rowan's lab before anything else.",
-      "options": [
-        { "id": "sandgem-first-visit-to-lab", "label": "Go to Rowan's Lab", "description": "Enter the lab for the first Sandgem story event.", "targetStepId": "sandgem-lab-first-visit" }
-      ]
-    },
-    {
-      "id": "sandgem-lab-first-visit",
-      "name": "Rowan's Lab",
-      "description": "The first mandatory visit to Rowan's lab in Sandgem Town.",
-      "options": [
-        { "id": "sandgem-lab-first-visit-to-sandgem", "label": "Leave the Lab", "description": "Exit the lab and return to Sandgem Town.", "targetStepId": "sandgem-town-after-lab" }
-      ]
-    },
-    {
-      "id": "sandgem-town-after-lab",
-      "name": "Sandgem Town",
-      "description": "Back in Sandgem Town after the first lab visit. The next required step is returning to Twinleaf Town.",
-      "options": [
-        { "id": "sandgem-after-lab-to-route-201", "label": "Move to Route 201", "description": "Head back west toward Twinleaf Town.", "targetStepId": "route-201-return-from-lab" }
-      ]
-    },
-    {
-      "id": "route-201-return-from-lab",
-      "name": "Route 201",
-      "description": "The forced return trip from Sandgem Town back toward Twinleaf Town.",
-      "options": [
-        { "id": "route-201-return-from-lab-to-twinleaf", "label": "Move to Twinleaf Town", "description": "Go home to talk to Mom.", "targetStepId": "twinleaf-town-mom-event" }
-      ]
-    },
-    {
-      "id": "twinleaf-town-mom-event",
-      "name": "Twinleaf Town",
-      "description": "You are back in Twinleaf Town and need to talk to Mom before moving on.",
-      "options": [
-        { "id": "twinleaf-town-talk-to-mom", "label": "Talk to Mom", "description": "Finish the home event and unlock free movement again.", "targetStepId": "twinleaf-town" }
-      ]
     },
     {
       "id": "sandgem-town",
       "name": "Sandgem Town",
       "description": "A coastal research town and early stop in the journey.",
       "options": [
-        { "id": "sandgem-to-route-201", "label": "Move to Route 201", "description": "Head west toward Twinleaf Town.", "targetStepId": "route-201" },
-        { "id": "sandgem-to-route-202", "label": "Move to Route 202", "description": "Go north toward Jubilife City.", "targetStepId": "route-202-first-visit" }
+        {
+          "id": "sandgem-to-route-201",
+          "label": "Move to Route 201",
+          "description": "Head west toward Twinleaf Town.",
+          "targetStepId": "route-201"
+        },
+        {
+          "id": "sandgem-to-sandgem-lab",
+          "label": "Move to Sandgem Lab",
+          "description": "Visit Professor Rowan's Pokémon lab.",
+          "targetStepId": "sandgem-lab",
+          "prerequisites": {
+            "progressionFlags": {
+              "visitedSandgemLab": false
+            }
+          }
+        },
+        {
+          "id": "sandgem-to-route-202",
+          "label": "Move to Route 202",
+          "description": "Go north toward Jubilife City.",
+          "targetStepId": "route-202",
+          "prerequisites": {
+            "progressionFlags": {
+              "talkedToMomAfterLab": true
+            }
+          }
+        }
       ]
     },
     {
-      "id": "route-202-first-visit",
-      "name": "Route 202",
-      "description": "The first visit to Route 202. The catching tutorial must happen before the route opens up.",
+      "id": "sandgem-lab",
+      "name": "Sandgem Lab",
+      "description": "Professor Rowan's research lab on the coast of Sinnoh.",
       "options": [
-        { "id": "route-202-first-visit-finish-tutorial", "label": "Finish Catch Tutorial", "description": "Complete the mandatory catching tutorial and continue with free movement.", "targetStepId": "route-202" }
+        {
+          "id": "sandgem-lab-to-sandgem",
+          "label": "Move to Sandgem Town",
+          "description": "Leave the lab and return to town.",
+          "targetStepId": "sandgem-town",
+          "effects": [
+            {
+              "type": "setProgressionFlag",
+              "flag": "visitedSandgemLab",
+              "value": true
+            }
+          ]
+        }
       ]
     },
     {
@@ -249,14 +341,39 @@
       "name": "Route 202",
       "description": "A short northbound route between Sandgem Town and Jubilife City.",
       "options": [
-        { "id": "route-202-to-sandgem", "label": "Move to Sandgem Town", "description": "Head back south.", "targetStepId": "sandgem-town" },
+        {
+          "id": "route-202-to-sandgem",
+          "label": "Move to Sandgem Town",
+          "description": "Head back south.",
+          "targetStepId": "sandgem-town"
+        },
+        {
+          "id": "catch-tutorial",
+          "label": "Catch Tutorial",
+          "description": "Do the catch tutorial.",
+          "targetStepId": "route-202",
+          "prerequisites": {
+            "progressionFlags": {
+              "completedCatchTutorial": false
+            }
+          },
+          "effects": [
+             {
+              "type": "setProgressionFlag",
+              "flag": "completedCatchTutorial",
+              "value": true
+             }
+          ]
+        },
         {
           "id": "route-202-to-jubilife",
           "label": "Move to Jubilife City",
           "description": "Continue north into the city.",
           "targetStepId": "jubilife-city",
           "prerequisites": {
-            "beatenTrainerIds": ["trainer-id-002"]
+            "beatenTrainerIds": [
+              "trainer-id-002"
+            ]
           }
         },
         {
@@ -265,8 +382,12 @@
           "description": "Pick up the Paralyze Heal on the ground after defeating Logan.",
           "targetStepId": "route-202",
           "prerequisites": {
-            "beatenTrainerIds": ["trainer-id-002"],
-            "excludedItems": ["Paralyze Heal"]
+            "beatenTrainerIds": [
+              "trainer-id-002"
+            ],
+            "excludedItems": [
+              "Paralyze Heal"
+            ]
           },
           "effects": [
             {
@@ -283,10 +404,30 @@
       "name": "Jubilife City",
       "description": "A major central city with paths leading in multiple directions.",
       "options": [
-        { "id": "jubilife-to-route-202", "label": "Move to Route 202", "description": "Travel south toward Sandgem Town.", "targetStepId": "route-202" },
-        { "id": "jubilife-to-route-203", "label": "Move to Route 203", "description": "Take the eastern road to Oreburgh.", "targetStepId": "route-203" },
-        { "id": "jubilife-to-route-204-south", "label": "Move to Route 204 (South)", "description": "Take the northern path toward Floaroma.", "targetStepId": "route-204-south" },
-        { "id": "jubilife-to-route-218", "label": "Move to Route 218", "description": "Go west toward Canalave City.", "targetStepId": "route-218" }
+        {
+          "id": "jubilife-to-route-202",
+          "label": "Move to Route 202",
+          "description": "Travel south toward Sandgem Town.",
+          "targetStepId": "route-202"
+        },
+        {
+          "id": "jubilife-to-route-203",
+          "label": "Move to Route 203",
+          "description": "Take the eastern road to Oreburgh.",
+          "targetStepId": "route-203"
+        },
+        {
+          "id": "jubilife-to-route-204-south",
+          "label": "Move to Route 204 (South)",
+          "description": "Take the northern path toward Floaroma.",
+          "targetStepId": "route-204-south"
+        },
+        {
+          "id": "jubilife-to-route-218",
+          "label": "Move to Route 218",
+          "description": "Go west toward Canalave City.",
+          "targetStepId": "route-218"
+        }
       ]
     },
     {
@@ -294,8 +435,18 @@
       "name": "Route 203",
       "description": "The route east of Jubilife City leading toward Oreburgh Gate.",
       "options": [
-        { "id": "route-203-to-jubilife", "label": "Move to Jubilife City", "description": "Return west to the city.", "targetStepId": "jubilife-city" },
-        { "id": "route-203-to-oreburgh-gate", "label": "Move to Oreburgh Gate", "description": "Enter the cave connecting to Oreburgh.", "targetStepId": "oreburgh-gate" }
+        {
+          "id": "route-203-to-jubilife",
+          "label": "Move to Jubilife City",
+          "description": "Return west to the city.",
+          "targetStepId": "jubilife-city"
+        },
+        {
+          "id": "route-203-to-oreburgh-gate",
+          "label": "Move to Oreburgh Gate",
+          "description": "Enter the cave connecting to Oreburgh.",
+          "targetStepId": "oreburgh-gate"
+        }
       ]
     },
     {
@@ -303,8 +454,18 @@
       "name": "Oreburgh Gate",
       "description": "A cave passage between Route 203 and Oreburgh City.",
       "options": [
-        { "id": "oreburgh-gate-to-route-203", "label": "Move to Route 203", "description": "Exit west toward Jubilife.", "targetStepId": "route-203" },
-        { "id": "oreburgh-gate-to-oreburgh-city", "label": "Move to Oreburgh City", "description": "Exit east into the mining city.", "targetStepId": "oreburgh-city" }
+        {
+          "id": "oreburgh-gate-to-route-203",
+          "label": "Move to Route 203",
+          "description": "Exit west toward Jubilife.",
+          "targetStepId": "route-203"
+        },
+        {
+          "id": "oreburgh-gate-to-oreburgh-city",
+          "label": "Move to Oreburgh City",
+          "description": "Exit east into the mining city.",
+          "targetStepId": "oreburgh-city"
+        }
       ]
     },
     {
@@ -312,9 +473,24 @@
       "name": "Oreburgh City",
       "description": "A mining city at the foot of Sinnoh's mountains.",
       "options": [
-        { "id": "oreburgh-to-oreburgh-gate", "label": "Move to Oreburgh Gate", "description": "Head back toward Jubilife.", "targetStepId": "oreburgh-gate" },
-        { "id": "oreburgh-to-oreburgh-mine", "label": "Move to Oreburgh Mine", "description": "Enter the city's mine.", "targetStepId": "oreburgh-mine" },
-        { "id": "oreburgh-to-route-207", "label": "Move to Route 207", "description": "Travel north toward Mt. Coronet.", "targetStepId": "route-207" }
+        {
+          "id": "oreburgh-to-oreburgh-gate",
+          "label": "Move to Oreburgh Gate",
+          "description": "Head back toward Jubilife.",
+          "targetStepId": "oreburgh-gate"
+        },
+        {
+          "id": "oreburgh-to-oreburgh-mine",
+          "label": "Move to Oreburgh Mine",
+          "description": "Enter the city's mine.",
+          "targetStepId": "oreburgh-mine"
+        },
+        {
+          "id": "oreburgh-to-route-207",
+          "label": "Move to Route 207",
+          "description": "Travel north toward Mt. Coronet.",
+          "targetStepId": "route-207"
+        }
       ]
     },
     {
@@ -322,7 +498,12 @@
       "name": "Oreburgh Mine",
       "description": "The ore-rich mine carved into the mountain beside Oreburgh.",
       "options": [
-        { "id": "oreburgh-mine-to-oreburgh-city", "label": "Move to Oreburgh City", "description": "Leave the mine.", "targetStepId": "oreburgh-city" }
+        {
+          "id": "oreburgh-mine-to-oreburgh-city",
+          "label": "Move to Oreburgh City",
+          "description": "Leave the mine.",
+          "targetStepId": "oreburgh-city"
+        }
       ]
     },
     {
@@ -330,8 +511,18 @@
       "name": "Route 204 (South)",
       "description": "The southern half of Route 204, just north of Jubilife.",
       "options": [
-        { "id": "route-204-south-to-jubilife", "label": "Move to Jubilife City", "description": "Head south to the city.", "targetStepId": "jubilife-city" },
-        { "id": "route-204-south-to-ravaged-path", "label": "Move to Ravaged Path", "description": "Enter the connecting cave.", "targetStepId": "ravaged-path" }
+        {
+          "id": "route-204-south-to-jubilife",
+          "label": "Move to Jubilife City",
+          "description": "Head south to the city.",
+          "targetStepId": "jubilife-city"
+        },
+        {
+          "id": "route-204-south-to-ravaged-path",
+          "label": "Move to Ravaged Path",
+          "description": "Enter the connecting cave.",
+          "targetStepId": "ravaged-path"
+        }
       ]
     },
     {
@@ -339,8 +530,18 @@
       "name": "Ravaged Path",
       "description": "A cave split into south and north exits along Route 204.",
       "options": [
-        { "id": "ravaged-path-to-route-204-south", "label": "Move to Route 204 (South)", "description": "Exit back toward Jubilife.", "targetStepId": "route-204-south" },
-        { "id": "ravaged-path-to-route-204-north", "label": "Move to Route 204 (North)", "description": "Exit toward Floaroma Town.", "targetStepId": "route-204-north" }
+        {
+          "id": "ravaged-path-to-route-204-south",
+          "label": "Move to Route 204 (South)",
+          "description": "Exit back toward Jubilife.",
+          "targetStepId": "route-204-south"
+        },
+        {
+          "id": "ravaged-path-to-route-204-north",
+          "label": "Move to Route 204 (North)",
+          "description": "Exit toward Floaroma Town.",
+          "targetStepId": "route-204-north"
+        }
       ]
     },
     {
@@ -348,8 +549,18 @@
       "name": "Route 204 (North)",
       "description": "The northern half of Route 204 leading to Floaroma Town.",
       "options": [
-        { "id": "route-204-north-to-ravaged-path", "label": "Move to Ravaged Path", "description": "Head back through the cave.", "targetStepId": "ravaged-path" },
-        { "id": "route-204-north-to-floaroma", "label": "Move to Floaroma Town", "description": "Continue north to the flower town.", "targetStepId": "floaroma-town" }
+        {
+          "id": "route-204-north-to-ravaged-path",
+          "label": "Move to Ravaged Path",
+          "description": "Head back through the cave.",
+          "targetStepId": "ravaged-path"
+        },
+        {
+          "id": "route-204-north-to-floaroma",
+          "label": "Move to Floaroma Town",
+          "description": "Continue north to the flower town.",
+          "targetStepId": "floaroma-town"
+        }
       ]
     },
     {
@@ -357,9 +568,24 @@
       "name": "Floaroma Town",
       "description": "A small flower-filled town surrounded by meadows and windmills.",
       "options": [
-        { "id": "floaroma-to-route-204-north", "label": "Move to Route 204 (North)", "description": "Travel back toward Jubilife.", "targetStepId": "route-204-north" },
-        { "id": "floaroma-to-route-205-south", "label": "Move to Route 205 (South)", "description": "Head north toward the valley.", "targetStepId": "route-205-south" },
-        { "id": "floaroma-to-valley-windworks", "label": "Move to Valley Windworks", "description": "Go east to the wind farm.", "targetStepId": "valley-windworks" }
+        {
+          "id": "floaroma-to-route-204-north",
+          "label": "Move to Route 204 (North)",
+          "description": "Travel back toward Jubilife.",
+          "targetStepId": "route-204-north"
+        },
+        {
+          "id": "floaroma-to-route-205-south",
+          "label": "Move to Route 205 (South)",
+          "description": "Head north toward the valley.",
+          "targetStepId": "route-205-south"
+        },
+        {
+          "id": "floaroma-to-valley-windworks",
+          "label": "Move to Valley Windworks",
+          "description": "Go east to the wind farm.",
+          "targetStepId": "valley-windworks"
+        }
       ]
     },
     {
@@ -367,8 +593,18 @@
       "name": "Valley Windworks",
       "description": "A power plant by the sea just east of Floaroma Town.",
       "options": [
-        { "id": "valley-windworks-to-floaroma", "label": "Move to Floaroma Town", "description": "Return west to town.", "targetStepId": "floaroma-town" },
-        { "id": "valley-windworks-to-route-205-south", "label": "Move to Route 205 (South)", "description": "Connect back to the northbound route.", "targetStepId": "route-205-south" }
+        {
+          "id": "valley-windworks-to-floaroma",
+          "label": "Move to Floaroma Town",
+          "description": "Return west to town.",
+          "targetStepId": "floaroma-town"
+        },
+        {
+          "id": "valley-windworks-to-route-205-south",
+          "label": "Move to Route 205 (South)",
+          "description": "Connect back to the northbound route.",
+          "targetStepId": "route-205-south"
+        }
       ]
     },
     {
@@ -376,10 +612,30 @@
       "name": "Route 205 (South)",
       "description": "The southern part of Route 205 between Floaroma and Eterna Forest.",
       "options": [
-        { "id": "route-205-south-to-floaroma", "label": "Move to Floaroma Town", "description": "Head south to the flower town.", "targetStepId": "floaroma-town" },
-        { "id": "route-205-south-to-valley-windworks", "label": "Move to Valley Windworks", "description": "Take the eastern turnoff.", "targetStepId": "valley-windworks" },
-        { "id": "route-205-south-to-eterna-forest", "label": "Move to Eterna Forest", "description": "Continue north into the forest.", "targetStepId": "eterna-forest" },
-        { "id": "route-205-south-to-fuego-ironworks", "label": "Move to Fuego Ironworks", "description": "Travel across the river to the ironworks.", "targetStepId": "fuego-ironworks" }
+        {
+          "id": "route-205-south-to-floaroma",
+          "label": "Move to Floaroma Town",
+          "description": "Head south to the flower town.",
+          "targetStepId": "floaroma-town"
+        },
+        {
+          "id": "route-205-south-to-valley-windworks",
+          "label": "Move to Valley Windworks",
+          "description": "Take the eastern turnoff.",
+          "targetStepId": "valley-windworks"
+        },
+        {
+          "id": "route-205-south-to-eterna-forest",
+          "label": "Move to Eterna Forest",
+          "description": "Continue north into the forest.",
+          "targetStepId": "eterna-forest"
+        },
+        {
+          "id": "route-205-south-to-fuego-ironworks",
+          "label": "Move to Fuego Ironworks",
+          "description": "Travel across the river to the ironworks.",
+          "targetStepId": "fuego-ironworks"
+        }
       ]
     },
     {
@@ -387,9 +643,24 @@
       "name": "Eterna Forest",
       "description": "A dense forest spanning the middle of Route 205.",
       "options": [
-        { "id": "eterna-forest-to-route-205-south", "label": "Move to Route 205 (South)", "description": "Exit toward Floaroma.", "targetStepId": "route-205-south" },
-        { "id": "eterna-forest-to-route-205-north", "label": "Move to Route 205 (North)", "description": "Exit toward Eterna City.", "targetStepId": "route-205-north" },
-        { "id": "eterna-forest-to-old-chateau", "label": "Move to Old Chateau", "description": "Visit the mansion hidden inside the forest.", "targetStepId": "old-chateau" }
+        {
+          "id": "eterna-forest-to-route-205-south",
+          "label": "Move to Route 205 (South)",
+          "description": "Exit toward Floaroma.",
+          "targetStepId": "route-205-south"
+        },
+        {
+          "id": "eterna-forest-to-route-205-north",
+          "label": "Move to Route 205 (North)",
+          "description": "Exit toward Eterna City.",
+          "targetStepId": "route-205-north"
+        },
+        {
+          "id": "eterna-forest-to-old-chateau",
+          "label": "Move to Old Chateau",
+          "description": "Visit the mansion hidden inside the forest.",
+          "targetStepId": "old-chateau"
+        }
       ]
     },
     {
@@ -397,7 +668,12 @@
       "name": "Old Chateau",
       "description": "A haunted mansion hidden inside Eterna Forest.",
       "options": [
-        { "id": "old-chateau-to-eterna-forest", "label": "Move to Eterna Forest", "description": "Leave the chateau.", "targetStepId": "eterna-forest" }
+        {
+          "id": "old-chateau-to-eterna-forest",
+          "label": "Move to Eterna Forest",
+          "description": "Leave the chateau.",
+          "targetStepId": "eterna-forest"
+        }
       ]
     },
     {
@@ -405,7 +681,12 @@
       "name": "Fuego Ironworks",
       "description": "An optional industrial landmark west of Route 205.",
       "options": [
-        { "id": "fuego-ironworks-to-route-205-south", "label": "Move to Route 205 (South)", "description": "Return to the main route.", "targetStepId": "route-205-south" }
+        {
+          "id": "fuego-ironworks-to-route-205-south",
+          "label": "Move to Route 205 (South)",
+          "description": "Return to the main route.",
+          "targetStepId": "route-205-south"
+        }
       ]
     },
     {
@@ -413,8 +694,18 @@
       "name": "Route 205 (North)",
       "description": "The northern part of Route 205 leading into Eterna City.",
       "options": [
-        { "id": "route-205-north-to-eterna-forest", "label": "Move to Eterna Forest", "description": "Head south through the woods.", "targetStepId": "eterna-forest" },
-        { "id": "route-205-north-to-eterna-city", "label": "Move to Eterna City", "description": "Continue north to the city.", "targetStepId": "eterna-city" }
+        {
+          "id": "route-205-north-to-eterna-forest",
+          "label": "Move to Eterna Forest",
+          "description": "Head south through the woods.",
+          "targetStepId": "eterna-forest"
+        },
+        {
+          "id": "route-205-north-to-eterna-city",
+          "label": "Move to Eterna City",
+          "description": "Continue north to the city.",
+          "targetStepId": "eterna-city"
+        }
       ]
     },
     {
@@ -422,9 +713,24 @@
       "name": "Eterna City",
       "description": "A historic city near forests, cycle roads, and mountain paths.",
       "options": [
-        { "id": "eterna-to-route-205-north", "label": "Move to Route 205 (North)", "description": "Head south toward Eterna Forest.", "targetStepId": "route-205-north" },
-        { "id": "eterna-to-route-206", "label": "Move to Route 206", "description": "Take the road beneath Cycling Road.", "targetStepId": "route-206" },
-        { "id": "eterna-to-route-211-west", "label": "Move to Route 211 (West)", "description": "Head east toward Mt. Coronet.", "targetStepId": "route-211-west" }
+        {
+          "id": "eterna-to-route-205-north",
+          "label": "Move to Route 205 (North)",
+          "description": "Head south toward Eterna Forest.",
+          "targetStepId": "route-205-north"
+        },
+        {
+          "id": "eterna-to-route-206",
+          "label": "Move to Route 206",
+          "description": "Take the road beneath Cycling Road.",
+          "targetStepId": "route-206"
+        },
+        {
+          "id": "eterna-to-route-211-west",
+          "label": "Move to Route 211 (West)",
+          "description": "Head east toward Mt. Coronet.",
+          "targetStepId": "route-211-west"
+        }
       ]
     },
     {
@@ -432,9 +738,24 @@
       "name": "Route 206",
       "description": "The route under Cycling Road, connected to Eterna City and Wayward Cave.",
       "options": [
-        { "id": "route-206-to-eterna", "label": "Move to Eterna City", "description": "Go north into the city.", "targetStepId": "eterna-city" },
-        { "id": "route-206-to-wayward-cave", "label": "Move to Wayward Cave", "description": "Enter the cave beneath the route.", "targetStepId": "wayward-cave" },
-        { "id": "route-206-to-route-207", "label": "Move to Route 207", "description": "Continue south toward Oreburgh's side.", "targetStepId": "route-207" }
+        {
+          "id": "route-206-to-eterna",
+          "label": "Move to Eterna City",
+          "description": "Go north into the city.",
+          "targetStepId": "eterna-city"
+        },
+        {
+          "id": "route-206-to-wayward-cave",
+          "label": "Move to Wayward Cave",
+          "description": "Enter the cave beneath the route.",
+          "targetStepId": "wayward-cave"
+        },
+        {
+          "id": "route-206-to-route-207",
+          "label": "Move to Route 207",
+          "description": "Continue south toward Oreburgh's side.",
+          "targetStepId": "route-207"
+        }
       ]
     },
     {
@@ -442,7 +763,12 @@
       "name": "Wayward Cave",
       "description": "A hidden cave system beneath Route 206.",
       "options": [
-        { "id": "wayward-cave-to-route-206", "label": "Move to Route 206", "description": "Leave the cave.", "targetStepId": "route-206" }
+        {
+          "id": "wayward-cave-to-route-206",
+          "label": "Move to Route 206",
+          "description": "Leave the cave.",
+          "targetStepId": "route-206"
+        }
       ]
     },
     {
@@ -450,9 +776,24 @@
       "name": "Route 207",
       "description": "A rocky route between Oreburgh City and Mt. Coronet.",
       "options": [
-        { "id": "route-207-to-oreburgh", "label": "Move to Oreburgh City", "description": "Head south to the mining city.", "targetStepId": "oreburgh-city" },
-        { "id": "route-207-to-route-206", "label": "Move to Route 206", "description": "Travel west beneath Cycling Road.", "targetStepId": "route-206" },
-        { "id": "route-207-to-mt-coronet-south", "label": "Move to Mt. Coronet (South)", "description": "Enter Mt. Coronet from the western foothills.", "targetStepId": "mt-coronet-south" }
+        {
+          "id": "route-207-to-oreburgh",
+          "label": "Move to Oreburgh City",
+          "description": "Head south to the mining city.",
+          "targetStepId": "oreburgh-city"
+        },
+        {
+          "id": "route-207-to-route-206",
+          "label": "Move to Route 206",
+          "description": "Travel west beneath Cycling Road.",
+          "targetStepId": "route-206"
+        },
+        {
+          "id": "route-207-to-mt-coronet-south",
+          "label": "Move to Mt. Coronet (South)",
+          "description": "Enter Mt. Coronet from the western foothills.",
+          "targetStepId": "mt-coronet-south"
+        }
       ]
     },
     {
@@ -460,10 +801,30 @@
       "name": "Mt. Coronet (South)",
       "description": "The southern interior of Mt. Coronet connecting west and east Sinnoh.",
       "options": [
-        { "id": "mt-coronet-south-to-route-207", "label": "Move to Route 207", "description": "Exit west toward Oreburgh.", "targetStepId": "route-207" },
-        { "id": "mt-coronet-south-to-route-208", "label": "Move to Route 208", "description": "Exit west toward Hearthome.", "targetStepId": "route-208" },
-        { "id": "mt-coronet-south-to-route-211-east", "label": "Move to Route 211 (East)", "description": "Take the eastern mountain exit.", "targetStepId": "route-211-east" },
-        { "id": "mt-coronet-south-to-spear-pillar", "label": "Move to Spear Pillar", "description": "Ascend toward the summit.", "targetStepId": "spear-pillar" }
+        {
+          "id": "mt-coronet-south-to-route-207",
+          "label": "Move to Route 207",
+          "description": "Exit west toward Oreburgh.",
+          "targetStepId": "route-207"
+        },
+        {
+          "id": "mt-coronet-south-to-route-208",
+          "label": "Move to Route 208",
+          "description": "Exit west toward Hearthome.",
+          "targetStepId": "route-208"
+        },
+        {
+          "id": "mt-coronet-south-to-route-211-east",
+          "label": "Move to Route 211 (East)",
+          "description": "Take the eastern mountain exit.",
+          "targetStepId": "route-211-east"
+        },
+        {
+          "id": "mt-coronet-south-to-spear-pillar",
+          "label": "Move to Spear Pillar",
+          "description": "Ascend toward the summit.",
+          "targetStepId": "spear-pillar"
+        }
       ]
     },
     {
@@ -471,8 +832,18 @@
       "name": "Route 208",
       "description": "The route linking Hearthome City with Mt. Coronet.",
       "options": [
-        { "id": "route-208-to-hearthome", "label": "Move to Hearthome City", "description": "Head west into the city.", "targetStepId": "hearthome-city" },
-        { "id": "route-208-to-mt-coronet-south", "label": "Move to Mt. Coronet (South)", "description": "Enter the mountain to the east.", "targetStepId": "mt-coronet-south" }
+        {
+          "id": "route-208-to-hearthome",
+          "label": "Move to Hearthome City",
+          "description": "Head west into the city.",
+          "targetStepId": "hearthome-city"
+        },
+        {
+          "id": "route-208-to-mt-coronet-south",
+          "label": "Move to Mt. Coronet (South)",
+          "description": "Enter the mountain to the east.",
+          "targetStepId": "mt-coronet-south"
+        }
       ]
     },
     {
@@ -480,9 +851,24 @@
       "name": "Hearthome City",
       "description": "A large central city with routes leading in every direction.",
       "options": [
-        { "id": "hearthome-to-route-208", "label": "Move to Route 208", "description": "Head east toward Mt. Coronet.", "targetStepId": "route-208" },
-        { "id": "hearthome-to-route-209", "label": "Move to Route 209", "description": "Travel east toward Solaceon Town.", "targetStepId": "route-209" },
-        { "id": "hearthome-to-route-212-north", "label": "Move to Route 212 (North)", "description": "Take the southern road toward the mansion and marsh.", "targetStepId": "route-212-north" }
+        {
+          "id": "hearthome-to-route-208",
+          "label": "Move to Route 208",
+          "description": "Head east toward Mt. Coronet.",
+          "targetStepId": "route-208"
+        },
+        {
+          "id": "hearthome-to-route-209",
+          "label": "Move to Route 209",
+          "description": "Travel east toward Solaceon Town.",
+          "targetStepId": "route-209"
+        },
+        {
+          "id": "hearthome-to-route-212-north",
+          "label": "Move to Route 212 (North)",
+          "description": "Take the southern road toward the mansion and marsh.",
+          "targetStepId": "route-212-north"
+        }
       ]
     },
     {
@@ -490,9 +876,24 @@
       "name": "Route 209",
       "description": "A grassy route between Hearthome City and Solaceon Town.",
       "options": [
-        { "id": "route-209-to-hearthome", "label": "Move to Hearthome City", "description": "Go west to the city.", "targetStepId": "hearthome-city" },
-        { "id": "route-209-to-lost-tower", "label": "Move to Lost Tower", "description": "Visit the tower along the route.", "targetStepId": "lost-tower" },
-        { "id": "route-209-to-solaceon", "label": "Move to Solaceon Town", "description": "Continue east into town.", "targetStepId": "solaceon-town" }
+        {
+          "id": "route-209-to-hearthome",
+          "label": "Move to Hearthome City",
+          "description": "Go west to the city.",
+          "targetStepId": "hearthome-city"
+        },
+        {
+          "id": "route-209-to-lost-tower",
+          "label": "Move to Lost Tower",
+          "description": "Visit the tower along the route.",
+          "targetStepId": "lost-tower"
+        },
+        {
+          "id": "route-209-to-solaceon",
+          "label": "Move to Solaceon Town",
+          "description": "Continue east into town.",
+          "targetStepId": "solaceon-town"
+        }
       ]
     },
     {
@@ -500,7 +901,12 @@
       "name": "Lost Tower",
       "description": "A memorial tower standing along Route 209.",
       "options": [
-        { "id": "lost-tower-to-route-209", "label": "Move to Route 209", "description": "Return to the route.", "targetStepId": "route-209" }
+        {
+          "id": "lost-tower-to-route-209",
+          "label": "Move to Route 209",
+          "description": "Return to the route.",
+          "targetStepId": "route-209"
+        }
       ]
     },
     {
@@ -508,10 +914,30 @@
       "name": "Solaceon Town",
       "description": "A calm town near routes to Veilstone and Celestic.",
       "options": [
-        { "id": "solaceon-to-route-209", "label": "Move to Route 209", "description": "Head west toward Hearthome.", "targetStepId": "route-209" },
-        { "id": "solaceon-to-route-210-south", "label": "Move to Route 210 (South)", "description": "Go north toward Celestic.", "targetStepId": "route-210-south" },
-        { "id": "solaceon-to-route-215", "label": "Move to Route 215", "description": "Travel east toward Veilstone City.", "targetStepId": "route-215" },
-        { "id": "solaceon-to-solaceon-ruins", "label": "Move to Solaceon Ruins", "description": "Explore the ruins near town.", "targetStepId": "solaceon-ruins" }
+        {
+          "id": "solaceon-to-route-209",
+          "label": "Move to Route 209",
+          "description": "Head west toward Hearthome.",
+          "targetStepId": "route-209"
+        },
+        {
+          "id": "solaceon-to-route-210-south",
+          "label": "Move to Route 210 (South)",
+          "description": "Go north toward Celestic.",
+          "targetStepId": "route-210-south"
+        },
+        {
+          "id": "solaceon-to-route-215",
+          "label": "Move to Route 215",
+          "description": "Travel east toward Veilstone City.",
+          "targetStepId": "route-215"
+        },
+        {
+          "id": "solaceon-to-solaceon-ruins",
+          "label": "Move to Solaceon Ruins",
+          "description": "Explore the ruins near town.",
+          "targetStepId": "solaceon-ruins"
+        }
       ]
     },
     {
@@ -519,7 +945,12 @@
       "name": "Solaceon Ruins",
       "description": "Ancient ruins hidden beside Solaceon Town.",
       "options": [
-        { "id": "solaceon-ruins-to-solaceon", "label": "Move to Solaceon Town", "description": "Return to town.", "targetStepId": "solaceon-town" }
+        {
+          "id": "solaceon-ruins-to-solaceon",
+          "label": "Move to Solaceon Town",
+          "description": "Return to town.",
+          "targetStepId": "solaceon-town"
+        }
       ]
     },
     {
@@ -527,9 +958,24 @@
       "name": "Route 210 (South)",
       "description": "The southern half of Route 210 between Solaceon and the foggy north.",
       "options": [
-        { "id": "route-210-south-to-solaceon", "label": "Move to Solaceon Town", "description": "Head south to town.", "targetStepId": "solaceon-town" },
-        { "id": "route-210-south-to-route-210-north", "label": "Move to Route 210 (North)", "description": "Continue north through the route.", "targetStepId": "route-210-north" },
-        { "id": "route-210-south-to-route-215", "label": "Move to Route 215", "description": "Take the eastern branch to Veilstone.", "targetStepId": "route-215" }
+        {
+          "id": "route-210-south-to-solaceon",
+          "label": "Move to Solaceon Town",
+          "description": "Head south to town.",
+          "targetStepId": "solaceon-town"
+        },
+        {
+          "id": "route-210-south-to-route-210-north",
+          "label": "Move to Route 210 (North)",
+          "description": "Continue north through the route.",
+          "targetStepId": "route-210-north"
+        },
+        {
+          "id": "route-210-south-to-route-215",
+          "label": "Move to Route 215",
+          "description": "Take the eastern branch to Veilstone.",
+          "targetStepId": "route-215"
+        }
       ]
     },
     {
@@ -537,8 +983,18 @@
       "name": "Route 210 (North)",
       "description": "The northern foggy stretch leading to Celestic Town.",
       "options": [
-        { "id": "route-210-north-to-route-210-south", "label": "Move to Route 210 (South)", "description": "Head back toward Solaceon.", "targetStepId": "route-210-south" },
-        { "id": "route-210-north-to-celestic", "label": "Move to Celestic Town", "description": "Continue north into Celestic.", "targetStepId": "celestic-town" }
+        {
+          "id": "route-210-north-to-route-210-south",
+          "label": "Move to Route 210 (South)",
+          "description": "Head back toward Solaceon.",
+          "targetStepId": "route-210-south"
+        },
+        {
+          "id": "route-210-north-to-celestic",
+          "label": "Move to Celestic Town",
+          "description": "Continue north into Celestic.",
+          "targetStepId": "celestic-town"
+        }
       ]
     },
     {
@@ -546,8 +1002,18 @@
       "name": "Celestic Town",
       "description": "A historic town linked to Sinnoh's myths and mountain paths.",
       "options": [
-        { "id": "celestic-to-route-210-north", "label": "Move to Route 210 (North)", "description": "Head south toward Solaceon.", "targetStepId": "route-210-north" },
-        { "id": "celestic-to-route-211-east", "label": "Move to Route 211 (East)", "description": "Take the eastern mountain path.", "targetStepId": "route-211-east" }
+        {
+          "id": "celestic-to-route-210-north",
+          "label": "Move to Route 210 (North)",
+          "description": "Head south toward Solaceon.",
+          "targetStepId": "route-210-north"
+        },
+        {
+          "id": "celestic-to-route-211-east",
+          "label": "Move to Route 211 (East)",
+          "description": "Take the eastern mountain path.",
+          "targetStepId": "route-211-east"
+        }
       ]
     },
     {
@@ -555,8 +1021,18 @@
       "name": "Route 211 (West)",
       "description": "The western half of Route 211 just outside Eterna City.",
       "options": [
-        { "id": "route-211-west-to-eterna", "label": "Move to Eterna City", "description": "Head back west to the city.", "targetStepId": "eterna-city" },
-        { "id": "route-211-west-to-mt-coronet-east", "label": "Move to Mt. Coronet (East)", "description": "Enter the mountain pass.", "targetStepId": "mt-coronet-east" }
+        {
+          "id": "route-211-west-to-eterna",
+          "label": "Move to Eterna City",
+          "description": "Head back west to the city.",
+          "targetStepId": "eterna-city"
+        },
+        {
+          "id": "route-211-west-to-mt-coronet-east",
+          "label": "Move to Mt. Coronet (East)",
+          "description": "Enter the mountain pass.",
+          "targetStepId": "mt-coronet-east"
+        }
       ]
     },
     {
@@ -564,8 +1040,18 @@
       "name": "Mt. Coronet (East)",
       "description": "An eastern Mt. Coronet section dividing the two halves of Route 211.",
       "options": [
-        { "id": "mt-coronet-east-to-route-211-west", "label": "Move to Route 211 (West)", "description": "Exit toward Eterna City.", "targetStepId": "route-211-west" },
-        { "id": "mt-coronet-east-to-route-211-east", "label": "Move to Route 211 (East)", "description": "Exit toward Celestic Town.", "targetStepId": "route-211-east" }
+        {
+          "id": "mt-coronet-east-to-route-211-west",
+          "label": "Move to Route 211 (West)",
+          "description": "Exit toward Eterna City.",
+          "targetStepId": "route-211-west"
+        },
+        {
+          "id": "mt-coronet-east-to-route-211-east",
+          "label": "Move to Route 211 (East)",
+          "description": "Exit toward Celestic Town.",
+          "targetStepId": "route-211-east"
+        }
       ]
     },
     {
@@ -573,9 +1059,24 @@
       "name": "Route 211 (East)",
       "description": "The eastern half of Route 211 between Mt. Coronet and Celestic Town.",
       "options": [
-        { "id": "route-211-east-to-mt-coronet-east", "label": "Move to Mt. Coronet (East)", "description": "Enter the mountain tunnel.", "targetStepId": "mt-coronet-east" },
-        { "id": "route-211-east-to-mt-coronet-south", "label": "Move to Mt. Coronet (South)", "description": "Connect deeper into Mt. Coronet.", "targetStepId": "mt-coronet-south" },
-        { "id": "route-211-east-to-celestic", "label": "Move to Celestic Town", "description": "Head west into town.", "targetStepId": "celestic-town" }
+        {
+          "id": "route-211-east-to-mt-coronet-east",
+          "label": "Move to Mt. Coronet (East)",
+          "description": "Enter the mountain tunnel.",
+          "targetStepId": "mt-coronet-east"
+        },
+        {
+          "id": "route-211-east-to-mt-coronet-south",
+          "label": "Move to Mt. Coronet (South)",
+          "description": "Connect deeper into Mt. Coronet.",
+          "targetStepId": "mt-coronet-south"
+        },
+        {
+          "id": "route-211-east-to-celestic",
+          "label": "Move to Celestic Town",
+          "description": "Head west into town.",
+          "targetStepId": "celestic-town"
+        }
       ]
     },
     {
@@ -583,9 +1084,24 @@
       "name": "Route 212 (North)",
       "description": "The northern half of the long route south of Hearthome.",
       "options": [
-        { "id": "route-212-north-to-hearthome", "label": "Move to Hearthome City", "description": "Head north into the city.", "targetStepId": "hearthome-city" },
-        { "id": "route-212-north-to-trophy-garden", "label": "Move to Trophy Garden", "description": "Visit the mansion's garden.", "targetStepId": "trophy-garden" },
-        { "id": "route-212-north-to-route-212-south", "label": "Move to Route 212 (South)", "description": "Continue south toward Pastoria.", "targetStepId": "route-212-south" }
+        {
+          "id": "route-212-north-to-hearthome",
+          "label": "Move to Hearthome City",
+          "description": "Head north into the city.",
+          "targetStepId": "hearthome-city"
+        },
+        {
+          "id": "route-212-north-to-trophy-garden",
+          "label": "Move to Trophy Garden",
+          "description": "Visit the mansion's garden.",
+          "targetStepId": "trophy-garden"
+        },
+        {
+          "id": "route-212-north-to-route-212-south",
+          "label": "Move to Route 212 (South)",
+          "description": "Continue south toward Pastoria.",
+          "targetStepId": "route-212-south"
+        }
       ]
     },
     {
@@ -593,7 +1109,12 @@
       "name": "Trophy Garden",
       "description": "The garden on the Pokémon Mansion estate.",
       "options": [
-        { "id": "trophy-garden-to-route-212-north", "label": "Move to Route 212 (North)", "description": "Return to the route.", "targetStepId": "route-212-north" }
+        {
+          "id": "trophy-garden-to-route-212-north",
+          "label": "Move to Route 212 (North)",
+          "description": "Return to the route.",
+          "targetStepId": "route-212-north"
+        }
       ]
     },
     {
@@ -601,8 +1122,18 @@
       "name": "Route 212 (South)",
       "description": "The swampy southern half of Route 212 leading to Pastoria.",
       "options": [
-        { "id": "route-212-south-to-route-212-north", "label": "Move to Route 212 (North)", "description": "Head back toward Hearthome.", "targetStepId": "route-212-north" },
-        { "id": "route-212-south-to-pastoria", "label": "Move to Pastoria City", "description": "Continue south into the marsh city.", "targetStepId": "pastoria-city" }
+        {
+          "id": "route-212-south-to-route-212-north",
+          "label": "Move to Route 212 (North)",
+          "description": "Head back toward Hearthome.",
+          "targetStepId": "route-212-north"
+        },
+        {
+          "id": "route-212-south-to-pastoria",
+          "label": "Move to Pastoria City",
+          "description": "Continue south into the marsh city.",
+          "targetStepId": "pastoria-city"
+        }
       ]
     },
     {
@@ -610,10 +1141,30 @@
       "name": "Pastoria City",
       "description": "A humid marsh city near the Great Marsh and eastern coast.",
       "options": [
-        { "id": "pastoria-to-route-212-south", "label": "Move to Route 212 (South)", "description": "Head north toward Hearthome.", "targetStepId": "route-212-south" },
-        { "id": "pastoria-to-route-213", "label": "Move to Route 213", "description": "Travel east toward the coast.", "targetStepId": "route-213" },
-        { "id": "pastoria-to-route-214", "label": "Move to Route 214", "description": "Travel north toward Veilstone.", "targetStepId": "route-214" },
-        { "id": "pastoria-to-great-marsh", "label": "Move to Great Marsh", "description": "Enter the city's safari zone.", "targetStepId": "great-marsh" }
+        {
+          "id": "pastoria-to-route-212-south",
+          "label": "Move to Route 212 (South)",
+          "description": "Head north toward Hearthome.",
+          "targetStepId": "route-212-south"
+        },
+        {
+          "id": "pastoria-to-route-213",
+          "label": "Move to Route 213",
+          "description": "Travel east toward the coast.",
+          "targetStepId": "route-213"
+        },
+        {
+          "id": "pastoria-to-route-214",
+          "label": "Move to Route 214",
+          "description": "Travel north toward Veilstone.",
+          "targetStepId": "route-214"
+        },
+        {
+          "id": "pastoria-to-great-marsh",
+          "label": "Move to Great Marsh",
+          "description": "Enter the city's safari zone.",
+          "targetStepId": "great-marsh"
+        }
       ]
     },
     {
@@ -621,7 +1172,12 @@
       "name": "Great Marsh",
       "description": "The safari-style marshland attached to Pastoria City.",
       "options": [
-        { "id": "great-marsh-to-pastoria", "label": "Move to Pastoria City", "description": "Return to the city.", "targetStepId": "pastoria-city" }
+        {
+          "id": "great-marsh-to-pastoria",
+          "label": "Move to Pastoria City",
+          "description": "Return to the city.",
+          "targetStepId": "pastoria-city"
+        }
       ]
     },
     {
@@ -629,8 +1185,18 @@
       "name": "Route 213",
       "description": "A seaside route between Pastoria City and Valor Lakefront.",
       "options": [
-        { "id": "route-213-to-pastoria", "label": "Move to Pastoria City", "description": "Head west to the marsh city.", "targetStepId": "pastoria-city" },
-        { "id": "route-213-to-valor-lakefront", "label": "Move to Valor Lakefront", "description": "Continue east along the coast.", "targetStepId": "valor-lakefront" }
+        {
+          "id": "route-213-to-pastoria",
+          "label": "Move to Pastoria City",
+          "description": "Head west to the marsh city.",
+          "targetStepId": "pastoria-city"
+        },
+        {
+          "id": "route-213-to-valor-lakefront",
+          "label": "Move to Valor Lakefront",
+          "description": "Continue east along the coast.",
+          "targetStepId": "valor-lakefront"
+        }
       ]
     },
     {
@@ -638,9 +1204,24 @@
       "name": "Valor Lakefront",
       "description": "A resort-like lakefront area near Route 213 and Route 222.",
       "options": [
-        { "id": "valor-lakefront-to-route-213", "label": "Move to Route 213", "description": "Head west back toward Pastoria.", "targetStepId": "route-213" },
-        { "id": "valor-lakefront-to-lake-valor", "label": "Move to Lake Valor", "description": "Visit the nearby lake.", "targetStepId": "lake-valor" },
-        { "id": "valor-lakefront-to-route-222", "label": "Move to Route 222", "description": "Head east toward Sunyshore.", "targetStepId": "route-222" }
+        {
+          "id": "valor-lakefront-to-route-213",
+          "label": "Move to Route 213",
+          "description": "Head west back toward Pastoria.",
+          "targetStepId": "route-213"
+        },
+        {
+          "id": "valor-lakefront-to-lake-valor",
+          "label": "Move to Lake Valor",
+          "description": "Visit the nearby lake.",
+          "targetStepId": "lake-valor"
+        },
+        {
+          "id": "valor-lakefront-to-route-222",
+          "label": "Move to Route 222",
+          "description": "Head east toward Sunyshore.",
+          "targetStepId": "route-222"
+        }
       ]
     },
     {
@@ -648,7 +1229,12 @@
       "name": "Lake Valor",
       "description": "One of Sinnoh's three lakes, reached from Valor Lakefront.",
       "options": [
-        { "id": "lake-valor-to-valor-lakefront", "label": "Move to Valor Lakefront", "description": "Return to the lakefront.", "targetStepId": "valor-lakefront" }
+        {
+          "id": "lake-valor-to-valor-lakefront",
+          "label": "Move to Valor Lakefront",
+          "description": "Return to the lakefront.",
+          "targetStepId": "valor-lakefront"
+        }
       ]
     },
     {
@@ -656,8 +1242,18 @@
       "name": "Route 214",
       "description": "A route north of Pastoria City leading toward Veilstone.",
       "options": [
-        { "id": "route-214-to-pastoria", "label": "Move to Pastoria City", "description": "Head south to the marsh city.", "targetStepId": "pastoria-city" },
-        { "id": "route-214-to-veilstone", "label": "Move to Veilstone City", "description": "Continue north to the city.", "targetStepId": "veilstone-city" }
+        {
+          "id": "route-214-to-pastoria",
+          "label": "Move to Pastoria City",
+          "description": "Head south to the marsh city.",
+          "targetStepId": "pastoria-city"
+        },
+        {
+          "id": "route-214-to-veilstone",
+          "label": "Move to Veilstone City",
+          "description": "Continue north to the city.",
+          "targetStepId": "veilstone-city"
+        }
       ]
     },
     {
@@ -665,9 +1261,24 @@
       "name": "Veilstone City",
       "description": "A large eastern city with roads to Solaceon, Pastoria, and Sunyshore.",
       "options": [
-        { "id": "veilstone-to-route-214", "label": "Move to Route 214", "description": "Head south toward Pastoria.", "targetStepId": "route-214" },
-        { "id": "veilstone-to-route-215", "label": "Move to Route 215", "description": "Travel west toward Solaceon.", "targetStepId": "route-215" },
-        { "id": "veilstone-to-route-222", "label": "Move to Route 222", "description": "Travel east toward Sunyshore.", "targetStepId": "route-222" }
+        {
+          "id": "veilstone-to-route-214",
+          "label": "Move to Route 214",
+          "description": "Head south toward Pastoria.",
+          "targetStepId": "route-214"
+        },
+        {
+          "id": "veilstone-to-route-215",
+          "label": "Move to Route 215",
+          "description": "Travel west toward Solaceon.",
+          "targetStepId": "route-215"
+        },
+        {
+          "id": "veilstone-to-route-222",
+          "label": "Move to Route 222",
+          "description": "Travel east toward Sunyshore.",
+          "targetStepId": "route-222"
+        }
       ]
     },
     {
@@ -675,9 +1286,24 @@
       "name": "Route 215",
       "description": "A windy route connecting Solaceon Town and Veilstone City.",
       "options": [
-        { "id": "route-215-to-solaceon", "label": "Move to Solaceon Town", "description": "Head west toward town.", "targetStepId": "solaceon-town" },
-        { "id": "route-215-to-route-210-south", "label": "Move to Route 210 (South)", "description": "Take the northern branch.", "targetStepId": "route-210-south" },
-        { "id": "route-215-to-veilstone", "label": "Move to Veilstone City", "description": "Continue east into the city.", "targetStepId": "veilstone-city" }
+        {
+          "id": "route-215-to-solaceon",
+          "label": "Move to Solaceon Town",
+          "description": "Head west toward town.",
+          "targetStepId": "solaceon-town"
+        },
+        {
+          "id": "route-215-to-route-210-south",
+          "label": "Move to Route 210 (South)",
+          "description": "Take the northern branch.",
+          "targetStepId": "route-210-south"
+        },
+        {
+          "id": "route-215-to-veilstone",
+          "label": "Move to Veilstone City",
+          "description": "Continue east into the city.",
+          "targetStepId": "veilstone-city"
+        }
       ]
     },
     {
@@ -685,8 +1311,18 @@
       "name": "Route 216",
       "description": "A snowy route leading from Mt. Coronet's north side toward Route 217.",
       "options": [
-        { "id": "route-216-to-route-217", "label": "Move to Route 217", "description": "Continue north through the snow.", "targetStepId": "route-217" },
-        { "id": "route-216-to-mt-coronet-north", "label": "Move to Mt. Coronet (North)", "description": "Return toward the mountain.", "targetStepId": "mt-coronet-north" }
+        {
+          "id": "route-216-to-route-217",
+          "label": "Move to Route 217",
+          "description": "Continue north through the snow.",
+          "targetStepId": "route-217"
+        },
+        {
+          "id": "route-216-to-mt-coronet-north",
+          "label": "Move to Mt. Coronet (North)",
+          "description": "Return toward the mountain.",
+          "targetStepId": "mt-coronet-north"
+        }
       ]
     },
     {
@@ -694,8 +1330,18 @@
       "name": "Mt. Coronet (North)",
       "description": "The northern mountain section that leads toward the snow routes.",
       "options": [
-        { "id": "mt-coronet-north-to-route-216", "label": "Move to Route 216", "description": "Exit toward the snowy route.", "targetStepId": "route-216" },
-        { "id": "mt-coronet-north-to-spear-pillar", "label": "Move to Spear Pillar", "description": "Climb toward the summit.", "targetStepId": "spear-pillar" }
+        {
+          "id": "mt-coronet-north-to-route-216",
+          "label": "Move to Route 216",
+          "description": "Exit toward the snowy route.",
+          "targetStepId": "route-216"
+        },
+        {
+          "id": "mt-coronet-north-to-spear-pillar",
+          "label": "Move to Spear Pillar",
+          "description": "Climb toward the summit.",
+          "targetStepId": "spear-pillar"
+        }
       ]
     },
     {
@@ -703,9 +1349,24 @@
       "name": "Route 217",
       "description": "A blizzard-swept route leading to Snowpoint City and Acuity Lakefront.",
       "options": [
-        { "id": "route-217-to-route-216", "label": "Move to Route 216", "description": "Head back south.", "targetStepId": "route-216" },
-        { "id": "route-217-to-acuity-lakefront", "label": "Move to Acuity Lakefront", "description": "Take the side path to the lake.", "targetStepId": "acuity-lakefront" },
-        { "id": "route-217-to-snowpoint", "label": "Move to Snowpoint City", "description": "Continue north to the city.", "targetStepId": "snowpoint-city" }
+        {
+          "id": "route-217-to-route-216",
+          "label": "Move to Route 216",
+          "description": "Head back south.",
+          "targetStepId": "route-216"
+        },
+        {
+          "id": "route-217-to-acuity-lakefront",
+          "label": "Move to Acuity Lakefront",
+          "description": "Take the side path to the lake.",
+          "targetStepId": "acuity-lakefront"
+        },
+        {
+          "id": "route-217-to-snowpoint",
+          "label": "Move to Snowpoint City",
+          "description": "Continue north to the city.",
+          "targetStepId": "snowpoint-city"
+        }
       ]
     },
     {
@@ -713,8 +1374,18 @@
       "name": "Acuity Lakefront",
       "description": "The snowy approach to Lake Acuity.",
       "options": [
-        { "id": "acuity-lakefront-to-route-217", "label": "Move to Route 217", "description": "Return to the main route.", "targetStepId": "route-217" },
-        { "id": "acuity-lakefront-to-lake-acuity", "label": "Move to Lake Acuity", "description": "Head deeper toward the lake.", "targetStepId": "lake-acuity" }
+        {
+          "id": "acuity-lakefront-to-route-217",
+          "label": "Move to Route 217",
+          "description": "Return to the main route.",
+          "targetStepId": "route-217"
+        },
+        {
+          "id": "acuity-lakefront-to-lake-acuity",
+          "label": "Move to Lake Acuity",
+          "description": "Head deeper toward the lake.",
+          "targetStepId": "lake-acuity"
+        }
       ]
     },
     {
@@ -722,7 +1393,12 @@
       "name": "Lake Acuity",
       "description": "One of Sinnoh's three lakes in the far north.",
       "options": [
-        { "id": "lake-acuity-to-acuity-lakefront", "label": "Move to Acuity Lakefront", "description": "Return to the lakefront.", "targetStepId": "acuity-lakefront" }
+        {
+          "id": "lake-acuity-to-acuity-lakefront",
+          "label": "Move to Acuity Lakefront",
+          "description": "Return to the lakefront.",
+          "targetStepId": "acuity-lakefront"
+        }
       ]
     },
     {
@@ -730,9 +1406,24 @@
       "name": "Snowpoint City",
       "description": "A remote northern city with access to the temple and routes south and east.",
       "options": [
-        { "id": "snowpoint-to-route-217", "label": "Move to Route 217", "description": "Head south into the snowfields.", "targetStepId": "route-217" },
-        { "id": "snowpoint-to-route-223", "label": "Move to Route 223", "description": "Sail south toward the Pokémon League waters.", "targetStepId": "route-223" },
-        { "id": "snowpoint-to-snowpoint-temple", "label": "Move to Snowpoint Temple", "description": "Enter the ancient temple.", "targetStepId": "snowpoint-temple" }
+        {
+          "id": "snowpoint-to-route-217",
+          "label": "Move to Route 217",
+          "description": "Head south into the snowfields.",
+          "targetStepId": "route-217"
+        },
+        {
+          "id": "snowpoint-to-route-223",
+          "label": "Move to Route 223",
+          "description": "Sail south toward the Pokémon League waters.",
+          "targetStepId": "route-223"
+        },
+        {
+          "id": "snowpoint-to-snowpoint-temple",
+          "label": "Move to Snowpoint Temple",
+          "description": "Enter the ancient temple.",
+          "targetStepId": "snowpoint-temple"
+        }
       ]
     },
     {
@@ -740,7 +1431,12 @@
       "name": "Snowpoint Temple",
       "description": "An ancient temple hidden inside Snowpoint City.",
       "options": [
-        { "id": "snowpoint-temple-to-snowpoint", "label": "Move to Snowpoint City", "description": "Leave the temple.", "targetStepId": "snowpoint-city" }
+        {
+          "id": "snowpoint-temple-to-snowpoint",
+          "label": "Move to Snowpoint City",
+          "description": "Leave the temple.",
+          "targetStepId": "snowpoint-city"
+        }
       ]
     },
     {
@@ -748,8 +1444,18 @@
       "name": "Route 218",
       "description": "A short western route connecting Jubilife City and Canalave City.",
       "options": [
-        { "id": "route-218-to-jubilife", "label": "Move to Jubilife City", "description": "Head east toward Jubilife.", "targetStepId": "jubilife-city" },
-        { "id": "route-218-to-canalave", "label": "Move to Canalave City", "description": "Cross west into Canalave.", "targetStepId": "canalave-city" }
+        {
+          "id": "route-218-to-jubilife",
+          "label": "Move to Jubilife City",
+          "description": "Head east toward Jubilife.",
+          "targetStepId": "jubilife-city"
+        },
+        {
+          "id": "route-218-to-canalave",
+          "label": "Move to Canalave City",
+          "description": "Cross west into Canalave.",
+          "targetStepId": "canalave-city"
+        }
       ]
     },
     {
@@ -757,9 +1463,24 @@
       "name": "Canalave City",
       "description": "A western port city with sea routes and access to Iron Island.",
       "options": [
-        { "id": "canalave-to-route-218", "label": "Move to Route 218", "description": "Head east toward Jubilife.", "targetStepId": "route-218" },
-        { "id": "canalave-to-iron-island", "label": "Move to Iron Island", "description": "Sail out to Iron Island.", "targetStepId": "iron-island" },
-        { "id": "canalave-to-route-219", "label": "Move to Route 219", "description": "Travel south along the western sea.", "targetStepId": "route-219" }
+        {
+          "id": "canalave-to-route-218",
+          "label": "Move to Route 218",
+          "description": "Head east toward Jubilife.",
+          "targetStepId": "route-218"
+        },
+        {
+          "id": "canalave-to-iron-island",
+          "label": "Move to Iron Island",
+          "description": "Sail out to Iron Island.",
+          "targetStepId": "iron-island"
+        },
+        {
+          "id": "canalave-to-route-219",
+          "label": "Move to Route 219",
+          "description": "Travel south along the western sea.",
+          "targetStepId": "route-219"
+        }
       ]
     },
     {
@@ -767,7 +1488,12 @@
       "name": "Iron Island",
       "description": "An offshore island west of Canalave City with a deep mine interior.",
       "options": [
-        { "id": "iron-island-to-canalave", "label": "Move to Canalave City", "description": "Return by boat.", "targetStepId": "canalave-city" }
+        {
+          "id": "iron-island-to-canalave",
+          "label": "Move to Canalave City",
+          "description": "Return by boat.",
+          "targetStepId": "canalave-city"
+        }
       ]
     },
     {
@@ -775,8 +1501,18 @@
       "name": "Route 219",
       "description": "The northernmost section of the western sea routes.",
       "options": [
-        { "id": "route-219-to-canalave", "label": "Move to Canalave City", "description": "Return north to the port city.", "targetStepId": "canalave-city" },
-        { "id": "route-219-to-route-220", "label": "Move to Route 220", "description": "Continue south over the sea.", "targetStepId": "route-220" }
+        {
+          "id": "route-219-to-canalave",
+          "label": "Move to Canalave City",
+          "description": "Return north to the port city.",
+          "targetStepId": "canalave-city"
+        },
+        {
+          "id": "route-219-to-route-220",
+          "label": "Move to Route 220",
+          "description": "Continue south over the sea.",
+          "targetStepId": "route-220"
+        }
       ]
     },
     {
@@ -784,8 +1520,18 @@
       "name": "Route 220",
       "description": "The middle section of the western sea routes.",
       "options": [
-        { "id": "route-220-to-route-219", "label": "Move to Route 219", "description": "Travel north.", "targetStepId": "route-219" },
-        { "id": "route-220-to-route-221", "label": "Move to Route 221", "description": "Continue south toward the coast.", "targetStepId": "route-221" }
+        {
+          "id": "route-220-to-route-219",
+          "label": "Move to Route 219",
+          "description": "Travel north.",
+          "targetStepId": "route-219"
+        },
+        {
+          "id": "route-220-to-route-221",
+          "label": "Move to Route 221",
+          "description": "Continue south toward the coast.",
+          "targetStepId": "route-221"
+        }
       ]
     },
     {
@@ -793,8 +1539,18 @@
       "name": "Route 221",
       "description": "A southern coastal route west of Ramanas Park.",
       "options": [
-        { "id": "route-221-to-route-220", "label": "Move to Route 220", "description": "Head north over the sea.", "targetStepId": "route-220" },
-        { "id": "route-221-to-ramanas-park", "label": "Move to Ramanas Park", "description": "Visit the park on the eastern edge.", "targetStepId": "ramanas-park" }
+        {
+          "id": "route-221-to-route-220",
+          "label": "Move to Route 220",
+          "description": "Head north over the sea.",
+          "targetStepId": "route-220"
+        },
+        {
+          "id": "route-221-to-ramanas-park",
+          "label": "Move to Ramanas Park",
+          "description": "Visit the park on the eastern edge.",
+          "targetStepId": "ramanas-park"
+        }
       ]
     },
     {
@@ -802,7 +1558,12 @@
       "name": "Ramanas Park",
       "description": "The BDSP park used for legendary encounters.",
       "options": [
-        { "id": "ramanas-park-to-route-221", "label": "Move to Route 221", "description": "Return to the coastal route.", "targetStepId": "route-221" }
+        {
+          "id": "ramanas-park-to-route-221",
+          "label": "Move to Route 221",
+          "description": "Return to the coastal route.",
+          "targetStepId": "route-221"
+        }
       ]
     },
     {
@@ -810,9 +1571,24 @@
       "name": "Route 222",
       "description": "A coastal road between Valor Lakefront, Veilstone's side, and Sunyshore City.",
       "options": [
-        { "id": "route-222-to-valor-lakefront", "label": "Move to Valor Lakefront", "description": "Head west toward the resort area.", "targetStepId": "valor-lakefront" },
-        { "id": "route-222-to-veilstone", "label": "Move to Veilstone City", "description": "Return inland toward Veilstone.", "targetStepId": "veilstone-city" },
-        { "id": "route-222-to-sunyshore", "label": "Move to Sunyshore City", "description": "Continue east to the solar city.", "targetStepId": "sunyshore-city" }
+        {
+          "id": "route-222-to-valor-lakefront",
+          "label": "Move to Valor Lakefront",
+          "description": "Head west toward the resort area.",
+          "targetStepId": "valor-lakefront"
+        },
+        {
+          "id": "route-222-to-veilstone",
+          "label": "Move to Veilstone City",
+          "description": "Return inland toward Veilstone.",
+          "targetStepId": "veilstone-city"
+        },
+        {
+          "id": "route-222-to-sunyshore",
+          "label": "Move to Sunyshore City",
+          "description": "Continue east to the solar city.",
+          "targetStepId": "sunyshore-city"
+        }
       ]
     },
     {
@@ -820,8 +1596,18 @@
       "name": "Sunyshore City",
       "description": "A bright eastern port city overlooking the sea.",
       "options": [
-        { "id": "sunyshore-to-route-222", "label": "Move to Route 222", "description": "Head west toward the lakefront.", "targetStepId": "route-222" },
-        { "id": "sunyshore-to-route-223", "label": "Move to Route 223", "description": "Sail north toward the Pokémon League.", "targetStepId": "route-223" }
+        {
+          "id": "sunyshore-to-route-222",
+          "label": "Move to Route 222",
+          "description": "Head west toward the lakefront.",
+          "targetStepId": "route-222"
+        },
+        {
+          "id": "sunyshore-to-route-223",
+          "label": "Move to Route 223",
+          "description": "Sail north toward the Pokémon League.",
+          "targetStepId": "route-223"
+        }
       ]
     },
     {
@@ -829,9 +1615,24 @@
       "name": "Route 223",
       "description": "The northern sea route connecting Sunyshore and the Pokémon League.",
       "options": [
-        { "id": "route-223-to-sunyshore", "label": "Move to Sunyshore City", "description": "Return south to the city.", "targetStepId": "sunyshore-city" },
-        { "id": "route-223-to-snowpoint", "label": "Move to Snowpoint City", "description": "Reach the northern sea connection.", "targetStepId": "snowpoint-city" },
-        { "id": "route-223-to-pokemon-league", "label": "Move to Pokémon League", "description": "Continue north to the League entrance.", "targetStepId": "pokemon-league" }
+        {
+          "id": "route-223-to-sunyshore",
+          "label": "Move to Sunyshore City",
+          "description": "Return south to the city.",
+          "targetStepId": "sunyshore-city"
+        },
+        {
+          "id": "route-223-to-snowpoint",
+          "label": "Move to Snowpoint City",
+          "description": "Reach the northern sea connection.",
+          "targetStepId": "snowpoint-city"
+        },
+        {
+          "id": "route-223-to-pokemon-league",
+          "label": "Move to Pokémon League",
+          "description": "Continue north to the League entrance.",
+          "targetStepId": "pokemon-league"
+        }
       ]
     },
     {
@@ -839,8 +1640,18 @@
       "name": "Pokémon League",
       "description": "The League grounds at the northern end of Route 223.",
       "options": [
-        { "id": "pokemon-league-to-route-223", "label": "Move to Route 223", "description": "Head back south over the water.", "targetStepId": "route-223" },
-        { "id": "pokemon-league-to-victory-road", "label": "Move to Victory Road", "description": "Enter the cave before the League.", "targetStepId": "victory-road" }
+        {
+          "id": "pokemon-league-to-route-223",
+          "label": "Move to Route 223",
+          "description": "Head back south over the water.",
+          "targetStepId": "route-223"
+        },
+        {
+          "id": "pokemon-league-to-victory-road",
+          "label": "Move to Victory Road",
+          "description": "Enter the cave before the League.",
+          "targetStepId": "victory-road"
+        }
       ]
     },
     {
@@ -848,8 +1659,18 @@
       "name": "Victory Road",
       "description": "The final cave on the way to the Pokémon League and postgame route.",
       "options": [
-        { "id": "victory-road-to-pokemon-league", "label": "Move to Pokémon League", "description": "Exit toward the League grounds.", "targetStepId": "pokemon-league" },
-        { "id": "victory-road-to-route-224", "label": "Move to Route 224", "description": "Take the postgame eastern exit.", "targetStepId": "route-224" }
+        {
+          "id": "victory-road-to-pokemon-league",
+          "label": "Move to Pokémon League",
+          "description": "Exit toward the League grounds.",
+          "targetStepId": "pokemon-league"
+        },
+        {
+          "id": "victory-road-to-route-224",
+          "label": "Move to Route 224",
+          "description": "Take the postgame eastern exit.",
+          "targetStepId": "route-224"
+        }
       ]
     },
     {
@@ -857,7 +1678,12 @@
       "name": "Route 224",
       "description": "A remote postgame route east of Victory Road.",
       "options": [
-        { "id": "route-224-to-victory-road", "label": "Move to Victory Road", "description": "Head back west through the cave.", "targetStepId": "victory-road" }
+        {
+          "id": "route-224-to-victory-road",
+          "label": "Move to Victory Road",
+          "description": "Head back west through the cave.",
+          "targetStepId": "victory-road"
+        }
       ]
     },
     {
@@ -865,8 +1691,18 @@
       "name": "Spear Pillar",
       "description": "The summit of Mt. Coronet and a major story destination.",
       "options": [
-        { "id": "spear-pillar-to-mt-coronet-south", "label": "Move to Mt. Coronet (South)", "description": "Descend toward the south passages.", "targetStepId": "mt-coronet-south" },
-        { "id": "spear-pillar-to-mt-coronet-north", "label": "Move to Mt. Coronet (North)", "description": "Descend toward the northern passages.", "targetStepId": "mt-coronet-north" }
+        {
+          "id": "spear-pillar-to-mt-coronet-south",
+          "label": "Move to Mt. Coronet (South)",
+          "description": "Descend toward the south passages.",
+          "targetStepId": "mt-coronet-south"
+        },
+        {
+          "id": "spear-pillar-to-mt-coronet-north",
+          "label": "Move to Mt. Coronet (North)",
+          "description": "Descend toward the northern passages.",
+          "targetStepId": "mt-coronet-north"
+        }
       ]
     },
     {
@@ -874,8 +1710,18 @@
       "name": "Fight Area",
       "description": "One of the Battle Zone settlements in the postgame island region.",
       "options": [
-        { "id": "fight-area-to-route-225", "label": "Move to Route 225", "description": "Head north into the postgame routes.", "targetStepId": "route-225" },
-        { "id": "fight-area-to-route-226", "label": "Move to Route 226", "description": "Travel west across the island coast.", "targetStepId": "route-226" }
+        {
+          "id": "fight-area-to-route-225",
+          "label": "Move to Route 225",
+          "description": "Head north into the postgame routes.",
+          "targetStepId": "route-225"
+        },
+        {
+          "id": "fight-area-to-route-226",
+          "label": "Move to Route 226",
+          "description": "Travel west across the island coast.",
+          "targetStepId": "route-226"
+        }
       ]
     },
     {
@@ -883,8 +1729,18 @@
       "name": "Route 225",
       "description": "A rugged postgame route north of the Fight Area.",
       "options": [
-        { "id": "route-225-to-fight-area", "label": "Move to Fight Area", "description": "Head south to the settlement.", "targetStepId": "fight-area" },
-        { "id": "route-225-to-survival-area", "label": "Move to Survival Area", "description": "Continue east toward the next settlement.", "targetStepId": "survival-area" }
+        {
+          "id": "route-225-to-fight-area",
+          "label": "Move to Fight Area",
+          "description": "Head south to the settlement.",
+          "targetStepId": "fight-area"
+        },
+        {
+          "id": "route-225-to-survival-area",
+          "label": "Move to Survival Area",
+          "description": "Continue east toward the next settlement.",
+          "targetStepId": "survival-area"
+        }
       ]
     },
     {
@@ -892,9 +1748,24 @@
       "name": "Survival Area",
       "description": "A Battle Zone settlement near Stark Mountain routes.",
       "options": [
-        { "id": "survival-area-to-route-225", "label": "Move to Route 225", "description": "Head west back along the route.", "targetStepId": "route-225" },
-        { "id": "survival-area-to-route-226", "label": "Move to Route 226", "description": "Travel southwest toward the coast.", "targetStepId": "route-226" },
-        { "id": "survival-area-to-route-228", "label": "Move to Route 228", "description": "Head east into the sandy route.", "targetStepId": "route-228" }
+        {
+          "id": "survival-area-to-route-225",
+          "label": "Move to Route 225",
+          "description": "Head west back along the route.",
+          "targetStepId": "route-225"
+        },
+        {
+          "id": "survival-area-to-route-226",
+          "label": "Move to Route 226",
+          "description": "Travel southwest toward the coast.",
+          "targetStepId": "route-226"
+        },
+        {
+          "id": "survival-area-to-route-228",
+          "label": "Move to Route 228",
+          "description": "Head east into the sandy route.",
+          "targetStepId": "route-228"
+        }
       ]
     },
     {
@@ -902,8 +1773,18 @@
       "name": "Route 226",
       "description": "A coastal Battle Zone route between Fight Area and Resort Area.",
       "options": [
-        { "id": "route-226-to-fight-area", "label": "Move to Fight Area", "description": "Head east to the harbor town.", "targetStepId": "fight-area" },
-        { "id": "route-226-to-resort-area", "label": "Move to Resort Area", "description": "Continue west to the resort.", "targetStepId": "resort-area" }
+        {
+          "id": "route-226-to-fight-area",
+          "label": "Move to Fight Area",
+          "description": "Head east to the harbor town.",
+          "targetStepId": "fight-area"
+        },
+        {
+          "id": "route-226-to-resort-area",
+          "label": "Move to Resort Area",
+          "description": "Continue west to the resort.",
+          "targetStepId": "resort-area"
+        }
       ]
     },
     {
@@ -911,9 +1792,24 @@
       "name": "Resort Area",
       "description": "A peaceful Battle Zone resort with access to Routes 229 and 230.",
       "options": [
-        { "id": "resort-area-to-route-226", "label": "Move to Route 226", "description": "Head east toward Fight Area.", "targetStepId": "route-226" },
-        { "id": "resort-area-to-route-229", "label": "Move to Route 229", "description": "Travel north through the woods.", "targetStepId": "route-229" },
-        { "id": "resort-area-to-route-230", "label": "Move to Route 230", "description": "Sail toward the far northern route.", "targetStepId": "route-230" }
+        {
+          "id": "resort-area-to-route-226",
+          "label": "Move to Route 226",
+          "description": "Head east toward Fight Area.",
+          "targetStepId": "route-226"
+        },
+        {
+          "id": "resort-area-to-route-229",
+          "label": "Move to Route 229",
+          "description": "Travel north through the woods.",
+          "targetStepId": "route-229"
+        },
+        {
+          "id": "resort-area-to-route-230",
+          "label": "Move to Route 230",
+          "description": "Sail toward the far northern route.",
+          "targetStepId": "route-230"
+        }
       ]
     },
     {
@@ -921,8 +1817,18 @@
       "name": "Route 227",
       "description": "A volcanic route leading from the Battle Zone toward Stark Mountain.",
       "options": [
-        { "id": "route-227-to-route-228", "label": "Move to Route 228", "description": "Head west back toward Survival Area.", "targetStepId": "route-228" },
-        { "id": "route-227-to-stark-mountain", "label": "Move to Stark Mountain", "description": "Continue east into the volcano.", "targetStepId": "stark-mountain" }
+        {
+          "id": "route-227-to-route-228",
+          "label": "Move to Route 228",
+          "description": "Head west back toward Survival Area.",
+          "targetStepId": "route-228"
+        },
+        {
+          "id": "route-227-to-stark-mountain",
+          "label": "Move to Stark Mountain",
+          "description": "Continue east into the volcano.",
+          "targetStepId": "stark-mountain"
+        }
       ]
     },
     {
@@ -930,8 +1836,18 @@
       "name": "Route 228",
       "description": "A sandy postgame route between Survival Area and Route 227.",
       "options": [
-        { "id": "route-228-to-survival-area", "label": "Move to Survival Area", "description": "Head west to the settlement.", "targetStepId": "survival-area" },
-        { "id": "route-228-to-route-227", "label": "Move to Route 227", "description": "Continue east toward Stark Mountain.", "targetStepId": "route-227" }
+        {
+          "id": "route-228-to-survival-area",
+          "label": "Move to Survival Area",
+          "description": "Head west to the settlement.",
+          "targetStepId": "survival-area"
+        },
+        {
+          "id": "route-228-to-route-227",
+          "label": "Move to Route 227",
+          "description": "Continue east toward Stark Mountain.",
+          "targetStepId": "route-227"
+        }
       ]
     },
     {
@@ -939,7 +1855,12 @@
       "name": "Stark Mountain",
       "description": "A volcanic end-point area in the Battle Zone.",
       "options": [
-        { "id": "stark-mountain-to-route-227", "label": "Move to Route 227", "description": "Leave the volcano.", "targetStepId": "route-227" }
+        {
+          "id": "stark-mountain-to-route-227",
+          "label": "Move to Route 227",
+          "description": "Leave the volcano.",
+          "targetStepId": "route-227"
+        }
       ]
     },
     {
@@ -947,8 +1868,18 @@
       "name": "Route 229",
       "description": "A wooded postgame route north of the Resort Area.",
       "options": [
-        { "id": "route-229-to-resort-area", "label": "Move to Resort Area", "description": "Head south to the resort.", "targetStepId": "resort-area" },
-        { "id": "route-229-to-route-230", "label": "Move to Route 230", "description": "Continue east to the sea route.", "targetStepId": "route-230" }
+        {
+          "id": "route-229-to-resort-area",
+          "label": "Move to Resort Area",
+          "description": "Head south to the resort.",
+          "targetStepId": "resort-area"
+        },
+        {
+          "id": "route-229-to-route-230",
+          "label": "Move to Route 230",
+          "description": "Continue east to the sea route.",
+          "targetStepId": "route-230"
+        }
       ]
     },
     {
@@ -956,8 +1887,18 @@
       "name": "Route 230",
       "description": "A northern postgame water route near the Resort Area.",
       "options": [
-        { "id": "route-230-to-resort-area", "label": "Move to Resort Area", "description": "Return south to the resort.", "targetStepId": "resort-area" },
-        { "id": "route-230-to-route-229", "label": "Move to Route 229", "description": "Head west toward the wooded route.", "targetStepId": "route-229" }
+        {
+          "id": "route-230-to-resort-area",
+          "label": "Move to Resort Area",
+          "description": "Return south to the resort.",
+          "targetStepId": "resort-area"
+        },
+        {
+          "id": "route-230-to-route-229",
+          "label": "Move to Route 229",
+          "description": "Head west toward the wooded route.",
+          "targetStepId": "route-229"
+        }
       ]
     }
   ]
