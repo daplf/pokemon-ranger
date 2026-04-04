@@ -189,11 +189,14 @@ export type RouteBuilderHm =
 
 // Prerequisites for actions/trainers
 export interface RouteBuilderPrerequisites {
+  // ALL of these trainers must be beaten
   beatenTrainerIds?: string[];
   requiredHms?: RouteBuilderHm[];
   requiredItems?: string[];
   excludedItems?: string[];
   progressionFlags?: Record<string, boolean | string | number>;
+  // ANY of these prerequisite sets must be met (OR logic) - recursive structure
+  oneOf?: RouteBuilderPrerequisites[];
 }
 
 // Move Data

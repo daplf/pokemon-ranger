@@ -3,6 +3,13 @@
   "trainerId": 270,
   "game": "bdsp",
   "name": "Youngster Dallas",
+  "prerequisites": {
+    "oneOf": [
+      { "beatenTrainerIds": ["trainer-id-176"] },
+      { "beatenTrainerIds": ["trainer-id-177"] },
+      { "beatenTrainerIds": ["trainer-id-178"] }
+    ]
+  },
   "pokemon": [
     {
       "species": "Kricketot",

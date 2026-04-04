@@ -741,17 +741,27 @@ export function prerequisitesAreMet(
   const requiredItems = prerequisites?.requiredItems ?? [];
   const excludedItems = prerequisites?.excludedItems ?? [];
   const requiredFlags = prerequisites?.progressionFlags ?? {};
+  const oneOfPrerequisites = prerequisites?.oneOf ?? [];
 
   const hasRequiredItems = requiredItems.every(item => (bag[item] ?? 0) > 0);
   const hasExcludedItems = excludedItems.some(item => (bag[item] ?? 0) > 0);
 
   if (hasExcludedItems) return false;
 
+  // All required trainers must be beaten (AND logic)
+  const hasRequiredTrainers = requiredTrainerIds.every(requiredTrainerId => beatenTrainerIds.includes(requiredTrainerId));
+
+  // At least one of the oneOf prerequisite sets must be fully met (OR logic)
+  const hasOneOfPrerequisites = oneOfPrerequisites.length === 0 || oneOfPrerequisites.some(prereq => 
+    prerequisitesAreMet(prereq, beatenTrainerIds, unlockedHms, bag, progressionFlags)
+  );
+
   const flagsMatch = Object.entries(requiredFlags).every(
     ([flagName, requiredValue]) => (progressionFlags?.[flagName] ?? false) === requiredValue,
   );
 
-  return requiredTrainerIds.every(requiredTrainerId => beatenTrainerIds.includes(requiredTrainerId))
+  return hasRequiredTrainers
+    && hasOneOfPrerequisites
     && requiredHms.every(requiredHm => unlockedHms.includes(requiredHm))
     && hasRequiredItems
     && flagsMatch;

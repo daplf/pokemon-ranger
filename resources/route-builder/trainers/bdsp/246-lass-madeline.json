@@ -3,6 +3,13 @@
   "trainerId": 246,
   "game": "bdsp",
   "name": "Lass Madeline",
+  "prerequisites": {
+    "oneOf": [
+      { "beatenTrainerIds": ["trainer-id-176"] },
+      { "beatenTrainerIds": ["trainer-id-177"] },
+      { "beatenTrainerIds": ["trainer-id-178"] }
+    ]
+  },
   "pokemon": [
     {
       "species": "Starly",
