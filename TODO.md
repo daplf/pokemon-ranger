@@ -1,5 +1,6 @@
 # TODO
 
+- Support move learning
 - Set first battle Starly to random IVs.
 - Add items to all locations, including those given by NPCs
 - Add defensive ranges on battles?

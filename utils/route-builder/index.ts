@@ -1,15 +1,7 @@
-/**
- * routeBuilder.ts - Backward Compatibility Layer
- * 
- * This file re-exports all functionality from the refactored route-builder modules.
- * It allows existing code to continue importing from 'utils/routeBuilder' while
- * the actual implementation has been moved to 'utils/route-builder/' with proper separation of concerns.
- */
+// Types
+export * from './types';
 
-// Re-export all types
-export * from './route-builder/types';
-
-// Re-export all game configuration functions
+// Game Configuration & Data Loading
 export {
   getRouteBuilderGames,
   getRouteBuilderGame,
@@ -19,15 +11,17 @@ export {
   getAreaTrainerList,
   getTrainerData,
   getTrainersForStep,
-} from './route-builder/gameConfig';
+} from './gameConfig';
 
-// Re-export all state management functions
+// State Management
 export {
   getCurrentRouteBuilderStep,
   buildInitialRoute,
   buildRouteBuilderState,
   getRouteBuilderRuntimeState,
   applyRouteBuilderEntry,
+  applyBattleActionEntry,
+  applyTrainerBattleActionEntry,
   buildRouteBuilderPartySnapshots,
   clonePartyState,
   hydrateRouteBuilderPartySnapshots,
@@ -40,18 +34,18 @@ export {
   prerequisitesAreMet,
   asBattlePokemon,
   getRouteBuilderBattleAction,
-} from './route-builder/stateManagement';
+} from './stateManagement';
 
-// Re-export all battle calculation functions
+// Battle Calculations
 export {
   getActiveTrainerBattle,
   getAvailableTrainersForStep,
   getAvailableRouteBuilderBattleActions,
   getAvailableTrainerBattleActions,
-} from './route-builder/battleCalculations';
+} from './battleCalculations';
 
-// Re-export all validation functions
+// Validation & Import/Export
 export {
   parseRouteBuilderImport,
   buildRouteExportData,
-} from './route-builder/validation';
+} from './validation';
