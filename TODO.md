@@ -1,5 +1,6 @@
 # TODO
 
+- Refactor components and their logic to be more modular and simplify flows
 - Support random natures on Pokémon
 - Support move learning
 - Set first battle Starly to random IVs.
