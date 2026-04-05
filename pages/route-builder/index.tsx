@@ -47,6 +47,7 @@ import {
   getBattleActionInsertionIndex,
   getBattleActionRouteIndex,
   removeSelectedBattleActionEntry,
+  removeSelectedBattleEntry,
   // Validation & Import/Export
   parseRouteBuilderImport,
   buildRouteExportData,
@@ -130,9 +131,9 @@ const RouteBuilderPage: NextPage = () => {
             }
             i = j - 1; // Skip the battle actions we just counted
           } else if (currentStepIndex === selectedRouteIndex) {
-            // Count battle actions up to the selected one for the current step
+            // Count battle actions up to but not including the selected one for the current step
             let j = i + 1;
-            while (j < route.length && (route[j].type === 'battleAction' || route[j].type === 'itemUsage') && currentBattleActionIndex <= selectedBattleActionIndex) {
+            while (j < route.length && (route[j].type === 'battleAction' || route[j].type === 'itemUsage') && currentBattleActionIndex < selectedBattleActionIndex) {
               battleActionCount++;
               currentBattleActionIndex++;
               j++;
@@ -156,57 +157,6 @@ const RouteBuilderPage: NextPage = () => {
   const currentStep = useMemo(() => (
     activeGame ? getCurrentRouteBuilderStep(activeGame, routePrefix) ?? null : null
   ), [activeGame, routePrefix]);
-
-  // Derived state - Route state (party and bag)
-  const routeState = useMemo(() => (
-    activeGame
-      ? buildRouteBuilderState(activeGame, routePrefix)
-      : { party: [], bag: {} }
-  ), [activeGame, routePrefix]);
-
-  // Derived state - Available actions
-  const availableBattleActions = useMemo(() => (
-    activeGame ? getAvailableRouteBuilderBattleActions(activeGame, routePrefix, routeState.party) : []
-  ), [activeGame, routePrefix, routeState.party]);
-
-  const trainersInCurrentArea = useMemo(() => (
-    activeGame && currentStep ? getAvailableTrainersForStep(activeGame.id, currentStep.id, route) : []
-  ), [activeGame, currentStep, route]);
-
-  const availableStepOptions = useMemo(() => (
-    activeGame && currentStep ? getAvailableOptionsForStep(activeGame, currentStep, route) : []
-  ), [activeGame, currentStep, route]);
-
-  // Derived state - Battle status
-  const activeTrainerBattle = useMemo(() => (
-    activeGame ? getActiveTrainerBattle(activeGame.id, routePrefix) : null
-  ), [activeGame, routePrefix]);
-
-  const availableTrainerBattleActions = useMemo(() => (
-    activeGame ? getAvailableTrainerBattleActions(activeGame, route, routeState.party) : []
-  ), [activeGame, route, routeState.party]);
-
-  const isInWildBattle = Boolean(currentStep?.battle);
-  const isInTrainerBattle = Boolean(activeTrainerBattle);
-  const isInBattle = isInWildBattle || isInTrainerBattle;
-
-  const availableItems = useMemo(() => {
-    if (!activeGame || !currentStep) return [];
-    if (currentStep.disableItemUsage) return [];
-
-    return getAvailableBagItems(activeGame, route, isInBattle ? 'battle' : 'outside');
-  }, [activeGame, currentStep, route, isInBattle]);
-
-  // Derived state - Target HP displays
-  const activeWildBattleTargetHp = useMemo(() => {
-    const actionWithTargetHp = availableBattleActions.find(action => action.targetHpSummary);
-    return actionWithTargetHp?.targetHpSummary ?? null;
-  }, [availableBattleActions]);
-
-  const activeTrainerBattleTargetHp = useMemo(() => {
-    const actionWithTargetHp = availableTrainerBattleActions.find(action => action.targetHpSummary);
-    return actionWithTargetHp?.targetHpSummary ?? null;
-  }, [availableTrainerBattleActions]);
 
   // Derived state - Route history for display
   const routeHistory = useMemo(() => {
@@ -253,7 +203,6 @@ const RouteBuilderPage: NextPage = () => {
           gapBefore,
         });
       } else if (entry.type === 'battleAction' || entry.type === 'itemUsage') {
-        // Accumulate battle actions
         const battleAction = entry.type === 'battleAction'
           ? getRouteBuilderBattleAction(historyItems[historyItems.length - 1]?.step, entry.battleActionId)
           : null;
@@ -268,13 +217,72 @@ const RouteBuilderPage: NextPage = () => {
       }
     }
 
-    // Add any remaining battle actions to the last step
     if (historyItems.length > 0 && currentBattleActions.length > 0) {
       historyItems[historyItems.length - 1].battleActionEntries = currentBattleActions;
     }
 
     return historyItems;
   }, [activeGame, route, routeGapIndex]);
+
+  const selectedBattleHasKo = useMemo(() => {
+    console.log("D1")
+    if (selectedRouteIndex === null || selectedBattleActionIndex !== null) return false;
+    const historyItem = routeHistory.find(item => item.routeIndex === selectedRouteIndex);
+    return Boolean(historyItem?.battleActionEntries?.some(entry => entry.isKo));
+  }, [routeHistory, selectedRouteIndex, selectedBattleActionIndex]);
+
+  const routeState = useMemo(() => {
+    if (!activeGame) return null;
+    return getRouteBuilderRuntimeState(activeGame, route);
+  }, [activeGame, route]);
+
+  // Derived state - Available actions
+  const availableBattleActions = useMemo(() => {
+    if (!activeGame || !routeState) return [];
+    if (selectedBattleHasKo) return [];
+    return getAvailableRouteBuilderBattleActions(activeGame, routePrefix, routeState.party);
+  }, [activeGame, routePrefix, routeState, selectedBattleHasKo]);
+
+  const trainersInCurrentArea = useMemo(() => (
+    activeGame && currentStep ? getAvailableTrainersForStep(activeGame.id, currentStep.id, route) : []
+  ), [activeGame, currentStep, route]);
+
+  const availableStepOptions = useMemo(() => (
+    activeGame && currentStep ? getAvailableOptionsForStep(activeGame, currentStep, route) : []
+  ), [activeGame, currentStep, route]);
+
+  // Derived state - Battle status
+  const activeTrainerBattle = useMemo(() => (
+    activeGame ? getActiveTrainerBattle(activeGame.id, routePrefix) : null
+  ), [activeGame, routePrefix]);
+
+  const availableTrainerBattleActions = useMemo(() => {
+    if (!activeGame || !routeState) return [];
+    if (selectedBattleHasKo) return [];
+    return getAvailableTrainerBattleActions(activeGame, routePrefix, routeState.party);
+  }, [activeGame, routePrefix, routeState, selectedBattleHasKo]);
+
+  const isInWildBattle = Boolean(currentStep?.battle);
+  const isInTrainerBattle = Boolean(activeTrainerBattle);
+  const isInBattle = isInWildBattle || isInTrainerBattle;
+
+  const availableItems = useMemo(() => {
+    if (!activeGame || !currentStep) return [];
+    if (currentStep.disableItemUsage) return [];
+
+    return getAvailableBagItems(activeGame, route, isInBattle ? 'battle' : 'outside');
+  }, [activeGame, currentStep, route, isInBattle]);
+
+  // Derived state - Target HP displays
+  const activeWildBattleTargetHp = useMemo(() => {
+    const actionWithTargetHp = availableBattleActions.find(action => action.targetHpSummary);
+    return actionWithTargetHp?.targetHpSummary ?? null;
+  }, [availableBattleActions]);
+
+  const activeTrainerBattleTargetHp = useMemo(() => {
+    const actionWithTargetHp = availableTrainerBattleActions.find(action => action.targetHpSummary);
+    return actionWithTargetHp?.targetHpSummary ?? null;
+  }, [availableTrainerBattleActions]);
 
   // ==================== Event Handlers ====================
 
@@ -562,7 +570,7 @@ const RouteBuilderPage: NextPage = () => {
   }, []);
 
   const handleSelectTarget = useCallback((targetIndex: number) => {
-    if (!currentStep || !selectedItem) return;
+    if (!currentStep || !selectedItem || !routeState) return;
 
     // Apply item effect and create route entry
     appendRouteEntry({
@@ -575,7 +583,7 @@ const RouteBuilderPage: NextPage = () => {
 
     setSelectedItem(null);
     setIsSelectingItem(false);
-  }, [appendRouteEntry, currentStep, selectedItem, routeState.party]);
+  }, [appendRouteEntry, currentStep, selectedItem, routeState]);
 
   const handleCancelTargetSelection = useCallback(() => {
     setSelectedItem(null);
@@ -744,19 +752,27 @@ const RouteBuilderPage: NextPage = () => {
 
       if (selectedRouteIndex !== null) {
         if (selectedBattleActionIndex !== null) {
-          // Remove the currently selected battle action
+          // Remove the currently selected battle action, and also remove a follow-up KO step if present.
           const historyItem = routeHistory.find(item => item.routeIndex === selectedRouteIndex);
           if (historyItem?.battleActionEntries) {
             const routeIndexToRemove = getBattleActionRouteIndex(route, routeHistory, selectedRouteIndex, selectedBattleActionIndex);
+            const selectedBattleAction = historyItem.battleActionEntries[selectedBattleActionIndex];
 
             if (routeIndexToRemove !== null && routeIndexToRemove !== -1) {
+              const nextEntry = previousSession.route[routeIndexToRemove + 1];
+              const shouldRemoveNextStep = selectedBattleAction?.isKo
+                && nextEntry?.type === 'step'
+                && typeof nextEntry.arrivedViaOptionId === 'string'
+                && nextEntry.arrivedViaOptionId.includes('ko');
+              const removeCount = shouldRemoveNextStep ? 2 : 1;
+
               const newRoute = [
                 ...previousSession.route.slice(0, routeIndexToRemove),
-                ...previousSession.route.slice(routeIndexToRemove + 1),
+                ...previousSession.route.slice(routeIndexToRemove + removeCount),
               ];
               const newPartySnapshots = [
                 ...previousSession.partySnapshots.slice(0, routeIndexToRemove),
-                ...previousSession.partySnapshots.slice(routeIndexToRemove + 1),
+                ...previousSession.partySnapshots.slice(routeIndexToRemove + removeCount),
               ];
 
               // Move selection to the next battle action after the removed one,
@@ -775,51 +791,94 @@ const RouteBuilderPage: NextPage = () => {
               };
             }
           }
-        } else if (selectedRouteIndex < previousSession.route.length - 1) {
-          // Remove the currently selected step and check if it creates a gap
-          const removalIndex = selectedRouteIndex;
-          const newRoute = [
-            ...previousSession.route.slice(0, removalIndex),
-            ...previousSession.route.slice(removalIndex + 1),
-          ];
-          const newPartySnapshots = [
-            ...previousSession.partySnapshots.slice(0, removalIndex),
-            ...previousSession.partySnapshots.slice(removalIndex + 1),
-          ];
+        } else {
+          // If a whole battle entry is selected, remove the entire battle sequence.
+          const newRoute = removeSelectedBattleEntry(previousSession.route, selectedRouteIndex);
+          if (newRoute.length !== previousSession.route.length) {
+            const removeCount = previousSession.route.length - newRoute.length;
+            const newPartySnapshots = [
+              ...previousSession.partySnapshots.slice(0, selectedRouteIndex),
+              ...previousSession.partySnapshots.slice(selectedRouteIndex + removeCount),
+            ];
 
-          // Check if removing this step creates a gap
-          let newGapIndex: number | null = null;
-          if (removalIndex > 0 && removalIndex < newRoute.length) {
-            const prevEntry = newRoute[removalIndex - 1];
-            const nextEntry = newRoute[removalIndex];
+            let newGapIndex: number | null = null;
+            if (selectedRouteIndex > 0 && selectedRouteIndex < newRoute.length) {
+              const prevEntry = newRoute[selectedRouteIndex - 1];
+              const nextEntry = newRoute[selectedRouteIndex];
 
-            // Check if these two entries can be connected
-            const canConnect = (() => {
-              if (prevEntry.type === 'step' && nextEntry.type === 'step') {
-                const prevStep = getRouteBuilderStep(activeGame, prevEntry.stepId);
-                const connectorOption = prevStep?.options.find(option => option.targetStepId === nextEntry.stepId);
-                return !!connectorOption;
+              const canConnect = (() => {
+                if (prevEntry.type === 'step' && nextEntry.type === 'step') {
+                  const prevStep = getRouteBuilderStep(activeGame, prevEntry.stepId);
+                  const connectorOption = prevStep?.options.find(option => option.targetStepId === nextEntry.stepId);
+                  return !!connectorOption;
+                }
+                if (prevEntry.type === 'trainerBattle' && nextEntry.type === 'step') {
+                  return prevEntry.stepId === nextEntry.stepId;
+                }
+                return false;
+              })();
+
+              if (!canConnect) {
+                newGapIndex = selectedRouteIndex;
               }
-              if (prevEntry.type === 'trainerBattle' && nextEntry.type === 'step') {
-                return prevEntry.stepId === nextEntry.stepId;
-              }
-              return false;
-            })();
-
-            if (!canConnect) {
-              newGapIndex = removalIndex;
             }
+
+            setSelectedRouteIndex(selectedRouteIndex > 0 ? selectedRouteIndex - 1 : null);
+            setSelectedBattleActionIndex(null);
+            setRouteGapIndex(newGapIndex);
+
+            return {
+              route: newRoute,
+              partySnapshots: newPartySnapshots,
+            };
           }
 
-          // Move selection to the previous step, or null if we removed the first step
-          setSelectedRouteIndex(removalIndex > 0 ? removalIndex - 1 : null);
-          setSelectedBattleActionIndex(null);
-          setRouteGapIndex(newGapIndex);
+          if (selectedRouteIndex < previousSession.route.length - 1) {
+            // Remove the currently selected step and check if it creates a gap
+            const removalIndex = selectedRouteIndex;
+            const newRoute = [
+              ...previousSession.route.slice(0, removalIndex),
+              ...previousSession.route.slice(removalIndex + 1),
+            ];
+            const newPartySnapshots = [
+              ...previousSession.partySnapshots.slice(0, removalIndex),
+              ...previousSession.partySnapshots.slice(removalIndex + 1),
+            ];
 
-          return {
-            route: newRoute,
-            partySnapshots: newPartySnapshots,
-          };
+            // Check if removing this step creates a gap
+            let newGapIndex: number | null = null;
+            if (removalIndex > 0 && removalIndex < newRoute.length) {
+              const prevEntry = newRoute[removalIndex - 1];
+              const nextEntry = newRoute[removalIndex];
+
+              // Check if these two entries can be connected
+              const canConnect = (() => {
+                if (prevEntry.type === 'step' && nextEntry.type === 'step') {
+                  const prevStep = getRouteBuilderStep(activeGame, prevEntry.stepId);
+                  const connectorOption = prevStep?.options.find(option => option.targetStepId === nextEntry.stepId);
+                  return !!connectorOption;
+                }
+                if (prevEntry.type === 'trainerBattle' && nextEntry.type === 'step') {
+                  return prevEntry.stepId === nextEntry.stepId;
+                }
+                return false;
+              })();
+
+              if (!canConnect) {
+                newGapIndex = removalIndex;
+              }
+            }
+
+            // Move selection to the previous step, or null if we removed the first step
+            setSelectedRouteIndex(removalIndex > 0 ? removalIndex - 1 : null);
+            setSelectedBattleActionIndex(null);
+            setRouteGapIndex(newGapIndex);
+
+            return {
+              route: newRoute,
+              partySnapshots: newPartySnapshots,
+            };
+          }
         }
       }
 
@@ -906,7 +965,7 @@ const RouteBuilderPage: NextPage = () => {
                     ) : (
                       availableItems.map(itemName => (
                         <Button key={itemName} onClick={() => handleSelectItem(itemName)}>
-                          {itemName} ({(routeState.bag as Record<string, number>)[itemName]})
+                          {itemName} ({(routeState?.bag as Record<string, number>)[itemName]})
                         </Button>
                       ))
                     )}
@@ -916,7 +975,7 @@ const RouteBuilderPage: NextPage = () => {
                   <>
                     <h3>Use {selectedItem}</h3>
                     <p>Select a target Pokémon.</p>
-                    {routeState.party.map((pokemon, index) => (
+                    {routeState?.party.map((pokemon, index) => (
                       <Button key={`${pokemon.species}-${index}`} onClick={() => handleSelectTarget(index)}>
                         {pokemon.species} Lv. {pokemon.level}
                       </Button>
@@ -953,13 +1012,13 @@ const RouteBuilderPage: NextPage = () => {
         {activeGame ? (
           <>
             <PartySection
-              party={routeState.party}
+              party={routeState?.party ?? []}
               expandedExperienceRoutes={expandedExperienceRoutes}
               onToggleExperienceRoute={handleToggleExperienceRoute}
             />
 
             <BagSection
-              bag={routeState.bag}
+              bag={routeState?.bag ?? {}}
               isBagExpanded={isBagExpanded}
               onToggleBag={() => setIsBagExpanded(!isBagExpanded)}
             />

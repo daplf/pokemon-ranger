@@ -53,6 +53,7 @@ export {
   getBattleActionRouteIndex,
   getBattleActionInsertionIndex,
   removeSelectedBattleActionEntry,
+  removeSelectedBattleEntry,
 } from './routeEditing';
 
 // Validation & Import/Export

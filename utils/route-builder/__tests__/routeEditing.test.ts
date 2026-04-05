@@ -2,6 +2,7 @@ import {
   getBattleActionInsertionIndex,
   getBattleActionRouteIndex,
   removeSelectedBattleActionEntry,
+  removeSelectedBattleEntry,
 } from '../routeEditing';
 import { RouteBuilderRouteEntry } from '../types';
 
@@ -42,6 +43,20 @@ describe('routeEditing', () => {
   it('removes only the selected battle action from the route', () => {
     const result = removeSelectedBattleActionEntry(route, routeHistory, 0, 1);
     expect(result).toEqual([stepEntry, moveOne, koAction, nextStep]);
+  });
+
+  it('removes a KO battle action and its follow-up step when undoing the KO', () => {
+    const result = removeSelectedBattleActionEntry(route, routeHistory, 0, 2);
+    expect(result).toEqual([stepEntry, moveOne, moveTwo]);
+  });
+
+  it('removes the whole battle sequence when the battle step is selected', () => {
+    const previousStep: RouteBuilderRouteEntry = { type: 'step', stepId: 'route-100' };
+    const followingStep: RouteBuilderRouteEntry = { type: 'step', stepId: 'route-300', arrivedViaOptionId: 'route-200-to-300' };
+    const battleRoute = [previousStep, stepEntry, moveOne, koAction, nextStep, followingStep];
+
+    const result = removeSelectedBattleEntry(battleRoute, 1);
+    expect(result).toEqual([previousStep, followingStep]);
   });
 
   it('removes the correct scratch when undoing a middle move and leaves remaining actions intact', () => {

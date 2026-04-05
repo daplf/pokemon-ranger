@@ -333,6 +333,25 @@ function formatHitCountSummary(targetHp: number, minDamage: number, maxDamage: n
 }
 
 /**
+ * Helper: checks if there are battle actions after the current step in the route
+ */
+function hasBattleActionsAfterCurrentStep(route: RouteBuilderRouteEntry[]): boolean {
+  // Find the index of the last step entry
+  const lastStepIndex = route.length - 1 - [...route].reverse().findIndex(entry => entry.type === 'step');
+  
+  // Check if there is already a KO action after the last step
+  for (let i = lastStepIndex + 1; i < route.length; i++) {
+    const entry = route[i];
+    if ((entry.type === 'battleAction' && entry.battleActionId === 'ko') ||
+        (entry.type === 'trainerBattleAction' && entry.trainerBattleActionType === 'ko')) {
+      return true;
+    }
+  }
+  
+  return false;
+}
+
+/**
  * Gets available wild battle actions for the current step's battle
  * Dynamically generates move actions from the lead Pokémon's moves (like trainer battles)
  */
@@ -345,6 +364,9 @@ export function getAvailableRouteBuilderBattleActions(
   const currentStep = getCurrentRouteBuilderStep(game, route);
 
   if (!currentStep?.battle) return [];
+
+  // If there is already a KO action after the current step, the battle has ended
+  if (hasBattleActionsAfterCurrentStep(route)) return [];
 
   const state = partyOverride
     ? { party: clonePartyState(partyOverride) }
@@ -410,6 +432,9 @@ export function getAvailableTrainerBattleActions(
   const currentStep = getCurrentRouteBuilderStep(game, route);
 
   if (!activeTrainerBattle) return [];
+
+  // If there is already a KO action after the current step, the battle phase has ended
+  if (hasBattleActionsAfterCurrentStep(route)) return [];
 
   // Pokemon selection phase
   if (activeTrainerBattle.selectedPokemonIndex === null) {
