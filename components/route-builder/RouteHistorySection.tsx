@@ -82,7 +82,7 @@ export const RouteHistorySection: React.FC<RouteHistorySectionProps> = ({
                         key={`${battleAction.entry.stepId}-${battleActionIndex}`}
                         selectable={Boolean(onSelectRouteEntry)}
                         selected={routeIndex === selectedRouteIndex && selectedBattleActionIndex === battleActionIndex}
-                        onClick={() => onSelectRouteEntry?.(routeIndex, battleActionIndex)}
+                        onClick={(event) => { event.stopPropagation();  onSelectRouteEntry?.(routeIndex, battleActionIndex) }}
                       >
                         {battleAction.label}
                       </BattleSubstep>
