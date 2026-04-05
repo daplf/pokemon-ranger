@@ -306,6 +306,128 @@ Return actions with damage info
      - KO → Grants experience, removes Pokemon from available
    - When all Pokemon defeated → Battle ends, returns to normal state
 
+### Route Editing Features
+
+The route builder supports editing existing routes through battle action insertion, removal, and step-level undo operations. This allows users to modify battle sequences without rebuilding the entire route.
+
+#### Battle Action Editing
+
+**Purpose**: Insert new moves into existing battle sequences or remove unwanted actions.
+
+**Key Components**:
+- **UI Selection**: `RouteHistorySection.tsx` displays battle actions as selectable substeps
+- **Insertion Logic**: `getBattleActionInsertionIndex()` in `utils/route-builder/routeEditing.ts`
+- **Removal Logic**: `removeSelectedBattleActionEntry()` in `utils/route-builder/routeEditing.ts`
+
+**Flow for Inserting a Move**:
+```
+User selects a battle action in RouteHistorySection
+  ↓
+handleSelectRouteEntry() sets selectedRouteIndex and selectedBattleActionIndex
+  ↓
+User chooses a new move from AvailableActionsSection
+  ↓
+handleTakeBattleAction() called with new action
+  ↓
+getBattleActionInsertionIndex() finds insertion point (after selected action)
+  ↓
+insertRouteEntryAtIndex() adds new battle action entry
+  ↓
+setSelectedBattleActionIndex() moves selection to newly inserted action
+  ↓
+Route history rebuilds, showing updated battle sequence
+```
+
+**Flow for Removing a Battle Action**:
+```
+User selects a battle action in RouteHistorySection
+  ↓
+handleSelectRouteEntry() sets selectedRouteIndex and selectedBattleActionIndex
+  ↓
+User clicks Undo
+  ↓
+handleUndo() detects selectedBattleActionIndex is set
+  ↓
+getBattleActionRouteIndex() finds the route entry to remove
+  ↓
+Removes entry from route and party snapshots
+  ↓
+Adjusts selectedBattleActionIndex to next valid action
+  ↓
+Route history rebuilds with updated sequence
+```
+
+#### Step-Level Undo and Gap Creation
+
+**Purpose**: Remove entire steps from the route, creating gaps when steps cannot be directly connected.
+
+**Key Logic**: Located in `handleUndo()` in `pages/route-builder/index.tsx`
+
+**Flow for Step Undo**:
+```
+User selects a main step (not a battle action) in RouteHistorySection
+  ↓
+handleSelectRouteEntry() sets selectedRouteIndex, selectedBattleActionIndex = null
+  ↓
+User clicks Undo
+  ↓
+handleUndo() detects selectedBattleActionIndex is null
+  ↓
+Removes step entry at selectedRouteIndex from route and snapshots
+  ↓
+Checks if removal creates a gap:
+  - Gets previous and next entries
+  - Tests if they can connect via step options
+  - If not connectable, sets routeGapIndex
+  ↓
+Moves selection to previous step
+  ↓
+Route history rebuilds, showing gap if created
+```
+
+**Gap Resolution**:
+```
+User sees gap indicator in RouteHistorySection
+  ↓
+User selects step before gap and chooses option that leads to step after gap
+  ↓
+handleTakeOption() inserts new step entry at gap position
+  ↓
+Gap is resolved, route becomes contiguous again
+```
+
+#### Route History Building
+
+**Purpose**: Converts flat route entries into hierarchical display structure.
+
+**Logic**: `routeHistory` useMemo in `pages/route-builder/index.tsx`
+
+**Process**:
+```
+Iterate through route entries:
+  - Step entries: Create new history item, start accumulating battle actions
+  - Battle action entries: Add to current step's battleActionEntries array
+  - Trainer battle entries: Similar to steps but for trainer battles
+  ↓
+Associate accumulated battle actions with their parent step
+  ↓
+Mark gap positions based on routeGapIndex
+  ↓
+Return array of RouteHistoryItem for display
+```
+
+**Selection Logic**:
+- `selectedRouteIndex`: Index of selected history item (step/trainer)
+- `selectedBattleActionIndex`: Index within battleActionEntries array
+- Selection affects available actions and undo behavior
+
+#### Utility Functions (`utils/route-builder/routeEditing.ts`)
+
+**`getRouteHistoryItemForRouteIndex()`**: Finds history item containing a route index
+**`getBattleActionRouteIndex()`**: Converts battle action selection to route entry index
+**`getBattleActionInsertionIndex()`**: Determines where to insert new battle actions
+**`removeSelectedBattleActionEntry()`**: Removes a battle action and returns updated route
+
 ### Validating an Import
 
 1. User selects JSON file
@@ -355,12 +477,13 @@ Return actions with damage info
 2. Handle in `applyStepEntry()` in `stateManagement.ts`
 3. Handle in validation (`validation.ts`)
 
-### Adding a New Battle Type
+### Adding Route Editing Features
 
-1. Add entry type to `RouteBuilderRouteEntry`
-2. Handle in `applyRouteBuilderEntry()` switch statement
-3. Add validation in `validation.ts`
-4. Add UI to `AvailableActionsSection.tsx`
+1. Add new editing action to `RouteBuilderBattleAction` types
+2. Implement insertion logic in `routeEditing.ts`
+3. Add UI handling in `AvailableActionsSection.tsx`
+4. Update selection logic in `RouteHistorySection.tsx`
+5. Add tests in `routeEditing.test.ts`
 
 ---
 
@@ -371,6 +494,14 @@ Test individual utility functions:
 - `stateManagement.ts` - Apply entry logic, state calculations
 - `battleCalculations.ts` - Damage calculations
 - `validation.ts` - Import validation
+- `routeEditing.ts` - Battle action insertion/removal logic
+
+### Integration Tests
+Test component interactions:
+- Game selection → Route initialization
+- Route actions → State updates → Component re-renders
+- Battle action editing → Route modification → History updates
+- Step undo → Gap creation → Gap resolution
 
 ### Integration Tests
 Test component interactions:
@@ -391,6 +522,11 @@ Test component interactions:
 3. **Check Available Actions**: All `getAvailable*` functions return arrays
 4. **Check Imports**: `parseRouteBuilderImport()` throws descriptive errors
 5. **Battle Damage**: Check `calculateBattleDamage()` returns damage range
+6. **Route Editing**:
+   - Selection state: Check `selectedRouteIndex` and `selectedBattleActionIndex`
+   - Insertion index: `getBattleActionInsertionIndex()` should return valid route position
+   - Route history: Ensure `battleActionEntries` arrays are correctly populated
+   - Gap detection: Check `routeGapIndex` when steps are removed
 
 ---
 
@@ -417,6 +553,10 @@ utils/route-builder/
 ├── stateManagement.ts         # Route state calculations
 ├── battleCalculations.ts      # Battle logic and damage
 ├── validation.ts              # Import/export validation
+├── routeEditing.ts            # Battle action editing utilities
+├── __tests__/
+│   ├── routeEditing.test.ts   # Tests for editing utilities
+│   └── ...                    # Other test files
 └── index.ts                   # Convenience re-exports
 
 components/route-builder/

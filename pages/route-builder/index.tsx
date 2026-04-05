@@ -30,6 +30,9 @@ import {
   getCurrentRouteBuilderStep,
   buildInitialRoute,
   buildRouteBuilderState,
+  getRouteBuilderRuntimeState,
+  applyRouteBuilderEntry,
+  clonePartyState,
   buildRouteBuilderPartySnapshots,
   hydrateRouteBuilderPartySnapshots,
   getAvailableOptionsForStep,
@@ -41,6 +44,9 @@ import {
   getAvailableRouteBuilderBattleActions,
   getAvailableTrainerBattleActions,
   getRouteEntriesToUndo,
+  getBattleActionInsertionIndex,
+  getBattleActionRouteIndex,
+  removeSelectedBattleActionEntry,
   // Validation & Import/Export
   parseRouteBuilderImport,
   buildRouteExportData,
@@ -56,6 +62,13 @@ interface RouteHistoryItem {
   step: RouteBuilderStep | undefined;
   trainer?: RouteBuilderTrainer;
   substeps: string[];
+  routeIndex: number;
+  gapBefore: boolean;
+  battleActionEntries?: Array<{
+    entry: RouteBuilderRouteEntry;
+    label: string;
+    isKo: boolean;
+  }>;
 }
 
 /**
@@ -85,10 +98,55 @@ const RouteBuilderPage: NextPage = () => {
   const [isBagExpanded, setIsBagExpanded] = useState(false);
   const [isSelectingItem, setIsSelectingItem] = useState(false);
   const [selectedItem, setSelectedItem] = useState<string | null>(null);
+  const [selectedRouteIndex, setSelectedRouteIndex] = useState<number | null>(null);
+  const [routeGapIndex, setRouteGapIndex] = useState<number | null>(null);
+  const [selectedBattleActionIndex, setSelectedBattleActionIndex] = useState<number | null>(null);
   const [importError, setImportError] = useState<string | null>(null);
   const routeListRef = useRef<HTMLDivElement | null>(null);
 
   const { route, partySnapshots } = routeSession;
+
+  const routePrefix = useMemo(() => {
+    if (selectedRouteIndex === null) return route;
+
+    let prefixLength = selectedRouteIndex + 1;
+
+    // If a battle action is selected, include battle actions up to that point
+    if (selectedBattleActionIndex !== null) {
+      // Count battle actions up to the selected point
+      let battleActionCount = 0;
+      let currentStepIndex = 0;
+      let currentBattleActionIndex = 0;
+
+      for (let i = 0; i < route.length && currentStepIndex <= selectedRouteIndex; i++) {
+        const entry = route[i];
+        if (entry.type === 'step' || entry.type === 'trainerBattle') {
+          if (currentStepIndex < selectedRouteIndex) {
+            // Count all battle actions for previous steps
+            let j = i + 1;
+            while (j < route.length && (route[j].type === 'battleAction' || route[j].type === 'itemUsage')) {
+              battleActionCount++;
+              j++;
+            }
+            i = j - 1; // Skip the battle actions we just counted
+          } else if (currentStepIndex === selectedRouteIndex) {
+            // Count battle actions up to the selected one for the current step
+            let j = i + 1;
+            while (j < route.length && (route[j].type === 'battleAction' || route[j].type === 'itemUsage') && currentBattleActionIndex <= selectedBattleActionIndex) {
+              battleActionCount++;
+              currentBattleActionIndex++;
+              j++;
+            }
+            break;
+          }
+          currentStepIndex++;
+        }
+      }
+      prefixLength += battleActionCount;
+    }
+
+    return route.slice(0, prefixLength);
+  }, [route, selectedRouteIndex, selectedBattleActionIndex]);
 
   // Derived state - Game and current position
   const activeGame = useMemo(() => (
@@ -96,20 +154,20 @@ const RouteBuilderPage: NextPage = () => {
   ), [selectedGameId]);
 
   const currentStep = useMemo(() => (
-    activeGame ? getCurrentRouteBuilderStep(activeGame, route) ?? null : null
-  ), [activeGame, route]);
+    activeGame ? getCurrentRouteBuilderStep(activeGame, routePrefix) ?? null : null
+  ), [activeGame, routePrefix]);
 
   // Derived state - Route state (party and bag)
   const routeState = useMemo(() => (
     activeGame
-      ? buildRouteBuilderState(activeGame, route)
+      ? buildRouteBuilderState(activeGame, routePrefix)
       : { party: [], bag: {} }
-  ), [activeGame, route]);
+  ), [activeGame, routePrefix]);
 
   // Derived state - Available actions
   const availableBattleActions = useMemo(() => (
-    activeGame ? getAvailableRouteBuilderBattleActions(activeGame, route, routeState.party) : []
-  ), [activeGame, route, routeState.party]);
+    activeGame ? getAvailableRouteBuilderBattleActions(activeGame, routePrefix, routeState.party) : []
+  ), [activeGame, routePrefix, routeState.party]);
 
   const trainersInCurrentArea = useMemo(() => (
     activeGame && currentStep ? getAvailableTrainersForStep(activeGame.id, currentStep.id, route) : []
@@ -121,8 +179,8 @@ const RouteBuilderPage: NextPage = () => {
 
   // Derived state - Battle status
   const activeTrainerBattle = useMemo(() => (
-    activeGame ? getActiveTrainerBattle(activeGame.id, route) : null
-  ), [activeGame, route]);
+    activeGame ? getActiveTrainerBattle(activeGame.id, routePrefix) : null
+  ), [activeGame, routePrefix]);
 
   const availableTrainerBattleActions = useMemo(() => (
     activeGame ? getAvailableTrainerBattleActions(activeGame, route, routeState.party) : []
@@ -154,58 +212,69 @@ const RouteBuilderPage: NextPage = () => {
   const routeHistory = useMemo(() => {
     if (!activeGame) return [];
 
-    return route.reduce<Array<RouteHistoryItem>>((history, entry) => {
-      if (entry.type === 'step') {
-        return [
-          ...history,
-          {
-            entry,
-            step: getRouteBuilderStep(activeGame, entry.stepId),
-            substeps: [],
-          },
-        ];
-      }
+    const historyItems: Array<RouteHistoryItem> = [];
+    let currentBattleActions: Array<{entry: RouteBuilderRouteEntry, label: string, isKo: boolean}> = [];
 
-      if (entry.type === 'trainerBattle') {
+    for (let entryIndex = 0; entryIndex < route.length; entryIndex++) {
+      const entry = route[entryIndex];
+      const gapBefore = routeGapIndex !== null && routeGapIndex === entryIndex;
+
+      if (entry.type === 'step') {
+        // If we have accumulated battle actions, add them to the previous step
+        if (historyItems.length > 0 && currentBattleActions.length > 0) {
+          historyItems[historyItems.length - 1].battleActionEntries = currentBattleActions;
+          currentBattleActions = [];
+        }
+
+        historyItems.push({
+          entry,
+          step: getRouteBuilderStep(activeGame, entry.stepId),
+          substeps: [],
+          routeIndex: entryIndex,
+          gapBefore,
+        });
+      } else if (entry.type === 'trainerBattle') {
+        // If we have accumulated battle actions, add them to the previous step
+        if (historyItems.length > 0 && currentBattleActions.length > 0) {
+          historyItems[historyItems.length - 1].battleActionEntries = currentBattleActions;
+          currentBattleActions = [];
+        }
+
         const trainer = entry.trainerId ? require('../../utils/route-builder').getTrainerData(activeGame.id, entry.trainerId) : undefined;
 
-        if (!trainer) return history;
+        if (!trainer) continue;
 
-        return [
-          ...history,
-          {
-            entry,
-            step: undefined,
-            trainer,
-            substeps: [],
-          },
-        ];
+        historyItems.push({
+          entry,
+          step: undefined,
+          trainer,
+          substeps: [],
+          routeIndex: entryIndex,
+          gapBefore,
+        });
+      } else if (entry.type === 'battleAction' || entry.type === 'itemUsage') {
+        // Accumulate battle actions
+        const battleAction = entry.type === 'battleAction'
+          ? getRouteBuilderBattleAction(historyItems[historyItems.length - 1]?.step, entry.battleActionId)
+          : null;
+        const label = battleAction?.label || entry.label || 'Unknown action';
+        const isKo = entry.type === 'battleAction' && entry.battleActionId === 'ko';
+
+        currentBattleActions.push({
+          entry,
+          label,
+          isKo,
+        });
       }
+    }
 
-      if (history.length === 0) return history;
+    // Add any remaining battle actions to the last step
+    if (historyItems.length > 0 && currentBattleActions.length > 0) {
+      historyItems[historyItems.length - 1].battleActionEntries = currentBattleActions;
+    }
 
-      const previousItem = history[history.length - 1];
-      const { substeps: previousSubsteps } = previousItem;
-      const battleAction = entry.type === 'battleAction'
-        ? getRouteBuilderBattleAction(previousItem.step, entry.battleActionId)
-        : null;
-      let substeps = previousSubsteps;
-
-      if (battleAction) {
-        substeps = [...previousSubsteps, battleAction.label];
-      } else if (entry.label) {
-        substeps = [...previousSubsteps, entry.label];
-      }
-
-      return [
-        ...history.slice(0, -1),
-        {
-          ...previousItem,
-          substeps,
-        },
-      ];
-    }, []);
-  }, [activeGame, route]);
+    return historyItems;
+  }, [activeGame, route, routeGapIndex]);
 
   // ==================== Event Handlers ====================
 
@@ -324,9 +393,15 @@ const RouteBuilderPage: NextPage = () => {
         previousSession.route.length,
       );
 
+      const newRoute = [...previousSession.route, entry];
+      const newPartySnapshots = [...previousSession.partySnapshots, nextRuntimeState.party];
+
+      // Move selection to the newly appended step
+      setSelectedRouteIndex(newRoute.length - 1);
+
       return {
-        route: [...previousSession.route, entry],
-        partySnapshots: [...previousSession.partySnapshots, nextRuntimeState.party],
+        route: newRoute,
+        partySnapshots: newPartySnapshots,
       };
     });
   }, [activeGame]);
@@ -342,22 +417,42 @@ const RouteBuilderPage: NextPage = () => {
     accept: '.json' as any,
   });
 
-  const handleTakeOption = useCallback((targetStepId: string, option: RouteBuilderOption) => {
-    // Special handling for item usage
-    if (option.id === 'use-item') {
-      // Don't transition to a step, instead show item selection UI
-      setSelectedItem(null);
-      setIsSelectingItem(true);
-      return;
+  const recomputeSnapshotsFromIndex = useCallback((newRoute: RouteBuilderRouteEntry[], startIndex: number) => {
+    if (!activeGame) return [];
+
+    const prefixRoute = newRoute.slice(0, startIndex);
+    const runtimeState = getRouteBuilderRuntimeState(activeGame, prefixRoute);
+    let state = runtimeState;
+    const recomputedSnapshots: RouteBuilderPokemonInParty[][] = [];
+
+    for (let index = startIndex; index < newRoute.length; index += 1) {
+      state = applyRouteBuilderEntry(activeGame, state, newRoute[index], index);
+      recomputedSnapshots.push(clonePartyState(state.party));
     }
 
-    appendRouteEntry({
-      type: 'step',
-      stepId: targetStepId,
-      arrivedViaOptionId: option.id,
-      optionEffects: option.effects,
+    return recomputedSnapshots;
+  }, [activeGame]);
+
+  const insertRouteEntryAtIndex = useCallback((entry: RouteBuilderRouteEntry, insertionIndex: number) => {
+    if (!activeGame) return;
+
+    setRouteSession(previousSession => {
+      const newRoute = [
+        ...previousSession.route.slice(0, insertionIndex),
+        entry,
+        ...previousSession.route.slice(insertionIndex),
+      ];
+      const recomputedSnapshots = recomputeSnapshotsFromIndex(newRoute, insertionIndex);
+
+      return {
+        route: newRoute,
+        partySnapshots: [
+          ...previousSession.partySnapshots.slice(0, insertionIndex),
+          ...recomputedSnapshots,
+        ],
+      };
     });
-  }, [appendRouteEntry]);
+  }, [activeGame, recomputeSnapshotsFromIndex]);
 
   const handleTakeBattleAction = useCallback((action: RouteBuilderBattleAction) => {
     if (action.type === 'item') {
@@ -368,23 +463,43 @@ const RouteBuilderPage: NextPage = () => {
 
     if (!currentStep?.battle) return;
 
-    const { battle } = currentStep;
+    const historyItem = selectedRouteIndex !== null
+      ? routeHistory.find(item => item.routeIndex === selectedRouteIndex)
+      : undefined;
 
-    appendRouteEntry({
+    const insertionIndex = selectedRouteIndex !== null
+      ? getBattleActionInsertionIndex(route, routeHistory, selectedRouteIndex, selectedBattleActionIndex)
+      : null;
+
+    const newEntry: RouteBuilderRouteEntry = {
       type: 'battleAction',
       stepId: currentStep.id,
       battleActionId: action.id,
       label: action.label,
-    });
+    };
+
+    if (insertionIndex !== null && action.type !== 'ko') {
+      insertRouteEntryAtIndex(newEntry, insertionIndex);
+
+      if (selectedBattleActionIndex !== null) {
+        setSelectedBattleActionIndex(selectedBattleActionIndex + 1);
+      } else if (historyItem?.battleActionEntries) {
+        const firstKoIndex = historyItem.battleActionEntries.findIndex(entry => entry.isKo);
+        setSelectedBattleActionIndex(firstKoIndex === -1 ? historyItem.battleActionEntries.length : firstKoIndex);
+      }
+      return;
+    }
+
+    appendRouteEntry(newEntry);
 
     if (action.type === 'ko') {
       appendRouteEntry({
         type: 'step',
-        stepId: battle.onKoTargetStepId,
+        stepId: currentStep.battle.onKoTargetStepId,
         arrivedViaOptionId: action.id,
       });
     }
-  }, [appendRouteEntry, currentStep]);
+  }, [appendRouteEntry, currentStep, getBattleActionInsertionIndex, insertRouteEntryAtIndex, route, routeHistory, selectedBattleActionIndex, selectedRouteIndex]);
 
   const handleStartTrainerBattle = useCallback((trainer: RouteBuilderTrainer) => {
     if (!currentStep) return;
@@ -466,8 +581,248 @@ const RouteBuilderPage: NextPage = () => {
     setSelectedItem(null);
   }, []);
 
+  const handleReset = useCallback(() => {
+    if (!activeGame) {
+      setRouteSession({ route: [], partySnapshots: [] });
+      setSelectedRouteIndex(null);
+      setSelectedBattleActionIndex(null);
+      setRouteGapIndex(null);
+      return;
+    }
+
+    const nextRoute = buildInitialRoute(activeGame);
+    setRouteSession({
+      route: nextRoute,
+      partySnapshots: buildRouteBuilderPartySnapshots(activeGame, nextRoute),
+    });
+    setSelectedRouteIndex(null);
+    setSelectedBattleActionIndex(null);
+    setRouteGapIndex(null);
+  }, [activeGame]);
+
+  const handleSelectRouteEntry = useCallback((routeIndex: number, battleActionIndex?: number) => {
+    setSelectedRouteIndex(routeIndex);
+    setSelectedBattleActionIndex(battleActionIndex ?? null);
+  }, []);
+
+  const handleControlRouteInsertion = useCallback((entry: RouteBuilderRouteEntry, insertionIndex: number) => {
+    if (!activeGame) return;
+
+    const prefixRoute = route.slice(0, insertionIndex);
+    const suffixRoute = route.slice(insertionIndex);
+    const runtimeState = getRouteBuilderRuntimeState(activeGame, prefixRoute);
+    const nextState = applyRouteBuilderEntry(activeGame, runtimeState, entry, insertionIndex);
+
+    const oldNextEntry = suffixRoute[0];
+    let nextRoute = [...prefixRoute, entry, ...suffixRoute];
+    let nextPartySnapshots = [
+      ...partySnapshots.slice(0, insertionIndex),
+      clonePartyState(nextState.party),
+    ];
+    let nextGapIndex: number | null = null;
+
+    const stepCanBridge = (newEntry: RouteBuilderRouteEntry, targetEntry: RouteBuilderRouteEntry) => {
+      if (targetEntry.type === 'step') {
+        if (newEntry.stepId === targetEntry.stepId) {
+          return {
+            connected: true,
+            updatedNextEntry: {
+              ...targetEntry,
+              arrivedViaOptionId: newEntry.arrivedViaOptionId,
+              optionEffects: newEntry.optionEffects,
+            },
+            reuseNextEntry: true,
+          };
+        }
+
+        const nextStep = getRouteBuilderStep(activeGame, newEntry.stepId);
+        const connectorOption = nextStep?.options.find(option => option.targetStepId === targetEntry.stepId);
+
+        if (connectorOption) {
+          return {
+            connected: true,
+            updatedNextEntry: {
+              ...targetEntry,
+              arrivedViaOptionId: connectorOption.id,
+            },
+            reuseNextEntry: false,
+          };
+        }
+      }
+
+      if (targetEntry.type === 'trainerBattle' && newEntry.type === 'step') {
+        return {
+          connected: newEntry.stepId === targetEntry.stepId,
+          updatedNextEntry: targetEntry,
+          reuseNextEntry: true,
+        };
+      }
+
+      return { connected: false };
+    };
+
+    if (oldNextEntry) {
+      const { connected, updatedNextEntry, reuseNextEntry } = stepCanBridge(entry, oldNextEntry);
+
+      if (connected) {
+        if (reuseNextEntry) {
+          nextRoute = [
+            ...prefixRoute,
+            updatedNextEntry,
+            ...suffixRoute.slice(1),
+          ];
+        } else {
+          nextRoute = [
+            ...prefixRoute,
+            entry,
+            updatedNextEntry!!,
+            ...suffixRoute.slice(1),
+          ];
+        }
+
+        const shouldRecomputeSuffix = !reuseNextEntry || updatedNextEntry !== oldNextEntry;
+
+        if (shouldRecomputeSuffix) {
+          const suffixStart = reuseNextEntry ? insertionIndex : insertionIndex + 1;
+          const recomputedSuffix = recomputeSnapshotsFromIndex(nextRoute, suffixStart);
+          nextPartySnapshots = [...nextPartySnapshots, ...recomputedSuffix];
+        } else {
+          nextPartySnapshots = [...partySnapshots.slice(0, insertionIndex + 1)];
+        }
+
+        setSelectedRouteIndex(insertionIndex);
+      } else {
+        nextGapIndex = insertionIndex + 1;
+        nextPartySnapshots = [...nextPartySnapshots, ...partySnapshots.slice(insertionIndex)];
+        setSelectedRouteIndex(insertionIndex);
+      }
+    } else {
+      setSelectedRouteIndex(insertionIndex);
+    }
+
+    setRouteSession({ route: nextRoute, partySnapshots: nextPartySnapshots });
+    setRouteGapIndex(nextGapIndex);
+  }, [activeGame, route, partySnapshots, recomputeSnapshotsFromIndex]);
+
+  const handleTakeOption = useCallback((targetStepId: string, option: RouteBuilderOption) => {
+    if (option.id === 'use-item') {
+      setSelectedItem(null);
+      setIsSelectingItem(true);
+      return;
+    }
+
+    const newEntry: RouteBuilderRouteEntry = {
+      type: 'step',
+      stepId: targetStepId,
+      arrivedViaOptionId: option.id,
+      optionEffects: option.effects,
+    };
+
+    if (selectedRouteIndex !== null) {
+      if (selectedBattleActionIndex !== null) {
+        // Insert after the selected battle action
+        const historyItem = routeHistory.find(item => item.routeIndex === selectedRouteIndex);
+        if (historyItem?.battleActionEntries) {
+          const battleActionEntry = historyItem.battleActionEntries[selectedBattleActionIndex];
+          const insertionIndex = route.findIndex(entry => entry === battleActionEntry.entry) + 1;
+          handleControlRouteInsertion(newEntry, insertionIndex);
+          return;
+        }
+      } else if (selectedRouteIndex < route.length - 1) {
+        // Insert after the selected step
+        handleControlRouteInsertion(newEntry, selectedRouteIndex + 1);
+        return;
+      }
+    }
+
+    appendRouteEntry(newEntry);
+  }, [appendRouteEntry, selectedRouteIndex, selectedBattleActionIndex, handleControlRouteInsertion, routeHistory, route]);
+
   const handleUndo = useCallback(() => {
     setRouteSession(previousSession => {
+      if (!activeGame) return previousSession;
+
+      if (selectedRouteIndex !== null) {
+        if (selectedBattleActionIndex !== null) {
+          // Remove the currently selected battle action
+          const historyItem = routeHistory.find(item => item.routeIndex === selectedRouteIndex);
+          if (historyItem?.battleActionEntries) {
+            const routeIndexToRemove = getBattleActionRouteIndex(route, routeHistory, selectedRouteIndex, selectedBattleActionIndex);
+
+            if (routeIndexToRemove !== null && routeIndexToRemove !== -1) {
+              const newRoute = [
+                ...previousSession.route.slice(0, routeIndexToRemove),
+                ...previousSession.route.slice(routeIndexToRemove + 1),
+              ];
+              const newPartySnapshots = [
+                ...previousSession.partySnapshots.slice(0, routeIndexToRemove),
+                ...previousSession.partySnapshots.slice(routeIndexToRemove + 1),
+              ];
+
+              // Move selection to the next battle action after the removed one,
+              // or the previous one if the removed action was the last in the battle.
+              const remainingBattleActions = historyItem.battleActionEntries.length - 1;
+              if (remainingBattleActions > 0) {
+                const nextSelectionIndex = Math.min(selectedBattleActionIndex, remainingBattleActions - 1);
+                setSelectedBattleActionIndex(nextSelectionIndex);
+              } else {
+                setSelectedBattleActionIndex(null);
+              }
+
+              return {
+                route: newRoute,
+                partySnapshots: newPartySnapshots,
+              };
+            }
+          }
+        } else if (selectedRouteIndex < previousSession.route.length - 1) {
+          // Remove the currently selected step and check if it creates a gap
+          const removalIndex = selectedRouteIndex;
+          const newRoute = [
+            ...previousSession.route.slice(0, removalIndex),
+            ...previousSession.route.slice(removalIndex + 1),
+          ];
+          const newPartySnapshots = [
+            ...previousSession.partySnapshots.slice(0, removalIndex),
+            ...previousSession.partySnapshots.slice(removalIndex + 1),
+          ];
+
+          // Check if removing this step creates a gap
+          let newGapIndex: number | null = null;
+          if (removalIndex > 0 && removalIndex < newRoute.length) {
+            const prevEntry = newRoute[removalIndex - 1];
+            const nextEntry = newRoute[removalIndex];
+
+            // Check if these two entries can be connected
+            const canConnect = (() => {
+              if (prevEntry.type === 'step' && nextEntry.type === 'step') {
+                const prevStep = getRouteBuilderStep(activeGame, prevEntry.stepId);
+                const connectorOption = prevStep?.options.find(option => option.targetStepId === nextEntry.stepId);
+                return !!connectorOption;
+              }
+              if (prevEntry.type === 'trainerBattle' && nextEntry.type === 'step') {
+                return prevEntry.stepId === nextEntry.stepId;
+              }
+              return false;
+            })();
+
+            if (!canConnect) {
+              newGapIndex = removalIndex;
+            }
+          }
+
+          // Move selection to the previous step, or null if we removed the first step
+          setSelectedRouteIndex(removalIndex > 0 ? removalIndex - 1 : null);
+          setSelectedBattleActionIndex(null);
+          setRouteGapIndex(newGapIndex);
+
+          return {
+            route: newRoute,
+            partySnapshots: newPartySnapshots,
+          };
+        }
+      }
+
       if (previousSession.route.length <= 1) {
         return previousSession;
       }
@@ -479,20 +834,7 @@ const RouteBuilderPage: NextPage = () => {
         partySnapshots: previousSession.partySnapshots.slice(0, -entriesToRemove),
       };
     });
-  }, []);
-
-  const handleReset = useCallback(() => {
-    if (!activeGame) {
-      setRouteSession({ route: [], partySnapshots: [] });
-      return;
-    }
-
-    const nextRoute = buildInitialRoute(activeGame);
-    setRouteSession({
-      route: nextRoute,
-      partySnapshots: buildRouteBuilderPartySnapshots(activeGame, nextRoute),
-    });
-  }, [activeGame]);
+  }, [activeGame, selectedRouteIndex, selectedBattleActionIndex, routeHistory, getBattleActionRouteIndex]);
 
   const handleToggleExperienceRoute = useCallback((pokemonKey: string) => {
     setExpandedExperienceRoutes(previousState => ({
@@ -625,6 +967,9 @@ const RouteBuilderPage: NextPage = () => {
             <RouteHistorySection
               activeGame={activeGame}
               routeHistory={routeHistory}
+              selectedRouteIndex={selectedRouteIndex}
+              selectedBattleActionIndex={selectedBattleActionIndex}
+              onSelectRouteEntry={handleSelectRouteEntry}
               routeListRef={routeListRef}
             />
           </>

@@ -8,11 +8,21 @@ interface RouteHistoryItem {
   step: RouteBuilderStep | undefined;
   trainer?: RouteBuilderTrainer;
   substeps: string[];
+  routeIndex: number;
+  gapBefore: boolean;
+  battleActionEntries?: Array<{
+    entry: RouteBuilderRouteEntry;
+    label: string;
+    isKo: boolean;
+  }>;
 }
 
 interface RouteHistorySectionProps {
   activeGame: RouteBuilderGameConfig | null;
   routeHistory: RouteHistoryItem[];
+  selectedRouteIndex: number | null;
+  selectedBattleActionIndex: number | null;
+  onSelectRouteEntry?: (routeIndex: number, battleActionIndex?: number) => void;
   routeListRef: React.RefObject<HTMLDivElement>;
 }
 
@@ -29,6 +39,9 @@ interface RouteHistorySectionProps {
 export const RouteHistorySection: React.FC<RouteHistorySectionProps> = ({
   activeGame,
   routeHistory,
+  selectedRouteIndex,
+  selectedBattleActionIndex,
+  onSelectRouteEntry,
   routeListRef,
 }) => {
   if (!activeGame) {
@@ -41,23 +54,44 @@ export const RouteHistorySection: React.FC<RouteHistorySectionProps> = ({
     <>
       <InputSubheader>Route History</InputSubheader>
       <RouteList ref={routeListRef}>
-        {routeHistory.map(({ entry, step, trainer, substeps }, index) => (
-          <RouteEntryCard key={`${entry.stepId}-${index}`} variant={index === routeHistory.length - 1 ? 'success' : 'neutral'}>
-            <RouteEntryIndex>{index + 1}</RouteEntryIndex>
-            <RouteEntryBody>
-              <RouteEntryName>{trainer ? `Battle ${trainer.name}` : step?.name ?? entry.stepId}</RouteEntryName>
-              <RouteEntryMeta>
-                {index === 0 ? `Start: ${activeGame.name}` : getRouteEntryLabel(activeGame, routeHistory[index - 1].entry, entry)}
-              </RouteEntryMeta>
-              {substeps.length > 0 && (
-                <BattleSubstepList>
-                  {substeps.map((substep, substepIndex) => (
-                    <BattleSubstep key={`${substep}-${substepIndex}`}>{substep}</BattleSubstep>
-                  ))}
-                </BattleSubstepList>
-              )}
-            </RouteEntryBody>
-          </RouteEntryCard>
+        {routeHistory.map(({ entry, step, trainer, substeps, routeIndex, gapBefore, battleActionEntries }, index) => (
+          <React.Fragment key={`${entry.stepId}-${routeIndex}`}> 
+            {gapBefore && (
+              <GapIndicator>Gap detected here — the remainder of the route is no longer connected.</GapIndicator>
+            )}
+            <RouteEntryCard
+              variant={
+                routeIndex === selectedRouteIndex && selectedBattleActionIndex === null
+                  ? 'success'
+                  : index === routeHistory.length - 1 && selectedBattleActionIndex === null ? 'success' : 'neutral'
+              }
+              selectable={Boolean(onSelectRouteEntry)}
+              selected={routeIndex === selectedRouteIndex && selectedBattleActionIndex === null}
+              onClick={() => onSelectRouteEntry?.(routeIndex)}
+            >
+              <RouteEntryIndex>{index + 1}</RouteEntryIndex>
+              <RouteEntryBody>
+                <RouteEntryName>{trainer ? `Battle ${trainer.name}` : step?.name ?? entry.stepId}</RouteEntryName>
+                <RouteEntryMeta>
+                  {index === 0 ? `Start: ${activeGame.name}` : getRouteEntryLabel(activeGame, routeHistory[index - 1].entry, entry)}
+                </RouteEntryMeta>
+                {battleActionEntries && battleActionEntries.length > 0 && (
+                  <BattleSubstepList>
+                    {battleActionEntries.map((battleAction, battleActionIndex) => (
+                      <BattleSubstep
+                        key={`${battleAction.entry.stepId}-${battleActionIndex}`}
+                        selectable={Boolean(onSelectRouteEntry)}
+                        selected={routeIndex === selectedRouteIndex && selectedBattleActionIndex === battleActionIndex}
+                        onClick={() => onSelectRouteEntry?.(routeIndex, battleActionIndex)}
+                      >
+                        {battleAction.label}
+                      </BattleSubstep>
+                    ))}
+                  </BattleSubstepList>
+                )}
+              </RouteEntryBody>
+            </RouteEntryCard>
+          </React.Fragment>
         ))}
       </RouteList>
     </>
@@ -99,12 +133,31 @@ const RouteList = styled.div`
   padding-top: 0.5rem;
 `;
 
-const RouteEntryCard = styled(Card)`
+const RouteEntryCard = styled(Card)<{ selectable: boolean; selected: boolean }>`
   display: flex;
   align-items: flex-start;
   gap: 1rem;
   margin: 0;
   padding: 0.75rem 1rem;
+  cursor: ${({ selectable }) => (selectable ? 'pointer' : 'default')};
+  border-color: ${({ theme, selected }) => (selected ? theme.primary : theme.input.border)};
+  background-color: ${({ theme, selected }) => (selected ? theme.primaryBackground ?? '#f0f8ff' : 'inherit')};
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: ${({ selectable, theme, selected }) => (selectable && !selected ? theme.input.background : selected ? theme.primaryBackground ?? '#f0f8ff' : 'inherit')};
+  }
+`;
+
+const GapIndicator = styled.div`
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  color: ${({ theme }) => theme.danger ?? '#c0392b'};
+  background: ${({ theme }) => theme.dangerBackground ?? 'rgba(192, 57, 43, 0.08)'};
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
 `;
 
 const RouteEntryIndex = styled.div`
@@ -141,7 +194,16 @@ const BattleSubstepList = styled.div`
   border-left: 2px solid ${({ theme }) => theme.input.border};
 `;
 
-const BattleSubstep = styled.div`
-  color: ${({ theme }) => theme.label};
+const BattleSubstep = styled.div<{ selectable?: boolean; selected?: boolean }>`
+  color: ${({ theme, selected }) => selected ? theme.success : theme.label};
   font-size: 0.95rem;
+  cursor: ${({ selectable }) => selectable ? 'pointer' : 'default'};
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  background-color: ${({ theme, selected }) => selected ? theme.successBackground : 'transparent'};
+  border: 1px solid ${({ theme, selected }) => selected ? theme.success : 'transparent'};
+
+  &:hover {
+    background-color: ${({ theme, selectable }) => selectable ? theme.input.background : 'transparent'};
+  }
 `;

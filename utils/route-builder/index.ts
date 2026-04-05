@@ -47,6 +47,14 @@ export {
   getAvailableTrainerBattleActions,
 } from './battleCalculations';
 
+// Editing helpers
+export {
+  getRouteHistoryItemForRouteIndex,
+  getBattleActionRouteIndex,
+  getBattleActionInsertionIndex,
+  removeSelectedBattleActionEntry,
+} from './routeEditing';
+
 // Validation & Import/Export
 export {
   parseRouteBuilderImport,
