@@ -17,7 +17,7 @@ const mockTrainerData = {
 };
 
 jest.mock('../gameConfig', () => ({
-  getRouteBuilderStep: jest.fn((game, stepId) => game.steps.find(s => s.id === stepId)),
+  getRouteBuilderStep: jest.fn((game: RouteBuilderGameConfig, stepId: string) => game.steps.find(s => s.id === stepId)),
   getTrainerData: jest.fn(() => mockTrainerData),
   getRouteBuilderPokemonData: jest.fn(() => ({
     growthRate: 'medium-slow',
@@ -75,6 +75,7 @@ const mockGameConfig: RouteBuilderGameConfig = {
           evs: { hp: 0, attack: 0, defense: 0, specialAttack: 0, specialDefense: 0, speed: 0 },
           ivs: { hp: 31, attack: 31, defense: 31, specialAttack: 31, specialDefense: 31, speed: 31 },
         },
+        onKoTargetStepId: 'some-step',
       },
     },
   ],

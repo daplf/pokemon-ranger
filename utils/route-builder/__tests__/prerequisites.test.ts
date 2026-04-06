@@ -62,7 +62,7 @@ const mockTrainerData = {
 };
 
 jest.mock('../gameConfig', () => ({
-  getRouteBuilderStep: jest.fn((game, stepId) => game.steps.find(s => s.id === stepId)),
+  getRouteBuilderStep: jest.fn((game: RouteBuilderGameConfig, stepId: string) => game.steps.find(s => s.id === stepId)),
   getTrainerData: jest.fn(() => mockTrainerData),
   getAreaTrainerList: jest.fn(() => ({ trainerIds: ['trainer-1'] })),
   getRouteBuilderGame: jest.fn(() => mockGameConfig),
@@ -93,8 +93,8 @@ describe('Prerequisites', () => {
     const mockGetDefeatedTrainerIds = getDefeatedTrainerIds;
     const mockGetTrainerData = getTrainerData;
     
-    mockGetDefeatedTrainerIds.mockReturnValue(['trainer-1']);
-    mockGetTrainerData.mockReturnValue({
+    (mockGetDefeatedTrainerIds as jest.Mock).mockReturnValue(['trainer-1']);
+    (mockGetTrainerData as jest.Mock).mockReturnValue({
       id: 'trainer-1',
       pokemon: [{
         species: 'Pidgey',

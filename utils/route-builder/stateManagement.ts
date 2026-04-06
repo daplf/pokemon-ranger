@@ -14,6 +14,7 @@ import {
   RouteBuilderOption,
   RouteBuilderBattleAction,
   RouteBuilderActiveTrainerBattle,
+  RouteBuilderTrainerPokemon,
 } from './types';
 import { getRouteBuilderPokemonData, getTrainerData, getRouteBuilderItemData, getRouteBuilderStep } from './gameConfig';
 
@@ -764,7 +765,7 @@ export function prerequisitesAreMet(
 /**
  * Helper: converts trainer Pokemon to battle Pokemon
  */
-export function asBattlePokemon(pokemon: RouteBuilderBattlePokemon): RouteBuilderBattlePokemon {
+export function asBattlePokemon(pokemon: RouteBuilderBattlePokemon | RouteBuilderTrainerPokemon): RouteBuilderBattlePokemon {
   return {
     species: pokemon.species,
     level: pokemon.level,

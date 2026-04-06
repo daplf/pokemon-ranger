@@ -91,7 +91,7 @@ export function removeSelectedBattleEntry(
     && isKoEntry(route[removalEndIndex - 1])
     && route[removalEndIndex]?.type === 'step'
     && typeof route[removalEndIndex].arrivedViaOptionId === 'string'
-    && route[removalEndIndex].arrivedViaOptionId.includes('ko')
+    && route[removalEndIndex]?.arrivedViaOptionId?.includes('ko')
   ) {
     removalEndIndex += 1;
   }

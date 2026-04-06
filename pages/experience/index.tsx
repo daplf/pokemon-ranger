@@ -583,7 +583,7 @@ const ExperienceRoute: NextPage = () => {
                 <Checkbox id="speciesExpShare" data-checked={expShareEnabledValue} onClick={() => setExpShareEnabledValue(!expShareEnabledValue)} />
                 <HelpText>Is this Pokémon affected by an Exp. Share?</HelpText>
               </InputRow>
-              {generation < 6 && (
+              {typeof generation === 'number' && generation < 6 && (
                 <InputRow>
                   <label htmlFor="speciesOtherExpShare">Other Pokémon w/ Exp. Share</label>
                   <input id="speciesOtherExpShare" type="number" value={otherPokemonHoldingExperienceShareValue} onChange={event => setOtherPokemonHoldingExperienceShareValue(Number(event.target.value))} />
@@ -607,7 +607,7 @@ const ExperienceRoute: NextPage = () => {
                 <Checkbox id="speciesAffectionBoost" data-checked={hasAffectionBoostValue} onClick={() => setHasAffectionBoostValue(!hasAffectionBoostValue)} />
                 <HelpText>Does the Pokémon have an Affection of at least 2?</HelpText>
               </InputRow>
-              {generation >= 6 && (
+              {typeof generation === 'number' && generation >= 6 && (
                 <InputRow>
                   <label htmlFor="speciesPastEvolution">Past Evolution Level</label>
                   <Checkbox id="speciesPastEvolution" data-checked={isPastEvolutionPointValue} onClick={() => setIsPastEvolutionPointValue(!isPastEvolutionPointValue)} />
