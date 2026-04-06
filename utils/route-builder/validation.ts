@@ -8,6 +8,7 @@ import {
   getRouteBuilderStep,
   getTrainerData,
 } from './gameConfig';
+import { getRouteBuilderBattleAction } from './stateManagement';
 
 /**
  * Validates and parses imported route JSON data
@@ -159,10 +160,9 @@ function validateStepTransition(
 
   if (matchingOption) {
     if (matchingOption.targetStepId !== entry.stepId) {
-      throw new Error(`Route entry does not match the selected step transition.`);
+      throw new Error('Route entry does not match the selected step transition.');
     }
   } else {
-    const { getRouteBuilderBattleAction } = require('./index');
     const matchingBattleAction = getRouteBuilderBattleAction(previousStep, entry.arrivedViaOptionId);
 
     if (matchingBattleAction?.type === 'ko' && previousStep?.battle?.onKoTargetStepId === entry.stepId) {
@@ -177,7 +177,7 @@ function validateStepTransition(
       return;
     }
 
-    throw new Error(`Route entry does not match a valid route transition.`);
+    throw new Error('Route entry does not match a valid route transition.');
   }
 }
 
@@ -189,7 +189,6 @@ function validateBattleActionEntry(
   entry: RouteBuilderRouteEntry,
   index: number,
 ): void {
-  const { getRouteBuilderBattleAction } = require('./index');
   const action = getRouteBuilderBattleAction(step, entry.battleActionId);
 
   if (!action) {
@@ -303,7 +302,7 @@ export function buildRouteExportData(
   gameId: string,
   route: RouteBuilderRouteEntry[],
   partySnapshots: any[][],
-) {
+): RouteBuilderExportData {
   return {
     version: 2,
     gameId,

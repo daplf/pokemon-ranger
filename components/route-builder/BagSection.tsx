@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Button } from '../../components/Button';
-import { InputSubheader } from '../../components/Layout';
+import { Button } from '../Button';
+import { InputSubheader } from '../Layout';
 
 interface BagSectionProps {
   bag: Record<string, number>;
@@ -11,7 +11,7 @@ interface BagSectionProps {
 
 /**
  * BagSection Component
- * 
+ *
  * Displays items collected during the route.
  * Can be expanded/collapsed to save space.
  */
@@ -19,32 +19,30 @@ export const BagSection: React.FC<BagSectionProps> = ({
   bag,
   isBagExpanded,
   onToggleBag,
-}) => {
-  return (
-    <Container>
-      <BagHeaderRow>
-        <InputSubheader>Bag</InputSubheader>
-        <Button onClick={onToggleBag}>
-          {isBagExpanded ? 'Hide' : 'Show'}
-        </Button>
-      </BagHeaderRow>
-      {isBagExpanded && (
-        Object.keys(bag).length > 0 ? (
-          <BagList>
-            {Object.entries(bag).map(([itemName, quantity]) => (
-              <BagItem key={itemName}>
-                <BagItemName>{itemName}</BagItemName>
-                <BagItemQty>x{quantity}</BagItemQty>
-              </BagItem>
-            ))}
-          </BagList>
-        ) : (
-          <BagEmpty>No items in bag</BagEmpty>
-        )
-      )}
-    </Container>
-  );
-};
+}) => (
+  <Container>
+    <BagHeaderRow>
+      <InputSubheader>Bag</InputSubheader>
+      <Button onClick={onToggleBag}>
+        {isBagExpanded ? 'Hide' : 'Show'}
+      </Button>
+    </BagHeaderRow>
+    {isBagExpanded && (
+      Object.keys(bag).length > 0 ? (
+        <BagList>
+          {Object.entries(bag).map(([itemName, quantity]) => (
+            <BagItem key={itemName}>
+              <BagItemName>{itemName}</BagItemName>
+              <BagItemQty>x{quantity}</BagItemQty>
+            </BagItem>
+          ))}
+        </BagList>
+      ) : (
+        <BagEmpty>No items in bag</BagEmpty>
+      )
+    )}
+  </Container>
+);
 
 const Container = styled.div`
   margin-bottom: 0.75rem;

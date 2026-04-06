@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Card, InputSubheader } from '../../components/Layout';
-import { RouteBuilderGameConfig, RouteBuilderRouteEntry, RouteBuilderStep, RouteBuilderTrainer } from '../../utils/route-builder';
+import { Card, InputSubheader } from '../Layout';
+import { getRouteBuilderStep, getRouteBuilderBattleAction, RouteBuilderGameConfig, RouteBuilderRouteEntry, RouteBuilderStep, RouteBuilderTrainer } from '../../utils/route-builder';
 
 interface RouteHistoryItem {
   entry: RouteBuilderRouteEntry;
@@ -28,7 +28,7 @@ interface RouteHistorySectionProps {
 
 /**
  * RouteHistorySection Component
- * 
+ *
  * Displays the complete history of actions taken in the route.
  * Shows:
  * - Main steps visited
@@ -54,16 +54,22 @@ export const RouteHistorySection: React.FC<RouteHistorySectionProps> = ({
     <>
       <InputSubheader>Route History</InputSubheader>
       <RouteList ref={routeListRef}>
-        {routeHistory.map(({ entry, step, trainer, substeps, routeIndex, gapBefore, battleActionEntries }, index) => (
-          <React.Fragment key={`${entry.stepId}-${routeIndex}`}> 
+        {routeHistory.map(({ entry, step, trainer, routeIndex, gapBefore, battleActionEntries }, index) => (
+          <React.Fragment key={`${entry.stepId}-${routeIndex}`}>
             {gapBefore && (
               <GapIndicator>Gap detected here — the remainder of the route is no longer connected.</GapIndicator>
             )}
             <RouteEntryCard
               variant={
-                routeIndex === selectedRouteIndex && selectedBattleActionIndex === null
-                  ? 'success'
-                  : index === routeHistory.length - 1 && selectedBattleActionIndex === null ? 'success' : 'neutral'
+                (() => {
+                  if (routeIndex === selectedRouteIndex && selectedBattleActionIndex === null) {
+                    return 'success';
+                  }
+                  if (index === routeHistory.length - 1 && selectedBattleActionIndex === null) {
+                    return 'success';
+                  }
+                  return 'neutral';
+                })()
               }
               selectable={Boolean(onSelectRouteEntry)}
               selected={routeIndex === selectedRouteIndex && selectedBattleActionIndex === null}
@@ -82,7 +88,7 @@ export const RouteHistorySection: React.FC<RouteHistorySectionProps> = ({
                         key={`${battleAction.entry.stepId}-${battleActionIndex}`}
                         selectable={Boolean(onSelectRouteEntry)}
                         selected={routeIndex === selectedRouteIndex && selectedBattleActionIndex === battleActionIndex}
-                        onClick={(event) => { event.stopPropagation();  onSelectRouteEntry?.(routeIndex, battleActionIndex) }}
+                        onClick={event => { event.stopPropagation(); onSelectRouteEntry?.(routeIndex, battleActionIndex); }}
                       >
                         {battleAction.label}
                       </BattleSubstep>
@@ -104,14 +110,12 @@ function getRouteEntryLabel(
   currentEntry: RouteBuilderRouteEntry,
 ): string {
   if (currentEntry.arrivedViaOptionId && currentEntry.type === 'step') {
-    const { getRouteBuilderStep, getRouteBuilderBattleAction } = require('../../utils/route-builder');
     const previousStep = getRouteBuilderStep(game, previousEntry.stepId);
     const battleAction = getRouteBuilderBattleAction(previousStep, currentEntry.arrivedViaOptionId);
 
     if (battleAction) return battleAction.label;
   }
 
-  const { getRouteBuilderStep } = require('../../utils/route-builder');
   const previousStep = getRouteBuilderStep(game, previousEntry.stepId);
   const option = previousStep?.options.find((item: any) => item.id === currentEntry.arrivedViaOptionId);
 
@@ -145,7 +149,11 @@ const RouteEntryCard = styled(Card)<{ selectable: boolean; selected: boolean }>`
   transition: background-color 0.15s ease;
 
   &:hover {
-    background-color: ${({ selectable, theme, selected }) => (selectable && !selected ? theme.input.background : selected ? theme.primaryBackground ?? '#f0f8ff' : 'inherit')};
+    background-color: ${({ selectable, theme, selected }) => ((() => {
+    if (selectable && !selected) return theme.input.background;
+    if (selected) return theme.primaryBackground ?? '#f0f8ff';
+    return 'inherit';
+  })())};
   }
 `;
 

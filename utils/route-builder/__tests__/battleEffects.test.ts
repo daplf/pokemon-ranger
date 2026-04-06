@@ -1,5 +1,5 @@
 import { applyBattleActionEntry, getRouteBuilderRuntimeState, getAvailableOptionsForStep } from '../stateManagement';
-import { RouteBuilderGameConfig, RouteBuilderRouteEntry, RouteBuilderRuntimeState } from '../types';
+import { RouteBuilderGameConfig, RouteBuilderRouteEntry } from '../types';
 
 // Mock game config with battle that has effects
 const mockGameConfig: RouteBuilderGameConfig = {
@@ -230,12 +230,16 @@ describe('Battle Effects', () => {
         },
       ];
 
-      const route201Step = mockGameConfig.steps.find(s => s.id === 'route-201')!;
-      const availableOptions = getAvailableOptionsForStep(mockGameConfig, route201Step, route);
+      const route201Step = mockGameConfig.steps.find(s => s.id === 'route-201');
+      if (route201Step) {
+        const availableOptions = getAvailableOptionsForStep(mockGameConfig, route201Step, route);
 
-      // Lake Verity should be available since justFinishedStarterBattle is false
-      expect(availableOptions.map(o => o.id)).toContain('route-201-to-lake-verity');
-      expect(availableOptions.map(o => o.id)).toContain('route-201-to-twinleaf');
+        // Lake Verity should be available since justFinishedStarterBattle is false
+        expect(availableOptions.map(o => o.id)).toContain('route-201-to-lake-verity');
+        expect(availableOptions.map(o => o.id)).toContain('route-201-to-twinleaf');
+      } else {
+        fail('route201Step should not be null');
+      }
     });
 
     it('hides Lake Verity option after finishing starter battle (KOing Starly)', () => {
@@ -259,13 +263,17 @@ describe('Battle Effects', () => {
         },
       ];
 
-      const route201Step = mockGameConfig.steps.find(s => s.id === 'route-201')!;
-      const availableOptions = getAvailableOptionsForStep(mockGameConfig, route201Step, route);
+      const route201Step = mockGameConfig.steps.find(s => s.id === 'route-201');
+      if (route201Step) {
+        const availableOptions = getAvailableOptionsForStep(mockGameConfig, route201Step, route);
 
-      // Lake Verity should NOT be available since justFinishedStarterBattle is now true
-      expect(availableOptions.map(o => o.id)).not.toContain('route-201-to-lake-verity');
-      // But Twinleaf should still be available
-      expect(availableOptions.map(o => o.id)).toContain('route-201-to-twinleaf');
+        // Lake Verity should NOT be available since justFinishedStarterBattle is now true
+        expect(availableOptions.map(o => o.id)).not.toContain('route-201-to-lake-verity');
+        // But Twinleaf should still be available
+        expect(availableOptions.map(o => o.id)).toContain('route-201-to-twinleaf');
+      } else {
+        fail('route201Step should not be null');
+      }
     });
   });
 });

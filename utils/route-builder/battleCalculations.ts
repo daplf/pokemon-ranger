@@ -16,14 +16,16 @@ import {
   RouteBuilderGameConfig,
   RouteBuilderPokemonInParty,
   RouteBuilderBattlePokemon,
-  RouteBuilderMoveData,
   RouteBuilderTrainerBattleAction,
   RouteBuilderResolvedBattleAction,
   RouteBuilderRouteEntry,
   RouteBuilderStatSpread,
   RouteBuilderActiveTrainerBattle,
+  RouteBuilderTrainer,
 } from './types';
 import {
+  getAreaTrainerList,
+  getRouteBuilderGame,
   getRouteBuilderPokemonData,
   getRouteBuilderMoveData,
   getTrainerData,
@@ -33,9 +35,10 @@ import {
   buildRouteBuilderState,
   clonePartyState,
   getDefeatedTrainerIds,
-  getUnlockedHms,
   getAvailableBagItems,
   asBattlePokemon,
+  prerequisitesAreMet,
+  getUnlockedHms,
 } from './stateManagement';
 
 /**
@@ -93,23 +96,26 @@ export function getAvailableTrainersForStep(
   gameId: string,
   stepId: string,
   route: RouteBuilderRouteEntry[],
-) {
-  const { getAreaTrainerList, getRouteBuilderGame } = require('./gameConfig');
+): RouteBuilderTrainer[] {
   const area = getAreaTrainerList(gameId, stepId);
 
-  if (!area) return [];
+  if (area) {
+    const beatenTrainerIds = getDefeatedTrainerIds(gameId, route);
+    const unlockedHms = getUnlockedHmsByGameId(gameId, route);
+    const game = getRouteBuilderGame(gameId);
 
-  const beatenTrainerIds = getDefeatedTrainerIds(gameId, route);
-  const unlockedHms = getUnlockedHmsByGameId(gameId, route);
-  const game = getRouteBuilderGame(gameId);
-  const { buildRouteBuilderState } = require('./stateManagement');
-  const state = buildRouteBuilderState(game, route);
-  const progressionFlags = state.progressionFlags || {};
+    if (game) {
+      const state = buildRouteBuilderState(game, route);
+      const progressionFlags = state.progressionFlags || {};
 
-  return area.trainerIds
-    .map((trainerId: string) => getTrainerData(gameId, trainerId))
-    .filter((trainer: any) => Boolean(trainer))
-    .filter((trainer: any) => trainerIsAvailable(trainer, beatenTrainerIds, unlockedHms, progressionFlags));
+      return area.trainerIds
+        .map((trainerId: string) => getTrainerData(gameId, trainerId))
+        .filter((trainer: RouteBuilderTrainer | undefined): trainer is RouteBuilderTrainer => trainer !== undefined)
+        .filter((trainer: any) => trainerIsAvailable(trainer, beatenTrainerIds, unlockedHms, progressionFlags));
+    }
+  }
+
+  return [];
 }
 
 /**
@@ -118,7 +124,6 @@ export function getAvailableTrainersForStep(
 function trainerIsAvailable(trainer: any, beatenTrainerIds: string[], unlockedHms: any[], progressionFlags: Record<string, any>): boolean {
   if (beatenTrainerIds.includes(trainer.id)) return false;
 
-  const { prerequisitesAreMet } = require('./stateManagement');
   return prerequisitesAreMet(trainer.prerequisites, beatenTrainerIds, unlockedHms, {}, progressionFlags);
 }
 
@@ -126,8 +131,6 @@ function trainerIsAvailable(trainer: any, beatenTrainerIds: string[], unlockedHm
  * Helper: gets unlocked HMs by game ID
  */
 function getUnlockedHmsByGameId(gameId: string, route: RouteBuilderRouteEntry[]): any[] {
-  const { getRouteBuilderGame } = require('./gameConfig');
-  const { getUnlockedHms } = require('./stateManagement');
   const game = getRouteBuilderGame(gameId);
 
   if (!game) return [];
@@ -154,7 +157,6 @@ function calculateBattleDamage(
   if (moveData.category === 'status' || moveData.power <= 0) return null;
 
   const offensiveStat = moveData.category === 'physical' ? 'attack' : 'spAttack';
-  const defenseStat = moveData.category === 'physical' ? 'defense' : 'spDefense';
   const attackStat = moveData.category === 'physical' ? attackerStats.attack : attackerStats.spAttack;
   const defenseStat2 = moveData.category === 'physical' ? defenderStats.defense : defenderStats.spDefense;
   const stabModifier = attackerData.types.includes(moveData.type) ? 1.5 : 1;
@@ -340,10 +342,10 @@ function hasBattleActionsAfterCurrentStep(route: RouteBuilderRouteEntry[]): bool
   const lastStepIndex = route.length - 1 - [...route].reverse().findIndex(entry => entry.type === 'step');
   
   // Check if there is already a KO action after the last step
-  for (let i = lastStepIndex + 1; i < route.length; i++) {
+  for (let i = lastStepIndex + 1; i < route.length; i += 1) {
     const entry = route[i];
-    if ((entry.type === 'battleAction' && entry.battleActionId === 'ko') ||
-        (entry.type === 'trainerBattleAction' && entry.trainerBattleActionType === 'ko')) {
+    if ((entry.type === 'battleAction' && entry.battleActionId === 'ko')
+        || (entry.type === 'trainerBattleAction' && entry.trainerBattleActionType === 'ko')) {
       return true;
     }
   }
@@ -360,7 +362,6 @@ export function getAvailableRouteBuilderBattleActions(
   route: RouteBuilderRouteEntry[],
   partyOverride?: RouteBuilderPokemonInParty[],
 ): RouteBuilderResolvedBattleAction[] {
-  const { getCurrentRouteBuilderStep } = require('./stateManagement');
   const currentStep = getCurrentRouteBuilderStep(game, route);
 
   if (!currentStep?.battle) return [];
@@ -412,7 +413,7 @@ export function getAvailableRouteBuilderBattleActions(
   // Always add KO action as the final option
   actions.push({
     id: 'ko',
-    label: `KO the opponent`,
+    label: 'KO the opponent',
     description: 'End the battle.',
     type: 'ko' as const,
   });

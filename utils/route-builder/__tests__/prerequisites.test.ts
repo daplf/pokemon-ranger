@@ -1,6 +1,7 @@
-import { getAvailableOptionsForStep } from '../stateManagement';
+import { getAvailableOptionsForStep, getDefeatedTrainerIds } from '../stateManagement';
 import { getAvailableTrainersForStep } from '../battleCalculations';
 import { RouteBuilderGameConfig, RouteBuilderRouteEntry } from '../types';
+import { getTrainerData } from '../gameConfig';
 
 const mockGameConfig: RouteBuilderGameConfig = {
   id: 'test',
@@ -65,11 +66,11 @@ jest.mock('../gameConfig', () => ({
   getTrainerData: jest.fn(() => mockTrainerData),
   getAreaTrainerList: jest.fn(() => ({ trainerIds: ['trainer-1'] })),
   getRouteBuilderGame: jest.fn(() => mockGameConfig),
-  getRouteBuilderPokemonData: jest.fn(() => ({ 
+  getRouteBuilderPokemonData: jest.fn(() => ({
     growthRate: 'medium-slow',
     evYield: { hp: 1, attack: 0, defense: 0, specialAttack: 0, specialDefense: 0, speed: 0 },
     learnset: [],
-    baseExperience: 50
+    baseExperience: 50,
   })),
 }));
 
@@ -89,19 +90,19 @@ describe('Prerequisites', () => {
   });
 
   it('returns trainer prerequisite options when trainer is defeated', () => {
-    const mockGetDefeatedTrainerIds = require('../stateManagement').getDefeatedTrainerIds;
-    const mockGetTrainerData = require('../gameConfig').getTrainerData;
+    const mockGetDefeatedTrainerIds = getDefeatedTrainerIds;
+    const mockGetTrainerData = getTrainerData;
     
     mockGetDefeatedTrainerIds.mockReturnValue(['trainer-1']);
-    mockGetTrainerData.mockReturnValue({ 
-      id: 'trainer-1', 
+    mockGetTrainerData.mockReturnValue({
+      id: 'trainer-1',
       pokemon: [{
         species: 'Pidgey',
         level: 2,
         nature: 'hardy',
         evs: { hp: 0, attack: 0, defense: 0, specialAttack: 0, specialDefense: 0, speed: 0 },
         ivs: { hp: 31, attack: 31, defense: 31, specialAttack: 31, specialDefense: 31, speed: 31 },
-      }] 
+      }],
     });
 
     const route: RouteBuilderRouteEntry[] = [

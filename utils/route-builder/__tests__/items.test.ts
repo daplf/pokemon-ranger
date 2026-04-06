@@ -1,4 +1,4 @@
-import { applyRouteBuilderEntry, getAvailableOptionsForStep, getAvailableBagItems } from '../stateManagement';
+import { applyRouteBuilderEntry, getAvailableOptionsForStep } from '../stateManagement';
 import { RouteBuilderGameConfig, RouteBuilderRouteEntry, RouteBuilderRuntimeState } from '../types';
 
 const mockGameConfig: RouteBuilderGameConfig = {
@@ -78,7 +78,7 @@ describe('Item Management', () => {
       };
 
       const newState = applyRouteBuilderEntry(mockGameConfig, initialState, pickupEntry, 0);
-      expect(newState.bag['Potion']).toBe(1);
+      expect(newState.bag.Potion).toBe(1);
     });
 
     it('accumulates quantity when picking up the same item multiple times', () => {
@@ -100,7 +100,7 @@ describe('Item Management', () => {
             },
           ],
         },
-        0
+        0,
       );
 
       // Second pickup
@@ -119,10 +119,10 @@ describe('Item Management', () => {
             },
           ],
         },
-        1
+        1,
       );
 
-      expect(state.bag['Potion']).toBe(2);
+      expect(state.bag.Potion).toBe(2);
     });
   });
 
@@ -155,7 +155,7 @@ describe('Item Management', () => {
         label: 'Used Potion on Turtwig',
       }, 0);
 
-      expect(newState.bag['Potion']).toBe(1);
+      expect(newState.bag.Potion).toBe(1);
     });
 
     it('removes item from bag when quantity reaches zero', () => {
@@ -186,7 +186,7 @@ describe('Item Management', () => {
         label: 'Used Potion on Turtwig',
       }, 0);
 
-      expect(newState.bag['Potion']).toBeUndefined();
+      expect(newState.bag.Potion).toBeUndefined();
       expect(newState.bag).toEqual({});
     });
   });

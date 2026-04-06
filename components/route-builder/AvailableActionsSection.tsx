@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Card, InputSubheader } from '../../components/Layout';
-import { Button } from '../../components/Button';
+import { Card, InputSubheader } from '../Layout';
+import { Button } from '../Button';
 import {
   RouteBuilderOption,
   RouteBuilderResolvedBattleAction,
@@ -27,7 +27,7 @@ interface AvailableActionsSectionProps {
 
 /**
  * AvailableActionsSection Component
- * 
+ *
  * Displays all possible actions the player can take from the current position.
  * Changes based on battle state:
  * - Not in battle: Show step options and available trainers
@@ -48,93 +48,95 @@ export const AvailableActionsSection: React.FC<AvailableActionsSectionProps> = (
   onStartTrainerBattle,
   onTakeTrainerBattleAction,
   onUndo,
-}) => {
-  return (
-    <Container>
-      <SectionHeaderRow>
-        <InputSubheader>{isInBattle ? 'Battle Actions' : 'Available Actions'}</InputSubheader>
-        <Button onClick={onUndo} disabled={route.length <= 1}>Undo</Button>
-      </SectionHeaderRow>
+}) => (
+  <Container>
+    <SectionHeaderRow>
+      <InputSubheader>{isInBattle ? 'Battle Actions' : 'Available Actions'}</InputSubheader>
+      <Button onClick={onUndo} disabled={route.length <= 1}>Undo</Button>
+    </SectionHeaderRow>
 
-      {!isInBattle && availableStepOptions.length === 0 && trainersInCurrentArea.length === 0 && (
-        <Card variant="warning">
-          <h3>No further actions are defined here yet.</h3>
-          <p>This is the end of the current prototype branch.</p>
-        </Card>
-      )}
+    {!isInBattle && availableStepOptions.length === 0 && trainersInCurrentArea.length === 0 && (
+    <Card variant="warning">
+      <h3>No further actions are defined here yet.</h3>
+      <p>This is the end of the current prototype branch.</p>
+    </Card>
+    )}
 
-      <OptionsList>
-        {/* Step Options */}
-        {!isInBattle && availableStepOptions.map(option => (
-          <OptionCard key={option.id} variant="borderless">
-            <div>
-              <OptionTitle>{option.label}</OptionTitle>
-              {option.description && <OptionDescription>{option.description}</OptionDescription>}
-            </div>
-            <Button onClick={() => onTakeOption?.(option.targetStepId, option)}>Take Step</Button>
-          </OptionCard>
-        ))}
+    <OptionsList>
+      {/* Step Options */}
+      {!isInBattle && availableStepOptions.map(option => (
+        <OptionCard key={option.id} variant="borderless">
+          <div>
+            <OptionTitle>{option.label}</OptionTitle>
+            {option.description && <OptionDescription>{option.description}</OptionDescription>}
+          </div>
+          <Button onClick={() => onTakeOption?.(option.targetStepId, option)}>Take Step</Button>
+        </OptionCard>
+      ))}
 
-        {/* Wild Battle Actions */}
-        {isInWildBattle && availableBattleActions.map(action => (
-          <OptionCard key={action.id} variant="borderless">
-            <div>
-              <OptionTitle>{action.label}</OptionTitle>
-              {action.description && <OptionDescription>{action.description}</OptionDescription>}
-              {'damageDetails' in action && action.damageDetails && action.damageDetails.length > 0 && (
-                <DamageDetailList>
-                  {action.damageDetails.map((detail, index) => (
-                    <DamageDetail key={`${action.id}-${index}`}>{detail}</DamageDetail>
-                  ))}
-                </DamageDetailList>
-              )}
-              {'damageSummary' in action && action.damageSummary && (!('damageDetails' in action) || !action.damageDetails || action.damageDetails.length === 0) && (
-                <OptionDescription>{action.damageSummary}</OptionDescription>
-              )}
-            </div>
-            <Button onClick={() => onTakeBattleAction?.(action)}>
-              {action.type === 'ko' ? 'End Battle' : action.type === 'item' ? 'Use Item' : 'Use Move'}
-            </Button>
-          </OptionCard>
-        ))}
+      {/* Wild Battle Actions */}
+      {isInWildBattle && availableBattleActions.map(action => (
+        <OptionCard key={action.id} variant="borderless">
+          <div>
+            <OptionTitle>{action.label}</OptionTitle>
+            {action.description && <OptionDescription>{action.description}</OptionDescription>}
+            {'damageDetails' in action && action.damageDetails && action.damageDetails.length > 0 && (
+            <DamageDetailList>
+              {action.damageDetails.map((detail, index) => (
+                <DamageDetail key={`${action.id}-${index}`}>{detail}</DamageDetail>
+              ))}
+            </DamageDetailList>
+            )}
+            {'damageSummary' in action && action.damageSummary && (!('damageDetails' in action) || !action.damageDetails || action.damageDetails.length === 0) && (
+            <OptionDescription>{action.damageSummary}</OptionDescription>
+            )}
+          </div>
+          <Button onClick={() => onTakeBattleAction?.(action)}>
+            {(() => {
+              if (action.type === 'ko') return 'End Battle';
+              if (action.type === 'item') return 'Use Item';
+              return 'Use Move';
+            })()}
+          </Button>
+        </OptionCard>
+      ))}
 
-        {/* Trainer Battle Actions */}
-        {isInTrainerBattle && availableTrainerBattleActions.map(action => (
-          <OptionCard key={action.id} variant="borderless">
-            <div>
-              <OptionTitle>{action.label}</OptionTitle>
-              {action.description && <OptionDescription>{action.description}</OptionDescription>}
-              {action.damageDetails && action.damageDetails.length > 0 && (
-                <DamageDetailList>
-                  {action.damageDetails.map((detail, index) => (
-                    <DamageDetail key={`${action.id}-${index}`}>{detail}</DamageDetail>
-                  ))}
-                </DamageDetailList>
-              )}
-              {action.damageSummary && (!action.damageDetails || action.damageDetails.length === 0) && (
-                <OptionDescription>{action.damageSummary}</OptionDescription>
-              )}
-            </div>
-            <Button onClick={() => onTakeTrainerBattleAction?.(action)}>
-              {getTrainerBattleButtonLabel(action)}
-            </Button>
-          </OptionCard>
-        ))}
+      {/* Trainer Battle Actions */}
+      {isInTrainerBattle && availableTrainerBattleActions.map(action => (
+        <OptionCard key={action.id} variant="borderless">
+          <div>
+            <OptionTitle>{action.label}</OptionTitle>
+            {action.description && <OptionDescription>{action.description}</OptionDescription>}
+            {action.damageDetails && action.damageDetails.length > 0 && (
+            <DamageDetailList>
+              {action.damageDetails.map((detail, index) => (
+                <DamageDetail key={`${action.id}-${index}`}>{detail}</DamageDetail>
+              ))}
+            </DamageDetailList>
+            )}
+            {action.damageSummary && (!action.damageDetails || action.damageDetails.length === 0) && (
+            <OptionDescription>{action.damageSummary}</OptionDescription>
+            )}
+          </div>
+          <Button onClick={() => onTakeTrainerBattleAction?.(action)}>
+            {getTrainerBattleButtonLabel(action)}
+          </Button>
+        </OptionCard>
+      ))}
 
-        {/* Available Trainers */}
-        {!isInBattle && trainersInCurrentArea.map(trainer => (
-          <OptionCard key={trainer.id} variant="borderless">
-            <div>
-              <OptionTitle>Battle {trainer.name}</OptionTitle>
-              <OptionDescription>{trainer.pokemon.map(pokemon => `${pokemon.species} Lv. ${pokemon.level}`).join(', ')}</OptionDescription>
-            </div>
-            <Button onClick={() => onStartTrainerBattle?.(trainer)}>Start Battle</Button>
-          </OptionCard>
-        ))}
-      </OptionsList>
-    </Container>
-  );
-};
+      {/* Available Trainers */}
+      {!isInBattle && trainersInCurrentArea.map(trainer => (
+        <OptionCard key={trainer.id} variant="borderless">
+          <div>
+            <OptionTitle>Battle {trainer.name}</OptionTitle>
+            <OptionDescription>{trainer.pokemon.map(pokemon => `${pokemon.species} Lv. ${pokemon.level}`).join(', ')}</OptionDescription>
+          </div>
+          <Button onClick={() => onStartTrainerBattle?.(trainer)}>Start Battle</Button>
+        </OptionCard>
+      ))}
+    </OptionsList>
+  </Container>
+);
 
 function getTrainerBattleButtonLabel(action: RouteBuilderTrainerBattleAction): string {
   if (action.type === 'selectPokemon') return 'Choose Pokemon';

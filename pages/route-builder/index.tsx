@@ -14,7 +14,6 @@ import {
 } from '../../components/route-builder';
 import {
   // Types
-  RouteBuilderGameConfig,
   RouteBuilderPokemonInParty,
   RouteBuilderRouteEntry,
   RouteBuilderStep,
@@ -29,7 +28,6 @@ import {
   // State Management
   getCurrentRouteBuilderStep,
   buildInitialRoute,
-  buildRouteBuilderState,
   getRouteBuilderRuntimeState,
   applyRouteBuilderEntry,
   clonePartyState,
@@ -46,7 +44,7 @@ import {
   getRouteEntriesToUndo,
   getBattleActionInsertionIndex,
   getBattleActionRouteIndex,
-  removeSelectedBattleActionEntry,
+  getTrainerData,
   removeSelectedBattleEntry,
   // Validation & Import/Export
   parseRouteBuilderImport,
@@ -74,10 +72,10 @@ interface RouteHistoryItem {
 
 /**
  * RouteBuilderPage
- * 
+ *
  * Main page component for the route builder feature. Orchestrates all sub-components
  * and manages the application state for route building.
- * 
+ *
  * Key responsibilities:
  * - Game selection and initialization
  * - Route state management (route entries and party snapshots)
@@ -119,28 +117,28 @@ const RouteBuilderPage: NextPage = () => {
       let currentStepIndex = 0;
       let currentBattleActionIndex = 0;
 
-      for (let i = 0; i < route.length && currentStepIndex <= selectedRouteIndex; i++) {
+      for (let i = 0; i < route.length && currentStepIndex <= selectedRouteIndex; i += 1) {
         const entry = route[i];
         if (entry.type === 'step' || entry.type === 'trainerBattle') {
           if (currentStepIndex < selectedRouteIndex) {
             // Count all battle actions for previous steps
             let j = i + 1;
             while (j < route.length && (route[j].type === 'battleAction' || route[j].type === 'itemUsage')) {
-              battleActionCount++;
-              j++;
+              battleActionCount += 1;
+              j += 1;
             }
             i = j - 1; // Skip the battle actions we just counted
           } else if (currentStepIndex === selectedRouteIndex) {
             // Count battle actions up to but not including the selected one for the current step
             let j = i + 1;
             while (j < route.length && (route[j].type === 'battleAction' || route[j].type === 'itemUsage') && currentBattleActionIndex < selectedBattleActionIndex) {
-              battleActionCount++;
-              currentBattleActionIndex++;
-              j++;
+              battleActionCount += 1;
+              currentBattleActionIndex += 1;
+              j += 1;
             }
             break;
           }
-          currentStepIndex++;
+          currentStepIndex += 1;
         }
       }
       prefixLength += battleActionCount;
@@ -165,7 +163,7 @@ const RouteBuilderPage: NextPage = () => {
     const historyItems: Array<RouteHistoryItem> = [];
     let currentBattleActions: Array<{entry: RouteBuilderRouteEntry, label: string, isKo: boolean}> = [];
 
-    for (let entryIndex = 0; entryIndex < route.length; entryIndex++) {
+    for (let entryIndex = 0; entryIndex < route.length; entryIndex += 1) {
       const entry = route[entryIndex];
       const gapBefore = routeGapIndex !== null && routeGapIndex === entryIndex;
 
@@ -190,18 +188,18 @@ const RouteBuilderPage: NextPage = () => {
           currentBattleActions = [];
         }
 
-        const trainer = entry.trainerId ? require('../../utils/route-builder').getTrainerData(activeGame.id, entry.trainerId) : undefined;
+        const trainer = entry.trainerId ? getTrainerData(activeGame.id, entry.trainerId) : undefined;
 
-        if (!trainer) continue;
-
-        historyItems.push({
-          entry,
-          step: undefined,
-          trainer,
-          substeps: [],
-          routeIndex: entryIndex,
-          gapBefore,
-        });
+        if (trainer) {
+          historyItems.push({
+            entry,
+            step: undefined,
+            trainer,
+            substeps: [],
+            routeIndex: entryIndex,
+            gapBefore,
+          });
+        }
       } else if (entry.type === 'battleAction' || entry.type === 'itemUsage') {
         const battleAction = entry.type === 'battleAction'
           ? getRouteBuilderBattleAction(historyItems[historyItems.length - 1]?.step, entry.battleActionId)
@@ -225,7 +223,6 @@ const RouteBuilderPage: NextPage = () => {
   }, [activeGame, route, routeGapIndex]);
 
   const selectedBattleHasKo = useMemo(() => {
-    console.log("D1")
     if (selectedRouteIndex === null || selectedBattleActionIndex !== null) return false;
     const historyItem = routeHistory.find(item => item.routeIndex === selectedRouteIndex);
     return Boolean(historyItem?.battleActionEntries?.some(entry => entry.isKo));
@@ -386,7 +383,6 @@ const RouteBuilderPage: NextPage = () => {
     if (!activeGame) return;
 
     setRouteSession(previousSession => {
-      const { getRouteBuilderRuntimeState, applyRouteBuilderEntry } = require('../../utils/route-builder');
       const runtimeState = previousSession.partySnapshots.length > 0
         ? getRouteBuilderRuntimeState(
           activeGame,
@@ -507,7 +503,7 @@ const RouteBuilderPage: NextPage = () => {
         arrivedViaOptionId: action.id,
       });
     }
-  }, [appendRouteEntry, currentStep, getBattleActionInsertionIndex, insertRouteEntryAtIndex, route, routeHistory, selectedBattleActionIndex, selectedRouteIndex]);
+  }, [appendRouteEntry, currentStep, insertRouteEntryAtIndex, route, routeHistory, selectedBattleActionIndex, selectedRouteIndex]);
 
   const handleStartTrainerBattle = useCallback((trainer: RouteBuilderTrainer) => {
     if (!currentStep) return;
@@ -679,11 +675,11 @@ const RouteBuilderPage: NextPage = () => {
             updatedNextEntry,
             ...suffixRoute.slice(1),
           ];
-        } else {
+        } else if (updatedNextEntry) {
           nextRoute = [
             ...prefixRoute,
             entry,
-            updatedNextEntry!!,
+            updatedNextEntry,
             ...suffixRoute.slice(1),
           ];
         }
@@ -793,7 +789,7 @@ const RouteBuilderPage: NextPage = () => {
           }
         } else {
           // If a whole battle entry is selected, remove the entire battle sequence.
-          const newRoute = removeSelectedBattleEntry(previousSession.route, selectedRouteIndex);
+          let newRoute = removeSelectedBattleEntry(previousSession.route, selectedRouteIndex);
           if (newRoute.length !== previousSession.route.length) {
             const removeCount = previousSession.route.length - newRoute.length;
             const newPartySnapshots = [
@@ -836,7 +832,7 @@ const RouteBuilderPage: NextPage = () => {
           if (selectedRouteIndex < previousSession.route.length - 1) {
             // Remove the currently selected step and check if it creates a gap
             const removalIndex = selectedRouteIndex;
-            const newRoute = [
+            newRoute = [
               ...previousSession.route.slice(0, removalIndex),
               ...previousSession.route.slice(removalIndex + 1),
             ];
@@ -893,7 +889,7 @@ const RouteBuilderPage: NextPage = () => {
         partySnapshots: previousSession.partySnapshots.slice(0, -entriesToRemove),
       };
     });
-  }, [activeGame, selectedRouteIndex, selectedBattleActionIndex, routeHistory, getBattleActionRouteIndex]);
+  }, [activeGame, route, selectedRouteIndex, selectedBattleActionIndex, routeHistory]);
 
   const handleToggleExperienceRoute = useCallback((pokemonKey: string) => {
     setExpandedExperienceRoutes(previousState => ({

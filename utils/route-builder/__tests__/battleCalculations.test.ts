@@ -1,5 +1,6 @@
 import { getAvailableRouteBuilderBattleActions, getAvailableTrainerBattleActions } from '../battleCalculations';
 import { RouteBuilderGameConfig, RouteBuilderRouteEntry } from '../types';
+import { getRouteBuilderStep } from '../gameConfig';
 
 const mockTrainerData = {
   id: 'trainer-1',
@@ -24,7 +25,7 @@ jest.mock('../gameConfig', () => ({
     types: ['normal'],
     evYield: { hp: 1, attack: 0, defense: 0, specialAttack: 0, specialDefense: 0, speed: 0 },
     learnset: [],
-    baseExperience: 50
+    baseExperience: 50,
   })),
   getRouteBuilderMoveData: jest.fn(() => ({
     name: 'Tackle',
@@ -39,7 +40,7 @@ jest.mock('../gameConfig', () => ({
 jest.mock('../stateManagement', () => ({
   getCurrentRouteBuilderStep: jest.fn((game, route) => {
     const currentEntry = [...route].reverse().find(entry => entry.type === 'step');
-    return currentEntry ? require('../gameConfig').getRouteBuilderStep(game, currentEntry.stepId) : undefined;
+    return currentEntry ? getRouteBuilderStep(game, currentEntry.stepId) : undefined;
   }),
   buildRouteBuilderState: jest.fn(() => ({
     party: [{
@@ -51,8 +52,8 @@ jest.mock('../stateManagement', () => ({
       moves: ['Tackle'],
     }],
   })),
-  clonePartyState: jest.fn((party) => party),
-  asBattlePokemon: jest.fn((pokemon) => pokemon),
+  clonePartyState: jest.fn(party => party),
+  asBattlePokemon: jest.fn(pokemon => pokemon),
   getAvailableBagItems: jest.fn(() => []),
 }));
 

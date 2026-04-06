@@ -1,4 +1,4 @@
-import { Generation, GrowthRate, Stat, StatLine, TypeName } from 'relicalc/dist';
+import { GrowthRate, TypeName } from 'relicalc/dist';
 import { Nature } from 'relicalc/dist/nature';
 import { ExperienceEvent, ExperienceEventWithMetadata } from '../calculations';
 

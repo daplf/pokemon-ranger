@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Card, InputSubheader } from '../../components/Layout';
+import { Card, InputSubheader } from '../Layout';
 import { RouteBuilderStep, RouteBuilderActiveTrainerBattle } from '../../utils/route-builder';
 
 interface CurrentPositionCardProps {
@@ -12,7 +12,7 @@ interface CurrentPositionCardProps {
 
 /**
  * CurrentPositionCard Component
- * 
+ *
  * Displays where the trainer currently is:
  * - Current step/location
  * - Step description

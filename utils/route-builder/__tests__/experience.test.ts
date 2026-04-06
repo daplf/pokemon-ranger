@@ -1,4 +1,4 @@
-import { applyBattleActionEntry, applyTrainerBattleActionEntry, getRouteBuilderRuntimeState } from '../stateManagement';
+import { applyBattleActionEntry, applyTrainerBattleActionEntry } from '../stateManagement';
 import { RouteBuilderGameConfig, RouteBuilderRouteEntry, RouteBuilderRuntimeState } from '../types';
 
 // Mock game config with battle
@@ -47,11 +47,11 @@ const mockTrainerData = {
 jest.mock('../gameConfig', () => ({
   getRouteBuilderStep: jest.fn((game, stepId) => game.steps.find(s => s.id === stepId)),
   getTrainerData: jest.fn(() => mockTrainerData),
-  getRouteBuilderPokemonData: jest.fn(() => ({ 
+  getRouteBuilderPokemonData: jest.fn(() => ({
     growthRate: 'medium-slow',
     evYield: { hp: 1, attack: 0, defense: 0, specialAttack: 0, specialDefense: 0, speed: 0 },
     learnset: [],
-    baseExperience: 50
+    baseExperience: 50,
   })),
 }));
 

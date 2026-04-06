@@ -1,4 +1,4 @@
-import { applyTrainerBattleActionEntry, getRouteBuilderRuntimeState } from '../stateManagement';
+import { applyTrainerBattleActionEntry } from '../stateManagement';
 import { RouteBuilderGameConfig, RouteBuilderRouteEntry, RouteBuilderRuntimeState } from '../types';
 
 const mockGameConfig: RouteBuilderGameConfig = {
@@ -39,11 +39,11 @@ const mockTrainerData = {
 jest.mock('../gameConfig', () => ({
   getRouteBuilderStep: jest.fn((game, stepId) => game.steps.find(s => s.id === stepId)),
   getTrainerData: jest.fn(() => mockTrainerData),
-  getRouteBuilderPokemonData: jest.fn(() => ({ 
+  getRouteBuilderPokemonData: jest.fn(() => ({
     growthRate: 'medium-slow',
     evYield: { hp: 1, attack: 0, defense: 0, specialAttack: 0, specialDefense: 0, speed: 0 },
     learnset: [],
-    baseExperience: 50
+    baseExperience: 50,
   })),
 }));
 
@@ -102,7 +102,7 @@ describe('Trainer Battle Progression', () => {
         trainerPokemonIndex: 0,
         trainerBattleActionType: 'selectPokemon',
       },
-      0
+      0,
     );
 
     // Then KO it
@@ -116,7 +116,7 @@ describe('Trainer Battle Progression', () => {
         trainerPokemonIndex: 0,
         trainerBattleActionType: 'ko',
       },
-      1
+      1,
     );
 
     expect(state.activeTrainerBattle?.defeatedPokemonIndexes).toContain(0);
@@ -137,7 +137,7 @@ describe('Trainer Battle Progression', () => {
         trainerPokemonIndex: 0,
         trainerBattleActionType: 'selectPokemon',
       },
-      0
+      0,
     );
 
     state = applyTrainerBattleActionEntry(
@@ -150,7 +150,7 @@ describe('Trainer Battle Progression', () => {
         trainerPokemonIndex: 0,
         trainerBattleActionType: 'ko',
       },
-      1
+      1,
     );
 
     // KO second Pokemon
@@ -164,7 +164,7 @@ describe('Trainer Battle Progression', () => {
         trainerPokemonIndex: 1,
         trainerBattleActionType: 'selectPokemon',
       },
-      2
+      2,
     );
 
     state = applyTrainerBattleActionEntry(
@@ -177,7 +177,7 @@ describe('Trainer Battle Progression', () => {
         trainerPokemonIndex: 1,
         trainerBattleActionType: 'ko',
       },
-      3
+      3,
     );
 
     expect(state.activeTrainerBattle).toBeNull();

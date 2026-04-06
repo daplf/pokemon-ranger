@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Card, HelpText, InputRow, InputSubheader } from '../../components/Layout';
+import { HelpText, InputRow, InputSubheader } from '../Layout';
 import { RouteBuilderGameConfig } from '../../utils/route-builder';
 
 interface GameSelectorProps {
@@ -11,7 +11,7 @@ interface GameSelectorProps {
 
 /**
  * GameSelector Component
- * 
+ *
  * Allows users to select which game they want to build a route for.
  * Currently only BDSP is available, but the infrastructure supports multiple games.
  */

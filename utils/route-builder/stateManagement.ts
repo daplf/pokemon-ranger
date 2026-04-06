@@ -1,4 +1,4 @@
-import { buildExperienceRoute, ExperienceEvent, SpeciesExperienceEvent } from '../calculations';
+import { buildExperienceRoute, SpeciesExperienceEvent } from '../calculations';
 import {
   RouteBuilderGameConfig,
   RouteBuilderRouteEntry,
@@ -11,8 +11,10 @@ import {
   RouteBuilderPrerequisites,
   RouteBuilderHm,
   RouteBuilderStepEffect,
+  RouteBuilderOption,
+  RouteBuilderBattleAction,
 } from './types';
-import { getRouteBuilderPokemonData, getTrainerData, getAreaTrainerList, getRouteBuilderGame, getRouteBuilderItemData, getRouteBuilderStep } from './gameConfig';
+import { getRouteBuilderPokemonData, getTrainerData, getRouteBuilderItemData, getRouteBuilderStep } from './gameConfig';
 
 const DEFAULT_EV_SPREAD: RouteBuilderStatSpread = {
   hp: 0,
@@ -125,7 +127,7 @@ export function applyRouteBuilderEntry(
   }
 
   if (entry.type === 'itemUsage') {
-    const itemName = entry.itemName;
+    const { itemName } = entry;
     const itemCount = itemName ? (state.bag[itemName] ?? 0) : 0;
 
     if (!itemName || itemCount <= 0) {
@@ -178,7 +180,7 @@ function applyStepEntry(
 
   let updatedParty = state.party;
   let updatedBag = { ...state.bag };
-  let updatedFlags = { ...(state.progressionFlags || {}) };
+  const updatedFlags = { ...(state.progressionFlags || {}) };
 
   effectsToApply.forEach(effect => {
     if (effect.type === 'addPokemon') {
@@ -249,7 +251,7 @@ export function applyBattleActionEntry(
   if (!isKoAction) return state;
 
   // Apply experience for KO
-  let updatedParty = applyExperienceToLeadPokemon(
+  const updatedParty = applyExperienceToLeadPokemon(
     game.id,
     state.party,
     state.currentStep.battle.opponent,
@@ -267,7 +269,7 @@ export function applyBattleActionEntry(
   if (battleEffects.length > 0) {
     // Apply effects from the battle definition
     let updatedBag = { ...state.bag };
-    let updatedFlags = { ...(state.progressionFlags || {}) };
+    const updatedFlags = { ...(state.progressionFlags || {}) };
 
     battleEffects.forEach(effect => {
       if (effect.type === 'addItem') {
@@ -666,17 +668,6 @@ export function getUnlockedHms(game: RouteBuilderGameConfig, route: RouteBuilder
 }
 
 /**
- * Gets unlocked HMs by game ID
- */
-function getUnlockedHmsByGameId(gameId: string, route: RouteBuilderRouteEntry[]): RouteBuilderHm[] {
-  const game = getRouteBuilderGame(gameId);
-
-  if (!game) return [];
-
-  return getUnlockedHms(game, route);
-}
-
-/**
  * Gets items available in the bag for the current context
  */
 export function getAvailableBagItems(
@@ -706,11 +697,11 @@ export function getAvailableOptionsForStep(
   game: RouteBuilderGameConfig,
   step: RouteBuilderStep,
   route: RouteBuilderRouteEntry[],
-) {
+): RouteBuilderOption[] {
   const beatenTrainerIds = getDefeatedTrainerIds(game.id, route);
   const unlockedHms = getUnlockedHms(game, route);
   const state = buildRouteBuilderState(game, route);
-  const bag = state.bag;
+  const { bag } = state;
   const progressionFlags = state.progressionFlags || {};
 
   const filteredOptions = step.options.filter(option => prerequisitesAreMet(option.prerequisites, beatenTrainerIds, unlockedHms, bag, progressionFlags));
@@ -756,9 +747,7 @@ export function prerequisitesAreMet(
   const hasRequiredTrainers = requiredTrainerIds.every(requiredTrainerId => beatenTrainerIds.includes(requiredTrainerId));
 
   // At least one of the oneOf prerequisite sets must be fully met (OR logic)
-  const hasOneOfPrerequisites = oneOfPrerequisites.length === 0 || oneOfPrerequisites.some(prereq => 
-    prerequisitesAreMet(prereq, beatenTrainerIds, unlockedHms, bag, progressionFlags)
-  );
+  const hasOneOfPrerequisites = oneOfPrerequisites.length === 0 || oneOfPrerequisites.some(prereq => prerequisitesAreMet(prereq, beatenTrainerIds, unlockedHms, bag, progressionFlags));
 
   const flagsMatch = Object.entries(requiredFlags).every(
     ([flagName, requiredValue]) => (progressionFlags?.[flagName] ?? false) === requiredValue,
@@ -790,7 +779,7 @@ export function asBattlePokemon(pokemon: any): RouteBuilderBattlePokemon {
 export function getRouteBuilderBattleAction(
   step: RouteBuilderStep | undefined,
   battleActionId: string | undefined,
-) {
+): RouteBuilderBattleAction | undefined {
   if (!step?.battle || !battleActionId) return undefined;
 
   // Try to find the action in the config's hardcoded actions array (if it exists)

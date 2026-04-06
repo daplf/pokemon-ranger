@@ -1,6 +1,6 @@
 /**
  * routeBuilder.ts - Backward Compatibility Layer
- * 
+ *
  * This file re-exports all functionality from the refactored route-builder modules.
  * It allows existing code to continue importing from 'utils/routeBuilder' while
  * the actual implementation has been moved to 'utils/route-builder/' with proper separation of concerns.
