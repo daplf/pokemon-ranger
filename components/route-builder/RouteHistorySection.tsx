@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Card, InputSubheader } from '../Layout';
-import { getRouteBuilderStep, getRouteBuilderBattleAction, RouteBuilderGameConfig, RouteBuilderRouteEntry, RouteBuilderStep, RouteBuilderTrainer } from '../../utils/route-builder';
+import { getRouteBuilderStep, getRouteBuilderBattleAction, RouteBuilderGameConfig, RouteBuilderRouteEntry, RouteBuilderStep, RouteBuilderTrainer, RouteBuilderOption } from '../../utils/route-builder';
 
 interface RouteHistoryItem {
   entry: RouteBuilderRouteEntry;
@@ -117,7 +117,7 @@ function getRouteEntryLabel(
   }
 
   const previousStep = getRouteBuilderStep(game, previousEntry.stepId);
-  const option = previousStep?.options.find((item: any) => item.id === currentEntry.arrivedViaOptionId);
+  const option = previousStep?.options.find((item: RouteBuilderOption) => item.id === currentEntry.arrivedViaOptionId);
 
   return option?.label ?? 'Step taken';
 }

@@ -22,6 +22,7 @@ import {
   RouteBuilderStatSpread,
   RouteBuilderActiveTrainerBattle,
   RouteBuilderTrainer,
+  RouteBuilderHm,
 } from './types';
 import {
   getAreaTrainerList,
@@ -111,7 +112,7 @@ export function getAvailableTrainersForStep(
       return area.trainerIds
         .map((trainerId: string) => getTrainerData(gameId, trainerId))
         .filter((trainer: RouteBuilderTrainer | undefined): trainer is RouteBuilderTrainer => trainer !== undefined)
-        .filter((trainer: any) => trainerIsAvailable(trainer, beatenTrainerIds, unlockedHms, progressionFlags));
+        .filter((trainer: RouteBuilderTrainer) => trainerIsAvailable(trainer, beatenTrainerIds, unlockedHms, progressionFlags));
     }
   }
 
@@ -121,7 +122,7 @@ export function getAvailableTrainersForStep(
 /**
  * Helper: checks if a trainer is available based on prerequisites
  */
-function trainerIsAvailable(trainer: any, beatenTrainerIds: string[], unlockedHms: any[], progressionFlags: Record<string, any>): boolean {
+function trainerIsAvailable(trainer: RouteBuilderTrainer, beatenTrainerIds: string[], unlockedHms: RouteBuilderHm[], progressionFlags: Record<string, boolean | string | number>): boolean {
   if (beatenTrainerIds.includes(trainer.id)) return false;
 
   return prerequisitesAreMet(trainer.prerequisites, beatenTrainerIds, unlockedHms, {}, progressionFlags);
@@ -130,7 +131,7 @@ function trainerIsAvailable(trainer: any, beatenTrainerIds: string[], unlockedHm
 /**
  * Helper: gets unlocked HMs by game ID
  */
-function getUnlockedHmsByGameId(gameId: string, route: RouteBuilderRouteEntry[]): any[] {
+function getUnlockedHmsByGameId(gameId: string, route: RouteBuilderRouteEntry[]): RouteBuilderHm[] {
   const game = getRouteBuilderGame(gameId);
 
   if (!game) return [];

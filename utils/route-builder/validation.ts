@@ -1,7 +1,10 @@
 import {
   RouteBuilderExportData,
+  RouteBuilderGameConfig,
+  RouteBuilderPokemonInParty,
   RouteBuilderRouteEntry,
   RouteBuilderStep,
+  RouteBuilderTrainer,
 } from './types';
 import {
   getRouteBuilderGame,
@@ -63,9 +66,9 @@ export function parseRouteBuilderImport(data: unknown): RouteBuilderExportData {
 /**
  * Validates all route entries for correctness
  */
-function validateRouteEntries(game: any, route: RouteBuilderRouteEntry[]): void {
+function validateRouteEntries(game: RouteBuilderGameConfig, route: RouteBuilderRouteEntry[]): void {
   let currentStep: RouteBuilderStep | undefined;
-  let activeTrainerBattle: any = null;
+  let activeTrainerBattle: RouteBuilderTrainer | undefined | null = null;
   let selectedTrainerPokemonIndex: number | null = null;
 
   route.forEach((entry, index) => {
@@ -123,7 +126,7 @@ function validateRouteEntries(game: any, route: RouteBuilderRouteEntry[]): void 
  * Validates a single step entry
  */
 function validateStepEntry(
-  game: any,
+  game: RouteBuilderGameConfig,
   entry: RouteBuilderRouteEntry,
   index: number,
   previousStep: RouteBuilderStep | undefined,
@@ -199,7 +202,7 @@ function validateBattleActionEntry(
 /**
  * Validates a trainer battle entry
  */
-function validateTrainerBattleEntry(game: any, entry: RouteBuilderRouteEntry, index: number): void {
+function validateTrainerBattleEntry(game: RouteBuilderGameConfig, entry: RouteBuilderRouteEntry, index: number): void {
   const trainer = entry.trainerId ? getTrainerData(game.id, entry.trainerId) : undefined;
 
   if (!trainer) {
@@ -211,7 +214,7 @@ function validateTrainerBattleEntry(game: any, entry: RouteBuilderRouteEntry, in
  * Validates a trainer battle action entry
  */
 function validateTrainerBattleActionEntry(
-  activeTrainerBattle: any,
+  activeTrainerBattle: RouteBuilderTrainer | undefined | null,
   entry: RouteBuilderRouteEntry,
   index: number,
   selectedTrainerPokemonIndex: number | null,
@@ -301,7 +304,7 @@ function validatePartySnapshots(data: RouteBuilderExportData): void {
 export function buildRouteExportData(
   gameId: string,
   route: RouteBuilderRouteEntry[],
-  partySnapshots: any[][],
+  partySnapshots: RouteBuilderPokemonInParty[][],
 ): RouteBuilderExportData {
   return {
     version: 2,

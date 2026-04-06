@@ -418,7 +418,7 @@ const RouteBuilderPage: NextPage = () => {
     onDrop: handleImport,
     noClick: true,
     multiple: false,
-    accept: '.json' as any,
+    accept: '.json',
   });
 
   const recomputeSnapshotsFromIndex = useCallback((newRoute: RouteBuilderRouteEntry[], startIndex: number) => {

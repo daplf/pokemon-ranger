@@ -172,7 +172,7 @@ describe('Import/Export', () => {
       version: 1 as const,
       gameId: 'test',
       route: [
-        { type: 'invalid' as any, stepId: 'start' },
+        { type: 'invalid', stepId: 'start' },
       ],
     };
 

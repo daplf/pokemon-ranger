@@ -13,6 +13,7 @@ import {
   RouteBuilderStepEffect,
   RouteBuilderOption,
   RouteBuilderBattleAction,
+  RouteBuilderActiveTrainerBattle,
 } from './types';
 import { getRouteBuilderPokemonData, getTrainerData, getRouteBuilderItemData, getRouteBuilderStep } from './gameConfig';
 
@@ -601,7 +602,7 @@ export function getDefeatedTrainerIds(
 ): string[] {
   const defeatedTrainerIds = new Set<string>();
 
-  route.reduce<any>((activeBattle, entry) => {
+  route.reduce<RouteBuilderActiveTrainerBattle | null>((activeBattle, entry) => {
     if (entry.type === 'trainerBattle') {
       const trainer = entry.trainerId ? getTrainerData(gameId, entry.trainerId) : undefined;
 
@@ -763,7 +764,7 @@ export function prerequisitesAreMet(
 /**
  * Helper: converts trainer Pokemon to battle Pokemon
  */
-export function asBattlePokemon(pokemon: any): RouteBuilderBattlePokemon {
+export function asBattlePokemon(pokemon: RouteBuilderBattlePokemon): RouteBuilderBattlePokemon {
   return {
     species: pokemon.species,
     level: pokemon.level,

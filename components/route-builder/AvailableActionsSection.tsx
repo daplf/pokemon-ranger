@@ -5,6 +5,7 @@ import { Button } from '../Button';
 import {
   RouteBuilderOption,
   RouteBuilderResolvedBattleAction,
+  RouteBuilderRouteEntry,
   RouteBuilderTrainer,
   RouteBuilderTrainerBattleAction,
 } from '../../utils/route-builder';
@@ -17,7 +18,7 @@ interface AvailableActionsSectionProps {
   trainersInCurrentArea: RouteBuilderTrainer[];
   availableBattleActions: RouteBuilderResolvedBattleAction[];
   availableTrainerBattleActions: RouteBuilderTrainerBattleAction[];
-  route: any[];
+  route: RouteBuilderRouteEntry[];
   onTakeOption?: (targetStepId: string, option: RouteBuilderOption) => void;
   onTakeBattleAction?: (action: RouteBuilderResolvedBattleAction) => void;
   onStartTrainerBattle?: (trainer: RouteBuilderTrainer) => void;
