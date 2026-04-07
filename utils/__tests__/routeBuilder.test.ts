@@ -1,4 +1,6 @@
 import * as routeBuilder from '../routeBuilder';
+import * as gameConfig from '../route-builder/gameConfig';
+import * as stateManagement from '../route-builder/stateManagement';
 
 import {
   prerequisitesAreMet,
@@ -71,9 +73,9 @@ const mockGameConfig: RouteBuilderGameConfig = {
 
 describe('routeBuilder', () => {
   beforeEach(() => {
-    jest.spyOn(routeBuilder, 'getDefeatedTrainerIds').mockReturnValue([]);
-    jest.spyOn(routeBuilder, 'getUnlockedHms').mockReturnValue([]);
-    jest.spyOn(routeBuilder, 'getRouteBuilderStep').mockImplementation((game, stepId) => game.steps.find(s => s.id === stepId));
+    jest.spyOn(stateManagement, 'getDefeatedTrainerIds').mockReturnValue([]);
+    jest.spyOn(stateManagement, 'getUnlockedHms').mockReturnValue([]);
+    jest.spyOn(gameConfig, 'getRouteBuilderStep').mockImplementation((game, stepId) => game.steps.find(s => s.id === stepId));
   });
 
   afterEach(() => {

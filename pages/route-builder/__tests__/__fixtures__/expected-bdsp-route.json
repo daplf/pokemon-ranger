@@ -1,0 +1,260 @@
+[
+    {
+      "type": "step",
+      "stepId": "twinleaf-town"
+    },
+    {
+      "type": "step",
+      "stepId": "route-201",
+      "arrivedViaOptionId": "twinleaf-to-route-201"
+    },
+    {
+      "type": "step",
+      "stepId": "lake-verity",
+      "arrivedViaOptionId": "route-201-to-lake-verity"
+    },
+    {
+      "type": "step",
+      "stepId": "starter-pick",
+      "arrivedViaOptionId": "starter-pick",
+      "optionEffects": [
+        {
+          "type": "setProgressionFlag",
+          "flag": "starterChosen",
+          "value": true
+        }
+      ]
+    },
+    {
+      "type": "step",
+      "stepId": "starter-chimchar",
+      "arrivedViaOptionId": "pick-chimchar",
+      "optionEffects": [
+        {
+          "type": "setProgressionFlag",
+          "flag": "pickedChimchar",
+          "value": true
+        }
+      ]
+    },
+    {
+      "type": "step",
+      "stepId": "starly-battle-lv2",
+      "arrivedViaOptionId": "starter-chimchar-to-starly"
+    },
+    {
+      "type": "battleAction",
+      "stepId": "starly-battle-lv2",
+      "battleActionId": "move-scratch",
+      "label": "Use Scratch"
+    },
+    {
+      "type": "battleAction",
+      "stepId": "starly-battle-lv2",
+      "battleActionId": "move-scratch",
+      "label": "Use Scratch"
+    },
+    {
+      "type": "battleAction",
+      "stepId": "starly-battle-lv2",
+      "battleActionId": "move-scratch",
+      "label": "Use Scratch"
+    },
+    {
+      "type": "battleAction",
+      "stepId": "starly-battle-lv2",
+      "battleActionId": "ko",
+      "label": "KO the opponent"
+    },
+    {
+      "type": "step",
+      "stepId": "route-201",
+      "arrivedViaOptionId": "ko"
+    },
+    {
+      "type": "step",
+      "stepId": "twinleaf-town",
+      "arrivedViaOptionId": "route-201-to-twinleaf",
+      "optionEffects": [
+        {
+          "type": "setProgressionFlag",
+          "flag": "reachedTwinleafAfterStarter",
+          "value": true,
+          "conditionalOn": {
+            "progressionFlags": {
+              "justFinishedStarterBattle": true
+            }
+          }
+        },
+        {
+          "type": "setProgressionFlag",
+          "flag": "justFinishedStarterBattle",
+          "value": false
+        }
+      ]
+    },
+    {
+      "type": "step",
+      "stepId": "route-201",
+      "arrivedViaOptionId": "twinleaf-to-route-201"
+    },
+    {
+      "type": "step",
+      "stepId": "route-201",
+      "arrivedViaOptionId": "route-201-pick-potions",
+      "optionEffects": [
+        {
+          "type": "addItem",
+          "item": "Potion",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "type": "step",
+      "stepId": "sandgem-town",
+      "arrivedViaOptionId": "route-201-to-sandgem"
+    },
+    {
+      "type": "step",
+      "stepId": "sandgem-lab",
+      "arrivedViaOptionId": "sandgem-to-sandgem-lab"
+    },
+    {
+      "type": "step",
+      "stepId": "sandgem-town",
+      "arrivedViaOptionId": "sandgem-lab-to-sandgem",
+      "optionEffects": [
+        {
+          "type": "setProgressionFlag",
+          "flag": "visitedSandgemLab",
+          "value": true
+        }
+      ]
+    },
+    {
+      "type": "step",
+      "stepId": "route-201",
+      "arrivedViaOptionId": "sandgem-to-route-201"
+    },
+    {
+      "type": "step",
+      "stepId": "twinleaf-town",
+      "arrivedViaOptionId": "route-201-to-twinleaf",
+      "optionEffects": [
+        {
+          "type": "setProgressionFlag",
+          "flag": "reachedTwinleafAfterStarter",
+          "value": true,
+          "conditionalOn": {
+            "progressionFlags": {
+              "justFinishedStarterBattle": true
+            }
+          }
+        },
+        {
+          "type": "setProgressionFlag",
+          "flag": "justFinishedStarterBattle",
+          "value": false
+        }
+      ]
+    },
+    {
+      "type": "step",
+      "stepId": "twinleaf-town",
+      "arrivedViaOptionId": "twinleaf-talk-to-mom",
+      "optionEffects": [
+        {
+          "type": "setProgressionFlag",
+          "flag": "talkedToMomAfterLab",
+          "value": true
+        }
+      ]
+    },
+    {
+      "type": "step",
+      "stepId": "route-201",
+      "arrivedViaOptionId": "twinleaf-to-route-201"
+    },
+    {
+      "type": "step",
+      "stepId": "sandgem-town",
+      "arrivedViaOptionId": "route-201-to-sandgem"
+    },
+    {
+      "type": "step",
+      "stepId": "route-202",
+      "arrivedViaOptionId": "sandgem-to-route-202"
+    },
+    {
+      "type": "step",
+      "stepId": "route-202",
+      "arrivedViaOptionId": "catch-tutorial",
+      "optionEffects": [
+        {
+          "type": "setProgressionFlag",
+          "flag": "completedCatchTutorial",
+          "value": true
+        }
+      ]
+    },
+    {
+      "type": "trainerBattle",
+      "stepId": "route-202",
+      "trainerId": "trainer-id-001",
+      "label": "Battle Youngster Tristan"
+    },
+    {
+      "type": "trainerBattleAction",
+      "stepId": "route-202",
+      "trainerId": "trainer-id-001",
+      "trainerPokemonIndex": 0,
+      "trainerBattleActionType": "selectPokemon",
+      "label": "Fight Starly Lv. 5"
+    },
+    {
+      "type": "trainerBattleAction",
+      "stepId": "route-202",
+      "trainerId": "trainer-id-001",
+      "trainerPokemonIndex": 0,
+      "trainerBattleActionType": "move",
+      "label": "Use Scratch"
+    },
+    {
+      "type": "trainerBattleAction",
+      "stepId": "route-202",
+      "trainerId": "trainer-id-001",
+      "trainerPokemonIndex": 0,
+      "trainerBattleActionType": "move",
+      "label": "Use Scratch"
+    },
+    {
+      "type": "trainerBattleAction",
+      "stepId": "route-202",
+      "trainerId": "trainer-id-001",
+      "trainerPokemonIndex": 0,
+      "trainerBattleActionType": "move",
+      "label": "Use Scratch"
+    },
+    {
+      "type": "trainerBattleAction",
+      "stepId": "route-202",
+      "trainerId": "trainer-id-001",
+      "trainerPokemonIndex": 0,
+      "trainerBattleActionType": "move",
+      "label": "Use Scratch"
+    },
+    {
+      "type": "trainerBattleAction",
+      "stepId": "route-202",
+      "trainerId": "trainer-id-001",
+      "trainerPokemonIndex": 0,
+      "trainerBattleActionType": "ko",
+      "label": "KO Starly Lv. 5"
+    },
+    {
+      "type": "step",
+      "stepId": "route-202",
+      "arrivedViaOptionId": "trainer-id-001-ko-0"
+    }
+  ]

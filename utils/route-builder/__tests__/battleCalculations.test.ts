@@ -1,6 +1,6 @@
 import { getAvailableRouteBuilderBattleActions, getAvailableTrainerBattleActions } from '../battleCalculations';
 import { RouteBuilderGameConfig, RouteBuilderRouteEntry } from '../types';
-import { getRouteBuilderStep } from '../gameConfig';
+import { getRouteBuilderStep as mockGetRouteBuilderStep } from '../gameConfig';
 
 const mockTrainerData = {
   id: 'trainer-1',
@@ -40,7 +40,7 @@ jest.mock('../gameConfig', () => ({
 jest.mock('../stateManagement', () => ({
   getCurrentRouteBuilderStep: jest.fn((game, route) => {
     const currentEntry = [...route].reverse().find(entry => entry.type === 'step');
-    return currentEntry ? getRouteBuilderStep(game, currentEntry.stepId) : undefined;
+    return currentEntry ? mockGetRouteBuilderStep(game, currentEntry.stepId) : undefined;
   }),
   buildRouteBuilderState: jest.fn(() => ({
     party: [{

@@ -1,6 +1,8 @@
 module.exports = {
-  preset: 'ts-jest',
-  testEnvironment: 'node',
-  roots: ['<rootDir>/utils'],
-  testMatch: ['**/__tests__/**/*.test.ts'],
+  transform: {
+    '\\.[jt]sx?$': ['babel-jest'],
+  },
+  testEnvironment: 'jsdom',
+  roots: ['<rootDir>'],
+  testMatch: ['**/__tests__/**/*.test.ts', '**/__tests__/**/*.test.tsx'],
 };
