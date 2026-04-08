@@ -77,7 +77,7 @@ export const RouteHistorySection: React.FC<RouteHistorySectionProps> = ({
             >
               <RouteEntryIndex>{index + 1}</RouteEntryIndex>
               <RouteEntryBody>
-                <RouteEntryName>{trainer ? `Battle ${trainer.name}` : step?.name ?? entry.stepId}</RouteEntryName>
+                <RouteEntryName data-testid="route-entry-name">{trainer ? `Battle ${trainer.name}` : step?.name ?? entry.stepId}</RouteEntryName>
                 <RouteEntryMeta>
                   {index === 0 ? `Start: ${activeGame.name}` : getRouteEntryLabel(activeGame, routeHistory[index - 1].entry, entry)}
                 </RouteEntryMeta>
@@ -89,6 +89,7 @@ export const RouteHistorySection: React.FC<RouteHistorySectionProps> = ({
                         selectable={Boolean(onSelectRouteEntry)}
                         selected={routeIndex === selectedRouteIndex && selectedBattleActionIndex === battleActionIndex}
                         onClick={event => { event.stopPropagation(); onSelectRouteEntry?.(routeIndex, battleActionIndex); }}
+                        data-testid="battle-substep"
                       >
                         {battleAction.label}
                       </BattleSubstep>
