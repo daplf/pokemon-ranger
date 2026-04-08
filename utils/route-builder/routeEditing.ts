@@ -1,15 +1,4 @@
-import { RouteBuilderRouteEntry } from './types';
-
-export interface RouteHistoryBattleActionEntry {
-  entry: RouteBuilderRouteEntry;
-  label: string;
-  isKo: boolean;
-}
-
-export interface RouteHistoryItem {
-  routeIndex: number;
-  battleActionEntries?: RouteHistoryBattleActionEntry[];
-}
+import { RouteBuilderRouteEntry, RouteHistoryItem } from './types';
 
 export function getRouteHistoryItemForRouteIndex(
   routeHistory: RouteHistoryItem[],

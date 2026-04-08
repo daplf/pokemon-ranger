@@ -1,21 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Card, InputSubheader } from '../Layout';
-import { getRouteBuilderStep, getRouteBuilderBattleAction, RouteBuilderGameConfig, RouteBuilderRouteEntry, RouteBuilderStep, RouteBuilderTrainer, RouteBuilderOption } from '../../utils/route-builder';
-
-interface RouteHistoryItem {
-  entry: RouteBuilderRouteEntry;
-  step: RouteBuilderStep | undefined;
-  trainer?: RouteBuilderTrainer;
-  substeps: string[];
-  routeIndex: number;
-  gapBefore: boolean;
-  battleActionEntries?: Array<{
-    entry: RouteBuilderRouteEntry;
-    label: string;
-    isKo: boolean;
-  }>;
-}
+import { getRouteBuilderStep, getRouteBuilderBattleAction, RouteBuilderGameConfig, RouteBuilderRouteEntry, RouteBuilderOption, RouteHistoryItem } from '../../utils/route-builder';
 
 interface RouteHistorySectionProps {
   activeGame: RouteBuilderGameConfig | null;

@@ -16,7 +16,6 @@ import {
   // Types
   RouteBuilderPokemonInParty,
   RouteBuilderRouteEntry,
-  RouteBuilderStep,
   RouteBuilderTrainer,
   RouteBuilderOption,
   RouteBuilderBattleAction,
@@ -49,25 +48,13 @@ import {
   // Validation & Import/Export
   parseRouteBuilderImport,
   buildRouteExportData,
+  RouteHistoryItem,
+  RouteHistoryItemBattleActionEntry,
 } from '../../utils/route-builder';
 
 interface RouteBuilderSession {
   route: RouteBuilderRouteEntry[];
   partySnapshots: RouteBuilderPokemonInParty[][];
-}
-
-interface RouteHistoryItem {
-  entry: RouteBuilderRouteEntry;
-  step: RouteBuilderStep | undefined;
-  trainer?: RouteBuilderTrainer;
-  substeps: string[];
-  routeIndex: number;
-  gapBefore: boolean;
-  battleActionEntries?: Array<{
-    entry: RouteBuilderRouteEntry;
-    label: string;
-    isKo: boolean;
-  }>;
 }
 
 /**
@@ -161,44 +148,38 @@ const RouteBuilderPage: NextPage = () => {
     if (!activeGame) return [];
 
     const historyItems: Array<RouteHistoryItem> = [];
-    let currentBattleActions: Array<{entry: RouteBuilderRouteEntry, label: string, isKo: boolean}> = [];
+    let currentBattleActions: Array<RouteHistoryItemBattleActionEntry> = [];
 
     for (let entryIndex = 0; entryIndex < route.length; entryIndex += 1) {
       const entry = route[entryIndex];
       const gapBefore = routeGapIndex !== null && routeGapIndex === entryIndex;
 
-      if (entry.type === 'step') {
+      if (entry.type === 'step' || entry.type === 'trainerBattle') {
         // If we have accumulated battle actions, add them to the previous step
         if (historyItems.length > 0 && currentBattleActions.length > 0) {
           historyItems[historyItems.length - 1].battleActionEntries = currentBattleActions;
           currentBattleActions = [];
         }
 
-        historyItems.push({
-          entry,
-          step: getRouteBuilderStep(activeGame, entry.stepId),
-          substeps: [],
-          routeIndex: entryIndex,
-          gapBefore,
-        });
-      } else if (entry.type === 'trainerBattle') {
-        // If we have accumulated battle actions, add them to the previous step
-        if (historyItems.length > 0 && currentBattleActions.length > 0) {
-          historyItems[historyItems.length - 1].battleActionEntries = currentBattleActions;
-          currentBattleActions = [];
-        }
-
-        const trainer = entry.trainerId ? getTrainerData(activeGame.id, entry.trainerId) : undefined;
-
-        if (trainer) {
+        if (entry.type === 'step') {
           historyItems.push({
             entry,
-            step: undefined,
-            trainer,
-            substeps: [],
+            step: getRouteBuilderStep(activeGame, entry.stepId),
             routeIndex: entryIndex,
             gapBefore,
           });
+        } else if (entry.type === 'trainerBattle') {
+          const trainer = entry.trainerId ? getTrainerData(activeGame.id, entry.trainerId) : undefined;
+
+          if (trainer) {
+            historyItems.push({
+              entry,
+              step: undefined,
+              trainer,
+              routeIndex: entryIndex,
+              gapBefore,
+            });
+          }
         }
       } else if (entry.type === 'battleAction' || entry.type === 'itemUsage') {
         const battleAction = entry.type === 'battleAction'

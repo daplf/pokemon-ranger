@@ -282,3 +282,18 @@ export interface RouteBuilderResolvedBattleAction extends RouteBuilderBattleActi
   damageDetails?: string[];
   targetHpSummary?: string;
 }
+
+export interface RouteHistoryItem {
+  entry: RouteBuilderRouteEntry;
+  step: RouteBuilderStep | undefined;
+  trainer?: RouteBuilderTrainer;
+  routeIndex: number;
+  gapBefore: boolean;
+  battleActionEntries?: Array<RouteHistoryItemBattleActionEntry>;
+}
+
+export interface RouteHistoryItemBattleActionEntry {
+  entry: RouteBuilderRouteEntry;
+  label: string;
+  isKo: boolean;
+}
