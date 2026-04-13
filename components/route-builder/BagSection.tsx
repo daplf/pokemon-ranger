@@ -1,12 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Button } from '../Button';
 import { InputSubheader } from '../Layout';
 
 interface BagSectionProps {
   bag: Record<string, number>;
-  isBagExpanded: boolean;
-  onToggleBag: () => void;
 }
 
 /**
@@ -17,32 +15,34 @@ interface BagSectionProps {
  */
 export const BagSection: React.FC<BagSectionProps> = ({
   bag,
-  isBagExpanded,
-  onToggleBag,
-}) => (
-  <Container>
-    <BagHeaderRow>
-      <InputSubheader>Bag</InputSubheader>
-      <Button onClick={onToggleBag}>
-        {isBagExpanded ? 'Hide' : 'Show'}
-      </Button>
-    </BagHeaderRow>
-    {isBagExpanded && (
-      Object.keys(bag).length > 0 ? (
-        <BagList>
-          {Object.entries(bag).map(([itemName, quantity]) => (
-            <BagItem key={itemName}>
-              <BagItemName>{itemName}</BagItemName>
-              <BagItemQty>x{quantity}</BagItemQty>
-            </BagItem>
-          ))}
-        </BagList>
-      ) : (
-        <BagEmpty>No items in bag</BagEmpty>
-      )
-    )}
-  </Container>
-);
+}) => {
+  const [isBagExpanded, setIsBagExpanded] = useState(false);
+
+  return (
+    <Container>
+      <BagHeaderRow>
+        <InputSubheader>Bag</InputSubheader>
+        <Button onClick={() => setIsBagExpanded(!isBagExpanded)}>
+          {isBagExpanded ? 'Hide' : 'Show'}
+        </Button>
+      </BagHeaderRow>
+      {isBagExpanded && (
+        Object.keys(bag).length > 0 ? (
+          <BagList>
+            {Object.entries(bag).map(([itemName, quantity]) => (
+              <BagItem key={itemName}>
+                <BagItemName>{itemName}</BagItemName>
+                <BagItemQty>x{quantity}</BagItemQty>
+              </BagItem>
+            ))}
+          </BagList>
+        ) : (
+          <BagEmpty>No items in bag</BagEmpty>
+        )
+      )}
+    </Container>
+  );
+};
 
 const Container = styled.div`
   margin-bottom: 0.75rem;

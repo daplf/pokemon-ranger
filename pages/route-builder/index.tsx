@@ -81,7 +81,6 @@ const RouteBuilderPage: NextPage = () => {
     route: [],
     partySnapshots: [],
   });
-  const [isBagExpanded, setIsBagExpanded] = useState(false);
   const [isSelectingItem, setIsSelectingItem] = useState(false);
   const [selectedRouteIndex, setSelectedRouteIndex] = useState<number | null>(null);
   const [routeGapIndex, setRouteGapIndex] = useState<number | null>(null);
@@ -914,11 +913,7 @@ const RouteBuilderPage: NextPage = () => {
           <>
             <PartySection party={routeState?.party ?? []} />
 
-            <BagSection
-              bag={routeState?.bag ?? {}}
-              isBagExpanded={isBagExpanded}
-              onToggleBag={() => setIsBagExpanded(!isBagExpanded)}
-            />
+            <BagSection bag={routeState?.bag ?? {}} />
 
             <RouteHistorySection
               activeGame={activeGame}
