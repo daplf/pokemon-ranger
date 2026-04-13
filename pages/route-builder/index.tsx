@@ -51,6 +51,7 @@ import {
   RouteHistoryItemBattleActionEntry,
 } from '../../utils/route-builder';
 import { ExportRouteButton } from '../../components/route-builder/ExportRouteButton';
+import { ItemSelectionCard } from '../../components/route-builder/ItemSelectionCard';
 
 interface RouteBuilderSession {
   route: RouteBuilderRouteEntry[];
@@ -83,7 +84,6 @@ const RouteBuilderPage: NextPage = () => {
   const [expandedExperienceRoutes, setExpandedExperienceRoutes] = useState<Record<string, boolean>>({});
   const [isBagExpanded, setIsBagExpanded] = useState(false);
   const [isSelectingItem, setIsSelectingItem] = useState(false);
-  const [selectedItem, setSelectedItem] = useState<string | null>(null);
   const [selectedRouteIndex, setSelectedRouteIndex] = useState<number | null>(null);
   const [routeGapIndex, setRouteGapIndex] = useState<number | null>(null);
   const [selectedBattleActionIndex, setSelectedBattleActionIndex] = useState<number | null>(null);
@@ -423,7 +423,6 @@ const RouteBuilderPage: NextPage = () => {
 
   const handleTakeBattleAction = useCallback((action: RouteBuilderBattleAction) => {
     if (action.type === 'item') {
-      setSelectedItem(null);
       setIsSelectingItem(true);
       return;
     }
@@ -481,7 +480,6 @@ const RouteBuilderPage: NextPage = () => {
 
   const handleTakeTrainerBattleAction = useCallback((action: RouteBuilderTrainerBattleAction) => {
     if (action.type === 'item') {
-      setSelectedItem(null);
       setIsSelectingItem(true);
       return;
     }
@@ -518,35 +516,18 @@ const RouteBuilderPage: NextPage = () => {
     }
   }, [appendRouteEntry, activeTrainerBattle, currentStep]);
 
-  const handleSelectItem = useCallback((itemName: string) => {
-    setSelectedItem(itemName);
-    setIsSelectingItem(true);
-  }, []);
-
   const handleCancelItemSelection = useCallback(() => {
     setIsSelectingItem(false);
-    setSelectedItem(null);
   }, []);
 
-  const handleSelectTarget = useCallback((targetIndex: number) => {
-    if (!currentStep || !selectedItem || !routeState) return;
+  const handleSelectTarget = useCallback((itemUsageRouteEntry: RouteBuilderRouteEntry) => {
+    if (!currentStep || !routeState) return;
 
     // Apply item effect and create route entry
-    appendRouteEntry({
-      type: 'itemUsage',
-      stepId: currentStep.id,
-      itemName: selectedItem,
-      targetPokemonIndex: targetIndex,
-      label: `Used ${selectedItem} on ${routeState.party[targetIndex].species}`,
-    });
+    appendRouteEntry(itemUsageRouteEntry);
 
-    setSelectedItem(null);
     setIsSelectingItem(false);
-  }, [appendRouteEntry, currentStep, selectedItem, routeState]);
-
-  const handleCancelTargetSelection = useCallback(() => {
-    setSelectedItem(null);
-  }, []);
+  }, [appendRouteEntry, currentStep, routeState]);
 
   const handleReset = useCallback(() => {
     if (!activeGame) {
@@ -673,7 +654,6 @@ const RouteBuilderPage: NextPage = () => {
 
   const handleTakeOption = useCallback((targetStepId: string, option: RouteBuilderOption) => {
     if (option.id === 'use-item') {
-      setSelectedItem(null);
       setIsSelectingItem(true);
       return;
     }
@@ -907,34 +887,13 @@ const RouteBuilderPage: NextPage = () => {
             />
 
             {isSelectingItem && (
-              <ItemSelectionCard>
-                {!selectedItem ? (
-                  <>
-                    <h3>Select an item to use</h3>
-                    {availableItems.length === 0 ? (
-                      <p>No usable items are available right now.</p>
-                    ) : (
-                      availableItems.map(itemName => (
-                        <Button key={itemName} onClick={() => handleSelectItem(itemName)}>
-                          {itemName} ({(routeState?.bag as Record<string, number>)[itemName]})
-                        </Button>
-                      ))
-                    )}
-                    <Button onClick={handleCancelItemSelection}>Cancel</Button>
-                  </>
-                ) : (
-                  <>
-                    <h3>Use {selectedItem}</h3>
-                    <p>Select a target Pokémon.</p>
-                    {routeState?.party.map((pokemon, index) => (
-                      <Button key={`${pokemon.species}-${index}`} onClick={() => handleSelectTarget(index)}>
-                        {pokemon.species} Lv. {pokemon.level}
-                      </Button>
-                    ))}
-                    <Button onClick={handleCancelTargetSelection}>Cancel</Button>
-                  </>
-                )}
-              </ItemSelectionCard>
+              <ItemSelectionCard
+                currentStep={currentStep}
+                availableItems={availableItems}
+                routeState={routeState}
+                onCancel={handleCancelItemSelection}
+                onItemUsed={handleSelectTarget}
+              />
             )}
 
             {!isSelectingItem && (
@@ -1048,12 +1007,4 @@ const RoutePlaceholder = styled.div`
   color: ${({ theme }) => theme.label};
   font-style: italic;
   margin-top: 1rem;
-`;
-
-const ItemSelectionCard = styled(Card)`
-  margin-bottom: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  padding: 1rem;
 `;
