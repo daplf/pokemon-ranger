@@ -35,7 +35,7 @@ export const GameSelector: React.FC<GameSelectorProps> = ({
             <option key={game.id} value={game.id}>{game.id.toUpperCase()}</option>
           ))}
         </select>
-        <HelpText>The prototype currently supports BDSP only, but the page is wired to read game data from config files.</HelpText>
+        <HelpText>This will initialize the route at that game&apos;s configured starting step.</HelpText>
       </InputRow>
     </InputSection>
   );

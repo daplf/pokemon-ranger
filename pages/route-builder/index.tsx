@@ -890,8 +890,6 @@ const RouteBuilderPage: NextPage = () => {
 
         {!activeGame && (
           <ImportCard variant="neutral" isDragActive={isDragActive}>
-            <h3>Select a game to begin.</h3>
-            <p>This will initialize the route at that game&apos;s configured starting step.</p>
             <ImportHint isDragActive={isDragActive}>
               {isDragActive ? 'Drop route JSON here to import it.' : 'Drag a previously exported route JSON here to import it.'}
             </ImportHint>
@@ -901,12 +899,6 @@ const RouteBuilderPage: NextPage = () => {
 
         {activeGame && currentStep && (
           <PaneSection>
-            {importError && (
-              <ImportFeedbackCard variant="warning">
-                <p>{importError}</p>
-              </ImportFeedbackCard>
-            )}
-
             <CurrentPositionCard
               currentStep={currentStep}
               activeTrainerBattle={activeTrainerBattle}
@@ -1050,11 +1042,6 @@ const ImportErrorText = styled.p`
   margin-top: 0.75rem;
   margin-bottom: 0;
   color: ${({ theme }) => theme.danger ?? '#c0392b'};
-`;
-
-const ImportFeedbackCard = styled(Card)`
-  margin-top: 0;
-  margin-bottom: 1rem;
 `;
 
 const RoutePlaceholder = styled.div`
