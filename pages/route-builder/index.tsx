@@ -6,8 +6,6 @@ import { Card, Header } from '../../components/Layout';
 import { Button } from '../../components/Button';
 import {
   GameSelector,
-  CurrentPositionCard,
-  AvailableActionsSection,
 } from '../../components/route-builder';
 import {
   // Types
@@ -48,8 +46,8 @@ import {
   RouteHistoryItemBattleActionEntry,
 } from '../../utils/route-builder';
 import { ExportRouteButton } from '../../components/route-builder/ExportRouteButton';
-import { ItemSelectionCard } from '../../components/route-builder/ItemSelectionCard';
 import { RouteSection } from '../../components/route-builder/RouteSection';
+import { CurrentStepSection } from '../../components/route-builder/CurrentStepSection';
 
 interface RouteBuilderSession {
   route: RouteBuilderRouteEntry[];
@@ -79,7 +77,6 @@ const RouteBuilderPage: NextPage = () => {
     route: [],
     partySnapshots: [],
   });
-  const [isSelectingItem, setIsSelectingItem] = useState(false);
   const [selectedRouteIndex, setSelectedRouteIndex] = useState<number | null>(null);
   const [routeGapIndex, setRouteGapIndex] = useState<number | null>(null);
   const [selectedBattleActionIndex, setSelectedBattleActionIndex] = useState<number | null>(null);
@@ -259,6 +256,25 @@ const RouteBuilderPage: NextPage = () => {
 
   // ==================== Event Handlers ====================
 
+  const handleReset = useCallback(() => {
+    if (!activeGame) {
+      setRouteSession({ route: [], partySnapshots: [] });
+      setSelectedRouteIndex(null);
+      setSelectedBattleActionIndex(null);
+      setRouteGapIndex(null);
+      return;
+    }
+
+    const nextRoute = buildInitialRoute(activeGame);
+    setRouteSession({
+      route: nextRoute,
+      partySnapshots: buildRouteBuilderPartySnapshots(activeGame, nextRoute),
+    });
+    setSelectedRouteIndex(null);
+    setSelectedBattleActionIndex(null);
+    setRouteGapIndex(null);
+  }, [activeGame]);
+
   const handleSelectGame = useCallback((gameId: string) => {
     setSelectedGameId(gameId);
     setImportError(null);
@@ -336,6 +352,17 @@ const RouteBuilderPage: NextPage = () => {
     reader.readAsBinaryString(acceptedFile);
   }, []);
 
+  const {
+    getRootProps: getImportRootProps,
+    getInputProps: getImportInputProps,
+    isDragActive,
+  } = useDropzone({
+    onDrop: handleImport,
+    noClick: true,
+    multiple: false,
+    accept: '.json',
+  });
+
   const appendRouteEntry = useCallback((entry: RouteBuilderRouteEntry) => {
     if (!activeGame) return;
 
@@ -366,17 +393,6 @@ const RouteBuilderPage: NextPage = () => {
       };
     });
   }, [activeGame]);
-
-  const {
-    getRootProps: getImportRootProps,
-    getInputProps: getImportInputProps,
-    isDragActive,
-  } = useDropzone({
-    onDrop: handleImport,
-    noClick: true,
-    multiple: false,
-    accept: '.json',
-  });
 
   const recomputeSnapshotsFromIndex = useCallback((newRoute: RouteBuilderRouteEntry[], startIndex: number) => {
     if (!activeGame) return [];
@@ -414,138 +430,6 @@ const RouteBuilderPage: NextPage = () => {
       };
     });
   }, [activeGame, recomputeSnapshotsFromIndex]);
-
-  const handleTakeBattleAction = useCallback((action: RouteBuilderBattleAction) => {
-    if (action.type === 'item') {
-      setIsSelectingItem(true);
-      return;
-    }
-
-    if (!currentStep?.battle) return;
-
-    const historyItem = selectedRouteIndex !== null
-      ? routeHistory.find(item => item.routeIndex === selectedRouteIndex)
-      : undefined;
-
-    const insertionIndex = selectedRouteIndex !== null
-      ? getBattleActionInsertionIndex(route, routeHistory, selectedRouteIndex, selectedBattleActionIndex)
-      : null;
-
-    const newEntry: RouteBuilderRouteEntry = {
-      type: 'battleAction',
-      stepId: currentStep.id,
-      battleActionId: action.id,
-      label: action.label,
-    };
-
-    if (insertionIndex !== null && action.type !== 'ko') {
-      insertRouteEntryAtIndex(newEntry, insertionIndex);
-
-      if (selectedBattleActionIndex !== null) {
-        setSelectedBattleActionIndex(selectedBattleActionIndex + 1);
-      } else if (historyItem?.battleActionEntries) {
-        const firstKoIndex = historyItem.battleActionEntries.findIndex(entry => entry.isKo);
-        setSelectedBattleActionIndex(firstKoIndex === -1 ? historyItem.battleActionEntries.length : firstKoIndex);
-      }
-      return;
-    }
-
-    appendRouteEntry(newEntry);
-
-    if (action.type === 'ko') {
-      appendRouteEntry({
-        type: 'step',
-        stepId: currentStep.battle.onKoTargetStepId,
-        arrivedViaOptionId: action.id,
-      });
-    }
-  }, [appendRouteEntry, currentStep, insertRouteEntryAtIndex, route, routeHistory, selectedBattleActionIndex, selectedRouteIndex]);
-
-  const handleStartTrainerBattle = useCallback((trainer: RouteBuilderTrainer) => {
-    if (!currentStep) return;
-
-    appendRouteEntry({
-      type: 'trainerBattle',
-      stepId: currentStep.id,
-      trainerId: trainer.id,
-      label: `Battle ${trainer.name}`,
-    });
-  }, [appendRouteEntry, currentStep]);
-
-  const handleTakeTrainerBattleAction = useCallback((action: RouteBuilderTrainerBattleAction) => {
-    if (action.type === 'item') {
-      setIsSelectingItem(true);
-      return;
-    }
-
-    if (!currentStep) return;
-
-    appendRouteEntry({
-      type: 'trainerBattleAction',
-      stepId: currentStep.id,
-      trainerId: action.trainerId,
-      trainerPokemonIndex: action.trainerPokemonIndex,
-      trainerBattleActionType: action.type,
-      label: action.label,
-    });
-
-    if (
-      action.type === 'ko'
-      && activeTrainerBattle
-      && typeof activeTrainerBattle.selectedPokemonIndex === 'number'
-    ) {
-      const defeatedPokemonIndexes = [
-        ...activeTrainerBattle.defeatedPokemonIndexes,
-        activeTrainerBattle.selectedPokemonIndex,
-      ];
-      const defeatedUniqueIndexes = [...new Set(defeatedPokemonIndexes)];
-
-      if (defeatedUniqueIndexes.length >= activeTrainerBattle.trainer.pokemon.length) {
-        appendRouteEntry({
-          type: 'step',
-          stepId: currentStep.id,
-          arrivedViaOptionId: action.id,
-        });
-      }
-    }
-  }, [appendRouteEntry, activeTrainerBattle, currentStep]);
-
-  const handleCancelItemSelection = useCallback(() => {
-    setIsSelectingItem(false);
-  }, []);
-
-  const handleSelectTarget = useCallback((itemUsageRouteEntry: RouteBuilderRouteEntry) => {
-    if (!currentStep || !routeState) return;
-
-    // Apply item effect and create route entry
-    appendRouteEntry(itemUsageRouteEntry);
-
-    setIsSelectingItem(false);
-  }, [appendRouteEntry, currentStep, routeState]);
-
-  const handleReset = useCallback(() => {
-    if (!activeGame) {
-      setRouteSession({ route: [], partySnapshots: [] });
-      setSelectedRouteIndex(null);
-      setSelectedBattleActionIndex(null);
-      setRouteGapIndex(null);
-      return;
-    }
-
-    const nextRoute = buildInitialRoute(activeGame);
-    setRouteSession({
-      route: nextRoute,
-      partySnapshots: buildRouteBuilderPartySnapshots(activeGame, nextRoute),
-    });
-    setSelectedRouteIndex(null);
-    setSelectedBattleActionIndex(null);
-    setRouteGapIndex(null);
-  }, [activeGame]);
-
-  const handleSelectRouteEntry = useCallback((routeIndex: number, battleActionIndex?: number) => {
-    setSelectedRouteIndex(routeIndex);
-    setSelectedBattleActionIndex(battleActionIndex ?? null);
-  }, []);
 
   const handleControlRouteInsertion = useCallback((entry: RouteBuilderRouteEntry, insertionIndex: number) => {
     if (!activeGame) return;
@@ -647,11 +531,6 @@ const RouteBuilderPage: NextPage = () => {
   }, [activeGame, route, partySnapshots, recomputeSnapshotsFromIndex]);
 
   const handleTakeOption = useCallback((targetStepId: string, option: RouteBuilderOption) => {
-    if (option.id === 'use-item') {
-      setIsSelectingItem(true);
-      return;
-    }
-
     const newEntry: RouteBuilderRouteEntry = {
       type: 'step',
       stepId: targetStepId,
@@ -678,6 +557,91 @@ const RouteBuilderPage: NextPage = () => {
 
     appendRouteEntry(newEntry);
   }, [appendRouteEntry, selectedRouteIndex, selectedBattleActionIndex, handleControlRouteInsertion, routeHistory, route]);
+
+  const handleTakeBattleAction = useCallback((action: RouteBuilderBattleAction) => {
+    if (!currentStep?.battle) return;
+
+    const historyItem = selectedRouteIndex !== null
+      ? routeHistory.find(item => item.routeIndex === selectedRouteIndex)
+      : undefined;
+
+    const insertionIndex = selectedRouteIndex !== null
+      ? getBattleActionInsertionIndex(route, routeHistory, selectedRouteIndex, selectedBattleActionIndex)
+      : null;
+
+    const newEntry: RouteBuilderRouteEntry = {
+      type: 'battleAction',
+      stepId: currentStep.id,
+      battleActionId: action.id,
+      label: action.label,
+    };
+
+    if (insertionIndex !== null && action.type !== 'ko') {
+      insertRouteEntryAtIndex(newEntry, insertionIndex);
+
+      if (selectedBattleActionIndex !== null) {
+        setSelectedBattleActionIndex(selectedBattleActionIndex + 1);
+      } else if (historyItem?.battleActionEntries) {
+        const firstKoIndex = historyItem.battleActionEntries.findIndex(entry => entry.isKo);
+        setSelectedBattleActionIndex(firstKoIndex === -1 ? historyItem.battleActionEntries.length : firstKoIndex);
+      }
+      return;
+    }
+
+    appendRouteEntry(newEntry);
+
+    if (action.type === 'ko') {
+      appendRouteEntry({
+        type: 'step',
+        stepId: currentStep.battle.onKoTargetStepId,
+        arrivedViaOptionId: action.id,
+      });
+    }
+  }, [appendRouteEntry, currentStep, insertRouteEntryAtIndex, route, routeHistory, selectedBattleActionIndex, selectedRouteIndex]);
+
+  const handleStartTrainerBattle = useCallback((trainer: RouteBuilderTrainer) => {
+    if (!currentStep) return;
+
+    appendRouteEntry({
+      type: 'trainerBattle',
+      stepId: currentStep.id,
+      trainerId: trainer.id,
+      label: `Battle ${trainer.name}`,
+    });
+  }, [appendRouteEntry, currentStep]);
+
+  const handleTakeTrainerBattleAction = useCallback((action: RouteBuilderTrainerBattleAction) => {
+    if (!currentStep) return;
+
+    appendRouteEntry({
+      type: 'trainerBattleAction',
+      stepId: currentStep.id,
+      trainerId: action.trainerId,
+      trainerPokemonIndex: action.trainerPokemonIndex,
+      trainerBattleActionType: action.type,
+      label: action.label,
+    });
+
+    if (
+      action.type === 'ko'
+      && activeTrainerBattle
+      && typeof activeTrainerBattle.selectedPokemonIndex === 'number'
+    ) {
+      const defeatedPokemonIndexes = [
+        ...activeTrainerBattle.defeatedPokemonIndexes,
+        activeTrainerBattle.selectedPokemonIndex,
+      ];
+      const defeatedUniqueIndexes = [...new Set(defeatedPokemonIndexes)];
+
+      if (defeatedUniqueIndexes.length >= activeTrainerBattle.trainer.pokemon.length) {
+        appendRouteEntry({
+          type: 'step',
+          stepId: currentStep.id,
+          arrivedViaOptionId: action.id,
+        });
+      }
+    }
+  }, [appendRouteEntry, activeTrainerBattle, currentStep]);
 
   const handleUndo = useCallback(() => {
     setRouteSession(previousSession => {
@@ -828,6 +792,11 @@ const RouteBuilderPage: NextPage = () => {
     });
   }, [activeGame, route, selectedRouteIndex, selectedBattleActionIndex, routeHistory]);
 
+  const handleSelectRouteEntry = useCallback((routeIndex: number, battleActionIndex?: number) => {
+    setSelectedRouteIndex(routeIndex);
+    setSelectedBattleActionIndex(battleActionIndex ?? null);
+  }, []);
+
   // ==================== Render ====================
 
   return (
@@ -859,42 +828,28 @@ const RouteBuilderPage: NextPage = () => {
         )}
 
         {activeGame && currentStep && (
-          <PaneSection>
-            <CurrentPositionCard
-              currentStep={currentStep}
-              activeTrainerBattle={activeTrainerBattle}
-              activeWildBattleTargetHp={activeWildBattleTargetHp}
-              activeTrainerBattleTargetHp={activeTrainerBattleTargetHp}
-            />
-
-            {isSelectingItem && (
-              <ItemSelectionCard
-                currentStep={currentStep}
-                availableItems={availableItems}
-                routeState={routeState}
-                onCancel={handleCancelItemSelection}
-                onItemUsed={handleSelectTarget}
-              />
-            )}
-
-            {!isSelectingItem && (
-              <AvailableActionsSection
-                isInBattle={isInBattle}
-                isInTrainerBattle={isInTrainerBattle}
-                isInWildBattle={isInWildBattle}
-                availableStepOptions={availableStepOptions}
-                trainersInCurrentArea={trainersInCurrentArea}
-                availableBattleActions={availableBattleActions}
-                availableTrainerBattleActions={availableTrainerBattleActions}
-                route={route}
-                onTakeOption={handleTakeOption}
-                onTakeBattleAction={handleTakeBattleAction}
-                onStartTrainerBattle={handleStartTrainerBattle}
-                onTakeTrainerBattleAction={handleTakeTrainerBattleAction}
-                onUndo={handleUndo}
-              />
-            )}
-          </PaneSection>
+          <CurrentStepSection
+            currentStep={currentStep}
+            activeTrainerBattle={activeTrainerBattle}
+            activeWildBattleTargetHp={activeWildBattleTargetHp}
+            activeTrainerBattleTargetHp={activeTrainerBattleTargetHp}
+            availableItems={availableItems}
+            routeState={routeState}
+            isInBattle={isInBattle}
+            isInTrainerBattle={isInTrainerBattle}
+            isInWildBattle={isInWildBattle}
+            availableStepOptions={availableStepOptions}
+            trainersInCurrentArea={trainersInCurrentArea}
+            availableBattleActions={availableBattleActions}
+            availableTrainerBattleActions={availableTrainerBattleActions}
+            route={route}
+            onTakeOption={handleTakeOption}
+            onTakeBattleAction={handleTakeBattleAction}
+            onStartTrainerBattle={handleStartTrainerBattle}
+            onTakeTrainerBattleAction={handleTakeTrainerBattleAction}
+            onUndo={handleUndo}
+            appendRouteEntry={appendRouteEntry}
+          />
         )}
       </LeftColumn>
 
@@ -944,12 +899,6 @@ const RightColumn = styled.div`
   flex-direction: column;
   overflow-y: hidden;
   border-left: 1px solid ${({ theme }) => theme.input.border};
-`;
-
-const PaneSection = styled.div`
-  display: flex;
-  flex-direction: column;
-  min-height: 0;
 `;
 
 const ImportCard = styled(Card)<{ isDragActive: boolean; }>`
