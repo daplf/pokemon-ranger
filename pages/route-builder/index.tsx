@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import React, { useCallback, useMemo, useState } from 'react';
 import styled from 'styled-components';
 import { NextPage } from 'next';
 import { useDropzone } from 'react-dropzone';
@@ -8,9 +8,6 @@ import {
   GameSelector,
   CurrentPositionCard,
   AvailableActionsSection,
-  RouteHistorySection,
-  PartySection,
-  BagSection,
 } from '../../components/route-builder';
 import {
   // Types
@@ -52,6 +49,7 @@ import {
 } from '../../utils/route-builder';
 import { ExportRouteButton } from '../../components/route-builder/ExportRouteButton';
 import { ItemSelectionCard } from '../../components/route-builder/ItemSelectionCard';
+import { RouteSection } from '../../components/route-builder/RouteSection';
 
 interface RouteBuilderSession {
   route: RouteBuilderRouteEntry[];
@@ -86,7 +84,6 @@ const RouteBuilderPage: NextPage = () => {
   const [routeGapIndex, setRouteGapIndex] = useState<number | null>(null);
   const [selectedBattleActionIndex, setSelectedBattleActionIndex] = useState<number | null>(null);
   const [importError, setImportError] = useState<string | null>(null);
-  const routeListRef = useRef<HTMLDivElement | null>(null);
 
   const { route, partySnapshots } = routeSession;
 
@@ -831,12 +828,6 @@ const RouteBuilderPage: NextPage = () => {
     });
   }, [activeGame, route, selectedRouteIndex, selectedBattleActionIndex, routeHistory]);
 
-  // Auto-scroll route history to bottom
-  useEffect(() => {
-    if (!routeListRef.current) return;
-    routeListRef.current.scrollTop = routeListRef.current.scrollHeight;
-  }, [routeHistory.length]);
-
   // ==================== Render ====================
 
   return (
@@ -910,20 +901,14 @@ const RouteBuilderPage: NextPage = () => {
       <RightColumn>
         <Header>Current Route</Header>
         {activeGame ? (
-          <>
-            <PartySection party={routeState?.party ?? []} />
-
-            <BagSection bag={routeState?.bag ?? {}} />
-
-            <RouteHistorySection
-              activeGame={activeGame}
-              routeHistory={routeHistory}
-              selectedRouteIndex={selectedRouteIndex}
-              selectedBattleActionIndex={selectedBattleActionIndex}
-              onSelectRouteEntry={handleSelectRouteEntry}
-              routeListRef={routeListRef}
-            />
-          </>
+          <RouteSection
+            activeGame={activeGame}
+            routeState={routeState}
+            routeHistory={routeHistory}
+            selectedRouteIndex={selectedRouteIndex}
+            selectedBattleActionIndex={selectedBattleActionIndex}
+            onSelectRouteEntry={handleSelectRouteEntry}
+          />
         ) : (
           <RoutePlaceholder>Select a game to start building a route.</RoutePlaceholder>
         )}
