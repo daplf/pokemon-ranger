@@ -47,10 +47,10 @@ import {
   removeSelectedBattleEntry,
   // Validation & Import/Export
   parseRouteBuilderImport,
-  buildRouteExportData,
   RouteHistoryItem,
   RouteHistoryItemBattleActionEntry,
 } from '../../utils/route-builder';
+import { ExportRouteButton } from '../../components/route-builder/ExportRouteButton';
 
 interface RouteBuilderSession {
   route: RouteBuilderRouteEntry[];
@@ -286,24 +286,6 @@ const RouteBuilderPage: NextPage = () => {
       partySnapshots: buildRouteBuilderPartySnapshots(nextGame, nextRoute),
     });
   }, []);
-
-  const handleExport = useCallback(() => {
-    if (!activeGame || route.length === 0) return;
-
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(new Blob([JSON.stringify(
-      buildRouteExportData(activeGame.id, route, partySnapshots),
-      null,
-      2,
-    )], {
-      type: 'application/json',
-    }));
-
-    a.setAttribute('download', `${activeGame.id}-route.json`);
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-  }, [activeGame, partySnapshots, route]);
 
   const handleImport = useCallback((acceptedFiles: File[]) => {
     if (acceptedFiles.length > 1) {
@@ -895,7 +877,7 @@ const RouteBuilderPage: NextPage = () => {
         <Header>
           Route Builder
           <div>
-            <Button onClick={handleExport} disabled={!activeGame || route.length === 0}>Export Route</Button>
+            <ExportRouteButton activeGame={activeGame} route={route} partySnapshots={partySnapshots} />
             <Button onClick={handleReset} disabled={!activeGame}>Reset Route</Button>
           </div>
         </Header>
