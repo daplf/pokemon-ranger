@@ -1,12 +1,10 @@
-import React from 'react';
+import React, { useCallback, useState } from 'react';
 import styled from 'styled-components';
 import { Card, InputSubheader } from '../Layout';
 import { RouteBuilderPokemonInParty } from '../../utils/route-builder';
 
 interface PartySectionProps {
   party: RouteBuilderPokemonInParty[];
-  expandedExperienceRoutes: Record<string, boolean>;
-  onToggleExperienceRoute: (pokemonKey: string) => void;
 }
 
 /**
@@ -20,54 +18,63 @@ interface PartySectionProps {
  */
 export const PartySection: React.FC<PartySectionProps> = ({
   party,
-  expandedExperienceRoutes,
-  onToggleExperienceRoute,
-}) => (
-  <Container>
-    <InputSubheader>Party</InputSubheader>
-    <PartyList>
-      {party.map((pokemon, index) => {
-        const pokemonKey = `${index}-${pokemon.species}`;
-        const isExperienceRouteExpanded = Boolean(expandedExperienceRoutes[pokemonKey]);
+}) => {
+  const [expandedExperienceRoutes, setExpandedExperienceRoutes] = useState<Record<string, boolean>>({});
 
-        return (
-          <PartySlotCard key={index} variant="success">
-            <PartySlotIndex>{index + 1}</PartySlotIndex>
-            <PartySlotBody>
-              <RouteEntryName>{pokemon.species}</RouteEntryName>
-              <RouteEntryMeta>Lv. {pokemon.level}</RouteEntryMeta>
-              <PokemonMoveList>
-                {pokemon.moves.map(move => (
-                  <PokemonMove key={move}>{move}</PokemonMove>
-                ))}
-              </PokemonMoveList>
-              {pokemon.experienceRoute.length > 0 && (
-              <PokemonExperienceSection>
-                <PokemonExperienceToggle
-                  type="button"
-                  onClick={() => onToggleExperienceRoute(pokemonKey)}
-                >
-                  Experience Route ({pokemon.experienceRoute.length}) {isExperienceRouteExpanded ? 'Hide' : 'Show'}
-                </PokemonExperienceToggle>
-                {isExperienceRouteExpanded && (
-                <PokemonExperienceList>
-                  {pokemon.experienceRoute.map(event => (
-                    <PokemonExperienceEvent key={event.id}>
-                      {getExperienceEventLabel(event)} (+{event.experienceGained} Exp)
-                      {event.isLevelUp && ` -> Lv. ${event.levelAfterExperience}`}
-                    </PokemonExperienceEvent>
+  const handleToggleExperienceRoute = useCallback((pokemonKey: string) => {
+    setExpandedExperienceRoutes(previousState => ({
+      ...previousState,
+      [pokemonKey]: !previousState[pokemonKey],
+    }));
+  }, []);
+
+  return (
+    <Container>
+      <InputSubheader>Party</InputSubheader>
+      <PartyList>
+        {party.map((pokemon, index) => {
+          const pokemonKey = `${index}-${pokemon.species}`;
+          const isExperienceRouteExpanded = Boolean(expandedExperienceRoutes[pokemonKey]);
+
+          return (
+            <PartySlotCard key={index} variant="success">
+              <PartySlotIndex>{index + 1}</PartySlotIndex>
+              <PartySlotBody>
+                <RouteEntryName>{pokemon.species}</RouteEntryName>
+                <RouteEntryMeta>Lv. {pokemon.level}</RouteEntryMeta>
+                <PokemonMoveList>
+                  {pokemon.moves.map(move => (
+                    <PokemonMove key={move}>{move}</PokemonMove>
                   ))}
-                </PokemonExperienceList>
+                </PokemonMoveList>
+                {pokemon.experienceRoute.length > 0 && (
+                <PokemonExperienceSection>
+                  <PokemonExperienceToggle
+                    type="button"
+                    onClick={() => handleToggleExperienceRoute(pokemonKey)}
+                  >
+                    Experience Route ({pokemon.experienceRoute.length}) {isExperienceRouteExpanded ? 'Hide' : 'Show'}
+                  </PokemonExperienceToggle>
+                  {isExperienceRouteExpanded && (
+                  <PokemonExperienceList>
+                    {pokemon.experienceRoute.map(event => (
+                      <PokemonExperienceEvent key={event.id}>
+                        {getExperienceEventLabel(event)} (+{event.experienceGained} Exp)
+                        {event.isLevelUp && ` -> Lv. ${event.levelAfterExperience}`}
+                      </PokemonExperienceEvent>
+                    ))}
+                  </PokemonExperienceList>
+                  )}
+                </PokemonExperienceSection>
                 )}
-              </PokemonExperienceSection>
-              )}
-            </PartySlotBody>
-          </PartySlotCard>
-        );
-      })}
-    </PartyList>
-  </Container>
-);
+              </PartySlotBody>
+            </PartySlotCard>
+          );
+        })}
+      </PartyList>
+    </Container>
+  );
+};
 
 function getExperienceEventLabel(event: { type: string; name?: string; value?: number; }): string {
   if (event.type === 'species' || event.type === 'manual') {

@@ -81,7 +81,6 @@ const RouteBuilderPage: NextPage = () => {
     route: [],
     partySnapshots: [],
   });
-  const [expandedExperienceRoutes, setExpandedExperienceRoutes] = useState<Record<string, boolean>>({});
   const [isBagExpanded, setIsBagExpanded] = useState(false);
   const [isSelectingItem, setIsSelectingItem] = useState(false);
   const [selectedRouteIndex, setSelectedRouteIndex] = useState<number | null>(null);
@@ -332,7 +331,6 @@ const RouteBuilderPage: NextPage = () => {
             ? hydrateRouteBuilderPartySnapshots(importedGame.id, importedRoute.partySnapshots)
             : buildRouteBuilderPartySnapshots(importedGame, importedRoute.route),
         });
-        setExpandedExperienceRoutes({});
         setImportError(null);
       } catch (error) {
         setImportError(`The route could not be read: ${error}.`);
@@ -834,13 +832,6 @@ const RouteBuilderPage: NextPage = () => {
     });
   }, [activeGame, route, selectedRouteIndex, selectedBattleActionIndex, routeHistory]);
 
-  const handleToggleExperienceRoute = useCallback((pokemonKey: string) => {
-    setExpandedExperienceRoutes(previousState => ({
-      ...previousState,
-      [pokemonKey]: !previousState[pokemonKey],
-    }));
-  }, []);
-
   // Auto-scroll route history to bottom
   useEffect(() => {
     if (!routeListRef.current) return;
@@ -921,11 +912,7 @@ const RouteBuilderPage: NextPage = () => {
         <Header>Current Route</Header>
         {activeGame ? (
           <>
-            <PartySection
-              party={routeState?.party ?? []}
-              expandedExperienceRoutes={expandedExperienceRoutes}
-              onToggleExperienceRoute={handleToggleExperienceRoute}
-            />
+            <PartySection party={routeState?.party ?? []} />
 
             <BagSection
               bag={routeState?.bag ?? {}}
